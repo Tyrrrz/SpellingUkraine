@@ -1,0 +1,13 @@
+{
+  "category": "Geography",
+  "original": "Київ",
+  "romanization": {
+    "valid": "Kyiv",
+    "invalid": [
+      "Kiev",
+      "Kiyv"
+    ]
+  },
+  "transcription": "Kiˈiːv",
+  "description": "Capital city of Ukraine"
+}
