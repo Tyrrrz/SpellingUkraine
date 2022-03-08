@@ -46,6 +46,14 @@ const EntryPage: NextPage<StaticProps> = ({ entry }) => {
             <ExternalLink />
             <a href={`https://wiktionary.org/wiki/${entry.translit.correct}`}>Wiktionary</a>
           </div>
+          <div className="flex items-center space-x-1">
+            <ExternalLink />
+            <a
+              href={`https://github.com/Tyrrrz/SpellingUkraine/blob/master/data/vocabulary/${entry.id}.json`}
+            >
+              Edit
+            </a>
+          </div>
         </div>
       </div>
     </>

@@ -5,7 +5,7 @@ import React from 'react';
 
 const EntryCard: React.FC<{ entry: VocabularyEntry }> = ({ entry }) => {
   return (
-    <div className="min-w-[200px] p-4 bg-white border-2 rounded hover:border-sky-600">
+    <div className="min-w-[200px] p-4 bg-white border-2 rounded hover:border-blue-500">
       <Link href={`/${entry.id}`} passHref>
         <a>
           <div>
@@ -27,7 +27,7 @@ interface StaticProps {
 }
 
 const HomePage: NextPage<StaticProps> = ({ vocabulary }) => {
-  const [entries, setEntries] = React.useState(vocabulary);
+  const [entries, setEntries] = React.useState(() => vocabulary.sort(() => 0.5 - Math.random()));
   const [filter, setFilter] = React.useState('');
 
   React.useEffect(() => {
@@ -46,8 +46,8 @@ const HomePage: NextPage<StaticProps> = ({ vocabulary }) => {
     <div>
       <div>
         <input
-          className="w-full p-8 shadow appearance-none border-2 rounded-xl text-3xl text-gray-700 text-center font-medium leading-tight hover:border-sky-600 focus:outline-none focus:shadow-outline"
-          placeholder="🔎 Type in a word in English, Ukrainian, or Russian"
+          className="w-full p-8 shadow appearance-none border-2 rounded-xl text-3xl text-gray-700 text-center font-medium leading-tight hover:border-blue-500 focus:outline-none focus:shadow-outline"
+          placeholder="🔎 Start typing in any language"
           value={filter}
           onChange={(e) => setFilter(e.target.value)}
         />
@@ -63,11 +63,9 @@ const HomePage: NextPage<StaticProps> = ({ vocabulary }) => {
 };
 
 export const getStaticProps: GetStaticProps<StaticProps> = () => {
-  const vocabulary = getVocabulary().sort(() => 0.5 - Math.random());
-
   return {
     props: {
-      vocabulary
+      vocabulary: getVocabulary()
     }
   };
 };

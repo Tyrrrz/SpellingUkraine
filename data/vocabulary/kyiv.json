@@ -1,5 +1,7 @@
 {
   "category": "Geography",
+  "ukr": "Київ",
+  "rus": "Киев",
   "translit": {
     "correct": "Kyiv",
     "incorrect": [
@@ -8,8 +10,6 @@
       "Kyyv"
     ]
   },
-  "ukr": "Київ",
-  "rus": "Киев",
   "transcription": "Kiˈiːv",
   "description": "Capital city of Ukraine"
 }

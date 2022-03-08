@@ -1,5 +1,7 @@
 {
   "category": "Geography",
+  "ukr": "Україна",
+  "rus": "Украина",
   "translit": {
     "correct": "Ukraine",
     "incorrect": [
@@ -7,8 +9,6 @@
       "Ucraine"
     ]
   },
-  "ukr": "Україна",
-  "rus": "Украина",
   "transcription": "Ýkʼrʼja",
   "description": "The country of Ukraine"
 }
