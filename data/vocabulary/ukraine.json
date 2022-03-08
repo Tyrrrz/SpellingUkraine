@@ -1,12 +1,14 @@
 {
   "category": "Geography",
-  "original": "Україна",
-  "romanization": {
-    "valid": "Ukraine",
-    "invalid": [
-      "The Ukraine"
+  "translit": {
+    "correct": "Ukraine",
+    "incorrect": [
+      "The Ukraine",
+      "Ucraine"
     ]
   },
+  "ukr": "Україна",
+  "rus": "Украина",
   "transcription": "Ýkʼrʼja",
   "description": "The country of Ukraine"
 }

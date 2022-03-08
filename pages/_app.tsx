@@ -41,7 +41,7 @@ const Header: React.FC = () => {
 };
 
 const Main: React.FC = ({ children }) => {
-  return <main className="p-8 bg-gray-50">{children}</main>;
+  return <main className="p-8 bg-gray-50 shadow-inner">{children}</main>;
 };
 
 const Footer: React.FC = () => {

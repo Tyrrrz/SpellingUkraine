@@ -12,7 +12,7 @@ const EntryPage: NextPage<StaticProps> = ({ entry }) => {
   return (
     <>
       <Head>
-        <title>{entry.romanization.valid} • Spelling Ukraine</title>
+        <title>{entry.translit.correct} • Spelling Ukraine</title>
       </Head>
 
       <div className="space-y-4">
@@ -22,17 +22,17 @@ const EntryPage: NextPage<StaticProps> = ({ entry }) => {
               <ChevronLeft size={48} />
             </a>
           </Link>
-          <h2 className="text-6xl font-bold tracking-wide">{entry.romanization.valid}</h2>
+          <h2 className="text-6xl font-bold tracking-wide">{entry.translit.correct}</h2>
         </div>
 
         <div className="text-4xl tracking-wide">
-          <span>{entry.original}</span>
+          <span>{entry.ukr}</span>
           <span> • </span>
           <span>{entry.transcription}</span>
         </div>
 
         <div>
-          {entry.romanization.invalid.map((invalid) => (
+          {entry.translit.incorrect.map((invalid) => (
             <div key={invalid} className="flex">
               <X /> {invalid}
             </div>
@@ -44,7 +44,7 @@ const EntryPage: NextPage<StaticProps> = ({ entry }) => {
         <div>
           <div className="flex items-center space-x-1">
             <ExternalLink />
-            <a href={`https://wiktionary.org/wiki/${entry.romanization.valid}`}>Wiktionary</a>
+            <a href={`https://wiktionary.org/wiki/${entry.translit.correct}`}>Wiktionary</a>
           </div>
         </div>
       </div>
