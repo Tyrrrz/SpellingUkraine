@@ -1,14 +1,13 @@
 {
-  "category": "Geography",
   "ukr": "Україна",
-  "rus": "Украина",
-  "translit": {
-    "correct": "Ukraine",
-    "incorrect": [
-      "The Ukraine",
-      "Ucraine"
-    ]
-  },
-  "transcription": "Ýkʼrʼja",
-  "description": "The country of Ukraine"
+  "eng": "Ukraine",
+  "aliases": [
+    "Украина"
+  ],
+  "mistakes": [
+    "The Ukraine",
+    "Ucraine"
+  ],
+  "category": "Geography",
+  "desc": "The country of Ukraine"
 }

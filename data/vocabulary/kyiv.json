@@ -1,15 +1,14 @@
 {
-  "category": "Geography",
   "ukr": "Київ",
-  "rus": "Киев",
-  "translit": {
-    "correct": "Kyiv",
-    "incorrect": [
-      "Kiev",
-      "Kiyv",
-      "Kyyv"
-    ]
-  },
-  "transcription": "Kiˈiːv",
-  "description": "Capital city of Ukraine"
+  "eng": "Kyiv",
+  "aliases": [
+    "Киев"
+  ],
+  "mistakes": [
+    "Kiev",
+    "Kiyv",
+    "Kyyv"
+  ],
+  "category": "Geography",
+  "desc": "Capital city of Ukraine"
 }

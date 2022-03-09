@@ -5,15 +5,12 @@ const dirPath = path.join(process.cwd(), 'data', 'vocabulary');
 
 export interface VocabularyEntry {
   id: string;
-  category: string;
   ukr: string;
-  rus: string;
-  translit: {
-    correct: string;
-    incorrect: string[];
-  };
-  transcription?: string;
-  description?: string;
+  eng: string;
+  aliases?: string[];
+  mistakes: string[];
+  category: string;
+  desc?: string;
   location?: {
     lat: number;
     lng: number;
