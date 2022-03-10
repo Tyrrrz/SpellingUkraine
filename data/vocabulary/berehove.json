@@ -1,11 +1,14 @@
 {
   "category": "Geography",
-  "name": "Запекл",
+  "name": "Берегове",
   "translation": "Berehove",
   "mistranslations": [
-    "Berekhov"
+    "Berekhov",
+    "Beregovo",
+    "Berehovo"
   ],
   "aliases": [
+    "Берегово",
     "Берехов",
     "Bereehen"
   ],

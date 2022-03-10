@@ -2,7 +2,9 @@
   "category": "Geography",
   "name": "Донецький",
   "translation": "Donetsk",
-  "mistranslations": [],
+  "mistranslations": [
+    "Donesk"
+  ],
   "aliases": [
     "Донецк",
     "Donieck"

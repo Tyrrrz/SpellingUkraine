@@ -2,7 +2,9 @@
   "category": "Geography",
   "name": "Бахмут",
   "translation": "Bakhmut",
-  "mistranslations": [],
+  "mistranslations": [
+    "Bahmut"
+  ],
   "aliases": [],
   "location": {
     "latitude": 48.6044,

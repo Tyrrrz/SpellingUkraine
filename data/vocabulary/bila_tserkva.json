@@ -3,9 +3,12 @@
   "name": "Біла Церква",
   "translation": "Bila Tserkva",
   "mistranslations": [
-    "White church"
+    "Bila Cerkva",
+    "Belaya Tserkva",
+    "Belaya Tserkov"
   ],
   "aliases": [
+    "Белая Церковь",
     "Била Церква"
   ],
   "location": {

@@ -2,8 +2,13 @@
   "category": "Geography",
   "name": "Zmiiv",
   "translation": "Zmiiv",
-  "mistranslations": [],
-  "aliases": [],
+  "mistranslations": [
+    "Zmeev"
+  ],
+  "aliases": [
+    "Змиев",
+    "Змеев"
+  ],
   "location": {
     "latitude": 49.6878,
     "longitude": 36.3558

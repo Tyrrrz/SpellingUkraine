@@ -77,7 +77,7 @@ const HomePage: NextPage<StaticProps> = ({ vocabulary }) => {
         />
       </div>
 
-      <div className="py-8 flex flex-wrap space-x-4">
+      <div className="py-8 flex flex-wrap place-content-center gap-4">
         {entries.map((entry) => (
           <EntryCard key={entry.id} entry={entry} />
         ))}

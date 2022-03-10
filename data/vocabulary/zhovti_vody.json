@@ -3,14 +3,20 @@
   "name": "Жовті Води",
   "translation": "Zhovti Vody",
   "mistranslations": [
-    "Thorough water"
+    "Zheltie Vody",
+    "Zheltye Vody"
   ],
   "aliases": [
-    "Жовити Воды"
+    "Жёлтые Воды"
   ],
   "location": {
     "latitude": 48.35,
     "longitude": 33.5167
   },
-  "externalLinks": []
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Zhovti Vody",
+      "url": "https://en.wikipedia.org/wiki/Zhovti_Vody"
+    }
+  ]
 }

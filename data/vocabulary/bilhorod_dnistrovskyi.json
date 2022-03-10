@@ -13,5 +13,10 @@
     "latitude": 46.1833,
     "longitude": 30.3333
   },
-  "externalLinks": []
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Bilhorod-Dnistrovskyi",
+      "url": "https://en.wikipedia.org/wiki/Bilhorod-Dnistrovskyi"
+    }
+  ]
 }

@@ -1,14 +1,11 @@
 {
   "category": "Geography",
-  "name": "Вордел",
+  "name": "Ворзель",
   "translation": "Vorzel",
   "mistranslations": [
     "Vorsel"
   ],
-  "aliases": [
-    "Ворсель",
-    "Vorsprung"
-  ],
+  "aliases": [],
   "location": {
     "latitude": 50.55,
     "longitude": 30.15

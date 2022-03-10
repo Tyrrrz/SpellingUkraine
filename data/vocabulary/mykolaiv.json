@@ -3,11 +3,11 @@
   "name": "Миколаїв",
   "translation": "Mykolaiv",
   "mistranslations": [
-    "Nikolaev"
+    "Nikolaev",
+    "Nikolaiv"
   ],
   "aliases": [
-    "Николаев",
-    "Mykololaiv"
+    "Николаев"
   ],
   "location": {
     "latitude": 46.9667,

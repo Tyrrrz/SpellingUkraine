@@ -24,7 +24,7 @@ const EntryPage: NextPage<StaticProps> = ({ entry }) => {
         />
       </Head>
 
-      <div className="flex mb-8 space-x-4">
+      <div className="flex mb-8 gap-x-4">
         <Link href="/">
           <HStack>
             <FiChevronLeft size={24} />
@@ -43,7 +43,7 @@ const EntryPage: NextPage<StaticProps> = ({ entry }) => {
       </div>
 
       <div className="space-y-4">
-        <div className="flex items-center space-x-4">
+        <div className="flex items-center gap-x-4">
           <h2 className="text-6xl font-bold tracking-wide">{entry.translation}</h2>
           <button
             className="mt-3"
@@ -64,7 +64,7 @@ const EntryPage: NextPage<StaticProps> = ({ entry }) => {
         </div>
       </div>
 
-      <div className="flex flex-wrap space-x-8">
+      <div className="flex flex-wrap gap-x-8">
         <div className="p-4 border-2 rounded">
           <div>Description</div>
           <div>{entry.description}</div>
@@ -83,12 +83,15 @@ const EntryPage: NextPage<StaticProps> = ({ entry }) => {
 
         <div className="p-4 border-2 rounded">
           <div>External links</div>
-          <div>
-            <div className="flex items-center space-x-1">
-              <FiExternalLink />
-              <Link href={`https://wiktionary.org/wiki/${entry.translation}`}>Wiktionary</Link>
-            </div>
-          </div>
+          {entry.externalLinks &&
+            entry.externalLinks.map((link) => (
+              <div key={link.url}>
+                <HStack>
+                  <FiExternalLink />
+                  <Link href={link.url}>{link.name}</Link>
+                </HStack>
+              </div>
+            ))}
         </div>
       </div>
     </>

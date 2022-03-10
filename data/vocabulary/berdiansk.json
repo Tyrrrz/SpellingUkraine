@@ -2,7 +2,9 @@
   "category": "Geography",
   "name": "Бердянськ",
   "translation": "Berdiansk",
-  "mistranslations": [],
+  "mistranslations": [
+    "Berdyansk"
+  ],
   "aliases": [
     "Бердианск"
   ],

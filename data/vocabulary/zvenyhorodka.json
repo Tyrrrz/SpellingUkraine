@@ -1,12 +1,13 @@
 {
   "category": "Geography",
-  "name": "Zvenyhorodka",
+  "name": "Звенигородка",
   "translation": "Zvenyhorodka",
   "mistranslations": [
+    "Zvenygorodka",
     "Zvenigorodka"
   ],
   "aliases": [
-    "ЗВЕНЫХОРОДКА"
+    "Звеныхородка"
   ],
   "location": {
     "latitude": 49.0833,

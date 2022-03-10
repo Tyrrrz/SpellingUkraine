@@ -2,7 +2,10 @@
   "category": "Geography",
   "name": "Житомир",
   "translation": "Zhytomyr",
-  "mistranslations": [],
+  "mistranslations": [
+    "Zhitomyr",
+    "Zhytomir"
+  ],
   "aliases": [
     "Żytomierz"
   ],

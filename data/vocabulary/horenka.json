@@ -2,7 +2,9 @@
   "category": "Geography",
   "name": "Горенка",
   "translation": "Horenka",
-  "mistranslations": [],
+  "mistranslations": [
+    "Gorenka"
+  ],
   "aliases": [],
   "location": {
     "latitude": 50.5569,

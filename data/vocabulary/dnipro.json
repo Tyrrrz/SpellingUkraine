@@ -3,10 +3,13 @@
   "name": "Дніпро",
   "translation": "Dnipro",
   "mistranslations": [
-    "Dnieper"
+    "Dnieper",
+    "Dniepropetrovsk",
+    "Dnipropetrovsk"
   ],
   "aliases": [
-    "Днепр"
+    "Днепр",
+    "Днепропетровск"
   ],
   "location": {
     "latitude": 48.45,

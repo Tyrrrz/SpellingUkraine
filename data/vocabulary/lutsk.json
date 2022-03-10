@@ -2,7 +2,9 @@
   "category": "Geography",
   "name": "Луцьк",
   "translation": "Lutsk",
-  "mistranslations": [],
+  "mistranslations": [
+    "Luck"
+  ],
   "aliases": [
     "Луцк"
   ],

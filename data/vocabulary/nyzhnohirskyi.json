@@ -3,11 +3,12 @@
   "name": "Нижньогірський",
   "translation": "Nyzhnohirskyi",
   "mistranslations": [
-    "Vyazhirsky"
+    "Nyznohirskyi",
+    "Nyzhnogirskiy",
+    "Nizhnegorskiy"
   ],
   "aliases": [
-    "Ныжнохирский",
-    "Nyznohirskyi"
+    "Нижнегорский"
   ],
   "location": {
     "latitude": 45.4464,

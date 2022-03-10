@@ -1,9 +1,11 @@
 {
   "category": "Geography",
-  "name": "Antratsyt",
+  "name": "Антрацит",
   "translation": "Antratsyt",
   "mistranslations": [
-    "Anthracite"
+    "Antrasit",
+    "Antracit",
+    "Anthratsyt"
   ],
   "aliases": [
     "Антрацыт"

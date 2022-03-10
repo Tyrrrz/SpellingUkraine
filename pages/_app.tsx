@@ -49,7 +49,7 @@ const Main: React.FC = ({ children }) => {
 const Footer: React.FC = () => {
   return (
     <footer
-      className={classNames('flex', 'p-4', 'place-content-center', 'space-x-4', 'text-neutral-300')}
+      className={classNames('flex', 'p-4', 'place-content-center', 'gap-x-4', 'text-neutral-300')}
     >
       <Link href="https://github.com/Tyrrrz/SpellingUkraine">
         <HStack>

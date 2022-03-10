@@ -1,18 +1,9 @@
 {
   "category": "Geography",
-  "name": "Нарізати",
+  "name": "Чоп",
   "translation": "Chop",
-  "mistranslations": [
-    "Slice"
-  ],
-  "aliases": [
-    "Нарезать",
-    "Siekać",
-    "Hacken",
-    "Picar",
-    "Taglio",
-    "A toca"
-  ],
+  "mistranslations": [],
+  "aliases": [],
   "location": {
     "latitude": 48.4333,
     "longitude": 22.2

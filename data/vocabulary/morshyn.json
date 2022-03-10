@@ -2,9 +2,10 @@
   "category": "Geography",
   "name": "Моршин",
   "translation": "Morshyn",
-  "mistranslations": [],
+  "mistranslations": [
+    "Morshin"
+  ],
   "aliases": [
-    "Morshin",
     "Marshyn",
     "Morshen"
   ],

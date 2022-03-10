@@ -1,14 +1,12 @@
 {
   "category": "Geography",
-  "name": "Фаст",
+  "name": "Фастів",
   "translation": "Fastiv",
   "mistranslations": [
-    "Fantasy"
+    "Fastov"
   ],
   "aliases": [
-    "Фантазия",
-    "Fastenförmig",
-    "Fastivo"
+    "Фастов"
   ],
   "location": {
     "latitude": 50.0747,
