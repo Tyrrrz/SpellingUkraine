@@ -1,21 +1,30 @@
+import classNames from 'classnames';
 import type { GetStaticProps, NextPage } from 'next';
-import { getVocabulary, VocabularyEntry } from '../data/vocabulary';
-import Link from 'next/link';
 import React from 'react';
+import { getVocabulary, VocabularyEntry } from '../data/vocabulary';
+import { Link } from '../shared/link';
 
 const EntryCard: React.FC<{ entry: VocabularyEntry }> = ({ entry }) => {
   return (
-    <Link href={`/${entry.id}`} passHref>
-      <a className="min-w-[200px] p-4 bg-white border-2 border-neutral-400 rounded hover:border-blue-500">
-        <div>
-          <div className="text-3xl font-bold tracking-wide">{entry.eng}</div>
-          <div className="text-xl">
-            <span className="tracking-wide">{entry.ukr}</span>
-            <span> • </span>
-            <span className="font-light">{entry.category}</span>
-          </div>
+    <Link href={`/${entry.id}`}>
+      <div
+        className={classNames([
+          'min-w-[200px]',
+          'p-4',
+          'bg-neutral-100',
+          'border-2',
+          'border-neutral-400',
+          'rounded',
+          'hover:border-blue-500'
+        ])}
+      >
+        <div className="text-3xl font-bold tracking-wide">{entry.translation}</div>
+        <div className="text-xl">
+          <span className="tracking-wide">{entry.name}</span>
+          <span> • </span>
+          <span className="font-light">{entry.category}</span>
         </div>
-      </a>
+      </div>
     </Link>
   );
 };
@@ -32,20 +41,36 @@ const HomePage: NextPage<StaticProps> = ({ vocabulary }) => {
     setEntries(
       vocabulary.filter(
         (entry) =>
-          entry.ukr.toLowerCase().includes(filter.toLowerCase()) ||
-          entry.eng.toLowerCase().includes(filter.toLowerCase()) ||
+          entry.name.toLowerCase().includes(filter.toLowerCase()) ||
+          entry.translation.toLowerCase().includes(filter.toLowerCase()) ||
           entry.aliases?.some((v) => v.toLowerCase().includes(filter.toLowerCase())) ||
-          entry.mistakes.some((v) => v.toLowerCase().includes(filter.toLowerCase()))
+          entry.mistranslations.some((v) => v.toLowerCase().includes(filter.toLowerCase()))
       )
     );
-  }, [filter, vocabulary]);
+  }, [vocabulary, filter]);
 
   return (
     <>
       <div>
         <input
-          className="w-full p-8 shadow appearance-none border-2 border-neutral-400 rounded text-xl text-gray-700 text-center font-medium leading-tight hover:border-blue-500 focus:outline-none focus:shadow-outline"
-          placeholder="🔎 Start typing in any language"
+          className={classNames([
+            'w-full',
+            'p-8',
+            'shadow',
+            'appearance-none',
+            'border-2',
+            'border-neutral-400',
+            'rounded',
+            'bg-neutral-100',
+            'text-gray-700',
+            'text-center',
+            'font-medium',
+            'leading-tight',
+            'hover:border-blue-500',
+            'focus:outline-none',
+            'focus:shadow-outline'
+          ])}
+          placeholder="🔎 Start typing to search"
           value={filter}
           onChange={(e) => setFilter(e.target.value)}
           autoFocus

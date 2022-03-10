@@ -1,13 +1,13 @@
 {
-  "ukr": "Україна",
-  "eng": "Ukraine",
-  "aliases": [
-    "Украина"
-  ],
-  "mistakes": [
+  "name": "Україна",
+  "translation": "Ukraine",
+  "mistranslatons": [
     "The Ukraine",
     "Ucraine"
   ],
+  "aliases": [
+    "Украина"
+  ],
   "category": "Geography",
-  "desc": "The country of Ukraine"
+  "description": "The country of Ukraine"
 }

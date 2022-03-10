@@ -1,9 +1,10 @@
 import { GetStaticPaths, GetStaticProps, NextPage } from 'next';
 import Head from 'next/head';
-import Link from 'next/link';
 import React from 'react';
-import { ChevronLeft, Edit3, ExternalLink, Volume1, Volume2, X } from 'react-feather';
+import { FiChevronLeft, FiEdit3, FiExternalLink, FiVolume1, FiVolume2, FiX } from 'react-icons/fi';
 import { getVocabularyEntry, getVocabularyIds, VocabularyEntry } from '../data/vocabulary';
+import { HStack } from '../shared/hstack';
+import { Link } from '../shared/link';
 import { pronounce } from '../utils/tts';
 
 interface StaticProps {
@@ -16,47 +17,48 @@ const EntryPage: NextPage<StaticProps> = ({ entry }) => {
   return (
     <>
       <Head>
-        <title>{entry.eng} • Spelling Ukraine</title>
+        <title>{entry.translation} • Spelling Ukraine</title>
         <meta
           name="description"
-          content={`${entry.eng} is the correct translation of the Ukrainian word ${entry.ukr}`}
+          content={`&quot;${entry.translation}&quot; is the correct way to spell the Ukrainian word &quot;${entry.name}&quot; in English.`}
         />
       </Head>
 
       <div className="flex mb-8 space-x-4">
-        <Link href="/" passHref>
-          <a className="inline-flex items-center space-x-1">
-            <ChevronLeft size={24} />
+        <Link href="/">
+          <HStack>
+            <FiChevronLeft size={24} />
             <div>Go back</div>
-          </a>
+          </HStack>
         </Link>
 
-        <a
-          className="flex items-center space-x-1"
+        <Link
           href={`https://github.com/Tyrrrz/SpellingUkraine/blob/master/data/vocabulary/${entry.id}.json`}
         >
-          <Edit3 />
-          <div>Edit Information</div>
-        </a>
+          <HStack>
+            <FiEdit3 />
+            <div>Edit Information</div>
+          </HStack>
+        </Link>
       </div>
 
       <div className="space-y-4">
         <div className="flex items-center space-x-4">
-          <h2 className="text-6xl font-bold tracking-wide">{entry.eng}</h2>
+          <h2 className="text-6xl font-bold tracking-wide">{entry.translation}</h2>
           <button
             className="mt-3"
             onClick={() => {
               if (pronouncing) return;
               setPronouncing(true);
-              pronounce(entry.eng).finally(() => setPronouncing(false));
+              pronounce(entry.translation).finally(() => setPronouncing(false));
             }}
           >
-            {pronouncing ? <Volume2 size={32} /> : <Volume1 size={32} />}
+            {pronouncing ? <FiVolume2 size={32} /> : <FiVolume1 size={32} />}
           </button>
         </div>
 
         <div className="text-4xl tracking-wide">
-          <span>{entry.ukr}</span>
+          <span>{entry.name}</span>
           <span> • </span>
           <span>{entry.category}</span>
         </div>
@@ -65,15 +67,15 @@ const EntryPage: NextPage<StaticProps> = ({ entry }) => {
       <div className="flex flex-wrap space-x-8">
         <div className="p-4 border-2 rounded">
           <div>Description</div>
-          <div>{entry.desc}</div>
+          <div>{entry.description}</div>
         </div>
 
         <div className="p-4 border-2 rounded">
           <div>Incorrect Transliterations</div>
           <div>
-            {entry.mistakes.map((invalid) => (
+            {entry.mistranslations.map((invalid) => (
               <div key={invalid} className="flex">
-                <X className="text-red-600" /> {invalid}
+                <FiX className="text-red-600" /> {invalid}
               </div>
             ))}
           </div>
@@ -83,8 +85,8 @@ const EntryPage: NextPage<StaticProps> = ({ entry }) => {
           <div>External links</div>
           <div>
             <div className="flex items-center space-x-1">
-              <ExternalLink />
-              <a href={`https://wiktionary.org/wiki/${entry.eng}`}>Wiktionary</a>
+              <FiExternalLink />
+              <Link href={`https://wiktionary.org/wiki/${entry.translation}`}>Wiktionary</Link>
             </div>
           </div>
         </div>

@@ -1,19 +1,19 @@
-import path from 'path';
 import fs from 'fs';
+import path from 'path';
 
 const dirPath = path.join(process.cwd(), 'data', 'vocabulary');
 
 export interface VocabularyEntry {
   id: string;
-  ukr: string;
-  eng: string;
+  name: string;
+  translation: string;
+  mistranslations: string[];
   aliases?: string[];
-  mistakes: string[];
   category: string;
-  desc?: string;
+  description?: string;
   location?: {
-    lat: number;
-    lng: number;
+    latitude: number;
+    longitude: number;
   };
 }
 
