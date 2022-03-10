@@ -1,0 +1,21 @@
+{
+  "category": "Geography",
+  "name": "Хорошів",
+  "translation": "Khoroshiv",
+  "mistranslations": [
+    "Good"
+  ],
+  "aliases": [
+    "Хорошив"
+  ],
+  "location": {
+    "latitude": 50.6,
+    "longitude": 28.45
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Khoroshiv",
+      "url": "https://en.wikipedia.org/wiki/Khoroshiv"
+    }
+  ]
+}

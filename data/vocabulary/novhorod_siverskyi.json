@@ -1,0 +1,18 @@
+{
+  "category": "Geography",
+  "name": "НОВОХОРОД-Сіверський",
+  "translation": "Novhorod-Siverskyi",
+  "mistranslations": [
+    "Novgorod-Siversky"
+  ],
+  "aliases": [
+    "Новхород-Сиверский",
+    "Nowhorod-Siverskyi",
+    "Novhorod-Sivili"
+  ],
+  "location": {
+    "latitude": 51.9833,
+    "longitude": 33.2667
+  },
+  "externalLinks": []
+}

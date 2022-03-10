@@ -1,0 +1,23 @@
+{
+  "category": "Geography",
+  "name": "Кобеляки",
+  "translation": "Kobeliaky",
+  "mistranslations": [
+    "Cossalism"
+  ],
+  "aliases": [
+    "Кобетельство",
+    "Kobeliky",
+    "Kobeliago"
+  ],
+  "location": {
+    "latitude": 49.1474,
+    "longitude": 34.1993
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Kobeliaky",
+      "url": "https://en.wikipedia.org/wiki/Kobeliaky"
+    }
+  ]
+}

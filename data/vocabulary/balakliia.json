@@ -1,0 +1,19 @@
+{
+  "category": "Geography",
+  "name": "Балаклія",
+  "translation": "Balakliia",
+  "mistranslations": [
+    "Balacia"
+  ],
+  "aliases": [],
+  "location": {
+    "latitude": 49.4564,
+    "longitude": 36.8389
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Balakliia",
+      "url": "https://en.wikipedia.org/wiki/Balakliia"
+    }
+  ]
+}

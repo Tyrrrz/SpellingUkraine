@@ -1,0 +1,21 @@
+{
+  "category": "Geography",
+  "name": "Кирнативка",
+  "translation": "Kyrnasivka",
+  "mistranslations": [],
+  "aliases": [
+    "Кырнасивка",
+    "Kynasivka",
+    "Kyrnasiwka"
+  ],
+  "location": {
+    "latitude": 48.5914,
+    "longitude": 28.98
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Kyrnasivka",
+      "url": "https://en.wikipedia.org/wiki/Kyrnasivka"
+    }
+  ]
+}

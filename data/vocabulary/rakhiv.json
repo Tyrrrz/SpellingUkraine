@@ -1,0 +1,21 @@
+{
+  "category": "Geography",
+  "name": "Рахів",
+  "translation": "Rakhiv",
+  "mistranslations": [
+    "Rakhov"
+  ],
+  "aliases": [
+    "Рахив"
+  ],
+  "location": {
+    "latitude": 48.05,
+    "longitude": 24.2167
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Rakhiv",
+      "url": "https://en.wikipedia.org/wiki/Rakhiv"
+    }
+  ]
+}

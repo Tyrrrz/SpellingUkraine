@@ -1,0 +1,16 @@
+{
+  "category": "Geography",
+  "name": "Мала Виска",
+  "translation": "Mala Vyska",
+  "mistranslations": [
+    "Mala temple"
+  ],
+  "aliases": [
+    "Мала Выска"
+  ],
+  "location": {
+    "latitude": 48.65,
+    "longitude": 31.6333
+  },
+  "externalLinks": []
+}

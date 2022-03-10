@@ -1,0 +1,21 @@
+{
+  "category": "Geography",
+  "name": "Красноїлськ",
+  "translation": "Krasnoilsk",
+  "mistranslations": [
+    "Krasnoywsk"
+  ],
+  "aliases": [
+    "Красноилск"
+  ],
+  "location": {
+    "latitude": 48.0167,
+    "longitude": 25.5833
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Krasnoilsk",
+      "url": "https://en.wikipedia.org/wiki/Krasnoilsk"
+    }
+  ]
+}

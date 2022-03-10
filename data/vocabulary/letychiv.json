@@ -1,0 +1,23 @@
+{
+  "category": "Geography",
+  "name": "Летихів",
+  "translation": "Letychiv",
+  "mistranslations": [
+    "Podchiv"
+  ],
+  "aliases": [
+    "Леточив",
+    "Letniv",
+    "Letjoy"
+  ],
+  "location": {
+    "latitude": 49.3833,
+    "longitude": 27.6167
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Letychiv",
+      "url": "https://en.wikipedia.org/wiki/Letychiv"
+    }
+  ]
+}

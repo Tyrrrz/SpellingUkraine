@@ -1,0 +1,21 @@
+{
+  "category": "Geography",
+  "name": "Стрижавка",
+  "translation": "Stryzhavka",
+  "mistranslations": [
+    "Stryzavka"
+  ],
+  "aliases": [
+    "СТРЫЖАВКА"
+  ],
+  "location": {
+    "latitude": 49.3103,
+    "longitude": 28.4808
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Stryzhavka",
+      "url": "https://en.wikipedia.org/wiki/Stryzhavka"
+    }
+  ]
+}

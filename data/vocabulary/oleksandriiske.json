@@ -1,0 +1,21 @@
+{
+  "category": "Geography",
+  "name": "Олександріске",
+  "translation": "Oleksandriiske",
+  "mistranslations": [
+    "Alexandrinsk"
+  ],
+  "aliases": [
+    "Александрийске"
+  ],
+  "location": {
+    "latitude": 48.6019,
+    "longitude": 32.9889
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Oleksandriiske",
+      "url": "https://en.wikipedia.org/wiki/Oleksandriiske"
+    }
+  ]
+}

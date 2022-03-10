@@ -1,0 +1,17 @@
+{
+  "category": "Geography",
+  "name": "Великий Березний",
+  "translation": "Velykyy Bereznyy",
+  "mistranslations": [
+    "Great birch"
+  ],
+  "aliases": [
+    "Велыкий Березный",
+    "Velyyy Bereznyy"
+  ],
+  "location": {
+    "latitude": 48.8922,
+    "longitude": 22.4586
+  },
+  "externalLinks": []
+}

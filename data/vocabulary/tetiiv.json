@@ -1,0 +1,22 @@
+{
+  "category": "Geography",
+  "name": "Тетиїв",
+  "translation": "Tetiiv",
+  "mistranslations": [
+    "Tetheye"
+  ],
+  "aliases": [
+    "Тетиев",
+    "TETIV"
+  ],
+  "location": {
+    "latitude": 49.3708,
+    "longitude": 29.69
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Tetiiv",
+      "url": "https://en.wikipedia.org/wiki/Tetiiv"
+    }
+  ]
+}

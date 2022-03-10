@@ -1,0 +1,24 @@
+{
+  "category": "Geography",
+  "name": "Ватутний",
+  "translation": "Vatutine",
+  "mistranslations": [
+    "Vatutin"
+  ],
+  "aliases": [
+    "Ватутин",
+    "Vatutin",
+    "Vatutina",
+    "Vatuina"
+  ],
+  "location": {
+    "latitude": 49.0167,
+    "longitude": 31.0667
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Vatutine",
+      "url": "https://en.wikipedia.org/wiki/Vatutine"
+    }
+  ]
+}

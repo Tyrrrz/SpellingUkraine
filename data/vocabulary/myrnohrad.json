@@ -1,0 +1,19 @@
+{
+  "category": "Geography",
+  "name": "Мирноград",
+  "translation": "Myrnohrad",
+  "mistranslations": [
+    "Mirnograd"
+  ],
+  "aliases": [],
+  "location": {
+    "latitude": 48.3022,
+    "longitude": 37.2614
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Myrnohrad",
+      "url": "https://en.wikipedia.org/wiki/Myrnohrad"
+    }
+  ]
+}

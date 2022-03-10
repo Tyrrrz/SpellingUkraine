@@ -1,0 +1,21 @@
+{
+  "category": "Geography",
+  "name": "Довжанськ",
+  "translation": "Dovzhansk",
+  "mistranslations": [],
+  "aliases": [
+    "Довжанск",
+    "DOWZHANSK",
+    "Dvzhansk"
+  ],
+  "location": {
+    "latitude": 48.0846,
+    "longitude": 39.6516
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Dovzhansk",
+      "url": "https://en.wikipedia.org/wiki/Dovzhansk"
+    }
+  ]
+}

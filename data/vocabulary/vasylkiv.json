@@ -1,0 +1,22 @@
+{
+  "category": "Geography",
+  "name": "Васильків",
+  "translation": "Vasylkiv",
+  "mistranslations": [
+    "Vasilkov"
+  ],
+  "aliases": [
+    "Васильков",
+    "Vasilo"
+  ],
+  "location": {
+    "latitude": 50.1775,
+    "longitude": 30.3217
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Vasylkiv",
+      "url": "https://en.wikipedia.org/wiki/Vasylkiv"
+    }
+  ]
+}

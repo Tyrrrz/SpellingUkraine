@@ -1,0 +1,22 @@
+{
+  "category": "Geography",
+  "name": "Радивилів",
+  "translation": "Radyvyliv",
+  "mistranslations": [
+    "Radiviliev"
+  ],
+  "aliases": [
+    "Радивильев",
+    "Raddyviliv"
+  ],
+  "location": {
+    "latitude": 50.1333,
+    "longitude": 25.25
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Radyvyliv",
+      "url": "https://en.wikipedia.org/wiki/Radyvyliv"
+    }
+  ]
+}

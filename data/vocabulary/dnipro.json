@@ -1,0 +1,21 @@
+{
+  "category": "Geography",
+  "name": "Дніпро",
+  "translation": "Dnipro",
+  "mistranslations": [
+    "Dnieper"
+  ],
+  "aliases": [
+    "Днепр"
+  ],
+  "location": {
+    "latitude": 48.45,
+    "longitude": 34.9833
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Dnipro",
+      "url": "https://en.wikipedia.org/wiki/Dnipro"
+    }
+  ]
+}

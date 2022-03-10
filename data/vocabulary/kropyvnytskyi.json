@@ -1,0 +1,19 @@
+{
+  "category": "Geography",
+  "name": "Кропивницький",
+  "translation": "Kropyvnytskyi",
+  "mistranslations": [],
+  "aliases": [
+    "Кропивницкий"
+  ],
+  "location": {
+    "latitude": 48.5103,
+    "longitude": 32.2667
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Kropyvnytskyi",
+      "url": "https://en.wikipedia.org/wiki/Kropyvnytskyi"
+    }
+  ]
+}

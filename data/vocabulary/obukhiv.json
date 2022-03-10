@@ -1,0 +1,21 @@
+{
+  "category": "Geography",
+  "name": "Обухів",
+  "translation": "Obukhiv",
+  "mistranslations": [
+    "Obukhov"
+  ],
+  "aliases": [
+    "Обухов"
+  ],
+  "location": {
+    "latitude": 50.1,
+    "longitude": 30.6167
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Obukhiv",
+      "url": "https://en.wikipedia.org/wiki/Obukhiv"
+    }
+  ]
+}

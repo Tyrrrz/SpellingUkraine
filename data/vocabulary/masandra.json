@@ -1,0 +1,17 @@
+{
+  "category": "Geography",
+  "name": "Масандра",
+  "translation": "Masandra",
+  "mistranslations": [],
+  "aliases": [],
+  "location": {
+    "latitude": 44.5167,
+    "longitude": 34.1833
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Masandra",
+      "url": "https://en.wikipedia.org/wiki/Masandra"
+    }
+  ]
+}

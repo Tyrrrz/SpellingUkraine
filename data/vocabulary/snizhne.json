@@ -1,0 +1,21 @@
+{
+  "category": "Geography",
+  "name": "Снайрдне",
+  "translation": "Snizhne",
+  "mistranslations": [
+    "Newn"
+  ],
+  "aliases": [
+    "Ньюн"
+  ],
+  "location": {
+    "latitude": 48.0167,
+    "longitude": 38.7667
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Snizhne",
+      "url": "https://en.wikipedia.org/wiki/Snizhne"
+    }
+  ]
+}

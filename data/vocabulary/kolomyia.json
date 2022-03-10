@@ -1,0 +1,19 @@
+{
+  "category": "Geography",
+  "name": "Коломия",
+  "translation": "Kolomyia",
+  "mistranslations": [
+    "Kolomia"
+  ],
+  "aliases": [],
+  "location": {
+    "latitude": 48.5167,
+    "longitude": 25.0333
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Kolomyia",
+      "url": "https://en.wikipedia.org/wiki/Kolomyia"
+    }
+  ]
+}

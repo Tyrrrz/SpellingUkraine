@@ -1,0 +1,19 @@
+{
+  "category": "Geography",
+  "name": "Нововолинськ",
+  "translation": "Novovolynsk",
+  "mistranslations": [],
+  "aliases": [
+    "Нововолинск"
+  ],
+  "location": {
+    "latitude": 50.7333,
+    "longitude": 24.1667
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Novovolynsk",
+      "url": "https://en.wikipedia.org/wiki/Novovolynsk"
+    }
+  ]
+}

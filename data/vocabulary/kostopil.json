@@ -1,0 +1,21 @@
+{
+  "category": "Geography",
+  "name": "Костопіль",
+  "translation": "Kostopil",
+  "mistranslations": [
+    "Kostina"
+  ],
+  "aliases": [
+    "Костопил"
+  ],
+  "location": {
+    "latitude": 50.8833,
+    "longitude": 26.4431
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Kostopil",
+      "url": "https://en.wikipedia.org/wiki/Kostopil"
+    }
+  ]
+}

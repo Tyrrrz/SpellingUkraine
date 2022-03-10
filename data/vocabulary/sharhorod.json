@@ -1,0 +1,22 @@
+{
+  "category": "Geography",
+  "name": "Шаріхорд",
+  "translation": "Sharhorod",
+  "mistranslations": [
+    "Sharfore"
+  ],
+  "aliases": [
+    "Шарфород",
+    "Scharhorod"
+  ],
+  "location": {
+    "latitude": 48.75,
+    "longitude": 28.0833
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Sharhorod",
+      "url": "https://en.wikipedia.org/wiki/Sharhorod"
+    }
+  ]
+}

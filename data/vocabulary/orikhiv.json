@@ -1,0 +1,21 @@
+{
+  "category": "Geography",
+  "name": "Оріхів",
+  "translation": "Orikhiv",
+  "mistranslations": [
+    "Orikhov"
+  ],
+  "aliases": [
+    "Орихов"
+  ],
+  "location": {
+    "latitude": 47.5677,
+    "longitude": 35.7849
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Orikhiv",
+      "url": "https://en.wikipedia.org/wiki/Orikhiv"
+    }
+  ]
+}

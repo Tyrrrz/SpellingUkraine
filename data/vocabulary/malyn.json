@@ -1,0 +1,23 @@
+{
+  "category": "Geography",
+  "name": "Малин",
+  "translation": "Malyn",
+  "mistranslations": [
+    "Malinsky"
+  ],
+  "aliases": [
+    "Малинский",
+    "Malído",
+    "Mallyn"
+  ],
+  "location": {
+    "latitude": 50.7689,
+    "longitude": 29.27
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Malyn",
+      "url": "https://en.wikipedia.org/wiki/Malyn"
+    }
+  ]
+}

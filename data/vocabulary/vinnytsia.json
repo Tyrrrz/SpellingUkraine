@@ -1,0 +1,22 @@
+{
+  "category": "Geography",
+  "name": "Вінниця",
+  "translation": "Vinnytsia",
+  "mistranslations": [
+    "Vinnitsa"
+  ],
+  "aliases": [
+    "Винница",
+    "Vinnysie"
+  ],
+  "location": {
+    "latitude": 49.2372,
+    "longitude": 28.4672
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Vinnytsia",
+      "url": "https://en.wikipedia.org/wiki/Vinnytsia"
+    }
+  ]
+}

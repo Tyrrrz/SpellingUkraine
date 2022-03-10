@@ -1,0 +1,22 @@
+{
+  "category": "Geography",
+  "name": "Біленке",
+  "translation": "Bilenke",
+  "mistranslations": [
+    "Bilena"
+  ],
+  "aliases": [
+    "Биленке",
+    "Bilén"
+  ],
+  "location": {
+    "latitude": 48.7664,
+    "longitude": 37.6314
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Bilenke",
+      "url": "https://en.wikipedia.org/wiki/Bilenke"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "category": "Geography",
+  "name": "Королево",
+  "translation": "Korolevo",
+  "mistranslations": [
+    "King"
+  ],
+  "aliases": [
+    "Korolewie"
+  ],
+  "location": {
+    "latitude": 48.15,
+    "longitude": 23.1333
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Korolevo",
+      "url": "https://en.wikipedia.org/wiki/Korolevo"
+    }
+  ]
+}

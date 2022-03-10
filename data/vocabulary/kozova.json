@@ -1,0 +1,17 @@
+{
+  "category": "Geography",
+  "name": "Козова",
+  "translation": "Kozova",
+  "mistranslations": [],
+  "aliases": [],
+  "location": {
+    "latitude": 49.4318,
+    "longitude": 25.1544
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Kozova",
+      "url": "https://en.wikipedia.org/wiki/Kozova"
+    }
+  ]
+}

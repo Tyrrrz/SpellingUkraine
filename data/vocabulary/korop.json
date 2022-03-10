@@ -1,0 +1,19 @@
+{
+  "category": "Geography",
+  "name": "Корот",
+  "translation": "Korop",
+  "mistranslations": [],
+  "aliases": [
+    "Короп"
+  ],
+  "location": {
+    "latitude": 51.5661,
+    "longitude": 32.9508
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Korop",
+      "url": "https://en.wikipedia.org/wiki/Korop"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "category": "Geography",
+  "name": "Vinkivtsi",
+  "translation": "Vinkivtsi",
+  "mistranslations": [
+    "Viniivtsy"
+  ],
+  "aliases": [
+    "Вингивцы",
+    "Vinkventssi"
+  ],
+  "location": {
+    "latitude": 49.0333,
+    "longitude": 27.2333
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Vinkivtsi",
+      "url": "https://en.wikipedia.org/wiki/Vinkivtsi"
+    }
+  ]
+}

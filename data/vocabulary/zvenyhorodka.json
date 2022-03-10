@@ -1,0 +1,21 @@
+{
+  "category": "Geography",
+  "name": "Zvenyhorodka",
+  "translation": "Zvenyhorodka",
+  "mistranslations": [
+    "Zvenigorodka"
+  ],
+  "aliases": [
+    "ЗВЕНЫХОРОДКА"
+  ],
+  "location": {
+    "latitude": 49.0833,
+    "longitude": 30.9667
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Zvenyhorodka",
+      "url": "https://en.wikipedia.org/wiki/Zvenyhorodka"
+    }
+  ]
+}

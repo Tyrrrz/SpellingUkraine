@@ -1,0 +1,21 @@
+{
+  "category": "Geography",
+  "name": "Вишневе",
+  "translation": "Vyshneve",
+  "mistranslations": [
+    "High"
+  ],
+  "aliases": [
+    "Вышко"
+  ],
+  "location": {
+    "latitude": 50.3833,
+    "longitude": 30.3667
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Vyshneve",
+      "url": "https://en.wikipedia.org/wiki/Vyshneve"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "category": "Geography",
+  "name": "Калуш",
+  "translation": "Kalush",
+  "mistranslations": [],
+  "aliases": [],
+  "location": {
+    "latitude": 49.0442,
+    "longitude": 24.3597
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Kalush",
+      "url": "https://en.wikipedia.org/wiki/Kalush"
+    }
+  ]
+}

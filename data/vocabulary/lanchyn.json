@@ -1,0 +1,19 @@
+{
+  "category": "Geography",
+  "name": "Ланчин",
+  "translation": "Lanchyn",
+  "mistranslations": [
+    "Lanchin"
+  ],
+  "aliases": [],
+  "location": {
+    "latitude": 48.5475,
+    "longitude": 24.7517
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Lanchyn",
+      "url": "https://en.wikipedia.org/wiki/Lanchyn"
+    }
+  ]
+}

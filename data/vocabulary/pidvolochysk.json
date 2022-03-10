@@ -1,0 +1,21 @@
+{
+  "category": "Geography",
+  "name": "Підволочиськ",
+  "translation": "Pidvolochysk",
+  "mistranslations": [
+    "Pidvolchish"
+  ],
+  "aliases": [
+    "Пидволочиск"
+  ],
+  "location": {
+    "latitude": 49.5311,
+    "longitude": 26.1467
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Pidvolochysk",
+      "url": "https://en.wikipedia.org/wiki/Pidvolochysk"
+    }
+  ]
+}

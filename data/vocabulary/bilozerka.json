@@ -1,0 +1,19 @@
+{
+  "category": "Geography",
+  "name": "Білозерка",
+  "translation": "Bilozerka",
+  "mistranslations": [],
+  "aliases": [
+    "Билозерка"
+  ],
+  "location": {
+    "latitude": 46.6333,
+    "longitude": 32.4333
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Bilozerka",
+      "url": "https://en.wikipedia.org/wiki/Bilozerka"
+    }
+  ]
+}

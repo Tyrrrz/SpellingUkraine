@@ -1,0 +1,19 @@
+{
+  "category": "Geography",
+  "name": "Ходорів",
+  "translation": "Khodoriv",
+  "mistranslations": [],
+  "aliases": [
+    "Ходорив"
+  ],
+  "location": {
+    "latitude": 49.41,
+    "longitude": 24.3094
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Khodoriv",
+      "url": "https://en.wikipedia.org/wiki/Khodoriv"
+    }
+  ]
+}

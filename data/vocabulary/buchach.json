@@ -1,0 +1,23 @@
+{
+  "category": "Geography",
+  "name": "Бучач",
+  "translation": "Buchach",
+  "mistranslations": [
+    "Bush"
+  ],
+  "aliases": [
+    "Бушач",
+    "Buchacho",
+    "Buchare"
+  ],
+  "location": {
+    "latitude": 49.0647,
+    "longitude": 25.3872
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Buchach",
+      "url": "https://en.wikipedia.org/wiki/Buchach"
+    }
+  ]
+}

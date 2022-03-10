@@ -1,0 +1,19 @@
+{
+  "category": "Geography",
+  "name": "Сімферополь",
+  "translation": "Simferopol",
+  "mistranslations": [],
+  "aliases": [
+    "Симферополь"
+  ],
+  "location": {
+    "latitude": 44.9484,
+    "longitude": 34.1
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Simferopol",
+      "url": "https://en.wikipedia.org/wiki/Simferopol"
+    }
+  ]
+}

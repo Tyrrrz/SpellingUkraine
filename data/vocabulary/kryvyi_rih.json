@@ -1,0 +1,16 @@
+{
+  "category": "Geography",
+  "name": "Кривий Ріг",
+  "translation": "Kryvyi Rih",
+  "mistranslations": [
+    "Curve Rog"
+  ],
+  "aliases": [
+    "Кривый Рог"
+  ],
+  "location": {
+    "latitude": 47.9086,
+    "longitude": 33.3433
+  },
+  "externalLinks": []
+}

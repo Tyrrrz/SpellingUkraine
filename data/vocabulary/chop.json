@@ -1,0 +1,26 @@
+{
+  "category": "Geography",
+  "name": "Нарізати",
+  "translation": "Chop",
+  "mistranslations": [
+    "Slice"
+  ],
+  "aliases": [
+    "Нарезать",
+    "Siekać",
+    "Hacken",
+    "Picar",
+    "Taglio",
+    "A toca"
+  ],
+  "location": {
+    "latitude": 48.4333,
+    "longitude": 22.2
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Chop",
+      "url": "https://en.wikipedia.org/wiki/Chop"
+    }
+  ]
+}

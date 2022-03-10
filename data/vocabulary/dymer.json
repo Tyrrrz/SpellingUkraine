@@ -1,0 +1,23 @@
+{
+  "category": "Geography",
+  "name": "Димер",
+  "translation": "Dymer",
+  "mistranslations": [
+    "Dimir"
+  ],
+  "aliases": [
+    "Димир",
+    "Dimensional",
+    "Diminto"
+  ],
+  "location": {
+    "latitude": 50.7872,
+    "longitude": 30.3117
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Dymer",
+      "url": "https://en.wikipedia.org/wiki/Dymer"
+    }
+  ]
+}

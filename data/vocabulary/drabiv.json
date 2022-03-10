@@ -1,0 +1,21 @@
+{
+  "category": "Geography",
+  "name": "Драбіт",
+  "translation": "Drabiv",
+  "mistranslations": [],
+  "aliases": [
+    "Драбив",
+    "Drabion",
+    "Drabivo"
+  ],
+  "location": {
+    "latitude": 49.9603,
+    "longitude": 32.1481
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Drabiv",
+      "url": "https://en.wikipedia.org/wiki/Drabiv"
+    }
+  ]
+}

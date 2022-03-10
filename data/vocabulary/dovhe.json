@@ -1,0 +1,16 @@
+{
+  "category": "Geography",
+  "name": "Довес",
+  "translation": "Dovhe",
+  "mistranslations": [
+    "Encourage"
+  ],
+  "aliases": [
+    "Поощрять"
+  ],
+  "location": {
+    "latitude": 48.3675,
+    "longitude": 23.2869
+  },
+  "externalLinks": []
+}

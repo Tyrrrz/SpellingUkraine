@@ -1,0 +1,17 @@
+{
+  "category": "Geography",
+  "name": "Корсун-Шевченківський",
+  "translation": "Korsun-Shevchenkivskyi",
+  "mistranslations": [
+    "Korsun Shevchenkovsky"
+  ],
+  "aliases": [
+    "Корсун-Шевченковский",
+    "Korsun-shevchenkivskii"
+  ],
+  "location": {
+    "latitude": 49.4261,
+    "longitude": 31.2806
+  },
+  "externalLinks": []
+}

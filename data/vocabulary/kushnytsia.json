@@ -1,0 +1,18 @@
+{
+  "category": "Geography",
+  "name": "Кушниця",
+  "translation": "Kushnytsia",
+  "mistranslations": [
+    "Kushnica"
+  ],
+  "aliases": [
+    "Кушница",
+    "Kaushytsia",
+    "Kushigscheise"
+  ],
+  "location": {
+    "latitude": 48.4517,
+    "longitude": 23.2581
+  },
+  "externalLinks": []
+}

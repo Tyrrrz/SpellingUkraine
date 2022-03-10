@@ -1,0 +1,21 @@
+{
+  "category": "Geography",
+  "name": "Соснівка",
+  "translation": "Sosnivka",
+  "mistranslations": [
+    "Sosnovka"
+  ],
+  "aliases": [
+    "Сосновка"
+  ],
+  "location": {
+    "latitude": 50.2946,
+    "longitude": 24.2525
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Sosnivka",
+      "url": "https://en.wikipedia.org/wiki/Sosnivka"
+    }
+  ]
+}

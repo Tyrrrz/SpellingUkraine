@@ -1,0 +1,19 @@
+{
+  "category": "Geography",
+  "name": "Буча",
+  "translation": "Bucha",
+  "mistranslations": [],
+  "aliases": [
+    "Buca"
+  ],
+  "location": {
+    "latitude": 50.5464,
+    "longitude": 30.235
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Bucha",
+      "url": "https://en.wikipedia.org/wiki/Bucha"
+    }
+  ]
+}

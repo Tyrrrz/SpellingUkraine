@@ -1,0 +1,22 @@
+{
+  "category": "Geography",
+  "name": "Озерний",
+  "translation": "Ozerne",
+  "mistranslations": [
+    "Ozeri"
+  ],
+  "aliases": [
+    "Озерер",
+    "Ożerne"
+  ],
+  "location": {
+    "latitude": 50.1794,
+    "longitude": 28.7361
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Ozerne",
+      "url": "https://en.wikipedia.org/wiki/Ozerne"
+    }
+  ]
+}

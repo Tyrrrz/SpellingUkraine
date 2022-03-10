@@ -1,0 +1,21 @@
+{
+  "category": "Geography",
+  "name": "Ivanychi",
+  "translation": "Ivanychi",
+  "mistranslations": [
+    "Ivanko"
+  ],
+  "aliases": [
+    "Иваньчи"
+  ],
+  "location": {
+    "latitude": 50.6419,
+    "longitude": 24.3606
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Ivanychi",
+      "url": "https://en.wikipedia.org/wiki/Ivanychi"
+    }
+  ]
+}

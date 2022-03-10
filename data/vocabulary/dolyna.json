@@ -1,0 +1,19 @@
+{
+  "category": "Geography",
+  "name": "Долина",
+  "translation": "Dolyna",
+  "mistranslations": [
+    "Valley"
+  ],
+  "aliases": [],
+  "location": {
+    "latitude": 48.9703,
+    "longitude": 24.0108
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Dolyna",
+      "url": "https://en.wikipedia.org/wiki/Dolyna"
+    }
+  ]
+}

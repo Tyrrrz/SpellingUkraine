@@ -1,0 +1,21 @@
+{
+  "category": "Geography",
+  "name": "Макіївка",
+  "translation": "Makiivka",
+  "mistranslations": [
+    "Makivka"
+  ],
+  "aliases": [
+    "Макивка"
+  ],
+  "location": {
+    "latitude": 48.0556,
+    "longitude": 37.9611
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Makiivka",
+      "url": "https://en.wikipedia.org/wiki/Makiivka"
+    }
+  ]
+}

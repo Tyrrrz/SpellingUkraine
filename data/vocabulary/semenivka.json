@@ -1,0 +1,22 @@
+{
+  "category": "Geography",
+  "name": "Семенівка",
+  "translation": "Semenivka",
+  "mistranslations": [
+    "Semenovka"
+  ],
+  "aliases": [
+    "Семеновка",
+    "Semelivka"
+  ],
+  "location": {
+    "latitude": 52.1772,
+    "longitude": 32.5797
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Semenivka",
+      "url": "https://en.wikipedia.org/wiki/Semenivka"
+    }
+  ]
+}

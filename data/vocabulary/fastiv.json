@@ -1,0 +1,23 @@
+{
+  "category": "Geography",
+  "name": "Фаст",
+  "translation": "Fastiv",
+  "mistranslations": [
+    "Fantasy"
+  ],
+  "aliases": [
+    "Фантазия",
+    "Fastenförmig",
+    "Fastivo"
+  ],
+  "location": {
+    "latitude": 50.0747,
+    "longitude": 29.9181
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Fastiv",
+      "url": "https://en.wikipedia.org/wiki/Fastiv"
+    }
+  ]
+}

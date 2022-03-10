@@ -1,0 +1,17 @@
+{
+  "category": "Geography",
+  "name": "Жовква",
+  "translation": "Zhovkva",
+  "mistranslations": [],
+  "aliases": [],
+  "location": {
+    "latitude": 50.0667,
+    "longitude": 23.9667
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Zhovkva",
+      "url": "https://en.wikipedia.org/wiki/Zhovkva"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "category": "Geography",
+  "name": "Христинівка",
+  "translation": "Khrystynivka",
+  "mistranslations": [
+    "Christianity"
+  ],
+  "aliases": [
+    "Христинство"
+  ],
+  "location": {
+    "latitude": 48.8333,
+    "longitude": 29.9667
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Khrystynivka",
+      "url": "https://en.wikipedia.org/wiki/Khrystynivka"
+    }
+  ]
+}

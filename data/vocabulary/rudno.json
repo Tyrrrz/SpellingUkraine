@@ -1,0 +1,17 @@
+{
+  "category": "Geography",
+  "name": "Рудно",
+  "translation": "Rudno",
+  "mistranslations": [],
+  "aliases": [],
+  "location": {
+    "latitude": 49.8404,
+    "longitude": 23.8747
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Rudno",
+      "url": "https://en.wikipedia.org/wiki/Rudno"
+    }
+  ]
+}

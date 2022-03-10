@@ -1,0 +1,22 @@
+{
+  "category": "Geography",
+  "name": "Чернігівка",
+  "translation": "Chernihivka",
+  "mistranslations": [
+    "Chernigovka"
+  ],
+  "aliases": [
+    "Черниговка",
+    "Tschernihivka"
+  ],
+  "location": {
+    "latitude": 47.1942,
+    "longitude": 36.2023
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Chernihivka",
+      "url": "https://en.wikipedia.org/wiki/Chernihivka"
+    }
+  ]
+}

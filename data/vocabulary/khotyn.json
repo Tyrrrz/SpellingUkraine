@@ -1,0 +1,21 @@
+{
+  "category": "Geography",
+  "name": "Хотин",
+  "translation": "Khotyn",
+  "mistranslations": [
+    "Hotton"
+  ],
+  "aliases": [
+    "Хоттон"
+  ],
+  "location": {
+    "latitude": 48.5078,
+    "longitude": 26.486
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Khotyn",
+      "url": "https://en.wikipedia.org/wiki/Khotyn"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "category": "Geography",
+  "name": "Великий подрібнений",
+  "translation": "Velyki Mosty",
+  "mistranslations": [
+    "Velukiusy"
+  ],
+  "aliases": [
+    "Велюкистые",
+    "Velyki MILY",
+    "Velyki Mossy"
+  ],
+  "location": {
+    "latitude": 50.24,
+    "longitude": 24.1394
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Velyki Mosty",
+      "url": "https://en.wikipedia.org/wiki/Velyki_mosty"
+    }
+  ]
+}

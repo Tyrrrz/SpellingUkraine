@@ -1,0 +1,21 @@
+{
+  "category": "Geography",
+  "name": "Крижопіль",
+  "translation": "Kryzhopil",
+  "mistranslations": [],
+  "aliases": [
+    "Крыжопил",
+    "Krryzhopil",
+    "Kryzhopilo"
+  ],
+  "location": {
+    "latitude": 48.3842,
+    "longitude": 28.8625
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Kryzhopil",
+      "url": "https://en.wikipedia.org/wiki/Kryzhopil"
+    }
+  ]
+}

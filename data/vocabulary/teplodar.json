@@ -1,0 +1,20 @@
+{
+  "category": "Geography",
+  "name": "Теплиця",
+  "translation": "Teplodar",
+  "mistranslations": [],
+  "aliases": [
+    "Теплодар",
+    "Tepodar"
+  ],
+  "location": {
+    "latitude": 46.5036,
+    "longitude": 30.3244
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Teplodar",
+      "url": "https://en.wikipedia.org/wiki/Teplodar"
+    }
+  ]
+}

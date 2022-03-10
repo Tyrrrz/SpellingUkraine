@@ -1,0 +1,19 @@
+{
+  "category": "Geography",
+  "name": "Білопілля",
+  "translation": "Bilopillya",
+  "mistranslations": [],
+  "aliases": [
+    "Bilopilya"
+  ],
+  "location": {
+    "latitude": 51.1532,
+    "longitude": 34.3025
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Bilopillya",
+      "url": "https://en.wikipedia.org/wiki/Bilopillya"
+    }
+  ]
+}

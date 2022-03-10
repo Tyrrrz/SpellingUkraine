@@ -1,0 +1,19 @@
+{
+  "category": "Geography",
+  "name": "Джанкой",
+  "translation": "Dzhankoi",
+  "mistranslations": [
+    "Janka"
+  ],
+  "aliases": [],
+  "location": {
+    "latitude": 45.7086,
+    "longitude": 34.3933
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Dzhankoi",
+      "url": "https://en.wikipedia.org/wiki/Dzhankoi"
+    }
+  ]
+}

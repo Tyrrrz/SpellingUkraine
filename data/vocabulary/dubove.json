@@ -1,0 +1,23 @@
+{
+  "category": "Geography",
+  "name": "Дубльований",
+  "translation": "Dubove",
+  "mistranslations": [
+    "Dubov"
+  ],
+  "aliases": [
+    "Дубов",
+    "Dubocha",
+    "Dämmern"
+  ],
+  "location": {
+    "latitude": 48.1781,
+    "longitude": 23.8863
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Dubove",
+      "url": "https://en.wikipedia.org/wiki/Dubove"
+    }
+  ]
+}

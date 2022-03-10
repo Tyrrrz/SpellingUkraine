@@ -1,0 +1,17 @@
+{
+  "category": "Geography",
+  "name": "Корюківка",
+  "translation": "Koriukivka",
+  "mistranslations": [],
+  "aliases": [],
+  "location": {
+    "latitude": 51.7833,
+    "longitude": 32.25
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Koriukivka",
+      "url": "https://en.wikipedia.org/wiki/Koriukivka"
+    }
+  ]
+}

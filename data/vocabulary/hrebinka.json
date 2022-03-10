@@ -1,0 +1,17 @@
+{
+  "category": "Geography",
+  "name": "Гребінка",
+  "translation": "Hrebinka",
+  "mistranslations": [],
+  "aliases": [],
+  "location": {
+    "latitude": 50.118,
+    "longitude": 32.4396
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Hrebinka",
+      "url": "https://en.wikipedia.org/wiki/Hrebinka"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "category": "Geography",
+  "name": "Чернівці",
+  "translation": "Chernivtsi",
+  "mistranslations": [],
+  "aliases": [
+    "Черновцы",
+    "Cernăuți"
+  ],
+  "location": {
+    "latitude": 48.2908,
+    "longitude": 25.9344
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Chernivtsi",
+      "url": "https://en.wikipedia.org/wiki/Chernivtsi"
+    }
+  ]
+}

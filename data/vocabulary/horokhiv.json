@@ -1,0 +1,21 @@
+{
+  "category": "Geography",
+  "name": "Горохів",
+  "translation": "Horokhiv",
+  "mistranslations": [
+    "Gorokhov"
+  ],
+  "aliases": [
+    "Горохов"
+  ],
+  "location": {
+    "latitude": 50.4994,
+    "longitude": 24.765
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Horokhiv",
+      "url": "https://en.wikipedia.org/wiki/Horokhiv"
+    }
+  ]
+}

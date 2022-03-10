@@ -1,0 +1,22 @@
+{
+  "category": "Geography",
+  "name": "Бурштин",
+  "translation": "Burshtyn",
+  "mistranslations": [],
+  "aliases": [
+    "Бурштын",
+    "Incombustible",
+    "Furshtyn",
+    "Buhtyn"
+  ],
+  "location": {
+    "latitude": 49.26,
+    "longitude": 24.635
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Burshtyn",
+      "url": "https://en.wikipedia.org/wiki/Burshtyn"
+    }
+  ]
+}

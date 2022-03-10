@@ -1,0 +1,16 @@
+{
+  "category": "Geography",
+  "name": "Ясногірка",
+  "translation": "Yasnohirka",
+  "mistranslations": [
+    "Yasnohirika"
+  ],
+  "aliases": [
+    "Яснохирка"
+  ],
+  "location": {
+    "latitude": 48.7725,
+    "longitude": 37.5506
+  },
+  "externalLinks": []
+}

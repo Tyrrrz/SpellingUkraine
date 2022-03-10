@@ -1,0 +1,21 @@
+{
+  "category": "Geography",
+  "name": "Izium",
+  "translation": "Izium",
+  "mistranslations": [
+    "Iziva"
+  ],
+  "aliases": [
+    "Изий"
+  ],
+  "location": {
+    "latitude": 49.2238,
+    "longitude": 37.2915
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Izium",
+      "url": "https://en.wikipedia.org/wiki/Izium"
+    }
+  ]
+}

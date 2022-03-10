@@ -1,0 +1,17 @@
+{
+  "category": "Geography",
+  "name": "Брошнів-Осада",
+  "translation": "Broshniv-Osada",
+  "mistranslations": [
+    "Boss-Osada"
+  ],
+  "aliases": [
+    "Брошнов-Осада",
+    "Brospniv-Osada"
+  ],
+  "location": {
+    "latitude": 48.9994,
+    "longitude": 24.1814
+  },
+  "externalLinks": []
+}

@@ -1,0 +1,20 @@
+{
+  "category": "Geography",
+  "name": "Іршанський",
+  "translation": "Irshansk",
+  "mistranslations": [],
+  "aliases": [
+    "Иршанск",
+    "IRSHANK"
+  ],
+  "location": {
+    "latitude": 50.7167,
+    "longitude": 28.7167
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Irshansk",
+      "url": "https://en.wikipedia.org/wiki/Irshansk"
+    }
+  ]
+}

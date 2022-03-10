@@ -1,0 +1,21 @@
+{
+  "category": "Geography",
+  "name": "Галич",
+  "translation": "Halych",
+  "mistranslations": [
+    "Galich"
+  ],
+  "aliases": [
+    "Halija"
+  ],
+  "location": {
+    "latitude": 49.1128,
+    "longitude": 24.7217
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Halych",
+      "url": "https://en.wikipedia.org/wiki/Halych"
+    }
+  ]
+}

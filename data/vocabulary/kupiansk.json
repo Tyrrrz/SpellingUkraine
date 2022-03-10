@@ -1,0 +1,21 @@
+{
+  "category": "Geography",
+  "name": "Купианськ",
+  "translation": "Kupiansk",
+  "mistranslations": [
+    "Kepansk"
+  ],
+  "aliases": [
+    "Купанск"
+  ],
+  "location": {
+    "latitude": 49.7064,
+    "longitude": 37.6167
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Kupiansk",
+      "url": "https://en.wikipedia.org/wiki/Kupiansk"
+    }
+  ]
+}

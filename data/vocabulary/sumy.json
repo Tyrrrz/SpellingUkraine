@@ -1,0 +1,21 @@
+{
+  "category": "Geography",
+  "name": "Суми",
+  "translation": "Sumy",
+  "mistranslations": [],
+  "aliases": [
+    "Сумы",
+    "Susza",
+    "Sumamente"
+  ],
+  "location": {
+    "latitude": 50.9068,
+    "longitude": 34.7992
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Sumy",
+      "url": "https://en.wikipedia.org/wiki/Sumy"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "category": "Geography",
+  "name": "Бордовий",
+  "translation": "Borova",
+  "mistranslations": [
+    "Borov"
+  ],
+  "aliases": [
+    "Борова"
+  ],
+  "location": {
+    "latitude": 50.1733,
+    "longitude": 30.1039
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Borova",
+      "url": "https://en.wikipedia.org/wiki/Borova"
+    }
+  ]
+}

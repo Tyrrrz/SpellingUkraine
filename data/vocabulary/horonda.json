@@ -1,0 +1,17 @@
+{
+  "category": "Geography",
+  "name": "Городіння",
+  "translation": "Horonda",
+  "mistranslations": [
+    "Goronea"
+  ],
+  "aliases": [
+    "Горонда",
+    "Horda"
+  ],
+  "location": {
+    "latitude": 48.3786,
+    "longitude": 22.5681
+  },
+  "externalLinks": []
+}

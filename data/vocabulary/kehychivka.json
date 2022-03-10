@@ -1,0 +1,20 @@
+{
+  "category": "Geography",
+  "name": "Кехиківка",
+  "translation": "Kehychivka",
+  "mistranslations": [],
+  "aliases": [
+    "Khohechivka",
+    "Khychivka"
+  ],
+  "location": {
+    "latitude": 49.2858,
+    "longitude": 35.7622
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Kehychivka",
+      "url": "https://en.wikipedia.org/wiki/Kehychivka"
+    }
+  ]
+}

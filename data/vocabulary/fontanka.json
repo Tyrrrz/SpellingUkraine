@@ -1,0 +1,19 @@
+{
+  "category": "Geography",
+  "name": "Фунтанка",
+  "translation": "Fontanka",
+  "mistranslations": [],
+  "aliases": [
+    "Фонтанка"
+  ],
+  "location": {
+    "latitude": 46.5644,
+    "longitude": 30.8586
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Fontanka",
+      "url": "https://en.wikipedia.org/wiki/Fontanka"
+    }
+  ]
+}

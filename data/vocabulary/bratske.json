@@ -1,0 +1,24 @@
+{
+  "category": "Geography",
+  "name": "Брязке",
+  "translation": "Bratske",
+  "mistranslations": [
+    "Bratsk"
+  ],
+  "aliases": [
+    "Братске",
+    "Bratke",
+    "Brötchen",
+    "Breche"
+  ],
+  "location": {
+    "latitude": 47.8636,
+    "longitude": 31.5781
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Bratske",
+      "url": "https://en.wikipedia.org/wiki/Bratske"
+    }
+  ]
+}

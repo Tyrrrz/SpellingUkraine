@@ -1,0 +1,21 @@
+{
+  "category": "Geography",
+  "name": "Дніпровське",
+  "translation": "Dniprovske",
+  "mistranslations": [
+    "Dniprovsk"
+  ],
+  "aliases": [
+    "Днепровске"
+  ],
+  "location": {
+    "latitude": 48.5953,
+    "longitude": 34.4207
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Dniprovske",
+      "url": "https://en.wikipedia.org/wiki/Dniprovske"
+    }
+  ]
+}

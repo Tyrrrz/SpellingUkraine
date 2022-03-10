@@ -1,0 +1,22 @@
+{
+  "category": "Geography",
+  "name": "Червонохригорівка",
+  "translation": "Chervonohryhorivka",
+  "mistranslations": [
+    "Chervonochorokhorovka"
+  ],
+  "aliases": [
+    "Червонохорохоровка",
+    "Chervonohrylorivka"
+  ],
+  "location": {
+    "latitude": 47.6233,
+    "longitude": 34.5309
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Chervonohryhorivka",
+      "url": "https://en.wikipedia.org/wiki/Chervonohryhorivka"
+    }
+  ]
+}

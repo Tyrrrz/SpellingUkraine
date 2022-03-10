@@ -1,0 +1,23 @@
+{
+  "category": "Geography",
+  "name": "Свес",
+  "translation": "Svesa",
+  "mistranslations": [
+    "Sveta"
+  ],
+  "aliases": [
+    "Света",
+    "Sinvya",
+    "Svese"
+  ],
+  "location": {
+    "latitude": 51.9481,
+    "longitude": 33.9367
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Svesa",
+      "url": "https://en.wikipedia.org/wiki/Svesa"
+    }
+  ]
+}

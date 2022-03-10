@@ -1,0 +1,22 @@
+{
+  "category": "Geography",
+  "name": "Кременець",
+  "translation": "Kremenets",
+  "mistranslations": [
+    "Kremenz"
+  ],
+  "aliases": [
+    "Кременс",
+    "Kremeten"
+  ],
+  "location": {
+    "latitude": 50.1081,
+    "longitude": 25.7275
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Kremenets",
+      "url": "https://en.wikipedia.org/wiki/Kremenets"
+    }
+  ]
+}

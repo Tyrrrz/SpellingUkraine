@@ -1,0 +1,21 @@
+{
+  "category": "Geography",
+  "name": "Кам'янський",
+  "translation": "Kamianske",
+  "mistranslations": [
+    "Kamaskaya"
+  ],
+  "aliases": [
+    "Камясская"
+  ],
+  "location": {
+    "latitude": 48.5076,
+    "longitude": 34.6132
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Kamianske",
+      "url": "https://en.wikipedia.org/wiki/Kamianske"
+    }
+  ]
+}

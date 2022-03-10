@@ -1,0 +1,21 @@
+{
+  "category": "Geography",
+  "name": "Енергодар",
+  "translation": "Enerhodar",
+  "mistranslations": [
+    "Energodar"
+  ],
+  "aliases": [
+    "Энергодар"
+  ],
+  "location": {
+    "latitude": 47.4989,
+    "longitude": 34.6558
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Enerhodar",
+      "url": "https://en.wikipedia.org/wiki/Enerhodar"
+    }
+  ]
+}

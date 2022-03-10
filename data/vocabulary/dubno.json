@@ -1,0 +1,21 @@
+{
+  "category": "Geography",
+  "name": "Дубно",
+  "translation": "Dubno",
+  "mistranslations": [
+    "Kind"
+  ],
+  "aliases": [
+    "Добрый"
+  ],
+  "location": {
+    "latitude": 50.3931,
+    "longitude": 25.735
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Dubno",
+      "url": "https://en.wikipedia.org/wiki/Dubno"
+    }
+  ]
+}

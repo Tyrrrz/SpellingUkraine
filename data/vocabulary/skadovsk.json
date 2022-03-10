@@ -1,0 +1,19 @@
+{
+  "category": "Geography",
+  "name": "Скадовськ",
+  "translation": "Skadovsk",
+  "mistranslations": [],
+  "aliases": [
+    "Скадовск"
+  ],
+  "location": {
+    "latitude": 46.1167,
+    "longitude": 32.9167
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Skadovsk",
+      "url": "https://en.wikipedia.org/wiki/Skadovsk"
+    }
+  ]
+}

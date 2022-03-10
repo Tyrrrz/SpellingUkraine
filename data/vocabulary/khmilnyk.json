@@ -1,0 +1,21 @@
+{
+  "category": "Geography",
+  "name": "Хмільник",
+  "translation": "Khmilnyk",
+  "mistranslations": [
+    "Humini"
+  ],
+  "aliases": [
+    "Хмильний"
+  ],
+  "location": {
+    "latitude": 49.55,
+    "longitude": 27.9667
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Khmilnyk",
+      "url": "https://en.wikipedia.org/wiki/Khmilnyk"
+    }
+  ]
+}

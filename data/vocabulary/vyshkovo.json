@@ -1,0 +1,21 @@
+{
+  "category": "Geography",
+  "name": "Вишково",
+  "translation": "Vyshkovo",
+  "mistranslations": [
+    "Wig"
+  ],
+  "aliases": [
+    "Вышково"
+  ],
+  "location": {
+    "latitude": 48.0581,
+    "longitude": 23.4164
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Vyshkovo",
+      "url": "https://en.wikipedia.org/wiki/Vyshkovo"
+    }
+  ]
+}

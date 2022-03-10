@@ -1,0 +1,21 @@
+{
+  "category": "Geography",
+  "name": "Чігирин",
+  "translation": "Chyhyryn",
+  "mistranslations": [
+    "Chichrin"
+  ],
+  "aliases": [
+    "Чихрин"
+  ],
+  "location": {
+    "latitude": 49.0833,
+    "longitude": 32.6667
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Chyhyryn",
+      "url": "https://en.wikipedia.org/wiki/Chyhyryn"
+    }
+  ]
+}

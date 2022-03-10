@@ -1,0 +1,19 @@
+{
+  "category": "Geography",
+  "name": "Новоявовське",
+  "translation": "Novoyavorovskoye",
+  "mistranslations": [
+    "Novoivanovskoye"
+  ],
+  "aliases": [
+    "Новоявоовское",
+    "Novoyorovskoye",
+    "Novoyevorovskoye",
+    "Novoyavovskoye"
+  ],
+  "location": {
+    "latitude": 49.9311,
+    "longitude": 23.5731
+  },
+  "externalLinks": []
+}

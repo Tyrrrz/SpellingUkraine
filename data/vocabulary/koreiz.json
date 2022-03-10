@@ -1,0 +1,21 @@
+{
+  "category": "Geography",
+  "name": "Корей",
+  "translation": "Koreiz",
+  "mistranslations": [
+    "Corimiz"
+  ],
+  "aliases": [
+    "Кориз"
+  ],
+  "location": {
+    "latitude": 44.4331,
+    "longitude": 34.0872
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Koreiz",
+      "url": "https://en.wikipedia.org/wiki/Koreiz"
+    }
+  ]
+}

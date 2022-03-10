@@ -1,0 +1,17 @@
+{
+  "category": "Geography",
+  "name": "Роктивне",
+  "translation": "Rokytne",
+  "mistranslations": [],
+  "aliases": [],
+  "location": {
+    "latitude": 49.6897,
+    "longitude": 30.4751
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Rokytne",
+      "url": "https://en.wikipedia.org/wiki/Rokytne"
+    }
+  ]
+}

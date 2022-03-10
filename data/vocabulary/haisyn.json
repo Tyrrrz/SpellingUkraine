@@ -1,0 +1,19 @@
+{
+  "category": "Geography",
+  "name": "Хайсин",
+  "translation": "Haisyn",
+  "mistranslations": [],
+  "aliases": [
+    "Haisiyn"
+  ],
+  "location": {
+    "latitude": 48.8094,
+    "longitude": 29.3906
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Haisyn",
+      "url": "https://en.wikipedia.org/wiki/Haisyn"
+    }
+  ]
+}

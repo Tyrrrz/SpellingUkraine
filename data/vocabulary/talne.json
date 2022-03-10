@@ -1,0 +1,21 @@
+{
+  "category": "Geography",
+  "name": "Обід",
+  "translation": "Talne",
+  "mistranslations": [
+    "Taln"
+  ],
+  "aliases": [
+    "Талн"
+  ],
+  "location": {
+    "latitude": 48.8863,
+    "longitude": 30.7027
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Talne",
+      "url": "https://en.wikipedia.org/wiki/Talne"
+    }
+  ]
+}

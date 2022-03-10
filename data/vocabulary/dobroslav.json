@@ -1,0 +1,20 @@
+{
+  "category": "Geography",
+  "name": "Доблесний",
+  "translation": "Dobroslav",
+  "mistranslations": [],
+  "aliases": [
+    "Доброслав",
+    "Dobroslavo"
+  ],
+  "location": {
+    "latitude": 46.82,
+    "longitude": 30.945
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Dobroslav",
+      "url": "https://en.wikipedia.org/wiki/Dobroslav"
+    }
+  ]
+}

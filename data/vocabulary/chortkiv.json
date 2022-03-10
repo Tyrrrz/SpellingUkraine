@@ -1,0 +1,21 @@
+{
+  "category": "Geography",
+  "name": "Чортків",
+  "translation": "Chortkiv",
+  "mistranslations": [
+    "Chorttkov"
+  ],
+  "aliases": [
+    "Чортков"
+  ],
+  "location": {
+    "latitude": 49.0167,
+    "longitude": 25.8
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Chortkiv",
+      "url": "https://en.wikipedia.org/wiki/Chortkiv"
+    }
+  ]
+}

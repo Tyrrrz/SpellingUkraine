@@ -1,0 +1,17 @@
+{
+  "category": "Geography",
+  "name": "Хола Пристань",
+  "translation": "Hola Prystan",
+  "mistranslations": [
+    "Hola Pryster"
+  ],
+  "aliases": [
+    "Hola Pryster",
+    "Hola Prystán"
+  ],
+  "location": {
+    "latitude": 46.5167,
+    "longitude": 32.5167
+  },
+  "externalLinks": []
+}

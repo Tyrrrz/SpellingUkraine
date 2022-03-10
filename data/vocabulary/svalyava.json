@@ -1,0 +1,19 @@
+{
+  "category": "Geography",
+  "name": "Свалява",
+  "translation": "Svalyava",
+  "mistranslations": [],
+  "aliases": [
+    "Svalyva"
+  ],
+  "location": {
+    "latitude": 48.5472,
+    "longitude": 22.9861
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Svalyava",
+      "url": "https://en.wikipedia.org/wiki/Svalyava"
+    }
+  ]
+}

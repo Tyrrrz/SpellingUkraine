@@ -1,0 +1,24 @@
+{
+  "category": "Geography",
+  "name": "Добробство",
+  "translation": "Dobrotvir",
+  "mistranslations": [
+    "Doblogovir"
+  ],
+  "aliases": [
+    "Добротвир",
+    "Dobrotwir",
+    "Dobrobilvir",
+    "Dobrovir"
+  ],
+  "location": {
+    "latitude": 50.2056,
+    "longitude": 24.3864
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Dobrotvir",
+      "url": "https://en.wikipedia.org/wiki/Dobrotvir"
+    }
+  ]
+}

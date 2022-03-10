@@ -1,0 +1,22 @@
+{
+  "category": "Geography",
+  "name": "Маньюш",
+  "translation": "Manhush",
+  "mistranslations": [
+    "Manhose"
+  ],
+  "aliases": [
+    "Манхоз",
+    "Manihush"
+  ],
+  "location": {
+    "latitude": 47.05,
+    "longitude": 37.3
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Manhush",
+      "url": "https://en.wikipedia.org/wiki/Manhush"
+    }
+  ]
+}

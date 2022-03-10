@@ -1,0 +1,21 @@
+{
+  "category": "Geography",
+  "name": "Очаків",
+  "translation": "Ochakiv",
+  "mistranslations": [
+    "Ochakov"
+  ],
+  "aliases": [
+    "Очаков"
+  ],
+  "location": {
+    "latitude": 46.6186,
+    "longitude": 31.5392
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Ochakiv",
+      "url": "https://en.wikipedia.org/wiki/Ochakiv"
+    }
+  ]
+}

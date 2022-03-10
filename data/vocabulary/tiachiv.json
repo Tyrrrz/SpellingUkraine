@@ -1,0 +1,21 @@
+{
+  "category": "Geography",
+  "name": "Тіачів",
+  "translation": "Tiachiv",
+  "mistranslations": [
+    "Toyword"
+  ],
+  "aliases": [
+    "Тиачив"
+  ],
+  "location": {
+    "latitude": 48.0114,
+    "longitude": 23.5722
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Tiachiv",
+      "url": "https://en.wikipedia.org/wiki/Tiachiv"
+    }
+  ]
+}

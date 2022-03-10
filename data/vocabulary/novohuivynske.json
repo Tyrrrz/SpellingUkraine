@@ -1,0 +1,22 @@
+{
+  "category": "Geography",
+  "name": "Новогувінське",
+  "translation": "Novohuivynske",
+  "mistranslations": [
+    "Novokhuinskoye"
+  ],
+  "aliases": [
+    "Новохуийнское",
+    "Novohivynske"
+  ],
+  "location": {
+    "latitude": 50.2022,
+    "longitude": 28.685
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Novohuivynske",
+      "url": "https://en.wikipedia.org/wiki/Novohuivynske"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "category": "Geography",
+  "name": "Нікополь",
+  "translation": "Nikopol",
+  "mistranslations": [],
+  "aliases": [
+    "Никополь"
+  ],
+  "location": {
+    "latitude": 47.5772,
+    "longitude": 34.3575
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Nikopol",
+      "url": "https://en.wikipedia.org/wiki/Nikopol"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "category": "Geography",
+  "name": "Сняз",
+  "translation": "Sniatyn",
+  "mistranslations": [],
+  "aliases": [
+    "Synityn",
+    "Snhiatyn"
+  ],
+  "location": {
+    "latitude": 48.45,
+    "longitude": 25.5667
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Sniatyn",
+      "url": "https://en.wikipedia.org/wiki/Sniatyn"
+    }
+  ]
+}

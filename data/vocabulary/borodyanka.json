@@ -1,0 +1,22 @@
+{
+  "category": "Geography",
+  "name": "Бородянка",
+  "translation": "Borodyanka",
+  "mistranslations": [
+    "Borodinka"
+  ],
+  "aliases": [
+    "Бородинка",
+    "Borodanka"
+  ],
+  "location": {
+    "latitude": 50.6439,
+    "longitude": 29.9339
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Borodyanka",
+      "url": "https://en.wikipedia.org/wiki/Borodyanka"
+    }
+  ]
+}

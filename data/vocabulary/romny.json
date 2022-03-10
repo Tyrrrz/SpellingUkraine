@@ -1,0 +1,23 @@
+{
+  "category": "Geography",
+  "name": "Ромний",
+  "translation": "Romny",
+  "mistranslations": [
+    "Roma"
+  ],
+  "aliases": [
+    "Ромс",
+    "Romana",
+    "Romany"
+  ],
+  "location": {
+    "latitude": 50.7428,
+    "longitude": 33.4879
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Romny",
+      "url": "https://en.wikipedia.org/wiki/Romny"
+    }
+  ]
+}

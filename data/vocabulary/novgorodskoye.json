@@ -1,0 +1,21 @@
+{
+  "category": "Geography",
+  "name": "Новгородське",
+  "translation": "Novgorodskoye",
+  "mistranslations": [
+    "Novgorod"
+  ],
+  "aliases": [
+    "Новгородское"
+  ],
+  "location": {
+    "latitude": 48.3156,
+    "longitude": 37.8839
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Novgorodskoye",
+      "url": "https://en.wikipedia.org/wiki/Novgorodskoye"
+    }
+  ]
+}

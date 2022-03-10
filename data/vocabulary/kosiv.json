@@ -1,0 +1,22 @@
+{
+  "category": "Geography",
+  "name": "Косів",
+  "translation": "Kosiv",
+  "mistranslations": [
+    "Kosyv"
+  ],
+  "aliases": [
+    "Косив",
+    "Kossiv"
+  ],
+  "location": {
+    "latitude": 48.315,
+    "longitude": 25.0953
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Kosiv",
+      "url": "https://en.wikipedia.org/wiki/Kosiv"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "category": "Geography",
+  "name": "Чечельник",
+  "translation": "Chechelnyk",
+  "mistranslations": [
+    "Chechelian"
+  ],
+  "aliases": [
+    "Чечельний",
+    "Tschechelnyk",
+    "Chechelny"
+  ],
+  "location": {
+    "latitude": 48.2122,
+    "longitude": 29.3622
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Chechelnyk",
+      "url": "https://en.wikipedia.org/wiki/Chechelnyk"
+    }
+  ]
+}

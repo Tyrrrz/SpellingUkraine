@@ -1,0 +1,21 @@
+{
+  "category": "Geography",
+  "name": "Городянин",
+  "translation": "Horodnia",
+  "mistranslations": [
+    "Gorodia"
+  ],
+  "aliases": [
+    "Городния"
+  ],
+  "location": {
+    "latitude": 51.8833,
+    "longitude": 31.5833
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Horodnia",
+      "url": "https://en.wikipedia.org/wiki/Horodnia"
+    }
+  ]
+}

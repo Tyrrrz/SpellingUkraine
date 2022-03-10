@@ -1,0 +1,23 @@
+{
+  "category": "Geography",
+  "name": "Жовч",
+  "translation": "Bile",
+  "mistranslations": [],
+  "aliases": [
+    "Желчь",
+    "Żółć",
+    "Galle",
+    "Bilis",
+    "Bilă"
+  ],
+  "location": {
+    "latitude": 48.4936,
+    "longitude": 39.0367
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Bile",
+      "url": "https://en.wikipedia.org/wiki/Bile"
+    }
+  ]
+}

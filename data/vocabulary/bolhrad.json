@@ -1,0 +1,19 @@
+{
+  "category": "Geography",
+  "name": "Болград",
+  "translation": "Bolhrad",
+  "mistranslations": [
+    "Bolgrad"
+  ],
+  "aliases": [],
+  "location": {
+    "latitude": 45.6855,
+    "longitude": 28.6134
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Bolhrad",
+      "url": "https://en.wikipedia.org/wiki/Bolhrad"
+    }
+  ]
+}

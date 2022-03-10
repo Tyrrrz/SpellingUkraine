@@ -1,0 +1,21 @@
+{
+  "category": "Geography",
+  "name": "Хніван",
+  "translation": "Hnivan",
+  "mistranslations": [
+    "Khnvv"
+  ],
+  "aliases": [
+    "Хнван"
+  ],
+  "location": {
+    "latitude": 49.0833,
+    "longitude": 28.35
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Hnivan",
+      "url": "https://en.wikipedia.org/wiki/Hnivan"
+    }
+  ]
+}

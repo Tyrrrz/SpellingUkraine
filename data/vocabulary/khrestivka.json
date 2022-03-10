@@ -1,0 +1,22 @@
+{
+  "category": "Geography",
+  "name": "Хрестивка",
+  "translation": "Khrestivka",
+  "mistranslations": [
+    "Khrechevka"
+  ],
+  "aliases": [
+    "Хрещевка",
+    "Khestivka"
+  ],
+  "location": {
+    "latitude": 48.15,
+    "longitude": 38.3667
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Khrestivka",
+      "url": "https://en.wikipedia.org/wiki/Khrestivka"
+    }
+  ]
+}

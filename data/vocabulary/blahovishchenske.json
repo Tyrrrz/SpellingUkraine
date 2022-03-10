@@ -1,0 +1,22 @@
+{
+  "category": "Geography",
+  "name": "Благовищенське",
+  "translation": "Blahovishchenske",
+  "mistranslations": [
+    "Blahoveshchenskaya"
+  ],
+  "aliases": [
+    "Блаховищенская",
+    "Blahovishchenke"
+  ],
+  "location": {
+    "latitude": 48.3197,
+    "longitude": 30.2353
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Blahovishchenske",
+      "url": "https://en.wikipedia.org/wiki/Blahovishchenske"
+    }
+  ]
+}

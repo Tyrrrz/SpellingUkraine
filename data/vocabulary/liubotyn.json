@@ -1,0 +1,17 @@
+{
+  "category": "Geography",
+  "name": "Люботин",
+  "translation": "Liubotyn",
+  "mistranslations": [],
+  "aliases": [],
+  "location": {
+    "latitude": 49.9489,
+    "longitude": 35.9306
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Liubotyn",
+      "url": "https://en.wikipedia.org/wiki/Liubotyn"
+    }
+  ]
+}

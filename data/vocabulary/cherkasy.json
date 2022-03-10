@@ -1,0 +1,21 @@
+{
+  "category": "Geography",
+  "name": "Черкаси",
+  "translation": "Cherkasy",
+  "mistranslations": [],
+  "aliases": [
+    "Черкассы",
+    "Tscherkasy",
+    "Querkasia"
+  ],
+  "location": {
+    "latitude": 49.4444,
+    "longitude": 32.0597
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Cherkasy",
+      "url": "https://en.wikipedia.org/wiki/Cherkasy"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "category": "Geography",
+  "name": "Хмельницький",
+  "translation": "Khmelnytskyi",
+  "mistranslations": [
+    "Khmelnitsky"
+  ],
+  "aliases": [
+    "Хмельницкий"
+  ],
+  "location": {
+    "latitude": 49.42,
+    "longitude": 27
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Khmelnytskyi",
+      "url": "https://en.wikipedia.org/wiki/Khmelnytskyi"
+    }
+  ]
+}

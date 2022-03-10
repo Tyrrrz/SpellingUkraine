@@ -1,0 +1,19 @@
+{
+  "category": "Geography",
+  "name": "Житомир",
+  "translation": "Zhytomyr",
+  "mistranslations": [],
+  "aliases": [
+    "Żytomierz"
+  ],
+  "location": {
+    "latitude": 50.2544,
+    "longitude": 28.6578
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Zhytomyr",
+      "url": "https://en.wikipedia.org/wiki/Zhytomyr"
+    }
+  ]
+}

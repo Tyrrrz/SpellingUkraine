@@ -1,0 +1,20 @@
+{
+  "category": "Geography",
+  "name": "Kozityn",
+  "translation": "Koziatyn",
+  "mistranslations": [],
+  "aliases": [
+    "Козиатын",
+    "Koziytyn"
+  ],
+  "location": {
+    "latitude": 49.7167,
+    "longitude": 28.8333
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Koziatyn",
+      "url": "https://en.wikipedia.org/wiki/Koziatyn"
+    }
+  ]
+}

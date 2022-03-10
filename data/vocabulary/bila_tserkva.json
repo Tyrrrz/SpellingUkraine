@@ -1,0 +1,21 @@
+{
+  "category": "Geography",
+  "name": "Біла Церква",
+  "translation": "Bila Tserkva",
+  "mistranslations": [
+    "White church"
+  ],
+  "aliases": [
+    "Била Церква"
+  ],
+  "location": {
+    "latitude": 49.7956,
+    "longitude": 30.1167
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Bila Tserkva",
+      "url": "https://en.wikipedia.org/wiki/Bila_tserkva"
+    }
+  ]
+}

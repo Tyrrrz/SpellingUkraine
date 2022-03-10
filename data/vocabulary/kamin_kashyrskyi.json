@@ -1,0 +1,16 @@
+{
+  "category": "Geography",
+  "name": "Камін-Каширський",
+  "translation": "Kamin-Kashyrskyi",
+  "mistranslations": [
+    "Fireplace Kashirsky"
+  ],
+  "aliases": [
+    "Камин-Каширский"
+  ],
+  "location": {
+    "latitude": 51.6242,
+    "longitude": 24.9606
+  },
+  "externalLinks": []
+}

@@ -1,0 +1,22 @@
+{
+  "category": "Geography",
+  "name": "Калинівка",
+  "translation": "Kalynivka",
+  "mistranslations": [
+    "Kalinovka"
+  ],
+  "aliases": [
+    "Калиновка",
+    "Kalnivka"
+  ],
+  "location": {
+    "latitude": 49.4472,
+    "longitude": 28.5231
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Kalynivka",
+      "url": "https://en.wikipedia.org/wiki/Kalynivka"
+    }
+  ]
+}

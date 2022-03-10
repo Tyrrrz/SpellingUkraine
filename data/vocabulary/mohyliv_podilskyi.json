@@ -1,0 +1,17 @@
+{
+  "category": "Geography",
+  "name": "Могилів-Подільський",
+  "translation": "Mohyliv-Podilskyi",
+  "mistranslations": [
+    "Mogilev-Podolsky"
+  ],
+  "aliases": [
+    "Могилв-Подильский",
+    "Moyliv-Podilskyi"
+  ],
+  "location": {
+    "latitude": 48.45,
+    "longitude": 27.7833
+  },
+  "externalLinks": []
+}

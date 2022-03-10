@@ -1,0 +1,21 @@
+{
+  "category": "Geography",
+  "name": "Молодохвардіск",
+  "translation": "Molodohvardiisk",
+  "mistranslations": [
+    "Omnoroordisk"
+  ],
+  "aliases": [
+    "Молодоховардиск"
+  ],
+  "location": {
+    "latitude": 48.3444,
+    "longitude": 39.6583
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Molodohvardiisk",
+      "url": "https://en.wikipedia.org/wiki/Molodohvardiisk"
+    }
+  ]
+}

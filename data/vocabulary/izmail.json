@@ -1,0 +1,19 @@
+{
+  "category": "Geography",
+  "name": "Ізмаїл",
+  "translation": "Izmail",
+  "mistranslations": [],
+  "aliases": [
+    "Измаил"
+  ],
+  "location": {
+    "latitude": 45.35,
+    "longitude": 28.8333
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Izmail",
+      "url": "https://en.wikipedia.org/wiki/Izmail"
+    }
+  ]
+}

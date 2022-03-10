@@ -1,0 +1,21 @@
+{
+  "category": "Geography",
+  "name": "Харків",
+  "translation": "Kharkiv",
+  "mistranslations": [
+    "Kharkov"
+  ],
+  "aliases": [
+    "Харьков"
+  ],
+  "location": {
+    "latitude": 50,
+    "longitude": 36.2292
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Kharkiv",
+      "url": "https://en.wikipedia.org/wiki/Kharkiv"
+    }
+  ]
+}

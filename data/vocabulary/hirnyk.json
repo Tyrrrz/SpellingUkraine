@@ -1,0 +1,21 @@
+{
+  "category": "Geography",
+  "name": "Хірник",
+  "translation": "Hirnyk",
+  "mistranslations": [
+    "Hirniks"
+  ],
+  "aliases": [
+    "Хирникс"
+  ],
+  "location": {
+    "latitude": 48.05,
+    "longitude": 37.3667
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Hirnyk",
+      "url": "https://en.wikipedia.org/wiki/Hirnyk"
+    }
+  ]
+}

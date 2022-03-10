@@ -1,0 +1,22 @@
+{
+  "category": "Geography",
+  "name": "Любешів",
+  "translation": "Lyubeshiv",
+  "mistranslations": [
+    "Lubashiv"
+  ],
+  "aliases": [
+    "Любешив",
+    "Lyubsiviv"
+  ],
+  "location": {
+    "latitude": 51.7631,
+    "longitude": 25.4992
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Lyubeshiv",
+      "url": "https://en.wikipedia.org/wiki/Lyubeshiv"
+    }
+  ]
+}

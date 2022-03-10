@@ -1,0 +1,16 @@
+{
+  "category": "Geography",
+  "name": "Жовті Води",
+  "translation": "Zhovti Vody",
+  "mistranslations": [
+    "Thorough water"
+  ],
+  "aliases": [
+    "Жовити Воды"
+  ],
+  "location": {
+    "latitude": 48.35,
+    "longitude": 33.5167
+  },
+  "externalLinks": []
+}

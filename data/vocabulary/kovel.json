@@ -1,0 +1,19 @@
+{
+  "category": "Geography",
+  "name": "Кобель",
+  "translation": "Kovel",
+  "mistranslations": [],
+  "aliases": [
+    "Ковель"
+  ],
+  "location": {
+    "latitude": 51.2167,
+    "longitude": 24.7167
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Kovel",
+      "url": "https://en.wikipedia.org/wiki/Kovel"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "category": "Geography",
+  "name": "Світловодськ",
+  "translation": "Svitlovodsk",
+  "mistranslations": [],
+  "aliases": [
+    "Свитловодск"
+  ],
+  "location": {
+    "latitude": 49.0833,
+    "longitude": 33.25
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Svitlovodsk",
+      "url": "https://en.wikipedia.org/wiki/Svitlovodsk"
+    }
+  ]
+}

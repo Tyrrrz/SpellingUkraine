@@ -1,0 +1,19 @@
+{
+  "category": "Geography",
+  "name": "Межова",
+  "translation": "Mezhova",
+  "mistranslations": [
+    "Meadow"
+  ],
+  "aliases": [],
+  "location": {
+    "latitude": 48.2563,
+    "longitude": 36.7313
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Mezhova",
+      "url": "https://en.wikipedia.org/wiki/Mezhova"
+    }
+  ]
+}

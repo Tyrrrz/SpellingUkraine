@@ -1,0 +1,24 @@
+{
+  "category": "Geography",
+  "name": "Солон",
+  "translation": "Solone",
+  "mistranslations": [
+    "Solon"
+  ],
+  "aliases": [
+    "Tak samotny",
+    "So einsam",
+    "Tan solitario",
+    "Soltone"
+  ],
+  "location": {
+    "latitude": 48.2054,
+    "longitude": 34.8686
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Solone",
+      "url": "https://en.wikipedia.org/wiki/Solone"
+    }
+  ]
+}

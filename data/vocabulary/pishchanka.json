@@ -1,0 +1,20 @@
+{
+  "category": "Geography",
+  "name": "Піщанка",
+  "translation": "Pishchanka",
+  "mistranslations": [],
+  "aliases": [
+    "Пишчанка",
+    "Pishanka"
+  ],
+  "location": {
+    "latitude": 48.2058,
+    "longitude": 28.8889
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Pishchanka",
+      "url": "https://en.wikipedia.org/wiki/Pishchanka"
+    }
+  ]
+}

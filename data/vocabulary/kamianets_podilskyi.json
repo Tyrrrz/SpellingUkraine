@@ -1,0 +1,17 @@
+{
+  "category": "Geography",
+  "name": "Кам'янець-Подільський",
+  "translation": "Kamianets-Podilskyi",
+  "mistranslations": [
+    "Kamian Podilsky"
+  ],
+  "aliases": [
+    "Камиан-Подильский",
+    "Kamianits-Podilskyi"
+  ],
+  "location": {
+    "latitude": 48.6806,
+    "longitude": 26.5806
+  },
+  "externalLinks": []
+}

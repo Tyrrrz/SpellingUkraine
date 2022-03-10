@@ -1,0 +1,17 @@
+{
+  "category": "Geography",
+  "name": "Золотоноша",
+  "translation": "Zolotonosha",
+  "mistranslations": [],
+  "aliases": [],
+  "location": {
+    "latitude": 49.6833,
+    "longitude": 32.0333
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Zolotonosha",
+      "url": "https://en.wikipedia.org/wiki/Zolotonosha"
+    }
+  ]
+}

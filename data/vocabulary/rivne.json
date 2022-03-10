@@ -1,0 +1,20 @@
+{
+  "category": "Geography",
+  "name": "Рідний",
+  "translation": "Rivne",
+  "mistranslations": [],
+  "aliases": [
+    "Ровна",
+    "River"
+  ],
+  "location": {
+    "latitude": 50.6197,
+    "longitude": 26.2514
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Rivne",
+      "url": "https://en.wikipedia.org/wiki/Rivne"
+    }
+  ]
+}

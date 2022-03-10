@@ -1,0 +1,22 @@
+{
+  "category": "Geography",
+  "name": "Богодухів",
+  "translation": "Bohodukhiv",
+  "mistranslations": [
+    "Bogoduhiv"
+  ],
+  "aliases": [
+    "Богодухив",
+    "Bohdukhiv"
+  ],
+  "location": {
+    "latitude": 50.1608,
+    "longitude": 35.5164
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Bohodukhiv",
+      "url": "https://en.wikipedia.org/wiki/Bohodukhiv"
+    }
+  ]
+}

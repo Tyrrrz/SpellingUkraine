@@ -1,0 +1,22 @@
+{
+  "category": "Geography",
+  "name": "Вордел",
+  "translation": "Vorzel",
+  "mistranslations": [
+    "Vorsel"
+  ],
+  "aliases": [
+    "Ворсель",
+    "Vorsprung"
+  ],
+  "location": {
+    "latitude": 50.55,
+    "longitude": 30.15
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Vorzel",
+      "url": "https://en.wikipedia.org/wiki/Vorzel"
+    }
+  ]
+}

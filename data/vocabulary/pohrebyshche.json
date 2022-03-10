@@ -1,0 +1,21 @@
+{
+  "category": "Geography",
+  "name": "Похребище",
+  "translation": "Pohrebyshche",
+  "mistranslations": [
+    "In favor"
+  ],
+  "aliases": [
+    "Похиребище"
+  ],
+  "location": {
+    "latitude": 49.4869,
+    "longitude": 29.2733
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Pohrebyshche",
+      "url": "https://en.wikipedia.org/wiki/Pohrebyshche"
+    }
+  ]
+}

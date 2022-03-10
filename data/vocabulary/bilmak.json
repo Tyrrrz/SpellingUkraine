@@ -1,0 +1,19 @@
+{
+  "category": "Geography",
+  "name": "Білмак",
+  "translation": "Bilmak",
+  "mistranslations": [],
+  "aliases": [
+    "Бильмак"
+  ],
+  "location": {
+    "latitude": 47.3589,
+    "longitude": 36.65
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Bilmak",
+      "url": "https://en.wikipedia.org/wiki/Bilmak"
+    }
+  ]
+}

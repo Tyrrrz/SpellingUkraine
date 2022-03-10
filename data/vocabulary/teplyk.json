@@ -1,0 +1,23 @@
+{
+  "category": "Geography",
+  "name": "Теплик",
+  "translation": "Teplyk",
+  "mistranslations": [
+    "Warm"
+  ],
+  "aliases": [
+    "Теплык",
+    "Teplok",
+    "Tieplyk"
+  ],
+  "location": {
+    "latitude": 48.6594,
+    "longitude": 29.7539
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Teplyk",
+      "url": "https://en.wikipedia.org/wiki/Teplyk"
+    }
+  ]
+}

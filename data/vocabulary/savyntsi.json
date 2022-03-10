@@ -1,0 +1,19 @@
+{
+  "category": "Geography",
+  "name": "Савинці",
+  "translation": "Savyntsi",
+  "mistranslations": [],
+  "aliases": [
+    "Savynssi"
+  ],
+  "location": {
+    "latitude": 49.4105,
+    "longitude": 37.0617
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Savyntsi",
+      "url": "https://en.wikipedia.org/wiki/Savyntsi"
+    }
+  ]
+}

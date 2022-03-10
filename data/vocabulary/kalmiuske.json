@@ -1,0 +1,22 @@
+{
+  "category": "Geography",
+  "name": "Калліске",
+  "translation": "Kalmiuske",
+  "mistranslations": [
+    "Kalmishe"
+  ],
+  "aliases": [
+    "Калмише",
+    "Kalmuske"
+  ],
+  "location": {
+    "latitude": 47.6667,
+    "longitude": 38.0667
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Kalmiuske",
+      "url": "https://en.wikipedia.org/wiki/Kalmiuske"
+    }
+  ]
+}

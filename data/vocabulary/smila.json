@@ -1,0 +1,21 @@
+{
+  "category": "Geography",
+  "name": "Смайлик",
+  "translation": "Smila",
+  "mistranslations": [
+    "Break"
+  ],
+  "aliases": [
+    "Смила"
+  ],
+  "location": {
+    "latitude": 49.2167,
+    "longitude": 31.8667
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Smila",
+      "url": "https://en.wikipedia.org/wiki/Smila"
+    }
+  ]
+}

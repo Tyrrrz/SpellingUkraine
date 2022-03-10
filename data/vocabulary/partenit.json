@@ -1,0 +1,22 @@
+{
+  "category": "Geography",
+  "name": "Партія",
+  "translation": "Partenit",
+  "mistranslations": [
+    "Partially"
+  ],
+  "aliases": [
+    "Частично",
+    "Parte"
+  ],
+  "location": {
+    "latitude": 44.5764,
+    "longitude": 34.3397
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Partenit",
+      "url": "https://en.wikipedia.org/wiki/Partenit"
+    }
+  ]
+}

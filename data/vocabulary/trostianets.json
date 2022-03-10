@@ -1,0 +1,25 @@
+{
+  "category": "Geography",
+  "name": "Тростіан",
+  "translation": "Trostianets",
+  "mistranslations": [
+    "Costns"
+  ],
+  "aliases": [
+    "Тростицы",
+    "Trostiales",
+    "Travesuras",
+    "Trostiats",
+    "Trostiante"
+  ],
+  "location": {
+    "latitude": 48.512,
+    "longitude": 29.2137
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Trostianets",
+      "url": "https://en.wikipedia.org/wiki/Trostianets"
+    }
+  ]
+}

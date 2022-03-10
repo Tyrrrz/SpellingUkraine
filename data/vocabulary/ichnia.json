@@ -1,0 +1,19 @@
+{
+  "category": "Geography",
+  "name": "Ічня",
+  "translation": "Ichnia",
+  "mistranslations": [],
+  "aliases": [
+    "Eichnia"
+  ],
+  "location": {
+    "latitude": 50.85,
+    "longitude": 32.4
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Ichnia",
+      "url": "https://en.wikipedia.org/wiki/Ichnia"
+    }
+  ]
+}

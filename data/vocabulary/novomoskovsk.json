@@ -1,0 +1,20 @@
+{
+  "category": "Geography",
+  "name": "Новомосковськ",
+  "translation": "Novomoskovsk",
+  "mistranslations": [],
+  "aliases": [
+    "Новомосковск",
+    "Novomaskovsk"
+  ],
+  "location": {
+    "latitude": 48.6328,
+    "longitude": 35.2239
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Novomoskovsk",
+      "url": "https://en.wikipedia.org/wiki/Novomoskovsk"
+    }
+  ]
+}

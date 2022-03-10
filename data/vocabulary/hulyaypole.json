@@ -1,0 +1,17 @@
+{
+  "category": "Geography",
+  "name": "Гуляйскол",
+  "translation": "Hulyaypole",
+  "mistranslations": [
+    "Huyaypole"
+  ],
+  "aliases": [
+    "Hullyypole",
+    "Hulyypole"
+  ],
+  "location": {
+    "latitude": 47.6644,
+    "longitude": 36.2632
+  },
+  "externalLinks": []
+}

@@ -1,0 +1,22 @@
+{
+  "category": "Geography",
+  "name": "Чугуїв",
+  "translation": "Chuhuiv",
+  "mistranslations": [
+    "Chukhyev"
+  ],
+  "aliases": [
+    "Чухуев",
+    "Chuhui"
+  ],
+  "location": {
+    "latitude": 49.8353,
+    "longitude": 36.6756
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Chuhuiv",
+      "url": "https://en.wikipedia.org/wiki/Chuhuiv"
+    }
+  ]
+}

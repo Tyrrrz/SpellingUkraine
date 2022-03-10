@@ -1,0 +1,19 @@
+{
+  "category": "Geography",
+  "name": "Цман",
+  "translation": "Tsuman",
+  "mistranslations": [],
+  "aliases": [
+    "Цуман"
+  ],
+  "location": {
+    "latitude": 50.8333,
+    "longitude": 25.8833
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Tsuman",
+      "url": "https://en.wikipedia.org/wiki/Tsuman"
+    }
+  ]
+}

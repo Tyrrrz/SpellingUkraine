@@ -1,0 +1,20 @@
+{
+  "category": "Geography",
+  "name": "Краматорськ",
+  "translation": "Kramatorsk",
+  "mistranslations": [],
+  "aliases": [
+    "Краматорск",
+    "Kramatork"
+  ],
+  "location": {
+    "latitude": 48.7208,
+    "longitude": 37.5556
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Kramatorsk",
+      "url": "https://en.wikipedia.org/wiki/Kramatorsk"
+    }
+  ]
+}

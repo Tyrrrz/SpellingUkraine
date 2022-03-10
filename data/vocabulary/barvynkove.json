@@ -1,0 +1,16 @@
+{
+  "category": "Geography",
+  "name": "Барвинков",
+  "translation": "Barvynkove",
+  "mistranslations": [
+    "Barvinkhov"
+  ],
+  "aliases": [
+    "Барвинхов"
+  ],
+  "location": {
+    "latitude": 48.9067,
+    "longitude": 37.0131
+  },
+  "externalLinks": []
+}

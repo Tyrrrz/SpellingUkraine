@@ -1,0 +1,16 @@
+{
+  "category": "Geography",
+  "name": "Lozuvatka",
+  "translation": "Lozuvatka",
+  "mistranslations": [
+    "Lomozvatka"
+  ],
+  "aliases": [
+    "Лозуватка"
+  ],
+  "location": {
+    "latitude": 48.061,
+    "longitude": 33.2927
+  },
+  "externalLinks": []
+}

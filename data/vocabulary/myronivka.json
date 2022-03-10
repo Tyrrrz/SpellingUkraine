@@ -1,0 +1,21 @@
+{
+  "category": "Geography",
+  "name": "Миронівка",
+  "translation": "Myronivka",
+  "mistranslations": [
+    "Mion"
+  ],
+  "aliases": [
+    "Мионовка"
+  ],
+  "location": {
+    "latitude": 49.65,
+    "longitude": 30.9833
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Myronivka",
+      "url": "https://en.wikipedia.org/wiki/Myronivka"
+    }
+  ]
+}

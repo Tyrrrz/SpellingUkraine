@@ -1,0 +1,19 @@
+{
+  "category": "Geography",
+  "name": "Стрей",
+  "translation": "Stryi",
+  "mistranslations": [],
+  "aliases": [
+    "Strryi"
+  ],
+  "location": {
+    "latitude": 49.25,
+    "longitude": 23.85
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Stryi",
+      "url": "https://en.wikipedia.org/wiki/Stryi"
+    }
+  ]
+}

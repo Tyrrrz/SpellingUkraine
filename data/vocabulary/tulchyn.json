@@ -1,0 +1,19 @@
+{
+  "category": "Geography",
+  "name": "Тульчин",
+  "translation": "Tulchyn",
+  "mistranslations": [
+    "Tulchin"
+  ],
+  "aliases": [],
+  "location": {
+    "latitude": 48.6744,
+    "longitude": 28.8497
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Tulchyn",
+      "url": "https://en.wikipedia.org/wiki/Tulchyn"
+    }
+  ]
+}

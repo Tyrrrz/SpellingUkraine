@@ -1,0 +1,22 @@
+{
+  "category": "Geography",
+  "name": "Верхньодніпровський",
+  "translation": "Verkhnodniprovsk",
+  "mistranslations": [
+    "Upperniprovsk"
+  ],
+  "aliases": [
+    "Верхмоднипровск",
+    "Verknodniprovsk"
+  ],
+  "location": {
+    "latitude": 48.6561,
+    "longitude": 34.3283
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Verkhnodniprovsk",
+      "url": "https://en.wikipedia.org/wiki/Verkhnodniprovsk"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "category": "Geography",
+  "name": "Кременчук",
+  "translation": "Kremenchuk",
+  "mistranslations": [],
+  "aliases": [],
+  "location": {
+    "latitude": 49.0775,
+    "longitude": 33.4239
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Kremenchuk",
+      "url": "https://en.wikipedia.org/wiki/Kremenchuk"
+    }
+  ]
+}

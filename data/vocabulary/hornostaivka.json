@@ -1,0 +1,17 @@
+{
+  "category": "Geography",
+  "name": "Горностаївка",
+  "translation": "Hornostaivka",
+  "mistranslations": [],
+  "aliases": [],
+  "location": {
+    "latitude": 47.007,
+    "longitude": 33.728
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Hornostaivka",
+      "url": "https://en.wikipedia.org/wiki/Hornostaivka"
+    }
+  ]
+}

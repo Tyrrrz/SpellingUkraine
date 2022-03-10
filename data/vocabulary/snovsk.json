@@ -1,0 +1,17 @@
+{
+  "category": "Geography",
+  "name": "Сновск",
+  "translation": "Snovsk",
+  "mistranslations": [],
+  "aliases": [],
+  "location": {
+    "latitude": 51.8167,
+    "longitude": 31.95
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Snovsk",
+      "url": "https://en.wikipedia.org/wiki/Snovsk"
+    }
+  ]
+}

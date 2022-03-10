@@ -1,0 +1,23 @@
+{
+  "category": "Geography",
+  "name": "Первомайський",
+  "translation": "Pervomaiskyi",
+  "mistranslations": [
+    "Pervomaysky"
+  ],
+  "aliases": [
+    "Первомайский",
+    "Pervomaiskii",
+    "Pervromaiskyi"
+  ],
+  "location": {
+    "latitude": 49.3869,
+    "longitude": 36.2142
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Pervomaiskyi",
+      "url": "https://en.wikipedia.org/wiki/Pervomaiskyi"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "category": "Geography",
+  "name": "Жвавий",
+  "translation": "Khust",
+  "mistranslations": [
+    "Hest"
+  ],
+  "aliases": [
+    "Хест"
+  ],
+  "location": {
+    "latitude": 48.1814,
+    "longitude": 23.2978
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Khust",
+      "url": "https://en.wikipedia.org/wiki/Khust"
+    }
+  ]
+}

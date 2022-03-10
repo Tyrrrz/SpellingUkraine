@@ -1,0 +1,21 @@
+{
+  "category": "Geography",
+  "name": "Болехів",
+  "translation": "Bolekhiv",
+  "mistranslations": [
+    "Brach"
+  ],
+  "aliases": [
+    "Болехав"
+  ],
+  "location": {
+    "latitude": 49.0669,
+    "longitude": 23.8514
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Bolekhiv",
+      "url": "https://en.wikipedia.org/wiki/Bolekhiv"
+    }
+  ]
+}

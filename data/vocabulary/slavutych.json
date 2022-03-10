@@ -1,0 +1,20 @@
+{
+  "category": "Geography",
+  "name": "Славутич",
+  "translation": "Slavutych",
+  "mistranslations": [],
+  "aliases": [
+    "Slavutique",
+    "Slavtych"
+  ],
+  "location": {
+    "latitude": 51.5206,
+    "longitude": 30.7569
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Slavutych",
+      "url": "https://en.wikipedia.org/wiki/Slavutych"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "category": "Geography",
+  "name": "Диканка",
+  "translation": "Dykanka",
+  "mistranslations": [
+    "Dykunk"
+  ],
+  "aliases": [
+    "Дыканка"
+  ],
+  "location": {
+    "latitude": 49.8222,
+    "longitude": 34.5341
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Dykanka",
+      "url": "https://en.wikipedia.org/wiki/Dykanka"
+    }
+  ]
+}

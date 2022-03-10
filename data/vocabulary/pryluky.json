@@ -1,0 +1,21 @@
+{
+  "category": "Geography",
+  "name": "Прілуки",
+  "translation": "Pryluky",
+  "mistranslations": [
+    "Priluki"
+  ],
+  "aliases": [
+    "Прилуки"
+  ],
+  "location": {
+    "latitude": 50.6,
+    "longitude": 32.4
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Pryluky",
+      "url": "https://en.wikipedia.org/wiki/Pryluky"
+    }
+  ]
+}
