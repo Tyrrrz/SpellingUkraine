@@ -1,12 +1,13 @@
 {
   "category": "Geography",
-  "name": "Чемерцці",
+  "name": "Чемерівці",
   "translation": "Chemerivtsi",
   "mistranslations": [
-    "Chemistry"
+    "Chemerovtsi",
+    "Chemerovtsy"
   ],
   "aliases": [
-    "Химиеривцы"
+    "Чемеровцы"
   ],
   "location": {
     "latitude": 49,
