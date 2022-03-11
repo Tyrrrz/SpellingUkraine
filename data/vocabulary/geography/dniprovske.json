@@ -3,10 +3,11 @@
   "name": "Дніпровське",
   "translation": "Dniprovske",
   "mistranslations": [
-    "Dniprovsk"
+    "Dnieprovskoe",
+    "Dneprovskoye"
   ],
   "aliases": [
-    "Днепровске"
+    "Днепровское"
   ],
   "location": {
     "latitude": 48.5953,

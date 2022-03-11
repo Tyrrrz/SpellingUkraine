@@ -1,15 +1,13 @@
 {
   "category": "Geography",
-  "name": "Добробство",
+  "name": "Добротвір",
   "translation": "Dobrotvir",
   "mistranslations": [
-    "Doblogovir"
+    "Dobrotvor"
   ],
   "aliases": [
-    "Добротвир",
-    "Dobrotwir",
-    "Dobrobilvir",
-    "Dobrovir"
+    "Добротвор",
+    "Dobrotwór"
   ],
   "location": {
     "latitude": 50.2056,

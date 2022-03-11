@@ -1,14 +1,14 @@
 {
   "category": "Geography",
-  "name": "Дубльований",
+  "name": "Дубове",
   "translation": "Dubove",
   "mistranslations": [
-    "Dubov"
+    "Dubovoe"
   ],
   "aliases": [
-    "Дубов",
-    "Dubocha",
-    "Dämmern"
+    "Дубовое",
+    "Dombó",
+    "Delureni"
   ],
   "location": {
     "latitude": 48.1781,
@@ -17,7 +17,7 @@
   "externalLinks": [
     {
       "name": "Wikipedia: Dubove",
-      "url": "https://en.wikipedia.org/wiki/Dubove"
+      "url": "https://en.wikipedia.org/wiki/Dubove,_Zakarpattia_Oblast"
     }
   ]
 }

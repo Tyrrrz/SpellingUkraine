@@ -2,12 +2,8 @@
   "category": "Geography",
   "name": "Дубно",
   "translation": "Dubno",
-  "mistranslations": [
-    "Kind"
-  ],
-  "aliases": [
-    "Добрый"
-  ],
+  "mistranslations": [],
+  "aliases": [],
   "location": {
     "latitude": 50.3931,
     "longitude": 25.735

@@ -1,12 +1,12 @@
 {
   "category": "Geography",
-  "name": "Драбіт",
+  "name": "Драбів",
   "translation": "Drabiv",
-  "mistranslations": [],
+  "mistranslations": [
+    "Drabov"
+  ],
   "aliases": [
-    "Драбив",
-    "Drabion",
-    "Drabivo"
+    "Драбов"
   ],
   "location": {
     "latitude": 49.9603,

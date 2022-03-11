@@ -1,13 +1,11 @@
 {
   "category": "Geography",
-  "name": "Диканка",
+  "name": "Диканька",
   "translation": "Dykanka",
   "mistranslations": [
-    "Dykunk"
+    "Dikanka"
   ],
-  "aliases": [
-    "Дыканка"
-  ],
+  "aliases": [],
   "location": {
     "latitude": 49.8222,
     "longitude": 34.5341

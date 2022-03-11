@@ -1,12 +1,12 @@
 {
   "category": "Geography",
-  "name": "Доблесний",
+  "name": "Доброслав",
   "translation": "Dobroslav",
-  "mistranslations": [],
-  "aliases": [
-    "Доброслав",
-    "Dobroslavo"
+  "mistranslations": [
+    "Kominternivske"
   ],
+  "aliases": [],
+  "description": "Renamed from \"Kominternivske\" in May 2016.",
   "location": {
     "latitude": 46.82,
     "longitude": 30.945
@@ -14,7 +14,7 @@
   "externalLinks": [
     {
       "name": "Wikipedia: Dobroslav",
-      "url": "https://en.wikipedia.org/wiki/Dobroslav"
+      "url": "https://en.wikipedia.org/wiki/Dobroslav,_Ukraine"
     }
   ]
 }

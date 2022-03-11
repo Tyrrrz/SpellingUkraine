@@ -3,9 +3,12 @@
   "name": "Джанкой",
   "translation": "Dzhankoi",
   "mistranslations": [
-    "Janka"
+    "Jankoy"
   ],
-  "aliases": [],
+  "aliases": [
+    "Dshankoj",
+    "Canköy"
+  ],
   "location": {
     "latitude": 45.7086,
     "longitude": 34.3933

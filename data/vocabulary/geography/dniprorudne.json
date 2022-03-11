@@ -3,11 +3,12 @@
   "name": "Дніпрорудне",
   "translation": "Dniprorudne",
   "mistranslations": [
-    "Dneprudne"
+    "Dnieprorudne",
+    "Dneprorudnoye",
+    "Dnieprorudnoye"
   ],
   "aliases": [
-    "Днепрорудне",
-    "Dnidrorudne"
+    "Днепрорудное"
   ],
   "location": {
     "latitude": 47.3855,

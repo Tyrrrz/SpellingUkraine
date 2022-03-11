@@ -2,8 +2,12 @@
   "category": "Geography",
   "name": "Дружківка",
   "translation": "Druzhkivka",
-  "mistranslations": [],
-  "aliases": [],
+  "mistranslations": [
+    "Druzhkovka"
+  ],
+  "aliases": [
+    "Дружковка"
+  ],
   "location": {
     "latitude": 48.6203,
     "longitude": 37.5278
