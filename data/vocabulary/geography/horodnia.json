@@ -1,13 +1,12 @@
 {
   "category": "Geography",
-  "name": "Городянин",
+  "name": "Городня",
   "translation": "Horodnia",
   "mistranslations": [
-    "Gorodia"
+    "Gorodnia",
+    "Gorodnya"
   ],
-  "aliases": [
-    "Городния"
-  ],
+  "aliases": [],
   "location": {
     "latitude": 51.8833,
     "longitude": 31.5833

@@ -3,10 +3,10 @@
   "name": "Городок",
   "translation": "Horodok",
   "mistranslations": [
-    "Town"
+    "Gorodok"
   ],
   "aliases": [
-    "Arodok"
+    "Городок"
   ],
   "location": {
     "latitude": 49.1667,
@@ -15,7 +15,7 @@
   "externalLinks": [
     {
       "name": "Wikipedia: Horodok",
-      "url": "https://en.wikipedia.org/wiki/Horodok"
+      "url": "https://en.wikipedia.org/wiki/Horodok,_Khmelnytskyi_Oblast"
     }
   ]
 }

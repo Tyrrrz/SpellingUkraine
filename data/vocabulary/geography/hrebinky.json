@@ -1,9 +1,13 @@
 {
   "category": "Geography",
-  "name": "Хребінка",
+  "name": "Гребінки",
   "translation": "Hrebinky",
-  "mistranslations": [],
-  "aliases": [],
+  "mistranslations": [
+    "Grebenki"
+  ],
+  "aliases": [
+    "Гребёнки"
+  ],
   "location": {
     "latitude": 49.9564,
     "longitude": 30.1714

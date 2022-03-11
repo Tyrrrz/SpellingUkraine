@@ -2,8 +2,12 @@
   "category": "Geography",
   "name": "Гребінка",
   "translation": "Hrebinka",
-  "mistranslations": [],
-  "aliases": [],
+  "mistranslations": [
+    "Grebenka"
+  ],
+  "aliases": [
+    "Гребёнка"
+  ],
   "location": {
     "latitude": 50.118,
     "longitude": 32.4396

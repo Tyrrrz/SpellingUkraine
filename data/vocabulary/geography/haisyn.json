@@ -1,10 +1,12 @@
 {
   "category": "Geography",
-  "name": "Хайсин",
+  "name": "Гайсин",
   "translation": "Haisyn",
-  "mistranslations": [],
+  "mistranslations": [
+    "Haysyn"
+  ],
   "aliases": [
-    "Haisiyn"
+    "Hajsyn"
   ],
   "location": {
     "latitude": 48.8094,

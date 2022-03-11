@@ -1,12 +1,13 @@
 {
   "category": "Geography",
-  "name": "Готель",
+  "name": "Гостомель",
   "translation": "Hostomel",
   "mistranslations": [
+    "Gostomel",
     "Hostemel"
   ],
   "aliases": [
-    "Хостемель"
+    "Гостомель"
   ],
   "location": {
     "latitude": 50.5692,

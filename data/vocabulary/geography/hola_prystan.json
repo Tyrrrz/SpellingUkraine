@@ -1,17 +1,22 @@
 {
   "category": "Geography",
-  "name": "Хола Пристань",
+  "name": "Гола Пристань",
   "translation": "Hola Prystan",
   "mistranslations": [
-    "Hola Pryster"
+    "Gola Prystan",
+    "Golaya Pristan"
   ],
   "aliases": [
-    "Hola Pryster",
-    "Hola Prystán"
+    "Голая Пристань"
   ],
   "location": {
     "latitude": 46.5167,
     "longitude": 32.5167
   },
-  "externalLinks": []
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Hola Prystan",
+      "url": "https://en.wikipedia.org/wiki/Hola_Prystan"
+    }
+  ]
 }

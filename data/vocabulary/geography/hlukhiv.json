@@ -3,10 +3,12 @@
   "name": "Глухів",
   "translation": "Hlukhiv",
   "mistranslations": [
-    "Glukhov"
+    "Glukhov",
+    "Gluhov"
   ],
   "aliases": [
-    "Глухов"
+    "Глухов",
+    "Głuchów"
   ],
   "location": {
     "latitude": 51.6765,
