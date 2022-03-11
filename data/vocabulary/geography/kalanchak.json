@@ -2,12 +2,8 @@
   "category": "Geography",
   "name": "Каланчак",
   "translation": "Kalanchak",
-  "mistranslations": [
-    "Kalankak"
-  ],
-  "aliases": [
-    "Каланкак"
-  ],
+  "mistranslations": [],
+  "aliases": [],
   "location": {
     "latitude": 46.255,
     "longitude": 33.2906

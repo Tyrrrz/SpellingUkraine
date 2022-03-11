@@ -1,9 +1,14 @@
 {
   "category": "Geography",
-  "name": "Kivertsi",
+  "name": "Ківерці",
   "translation": "Kivertsi",
-  "mistranslations": [],
-  "aliases": [],
+  "mistranslations": [
+    "Kivertsy"
+  ],
+  "aliases": [
+    "Киверцы",
+    "Kiwerce"
+  ],
   "location": {
     "latitude": 50.8331,
     "longitude": 25.4614

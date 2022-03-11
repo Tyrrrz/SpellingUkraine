@@ -2,7 +2,9 @@
   "category": "Geography",
   "name": "Херсон",
   "translation": "Kherson",
-  "mistranslations": [],
+  "mistranslations": [
+    "Herson"
+  ],
   "aliases": [],
   "location": {
     "latitude": 46.6333,

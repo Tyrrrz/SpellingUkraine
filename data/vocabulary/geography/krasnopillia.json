@@ -1,12 +1,14 @@
 {
   "category": "Geography",
   "name": "Краснопілля",
-  "translation": "Krasnopillya",
+  "translation": "Krasnopillia",
   "mistranslations": [
-    "Krasnopilly"
+    "Krasnopillya",
+    "Krasnopolie",
+    "Krasnopolye"
   ],
   "aliases": [
-    "Краснопилли"
+    "Краснополье"
   ],
   "location": {
     "latitude": 50.7732,
@@ -14,8 +16,8 @@
   },
   "externalLinks": [
     {
-      "name": "Wikipedia: Krasnopillya",
-      "url": "https://en.wikipedia.org/wiki/Krasnopillya"
+      "name": "Wikipedia: Krasnopillia",
+      "url": "https://en.wikipedia.org/wiki/Krasnopillia"
     }
   ]
 }

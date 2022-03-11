@@ -1,12 +1,11 @@
 {
   "category": "Geography",
-  "name": "Красноїлськ",
+  "name": "Красноїльськ",
   "translation": "Krasnoilsk",
-  "mistranslations": [
-    "Krasnoywsk"
-  ],
+  "mistranslations": [],
   "aliases": [
-    "Красноилск"
+    "Красноилск",
+    "Crasna-Ilschi"
   ],
   "location": {
     "latitude": 48.0167,

@@ -2,7 +2,10 @@
   "category": "Geography",
   "name": "Кропивницький",
   "translation": "Kropyvnytskyi",
-  "mistranslations": [],
+  "mistranslations": [
+    "Kropivnitskyi",
+    "Kropivnitskiy"
+  ],
   "aliases": [
     "Кропивницкий"
   ],

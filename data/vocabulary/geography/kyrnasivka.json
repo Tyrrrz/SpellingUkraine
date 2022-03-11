@@ -1,12 +1,13 @@
 {
   "category": "Geography",
-  "name": "Кирнативка",
+  "name": "Кирнасівка",
   "translation": "Kyrnasivka",
-  "mistranslations": [],
+  "mistranslations": [
+    "Kyrnasovka",
+    "Kirnasovka"
+  ],
   "aliases": [
-    "Кырнасивка",
-    "Kynasivka",
-    "Kyrnasiwka"
+    "Кирнасовка"
   ],
   "location": {
     "latitude": 48.5914,

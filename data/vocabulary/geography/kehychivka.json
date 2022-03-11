@@ -1,11 +1,12 @@
 {
   "category": "Geography",
-  "name": "Кехиківка",
+  "name": "Кегичівка",
   "translation": "Kehychivka",
-  "mistranslations": [],
+  "mistranslations": [
+    "Kegichevka"
+  ],
   "aliases": [
-    "Khohechivka",
-    "Khychivka"
+    "Кегичёвка"
   ],
   "location": {
     "latitude": 49.2858,

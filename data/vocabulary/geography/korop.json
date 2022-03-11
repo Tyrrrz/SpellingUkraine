@@ -1,11 +1,9 @@
 {
   "category": "Geography",
-  "name": "Корот",
+  "name": "Короп",
   "translation": "Korop",
   "mistranslations": [],
-  "aliases": [
-    "Короп"
-  ],
+  "aliases": [],
   "location": {
     "latitude": 51.5661,
     "longitude": 32.9508

@@ -2,9 +2,12 @@
   "category": "Geography",
   "name": "Ходорів",
   "translation": "Khodoriv",
-  "mistranslations": [],
+  "mistranslations": [
+    "Khodorov"
+  ],
   "aliases": [
-    "Ходорив"
+    "Ходоров",
+    "Chodorów"
   ],
   "location": {
     "latitude": 49.41,

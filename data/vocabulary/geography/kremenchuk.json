@@ -2,7 +2,9 @@
   "category": "Geography",
   "name": "Кременчук",
   "translation": "Kremenchuk",
-  "mistranslations": [],
+  "mistranslations": [
+    "Kremenchug"
+  ],
   "aliases": [],
   "location": {
     "latitude": 49.0775,

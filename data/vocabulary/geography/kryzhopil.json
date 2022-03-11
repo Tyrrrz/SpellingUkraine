@@ -2,11 +2,11 @@
   "category": "Geography",
   "name": "Крижопіль",
   "translation": "Kryzhopil",
-  "mistranslations": [],
+  "mistranslations": [
+    "Kryzhopol"
+  ],
   "aliases": [
-    "Крыжопил",
-    "Krryzhopil",
-    "Kryzhopilo"
+    "Крыжополь"
   ],
   "location": {
     "latitude": 48.3842,

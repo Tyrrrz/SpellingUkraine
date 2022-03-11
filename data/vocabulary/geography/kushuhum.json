@@ -1,8 +1,10 @@
 {
   "category": "Geography",
-  "name": "Кушумум",
+  "name": "Кушугум",
   "translation": "Kushuhum",
-  "mistranslations": [],
+  "mistranslations": [
+    "Kushugum"
+  ],
   "aliases": [],
   "location": {
     "latitude": 47.7106,

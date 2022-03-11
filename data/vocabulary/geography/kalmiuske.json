@@ -1,14 +1,17 @@
 {
   "category": "Geography",
-  "name": "Калліске",
+  "name": "Кальміуське",
   "translation": "Kalmiuske",
   "mistranslations": [
-    "Kalmishe"
+    "Komsomolske",
+    "Komsomolskoye",
+    "Kalmiske"
   ],
   "aliases": [
-    "Калмише",
-    "Kalmuske"
+    "Кальмиусское",
+    "Комсомольское"
   ],
+  "description": "Renamed from \"Komsomolske\" in May 2016.",
   "location": {
     "latitude": 47.6667,
     "longitude": 38.0667

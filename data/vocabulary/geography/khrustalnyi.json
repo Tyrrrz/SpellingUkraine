@@ -3,11 +3,16 @@
   "name": "Хрустальний",
   "translation": "Khrustalnyi",
   "mistranslations": [
-    "Crystal"
+    "Krasnyi Luch",
+    "Kryndachivka",
+    "Krindachyovka"
   ],
   "aliases": [
-    "Хрустальный"
+    "Криндачівка",
+    "Хрустальный",
+    "Красный Луч"
   ],
+  "description": "Renamed from \"Kryndachivka\" in May 2016.",
   "location": {
     "latitude": 48.1214,
     "longitude": 38.9453

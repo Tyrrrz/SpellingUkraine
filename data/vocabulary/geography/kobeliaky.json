@@ -3,13 +3,10 @@
   "name": "Кобеляки",
   "translation": "Kobeliaky",
   "mistranslations": [
-    "Cossalism"
+    "Kobelyaky",
+    "Kobelyaki"
   ],
-  "aliases": [
-    "Кобетельство",
-    "Kobeliky",
-    "Kobeliago"
-  ],
+  "aliases": [],
   "location": {
     "latitude": 49.1474,
     "longitude": 34.1993

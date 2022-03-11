@@ -3,11 +3,16 @@
   "name": "Хорошів",
   "translation": "Khoroshiv",
   "mistranslations": [
-    "Good"
+    "Khoroshev",
+    "Khorochev",
+    "Volodarsk-Volynskyi"
   ],
   "aliases": [
-    "Хорошив"
+    "Хорошев",
+    "Володарськ-Волинський",
+    "Володарск-Волынский"
   ],
+  "description": "Renamed from \"Volodarsk-Volynskyi\" in 2015.",
   "location": {
     "latitude": 50.6,
     "longitude": 28.45

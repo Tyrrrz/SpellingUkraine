@@ -2,10 +2,11 @@
   "category": "Geography",
   "name": "Коростень",
   "translation": "Korosten",
-  "mistranslations": [],
+  "mistranslations": [
+    "Iskorosten"
+  ],
   "aliases": [
-    "Коростен",
-    "Korosteno"
+    "Іскоростень"
   ],
   "location": {
     "latitude": 50.95,

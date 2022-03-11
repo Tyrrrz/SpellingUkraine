@@ -1,11 +1,14 @@
 {
   "category": "Geography",
-  "name": "Kozityn",
+  "name": "Козятин",
   "translation": "Koziatyn",
-  "mistranslations": [],
+  "mistranslations": [
+    "Kozyatyn",
+    "Kazatin"
+  ],
   "aliases": [
-    "Козиатын",
-    "Koziytyn"
+    "Казатин",
+    "Koziatyn"
   ],
   "location": {
     "latitude": 49.7167,

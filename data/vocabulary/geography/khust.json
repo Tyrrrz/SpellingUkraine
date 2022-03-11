@@ -1,12 +1,13 @@
 {
   "category": "Geography",
-  "name": "Жвавий",
+  "name": "Хуст",
   "translation": "Khust",
   "mistranslations": [
-    "Hest"
+    "Hust"
   ],
   "aliases": [
-    "Хест"
+    "Chust",
+    "Huszt"
   ],
   "location": {
     "latitude": 48.1814,

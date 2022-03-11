@@ -1,13 +1,17 @@
 {
   "category": "Geography",
-  "name": "Кам'янський",
+  "name": "Кам'янське",
   "translation": "Kamianske",
   "mistranslations": [
-    "Kamaskaya"
+    "Kamyanske",
+    "Dniprodzerzhynsk",
+    "Dneprodzerzhinsk"
   ],
   "aliases": [
-    "Камясская"
+    "Каменское",
+    "Днепродзержинск"
   ],
+  "description": "Renamed from \"Dniprodzerzhynsk\" in May 2016.",
   "location": {
     "latitude": 48.5076,
     "longitude": 34.6132

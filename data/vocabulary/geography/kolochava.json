@@ -2,13 +2,8 @@
   "category": "Geography",
   "name": "Колочава",
   "translation": "Kolochava",
-  "mistranslations": [
-    "Colochav"
-  ],
-  "aliases": [
-    "Kolosava",
-    "Kolochva"
-  ],
+  "mistranslations": [],
+  "aliases": [],
   "location": {
     "latitude": 48.4266,
     "longitude": 23.6984

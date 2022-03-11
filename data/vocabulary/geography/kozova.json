@@ -3,7 +3,9 @@
   "name": "Козова",
   "translation": "Kozova",
   "mistranslations": [],
-  "aliases": [],
+  "aliases": [
+    "Kozowa"
+  ],
   "location": {
     "latitude": 49.4318,
     "longitude": 25.1544

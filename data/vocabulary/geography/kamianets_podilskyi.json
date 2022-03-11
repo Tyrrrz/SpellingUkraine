@@ -3,15 +3,23 @@
   "name": "Кам'янець-Подільський",
   "translation": "Kamianets-Podilskyi",
   "mistranslations": [
-    "Kamian Podilsky"
+    "Kamenets-Podolskiy",
+    "Kamyanets-Podilskyi",
+    "Kamianets-Podolskyi"
   ],
   "aliases": [
-    "Камиан-Подильский",
-    "Kamianits-Podilskyi"
+    "Каменец-Подольский",
+    "Kamieniec Podolski",
+    "Camenița"
   ],
   "location": {
     "latitude": 48.6806,
     "longitude": 26.5806
   },
-  "externalLinks": []
+  "externalLinks": [
+    {
+      "name": "Kamianets-Podilskyi",
+      "url": "https://en.wikipedia.org/wiki/Kamianets-Podilskyi"
+    }
+  ]
 }

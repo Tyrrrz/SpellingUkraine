@@ -3,9 +3,14 @@
   "name": "Коломия",
   "translation": "Kolomyia",
   "mistranslations": [
-    "Kolomia"
+    "Kolomia",
+    "Kolomea"
   ],
-  "aliases": [],
+  "aliases": [
+    "Коломия",
+    "Kołomyja",
+    "Colomeea"
+  ],
   "location": {
     "latitude": 48.5167,
     "longitude": 25.0333

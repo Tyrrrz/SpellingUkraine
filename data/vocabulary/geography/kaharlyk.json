@@ -1,13 +1,13 @@
 {
   "category": "Geography",
-  "name": "Кахарлик",
+  "name": "Кагарлик",
   "translation": "Kaharlyk",
   "mistranslations": [
-    "Kararlyk"
+    "Kagarlyk",
+    "Kagarlik"
   ],
   "aliases": [
-    "Карарлык",
-    "Kaharskik"
+    "Кагарлык"
   ],
   "location": {
     "latitude": 49.8522,

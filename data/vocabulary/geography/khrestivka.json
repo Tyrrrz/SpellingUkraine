@@ -1,14 +1,18 @@
 {
   "category": "Geography",
-  "name": "Хрестивка",
+  "name": "Хрестівка",
   "translation": "Khrestivka",
   "mistranslations": [
-    "Khrechevka"
+    "Khrestovka",
+    "Kirovske",
+    "Kirovskoe"
   ],
   "aliases": [
-    "Хрещевка",
-    "Khestivka"
+    "Крестовка",
+    "Кіровське",
+    "Кировское"
   ],
+  "description": "Renamed from \"Kirovske\" in May 2016.",
   "location": {
     "latitude": 48.15,
     "longitude": 38.3667

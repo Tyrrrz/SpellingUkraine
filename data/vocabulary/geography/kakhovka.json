@@ -2,7 +2,9 @@
   "category": "Geography",
   "name": "Каховка",
   "translation": "Kakhovka",
-  "mistranslations": [],
+  "mistranslations": [
+    "Kahovka"
+  ],
   "aliases": [],
   "location": {
     "latitude": 46.8,

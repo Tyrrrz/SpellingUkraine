@@ -1,16 +1,22 @@
 {
   "category": "Geography",
-  "name": "Камін-Каширський",
+  "name": "Камінь-Каширський",
   "translation": "Kamin-Kashyrskyi",
   "mistranslations": [
-    "Fireplace Kashirsky"
+    "Kamen-Kashyrskyi"
   ],
   "aliases": [
-    "Камин-Каширский"
+    "Камень-Каширский",
+    "Kamień Koszyrski"
   ],
   "location": {
     "latitude": 51.6242,
     "longitude": 24.9606
   },
-  "externalLinks": []
+  "externalLinks": [
+    {
+      "name": "Kamin-Kashyrskyi",
+      "url": "https://en.wikipedia.org/wiki/Kamin-Kashyrskyi"
+    }
+  ]
 }

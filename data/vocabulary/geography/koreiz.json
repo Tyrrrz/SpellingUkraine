@@ -1,12 +1,11 @@
 {
   "category": "Geography",
-  "name": "Корей",
+  "name": "Кореїз",
   "translation": "Koreiz",
-  "mistranslations": [
-    "Corimiz"
-  ],
+  "mistranslations": [],
   "aliases": [
-    "Кориз"
+    "Кореиз",
+    "Koreiz"
   ],
   "location": {
     "latitude": 44.4331,

@@ -2,12 +2,11 @@
   "category": "Geography",
   "name": "Кременець",
   "translation": "Kremenets",
-  "mistranslations": [
-    "Kremenz"
-  ],
+  "mistranslations": [],
   "aliases": [
-    "Кременс",
-    "Kremeten"
+    "Кременец",
+    "Крем'янець",
+    "Krzemieniec"
   ],
   "location": {
     "latitude": 50.1081,

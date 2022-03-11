@@ -6,12 +6,16 @@
     "Kamenka-Dneprovskaya"
   ],
   "aliases": [
-    "Камянка-Днепровская",
-    "Kamiana-Dniprovska"
+    "Каменка-Днепровская"
   ],
   "location": {
     "latitude": 47.4792,
     "longitude": 34.4232
   },
-  "externalLinks": []
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Kamianka-Dniprovska",
+      "url": "https://en.wikipedia.org/wiki/Kamianka-Dniprovska"
+    }
+  ]
 }
