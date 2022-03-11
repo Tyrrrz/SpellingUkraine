@@ -1,0 +1,21 @@
+{
+  "category": "Geography",
+  "name": "Авдіївка",
+  "translation": "Avdiivka",
+  "mistranslations": [
+    "Avdeevka"
+  ],
+  "aliases": [
+    "Авдеевка"
+  ],
+  "location": {
+    "latitude": 48.1333,
+    "longitude": 37.75
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Avdiivka",
+      "url": "https://en.wikipedia.org/wiki/Avdiivka"
+    }
+  ]
+}

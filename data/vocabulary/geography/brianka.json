@@ -1,0 +1,19 @@
+{
+  "category": "Geography",
+  "name": "Брянка",
+  "translation": "Brianka",
+  "mistranslations": [
+    "Bryanka"
+  ],
+  "aliases": [],
+  "location": {
+    "latitude": 48.5133,
+    "longitude": 38.6431
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Brianka",
+      "url": "https://en.wikipedia.org/wiki/Brianka"
+    }
+  ]
+}

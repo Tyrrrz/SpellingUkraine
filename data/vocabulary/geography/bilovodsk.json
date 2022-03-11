@@ -1,0 +1,21 @@
+{
+  "category": "Geography",
+  "name": "Біловодськ",
+  "translation": "Bilovodsk",
+  "mistranslations": [
+    "Belovodsk"
+  ],
+  "aliases": [
+    "Беловодск"
+  ],
+  "location": {
+    "latitude": 49.1992,
+    "longitude": 39.5756
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Bilovodsk",
+      "url": "https://en.wikipedia.org/wiki/Bilovodsk"
+    }
+  ]
+}

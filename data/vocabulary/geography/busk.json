@@ -1,0 +1,20 @@
+{
+  "category": "Geography",
+  "name": "Буськ",
+  "translation": "Busk",
+  "mistranslations": [
+  ],
+  "aliases": [
+    "Буск"
+  ],
+  "location": {
+    "latitude": 49.9667,
+    "longitude": 24.6167
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Busk",
+      "url": "https://en.wikipedia.org/wiki/Busk,_Ukraine"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "category": "Geography",
+  "name": "Білгород-Дністровський",
+  "translation": "Bilhorod-Dnistrovskyi",
+  "mistranslations": [
+    "Bilhorod-Dnestrovsky",
+    "Belgorod-Dnestrovskiy"
+  ],
+  "aliases": [
+    "Белгород-Днестровский"
+  ],
+  "location": {
+    "latitude": 46.1833,
+    "longitude": 30.3333
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Bilhorod-Dnistrovskyi",
+      "url": "https://en.wikipedia.org/wiki/Bilhorod-Dnistrovskyi"
+    }
+  ]
+}

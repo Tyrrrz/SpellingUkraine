@@ -1,0 +1,23 @@
+{
+  "category": "Geography",
+  "name": "Апостолове",
+  "translation": "Apostolove",
+  "mistranslations": [
+    "Apostolovo"
+  ],
+  "aliases": [
+    "Апостолово",
+    "Apostolen",
+    "Apostolave"
+  ],
+  "location": {
+    "latitude": 47.6595,
+    "longitude": 33.717
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Apostolove",
+      "url": "https://en.wikipedia.org/wiki/Apostolove"
+    }
+  ]
+}

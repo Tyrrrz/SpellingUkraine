@@ -1,0 +1,17 @@
+{
+  "category": "Geography",
+  "name": "Броди",
+  "translation": "Brody",
+  "mistranslations": [],
+  "aliases": [],
+  "location": {
+    "latitude": 50.0781,
+    "longitude": 25.1542
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Brody",
+      "url": "https://en.wikipedia.org/wiki/Brody"
+    }
+  ]
+}

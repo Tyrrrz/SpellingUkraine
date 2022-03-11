@@ -1,0 +1,24 @@
+{
+  "category": "Geography",
+  "name": "Берегове",
+  "translation": "Berehove",
+  "mistranslations": [
+    "Beregove",
+    "Beregovo",
+    "Beregovoe"
+  ],
+  "aliases": [
+    "Береговое",
+    "Beregszász"
+  ],
+  "location": {
+    "latitude": 48.2025,
+    "longitude": 22.6375
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Berehove",
+      "url": "https://en.wikipedia.org/wiki/Berehove"
+    }
+  ]
+}

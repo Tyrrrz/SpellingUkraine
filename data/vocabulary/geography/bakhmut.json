@@ -1,0 +1,22 @@
+{
+  "category": "Geography",
+  "name": "Бахмут",
+  "translation": "Bakhmut",
+  "mistranslations": [
+    "Bahmut"
+  ],
+  "aliases": [
+    "Artemivsk",
+    "Artyomovsk"
+  ],
+  "location": {
+    "latitude": 48.6044,
+    "longitude": 38.0067
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Bakhmut",
+      "url": "https://en.wikipedia.org/wiki/Bakhmut"
+    }
+  ]
+}

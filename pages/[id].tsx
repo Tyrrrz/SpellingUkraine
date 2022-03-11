@@ -2,7 +2,7 @@ import { GetStaticPaths, GetStaticProps, NextPage } from 'next';
 import Head from 'next/head';
 import React from 'react';
 import { FiChevronLeft, FiEdit3, FiExternalLink, FiVolume1, FiVolume2, FiX } from 'react-icons/fi';
-import { getVocabularyEntry, getVocabularyIds, VocabularyEntry } from '../data/vocabulary';
+import { getVocabulary, getVocabularyEntry, VocabularyEntry } from '../data/vocabulary';
 import { HStack } from '../shared/hstack';
 import { Link } from '../shared/link';
 import { pronounce } from '../utils/tts';
@@ -100,17 +100,19 @@ const EntryPage: NextPage<StaticProps> = ({ entry }) => {
 
 export const getStaticPaths: GetStaticPaths = () => {
   return {
-    paths: getVocabularyIds().map((id) => ({
-      params: { id }
+    paths: getVocabulary().map((entry) => ({
+      params: { id: entry.id }
     })),
     fallback: false
   };
 };
 
 export const getStaticProps: GetStaticProps<StaticProps> = ({ params }) => {
+  const id = params?.id as string;
+
   return {
     props: {
-      entry: getVocabularyEntry(params?.id as string)
+      entry: getVocabularyEntry(id as string)
     }
   };
 };

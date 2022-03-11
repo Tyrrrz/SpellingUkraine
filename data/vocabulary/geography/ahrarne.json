@@ -1,0 +1,17 @@
+{
+  "category": "Geography",
+  "name": "Аграрне",
+  "translation": "Ahrarne",
+  "mistranslations": [
+    "Agrarne",
+    "Agrarnoe"
+  ],
+  "aliases": [
+    "Аграрное"
+  ],
+  "location": {
+    "latitude": 45.0186,
+    "longitude": 34.0544
+  },
+  "externalLinks": []
+}
