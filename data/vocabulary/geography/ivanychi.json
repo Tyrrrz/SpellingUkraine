@@ -1,12 +1,13 @@
 {
   "category": "Geography",
-  "name": "Ivanychi",
+  "name": "Іваничі",
   "translation": "Ivanychi",
   "mistranslations": [
-    "Ivanko"
+    "Ivanichi"
   ],
   "aliases": [
-    "Иваньчи"
+    "Иваничи",
+    "Iwanicze"
   ],
   "location": {
     "latitude": 50.6419,

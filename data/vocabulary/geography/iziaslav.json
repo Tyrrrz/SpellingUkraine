@@ -1,10 +1,13 @@
 {
   "category": "Geography",
-  "name": "Iziaslav",
+  "name": "Ізяслав",
   "translation": "Iziaslav",
-  "mistranslations": [],
+  "mistranslations": [
+    "Zaslav",
+    "Izyaslav"
+  ],
   "aliases": [
-    "Изиаслав"
+    "Изяслав"
   ],
   "location": {
     "latitude": 50.1167,
@@ -13,7 +16,7 @@
   "externalLinks": [
     {
       "name": "Wikipedia: Iziaslav",
-      "url": "https://en.wikipedia.org/wiki/Iziaslav"
+      "url": "https://en.wikipedia.org/wiki/Iziaslav,_Ukraine"
     }
   ]
 }

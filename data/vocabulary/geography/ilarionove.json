@@ -1,15 +1,14 @@
 {
   "category": "Geography",
-  "name": "Іларіона",
+  "name": "Іларіонове",
   "translation": "Ilarionove",
   "mistranslations": [
-    "Ililionove"
+    "Ilarionovo",
+    "Illarionovo",
+    "Illarionove"
   ],
   "aliases": [
-    "Ililionove",
-    "Ilimitante",
-    "Ilarante",
-    "ILarionalove"
+    "Илларионово"
   ],
   "location": {
     "latitude": 48.4059,

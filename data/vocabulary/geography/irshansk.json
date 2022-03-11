@@ -1,11 +1,10 @@
 {
   "category": "Geography",
-  "name": "Іршанський",
+  "name": "Іршанськ",
   "translation": "Irshansk",
   "mistranslations": [],
   "aliases": [
-    "Иршанск",
-    "IRSHANK"
+    "Иршанск"
   ],
   "location": {
     "latitude": 50.7167,

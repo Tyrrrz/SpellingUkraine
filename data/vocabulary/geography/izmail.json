@@ -2,9 +2,15 @@
   "category": "Geography",
   "name": "Ізмаїл",
   "translation": "Izmail",
-  "mistranslations": [],
+  "mistranslations": [
+    "Izmayil"
+  ],
   "aliases": [
-    "Измаил"
+    "Измаил",
+    "Исмаил",
+    "Ismail",
+    "Smil",
+    "Izmaił"
   ],
   "location": {
     "latitude": 45.35,

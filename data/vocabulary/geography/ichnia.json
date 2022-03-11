@@ -2,9 +2,11 @@
   "category": "Geography",
   "name": "Ічня",
   "translation": "Ichnia",
-  "mistranslations": [],
+  "mistranslations": [
+    "Ichnya"
+  ],
   "aliases": [
-    "Eichnia"
+    "Ичня"
   ],
   "location": {
     "latitude": 50.85,

@@ -2,10 +2,12 @@
   "category": "Geography",
   "name": "Іллінці",
   "translation": "Illintsi",
-  "mistranslations": [],
+  "mistranslations": [
+    "Ilyintsi"
+  ],
   "aliases": [
-    "Ilintsi",
-    "Illssi"
+    "Ильинцы",
+    "Ilińce"
   ],
   "location": {
     "latitude": 49.1,

@@ -1,12 +1,13 @@
 {
   "category": "Geography",
-  "name": "Izium",
+  "name": "Ізюм",
   "translation": "Izium",
   "mistranslations": [
-    "Iziva"
+    "Izum",
+    "Izyum"
   ],
   "aliases": [
-    "Изий"
+    "Изюм"
   ],
   "location": {
     "latitude": 49.2238,
