@@ -3,14 +3,20 @@
   "name": "Мала Данилівка",
   "translation": "Mala Danylivka",
   "mistranslations": [
-    "Mala Danilovka"
+    "Mala Danilovka",
+    "Malaya Danilovka"
   ],
   "aliases": [
-    "Мала Даниловка"
+    "Малая Даниловка"
   ],
   "location": {
     "latitude": 50.0614,
     "longitude": 36.1675
   },
-  "externalLinks": []
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Mala Danylivka",
+      "url": "https://en.wikipedia.org/wiki/Mala_Danylivka"
+    }
+  ]
 }

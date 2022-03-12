@@ -2,10 +2,12 @@
   "category": "City",
   "name": "Миргород",
   "translation": "Myrhorod",
-  "mistranslations": [],
-  "aliases": [
-    "Mirhorod"
+  "mistranslations": [
+    "Myrgorod",
+    "Mirhorod",
+    "Mirgorod"
   ],
+  "aliases": [],
   "location": {
     "latitude": 49.964,
     "longitude": 33.6124

@@ -3,11 +3,20 @@
   "name": "Макіївка",
   "translation": "Makiivka",
   "mistranslations": [
-    "Makivka"
+    "Makiyivka",
+    "Makeyevka",
+    "Makeievka",
+    "Dmytriivsk",
+    "Dmytriyevskyi",
+    "Dmitrievsk",
+    "Dmitrievsk-Stalinsk"
   ],
   "aliases": [
-    "Макивка"
+    "Макеевка",
+    "Дмитриевск",
+    "Дмитриевск-Сталинск"
   ],
+  "description": "Renamed from \"Dmytriivsk\" in 2015.",
   "location": {
     "latitude": 48.0556,
     "longitude": 37.9611

@@ -3,9 +3,14 @@
   "name": "Мирноград",
   "translation": "Myrnohrad",
   "mistranslations": [
-    "Mirnograd"
+    "Mirnograd",
+    "Dymytrov",
+    "Dimitrov"
   ],
-  "aliases": [],
+  "aliases": [
+    "Димитров"
+  ],
+  "description": "Renamed from \"Dymytrov\" in May 2016.",
   "location": {
     "latitude": 48.3022,
     "longitude": 37.2614

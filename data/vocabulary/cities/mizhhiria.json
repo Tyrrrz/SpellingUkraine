@@ -1,13 +1,17 @@
 {
   "category": "City",
-  "name": "Мізхірія",
+  "name": "Міжгір'я",
   "translation": "Mizhhiria",
   "mistranslations": [
-    "Miziria"
+    "Mizhigiria",
+    "Mizhigirya"
   ],
   "aliases": [
-    "Mizhiria",
-    "Mizhiria"
+    "Межгорье",
+    "Ökörmező",
+    "Boureni",
+    "Mižhiria",
+    "Volove Pole"
   ],
   "location": {
     "latitude": 48.5286,

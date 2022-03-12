@@ -2,8 +2,13 @@
   "category": "City",
   "name": "Маневичі",
   "translation": "Manevychi",
-  "mistranslations": [],
-  "aliases": [],
+  "mistranslations": [
+    "Маневичи"
+  ],
+  "aliases": [
+    "Maniewicze",
+    "Manewytschi"
+  ],
   "location": {
     "latitude": 51.2925,
     "longitude": 25.5503

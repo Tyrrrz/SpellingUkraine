@@ -3,14 +3,20 @@
   "name": "Мала Виска",
   "translation": "Mala Vyska",
   "mistranslations": [
-    "Mala temple"
+    "Malaya Vyska",
+    "Malaya Viska"
   ],
   "aliases": [
-    "Мала Выска"
+    "Малая Виска"
   ],
   "location": {
     "latitude": 48.65,
     "longitude": 31.6333
   },
-  "externalLinks": []
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Mala Vyska",
+      "url": "https://en.wikipedia.org/wiki/Mala_Vyska"
+    }
+  ]
 }

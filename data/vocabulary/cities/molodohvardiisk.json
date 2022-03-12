@@ -1,12 +1,12 @@
 {
   "category": "City",
-  "name": "Молодохвардіск",
+  "name": "Молодогвардійськ",
   "translation": "Molodohvardiisk",
   "mistranslations": [
-    "Omnoroordisk"
+    "Molodogvardeysk"
   ],
   "aliases": [
-    "Молодоховардиск"
+    "Молодогвардейск"
   ],
   "location": {
     "latitude": 48.3444,

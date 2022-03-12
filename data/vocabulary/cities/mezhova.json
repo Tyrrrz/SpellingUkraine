@@ -3,9 +3,12 @@
   "name": "Межова",
   "translation": "Mezhova",
   "mistranslations": [
-    "Meadow"
+    "Mezhevaya",
+    "Mezhevaia"
   ],
-  "aliases": [],
+  "aliases": [
+    "Межевая"
+  ],
   "location": {
     "latitude": 48.2563,
     "longitude": 36.7313

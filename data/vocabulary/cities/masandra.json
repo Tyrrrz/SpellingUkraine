@@ -2,8 +2,12 @@
   "category": "City",
   "name": "Масандра",
   "translation": "Masandra",
-  "mistranslations": [],
-  "aliases": [],
+  "mistranslations": [
+    "Massandra"
+  ],
+  "aliases": [
+    "Массандра"
+  ],
   "location": {
     "latitude": 44.5167,
     "longitude": 34.1833

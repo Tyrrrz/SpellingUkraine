@@ -3,15 +3,20 @@
   "name": "Муровані Курилівці",
   "translation": "Murovani Kurylivtsi",
   "mistranslations": [
-    "Morails Kurilovtsy"
+    "Murovanye Kurylovtsy"
   ],
   "aliases": [
-    "Муровани Куриливцы",
-    "Murowani Kurylivtsi"
+    "Мурованые Куриловцы",
+    "Murowane Kuryłowce"
   ],
   "location": {
     "latitude": 48.7222,
     "longitude": 27.515
   },
-  "externalLinks": []
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Murovani Kurylivtsi",
+      "url": "https://en.wikipedia.org/wiki/Murovani_Kurylivtsi"
+    }
+  ]
 }

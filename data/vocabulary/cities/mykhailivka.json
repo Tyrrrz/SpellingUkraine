@@ -3,10 +3,13 @@
   "name": "Михайлівка",
   "translation": "Mykhailivka",
   "mistranslations": [
-    "Mikhailivka"
+    "Mykhailivka",
+    "Mikhailivka",
+    "Mikhailovka",
+    "Mikhaylovka"
   ],
   "aliases": [
-    "Михаиливка"
+    "Михайловка"
   ],
   "location": {
     "latitude": 47.2717,
@@ -15,7 +18,7 @@
   "externalLinks": [
     {
       "name": "Wikipedia: Mykhailivka",
-      "url": "https://en.wikipedia.org/wiki/Mykhailivka"
+      "url": "https://en.wikipedia.org/wiki/Mykhailivka,_Mykhailivka_Raion,_Zaporizhzhia_Oblast"
     }
   ]
 }

@@ -2,10 +2,15 @@
   "category": "City",
   "name": "Маріуполь",
   "translation": "Mariupol",
-  "mistranslations": [],
-  "aliases": [
-    "Мариуполь"
+  "mistranslations": [
+    "Zhdanov"
   ],
+  "aliases": [
+    "Жданов",
+    "Мариуполь",
+    "Μαριούπολη"
+  ],
+  "description": "Renamed from \"Zhdanov\" in 1989.",
   "location": {
     "latitude": 47.1306,
     "longitude": 37.5639

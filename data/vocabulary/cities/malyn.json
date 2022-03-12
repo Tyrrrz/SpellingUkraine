@@ -3,13 +3,9 @@
   "name": "Малин",
   "translation": "Malyn",
   "mistranslations": [
-    "Malinsky"
+    "Malin"
   ],
-  "aliases": [
-    "Малинский",
-    "Malído",
-    "Mallyn"
-  ],
+  "aliases": [],
   "location": {
     "latitude": 50.7689,
     "longitude": 29.27

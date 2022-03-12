@@ -2,9 +2,11 @@
   "category": "City",
   "name": "Макарів",
   "translation": "Makariv",
-  "mistranslations": [],
+  "mistranslations": [
+    "Makarov"
+  ],
   "aliases": [
-    "Макарив"
+    "Макаров"
   ],
   "location": {
     "latitude": 50.4667,

@@ -2,12 +2,9 @@
   "category": "City",
   "name": "Молочанськ",
   "translation": "Molochansk",
-  "mistranslations": [
-    "Molochang"
-  ],
+  "mistranslations": [],
   "aliases": [
-    "Молочанск",
-    "Molochank"
+    "Молочанск"
   ],
   "location": {
     "latitude": 47.2038,
