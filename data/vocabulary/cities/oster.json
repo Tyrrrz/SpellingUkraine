@@ -2,8 +2,12 @@
   "category": "City",
   "name": "Остер",
   "translation": "Oster",
-  "mistranslations": [],
-  "aliases": [],
+  "mistranslations": [
+    "Ostior"
+  ],
+  "aliases": [
+    "Остёр"
+  ],
   "location": {
     "latitude": 50.9486,
     "longitude": 30.8811

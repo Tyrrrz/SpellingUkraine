@@ -1,13 +1,18 @@
 {
   "category": "City",
-  "name": "Олександріске",
+  "name": "Олександрійське",
   "translation": "Oleksandriiske",
   "mistranslations": [
-    "Alexandrinsk"
+    "Alexandriyskoe",
+    "Dymytrove",
+    "Dimitrovo"
   ],
   "aliases": [
-    "Александрийске"
+    "Александрийское",
+    "Димитрове",
+    "Димитрово"
   ],
+  "description": "Renamed from \"Dymytrove\" in 1949.",
   "location": {
     "latitude": 48.6019,
     "longitude": 32.9889

@@ -1,17 +1,12 @@
 {
   "category": "City",
-  "name": "Олександрівська",
+  "name": "Олександрівськ",
   "translation": "Oleksandrivsk",
   "mistranslations": [
-    "Alexandrivskaya"
+    "Aleksandrovsk"
   ],
   "aliases": [
-    "Александривская",
-    "Oleksandrivska",
-    "Oleksandrivska",
-    "OleksandRivska",
-    "Oleksandrivska",
-    "Oleksandrivska"
+    "Александровск"
   ],
   "location": {
     "latitude": 48.5833,

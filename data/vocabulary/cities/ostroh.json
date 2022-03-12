@@ -1,9 +1,11 @@
 {
   "category": "City",
-  "name": "Острова",
+  "name": "Острог",
   "translation": "Ostroh",
   "mistranslations": [],
-  "aliases": [],
+  "aliases": [
+    "Ostróg"
+  ],
   "location": {
     "latitude": 50.3333,
     "longitude": 26.5167
