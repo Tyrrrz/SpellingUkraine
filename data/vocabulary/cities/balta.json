@@ -1,0 +1,17 @@
+{
+  "category": "City",
+  "name": "Балта",
+  "translation": "Balta",
+  "mistranslations": [],
+  "aliases": [],
+  "location": {
+    "latitude": 47.9361,
+    "longitude": 29.6225
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Balta",
+      "url": "https://en.wikipedia.org/wiki/Balta,_Ukraine"
+    }
+  ]
+}

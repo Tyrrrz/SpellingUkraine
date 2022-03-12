@@ -1,0 +1,23 @@
+{
+  "category": "City",
+  "name": "Валливий",
+  "translation": "Valky",
+  "mistranslations": [
+    "Valka"
+  ],
+  "aliases": [
+    "Вальки",
+    "Walky",
+    "Valdy"
+  ],
+  "location": {
+    "latitude": 49.8386,
+    "longitude": 35.6217
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Valky",
+      "url": "https://en.wikipedia.org/wiki/Valky"
+    }
+  ]
+}

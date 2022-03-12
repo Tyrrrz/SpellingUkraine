@@ -1,0 +1,20 @@
+{
+  "category": "City",
+  "name": "Мелітополь",
+  "translation": "Melitopol",
+  "mistranslations": [],
+  "aliases": [
+    "Мелитополь",
+    "Melitopoli"
+  ],
+  "location": {
+    "latitude": 46.8333,
+    "longitude": 35.3667
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Melitopol",
+      "url": "https://en.wikipedia.org/wiki/Melitopol"
+    }
+  ]
+}

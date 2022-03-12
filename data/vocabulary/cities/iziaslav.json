@@ -1,0 +1,22 @@
+{
+  "category": "City",
+  "name": "Ізяслав",
+  "translation": "Iziaslav",
+  "mistranslations": [
+    "Zaslav",
+    "Izyaslav"
+  ],
+  "aliases": [
+    "Изяслав"
+  ],
+  "location": {
+    "latitude": 50.1167,
+    "longitude": 26.8
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Iziaslav",
+      "url": "https://en.wikipedia.org/wiki/Iziaslav,_Ukraine"
+    }
+  ]
+}

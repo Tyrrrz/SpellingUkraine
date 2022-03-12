@@ -1,0 +1,19 @@
+{
+  "category": "City",
+  "name": "Подільськ",
+  "translation": "Podilsk",
+  "mistranslations": [],
+  "aliases": [
+    "Подильск"
+  ],
+  "location": {
+    "latitude": 47.7419,
+    "longitude": 29.535
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Podilsk",
+      "url": "https://en.wikipedia.org/wiki/Podilsk"
+    }
+  ]
+}

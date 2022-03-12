@@ -1,0 +1,22 @@
+{
+  "category": "City",
+  "name": "Городниця",
+  "translation": "Horodnytsia",
+  "mistranslations": [
+    "Gorodnytsia",
+    "Gorodnitsa"
+  ],
+  "aliases": [
+    "Городница"
+  ],
+  "location": {
+    "latitude": 50.8094,
+    "longitude": 27.3183
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Horodnytsia",
+      "url": "https://en.wikipedia.org/wiki/Horodnytsia_(urban-type_settlement)"
+    }
+  ]
+}

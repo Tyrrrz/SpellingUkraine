@@ -1,0 +1,21 @@
+{
+  "category": "City",
+  "name": "Долинська",
+  "translation": "Dolynska",
+  "mistranslations": [
+    "Dolinskaya"
+  ],
+  "aliases": [
+    "Долинская"
+  ],
+  "location": {
+    "latitude": 48.1111,
+    "longitude": 32.7648
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Dolynska",
+      "url": "https://en.wikipedia.org/wiki/Dolynska"
+    }
+  ]
+}

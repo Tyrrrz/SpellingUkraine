@@ -1,0 +1,22 @@
+{
+  "category": "City",
+  "name": "Вельветка",
+  "translation": "Veselynove",
+  "mistranslations": [
+    "Lucky"
+  ],
+  "aliases": [
+    "Везелый",
+    "Veelynove"
+  ],
+  "location": {
+    "latitude": 47.3583,
+    "longitude": 31.2397
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Veselynove",
+      "url": "https://en.wikipedia.org/wiki/Veselynove"
+    }
+  ]
+}

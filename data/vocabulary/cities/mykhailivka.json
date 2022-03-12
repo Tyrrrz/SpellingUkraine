@@ -1,0 +1,21 @@
+{
+  "category": "City",
+  "name": "Михайлівка",
+  "translation": "Mykhailivka",
+  "mistranslations": [
+    "Mikhailivka"
+  ],
+  "aliases": [
+    "Михаиливка"
+  ],
+  "location": {
+    "latitude": 47.2717,
+    "longitude": 35.2248
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Mykhailivka",
+      "url": "https://en.wikipedia.org/wiki/Mykhailivka"
+    }
+  ]
+}

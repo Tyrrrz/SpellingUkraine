@@ -1,0 +1,23 @@
+{
+  "category": "City",
+  "name": "Дніпрорудне",
+  "translation": "Dniprorudne",
+  "mistranslations": [
+    "Dnieprorudne",
+    "Dneprorudnoye",
+    "Dnieprorudnoye"
+  ],
+  "aliases": [
+    "Днепрорудное"
+  ],
+  "location": {
+    "latitude": 47.3855,
+    "longitude": 34.9879
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Dniprorudne",
+      "url": "https://en.wikipedia.org/wiki/Dniprorudne"
+    }
+  ]
+}

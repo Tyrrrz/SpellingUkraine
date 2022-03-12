@@ -1,0 +1,21 @@
+{
+  "category": "City",
+  "name": "Борислав",
+  "translation": "Boryslav",
+  "mistranslations": [
+    "Borislav"
+  ],
+  "aliases": [
+    "Borysław"
+  ],
+  "location": {
+    "latitude": 49.2881,
+    "longitude": 23.4267
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Boryslav",
+      "url": "https://en.wikipedia.org/wiki/Boryslav"
+    }
+  ]
+}

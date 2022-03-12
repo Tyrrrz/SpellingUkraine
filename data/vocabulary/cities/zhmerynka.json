@@ -1,0 +1,22 @@
+{
+  "category": "City",
+  "name": "Жмеринка",
+  "translation": "Zhmerynka",
+  "mistranslations": [
+    "Zhmeneck"
+  ],
+  "aliases": [
+    "ЖМЕРЬНКА",
+    "Zhmerernka"
+  ],
+  "location": {
+    "latitude": 49.0425,
+    "longitude": 28.0992
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Zhmerynka",
+      "url": "https://en.wikipedia.org/wiki/Zhmerynka"
+    }
+  ]
+}

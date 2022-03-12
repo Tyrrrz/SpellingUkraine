@@ -1,0 +1,23 @@
+{
+  "category": "City",
+  "name": "Перещитіння",
+  "translation": "Pereshchepyne",
+  "mistranslations": [
+    "Clever"
+  ],
+  "aliases": [
+    "Перещепать",
+    "Pereschepyne",
+    "Perhchepyne"
+  ],
+  "location": {
+    "latitude": 49.0179,
+    "longitude": 35.3598
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Pereshchepyne",
+      "url": "https://en.wikipedia.org/wiki/Pereshchepyne"
+    }
+  ]
+}

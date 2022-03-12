@@ -1,0 +1,22 @@
+{
+  "category": "City",
+  "name": "Вороновиця",
+  "translation": "Voronovytsia",
+  "mistranslations": [
+    "Voronovitsa"
+  ],
+  "aliases": [
+    "Вороновицсия",
+    "Voronovytsie"
+  ],
+  "location": {
+    "latitude": 49.0989,
+    "longitude": 28.6831
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Voronovytsia",
+      "url": "https://en.wikipedia.org/wiki/Voronovytsia"
+    }
+  ]
+}

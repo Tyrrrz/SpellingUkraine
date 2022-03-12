@@ -1,0 +1,18 @@
+{
+  "category": "City",
+  "name": "Новомиколаївка",
+  "translation": "Novomykolayivka",
+  "mistranslations": [
+    "Novomikolaevka"
+  ],
+  "aliases": [
+    "Новомиколаевка",
+    "Nowomykoyivka",
+    "Novomomykolayivka"
+  ],
+  "location": {
+    "latitude": 47.9779,
+    "longitude": 35.9099
+  },
+  "externalLinks": []
+}

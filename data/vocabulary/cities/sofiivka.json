@@ -1,0 +1,21 @@
+{
+  "category": "City",
+  "name": "Софівська",
+  "translation": "Sofiivka",
+  "mistranslations": [
+    "Sophilization"
+  ],
+  "aliases": [
+    "Софивка"
+  ],
+  "location": {
+    "latitude": 48.2683,
+    "longitude": 38.1847
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Sofiivka",
+      "url": "https://en.wikipedia.org/wiki/Sofiivka"
+    }
+  ]
+}

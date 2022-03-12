@@ -1,0 +1,22 @@
+{
+  "category": "City",
+  "name": "Кагарлик",
+  "translation": "Kaharlyk",
+  "mistranslations": [
+    "Kagarlyk",
+    "Kagarlik"
+  ],
+  "aliases": [
+    "Кагарлык"
+  ],
+  "location": {
+    "latitude": 49.8522,
+    "longitude": 30.8092
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Kaharlyk",
+      "url": "https://en.wikipedia.org/wiki/Kaharlyk"
+    }
+  ]
+}

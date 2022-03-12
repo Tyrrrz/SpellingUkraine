@@ -1,0 +1,14 @@
+{
+  "category": "City",
+  "name": "Нижня Кринка",
+  "translation": "Nyzhnia Krynka",
+  "mistranslations": [],
+  "aliases": [
+    "Nyżhnija Krynka"
+  ],
+  "location": {
+    "latitude": 48.1144,
+    "longitude": 38.1606
+  },
+  "externalLinks": []
+}

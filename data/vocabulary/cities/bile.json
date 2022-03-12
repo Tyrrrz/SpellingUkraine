@@ -1,0 +1,28 @@
+{
+  "category": "City",
+  "name": "Біле",
+  "translation": "Bile",
+  "mistranslations": [],
+  "aliases": [
+    "Белое"
+  ],
+  "location": {
+    "latitude": 48.4936,
+    "longitude": 39.0367
+  },
+  "description": "Small village located in Snake Island. This place was the origin of the legendary phrase \"Russian warship, go fuck yourself\", directed by Ukrainian border guards at one of the enemy vessels during Russia's invasion in February 2022.",
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Bile",
+      "url": "https://en.wikipedia.org/wiki/Bile,_Odessa_Oblast"
+    },
+    {
+      "name": "Wikipedia: Russian warship, go fuck yourself",
+      "url": "https://en.wikipedia.org/wiki/Russian_warship,_go_fuck_yourself"
+    },
+    {
+      "name": "Wikipeda: Attack on Snake Island",
+      "url": "https://en.wikipedia.org/wiki/Attack_on_Snake_Island"
+    }
+  ]
+}

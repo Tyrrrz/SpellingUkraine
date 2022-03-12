@@ -1,0 +1,24 @@
+{
+  "category": "City",
+  "name": "Любешів",
+  "translation": "Liubeshiv",
+  "mistranslations": [
+    "Liubeshov",
+    "Lyubeshov"
+  ],
+  "aliases": [
+    "Любешов",
+    "Lubieszów",
+    "Любяшоў"
+  ],
+  "location": {
+    "latitude": 51.7631,
+    "longitude": 25.4992
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Liubeshiv",
+      "url": "https://en.wikipedia.org/wiki/Liubeshiv"
+    }
+  ]
+}

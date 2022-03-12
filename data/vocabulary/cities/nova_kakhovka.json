@@ -1,0 +1,14 @@
+{
+  "category": "City",
+  "name": "Нова Каховка",
+  "translation": "Nova Kakhovka",
+  "mistranslations": [],
+  "aliases": [
+    "Nowa Kakhovka"
+  ],
+  "location": {
+    "latitude": 46.7667,
+    "longitude": 33.3667
+  },
+  "externalLinks": []
+}

@@ -1,0 +1,19 @@
+{
+  "category": "City",
+  "name": "Сокальний",
+  "translation": "Sokal",
+  "mistranslations": [],
+  "aliases": [
+    "Сокал"
+  ],
+  "location": {
+    "latitude": 50.4833,
+    "longitude": 24.2833
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Sokal",
+      "url": "https://en.wikipedia.org/wiki/Sokal"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "category": "City",
+  "name": "Алушта",
+  "translation": "Alushta",
+  "mistranslations": [
+    "Alusta"
+  ],
+  "aliases": [],
+  "location": {
+    "latitude": 44.6672,
+    "longitude": 34.3978
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Alushta",
+      "url": "https://en.wikipedia.org/wiki/Alushta"
+    }
+  ]
+}

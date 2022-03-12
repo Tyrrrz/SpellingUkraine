@@ -1,0 +1,22 @@
+{
+  "category": "City",
+  "name": "Печеніжін",
+  "translation": "Pechenizhyn",
+  "mistranslations": [
+    "Bechechenin"
+  ],
+  "aliases": [
+    "Печенижин",
+    "Pechenzhyn"
+  ],
+  "location": {
+    "latitude": 48.51,
+    "longitude": 24.8892
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Pechenizhyn",
+      "url": "https://en.wikipedia.org/wiki/Pechenizhyn"
+    }
+  ]
+}

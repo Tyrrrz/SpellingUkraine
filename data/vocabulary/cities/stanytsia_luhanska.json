@@ -1,0 +1,18 @@
+{
+  "category": "City",
+  "name": "Станиця Луганська",
+  "translation": "Stanytsia Luhanska",
+  "mistranslations": [
+    "Stanymsia Luhanska"
+  ],
+  "aliases": [
+    "Stanymsia Luhanska",
+    "StaniTsia Luhanska",
+    "STANYTISIA LUHANSKA"
+  ],
+  "location": {
+    "latitude": 48.6667,
+    "longitude": 39.4667
+  },
+  "externalLinks": []
+}

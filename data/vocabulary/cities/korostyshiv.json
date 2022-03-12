@@ -1,0 +1,23 @@
+{
+  "category": "City",
+  "name": "Коростишів",
+  "translation": "Korostyshiv",
+  "mistranslations": [
+    "Korostyshov",
+    "Korostishov"
+  ],
+  "aliases": [
+    "Коростышов",
+    "Korosteszów"
+  ],
+  "location": {
+    "latitude": 50.3186,
+    "longitude": 29.0592
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Korostyshiv",
+      "url": "https://en.wikipedia.org/wiki/Korostyshiv"
+    }
+  ]
+}

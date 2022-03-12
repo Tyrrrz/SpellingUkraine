@@ -1,0 +1,14 @@
+{
+  "category": "City",
+  "name": "Yany kapu",
+  "translation": "Yany Kapu",
+  "mistranslations": [
+    "Jan Kapu"
+  ],
+  "aliases": [],
+  "location": {
+    "latitude": 45.9675,
+    "longitude": 33.8003
+  },
+  "externalLinks": []
+}

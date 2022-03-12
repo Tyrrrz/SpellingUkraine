@@ -1,0 +1,25 @@
+{
+  "category": "City",
+  "name": "Кальміуське",
+  "translation": "Kalmiuske",
+  "mistranslations": [
+    "Komsomolske",
+    "Komsomolskoye",
+    "Kalmiske"
+  ],
+  "aliases": [
+    "Кальмиусское",
+    "Комсомольское"
+  ],
+  "description": "Renamed from \"Komsomolske\" in May 2016.",
+  "location": {
+    "latitude": 47.6667,
+    "longitude": 38.0667
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Kalmiuske",
+      "url": "https://en.wikipedia.org/wiki/Kalmiuske"
+    }
+  ]
+}

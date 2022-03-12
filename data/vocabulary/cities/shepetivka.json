@@ -1,0 +1,21 @@
+{
+  "category": "City",
+  "name": "Шепетівка",
+  "translation": "Shepetivka",
+  "mistranslations": [
+    "Shepetovka"
+  ],
+  "aliases": [
+    "Шепетивка"
+  ],
+  "location": {
+    "latitude": 50.1833,
+    "longitude": 27.0667
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Shepetivka",
+      "url": "https://en.wikipedia.org/wiki/Shepetivka"
+    }
+  ]
+}

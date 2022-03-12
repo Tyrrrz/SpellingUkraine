@@ -1,0 +1,17 @@
+{
+  "category": "City",
+  "name": "Борзна",
+  "translation": "Borzna",
+  "mistranslations": [],
+  "aliases": [],
+  "location": {
+    "latitude": 51.2333,
+    "longitude": 32.4167
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Borzna",
+      "url": "https://en.wikipedia.org/wiki/Borzna"
+    }
+  ]
+}

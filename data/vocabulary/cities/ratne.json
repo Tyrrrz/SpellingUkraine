@@ -1,0 +1,22 @@
+{
+  "category": "City",
+  "name": "Раба",
+  "translation": "Ratne",
+  "mistranslations": [
+    "Emphasis"
+  ],
+  "aliases": [
+    "Упор",
+    "Rateno"
+  ],
+  "location": {
+    "latitude": 51.65,
+    "longitude": 24.5333
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Ratne",
+      "url": "https://en.wikipedia.org/wiki/Ratne"
+    }
+  ]
+}

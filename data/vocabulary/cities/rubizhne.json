@@ -1,0 +1,21 @@
+{
+  "category": "City",
+  "name": "Рубіжне",
+  "translation": "Rubizhne",
+  "mistranslations": [
+    "Ruby"
+  ],
+  "aliases": [
+    "Рубин"
+  ],
+  "location": {
+    "latitude": 49.0167,
+    "longitude": 38.3667
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Rubizhne",
+      "url": "https://en.wikipedia.org/wiki/Rubizhne"
+    }
+  ]
+}

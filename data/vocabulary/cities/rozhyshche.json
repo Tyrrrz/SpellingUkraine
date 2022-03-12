@@ -1,0 +1,19 @@
+{
+  "category": "City",
+  "name": "Рожище",
+  "translation": "Rozhyshche",
+  "mistranslations": [
+    "Fogrish"
+  ],
+  "aliases": [],
+  "location": {
+    "latitude": 50.9131,
+    "longitude": 25.27
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Rozhyshche",
+      "url": "https://en.wikipedia.org/wiki/Rozhyshche"
+    }
+  ]
+}

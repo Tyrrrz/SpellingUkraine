@@ -1,0 +1,16 @@
+{
+  "category": "City",
+  "name": "Нові Санжарі",
+  "translation": "Novi Sanzhary",
+  "mistranslations": [
+    "Novi Sanazhara"
+  ],
+  "aliases": [
+    "Нови Санжары"
+  ],
+  "location": {
+    "latitude": 49.3354,
+    "longitude": 34.3162
+  },
+  "externalLinks": []
+}

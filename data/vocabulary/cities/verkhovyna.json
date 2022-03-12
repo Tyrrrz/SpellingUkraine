@@ -1,0 +1,17 @@
+{
+  "category": "City",
+  "name": "Верховина",
+  "translation": "Verkhovyna",
+  "mistranslations": [],
+  "aliases": [],
+  "location": {
+    "latitude": 48.1517,
+    "longitude": 24.8136
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Verkhovyna",
+      "url": "https://en.wikipedia.org/wiki/Verkhovyna"
+    }
+  ]
+}

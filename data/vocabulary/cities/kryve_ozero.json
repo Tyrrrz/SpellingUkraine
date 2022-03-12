@@ -1,0 +1,22 @@
+{
+  "category": "City",
+  "name": "Криве Озеро",
+  "translation": "Kryve Ozero",
+  "mistranslations": [
+    "Krivoe Ozero",
+    "Krivoye Ozero"
+  ],
+  "aliases": [
+    "Кривое Озеро"
+  ],
+  "location": {
+    "latitude": 47.9333,
+    "longitude": 30.3333
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Kryve Ozero",
+      "url": "https://en.wikipedia.org/wiki/Kryve_Ozero"
+    }
+  ]
+}

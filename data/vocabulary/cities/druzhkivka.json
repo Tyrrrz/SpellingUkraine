@@ -1,0 +1,21 @@
+{
+  "category": "City",
+  "name": "Дружківка",
+  "translation": "Druzhkivka",
+  "mistranslations": [
+    "Druzhkovka"
+  ],
+  "aliases": [
+    "Дружковка"
+  ],
+  "location": {
+    "latitude": 48.6203,
+    "longitude": 37.5278
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Druzhkivka",
+      "url": "https://en.wikipedia.org/wiki/Druzhkivka"
+    }
+  ]
+}

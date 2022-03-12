@@ -1,0 +1,21 @@
+{
+  "category": "City",
+  "name": "Артемівськ",
+  "translation": "Artemivsk",
+  "mistranslations": [
+    "Artemovsk"
+  ],
+  "aliases": [
+    "Артёмовск"
+  ],
+  "location": {
+    "latitude": 48.4403,
+    "longitude": 38.7422
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Artemivsk",
+      "url": "https://en.wikipedia.org/wiki/Artemivsk,_Luhansk_Oblast"
+    }
+  ]
+}

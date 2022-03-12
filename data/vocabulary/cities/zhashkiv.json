@@ -1,0 +1,21 @@
+{
+  "category": "City",
+  "name": "Жашків",
+  "translation": "Zhashkiv",
+  "mistranslations": [
+    "Zhashkov"
+  ],
+  "aliases": [
+    "Жашкив"
+  ],
+  "location": {
+    "latitude": 49.25,
+    "longitude": 30.1
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Zhashkiv",
+      "url": "https://en.wikipedia.org/wiki/Zhashkiv"
+    }
+  ]
+}

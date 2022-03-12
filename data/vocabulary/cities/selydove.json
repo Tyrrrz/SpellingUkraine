@@ -1,0 +1,23 @@
+{
+  "category": "City",
+  "name": "Селидове",
+  "translation": "Selydove",
+  "mistranslations": [
+    "Seladyov"
+  ],
+  "aliases": [
+    "СЕЛЕЛДОВЬ",
+    "Siedeove",
+    "Delydove"
+  ],
+  "location": {
+    "latitude": 48.15,
+    "longitude": 37.3
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Selydove",
+      "url": "https://en.wikipedia.org/wiki/Selydove"
+    }
+  ]
+}

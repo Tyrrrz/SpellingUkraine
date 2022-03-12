@@ -1,0 +1,23 @@
+{
+  "category": "City",
+  "name": "Делятин",
+  "translation": "Deliatyn",
+  "mistranslations": [
+    "Delyatin",
+    "Diliatyn"
+  ],
+  "aliases": [
+    "Делятин",
+    "Ділятин"
+  ],
+  "location": {
+    "latitude": 48.5286,
+    "longitude": 24.6236
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Deliatyn",
+      "url": "https://en.wikipedia.org/wiki/Deliatyn"
+    }
+  ]
+}

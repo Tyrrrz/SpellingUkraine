@@ -1,0 +1,22 @@
+{
+  "category": "City",
+  "name": "Надвірна",
+  "translation": "Nadvirna",
+  "mistranslations": [
+    "Sadvirna"
+  ],
+  "aliases": [
+    "Надвирна",
+    "Nadhirna"
+  ],
+  "location": {
+    "latitude": 48.6333,
+    "longitude": 24.5833
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Nadvirna",
+      "url": "https://en.wikipedia.org/wiki/Nadvirna"
+    }
+  ]
+}

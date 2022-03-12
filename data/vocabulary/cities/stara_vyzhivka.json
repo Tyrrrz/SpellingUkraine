@@ -1,0 +1,16 @@
+{
+  "category": "City",
+  "name": "Стара Вижовка",
+  "translation": "Stara Vyzhivka",
+  "mistranslations": [
+    "Straight Zagovka"
+  ],
+  "aliases": [
+    "Стара Выжовка"
+  ],
+  "location": {
+    "latitude": 51.4396,
+    "longitude": 24.4373
+  },
+  "externalLinks": []
+}

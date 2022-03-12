@@ -1,0 +1,21 @@
+{
+  "category": "City",
+  "name": "Суходільськ",
+  "translation": "Sukhodilsk",
+  "mistranslations": [
+    "Suodulsk"
+  ],
+  "aliases": [
+    "Суходильск"
+  ],
+  "location": {
+    "latitude": 48.35,
+    "longitude": 39.7167
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Sukhodilsk",
+      "url": "https://en.wikipedia.org/wiki/Sukhodilsk"
+    }
+  ]
+}

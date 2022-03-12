@@ -1,0 +1,17 @@
+{
+  "category": "City",
+  "name": "Новий Розділь",
+  "translation": "Novyi Rozdil",
+  "mistranslations": [
+    "New Russidil"
+  ],
+  "aliases": [
+    "Новый Роздил",
+    "Novate rozdil"
+  ],
+  "location": {
+    "latitude": 49.4703,
+    "longitude": 24.13
+  },
+  "externalLinks": []
+}

@@ -1,0 +1,20 @@
+{
+  "category": "City",
+  "name": "Овідополь",
+  "translation": "Ovidiopol",
+  "mistranslations": [],
+  "aliases": [
+    "Овидиополь",
+    "Ovidiuopol"
+  ],
+  "location": {
+    "latitude": 46.2667,
+    "longitude": 30.4333
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Ovidiopol",
+      "url": "https://en.wikipedia.org/wiki/Ovidiopol"
+    }
+  ]
+}

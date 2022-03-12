@@ -1,0 +1,22 @@
+{
+  "category": "City",
+  "name": "Турби",
+  "translation": "Turbiv",
+  "mistranslations": [
+    "Turbule"
+  ],
+  "aliases": [
+    "Турбив",
+    "Turbriv"
+  ],
+  "location": {
+    "latitude": 49.3463,
+    "longitude": 28.7244
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Turbiv",
+      "url": "https://en.wikipedia.org/wiki/Turbiv"
+    }
+  ]
+}

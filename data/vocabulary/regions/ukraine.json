@@ -1,0 +1,33 @@
+{
+  "category": "Country",
+  "name": "Україна",
+  "translation": "Ukraine",
+  "mistranslations": [
+    "The Ukraine"
+  ],
+  "aliases": [
+    "Украіна",
+    "Украина",
+    "Ukraina",
+    "Ucrania"
+  ],
+  "description": "Ukraine is a country in Eastern Europe. It is the second-largest country by area in Europe after Russia, which it borders to the east and north-east.",
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Ukraine",
+      "url": "https://en.wikipedia.org/wiki/Ukraine"
+    },
+    {
+      "name": "Wikipedia: Name of Ukraine",
+      "url": "https://en.wikipedia.org/wiki/Name_of_Ukraine"
+    },
+    {
+      "name": "Duolingo: Language Matters",
+      "url": "https://blog.duolingo.com/ukraine-language"
+    },
+    {
+      "name": "MFA of Ukraine: #CorrectUA",
+      "url": "https://mfa.gov.ua/en/correctua"
+    }
+  ]
+}

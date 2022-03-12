@@ -1,0 +1,17 @@
+{
+  "category": "City",
+  "name": "Яремче",
+  "translation": "Yaremche",
+  "mistranslations": [],
+  "aliases": [],
+  "location": {
+    "latitude": 48.4536,
+    "longitude": 24.5564
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Yaremche",
+      "url": "https://en.wikipedia.org/wiki/Yaremche"
+    }
+  ]
+}

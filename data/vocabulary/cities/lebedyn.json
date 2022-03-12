@@ -1,0 +1,19 @@
+{
+  "category": "City",
+  "name": "Лебедин",
+  "translation": "Lebedyn",
+  "mistranslations": [
+    "Lebedin"
+  ],
+  "aliases": [],
+  "location": {
+    "latitude": 50.5831,
+    "longitude": 34.4823
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Lebedyn",
+      "url": "https://en.wikipedia.org/wiki/Lebedyn"
+    }
+  ]
+}

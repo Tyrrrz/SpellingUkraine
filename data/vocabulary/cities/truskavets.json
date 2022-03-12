@@ -1,0 +1,19 @@
+{
+  "category": "City",
+  "name": "Трускавець",
+  "translation": "Truskavets",
+  "mistranslations": [],
+  "aliases": [
+    "Трускавец"
+  ],
+  "location": {
+    "latitude": 49.2806,
+    "longitude": 23.505
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Truskavets",
+      "url": "https://en.wikipedia.org/wiki/Truskavets"
+    }
+  ]
+}

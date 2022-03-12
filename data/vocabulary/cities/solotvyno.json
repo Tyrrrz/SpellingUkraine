@@ -1,0 +1,19 @@
+{
+  "category": "City",
+  "name": "Солотвино",
+  "translation": "Solotvyno",
+  "mistranslations": [
+    "Solotvino"
+  ],
+  "aliases": [],
+  "location": {
+    "latitude": 47.9597,
+    "longitude": 23.8669
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Solotvyno",
+      "url": "https://en.wikipedia.org/wiki/Solotvyno"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "category": "City",
+  "name": "Квасилів",
+  "translation": "Kvasyliv",
+  "mistranslations": [
+    "Kvasilov",
+    "Kvasylov"
+  ],
+  "aliases": [
+    "Квасилов",
+    "Kwasiłów"
+  ],
+  "location": {
+    "latitude": 50.5569,
+    "longitude": 26.2675
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Kvasyliv",
+      "url": "https://en.wikipedia.org/wiki/Kvasyliv"
+    }
+  ]
+}

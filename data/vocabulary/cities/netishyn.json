@@ -1,0 +1,23 @@
+{
+  "category": "City",
+  "name": "Нестача",
+  "translation": "Netishyn",
+  "mistranslations": [
+    "Netishin"
+  ],
+  "aliases": [
+    "Нетишын",
+    "Netisyn",
+    "Netischyn"
+  ],
+  "location": {
+    "latitude": 50.33,
+    "longitude": 26.64
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Netishyn",
+      "url": "https://en.wikipedia.org/wiki/Netishyn"
+    }
+  ]
+}

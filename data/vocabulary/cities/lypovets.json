@@ -1,0 +1,21 @@
+{
+  "category": "City",
+  "name": "Липовець",
+  "translation": "Lypovets",
+  "mistranslations": [
+    "Lipovets"
+  ],
+  "aliases": [
+    "Липовец"
+  ],
+  "location": {
+    "latitude": 49.2161,
+    "longitude": 29.0561
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Lypovets",
+      "url": "https://en.wikipedia.org/wiki/Lypovets"
+    }
+  ]
+}

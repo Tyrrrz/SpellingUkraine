@@ -1,0 +1,22 @@
+{
+  "category": "City",
+  "name": "Перечист",
+  "translation": "Perechyn",
+  "mistranslations": [
+    "Bechepin"
+  ],
+  "aliases": [
+    "Бечепин",
+    "Perecón"
+  ],
+  "location": {
+    "latitude": 48.7333,
+    "longitude": 22.4667
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Perechyn",
+      "url": "https://en.wikipedia.org/wiki/Perechyn"
+    }
+  ]
+}

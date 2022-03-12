@@ -1,0 +1,24 @@
+{
+  "category": "City",
+  "name": "Полох",
+  "translation": "Polohy",
+  "mistranslations": [
+    "Band"
+  ],
+  "aliases": [
+    "Полоса",
+    "Poohhy",
+    "Polo",
+    "Polohie"
+  ],
+  "location": {
+    "latitude": 47.4796,
+    "longitude": 36.2611
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Polohy",
+      "url": "https://en.wikipedia.org/wiki/Polohy"
+    }
+  ]
+}

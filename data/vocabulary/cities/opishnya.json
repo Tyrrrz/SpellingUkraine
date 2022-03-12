@@ -1,0 +1,18 @@
+{
+  "category": "City",
+  "name": "Опішня",
+  "translation": "Opishnya",
+  "mistranslations": [
+    "Design"
+  ],
+  "aliases": [
+    "Опишня",
+    "Opishya",
+    "Opishnia"
+  ],
+  "location": {
+    "latitude": 49.9564,
+    "longitude": 34.612
+  },
+  "externalLinks": []
+}

@@ -1,0 +1,19 @@
+{
+  "category": "City",
+  "name": "Покровський",
+  "translation": "Pokrovsk",
+  "mistranslations": [],
+  "aliases": [
+    "Покровск"
+  ],
+  "location": {
+    "latitude": 48.2833,
+    "longitude": 37.1833
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Pokrovsk",
+      "url": "https://en.wikipedia.org/wiki/Pokrovsk"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "category": "City",
+  "name": "Коростень",
+  "translation": "Korosten",
+  "mistranslations": [
+    "Iskorosten"
+  ],
+  "aliases": [
+    "Іскоростень"
+  ],
+  "location": {
+    "latitude": 50.95,
+    "longitude": 28.65
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Korosten",
+      "url": "https://en.wikipedia.org/wiki/Korosten"
+    }
+  ]
+}

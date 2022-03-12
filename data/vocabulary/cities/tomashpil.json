@@ -1,0 +1,21 @@
+{
+  "category": "City",
+  "name": "Томашпіл",
+  "translation": "Tomashpil",
+  "mistranslations": [
+    "Tomaspil"
+  ],
+  "aliases": [
+    "Томашпил"
+  ],
+  "location": {
+    "latitude": 48.5471,
+    "longitude": 28.5157
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Tomashpil",
+      "url": "https://en.wikipedia.org/wiki/Tomashpil"
+    }
+  ]
+}

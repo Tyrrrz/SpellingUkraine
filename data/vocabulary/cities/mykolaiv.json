@@ -1,0 +1,22 @@
+{
+  "category": "City",
+  "name": "Миколаїв",
+  "translation": "Mykolaiv",
+  "mistranslations": [
+    "Nikolaev",
+    "Nikolaiv"
+  ],
+  "aliases": [
+    "Николаев"
+  ],
+  "location": {
+    "latitude": 46.9667,
+    "longitude": 32
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Mykolaiv",
+      "url": "https://en.wikipedia.org/wiki/Mykolaiv"
+    }
+  ]
+}

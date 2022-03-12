@@ -1,0 +1,16 @@
+{
+  "category": "City",
+  "name": "Мала Данилівка",
+  "translation": "Mala Danylivka",
+  "mistranslations": [
+    "Mala Danilovka"
+  ],
+  "aliases": [
+    "Мала Даниловка"
+  ],
+  "location": {
+    "latitude": 50.0614,
+    "longitude": 36.1675
+  },
+  "externalLinks": []
+}

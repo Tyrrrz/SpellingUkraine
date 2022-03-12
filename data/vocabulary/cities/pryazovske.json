@@ -1,0 +1,21 @@
+{
+  "category": "City",
+  "name": "Прязовське",
+  "translation": "Pryazovske",
+  "mistranslations": [
+    "Pranksk"
+  ],
+  "aliases": [
+    "ПРЯЗОВСКЕ"
+  ],
+  "location": {
+    "latitude": 46.7378,
+    "longitude": 35.6416
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Pryazovske",
+      "url": "https://en.wikipedia.org/wiki/Pryazovske"
+    }
+  ]
+}

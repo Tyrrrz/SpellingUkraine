@@ -1,0 +1,17 @@
+{
+  "category": "City",
+  "name": "Uzyn",
+  "translation": "Uzyn",
+  "mistranslations": [],
+  "aliases": [],
+  "location": {
+    "latitude": 49.8242,
+    "longitude": 30.4425
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Uzyn",
+      "url": "https://en.wikipedia.org/wiki/Uzyn"
+    }
+  ]
+}

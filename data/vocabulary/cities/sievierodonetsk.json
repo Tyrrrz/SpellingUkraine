@@ -1,0 +1,22 @@
+{
+  "category": "City",
+  "name": "Сієєродонецьк",
+  "translation": "Sievierodonetsk",
+  "mistranslations": [
+    "SIENERDONETSK"
+  ],
+  "aliases": [
+    "СиьеИЕердонецк",
+    "Sieierodonetsk"
+  ],
+  "location": {
+    "latitude": 48.95,
+    "longitude": 38.4833
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Sievierodonetsk",
+      "url": "https://en.wikipedia.org/wiki/Sievierodonetsk"
+    }
+  ]
+}

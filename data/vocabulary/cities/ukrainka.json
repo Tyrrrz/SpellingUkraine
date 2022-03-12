@@ -1,0 +1,22 @@
+{
+  "category": "City",
+  "name": "Українка",
+  "translation": "Ukrainka",
+  "mistranslations": [
+    "Ukrainian"
+  ],
+  "aliases": [
+    "Украинка",
+    "Ukraina"
+  ],
+  "location": {
+    "latitude": 50.15,
+    "longitude": 30.7519
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Ukrainka",
+      "url": "https://en.wikipedia.org/wiki/Ukrainka"
+    }
+  ]
+}

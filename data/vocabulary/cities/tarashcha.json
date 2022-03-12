@@ -1,0 +1,17 @@
+{
+  "category": "City",
+  "name": "Тарашча",
+  "translation": "Tarashcha",
+  "mistranslations": [],
+  "aliases": [],
+  "location": {
+    "latitude": 49.55,
+    "longitude": 30.5
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Tarashcha",
+      "url": "https://en.wikipedia.org/wiki/Tarashcha"
+    }
+  ]
+}

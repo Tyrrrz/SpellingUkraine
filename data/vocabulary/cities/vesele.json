@@ -1,0 +1,21 @@
+{
+  "category": "City",
+  "name": "Веселе",
+  "translation": "Vesele",
+  "mistranslations": [
+    "Visel"
+  ],
+  "aliases": [
+    "Везел"
+  ],
+  "location": {
+    "latitude": 47.016,
+    "longitude": 34.9124
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Vesele",
+      "url": "https://en.wikipedia.org/wiki/Vesele"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "category": "City",
+  "name": "Покров",
+  "translation": "Pokrov",
+  "mistranslations": [
+    "Cover"
+  ],
+  "aliases": [],
+  "location": {
+    "latitude": 47.6632,
+    "longitude": 34.0811
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Pokrov",
+      "url": "https://en.wikipedia.org/wiki/Pokrov"
+    }
+  ]
+}

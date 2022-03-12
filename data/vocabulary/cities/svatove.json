@@ -1,0 +1,21 @@
+{
+  "category": "City",
+  "name": "Сватове",
+  "translation": "Svatove",
+  "mistranslations": [
+    "Shatov"
+  ],
+  "aliases": [
+    "Сватов"
+  ],
+  "location": {
+    "latitude": 49.4092,
+    "longitude": 38.1619
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Svatove",
+      "url": "https://en.wikipedia.org/wiki/Svatove"
+    }
+  ]
+}

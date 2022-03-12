@@ -1,0 +1,21 @@
+{
+  "category": "City",
+  "name": "Лисичанськ",
+  "translation": "Lysychansk",
+  "mistranslations": [
+    "Lisichansk"
+  ],
+  "aliases": [
+    "Лисичанск"
+  ],
+  "location": {
+    "latitude": 48.9169,
+    "longitude": 38.4306
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Lysychansk",
+      "url": "https://en.wikipedia.org/wiki/Lysychansk"
+    }
+  ]
+}

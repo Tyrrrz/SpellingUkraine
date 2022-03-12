@@ -1,0 +1,21 @@
+{
+  "category": "City",
+  "name": "Шевченкове",
+  "translation": "Shevchenkove",
+  "mistranslations": [
+    "Shevchenkov"
+  ],
+  "aliases": [
+    "Шевченков"
+  ],
+  "location": {
+    "latitude": 49.6939,
+    "longitude": 37.1794
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Shevchenkove",
+      "url": "https://en.wikipedia.org/wiki/Shevchenkove"
+    }
+  ]
+}

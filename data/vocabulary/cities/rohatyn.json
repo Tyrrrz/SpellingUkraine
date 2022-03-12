@@ -1,0 +1,19 @@
+{
+  "category": "City",
+  "name": "Рогатин",
+  "translation": "Rohatyn",
+  "mistranslations": [],
+  "aliases": [
+    "Рохатын"
+  ],
+  "location": {
+    "latitude": 49.4167,
+    "longitude": 24.6167
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Rohatyn",
+      "url": "https://en.wikipedia.org/wiki/Rohatyn"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "category": "City",
+  "name": "Ялта",
+  "translation": "Yalta",
+  "mistranslations": [
+    "Ialta"
+  ],
+  "aliases": [
+    "Jałta"
+  ],
+  "location": {
+    "latitude": 44.4994,
+    "longitude": 34.1553
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Yalta",
+      "url": "https://en.wikipedia.org/wiki/Yalta"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "category": "City",
+  "name": "Немішаєв",
+  "translation": "Nemishayeve",
+  "mistranslations": [
+    "Nemysheev"
+  ],
+  "aliases": [
+    "Немишаеве"
+  ],
+  "location": {
+    "latitude": 50.5624,
+    "longitude": 30.0925
+  },
+  "externalLinks": []
+}

@@ -1,0 +1,22 @@
+{
+  "category": "City",
+  "name": "Броварський",
+  "translation": "Brovary",
+  "mistranslations": [
+    "Brovari"
+  ],
+  "aliases": [
+    "Бровары",
+    "Browary"
+  ],
+  "location": {
+    "latitude": 50.5114,
+    "longitude": 30.7903
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Brovary",
+      "url": "https://en.wikipedia.org/wiki/Brovary"
+    }
+  ]
+}

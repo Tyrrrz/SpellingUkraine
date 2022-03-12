@@ -1,0 +1,21 @@
+{
+  "category": "City",
+  "name": "Мукачеве",
+  "translation": "Mukacheve",
+  "mistranslations": [
+    "Mukachev"
+  ],
+  "aliases": [
+    "Мукачев"
+  ],
+  "location": {
+    "latitude": 48.4414,
+    "longitude": 22.7136
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Mukacheve",
+      "url": "https://en.wikipedia.org/wiki/Mukacheve"
+    }
+  ]
+}

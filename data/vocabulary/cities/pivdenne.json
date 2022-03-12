@@ -1,0 +1,24 @@
+{
+  "category": "City",
+  "name": "Південна",
+  "translation": "Pivdenne",
+  "mistranslations": [
+    "Pivden"
+  ],
+  "aliases": [
+    "Пивден",
+    "Pivenne",
+    "Pivotón",
+    "Pivden"
+  ],
+  "location": {
+    "latitude": 49.8849,
+    "longitude": 36.0687
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Pivdenne",
+      "url": "https://en.wikipedia.org/wiki/Pivdenne"
+    }
+  ]
+}

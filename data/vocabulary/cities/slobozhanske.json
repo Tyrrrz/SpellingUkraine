@@ -1,0 +1,16 @@
+{
+  "category": "City",
+  "name": "Слобожанське",
+  "translation": "Slobozhanske",
+  "mistranslations": [
+    "Slobozhanskaya"
+  ],
+  "aliases": [
+    "Слобожанская"
+  ],
+  "location": {
+    "latitude": 48.5342,
+    "longitude": 35.0749
+  },
+  "externalLinks": []
+}

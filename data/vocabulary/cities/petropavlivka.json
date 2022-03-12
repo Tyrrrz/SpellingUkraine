@@ -1,0 +1,21 @@
+{
+  "category": "City",
+  "name": "Петропавлівка",
+  "translation": "Petropavlivka",
+  "mistranslations": [
+    "Petropavlovka"
+  ],
+  "aliases": [
+    "Петропавльвка"
+  ],
+  "location": {
+    "latitude": 48.4549,
+    "longitude": 36.4394
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Petropavlivka",
+      "url": "https://en.wikipedia.org/wiki/Petropavlivka"
+    }
+  ]
+}

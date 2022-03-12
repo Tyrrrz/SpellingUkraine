@@ -1,0 +1,17 @@
+{
+  "category": "City",
+  "name": "Судова Вишня",
+  "translation": "Sudova Vyshnya",
+  "mistranslations": [
+    "Ships cherry"
+  ],
+  "aliases": [
+    "Судова Вышня",
+    "Sudowa Vyshnya"
+  ],
+  "location": {
+    "latitude": 49.7892,
+    "longitude": 23.3722
+  },
+  "externalLinks": []
+}

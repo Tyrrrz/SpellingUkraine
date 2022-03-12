@@ -1,0 +1,25 @@
+{
+  "category": "City",
+  "name": "Ширявий",
+  "translation": "Shyriaieve",
+  "mistranslations": [
+    "Shiria"
+  ],
+  "aliases": [
+    "Шириа",
+    "Shyriave",
+    "Shyrisive",
+    "Shyriaiee",
+    "Shansieve"
+  ],
+  "location": {
+    "latitude": 47.3878,
+    "longitude": 30.1911
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Shyriaieve",
+      "url": "https://en.wikipedia.org/wiki/Shyriaieve"
+    }
+  ]
+}

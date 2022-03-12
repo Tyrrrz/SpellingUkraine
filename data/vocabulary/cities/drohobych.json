@@ -1,0 +1,23 @@
+{
+  "category": "City",
+  "name": "Дрогобич",
+  "translation": "Drohobych",
+  "mistranslations": [
+    "Drogobych",
+    "Drogobich"
+  ],
+  "aliases": [
+    "Дрогобыч",
+    "Drohobycz"
+  ],
+  "location": {
+    "latitude": 49.35,
+    "longitude": 23.5
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Drohobych",
+      "url": "https://en.wikipedia.org/wiki/Drohobych"
+    }
+  ]
+}

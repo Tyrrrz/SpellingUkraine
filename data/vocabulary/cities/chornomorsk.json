@@ -1,0 +1,21 @@
+{
+  "category": "City",
+  "name": "Чорноморськ",
+  "translation": "Chornomorsk",
+  "mistranslations": [
+    "Chernomorsk"
+  ],
+  "aliases": [
+    "Черноморск"
+  ],
+  "location": {
+    "latitude": 46.3017,
+    "longitude": 30.6569
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Chornomorsk",
+      "url": "https://en.wikipedia.org/wiki/Chornomorsk"
+    }
+  ]
+}

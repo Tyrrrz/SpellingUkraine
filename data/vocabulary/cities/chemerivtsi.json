@@ -1,0 +1,22 @@
+{
+  "category": "City",
+  "name": "Чемерівці",
+  "translation": "Chemerivtsi",
+  "mistranslations": [
+    "Chemerovtsi",
+    "Chemerovtsy"
+  ],
+  "aliases": [
+    "Чемеровцы"
+  ],
+  "location": {
+    "latitude": 49,
+    "longitude": 26.3667
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Chemerivtsi",
+      "url": "https://en.wikipedia.org/wiki/Chemerivtsi"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "category": "City",
+  "name": "Яготин",
+  "translation": "Yahotyn",
+  "mistranslations": [
+    "Yagotyn",
+    "Yachotin"
+  ],
+  "aliases": [
+    "Яхотин"
+  ],
+  "location": {
+    "latitude": 50.2569,
+    "longitude": 31.7817
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Yahotyn",
+      "url": "https://en.wikipedia.org/wiki/Yahotyn"
+    }
+  ]
+}

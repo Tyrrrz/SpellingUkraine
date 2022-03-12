@@ -1,0 +1,19 @@
+{
+  "category": "City",
+  "name": "Краснокутськ",
+  "translation": "Krasnokutsk",
+  "mistranslations": [],
+  "aliases": [
+    "Краснокутск"
+  ],
+  "location": {
+    "latitude": 50.0567,
+    "longitude": 35.1492
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Krasnokutsk",
+      "url": "https://en.wikipedia.org/wiki/Krasnokutsk"
+    }
+  ]
+}

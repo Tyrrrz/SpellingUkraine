@@ -1,0 +1,21 @@
+{
+  "category": "City",
+  "name": "Луцьк",
+  "translation": "Lutsk",
+  "mistranslations": [
+    "Luck"
+  ],
+  "aliases": [
+    "Луцк"
+  ],
+  "location": {
+    "latitude": 50.7478,
+    "longitude": 25.3244
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Lutsk",
+      "url": "https://en.wikipedia.org/wiki/Lutsk"
+    }
+  ]
+}

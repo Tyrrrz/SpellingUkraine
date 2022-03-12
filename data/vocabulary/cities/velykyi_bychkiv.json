@@ -1,0 +1,16 @@
+{
+  "category": "City",
+  "name": "Великий Бичків",
+  "translation": "Velykyi Bychkiv",
+  "mistranslations": [
+    "Great Bychkov"
+  ],
+  "aliases": [
+    "Великий Бычков"
+  ],
+  "location": {
+    "latitude": 47.9714,
+    "longitude": 24.0047
+  },
+  "externalLinks": []
+}

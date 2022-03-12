@@ -1,0 +1,19 @@
+{
+  "category": "City",
+  "name": "Іршава",
+  "translation": "Irshava",
+  "mistranslations": [],
+  "aliases": [
+    "Иршава"
+  ],
+  "location": {
+    "latitude": 48.3172,
+    "longitude": 23.0375
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Irshava",
+      "url": "https://en.wikipedia.org/wiki/Irshava"
+    }
+  ]
+}

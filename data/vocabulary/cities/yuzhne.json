@@ -1,0 +1,17 @@
+{
+  "category": "City",
+  "name": "Yuzhne",
+  "translation": "Yuzhne",
+  "mistranslations": [],
+  "aliases": [],
+  "location": {
+    "latitude": 46.6222,
+    "longitude": 31.1008
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Yuzhne",
+      "url": "https://en.wikipedia.org/wiki/Yuzhne"
+    }
+  ]
+}

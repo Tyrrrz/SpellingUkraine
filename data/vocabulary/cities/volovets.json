@@ -1,0 +1,23 @@
+{
+  "category": "City",
+  "name": "Воловець",
+  "translation": "Volovets",
+  "mistranslations": [],
+  "aliases": [
+    "Воловец",
+    "Volant",
+    "Volvas",
+    "Volivets",
+    "Volvets"
+  ],
+  "location": {
+    "latitude": 48.7242,
+    "longitude": 23.2
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Volovets",
+      "url": "https://en.wikipedia.org/wiki/Volovets"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "category": "City",
+  "name": "Неруба",
+  "translation": "Nerubaiske",
+  "mistranslations": [
+    "Nerubaisa"
+  ],
+  "aliases": [
+    "Нерубайске",
+    "Nerubiske",
+    "Neubaiske"
+  ],
+  "location": {
+    "latitude": 46.5467,
+    "longitude": 30.6306
+  },
+  "externalLinks": []
+}

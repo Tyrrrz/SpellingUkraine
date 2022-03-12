@@ -1,0 +1,25 @@
+{
+  "category": "City",
+  "name": "Королево",
+  "translation": "Korolevo",
+  "mistranslations": [
+    "Koroliovo",
+    "Korolyovo"
+  ],
+  "aliases": [
+    "Королёво",
+    "Kráľovec nad Tisou",
+    "Királyháza",
+    "Craia"
+  ],
+  "location": {
+    "latitude": 48.15,
+    "longitude": 23.1333
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Korolevo",
+      "url": "https://en.wikipedia.org/wiki/Korolevo"
+    }
+  ]
+}

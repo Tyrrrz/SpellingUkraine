@@ -1,0 +1,22 @@
+{
+  "category": "City",
+  "name": "Бобровиця",
+  "translation": "Bobrovytsia",
+  "mistranslations": [
+    "Bobrovitsia",
+    "Bobrovytsa"
+  ],
+  "aliases": [
+    "Бобровица"
+  ],
+  "location": {
+    "latitude": 50.7333,
+    "longitude": 31.3833
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Bobrovytsia",
+      "url": "https://en.wikipedia.org/wiki/Bobrovytsia"
+    }
+  ]
+}

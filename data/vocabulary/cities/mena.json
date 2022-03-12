@@ -1,0 +1,17 @@
+{
+  "category": "City",
+  "name": "Мена",
+  "translation": "Mena",
+  "mistranslations": [],
+  "aliases": [],
+  "location": {
+    "latitude": 51.5167,
+    "longitude": 32.2167
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Mena",
+      "url": "https://en.wikipedia.org/wiki/Mena"
+    }
+  ]
+}

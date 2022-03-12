@@ -1,0 +1,21 @@
+{
+  "category": "City",
+  "name": "Повична",
+  "translation": "Pomichna",
+  "mistranslations": [
+    "Pompous"
+  ],
+  "aliases": [
+    "Помична"
+  ],
+  "location": {
+    "latitude": 48.25,
+    "longitude": 31.4167
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Pomichna",
+      "url": "https://en.wikipedia.org/wiki/Pomichna"
+    }
+  ]
+}

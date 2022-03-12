@@ -1,0 +1,22 @@
+{
+  "category": "City",
+  "name": "Білогородка",
+  "translation": "Bilohorodka",
+  "mistranslations": [
+    "Bilogorodka",
+    "Belogorodka"
+  ],
+  "aliases": [
+    "Белогородка"
+  ],
+  "location": {
+    "latitude": 50.4,
+    "longitude": 30.2167
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Bilohorodka",
+      "url": "https://en.wikipedia.org/wiki/Bilohorodka"
+    }
+  ]
+}

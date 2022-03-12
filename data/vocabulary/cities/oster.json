@@ -1,0 +1,17 @@
+{
+  "category": "City",
+  "name": "Остер",
+  "translation": "Oster",
+  "mistranslations": [],
+  "aliases": [],
+  "location": {
+    "latitude": 50.9486,
+    "longitude": 30.8811
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Oster",
+      "url": "https://en.wikipedia.org/wiki/Oster"
+    }
+  ]
+}

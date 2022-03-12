@@ -1,0 +1,21 @@
+{
+  "category": "City",
+  "name": "Богданівка",
+  "translation": "Bohdanivka",
+  "mistranslations": [
+    "Bogdanovka"
+  ],
+  "aliases": [
+    "Богдановка"
+  ],
+  "location": {
+    "latitude": 48.5015,
+    "longitude": 36.11
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Bohdanivka",
+      "url": "https://en.wikipedia.org/wiki/Bohdanivka,_Pavlohrad_Raion,_Dnipropetrovsk_Oblast"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "category": "City",
+  "name": "Горонда",
+  "translation": "Horonda",
+  "mistranslations": [
+    "Goronda"
+  ],
+  "aliases": [],
+  "location": {
+    "latitude": 48.3786,
+    "longitude": 22.5681
+  },
+  "externalLinks": []
+}

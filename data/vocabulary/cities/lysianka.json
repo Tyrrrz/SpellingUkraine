@@ -1,0 +1,21 @@
+{
+  "category": "City",
+  "name": "Лисянка",
+  "translation": "Lysianka",
+  "mistranslations": [
+    "Lysyanka"
+  ],
+  "aliases": [
+    "Лысянка"
+  ],
+  "location": {
+    "latitude": 49.2542,
+    "longitude": 30.8207
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Lysianka",
+      "url": "https://en.wikipedia.org/wiki/Lysianka"
+    }
+  ]
+}

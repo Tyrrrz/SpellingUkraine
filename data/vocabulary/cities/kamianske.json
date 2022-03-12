@@ -1,0 +1,25 @@
+{
+  "category": "City",
+  "name": "Кам'янське",
+  "translation": "Kamianske",
+  "mistranslations": [
+    "Kamyanske",
+    "Dniprodzerzhynsk",
+    "Dneprodzerzhinsk"
+  ],
+  "aliases": [
+    "Каменское",
+    "Днепродзержинск"
+  ],
+  "description": "Renamed from \"Dniprodzerzhynsk\" in May 2016.",
+  "location": {
+    "latitude": 48.5076,
+    "longitude": 34.6132
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Kamianske",
+      "url": "https://en.wikipedia.org/wiki/Kamianske"
+    }
+  ]
+}

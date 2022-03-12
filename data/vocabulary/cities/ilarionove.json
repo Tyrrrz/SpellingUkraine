@@ -1,0 +1,23 @@
+{
+  "category": "City",
+  "name": "Іларіонове",
+  "translation": "Ilarionove",
+  "mistranslations": [
+    "Ilarionovo",
+    "Illarionovo",
+    "Illarionove"
+  ],
+  "aliases": [
+    "Илларионово"
+  ],
+  "location": {
+    "latitude": 48.4059,
+    "longitude": 35.2734
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Ilarionove",
+      "url": "https://en.wikipedia.org/wiki/Ilarionove"
+    }
+  ]
+}

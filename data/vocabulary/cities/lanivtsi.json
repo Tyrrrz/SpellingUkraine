@@ -1,0 +1,22 @@
+{
+  "category": "City",
+  "name": "Ланівці",
+  "translation": "Lanivtsi",
+  "mistranslations": [
+    "Lanovtsy"
+  ],
+  "aliases": [
+    "Лановцы",
+    "Łanowce"
+  ],
+  "location": {
+    "latitude": 49.8644,
+    "longitude": 26.0782
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Lanivtsi",
+      "url": "https://en.wikipedia.org/wiki/Lanivtsi"
+    }
+  ]
+}

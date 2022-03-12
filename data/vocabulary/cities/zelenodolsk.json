@@ -1,0 +1,19 @@
+{
+  "category": "City",
+  "name": "Зеленодольськ",
+  "translation": "Zelenodolsk",
+  "mistranslations": [],
+  "aliases": [
+    "Зеленодольск"
+  ],
+  "location": {
+    "latitude": 47.5631,
+    "longitude": 33.6524
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Zelenodolsk",
+      "url": "https://en.wikipedia.org/wiki/Zelenodolsk"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "category": "City",
+  "name": "Ясинія",
+  "translation": "Yasinia",
+  "mistranslations": [],
+  "aliases": [
+    "Ясиния",
+    "Yasien"
+  ],
+  "location": {
+    "latitude": 48.2728,
+    "longitude": 24.3747
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Yasinia",
+      "url": "https://en.wikipedia.org/wiki/Yasinia"
+    }
+  ]
+}

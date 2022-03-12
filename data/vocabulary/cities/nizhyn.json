@@ -1,0 +1,22 @@
+{
+  "category": "City",
+  "name": "Ніжин",
+  "translation": "Nizhyn",
+  "mistranslations": [
+    "Nezhin"
+  ],
+  "aliases": [
+    "Нижин",
+    "Nichyn"
+  ],
+  "location": {
+    "latitude": 51.05,
+    "longitude": 31.9
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Nizhyn",
+      "url": "https://en.wikipedia.org/wiki/Nizhyn"
+    }
+  ]
+}

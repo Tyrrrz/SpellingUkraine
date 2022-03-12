@@ -1,0 +1,21 @@
+{
+  "category": "City",
+  "name": "Берислав",
+  "translation": "Beryslav",
+  "mistranslations": [
+    "Berislav"
+  ],
+  "aliases": [
+    "Berynslav"
+  ],
+  "location": {
+    "latitude": 46.8333,
+    "longitude": 33.4167
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Beryslav",
+      "url": "https://en.wikipedia.org/wiki/Beryslav"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "category": "City",
+  "name": "Ужгород",
+  "translation": "Uzhhorod",
+  "mistranslations": [
+    "Uzhgorod"
+  ],
+  "aliases": [],
+  "location": {
+    "latitude": 48.6239,
+    "longitude": 22.295
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Uzhhorod",
+      "url": "https://en.wikipedia.org/wiki/Uzhhorod"
+    }
+  ]
+}

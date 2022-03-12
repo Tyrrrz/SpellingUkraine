@@ -1,0 +1,14 @@
+{
+  "category": "City",
+  "name": "Горенка",
+  "translation": "Horenka",
+  "mistranslations": [
+    "Gorenka"
+  ],
+  "aliases": [],
+  "location": {
+    "latitude": 50.5569,
+    "longitude": 30.3175
+  },
+  "externalLinks": []
+}

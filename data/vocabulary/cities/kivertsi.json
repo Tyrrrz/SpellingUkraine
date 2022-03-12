@@ -1,0 +1,22 @@
+{
+  "category": "City",
+  "name": "Ківерці",
+  "translation": "Kivertsi",
+  "mistranslations": [
+    "Kivertsy"
+  ],
+  "aliases": [
+    "Киверцы",
+    "Kiwerce"
+  ],
+  "location": {
+    "latitude": 50.8331,
+    "longitude": 25.4614
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Kivertsi",
+      "url": "https://en.wikipedia.org/wiki/Kivertsi"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "category": "City",
+  "name": "Добротвір",
+  "translation": "Dobrotvir",
+  "mistranslations": [
+    "Dobrotvor"
+  ],
+  "aliases": [
+    "Добротвор",
+    "Dobrotwór"
+  ],
+  "location": {
+    "latitude": 50.2056,
+    "longitude": 24.3864
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Dobrotvir",
+      "url": "https://en.wikipedia.org/wiki/Dobrotvir"
+    }
+  ]
+}

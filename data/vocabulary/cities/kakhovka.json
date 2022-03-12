@@ -1,0 +1,19 @@
+{
+  "category": "City",
+  "name": "Каховка",
+  "translation": "Kakhovka",
+  "mistranslations": [
+    "Kahovka"
+  ],
+  "aliases": [],
+  "location": {
+    "latitude": 46.8,
+    "longitude": 33.4667
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Kakhovka",
+      "url": "https://en.wikipedia.org/wiki/Kakhovka"
+    }
+  ]
+}

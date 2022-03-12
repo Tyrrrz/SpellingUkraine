@@ -1,0 +1,22 @@
+{
+  "category": "City",
+  "name": "Торет",
+  "translation": "Toretsk",
+  "mistranslations": [
+    "Torec"
+  ],
+  "aliases": [
+    "Toroksek",
+    "Latettsk"
+  ],
+  "location": {
+    "latitude": 48.4,
+    "longitude": 37.8333
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Toretsk",
+      "url": "https://en.wikipedia.org/wiki/Toretsk"
+    }
+  ]
+}

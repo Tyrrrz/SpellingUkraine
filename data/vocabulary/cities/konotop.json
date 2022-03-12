@@ -1,0 +1,17 @@
+{
+  "category": "City",
+  "name": "Конотоп",
+  "translation": "Konotop",
+  "mistranslations": [],
+  "aliases": [],
+  "location": {
+    "latitude": 51.2369,
+    "longitude": 33.2027
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Konotop",
+      "url": "https://en.wikipedia.org/wiki/Konotop"
+    }
+  ]
+}

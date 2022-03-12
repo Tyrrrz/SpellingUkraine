@@ -1,0 +1,19 @@
+{
+  "category": "City",
+  "name": "Боярка",
+  "translation": "Boiarka",
+  "mistranslations": [
+    "Boyarka"
+  ],
+  "aliases": [],
+  "location": {
+    "latitude": 50.3292,
+    "longitude": 30.2886
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Boiarka",
+      "url": "https://en.wikipedia.org/wiki/Boiarka"
+    }
+  ]
+}

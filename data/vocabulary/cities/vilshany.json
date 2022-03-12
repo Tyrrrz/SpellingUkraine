@@ -1,0 +1,21 @@
+{
+  "category": "City",
+  "name": "Вілшанський",
+  "translation": "Vilshany",
+  "mistranslations": [
+    "Wilshani"
+  ],
+  "aliases": [
+    "Вильшани"
+  ],
+  "location": {
+    "latitude": 50.0533,
+    "longitude": 35.8847
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Vilshany",
+      "url": "https://en.wikipedia.org/wiki/Vilshany"
+    }
+  ]
+}

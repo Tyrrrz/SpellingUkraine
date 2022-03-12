@@ -1,0 +1,19 @@
+{
+  "category": "City",
+  "name": "Лубни",
+  "translation": "Lubny",
+  "mistranslations": [],
+  "aliases": [
+    "Лубны"
+  ],
+  "location": {
+    "latitude": 50.0186,
+    "longitude": 32.9869
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Lubny",
+      "url": "https://en.wikipedia.org/wiki/Lubny"
+    }
+  ]
+}

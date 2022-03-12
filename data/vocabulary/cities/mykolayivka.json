@@ -1,0 +1,21 @@
+{
+  "category": "City",
+  "name": "Миколаївка",
+  "translation": "Mykolayivka",
+  "mistranslations": [
+    "MICOLAVKA"
+  ],
+  "aliases": [
+    "Миколавка",
+    "Mykolivka",
+    "Mykolaivka",
+    "Mykolaivka",
+    "Mykolaivka",
+    "Mykolivka"
+  ],
+  "location": {
+    "latitude": 48.3823,
+    "longitude": 36.3086
+  },
+  "externalLinks": []
+}

@@ -1,0 +1,17 @@
+{
+  "category": "City",
+  "name": "Маневичі",
+  "translation": "Manevychi",
+  "mistranslations": [],
+  "aliases": [],
+  "location": {
+    "latitude": 51.2925,
+    "longitude": 25.5503
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Manevychi",
+      "url": "https://en.wikipedia.org/wiki/Manevychi"
+    }
+  ]
+}

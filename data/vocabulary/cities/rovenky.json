@@ -1,0 +1,23 @@
+{
+  "category": "City",
+  "name": "Ровенька",
+  "translation": "Rovenky",
+  "mistranslations": [
+    "Rovenki"
+  ],
+  "aliases": [
+    "Ровеньки",
+    "Ravenky",
+    "Roverky"
+  ],
+  "location": {
+    "latitude": 48.0833,
+    "longitude": 39.3667
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Rovenky",
+      "url": "https://en.wikipedia.org/wiki/Rovenky"
+    }
+  ]
+}

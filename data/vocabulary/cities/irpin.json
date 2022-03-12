@@ -1,0 +1,21 @@
+{
+  "category": "City",
+  "name": "Ірпін",
+  "translation": "Irpin",
+  "mistranslations": [
+    "Irpen"
+  ],
+  "aliases": [
+    "Ирпень"
+  ],
+  "location": {
+    "latitude": 50.5167,
+    "longitude": 30.25
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Irpin",
+      "url": "https://en.wikipedia.org/wiki/Irpin"
+    }
+  ]
+}

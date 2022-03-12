@@ -1,0 +1,21 @@
+{
+  "category": "City",
+  "name": "Лозова",
+  "translation": "Lozova",
+  "mistranslations": [
+    "Lozovaya"
+  ],
+  "aliases": [
+    "Лозовая"
+  ],
+  "location": {
+    "latitude": 48.8892,
+    "longitude": 36.3161
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Lozova",
+      "url": "https://en.wikipedia.org/wiki/Lozova"
+    }
+  ]
+}

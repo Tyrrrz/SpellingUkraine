@@ -1,0 +1,22 @@
+{
+  "category": "City",
+  "name": "Ходорів",
+  "translation": "Khodoriv",
+  "mistranslations": [
+    "Khodorov"
+  ],
+  "aliases": [
+    "Ходоров",
+    "Chodorów"
+  ],
+  "location": {
+    "latitude": 49.41,
+    "longitude": 24.3094
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Khodoriv",
+      "url": "https://en.wikipedia.org/wiki/Khodoriv"
+    }
+  ]
+}

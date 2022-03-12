@@ -1,0 +1,22 @@
+{
+  "category": "City",
+  "name": "Ладижин",
+  "translation": "Ladyzhyn",
+  "mistranslations": [
+    "Ladyzhin"
+  ],
+  "aliases": [
+    "Ладыжин",
+    "Ładyżyn"
+  ],
+  "location": {
+    "latitude": 48.6667,
+    "longitude": 29.2167
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Ladyzhyn",
+      "url": "https://en.wikipedia.org/wiki/Ladyzhyn"
+    }
+  ]
+}

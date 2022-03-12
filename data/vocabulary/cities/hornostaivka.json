@@ -1,0 +1,22 @@
+{
+  "category": "City",
+  "name": "Горностаївка",
+  "translation": "Hornostaivka",
+  "mistranslations": [
+    "Gornostayevka",
+    "Gornostaevka"
+  ],
+  "aliases": [
+    "Горностаевка"
+  ],
+  "location": {
+    "latitude": 47.007,
+    "longitude": 33.728
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Hornostaivka",
+      "url": "https://en.wikipedia.org/wiki/Hornostaivka,_Kakhovka_Raion,_Kherson_Oblast"
+    }
+  ]
+}

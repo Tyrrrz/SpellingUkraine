@@ -1,0 +1,25 @@
+{
+  "category": "City",
+  "name": "Ізмаїл",
+  "translation": "Izmail",
+  "mistranslations": [
+    "Izmayil"
+  ],
+  "aliases": [
+    "Измаил",
+    "Исмаил",
+    "Ismail",
+    "Smil",
+    "Izmaił"
+  ],
+  "location": {
+    "latitude": 45.35,
+    "longitude": 28.8333
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Izmail",
+      "url": "https://en.wikipedia.org/wiki/Izmail"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "category": "City",
+  "name": "Нижньогірський",
+  "translation": "Nyzhnohirskyi",
+  "mistranslations": [
+    "Nyznohirskyi",
+    "Nyzhnogirskiy",
+    "Nizhnegorskiy"
+  ],
+  "aliases": [
+    "Нижнегорский"
+  ],
+  "location": {
+    "latitude": 45.4464,
+    "longitude": 34.7344
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Nyzhnohirskyi",
+      "url": "https://en.wikipedia.org/wiki/Nyzhnohirskyi"
+    }
+  ]
+}

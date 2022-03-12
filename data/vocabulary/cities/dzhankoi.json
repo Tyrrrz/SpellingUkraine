@@ -1,0 +1,22 @@
+{
+  "category": "City",
+  "name": "Джанкой",
+  "translation": "Dzhankoi",
+  "mistranslations": [
+    "Jankoy"
+  ],
+  "aliases": [
+    "Dshankoj",
+    "Canköy"
+  ],
+  "location": {
+    "latitude": 45.7086,
+    "longitude": 34.3933
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Dzhankoi",
+      "url": "https://en.wikipedia.org/wiki/Dzhankoi"
+    }
+  ]
+}

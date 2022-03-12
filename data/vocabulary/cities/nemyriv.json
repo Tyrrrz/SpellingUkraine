@@ -1,0 +1,21 @@
+{
+  "category": "City",
+  "name": "Немирів",
+  "translation": "Nemyriv",
+  "mistranslations": [
+    "Nemirov"
+  ],
+  "aliases": [
+    "Немиров"
+  ],
+  "location": {
+    "latitude": 48.9794,
+    "longitude": 28.8439
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Nemyriv",
+      "url": "https://en.wikipedia.org/wiki/Nemyriv"
+    }
+  ]
+}

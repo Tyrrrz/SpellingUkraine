@@ -1,0 +1,17 @@
+{
+  "category": "City",
+  "name": "Ясинувата",
+  "translation": "Yasynuvata",
+  "mistranslations": [],
+  "aliases": [],
+  "location": {
+    "latitude": 48.1167,
+    "longitude": 37.8333
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Yasynuvata",
+      "url": "https://en.wikipedia.org/wiki/Yasynuvata"
+    }
+  ]
+}

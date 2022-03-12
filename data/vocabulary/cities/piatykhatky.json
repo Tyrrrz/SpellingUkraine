@@ -1,0 +1,20 @@
+{
+  "category": "City",
+  "name": "П'ятихатки",
+  "translation": "Piatykhatky",
+  "mistranslations": [],
+  "aliases": [
+    "Pialtykhatky",
+    "Piaykhatky"
+  ],
+  "location": {
+    "latitude": 48.4126,
+    "longitude": 33.7034
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Piatykhatky",
+      "url": "https://en.wikipedia.org/wiki/Piatykhatky"
+    }
+  ]
+}

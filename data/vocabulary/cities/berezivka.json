@@ -1,0 +1,21 @@
+{
+  "category": "City",
+  "name": "Березівка",
+  "translation": "Berezivka",
+  "mistranslations": [
+    "Berezovka"
+  ],
+  "aliases": [
+    "Березовка"
+  ],
+  "location": {
+    "latitude": 47.2039,
+    "longitude": 30.9125
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Berezivka",
+      "url": "https://en.wikipedia.org/wiki/Berezivka"
+    }
+  ]
+}
