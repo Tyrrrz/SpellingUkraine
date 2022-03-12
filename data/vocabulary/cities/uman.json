@@ -1,11 +1,10 @@
 {
   "category": "City",
-  "name": "Уман",
+  "name": "Умань",
   "translation": "Uman",
   "mistranslations": [],
   "aliases": [
-    "Umman",
-    "Uan"
+    "Humań"
   ],
   "location": {
     "latitude": 48.75,

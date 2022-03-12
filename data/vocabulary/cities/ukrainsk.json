@@ -1,12 +1,12 @@
 {
   "category": "City",
-  "name": "Український",
+  "name": "Українськ",
   "translation": "Ukrainsk",
   "mistranslations": [
-    "UKRINSK"
+    "Ukrayinsk"
   ],
   "aliases": [
-    "УКРИНСК"
+    "Украинск"
   ],
   "location": {
     "latitude": 48.1,

@@ -1,8 +1,10 @@
 {
   "category": "City",
-  "name": "Uzyn",
+  "name": "Узин",
   "translation": "Uzyn",
-  "mistranslations": [],
+  "mistranslations": [
+    "Uzin"
+  ],
   "aliases": [],
   "location": {
     "latitude": 49.8242,
