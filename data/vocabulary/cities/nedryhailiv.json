@@ -1,0 +1,22 @@
+{
+  "category": "City",
+  "name": "Недригайлів",
+  "translation": "Nedryhailiv",
+  "mistranslations": [
+    "Nedrygailiv",
+    "Nedrigaylov"
+  ],
+  "aliases": [
+    "Недригайлов"
+  ],
+  "location": {
+    "latitude": 50.8332,
+    "longitude": 33.8799
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Nedryhailiv",
+      "url": "https://en.wikipedia.org/wiki/Nedryhailiv"
+    }
+  ]
+}

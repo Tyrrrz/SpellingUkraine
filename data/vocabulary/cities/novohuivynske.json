@@ -1,13 +1,13 @@
 {
   "category": "City",
-  "name": "Новогувінське",
+  "name": "Новогуйвинське",
   "translation": "Novohuivynske",
   "mistranslations": [
-    "Novokhuinskoye"
+    "Novohuivynskoe",
+    "Novoguyvinskoe"
   ],
   "aliases": [
-    "Новохуийнское",
-    "Novohivynske"
+    "Новогуйвинское"
   ],
   "location": {
     "latitude": 50.2022,

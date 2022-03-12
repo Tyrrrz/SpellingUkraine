@@ -3,14 +3,19 @@
   "name": "Нова Борова",
   "translation": "Nova Borova",
   "mistranslations": [
-    "Nova Borov"
+    "Novaya Borovaya"
   ],
   "aliases": [
-    "Nowa Borova"
+    "Новая Боровая"
   ],
   "location": {
     "latitude": 50.6922,
     "longitude": 28.6367
   },
-  "externalLinks": []
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Nova Borova",
+      "url": "https://en.wikipedia.org/wiki/Nova_Borova"
+    }
+  ]
 }

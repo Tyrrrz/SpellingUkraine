@@ -3,14 +3,21 @@
   "name": "Новоград-Волинський",
   "translation": "Novohrad-Volynskyi",
   "mistranslations": [
-    "Novograd-Volynsky"
+    "Novograd-Volynsky",
+    "Novograd-Volynskiy"
   ],
   "aliases": [
-    "Новоград-Волынский"
+    "Новоград-Волынский",
+    "Zwiahel"
   ],
   "location": {
     "latitude": 50.5833,
     "longitude": 27.6333
   },
-  "externalLinks": []
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Novohrad-Volynskyi",
+      "url": "https://en.wikipedia.org/wiki/Novohrad-Volynskyi"
+    }
+  ]
 }

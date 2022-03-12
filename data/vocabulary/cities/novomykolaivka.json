@@ -1,0 +1,23 @@
+{
+  "category": "City",
+  "name": "Новомиколаївка",
+  "translation": "Novomykolaivka",
+  "mistranslations": [
+    "Novomykolayivka",
+    "Novomikolayivka",
+    "Novonikolaevka"
+  ],
+  "aliases": [
+    "Новониколаевка"
+  ],
+  "location": {
+    "latitude": 47.9779,
+    "longitude": 35.9099
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Novomykolaivka",
+      "url": "https://en.wikipedia.org/wiki/Novomykolaivka,_Zaporizhzhia_Oblast"
+    }
+  ]
+}

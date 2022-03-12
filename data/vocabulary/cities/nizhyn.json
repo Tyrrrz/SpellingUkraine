@@ -3,11 +3,12 @@
   "name": "Ніжин",
   "translation": "Nizhyn",
   "mistranslations": [
-    "Nezhin"
+    "Nezhin",
+    "Nizhin"
   ],
   "aliases": [
-    "Нижин",
-    "Nichyn"
+    "Нежин",
+    "Nieżyn"
   ],
   "location": {
     "latitude": 51.05,

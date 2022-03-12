@@ -1,14 +1,14 @@
 {
   "category": "City",
-  "name": "Нестача",
+  "name": "Нетішин",
   "translation": "Netishyn",
   "mistranslations": [
-    "Netishin"
+    "Netishin",
+    "Neteshin"
   ],
   "aliases": [
-    "Нетишын",
-    "Netisyn",
-    "Netischyn"
+    "Нетешин",
+    "Niecieszyn"
   ],
   "location": {
     "latitude": 50.33,

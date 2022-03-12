@@ -3,11 +3,14 @@
   "name": "Немирів",
   "translation": "Nemyriv",
   "mistranslations": [
-    "Nemirov"
+    "Nemirov",
+    "Nemiroff"
   ],
   "aliases": [
-    "Немиров"
+    "Немиров",
+    "Niemirów"
   ],
+  "description": "Origin of the \"Nemiroff\" vodka.",
   "location": {
     "latitude": 48.9794,
     "longitude": 28.8439

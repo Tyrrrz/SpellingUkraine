@@ -1,17 +1,22 @@
 {
   "category": "City",
-  "name": "Nova Maiachka",
+  "name": "Нова Маячка",
   "translation": "Nova Maiachka",
   "mistranslations": [
-    "NEW MAYCHAKA"
+    "Nova Mayachka",
+    "Novaya Mayachka"
   ],
   "aliases": [
-    "Новая Майчака",
-    "Nowa Maiachka"
+    "Новая Маячка"
   ],
   "location": {
     "latitude": 46.6033,
     "longitude": 33.2283
   },
-  "externalLinks": []
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Nova Maiachka",
+      "url": "https://en.wikipedia.org/wiki/Nova_Maiachka"
+    }
+  ]
 }

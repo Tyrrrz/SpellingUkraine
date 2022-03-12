@@ -1,16 +1,22 @@
 {
   "category": "City",
-  "name": "Нові Санжарі",
+  "name": "Нові Санжари",
   "translation": "Novi Sanzhary",
   "mistranslations": [
-    "Novi Sanazhara"
+    "Novyie Sanzhary",
+    "Novie Sanzhary"
   ],
   "aliases": [
-    "Нови Санжары"
+    "Новые Санжары"
   ],
   "location": {
     "latitude": 49.3354,
     "longitude": 34.3162
   },
-  "externalLinks": []
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Novi Sanzhary",
+      "url": "https://en.wikipedia.org/wiki/Novi_Sanzhary"
+    }
+  ]
 }

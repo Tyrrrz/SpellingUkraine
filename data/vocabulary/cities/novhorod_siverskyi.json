@@ -1,18 +1,22 @@
 {
   "category": "City",
-  "name": "НОВОХОРОД-Сіверський",
+  "name": "Новгород-Сіверський",
   "translation": "Novhorod-Siverskyi",
   "mistranslations": [
-    "Novgorod-Siversky"
+    "Novgorod-Siversky",
+    "Novgorod-Siverskiy"
   ],
   "aliases": [
-    "Новхород-Сиверский",
-    "Nowhorod-Siverskyi",
-    "Novhorod-Sivili"
+    "Новгород-Северский"
   ],
   "location": {
     "latitude": 51.9833,
     "longitude": 33.2667
   },
-  "externalLinks": []
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Novhorod-Siverskyi",
+      "url": "https://en.wikipedia.org/wiki/Novhorod-Siverskyi"
+    }
+  ]
 }

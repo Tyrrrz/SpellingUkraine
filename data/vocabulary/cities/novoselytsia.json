@@ -3,12 +3,10 @@
   "name": "Новоселиця",
   "translation": "Novoselytsia",
   "mistranslations": [
-    "Novoselnost"
+    "Novoselitsa"
   ],
   "aliases": [
-    "Новосельности",
-    "Novocoseleza",
-    "Novoselysia"
+    "Новоселица"
   ],
   "location": {
     "latitude": 48.2167,

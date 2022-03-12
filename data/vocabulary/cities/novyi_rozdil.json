@@ -1,17 +1,23 @@
 {
   "category": "City",
-  "name": "Новий Розділь",
+  "name": "Новий Розділ",
   "translation": "Novyi Rozdil",
   "mistranslations": [
-    "New Russidil"
+    "Novyi Rozdol",
+    "Noviy Rozdol"
   ],
   "aliases": [
-    "Новый Роздил",
-    "Novate rozdil"
+    "Новый Роздол",
+    "Nowy Rozdół"
   ],
   "location": {
     "latitude": 49.4703,
     "longitude": 24.13
   },
-  "externalLinks": []
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Novyi Rozdil",
+      "url": "https://en.wikipedia.org/wiki/Novyi_Rozdil"
+    }
+  ]
 }
