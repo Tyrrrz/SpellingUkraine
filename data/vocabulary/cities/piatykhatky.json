@@ -2,10 +2,12 @@
   "category": "City",
   "name": "П'ятихатки",
   "translation": "Piatykhatky",
-  "mistranslations": [],
+  "mistranslations": [
+    "Pyatykhatky",
+    "Pyatihatki"
+  ],
   "aliases": [
-    "Pialtykhatky",
-    "Piaykhatky"
+    "Пятихатки"
   ],
   "location": {
     "latitude": 48.4126,
@@ -14,7 +16,7 @@
   "externalLinks": [
     {
       "name": "Wikipedia: Piatykhatky",
-      "url": "https://en.wikipedia.org/wiki/Piatykhatky"
+      "url": "https://en.wikipedia.org/wiki/Piatykhatky,_Dnipropetrovsk_Oblast"
     }
   ]
 }

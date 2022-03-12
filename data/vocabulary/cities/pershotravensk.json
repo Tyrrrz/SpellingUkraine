@@ -2,10 +2,13 @@
   "category": "City",
   "name": "Першотравенськ",
   "translation": "Pershotravensk",
-  "mistranslations": [],
+  "mistranslations": [
+    "Pervomaysk",
+    "Pervomaisk"
+  ],
   "aliases": [
-    "Першитравенск",
-    "Perhotravensk"
+    "Першотравенск",
+    "Первомайск"
   ],
   "location": {
     "latitude": 48.3464,

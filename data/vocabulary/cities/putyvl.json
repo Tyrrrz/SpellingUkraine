@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "name": "Палива",
+  "name": "Путивль",
   "translation": "Putyvl",
-  "mistranslations": [],
-  "aliases": [
-    "Putvl"
+  "mistranslations": [
+    "Putivl"
   ],
+  "aliases": [],
   "location": {
     "latitude": 51.3347,
     "longitude": 33.8686

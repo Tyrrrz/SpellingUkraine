@@ -2,10 +2,12 @@
   "category": "City",
   "name": "Піщанка",
   "translation": "Pishchanka",
-  "mistranslations": [],
+  "mistranslations": [
+    "Peschanka"
+  ],
   "aliases": [
-    "Пишчанка",
-    "Pishanka"
+    "Песчанка",
+    "Piszczanka"
   ],
   "location": {
     "latitude": 48.2058,

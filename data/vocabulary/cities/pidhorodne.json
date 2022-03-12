@@ -1,9 +1,14 @@
 {
   "category": "City",
-  "name": "Підхолодний",
+  "name": "Підгородне",
   "translation": "Pidhorodne",
-  "mistranslations": [],
-  "aliases": [],
+  "mistranslations": [
+    "Pidgorodne",
+    "Podgorodnoe"
+  ],
+  "aliases": [
+    "Подгородное"
+  ],
   "location": {
     "latitude": 48.5737,
     "longitude": 35.0966

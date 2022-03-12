@@ -1,10 +1,12 @@
 {
   "category": "City",
-  "name": "Piskivka",
+  "name": "Пісківка",
   "translation": "Piskivka",
-  "mistranslations": [],
+  "mistranslations": [
+    "Peskovka"
+  ],
   "aliases": [
-    "Пискивка"
+    "Песковка"
   ],
   "location": {
     "latitude": 50.7078,

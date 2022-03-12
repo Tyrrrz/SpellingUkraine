@@ -1,12 +1,12 @@
 {
   "category": "City",
-  "name": "Печеніхи",
+  "name": "Печеніги",
   "translation": "Pechenihy",
   "mistranslations": [
     "Pechenegi"
   ],
   "aliases": [
-    "Печениги"
+    "Печенеги"
   ],
   "location": {
     "latitude": 49.8647,

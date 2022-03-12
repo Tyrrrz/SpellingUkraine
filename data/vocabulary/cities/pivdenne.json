@@ -1,15 +1,12 @@
 {
   "category": "City",
-  "name": "Південна",
+  "name": "Південне",
   "translation": "Pivdenne",
   "mistranslations": [
-    "Pivden"
+    "Pivdennoe"
   ],
   "aliases": [
-    "Пивден",
-    "Pivenne",
-    "Pivotón",
-    "Pivden"
+    "Пивденное"
   ],
   "location": {
     "latitude": 49.8849,

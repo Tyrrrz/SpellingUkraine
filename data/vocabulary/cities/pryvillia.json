@@ -1,0 +1,22 @@
+{
+  "category": "City",
+  "name": "Привілля",
+  "translation": "Pryvillia",
+  "mistranslations": [
+    "Privolie",
+    "Privolye"
+  ],
+  "aliases": [
+    "Приволье"
+  ],
+  "location": {
+    "latitude": 48.9999,
+    "longitude": 38.2948
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Pryvillia",
+      "url": "https://en.wikipedia.org/wiki/Pryvillia"
+    }
+  ]
+}

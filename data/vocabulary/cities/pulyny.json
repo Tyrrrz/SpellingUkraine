@@ -1,15 +1,17 @@
 {
   "category": "City",
-  "name": "П'яний",
+  "name": "Пулини",
   "translation": "Pulyny",
   "mistranslations": [
-    "Pole"
+    "Puliny",
+    "Chervonoarmiisk"
   ],
   "aliases": [
-    "Поулни",
-    "Pullyny",
-    "Paura"
+    "Червоноармійськ",
+    "Червоноармейск",
+    "Пулины"
   ],
+  "description": "Renamed from \"Chervonoarmiisk\" in May 2016.",
   "location": {
     "latitude": 50.4664,
     "longitude": 28.2778

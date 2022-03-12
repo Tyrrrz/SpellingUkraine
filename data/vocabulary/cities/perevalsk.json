@@ -2,12 +2,9 @@
   "category": "City",
   "name": "Перевальськ",
   "translation": "Perevalsk",
-  "mistranslations": [
-    "Perevaltsk"
-  ],
+  "mistranslations": [],
   "aliases": [
-    "Перевалльск",
-    "Pervaresk"
+    "Перевальск"
   ],
   "location": {
     "latitude": 48.4333,

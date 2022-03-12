@@ -1,12 +1,12 @@
 {
   "category": "City",
-  "name": "Петропавлівка",
+  "name": "Петропавлiвка",
   "translation": "Petropavlivka",
   "mistranslations": [
     "Petropavlovka"
   ],
   "aliases": [
-    "Петропавльвка"
+    "Петропавловка"
   ],
   "location": {
     "latitude": 48.4549,
@@ -15,7 +15,7 @@
   "externalLinks": [
     {
       "name": "Wikipedia: Petropavlivka",
-      "url": "https://en.wikipedia.org/wiki/Petropavlivka"
+      "url": "https://en.wikipedia.org/wiki/Petropavlivka,_Dnipropetrovsk_Oblast"
     }
   ]
 }

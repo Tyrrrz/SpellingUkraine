@@ -1,13 +1,11 @@
 {
   "category": "City",
-  "name": "Партія",
+  "name": "Партенiт",
   "translation": "Partenit",
-  "mistranslations": [
-    "Partially"
-  ],
+  "mistranslations": [],
   "aliases": [
-    "Частично",
-    "Parte"
+    "Партенит",
+    "Παρθένιον"
   ],
   "location": {
     "latitude": 44.5764,

@@ -3,12 +3,12 @@
   "name": "Первомайський",
   "translation": "Pervomaiskyi",
   "mistranslations": [
-    "Pervomaysky"
+    "Pervomaysky",
+    "Pervomayskyi",
+    "Likhachove"
   ],
   "aliases": [
-    "Первомайский",
-    "Pervomaiskii",
-    "Pervromaiskyi"
+    "Первомайский"
   ],
   "location": {
     "latitude": 49.3869,

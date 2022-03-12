@@ -1,13 +1,13 @@
 {
   "category": "City",
-  "name": "Печеніжін",
+  "name": "Печеніжин",
   "translation": "Pechenizhyn",
   "mistranslations": [
-    "Bechechenin"
+    "Pechenezhin"
   ],
   "aliases": [
-    "Печенижин",
-    "Pechenzhyn"
+    "Печенежин",
+    "Peczeniżyn"
   ],
   "location": {
     "latitude": 48.51,

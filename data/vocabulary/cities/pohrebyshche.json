@@ -1,12 +1,15 @@
 {
   "category": "City",
-  "name": "Похребище",
+  "name": "Погребище",
   "translation": "Pohrebyshche",
   "mistranslations": [
-    "In favor"
+    "Pogrebysche",
+    "Pogrebische",
+    "Pohrebische"
   ],
   "aliases": [
-    "Похиребище"
+    "Погребыще",
+    "Рокитня"
   ],
   "location": {
     "latitude": 49.4869,

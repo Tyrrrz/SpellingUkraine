@@ -1,12 +1,13 @@
 {
   "category": "City",
-  "name": "Повична",
+  "name": "Помічна",
   "translation": "Pomichna",
   "mistranslations": [
-    "Pompous"
+    "Pomoshnaya",
+    "Pomochnaya"
   ],
   "aliases": [
-    "Помична"
+    "Помошная"
   ],
   "location": {
     "latitude": 48.25,

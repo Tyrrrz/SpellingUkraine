@@ -1,0 +1,24 @@
+{
+  "category": "City",
+  "name": "Переяслав",
+  "translation": "Pereiaslav",
+  "mistranslations": [
+    "Pereyaslav",
+    "Pereyaslav-Khmelnytskyy",
+    "Pereyaslav-Khmelnitsky",
+    "Pereyaslav-Khmelnitskiy"
+  ],
+  "aliases": [
+    "Переяслав-Хмельницький",
+    "Переяслав-Хмельницкий"
+  ],
+  "description": "Renamed from \"Pereiaslav-Khmelnytskyi\" in 2019.",
+  "location": {
+    "latitude": 50.065,
+    "longitude": 31.445
+  },
+  "externalLinks": [{
+    "name": "Wikipedia: Pereiaslav",
+    "url": "https://en.wikipedia.org/wiki/Pereiaslav"
+  }]
+}

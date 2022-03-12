@@ -1,14 +1,12 @@
 {
   "category": "City",
-  "name": "Перещитіння",
+  "name": "Перещепине",
   "translation": "Pereshchepyne",
   "mistranslations": [
-    "Clever"
+    "Pereshchepino"
   ],
   "aliases": [
-    "Перещепать",
-    "Pereschepyne",
-    "Perhchepyne"
+    "Перещепино"
   ],
   "location": {
     "latitude": 49.0179,

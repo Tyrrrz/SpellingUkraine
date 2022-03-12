@@ -1,16 +1,14 @@
 {
   "category": "City",
-  "name": "Полох",
+  "name": "Пологи",
   "translation": "Polohy",
   "mistranslations": [
-    "Band"
+    "Polohi",
+    "Pologi",
+    "Pology"
   ],
-  "aliases": [
-    "Полоса",
-    "Poohhy",
-    "Polo",
-    "Polohie"
-  ],
+  "aliases": [],
+  "description": "Renamed from \"Chubarivka\" in 1937.",
   "location": {
     "latitude": 47.4796,
     "longitude": 36.2611

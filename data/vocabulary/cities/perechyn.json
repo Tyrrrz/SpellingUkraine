@@ -1,14 +1,11 @@
 {
   "category": "City",
-  "name": "Перечист",
+  "name": "Перечин",
   "translation": "Perechyn",
   "mistranslations": [
-    "Bechepin"
+    "Perechin"
   ],
-  "aliases": [
-    "Бечепин",
-    "Perecón"
-  ],
+  "aliases": [],
   "location": {
     "latitude": 48.7333,
     "longitude": 22.4667

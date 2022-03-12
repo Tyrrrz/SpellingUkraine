@@ -1,12 +1,13 @@
 {
   "category": "City",
-  "name": "Прязовське",
+  "name": "Приазовське",
   "translation": "Pryazovske",
   "mistranslations": [
-    "Pranksk"
+    "Priazovske",
+    "Priazovskoe"
   ],
   "aliases": [
-    "ПРЯЗОВСКЕ"
+    "Приазовское"
   ],
   "location": {
     "latitude": 46.7378,

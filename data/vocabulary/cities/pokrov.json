@@ -3,9 +3,12 @@
   "name": "Покров",
   "translation": "Pokrov",
   "mistranslations": [
-    "Cover"
+    "Ordzhonikidze"
   ],
-  "aliases": [],
+  "aliases": [
+    "Орджонікідзе"
+  ],
+  "description": "Renamed from \"Ordzhonikidze\" in April 2016.",
   "location": {
     "latitude": 47.6632,
     "longitude": 34.0811
@@ -13,7 +16,7 @@
   "externalLinks": [
     {
       "name": "Wikipedia: Pokrov",
-      "url": "https://en.wikipedia.org/wiki/Pokrov"
+      "url": "https://en.wikipedia.org/wiki/Pokrov,_Ukraine"
     }
   ]
 }
