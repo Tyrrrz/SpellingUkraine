@@ -1,11 +1,13 @@
 {
   "category": "City",
-  "name": "Рідний",
+  "name": "Рівне",
   "translation": "Rivne",
-  "mistranslations": [],
+  "mistranslations": [
+    "Rovno"
+  ],
   "aliases": [
-    "Ровна",
-    "River"
+    "Ровно",
+    "Równe"
   ],
   "location": {
     "latitude": 50.6197,

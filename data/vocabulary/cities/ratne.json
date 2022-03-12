@@ -1,13 +1,12 @@
 {
   "category": "City",
-  "name": "Раба",
+  "name": "Ратне",
   "translation": "Ratne",
   "mistranslations": [
-    "Emphasis"
+    "Ratno"
   ],
   "aliases": [
-    "Упор",
-    "Rateno"
+    "Ратно"
   ],
   "location": {
     "latitude": 51.65,

@@ -1,20 +1,23 @@
 {
   "category": "City",
   "name": "Рава-Руська",
-  "translation": "Rava-Rus’ka",
+  "translation": "Rava-Ruska",
   "mistranslations": [
-    "Rava Rus"
+    "Rava-Russka",
+    "Rava-Russkaya"
   ],
   "aliases": [
-    "Rava-rus'ka",
-    "Rava-Rus'ka",
-    "RAVA-RUS'KA",
-    "Rava-Rus'ka",
-    "Rava-Rus'ka"
+    "Рава-Русская",
+    "Rawa Ruska"
   ],
   "location": {
     "latitude": 50.25,
     "longitude": 23.6167
   },
-  "externalLinks": []
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Rava-Ruska",
+      "url": "https://en.wikipedia.org/wiki/Rava-Ruska"
+    }
+  ]
 }

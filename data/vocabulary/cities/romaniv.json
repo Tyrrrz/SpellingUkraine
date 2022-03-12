@@ -3,14 +3,18 @@
   "name": "Романів",
   "translation": "Romaniv",
   "mistranslations": [
-    "Romance"
+    "Romanov",
+    "Romanof",
+    "Dzerzhynsk"
   ],
   "aliases": [
-    "Романс",
-    "Rumow",
-    "Romano",
-    "Rumeno"
+    "Романов",
+    "Romanów",
+    "Дзержинськ",
+    "Дзержи́нск",
+    "Dzierżyńsk"
   ],
+  "description": "Renamed from \"Dzerzhynsk\".",
   "location": {
     "latitude": 50.1517,
     "longitude": 27.9392

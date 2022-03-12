@@ -2,9 +2,12 @@
   "category": "City",
   "name": "Радомишль",
   "translation": "Radomyshl",
-  "mistranslations": [],
+  "mistranslations": [
+    "Radomishl"
+  ],
   "aliases": [
-    "Радомишл"
+    "Радомышль",
+    "Radomyśl"
   ],
   "location": {
     "latitude": 50.4947,

@@ -1,15 +1,11 @@
 {
   "category": "City",
-  "name": "Ровенька",
+  "name": "Ровеньки",
   "translation": "Rovenky",
   "mistranslations": [
     "Rovenki"
   ],
-  "aliases": [
-    "Ровеньки",
-    "Ravenky",
-    "Roverky"
-  ],
+  "aliases": [],
   "location": {
     "latitude": 48.0833,
     "longitude": 39.3667

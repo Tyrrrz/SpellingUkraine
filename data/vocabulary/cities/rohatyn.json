@@ -2,10 +2,11 @@
   "category": "City",
   "name": "Рогатин",
   "translation": "Rohatyn",
-  "mistranslations": [],
-  "aliases": [
-    "Рохатын"
+  "mistranslations": [
+    "Rogatyn",
+    "Rogatin"
   ],
+  "aliases": [],
   "location": {
     "latitude": 49.4167,
     "longitude": 24.6167

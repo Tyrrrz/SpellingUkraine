@@ -1,14 +1,10 @@
 {
   "category": "City",
-  "name": "Ромний",
+  "name": "Ромни",
   "translation": "Romny",
-  "mistranslations": [
-    "Roma"
-  ],
+  "mistranslations": [],
   "aliases": [
-    "Ромс",
-    "Romana",
-    "Romany"
+    "Ромны"
   ],
   "location": {
     "latitude": 50.7428,

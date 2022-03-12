@@ -3,9 +3,11 @@
   "name": "Рожище",
   "translation": "Rozhyshche",
   "mistranslations": [
-    "Fogrish"
+    "Rozhishche"
   ],
-  "aliases": [],
+  "aliases": [
+    "Rożyszcze"
+  ],
   "location": {
     "latitude": 50.9131,
     "longitude": 25.27
