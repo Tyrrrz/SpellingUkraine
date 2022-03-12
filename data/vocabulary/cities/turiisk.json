@@ -1,0 +1,21 @@
+{
+  "category": "City",
+  "name": "Турійськ",
+  "translation": "Turiisk",
+  "mistranslations": [
+    "Turiysk"
+  ],
+  "aliases": [
+    "Турийск"
+  ],
+  "location": {
+    "latitude": 51.0833,
+    "longitude": 24.5333
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Turiisk",
+      "url": "https://en.wikipedia.org/wiki/Turiisk"
+    }
+  ]
+}

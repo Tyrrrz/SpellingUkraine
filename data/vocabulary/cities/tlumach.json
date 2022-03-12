@@ -1,11 +1,14 @@
 {
   "category": "City",
-  "name": "Tlumach",
+  "name": "Тлумач",
   "translation": "Tlumach",
   "mistranslations": [
+    "Tovmach"
+  ],
+  "aliases": [
+    "Товмач",
     "Tłumacz"
   ],
-  "aliases": [],
   "location": {
     "latitude": 48.8669,
     "longitude": 25.0012

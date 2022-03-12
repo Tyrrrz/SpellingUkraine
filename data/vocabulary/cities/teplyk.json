@@ -3,13 +3,9 @@
   "name": "Теплик",
   "translation": "Teplyk",
   "mistranslations": [
-    "Warm"
+    "Teplik"
   ],
-  "aliases": [
-    "Теплык",
-    "Teplok",
-    "Tieplyk"
-  ],
+  "aliases": [],
   "location": {
     "latitude": 48.6594,
     "longitude": 29.7539

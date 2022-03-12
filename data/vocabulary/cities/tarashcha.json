@@ -1,8 +1,10 @@
 {
   "category": "City",
-  "name": "Тарашча",
+  "name": "Тараща",
   "translation": "Tarashcha",
-  "mistranslations": [],
+  "mistranslations": [
+    "Tarascha"
+  ],
   "aliases": [],
   "location": {
     "latitude": 49.55,

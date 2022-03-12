@@ -1,16 +1,12 @@
 {
   "category": "City",
-  "name": "Тростіан",
+  "name": "Тростянець",
   "translation": "Trostianets",
   "mistranslations": [
-    "Costns"
+    "Trostyanets"
   ],
   "aliases": [
-    "Тростицы",
-    "Trostiales",
-    "Travesuras",
-    "Trostiats",
-    "Trostiante"
+    "Тростянец"
   ],
   "location": {
     "latitude": 48.512,

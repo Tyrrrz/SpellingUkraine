@@ -1,12 +1,12 @@
 {
   "category": "City",
-  "name": "Обід",
+  "name": "Тальне",
   "translation": "Talne",
   "mistranslations": [
-    "Taln"
+    "Talnoye"
   ],
   "aliases": [
-    "Талн"
+    "Тальное"
   ],
   "location": {
     "latitude": 48.8863,

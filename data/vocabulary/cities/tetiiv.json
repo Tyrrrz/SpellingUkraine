@@ -1,13 +1,12 @@
 {
   "category": "City",
-  "name": "Тетиїв",
+  "name": "Тетіїв",
   "translation": "Tetiiv",
   "mistranslations": [
-    "Tetheye"
+    "Tetiev"
   ],
   "aliases": [
-    "Тетиев",
-    "TETIV"
+    "Тетиев"
   ],
   "location": {
     "latitude": 49.3708,

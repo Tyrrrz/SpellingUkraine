@@ -3,12 +3,9 @@
   "name": "Царичанка",
   "translation": "Tsarychanka",
   "mistranslations": [
-    "Tsarhanka"
+    "Tsarichanka"
   ],
-  "aliases": [
-    "Царханка",
-    "TsyChanka"
-  ],
+  "aliases": [],
   "location": {
     "latitude": 48.9432,
     "longitude": 34.4748

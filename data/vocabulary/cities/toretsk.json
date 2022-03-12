@@ -1,14 +1,17 @@
 {
   "category": "City",
-  "name": "Торет",
+  "name": "Торецьк",
   "translation": "Toretsk",
   "mistranslations": [
-    "Torec"
+    "Dzerzhynsk",
+    "Dzerzhinsk"
   ],
   "aliases": [
-    "Toroksek",
-    "Latettsk"
+    "Дзержинськ",
+    "Дзержинск",
+    "Торецк"
   ],
+  "description": "Renamed from \"Dzerzhynsk\" in February 2016.",
   "location": {
     "latitude": 48.4,
     "longitude": 37.8333

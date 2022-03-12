@@ -1,12 +1,13 @@
 {
   "category": "City",
-  "name": "Томашпіл",
+  "name": "Томашпіль",
   "translation": "Tomashpil",
   "mistranslations": [
-    "Tomaspil"
+    "Tomashpol"
   ],
   "aliases": [
-    "Томашпил"
+    "Томашполь",
+    "Tomaszpol"
   ],
   "location": {
     "latitude": 48.5471,

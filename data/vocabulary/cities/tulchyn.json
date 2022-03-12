@@ -3,9 +3,12 @@
   "name": "Тульчин",
   "translation": "Tulchyn",
   "mistranslations": [
-    "Tulchin"
+    "Tulchin",
+    "Nesterwar"
   ],
-  "aliases": [],
+  "aliases": [
+    "Tulczyn"
+  ],
   "location": {
     "latitude": 48.6744,
     "longitude": 28.8497

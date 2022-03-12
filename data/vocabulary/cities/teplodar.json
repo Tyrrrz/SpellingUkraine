@@ -1,12 +1,9 @@
 {
   "category": "City",
-  "name": "Теплиця",
+  "name": "Теплодар",
   "translation": "Teplodar",
   "mistranslations": [],
-  "aliases": [
-    "Теплодар",
-    "Tepodar"
-  ],
+  "aliases": [],
   "location": {
     "latitude": 46.5036,
     "longitude": 30.3244

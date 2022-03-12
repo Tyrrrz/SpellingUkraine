@@ -1,13 +1,12 @@
 {
   "category": "City",
-  "name": "Турби",
+  "name": "Турбів",
   "translation": "Turbiv",
   "mistranslations": [
-    "Turbule"
+    "Turbov"
   ],
   "aliases": [
-    "Турбив",
-    "Turbriv"
+    "Турбов"
   ],
   "location": {
     "latitude": 49.3463,

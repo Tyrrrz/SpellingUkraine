@@ -1,12 +1,14 @@
 {
   "category": "City",
-  "name": "Тіачів",
+  "name": "Тячів",
   "translation": "Tiachiv",
   "mistranslations": [
-    "Toyword"
+    "Tyachiv",
+    "Tiachev",
+    "Tyachev"
   ],
   "aliases": [
-    "Тиачив"
+    "Тячев"
   ],
   "location": {
     "latitude": 48.0114,

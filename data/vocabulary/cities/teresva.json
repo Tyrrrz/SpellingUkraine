@@ -3,7 +3,12 @@
   "name": "Тересва",
   "translation": "Teresva",
   "mistranslations": [],
-  "aliases": [],
+  "aliases": [
+    "Theresiental",
+    "Teresva",
+    "Taracköz",
+    "Terešva"
+  ],
   "location": {
     "latitude": 48,
     "longitude": 23.6992
