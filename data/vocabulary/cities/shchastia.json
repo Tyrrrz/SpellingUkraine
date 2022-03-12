@@ -1,13 +1,14 @@
 {
   "category": "City",
-  "name": "Щастія",
+  "name": "Щастя",
   "translation": "Shchastia",
   "mistranslations": [
-    "Shatting"
+    "Schastya",
+    "Schastie",
+    "Schastye"
   ],
   "aliases": [
-    "Щастия",
-    "Shchistia"
+    "Счастье"
   ],
   "location": {
     "latitude": 48.7381,

@@ -1,12 +1,12 @@
 {
   "category": "City",
-  "name": "Слатдер",
+  "name": "Слатине",
   "translation": "Slatyne",
   "mistranslations": [
-    "Sweet"
+    "Slatino"
   ],
   "aliases": [
-    "Сладкий"
+    "Слатино"
   ],
   "location": {
     "latitude": 50.2161,

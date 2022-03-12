@@ -3,10 +3,11 @@
   "name": "Стрижавка",
   "translation": "Stryzhavka",
   "mistranslations": [
-    "Stryzavka"
+    "Strizhavka"
   ],
   "aliases": [
-    "СТРЫЖАВКА"
+    "Стрижавка",
+    "Strzyżawka"
   ],
   "location": {
     "latitude": 49.3103,

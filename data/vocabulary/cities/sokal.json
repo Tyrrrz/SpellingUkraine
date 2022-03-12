@@ -1,11 +1,9 @@
 {
   "category": "City",
-  "name": "Сокальний",
+  "name": "Сокаль",
   "translation": "Sokal",
   "mistranslations": [],
-  "aliases": [
-    "Сокал"
-  ],
+  "aliases": [],
   "location": {
     "latitude": 50.4833,
     "longitude": 24.2833

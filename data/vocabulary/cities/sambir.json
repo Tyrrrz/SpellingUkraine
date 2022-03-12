@@ -2,9 +2,12 @@
   "category": "City",
   "name": "Самбір",
   "translation": "Sambir",
-  "mistranslations": [],
+  "mistranslations": [
+    "Sambor"
+  ],
   "aliases": [
-    "Самбир"
+    "Самбор",
+    "Sambor"
   ],
   "location": {
     "latitude": 49.5167,

@@ -1,10 +1,11 @@
 {
   "category": "City",
-  "name": "Стрей",
+  "name": "Стрий",
   "translation": "Stryi",
   "mistranslations": [],
   "aliases": [
-    "Strryi"
+    "Стрый",
+    "Stryj"
   ],
   "location": {
     "latitude": 49.25,

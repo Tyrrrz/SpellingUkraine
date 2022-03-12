@@ -2,11 +2,12 @@
   "category": "City",
   "name": "Суми",
   "translation": "Sumy",
-  "mistranslations": [],
+  "mistranslations": [
+    "Sumi",
+    "Symi"
+  ],
   "aliases": [
-    "Сумы",
-    "Susza",
-    "Sumamente"
+    "Сумы"
   ],
   "location": {
     "latitude": 50.9068,

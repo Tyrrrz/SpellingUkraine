@@ -1,13 +1,15 @@
 {
   "category": "City",
-  "name": "Сієєродонецьк",
+  "name": "Сєвєродонецьк",
   "translation": "Sievierodonetsk",
   "mistranslations": [
-    "SIENERDONETSK"
+    "Siverskodonetsk",
+    "Syeverodonetsk",
+    "Severodonetsk"
   ],
   "aliases": [
-    "СиьеИЕердонецк",
-    "Sieierodonetsk"
+    "Сіверськодонецьк",
+    "Северодонецк"
   ],
   "location": {
     "latitude": 48.95,

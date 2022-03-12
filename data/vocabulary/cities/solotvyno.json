@@ -5,7 +5,11 @@
   "mistranslations": [
     "Solotvino"
   ],
-  "aliases": [],
+  "aliases": [
+    "Aknaszlatina",
+    "Slatina",
+    "Slatinské Doly"
+  ],
   "location": {
     "latitude": 47.9597,
     "longitude": 23.8669

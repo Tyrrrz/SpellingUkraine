@@ -2,9 +2,11 @@
   "category": "City",
   "name": "Савинці",
   "translation": "Savyntsi",
-  "mistranslations": [],
+  "mistranslations": [
+    "Savintsy"
+  ],
   "aliases": [
-    "Savynssi"
+    "Савинцы"
   ],
   "location": {
     "latitude": 49.4105,

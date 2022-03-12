@@ -1,9 +1,11 @@
 {
   "category": "City",
-  "name": "Сновск",
+  "name": "Сновськ",
   "translation": "Snovsk",
   "mistranslations": [],
-  "aliases": [],
+  "aliases": [
+    "Сновск"
+  ],
   "location": {
     "latitude": 51.8167,
     "longitude": 31.95

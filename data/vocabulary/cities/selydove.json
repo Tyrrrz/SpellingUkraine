@@ -3,13 +3,15 @@
   "name": "Селидове",
   "translation": "Selydove",
   "mistranslations": [
-    "Seladyov"
+    "Selidove",
+    "Selidovo",
+    "Selydivka"
   ],
   "aliases": [
-    "СЕЛЕЛДОВЬ",
-    "Siedeove",
-    "Delydove"
+    "Селидівка",
+    "Селидово"
   ],
+  "description": "Renamed from \"Selydivka\".",
   "location": {
     "latitude": 48.15,
     "longitude": 37.3

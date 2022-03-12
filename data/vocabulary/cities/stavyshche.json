@@ -3,12 +3,9 @@
   "name": "Ставище",
   "translation": "Stavyshche",
   "mistranslations": [
-    "Stickishche"
+    "Stavische"
   ],
-  "aliases": [
-    "Ставьще",
-    "Stavysschche"
-  ],
+  "aliases": [],
   "location": {
     "latitude": 49.3914,
     "longitude": 30.1917

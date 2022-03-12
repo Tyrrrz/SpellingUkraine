@@ -1,17 +1,22 @@
 {
   "category": "City",
-  "name": "Стара Синага",
+  "name": "Стара Синява",
   "translation": "Stara Syniava",
   "mistranslations": [
-    "Stara Siniava"
+    "Stara Siniava",
+    "Staraya Sinyava"
   ],
   "aliases": [
-    "Стара Синиава",
-    "Stara Synava"
+    "Старая Синява"
   ],
   "location": {
     "latitude": 49.6,
     "longitude": 27.6167
   },
-  "externalLinks": []
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Stara Syniava",
+      "url": "https://en.wikipedia.org/wiki/Stara_Syniava"
+    }
+  ]
 }

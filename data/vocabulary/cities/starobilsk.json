@@ -1,14 +1,12 @@
 {
   "category": "City",
-  "name": "Старобілськ",
+  "name": "Старобільськ",
   "translation": "Starobilsk",
   "mistranslations": [
-    "Stornobilsk"
+    "Starobelsk"
   ],
   "aliases": [
-    "Старобильск",
-    "Starbilsk",
-    "STOROBILSK"
+    "Старобельск"
   ],
   "location": {
     "latitude": 49.2667,

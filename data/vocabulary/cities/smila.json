@@ -1,12 +1,12 @@
 {
   "category": "City",
-  "name": "Смайлик",
+  "name": "Сміла",
   "translation": "Smila",
   "mistranslations": [
-    "Break"
+    "Smela"
   ],
   "aliases": [
-    "Смила"
+    "Смела"
   ],
   "location": {
     "latitude": 49.2167,

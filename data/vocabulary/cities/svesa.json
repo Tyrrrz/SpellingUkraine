@@ -1,14 +1,12 @@
 {
   "category": "City",
-  "name": "Свес",
+  "name": "Свеса",
   "translation": "Svesa",
   "mistranslations": [
-    "Sveta"
+    "Svessa"
   ],
   "aliases": [
-    "Света",
-    "Sinvya",
-    "Svese"
+    "Свесса"
   ],
   "location": {
     "latitude": 51.9481,

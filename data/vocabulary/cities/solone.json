@@ -1,15 +1,13 @@
 {
   "category": "City",
-  "name": "Солон",
+  "name": "Солоне",
   "translation": "Solone",
   "mistranslations": [
-    "Solon"
+    "Solonoe",
+    "Solyonoe"
   ],
   "aliases": [
-    "Tak samotny",
-    "So einsam",
-    "Tan solitario",
-    "Soltone"
+    "Солёное"
   ],
   "location": {
     "latitude": 48.2054,

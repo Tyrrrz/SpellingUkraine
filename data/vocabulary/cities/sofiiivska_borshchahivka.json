@@ -1,0 +1,16 @@
+{
+  "category": "City",
+  "name": "Софіївська Борщагівка",
+  "translation": "Sofiiivska Borshchahivka",
+  "mistranslations": [
+    "Sofievskaya Borschagovka"
+  ],
+  "aliases": [
+    "Софиевская Борщаговка"
+  ],
+  "location": {
+    "latitude": 50.4114,
+    "longitude": 30.3692
+  },
+  "externalLinks": []
+}

@@ -2,10 +2,13 @@
   "category": "City",
   "name": "Судак",
   "translation": "Sudak",
-  "mistranslations": [
-    "Zander"
+  "mistranslations": [],
+  "aliases": [
+    "Sudaq",
+    "Σουγδαία",
+    "Sudac",
+    "Sudagh"
   ],
-  "aliases": [],
   "location": {
     "latitude": 44.8514,
     "longitude": 34.9725

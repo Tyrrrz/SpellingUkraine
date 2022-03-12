@@ -2,11 +2,10 @@
   "category": "City",
   "name": "Славутич",
   "translation": "Slavutych",
-  "mistranslations": [],
-  "aliases": [
-    "Slavutique",
-    "Slavtych"
+  "mistranslations": [
+    "Slavutich"
   ],
+  "aliases": [],
   "location": {
     "latitude": 51.5206,
     "longitude": 30.7569

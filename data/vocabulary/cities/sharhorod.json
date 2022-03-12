@@ -1,13 +1,12 @@
 {
   "category": "City",
-  "name": "Шаріхорд",
+  "name": "Шаргород",
   "translation": "Sharhorod",
   "mistranslations": [
-    "Sharfore"
+    "Shargorod"
   ],
   "aliases": [
-    "Шарфород",
-    "Scharhorod"
+    "Szarogród"
   ],
   "location": {
     "latitude": 48.75,

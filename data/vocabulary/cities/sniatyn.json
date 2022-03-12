@@ -1,11 +1,14 @@
 {
   "category": "City",
-  "name": "Сняз",
+  "name": "Снятин",
   "translation": "Sniatyn",
-  "mistranslations": [],
+  "mistranslations": [
+    "Snyatyn"
+  ],
   "aliases": [
-    "Synityn",
-    "Snhiatyn"
+    "Снятын",
+    "Śniatyn",
+    "Sneatîn"
   ],
   "location": {
     "latitude": 48.45,

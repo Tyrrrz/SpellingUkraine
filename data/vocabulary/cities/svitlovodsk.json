@@ -2,9 +2,11 @@
   "category": "City",
   "name": "Світловодськ",
   "translation": "Svitlovodsk",
-  "mistranslations": [],
+  "mistranslations": [
+    "Svetlovodsk"
+  ],
   "aliases": [
-    "Свитловодск"
+    "Светловодск"
   ],
   "location": {
     "latitude": 49.0833,

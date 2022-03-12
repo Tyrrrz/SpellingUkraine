@@ -3,16 +3,19 @@
   "name": "Станиця Луганська",
   "translation": "Stanytsia Luhanska",
   "mistranslations": [
-    "Stanymsia Luhanska"
+    "Stanitsa Luganskaya"
   ],
   "aliases": [
-    "Stanymsia Luhanska",
-    "StaniTsia Luhanska",
-    "STANYTISIA LUHANSKA"
+    "Станица Луганская"
   ],
   "location": {
     "latitude": 48.6667,
     "longitude": 39.4667
   },
-  "externalLinks": []
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Stanytsia Luhanska",
+      "url": "https://en.wikipedia.org/wiki/Stanytsia_Luhanska"
+    }
+  ]
 }

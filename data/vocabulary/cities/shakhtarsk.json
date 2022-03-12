@@ -2,10 +2,11 @@
   "category": "City",
   "name": "Шахтарськ",
   "translation": "Shakhtarsk",
-  "mistranslations": [],
+  "mistranslations": [
+    "Shakhtyorsk"
+  ],
   "aliases": [
-    "Шахтарск",
-    "Shakharsk"
+    "Шахтёрск"
   ],
   "location": {
     "latitude": 48.0333,

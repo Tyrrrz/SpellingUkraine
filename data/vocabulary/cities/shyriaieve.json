@@ -1,16 +1,13 @@
 {
   "category": "City",
-  "name": "Ширявий",
+  "name": "Ширяєве",
   "translation": "Shyriaieve",
   "mistranslations": [
-    "Shiria"
+    "Shiriaievo",
+    "Shiryaevo"
   ],
   "aliases": [
-    "Шириа",
-    "Shyriave",
-    "Shyrisive",
-    "Shyriaiee",
-    "Shansieve"
+    "Ширяево"
   ],
   "location": {
     "latitude": 47.3878,

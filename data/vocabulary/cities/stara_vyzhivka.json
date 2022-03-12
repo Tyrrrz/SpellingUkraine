@@ -1,16 +1,22 @@
 {
   "category": "City",
-  "name": "Стара Вижовка",
+  "name": "Стара Вижівка",
   "translation": "Stara Vyzhivka",
   "mistranslations": [
-    "Straight Zagovka"
+    "Staraya Vyzhevka"
   ],
   "aliases": [
-    "Стара Выжовка"
+    "Старая Выжевка",
+    "Wyżwa Stara"
   ],
   "location": {
     "latitude": 51.4396,
     "longitude": 24.4373
   },
-  "externalLinks": []
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Stara Vyzhivka",
+      "url": "https://en.wikipedia.org/wiki/Stara_Vyzhivka"
+    }
+  ]
 }

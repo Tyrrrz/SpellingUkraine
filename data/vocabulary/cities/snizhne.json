@@ -1,13 +1,16 @@
 {
   "category": "City",
-  "name": "Снайрдне",
+  "name": "Сніжне",
   "translation": "Snizhne",
   "mistranslations": [
-    "Newn"
+    "Snezhnoye",
+    "Vasylivka"
   ],
   "aliases": [
-    "Ньюн"
+    "Снежное",
+    "Василівка"
   ],
+  "description": "Renamed from \"Vasylivka\" in 1864.",
   "location": {
     "latitude": 48.0167,
     "longitude": 38.7667

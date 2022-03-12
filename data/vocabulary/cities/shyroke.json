@@ -1,14 +1,12 @@
 {
   "category": "City",
-  "name": "Шьнке",
+  "name": "Широке",
   "translation": "Shyroke",
   "mistranslations": [
-    "Shchok"
+    "Shirokoe"
   ],
   "aliases": [
-    "Шыроке",
-    "ShyaKe",
-    "Hiproke"
+    "Широкое"
   ],
   "location": {
     "latitude": 47.6882,

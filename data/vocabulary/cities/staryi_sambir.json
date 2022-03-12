@@ -3,14 +3,22 @@
   "name": "Старий Самбір",
   "translation": "Staryi Sambir",
   "mistranslations": [
-    "Old sambir"
+    "Staryi Sambor"
   ],
   "aliases": [
-    "Старый самбир"
+    "Старый Самбор",
+    "Stary Sambor",
+    "Staremiasto",
+    "Stare Miasto"
   ],
   "location": {
     "latitude": 49.4333,
     "longitude": 23
   },
-  "externalLinks": []
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Staryi Sambir",
+      "url": "https://en.wikipedia.org/wiki/Staryi_Sambir"
+    }
+  ]
 }
