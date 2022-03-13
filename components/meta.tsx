@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import { getAbsoluteUrl } from '../utils/env';
 
 interface MetaProps {
   title?: string;
@@ -16,6 +17,8 @@ export const Meta: React.FC<MetaProps> = ({ title, description, keywords, imageU
 
   const actualKeywords = keywords?.join(', ') || 'spelling, ukraine, english, dictionary';
 
+  const actualImageUrl = imageUrl || '/logo.png';
+
   return (
     <Head>
       <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -29,7 +32,7 @@ export const Meta: React.FC<MetaProps> = ({ title, description, keywords, imageU
       <meta property="og:type" content="website" />
       <meta property="og:title" content={actualTitle} />
       <meta property="og:description" content={actualDescription} />
-      <meta property="og:image" content={imageUrl} />
+      <meta property="og:image" content={getAbsoluteUrl(actualImageUrl)} />
 
       <meta name="twitter:title" content={actualTitle} />
       <meta name="twitter:creator" content="@Tyrrrz" />

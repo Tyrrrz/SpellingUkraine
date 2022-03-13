@@ -13,7 +13,7 @@ const nextConfig = {
   webpack: (config, options) => {
     config.plugins.push(
       new webpack.DefinePlugin({
-        'process.env.NEXT_BUILD_ID': JSON.stringify(options.buildId)
+        'process.env.NEXT_PUBLIC_BUILD_ID': JSON.stringify(options.buildId)
       })
     );
 
