@@ -2,9 +2,9 @@ import { GetStaticPaths, GetStaticProps, NextPage } from 'next';
 import Head from 'next/head';
 import React from 'react';
 import { FiChevronLeft, FiEdit3, FiExternalLink, FiVolume1, FiVolume2, FiX } from 'react-icons/fi';
+import { HStack } from '../components/hstack';
+import { Link } from '../components/link';
 import { getVocabulary, getVocabularyEntry, VocabularyEntry } from '../data/vocabulary';
-import { HStack } from '../shared/hstack';
-import { Link } from '../shared/link';
 import { pronounce } from '../utils/tts';
 
 interface StaticProps {
@@ -71,12 +71,12 @@ const EntryPage: NextPage<StaticProps> = ({ entry }) => {
         </div>
 
         <div className="p-4 border-2 rounded">
-          <div>Incorrect Transliterations</div>
+          <div>Incorrect</div>
           <div>
             {entry.mistranslations.map((invalid) => (
-              <div key={invalid} className="flex">
+              <HStack key={invalid}>
                 <FiX className="text-red-600" /> {invalid}
-              </div>
+              </HStack>
             ))}
           </div>
         </div>
@@ -85,12 +85,10 @@ const EntryPage: NextPage<StaticProps> = ({ entry }) => {
           <div>External links</div>
           {entry.externalLinks &&
             entry.externalLinks.map((link) => (
-              <div key={link.url}>
-                <HStack>
-                  <FiExternalLink />
-                  <Link href={link.url}>{link.name}</Link>
-                </HStack>
-              </div>
+              <HStack key={link.url}>
+                <FiExternalLink />
+                <Link href={link.url}>{link.name}</Link>
+              </HStack>
             ))}
         </div>
       </div>

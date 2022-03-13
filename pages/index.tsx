@@ -2,7 +2,7 @@ import classNames from 'classnames';
 import type { GetStaticProps, NextPage } from 'next';
 import React from 'react';
 import { getVocabulary, VocabularyEntry } from '../data/vocabulary';
-import { Link } from '../shared/link';
+import { Link } from '../components/link';
 
 const EntryCard: React.FC<{ entry: VocabularyEntry }> = ({ entry }) => {
   return (

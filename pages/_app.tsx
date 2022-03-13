@@ -2,8 +2,8 @@ import classNames from 'classnames';
 import type { AppProps } from 'next/app';
 import Head from 'next/head';
 import { FiGithub, FiHeart } from 'react-icons/fi';
-import { HStack } from '../shared/hstack';
-import { Link } from '../shared/link';
+import { HStack } from '../components/hstack';
+import { Link } from '../components/link';
 import './globals.css';
 
 const Header: React.FC = () => {
