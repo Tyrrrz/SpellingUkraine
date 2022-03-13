@@ -3,16 +3,17 @@ import LocalLink from 'next/link';
 
 interface LinkProps {
   href: string;
+  emphasize?: boolean;
 }
 
-export const Link: React.FC<LinkProps> = ({ href, children, ...props }) => {
+export const Link: React.FC<LinkProps> = ({ href, emphasize = true, children, ...props }) => {
   const isAbsolute = /^[a-z][a-z\d+\-.]*:/iu.test(href);
 
-  const className = classNames(['hover:text-blue-500']);
+  const className = classNames('hover:text-blue-500', { 'font-semibold': emphasize });
 
   if (isAbsolute) {
     return (
-      <a {...props} className={className} href={href}>
+      <a {...props} className={className} href={href} target="_blank" rel="noreferrer">
         {children}
       </a>
     );

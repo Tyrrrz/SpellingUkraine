@@ -4,44 +4,52 @@ import { FiAward, FiGithub, FiHeart } from 'react-icons/fi';
 import { HStack } from '../components/hstack';
 import { Link } from '../components/link';
 import { Meta } from '../components/meta';
+import { getBuildId } from '../utils/env';
 import './globals.css';
 
 const Header: React.FC = () => {
   return (
-    <header
-      className={classNames(['p-8', 'lg:p-16', 'space-y-4', 'text-neutral-100', 'text-center'])}
-    >
-      <div className={classNames(['text-4xl', 'lg:text-6xl', 'font-bold'])}>
-        <Link href="/">
+    <Link href="/">
+      <header
+        className={classNames(
+          'px-4',
+          'py-8',
+          'hover:bg-stone-800',
+          'space-y-2',
+          'text-neutral-100',
+          'text-center'
+        )}
+      >
+        <div className={classNames('text-4xl', 'font-bold')}>
           <span>Spelling </span>
           <span
-            className={classNames([
+            className={classNames(
               'text-blue-500',
               'underline',
               'underline-offset-4',
-              'decoration-4',
+              'decoration-2',
               'decoration-wavy',
               'decoration-yellow-400'
-            ])}
+            )}
           >
             Ukraine
           </span>
-        </Link>
-      </div>
+        </div>
 
-      <div className={classNames(['text-lg', 'lg:text-3xl', 'font-light', 'tracking-wide'])}>
-        Language is political. Use it correctly.
-      </div>
-    </header>
+        <div className={classNames('text-xl', 'font-light', 'tracking-wide')}>
+          Language is political. Romanize correctly.
+        </div>
+      </header>
+    </Link>
   );
 };
 
 const Main: React.FC = ({ children }) => {
   return (
     <div
-      className={classNames(['flex-grow', 'p-8', 'border-y-8', 'border-blue-500', 'bg-stone-200'])}
+      className={classNames('flex-grow', 'p-8', 'border-y-8', 'border-blue-500', 'bg-stone-200')}
     >
-      <main className={classNames(['container', 'mx-auto'])}>{children}</main>
+      <main className={classNames('container', 'mx-auto')}>{children}</main>
     </div>
   );
 };
@@ -53,32 +61,37 @@ const Footer: React.FC = () => {
         'flex',
         'p-4',
         'place-content-center',
+        'text-sm',
         'text-neutral-400',
         'font-light'
       )}
     >
       <HStack gap="large">
-        <Link href="https://github.com/Tyrrrz/SpellingUkraine">
+        <div className={classNames('font-mono')}>{getBuildId() || 'unknown build'}</div>
+
+        <div> • </div>
+
+        <Link href="https://github.com/Tyrrrz/SpellingUkraine" emphasize={false}>
           <HStack>
-            <FiGithub />
+            <FiGithub strokeWidth={1} />
             <div>Contribute</div>
           </HStack>
         </Link>
 
         <div> • </div>
 
-        <Link href="https://tyrrrz.me/donate">
+        <Link href="https://tyrrrz.me/donate" emphasize={false}>
           <HStack>
-            <FiHeart />
+            <FiHeart strokeWidth={1} />
             <div>Donate</div>
           </HStack>
         </Link>
 
         <div> • </div>
 
-        <Link href="/attributions">
+        <Link href="/attributions" emphasize={false}>
           <HStack>
-            <FiAward />
+            <FiAward strokeWidth={1} />
             <div>Attributions</div>
           </HStack>
         </Link>
@@ -89,26 +102,28 @@ const Footer: React.FC = () => {
 
 const App = ({ Component, pageProps }: AppProps) => {
   return (
-    <div
-      className={classNames([
-        'flex',
-        'flex-col',
-        'min-h-screen',
-        'border-y-8',
-        'border-y-yellow-400',
-        'bg-stone-900'
-      ])}
-    >
+    <>
       <Meta />
 
-      <Header />
+      <div
+        className={classNames(
+          'flex',
+          'flex-col',
+          'min-h-screen',
+          'border-y-8',
+          'border-y-yellow-400',
+          'bg-stone-900'
+        )}
+      >
+        <Header />
 
-      <Main>
-        <Component {...pageProps} />
-      </Main>
+        <Main>
+          <Component {...pageProps} />
+        </Main>
 
-      <Footer />
-    </div>
+        <Footer />
+      </div>
+    </>
   );
 };
 
