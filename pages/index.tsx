@@ -1,8 +1,8 @@
 import classNames from 'classnames';
 import type { GetStaticProps, NextPage } from 'next';
 import React from 'react';
-import { getVocabulary, VocabularyEntry } from '../data/vocabulary';
 import { Link } from '../components/link';
+import { getVocabulary, VocabularyEntry } from '../data/vocabulary';
 
 const EntryCard: React.FC<{ entry: VocabularyEntry }> = ({ entry }) => {
   return (
@@ -34,20 +34,42 @@ interface StaticProps {
 }
 
 const HomePage: NextPage<StaticProps> = ({ vocabulary }) => {
-  const [entries, setEntries] = React.useState(() => vocabulary.sort(() => 0.5 - Math.random()));
-  const [filter, setFilter] = React.useState('');
+  const [entries, setEntries] = React.useState([] as VocabularyEntry[]);
+  const [query, setQuery] = React.useState('');
 
   React.useEffect(() => {
-    setEntries(
-      vocabulary.filter(
-        (entry) =>
-          entry.name.toLowerCase().includes(filter.toLowerCase()) ||
-          entry.translation.toLowerCase().includes(filter.toLowerCase()) ||
-          entry.aliases?.some((v) => v.toLowerCase().includes(filter.toLowerCase())) ||
-          entry.mistranslations.some((v) => v.toLowerCase().includes(filter.toLowerCase()))
-      )
-    );
-  }, [vocabulary, filter]);
+    // TODO: Use a trie or something
+    const matches = [] as { entry: VocabularyEntry; quality: number }[];
+    const queryNormalized = query.toLowerCase();
+
+    if (!queryNormalized.trim()) {
+      setEntries([]);
+      return;
+    }
+
+    for (const entry of vocabulary) {
+      const keys = [
+        entry.name.toLowerCase(),
+        entry.translation.toLowerCase(),
+        ...entry.mistranslations.map((item) => item.toLocaleLowerCase()),
+        ...entry.aliases.map((item) => item.toLocaleLowerCase())
+      ];
+
+      for (const key of keys) {
+        if (key.includes(queryNormalized)) {
+          // Quality is determined by how many characters are matched
+          // and how close to the beginning of the key the match happened.
+          const quality =
+            queryNormalized.length / key.length - key.indexOf(queryNormalized) / key.length;
+
+          matches.push({ entry, quality });
+          break;
+        }
+      }
+    }
+
+    setEntries(matches.sort((a, b) => b.quality - a.quality).map((match) => match.entry));
+  }, [vocabulary, query]);
 
   return (
     <>
@@ -71,8 +93,8 @@ const HomePage: NextPage<StaticProps> = ({ vocabulary }) => {
             'focus:shadow-outline'
           ])}
           placeholder="🔎 Start typing to search"
-          value={filter}
-          onChange={(e) => setFilter(e.target.value)}
+          value={query}
+          onChange={(e) => setQuery(e.target.value)}
           autoFocus
         />
       </div>

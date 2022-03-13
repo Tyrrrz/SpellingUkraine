@@ -10,13 +10,13 @@ export interface VocabularyEntry {
   name: string;
   translation: string;
   mistranslations: string[];
-  aliases?: string[];
+  aliases: string[];
   description?: string;
   location?: {
     latitude: number;
     longitude: number;
   };
-  externalLinks?: {
+  externalLinks: {
     name: string;
     url: string;
   }[];
@@ -43,6 +43,9 @@ export const getVocabulary = () => {
         ({
           id: path.parse(filePath).name,
           visible: true,
+          mistranslations: [],
+          aliases: [],
+          externalLinks: [],
           ...JSON.parse(fs.readFileSync(filePath, 'utf8'))
         } as VocabularyEntry)
     )
