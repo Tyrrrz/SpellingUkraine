@@ -6,7 +6,7 @@ import { getVocabulary, VocabularyEntry } from '../data/vocabulary';
 
 const EntryCard: React.FC<{ entry: VocabularyEntry }> = ({ entry }) => {
   return (
-    <Link href={`/${entry.id}`}>
+    <Link href={`/i/${entry.id}`}>
       <div
         className={classNames([
           'min-w-[200px]',

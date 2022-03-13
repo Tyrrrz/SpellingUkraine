@@ -2,10 +2,10 @@ import { GetStaticPaths, GetStaticProps, NextPage } from 'next';
 import Head from 'next/head';
 import React from 'react';
 import { FiChevronLeft, FiEdit3, FiExternalLink, FiVolume1, FiVolume2, FiX } from 'react-icons/fi';
-import { HStack } from '../components/hstack';
-import { Link } from '../components/link';
-import { getVocabulary, getVocabularyEntry, VocabularyEntry } from '../data/vocabulary';
-import { pronounce } from '../utils/tts';
+import { HStack } from '../../components/hstack';
+import { Link } from '../../components/link';
+import { getVocabulary, getVocabularyEntry, VocabularyEntry } from '../../data/vocabulary';
+import { pronounce } from '../../utils/tts';
 
 interface StaticProps {
   entry: VocabularyEntry;

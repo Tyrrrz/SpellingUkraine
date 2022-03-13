@@ -1,7 +1,7 @@
 import classNames from 'classnames';
 import type { AppProps } from 'next/app';
 import Head from 'next/head';
-import { FiGithub, FiHeart } from 'react-icons/fi';
+import { FiAward, FiGithub, FiHeart } from 'react-icons/fi';
 import { HStack } from '../components/hstack';
 import { Link } from '../components/link';
 import './globals.css';
@@ -49,7 +49,14 @@ const Main: React.FC = ({ children }) => {
 const Footer: React.FC = () => {
   return (
     <footer
-      className={classNames('flex', 'p-4', 'place-content-center', 'gap-x-4', 'text-neutral-300')}
+      className={classNames(
+        'flex',
+        'p-4',
+        'place-content-center',
+        'gap-x-4',
+        'text-neutral-400',
+        'font-light'
+      )}
     >
       <Link href="https://github.com/Tyrrrz/SpellingUkraine">
         <HStack>
@@ -64,6 +71,15 @@ const Footer: React.FC = () => {
         <HStack>
           <FiHeart />
           <div>Donate</div>
+        </HStack>
+      </Link>
+
+      <div> • </div>
+
+      <Link href="/attributions">
+        <HStack>
+          <FiAward />
+          <div>Attributions</div>
         </HStack>
       </Link>
     </footer>
