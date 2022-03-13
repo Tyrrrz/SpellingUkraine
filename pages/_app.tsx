@@ -88,7 +88,7 @@ const App = ({ Component, pageProps }: AppProps) => {
           name="description"
           content="Learn the correct way to spell Ukrainian cities, names, and other words in English."
         />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.png" />
       </Head>
 
       <Header />
