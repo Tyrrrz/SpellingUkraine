@@ -1,11 +1,14 @@
 {
   "category": "City",
-  "name": "Золот",
+  "name": "Золоте",
   "translation": "Zolote",
   "mistranslations": [
-    "Gold"
+    "Zolotoe",
+    "Zolotoye"
   ],
-  "aliases": [],
+  "aliases": [
+    "Золотое"
+  ],
   "location": {
     "latitude": 48.6833,
     "longitude": 38.5167

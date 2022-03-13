@@ -3,10 +3,11 @@
   "name": "Заводське",
   "translation": "Zavodske",
   "mistranslations": [
-    "Factory"
+    "Zavodskoe",
+    "Zavodskoye"
   ],
   "aliases": [
-    "Заводская"
+    "Заводское"
   ],
   "location": {
     "latitude": 50.4002,
@@ -15,7 +16,7 @@
   "externalLinks": [
     {
       "name": "Wikipedia: Zavodske",
-      "url": "https://en.wikipedia.org/wiki/Zavodske"
+      "url": "https://en.wikipedia.org/wiki/Zavodske,_Poltava_Oblast"
     }
   ]
 }

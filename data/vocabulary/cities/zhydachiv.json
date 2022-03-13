@@ -2,9 +2,11 @@
   "category": "City",
   "name": "Жидачів",
   "translation": "Zhydachiv",
-  "mistranslations": [],
+  "mistranslations": [
+    "Zhidachov"
+  ],
   "aliases": [
-    "Żhydachiv"
+    "Жидачов"
   ],
   "location": {
     "latitude": 49.3833,

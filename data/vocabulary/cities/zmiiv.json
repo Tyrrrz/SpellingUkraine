@@ -1,13 +1,13 @@
 {
   "category": "City",
-  "name": "Zmiiv",
+  "name": "Зміїв",
   "translation": "Zmiiv",
   "mistranslations": [
-    "Zmeev"
+    "Zmiev",
+    "Zmiyev"
   ],
   "aliases": [
-    "Змиев",
-    "Змеев"
+    "Змиёв"
   ],
   "location": {
     "latitude": 49.6878,

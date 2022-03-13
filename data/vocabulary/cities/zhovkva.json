@@ -2,8 +2,13 @@
   "category": "City",
   "name": "Жовква",
   "translation": "Zhovkva",
-  "mistranslations": [],
-  "aliases": [],
+  "mistranslations": [
+    "Zholkva"
+  ],
+  "aliases": [
+    "Жолква",
+    "Żółkiew"
+  ],
   "location": {
     "latitude": 50.0667,
     "longitude": 23.9667

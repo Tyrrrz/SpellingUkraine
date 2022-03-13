@@ -1,12 +1,12 @@
 {
   "category": "City",
-  "name": "Знаменитість",
+  "name": "Знам'янка",
   "translation": "Znamianka",
-  "mistranslations": [],
+  "mistranslations": [
+    "Znamenka"
+  ],
   "aliases": [
-    "Zesamand",
-    "Znamanka",
-    "Znambianka"
+    "Знаменка"
   ],
   "location": {
     "latitude": 48.7136,
@@ -15,7 +15,7 @@
   "externalLinks": [
     {
       "name": "Wikipedia: Znamianka",
-      "url": "https://en.wikipedia.org/wiki/Znamianka"
+      "url": "https://en.wikipedia.org/wiki/Znamianka,_Kirovohrad_Oblast"
     }
   ]
 }

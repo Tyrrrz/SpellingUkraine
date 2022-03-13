@@ -1,9 +1,13 @@
 {
   "category": "City",
-  "name": "Zinkiv",
+  "name": "Зіньків",
   "translation": "Zinkiv",
-  "mistranslations": [],
-  "aliases": [],
+  "mistranslations": [
+    "Zenkov"
+  ],
+  "aliases": [
+    "Зеньков"
+  ],
   "location": {
     "latitude": 50.2081,
     "longitude": 34.3668

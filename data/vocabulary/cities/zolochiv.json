@@ -2,9 +2,13 @@
   "category": "City",
   "name": "Золочів",
   "translation": "Zolochiv",
-  "mistranslations": [],
+  "mistranslations": [
+    "Zolochev"
+  ],
   "aliases": [
-    "Золочив"
+    "Золочев",
+    "Złoczów",
+    "Solotschiw"
   ],
   "location": {
     "latitude": 49.8075,
@@ -13,7 +17,7 @@
   "externalLinks": [
     {
       "name": "Wikipedia: Zolochiv",
-      "url": "https://en.wikipedia.org/wiki/Zolochiv"
+      "url": "https://en.wikipedia.org/wiki/Zolochiv,_Lviv_Oblast"
     }
   ]
 }

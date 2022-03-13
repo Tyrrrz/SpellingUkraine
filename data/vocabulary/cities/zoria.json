@@ -2,9 +2,12 @@
   "category": "City",
   "name": "Зорія",
   "translation": "Zoria",
-  "mistranslations": [],
+  "mistranslations": [
+    "Zorya",
+    "Zarya"
+  ],
   "aliases": [
-    "Зория"
+    "Заря"
   ],
   "location": {
     "latitude": 45.9917,
