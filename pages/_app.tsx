@@ -53,35 +53,36 @@ const Footer: React.FC = () => {
         'flex',
         'p-4',
         'place-content-center',
-        'gap-x-4',
         'text-neutral-400',
         'font-light'
       )}
     >
-      <Link href="https://github.com/Tyrrrz/SpellingUkraine">
-        <HStack>
-          <FiGithub />
-          <div>Contribute</div>
-        </HStack>
-      </Link>
+      <HStack gap="large">
+        <Link href="https://github.com/Tyrrrz/SpellingUkraine">
+          <HStack>
+            <FiGithub />
+            <div>Contribute</div>
+          </HStack>
+        </Link>
 
-      <div> • </div>
+        <div> • </div>
 
-      <Link href="https://tyrrrz.me/donate">
-        <HStack>
-          <FiHeart />
-          <div>Donate</div>
-        </HStack>
-      </Link>
+        <Link href="https://tyrrrz.me/donate">
+          <HStack>
+            <FiHeart />
+            <div>Donate</div>
+          </HStack>
+        </Link>
 
-      <div> • </div>
+        <div> • </div>
 
-      <Link href="/attributions">
-        <HStack>
-          <FiAward />
-          <div>Attributions</div>
-        </HStack>
-      </Link>
+        <Link href="/attributions">
+          <HStack>
+            <FiAward />
+            <div>Attributions</div>
+          </HStack>
+        </Link>
+      </HStack>
     </footer>
   );
 };

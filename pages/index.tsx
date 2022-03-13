@@ -2,6 +2,7 @@ import classNames from 'classnames';
 import type { GetStaticProps, NextPage } from 'next';
 import React from 'react';
 import { Link } from '../components/link';
+import { useDebouncedValue } from '../components/useDebouncedValue';
 import { getVocabulary, VocabularyEntry } from '../data/vocabulary';
 
 const EntryCard: React.FC<{ entry: VocabularyEntry }> = ({ entry }) => {
@@ -34,18 +35,20 @@ interface StaticProps {
 }
 
 const HomePage: NextPage<StaticProps> = ({ vocabulary }) => {
-  const [entries, setEntries] = React.useState([] as VocabularyEntry[]);
+  const [results, setResults] = React.useState([] as VocabularyEntry[]);
   const [query, setQuery] = React.useState('');
+  const debouncedQuery = useDebouncedValue(query, 500);
 
   React.useEffect(() => {
     // TODO: Use a trie or something
-    const matches = [] as { entry: VocabularyEntry; quality: number }[];
-    const queryNormalized = query.toLowerCase();
+    const queryNormalized = debouncedQuery.toLowerCase();
 
     if (!queryNormalized.trim()) {
-      setEntries([]);
+      setResults([]);
       return;
     }
+
+    const matches = [] as { entry: VocabularyEntry; quality: number }[];
 
     for (const entry of vocabulary) {
       const keys = [
@@ -68,8 +71,8 @@ const HomePage: NextPage<StaticProps> = ({ vocabulary }) => {
       }
     }
 
-    setEntries(matches.sort((a, b) => b.quality - a.quality).map((match) => match.entry));
-  }, [vocabulary, query]);
+    setResults(matches.sort((a, b) => b.quality - a.quality).map((match) => match.entry));
+  }, [vocabulary, debouncedQuery]);
 
   return (
     <>
@@ -100,7 +103,7 @@ const HomePage: NextPage<StaticProps> = ({ vocabulary }) => {
       </div>
 
       <div className="py-8 flex flex-wrap place-content-center gap-4">
-        {entries.map((entry) => (
+        {results.map((entry) => (
           <EntryCard key={entry.id} entry={entry} />
         ))}
       </div>
