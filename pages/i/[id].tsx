@@ -1,9 +1,9 @@
 import { GetStaticPaths, GetStaticProps, NextPage } from 'next';
-import Head from 'next/head';
 import React from 'react';
 import { FiChevronLeft, FiEdit3, FiExternalLink, FiVolume1, FiVolume2, FiX } from 'react-icons/fi';
 import { HStack } from '../../components/hstack';
 import { Link } from '../../components/link';
+import { Meta } from '../../components/meta';
 import { getVocabulary, getVocabularyEntry, VocabularyEntry } from '../../data/vocabulary';
 import { pronounce } from '../../utils/tts';
 
@@ -16,13 +16,10 @@ const EntryPage: NextPage<StaticProps> = ({ entry }) => {
 
   return (
     <>
-      <Head>
-        <title>{entry.translation} • Spelling Ukraine</title>
-        <meta
-          name="description"
-          content={`&quot;${entry.translation}&quot; is the correct way to spell the Ukrainian word &quot;${entry.name}&quot; in English.`}
-        />
-      </Head>
+      <Meta
+        title={entry.translation}
+        description={`"${entry.translation}" is the correct way to spell the Ukrainian word &quot;${entry.name}&quot; in English.`}
+      />
 
       <div className="flex mb-8 gap-x-4">
         <Link href="/">

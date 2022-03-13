@@ -1,9 +1,12 @@
 import type { NextPage } from 'next';
 import { Link } from '../components/link';
+import { Meta } from '../components/meta';
 
 const AttributionsPage: NextPage = () => {
   return (
     <>
+      <Meta title="Attributions" />
+
       <div className="text-lg">
         This website uses the following publicly available external assets:
       </div>

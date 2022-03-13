@@ -1,9 +1,9 @@
 import classNames from 'classnames';
 import type { AppProps } from 'next/app';
-import Head from 'next/head';
 import { FiAward, FiGithub, FiHeart } from 'react-icons/fi';
 import { HStack } from '../components/hstack';
 import { Link } from '../components/link';
+import { Meta } from '../components/meta';
 import './globals.css';
 
 const Header: React.FC = () => {
@@ -98,14 +98,7 @@ const App = ({ Component, pageProps }: AppProps) => {
         'bg-stone-900'
       ])}
     >
-      <Head>
-        <title>Spelling Ukraine</title>
-        <meta
-          name="description"
-          content="Learn the correct way to spell Ukrainian cities, names, and other words in English."
-        />
-        <link rel="icon" href="/favicon.png" />
-      </Head>
+      <Meta />
 
       <Header />
 
