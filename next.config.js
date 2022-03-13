@@ -5,8 +5,8 @@ const { spawnSync } = require('child_process');
 const nextConfig = {
   reactStrictMode: true,
   generateBuildId: () => {
-    const gitHash = spawnSync('git rev-parse --short HEAD').stdout?.toString().trim();
-    const gitTag = spawnSync('git tag --points-at HEAD').stdout?.toString().trim();
+    const gitHash = spawnSync('git', ['rev-parse', '--short', 'HEAD']).stdout.toString().trim();
+    const gitTag = spawnSync('git', ['tag', '--points-at', 'HEAD']).stdout.toString().trim();
 
     return [gitHash, gitTag].filter(Boolean).join('-');
   },

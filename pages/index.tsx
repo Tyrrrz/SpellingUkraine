@@ -133,9 +133,9 @@ const HomePage: NextPage<StaticProps> = ({ vocabulary }) => {
 
           <div className={classNames('font-light')}>
             Double check that your search query is correct. If the entry you are looking for is
-            missing, you can add it{' '}
+            missing, you can add it by{' '}
             <Link href="https://github.com/Tyrrrz/SpellingUkraine/tree/master/data/vocabulary">
-              by submitting a pull request
+              submitting a pull request
             </Link>
             .
           </div>
