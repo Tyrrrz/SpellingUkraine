@@ -1,7 +1,7 @@
 import classNames from 'classnames';
 import type { GetStaticProps, NextPage } from 'next';
 import React from 'react';
-import { FiFrown, FiSearch } from 'react-icons/fi';
+import { FiFrown, FiLoader, FiSearch } from 'react-icons/fi';
 import { HStack } from '../components/hstack';
 import { Link } from '../components/link';
 import { useDebouncedValue } from '../components/useDebouncedValue';
@@ -39,6 +39,8 @@ const HomePage: NextPage<StaticProps> = ({ vocabulary }) => {
   const [results, setResults] = React.useState([] as VocabularyEntry[]);
   const [query, setQuery] = React.useState('');
   const debouncedQuery = useDebouncedValue(query, 500);
+
+  const searching = query && query !== debouncedQuery;
 
   React.useEffect(() => {
     // TODO: Use a trie or something
@@ -94,7 +96,7 @@ const HomePage: NextPage<StaticProps> = ({ vocabulary }) => {
       >
         <HStack>
           <div className={classNames('px-4')}>
-            <FiSearch />
+            {searching ? <FiLoader className={classNames('animate-spin')} /> : <FiSearch />}
           </div>
 
           <input
