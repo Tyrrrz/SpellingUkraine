@@ -1,13 +1,12 @@
 {
   "category": "City",
-  "name": "Вельветка",
+  "name": "Веселинове",
   "translation": "Veselynove",
   "mistranslations": [
-    "Lucky"
+    "Veselinovo"
   ],
   "aliases": [
-    "Везелый",
-    "Veelynove"
+    "Веселиново"
   ],
   "location": {
     "latitude": 47.3583,

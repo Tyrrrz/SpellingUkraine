@@ -3,10 +3,11 @@
   "name": "Веселе",
   "translation": "Vesele",
   "mistranslations": [
-    "Visel"
+    "Veseloye",
+    "Veseloe"
   ],
   "aliases": [
-    "Везел"
+    "Весёлое"
   ],
   "location": {
     "latitude": 47.016,
@@ -15,7 +16,7 @@
   "externalLinks": [
     {
       "name": "Wikipedia: Vesele",
-      "url": "https://en.wikipedia.org/wiki/Vesele"
+      "url": "https://en.wikipedia.org/wiki/Vesele,_Zaporizhzhia_Oblast"
     }
   ]
 }

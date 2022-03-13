@@ -3,12 +3,9 @@
   "name": "Винники",
   "translation": "Vynnyky",
   "mistranslations": [
-    "Winnie"
+    "Vinniki"
   ],
-  "aliases": [
-    "Винни",
-    "Vinnyky"
-  ],
+  "aliases": [],
   "location": {
     "latitude": 49.8156,
     "longitude": 24.1297

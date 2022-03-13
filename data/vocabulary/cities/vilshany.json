@@ -1,12 +1,13 @@
 {
   "category": "City",
-  "name": "Вілшанський",
+  "name": "Вільшани",
   "translation": "Vilshany",
   "mistranslations": [
-    "Wilshani"
+    "Vilshani",
+    "Olshany"
   ],
   "aliases": [
-    "Вильшани"
+    "Ольшаны"
   ],
   "location": {
     "latitude": 50.0533,

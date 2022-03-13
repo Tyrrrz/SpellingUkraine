@@ -2,8 +2,12 @@
   "category": "City",
   "name": "Великодолинське",
   "translation": "Velykodolynske",
-  "mistranslations": [],
-  "aliases": [],
+  "mistranslations": [
+    "Velikodolinskoe"
+  ],
+  "aliases": [
+    "Великодолинское"
+  ],
   "location": {
     "latitude": 46.3425,
     "longitude": 30.5653

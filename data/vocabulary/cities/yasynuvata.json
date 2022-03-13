@@ -2,8 +2,12 @@
   "category": "City",
   "name": "Ясинувата",
   "translation": "Yasynuvata",
-  "mistranslations": [],
-  "aliases": [],
+  "mistranslations": [
+    "Yasinovataya"
+  ],
+  "aliases": [
+    "Ясиноватая"
+  ],
   "location": {
     "latitude": 48.1167,
     "longitude": 37.8333

@@ -1,15 +1,11 @@
 {
   "category": "City",
-  "name": "Валливий",
+  "name": "Валки",
   "translation": "Valky",
   "mistranslations": [
-    "Valka"
+    "Valki"
   ],
-  "aliases": [
-    "Вальки",
-    "Walky",
-    "Valdy"
-  ],
+  "aliases": [],
   "location": {
     "latitude": 49.8386,
     "longitude": 35.6217

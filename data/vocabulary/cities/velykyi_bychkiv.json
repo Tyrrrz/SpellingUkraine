@@ -3,14 +3,25 @@
   "name": "Великий Бичків",
   "translation": "Velykyi Bychkiv",
   "mistranslations": [
-    "Great Bychkov"
+    "Velikiy Bychkov"
   ],
   "aliases": [
-    "Великий Бычков"
+    "Великий Бычков",
+    "Nagybocskó",
+    "Nagybocska",
+    "Bocicoiu Mare",
+    "Velký Bočkov",
+    "Veľký Bočkov",
+    "Bočková"
   ],
   "location": {
     "latitude": 47.9714,
     "longitude": 24.0047
   },
-  "externalLinks": []
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Velykyi Bychkiv",
+      "url": "https://en.wikipedia.org/wiki/Velykyi_Bychkiv"
+    }
+  ]
 }

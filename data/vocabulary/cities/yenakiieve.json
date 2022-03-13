@@ -1,15 +1,12 @@
 {
   "category": "City",
-  "name": "Yenakiieve",
+  "name": "Єнакієве",
   "translation": "Yenakiieve",
   "mistranslations": [
-    "Jenakiyev"
+    "Yenakiyevo"
   ],
   "aliases": [
-    "Йенакиева",
-    "Yenakiwe",
-    "Yenakiiee",
-    "Yenakieve"
+    "Енакиево"
   ],
   "location": {
     "latitude": 48.2311,

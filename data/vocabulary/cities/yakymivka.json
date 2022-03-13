@@ -3,11 +3,11 @@
   "name": "Якимівка",
   "translation": "Yakymivka",
   "mistranslations": [
-    "Yakimovka"
+    "Yakimovka",
+    "Akimovka"
   ],
   "aliases": [
-    "Якимовка",
-    "Yakmivka"
+    "Акимовка"
   ],
   "location": {
     "latitude": 46.6967,

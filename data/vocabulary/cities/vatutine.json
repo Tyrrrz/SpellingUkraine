@@ -1,15 +1,12 @@
 {
   "category": "City",
-  "name": "Ватутний",
+  "name": "Ватутіне",
   "translation": "Vatutine",
   "mistranslations": [
-    "Vatutin"
+    "Vatutino"
   ],
   "aliases": [
-    "Ватутин",
-    "Vatutin",
-    "Vatutina",
-    "Vatuina"
+    "Ватутино"
   ],
   "location": {
     "latitude": 49.0167,

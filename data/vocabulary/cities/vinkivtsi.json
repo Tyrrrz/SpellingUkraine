@@ -1,13 +1,12 @@
 {
   "category": "City",
-  "name": "Vinkivtsi",
+  "name": "Віньківці",
   "translation": "Vinkivtsi",
   "mistranslations": [
-    "Viniivtsy"
+    "Vinkovtsy"
   ],
   "aliases": [
-    "Вингивцы",
-    "Vinkventssi"
+    "Виньковцы"
   ],
   "location": {
     "latitude": 49.0333,

@@ -1,13 +1,12 @@
 {
   "category": "City",
-  "name": "Вахрушевий",
+  "name": "Вахрушеве",
   "translation": "Vakhrusheve",
   "mistranslations": [
-    "Vakhrushe"
+    "Vakhrushevo"
   ],
   "aliases": [
-    "Вахруше",
-    "Vakhruseve"
+    "Вахрушево"
   ],
   "location": {
     "latitude": 48.1606,

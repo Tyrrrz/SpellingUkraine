@@ -1,12 +1,14 @@
 {
   "category": "City",
-  "name": "Вапнірка",
+  "name": "Вапнярка",
   "translation": "Vapniarka",
   "mistranslations": [
-    "Vapnirak"
+    "Vapnyarka"
   ],
   "aliases": [
-    "Вапнирака"
+    "Vapniarca",
+    "Wapnjarka",
+    "Wapniarka"
   ],
   "location": {
     "latitude": 48.5333,

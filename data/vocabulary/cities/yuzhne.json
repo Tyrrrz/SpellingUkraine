@@ -1,9 +1,17 @@
 {
   "category": "City",
-  "name": "Yuzhne",
+  "name": "Южне",
   "translation": "Yuzhne",
-  "mistranslations": [],
-  "aliases": [],
+  "mistranslations": [
+    "Yuzhny",
+    "Yuzhniy",
+    "Yuzhnoe",
+    "Yuzhnoye"
+  ],
+  "aliases": [
+    "Южний",
+    "Южное"
+  ],
   "location": {
     "latitude": 46.6222,
     "longitude": 31.1008

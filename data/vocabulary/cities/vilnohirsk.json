@@ -1,10 +1,13 @@
 {
   "category": "City",
-  "name": "Вільнюрськ",
+  "name": "Вільногірськ",
   "translation": "Vilnohirsk",
-  "mistranslations": [],
+  "mistranslations": [
+    "Vilnogirsk",
+    "Volnogorsk"
+  ],
   "aliases": [
-    "Вилнохирск"
+    "Вольногорск"
   ],
   "location": {
     "latitude": 48.4824,

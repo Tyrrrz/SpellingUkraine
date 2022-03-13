@@ -3,7 +3,10 @@
   "name": "Яремче",
   "translation": "Yaremche",
   "mistranslations": [],
-  "aliases": [],
+  "aliases": [
+    "Jaremcze",
+    "Jaremcza"
+  ],
   "location": {
     "latitude": 48.4536,
     "longitude": 24.5564

@@ -3,12 +3,12 @@
   "name": "Вінниця",
   "translation": "Vinnytsia",
   "mistranslations": [
+    "Vinnytsya",
     "Vinnitsa",
     "Vinitsia"
   ],
   "aliases": [
-    "Винница",
-    "Vinnysie"
+    "Винница"
   ],
   "location": {
     "latitude": 49.2372,

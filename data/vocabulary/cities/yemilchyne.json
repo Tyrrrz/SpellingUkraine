@@ -1,15 +1,12 @@
 {
   "category": "City",
-  "name": "Yemilchyne",
+  "name": "Ємільчине",
   "translation": "Yemilchyne",
   "mistranslations": [
-    "Yimilchin"
+    "Yemilchino"
   ],
   "aliases": [
-    "Йимилчин",
-    "Jemilchyne",
-    "Jemilchyne",
-    "EMilchyne"
+    "Емильчино"
   ],
   "location": {
     "latitude": 50.8708,

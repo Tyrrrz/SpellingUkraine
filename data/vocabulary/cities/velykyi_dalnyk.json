@@ -1,8 +1,10 @@
 {
   "category": "City",
-  "name": "Великий Далник",
+  "name": "Великий Дальник",
   "translation": "Velykyi Dalnyk",
-  "mistranslations": [],
+  "mistranslations": [
+    "Velikiy Dalnik"
+  ],
   "aliases": [],
   "location": {
     "latitude": 46.4658,

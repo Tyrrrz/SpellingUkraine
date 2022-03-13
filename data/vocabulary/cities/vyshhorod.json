@@ -3,12 +3,10 @@
   "name": "Вишгород",
   "translation": "Vyshhorod",
   "mistranslations": [
-    "Vyshgor"
+    "Vyshgorod"
   ],
   "aliases": [
-    "Вышхород",
-    "Вышгород",
-    "Vyshorod"
+    "Вышгород"
   ],
   "location": {
     "latitude": 50.5833,

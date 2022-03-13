@@ -1,14 +1,13 @@
 {
   "category": "City",
-  "name": "Великий подрібнений",
+  "name": "Великі Мости",
   "translation": "Velyki Mosty",
   "mistranslations": [
-    "Velukiusy"
+    "Velikie Mosty"
   ],
   "aliases": [
-    "Велюкистые",
-    "Velyki MILY",
-    "Velyki Mossy"
+    "Великие Мосты",
+    "Mosty Wielkie"
   ],
   "location": {
     "latitude": 50.24,
@@ -17,7 +16,7 @@
   "externalLinks": [
     {
       "name": "Wikipedia: Velyki Mosty",
-      "url": "https://en.wikipedia.org/wiki/Velyki_mosty"
+      "url": "https://en.wikipedia.org/wiki/Velyki_Mosty"
     }
   ]
 }

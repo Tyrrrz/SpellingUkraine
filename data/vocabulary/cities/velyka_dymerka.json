@@ -2,14 +2,20 @@
   "category": "City",
   "name": "Велика Димерка",
   "translation": "Velyka Dymerka",
-  "mistranslations": [],
+  "mistranslations": [
+    "Velikaya Dymerka"
+  ],
   "aliases": [
-    "Velyka Dykerka",
-    "Velyka Dimerka"
+    "Великая Дымерка"
   ],
   "location": {
     "latitude": 50.5928,
     "longitude": 30.9103
   },
-  "externalLinks": []
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Velyka Dymerka",
+      "url": "https://en.wikipedia.org/wiki/Velyka_Dymerka"
+    }
+  ]
 }

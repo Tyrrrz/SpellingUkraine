@@ -2,8 +2,13 @@
   "category": "City",
   "name": "Верховина",
   "translation": "Verkhovyna",
-  "mistranslations": [],
-  "aliases": [],
+  "mistranslations": [
+    "Verkhovina"
+  ],
+  "aliases": [
+    "Верховина",
+    "Żabie"
+  ],
   "location": {
     "latitude": 48.1517,
     "longitude": 24.8136

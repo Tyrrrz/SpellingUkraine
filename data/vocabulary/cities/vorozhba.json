@@ -2,12 +2,8 @@
   "category": "City",
   "name": "Ворожба",
   "translation": "Vorozhba",
-  "mistranslations": [
-    "Divination"
-  ],
-  "aliases": [
-    "Vorzhba"
-  ],
+  "mistranslations": [],
+  "aliases": [],
   "location": {
     "latitude": 51.1749,
     "longitude": 34.2299

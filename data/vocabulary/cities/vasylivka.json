@@ -3,11 +3,12 @@
   "name": "Василівка",
   "translation": "Vasylivka",
   "mistranslations": [
-    "Vasilvka"
+    "Vasilivka",
+    "Vasilyevka",
+    "Vasilevka"
   ],
   "aliases": [
-    "Васильвка",
-    "Vasilivka"
+    "Васильевка"
   ],
   "location": {
     "latitude": 47.4344,

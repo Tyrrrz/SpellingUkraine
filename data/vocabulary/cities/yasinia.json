@@ -1,11 +1,14 @@
 {
   "category": "City",
-  "name": "Ясинія",
+  "name": "Ясіня",
   "translation": "Yasinia",
-  "mistranslations": [],
+  "mistranslations": [
+    "Yasinya"
+  ],
   "aliases": [
-    "Ясиния",
-    "Yasien"
+    "Ясиня",
+    "Körösmező",
+    "Jasiňa"
   ],
   "location": {
     "latitude": 48.2728,
