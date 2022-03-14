@@ -18,7 +18,7 @@ const EntryPage: NextPage<StaticProps> = ({ entry }) => {
     <>
       <Meta
         title={entry.translation}
-        description={`"${entry.translation}" is the correct way to spell the Ukrainian word "${entry.name}" in English.`}
+        description={`"${entry.translation}" is the correct way to spell "${entry.name}" in English. Look up other words on spellingukraine.com.`}
       />
 
       <div className="flex mb-8 gap-x-4">
