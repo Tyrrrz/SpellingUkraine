@@ -6,15 +6,15 @@ import { FiChevronLeft, FiEdit3, FiExternalLink, FiVolume1, FiVolume2, FiX } fro
 import { HStack } from '../../components/hstack';
 import { Link } from '../../components/link';
 import { Meta } from '../../components/meta';
+import { useSpeech } from '../../components/useSpeech';
 import { getVocabulary, getVocabularyEntry, VocabularyEntry } from '../../data/vocabulary';
-import { pronounce } from '../../utils/tts';
 
 interface StaticProps {
   entry: VocabularyEntry;
 }
 
 const EntryPage: NextPage<StaticProps> = ({ entry }) => {
-  const [pronouncing, setPronouncing] = React.useState(false);
+  const speech = useSpeech();
 
   return (
     <>
@@ -44,16 +44,11 @@ const EntryPage: NextPage<StaticProps> = ({ entry }) => {
       <div className="space-y-4">
         <div className="flex items-center gap-x-4">
           <h2 className="text-6xl font-bold tracking-wide">{entry.translation}</h2>
-          <button
-            className="mt-3"
-            onClick={() => {
-              if (pronouncing) return;
-              setPronouncing(true);
-              pronounce(entry.translation).finally(() => setPronouncing(false));
-            }}
-          >
-            {pronouncing ? <FiVolume2 size={32} /> : <FiVolume1 size={32} />}
-          </button>
+          {speech.available && (
+            <button className="mt-3" onClick={() => speech.say(entry.translation)}>
+              {speech.active ? <FiVolume2 size={32} /> : <FiVolume1 size={32} />}
+            </button>
+          )}
         </div>
 
         <div className="text-4xl tracking-wide">
