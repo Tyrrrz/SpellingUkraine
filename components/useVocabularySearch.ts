@@ -15,8 +15,8 @@ const filterVocabulary = (vocabulary: VocabularyEntry[], query: string) => {
     const keys = [
       entry.name.toLowerCase(),
       entry.translation.toLowerCase(),
-      ...entry.mistranslations.map((item) => item.toLocaleLowerCase()),
-      ...entry.aliases.map((item) => item.toLocaleLowerCase())
+      ...entry.mistranslations.map((item) => item.toLowerCase()),
+      ...entry.aliases.map((item) => item.toLowerCase())
     ];
 
     for (const key of keys) {
@@ -51,7 +51,7 @@ export const useVocabularySearch = (vocabulary: VocabularyEntry[]) => {
   return {
     query,
     setQuery,
-    processing: query && query !== debouncedQuery,
+    processing: !!(query && query !== debouncedQuery),
     results
   };
 };
