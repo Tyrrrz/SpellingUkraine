@@ -30,7 +30,7 @@ export const Meta: React.FC<MetaProps> = ({ title, description, keywords, imageU
       <meta name="application-name" content="Spelling Ukraine" />
       <meta name="description" content={actualDescription} />
       <meta name="keywords" content={actualKeywords} />
-      <meta name="theme-color" content="#ffd700" />
+      <meta name="theme-color" content="#facc15" />
 
       <meta property="og:type" content="website" />
       <meta property="og:site_name" content="Spelling Ukraine" />
