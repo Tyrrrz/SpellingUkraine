@@ -3,7 +3,13 @@ export const getBuildId = () => {
 };
 
 export const getSiteUrl = () => {
-  return process.env.NEXT_PUBLIC_VERCEL_URL;
+  const url = process.env.NEXT_PUBLIC_VERCEL_URL;
+
+  if (url && !url.startsWith('http://') && !url.startsWith('https://')) {
+    return `https://${url}`;
+  }
+
+  return url;
 };
 
 export const getAbsoluteUrl = (path: string) => {
