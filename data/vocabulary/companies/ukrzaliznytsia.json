@@ -1,0 +1,20 @@
+{
+  "category": "Company",
+  "name": "Укрзалізниця",
+  "translation": "Ukrzaliznytsia",
+  "mistranslations": [
+    "Ukrzaliznitsia",
+    "Ukrzaliznitsa",
+    "Ukrzaliznycia"
+  ],
+  "aliases": [
+    "Ukrainian Railways"
+  ],
+  "description": "Ukrainian state-owned railway company.",
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Ukrzaliznytsia",
+      "url": "https://en.wikipedia.org/wiki/Ukrzaliznytsia"
+    }
+  ]
+}

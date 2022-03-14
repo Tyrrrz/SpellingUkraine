@@ -6,7 +6,9 @@
     "Geroyam Slava",
     "Heroyam Slava"
   ],
-  "aliases": [],
+  "aliases": [
+    "Glory to Heroes"
+  ],
   "description": "Customary response to \"Slava Ukraini\", a national salute. Translated from Ukrainian, it means \"Glory to the Heroes\".",
   "externalLinks": [
     {
