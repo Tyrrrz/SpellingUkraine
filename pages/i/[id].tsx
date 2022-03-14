@@ -32,7 +32,7 @@ const EntryPage: NextPage<StaticProps> = ({ entry }) => {
         </Link>
 
         <Link
-          href={`https://github.com/Tyrrrz/SpellingUkraine/blob/master/data/vocabulary/${entry.id}.json`}
+          href={`https://github.com/Tyrrrz/SpellingUkraine/blob/master/data/vocabulary/${entry.path}`}
         >
           <HStack>
             <FiEdit3 />
@@ -89,7 +89,7 @@ const EntryPage: NextPage<StaticProps> = ({ entry }) => {
         {entry.location && (
           <div className={classNames('w-full')}>
             <Map
-              height={300}
+              height={400}
               defaultCenter={[entry.location.latitude, entry.location.longitude]}
               defaultZoom={6}
             >

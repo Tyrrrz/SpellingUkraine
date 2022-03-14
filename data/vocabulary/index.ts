@@ -5,6 +5,7 @@ const dirPath = path.join(process.cwd(), 'data', 'vocabulary');
 
 export interface VocabularyEntry {
   id: string;
+  path: string;
   visible: boolean;
   category: string;
   name: string;
@@ -42,6 +43,7 @@ export const getVocabulary = () => {
       (filePath) =>
         ({
           id: path.parse(filePath).name,
+          path: path.relative(dirPath, filePath),
           visible: true,
           mistranslations: [],
           aliases: [],
