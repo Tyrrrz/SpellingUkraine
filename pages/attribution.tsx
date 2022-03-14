@@ -19,6 +19,12 @@ const AttributionsPage: NextPage = () => {
           <Link href="https://flaticon.com/free-icon/ukraine_197572">Ukraine icon by Freepik</Link>{' '}
           (Flaticon license)
         </li>
+        <li>
+          <Link href="https://openstreetmap.org/copyright">
+            Map data by OpenStreetMap contributors
+          </Link>{' '}
+          (Open Database License)
+        </li>
       </ul>
     </>
   );

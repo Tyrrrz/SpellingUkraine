@@ -1,4 +1,6 @@
+import classNames from 'classnames';
 import { GetStaticPaths, GetStaticProps, NextPage } from 'next';
+import { Map, Marker } from 'pigeon-maps';
 import React from 'react';
 import { FiChevronLeft, FiEdit3, FiExternalLink, FiVolume1, FiVolume2, FiX } from 'react-icons/fi';
 import { HStack } from '../../components/hstack';
@@ -88,6 +90,21 @@ const EntryPage: NextPage<StaticProps> = ({ entry }) => {
               </HStack>
             ))}
         </div>
+
+        {entry.location && (
+          <div className={classNames('w-full')}>
+            <Map
+              height={300}
+              defaultCenter={[entry.location.latitude, entry.location.longitude]}
+              defaultZoom={6}
+            >
+              <Marker
+                color="#0ea5e9"
+                anchor={[entry.location.latitude, entry.location.longitude]}
+              />
+            </Map>
+          </div>
+        )}
       </div>
     </>
   );
