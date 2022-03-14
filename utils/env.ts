@@ -21,3 +21,7 @@ export const getAbsoluteUrl = (path: string) => {
 
   return path;
 };
+
+export const getAnalyticsDsn = () => {
+  return process.env.NEXT_PUBLIC_ANALYTICS_DSN;
+};

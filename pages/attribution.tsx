@@ -6,9 +6,9 @@ import { Meta } from '../components/meta';
 const AttributionsPage: NextPage = () => {
   return (
     <>
-      <Meta title="Attributions" />
+      <Meta title="Attribution" />
 
-      <div className={classNames('my-2', 'text-2xl', 'leading-wide')}>Attributions</div>
+      <div className={classNames('my-2', 'text-2xl', 'leading-wide')}>Attribution</div>
 
       <div className={classNames('text-lg', 'font-light')}>
         This website uses the following publicly available external assets:

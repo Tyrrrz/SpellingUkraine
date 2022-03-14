@@ -1,10 +1,11 @@
 import classNames from 'classnames';
 import type { AppProps } from 'next/app';
+import Script from 'next/script';
 import { FiAward, FiGithub, FiHeart } from 'react-icons/fi';
 import { HStack } from '../components/hstack';
 import { Link } from '../components/link';
 import { Meta } from '../components/meta';
-import { getBuildId } from '../utils/env';
+import { getAnalyticsDsn, getBuildId } from '../utils/env';
 import './globals.css';
 
 const Header: React.FC = () => {
@@ -89,10 +90,10 @@ const Footer: React.FC = () => {
 
         <div> • </div>
 
-        <Link href="/attributions" emphasize={false}>
+        <Link href="/attribution" emphasize={false}>
           <HStack>
             <FiAward strokeWidth={1} />
-            <div>Attributions</div>
+            <div>Attribution</div>
           </HStack>
         </Link>
       </HStack>
@@ -123,6 +124,21 @@ const App = ({ Component, pageProps }: AppProps) => {
 
         <Footer />
       </div>
+
+      <Script
+        src={`https://www.googletagmanager.com/gtag/js?id=${getAnalyticsDsn()}`}
+        strategy="afterInteractive"
+      />
+
+      <Script id="google-analytics" strategy="afterInteractive">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){window.dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', '${getAnalyticsDsn()}');
+        `}
+      </Script>
     </>
   );
 };
