@@ -1,0 +1,17 @@
+{
+  "name": "Spelling Ukraine",
+  "short_name": "SpellingUkraine",
+  "icons": [
+    {
+      "src": "/logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "theme_color": "#ffd700",
+  "background_color": "#0057b7",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait"
+}

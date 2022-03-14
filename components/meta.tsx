@@ -25,11 +25,15 @@ export const Meta: React.FC<MetaProps> = ({ title, description, keywords, imageU
 
       <title>{actualTitle}</title>
       <link rel="icon" href="/favicon.png" />
+      <link rel="manifest" href="/manifest.json" />
 
+      <meta name="application-name" content="Spelling Ukraine" />
       <meta name="description" content={actualDescription} />
       <meta name="keywords" content={actualKeywords} />
+      <meta name="theme-color" content="#ffd700" />
 
       <meta property="og:type" content="website" />
+      <meta property="og:site_name" content="Spelling Ukraine" />
       <meta property="og:title" content={actualTitle} />
       <meta property="og:description" content={actualDescription} />
       <meta property="og:image" content={getAbsoluteUrl(actualImageUrl)} />
