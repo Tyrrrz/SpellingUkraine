@@ -1,10 +1,11 @@
 import React from 'react';
 import type { VocabularyEntry } from '../data/vocabulary';
+import { normalizeString } from '../utils/str';
 import { useDebouncedValue } from './useDebouncedValue';
 
 const filterVocabulary = (vocabulary: VocabularyEntry[], query: string) => {
   // TODO: Use a trie or something
-  const queryNormalized = query.toLowerCase();
+  const queryNormalized = normalizeString(query);
   if (!queryNormalized) {
     return [];
   }
@@ -13,11 +14,11 @@ const filterVocabulary = (vocabulary: VocabularyEntry[], query: string) => {
 
   for (const entry of vocabulary) {
     const keys = [
-      entry.name.toLowerCase(),
-      entry.translation.toLowerCase(),
-      ...entry.mistranslations.map((item) => item.toLowerCase()),
-      ...entry.aliases.map((item) => item.toLowerCase())
-    ];
+      entry.name,
+      entry.translation,
+      ...entry.mistranslations,
+      ...entry.aliases
+    ].map(normalizeString);
 
     for (const key of keys) {
       if (key.includes(queryNormalized)) {

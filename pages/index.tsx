@@ -26,9 +26,8 @@ const HomePage: NextPage<StaticProps> = ({ vocabulary }) => {
       'You can search in different languages where applicable',
       'You can install this app as PWA on your phone or computer',
       'This app caches data and works offline',
-      'Thank you for using this website 💙💛',
-      `There are ${vocabulary.length} entries in our vocabulary`,
-      'All vocabulary entries have been carefully reviewed by a human',
+      `There are ${vocabulary.length} entries in this vocabulary`,
+      'All vocabulary entries have been carefully reviewed by humans',
       'Not sure what to search for? Try "Kyiv"',
       'Not sure what to search for? Try "Ukraine"',
       'Not sure what to search for? Try "Kharkiv"',
@@ -78,7 +77,7 @@ const HomePage: NextPage<StaticProps> = ({ vocabulary }) => {
       </Box>
 
       {!search.query && !search.processing && (
-        <Box classes={['flex', 'my-2', 'place-content-center', 'text-light']}>
+        <Box classes={['flex', 'my-2', 'place-content-center', 'text-neutral-600', 'text-light']}>
           <HStack gap="medium">
             <FiInfo />
             <Box>{tip}</Box>
