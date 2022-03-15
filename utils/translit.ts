@@ -65,6 +65,7 @@ table.set('Ш', 'Sh');
 table.set('Щ', 'Shch');
 table.set('Ю', 'Yu');
 table.set('Я', 'Ya');
+table.set('Ь', '');
 table.set("'", '');
 
 export const transliterate = (text: string) => {
@@ -79,12 +80,11 @@ export const transliterate = (text: string) => {
       // Special case for 'ЗГ' compound
       result += 'gh';
     } else {
-      const ct = table.get(c);
-      if (!ct) {
+      if (!table.has(c)) {
         return null;
       }
 
-      result += ct;
+      result += table.get(c);
     }
 
     last = c;
