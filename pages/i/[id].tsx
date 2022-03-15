@@ -54,12 +54,11 @@ const EntryPage: NextPage<StaticProps> = ({ entry }) => {
 
       <Box classes={['mt-4', 'p-4', 'border-2', 'border-neutral-400', 'rounded', 'bg-neutral-100']}>
         <Box classes={['space-y-1', 'text-3xl']}>
-          <HStack gap="large">
+          <HStack align="bottom" gap="large">
             <Box>{entry.translation}</Box>
 
             {speech.available && (
               <button
-                className={classNames('mt-2')}
                 title={`Pronounce "${entry.translation}"`}
                 onClick={() => speech.say(entry.translation)}
               >
