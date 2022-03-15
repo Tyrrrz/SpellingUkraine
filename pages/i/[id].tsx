@@ -31,7 +31,7 @@ const EntryPage: NextPage<StaticProps> = ({ entry }) => {
     <>
       <Meta
         title={entry.translation}
-        description={`"${entry.translation}" is the correct way to spell "${entry.name}" in English. Look up other words on spellingukraine.com.`}
+        description={`"${entry.translation}" is the correct way to spell "${entry.name}" in English. Support Ukraine, transliterate correctly!`}
       />
 
       <HDock>
@@ -103,14 +103,18 @@ const EntryPage: NextPage<StaticProps> = ({ entry }) => {
 
           {entry.location && (
             <Box>
-              <Box classes={['cursor-grab']}>
+              <Box>
                 <Map
                   height={400}
+                  mouseEvents={false}
+                  touchEvents={false}
                   defaultCenter={[entry.location.latitude, entry.location.longitude]}
                   defaultZoom={6}
                 >
                   <Marker
                     color="#0ea5e9"
+                    width={48}
+                    hover={false}
                     anchor={[entry.location.latitude, entry.location.longitude]}
                   />
                 </Map>
@@ -118,7 +122,9 @@ const EntryPage: NextPage<StaticProps> = ({ entry }) => {
 
               <Box classes={['flex', 'place-content-end']}>
                 <Link
-                  href={`https://google.com/maps/@${entry.location.latitude},${entry.location.longitude},10z`}
+                  href={`https://google.com/maps/search/?api=1&query=${encodeURIComponent(
+                    entry.translation
+                  )}`}
                 >
                   <HStack>
                     <FiMap />

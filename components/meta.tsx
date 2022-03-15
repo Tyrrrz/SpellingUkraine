@@ -13,7 +13,7 @@ export const Meta: React.FC<MetaProps> = ({ title, description, keywords, imageU
 
   const actualDescription =
     description ||
-    'Look up the correct way to spell Ukrainian cities, names, and other words in English.';
+    'Look up the correct way to spell Ukrainian cities, names, and other words in English. Support Ukraine, transliterate correctly!';
 
   const actualKeywords = keywords?.join(', ') || 'spelling, ukraine, english, dictionary';
 
