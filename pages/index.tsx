@@ -2,7 +2,7 @@ import classNames from 'classnames';
 import type { GetStaticProps, NextPage } from 'next';
 import { useRouter } from 'next/router';
 import React from 'react';
-import { FiFrown, FiInfo, FiLoader, FiSearch } from 'react-icons/fi';
+import { FiFrown, FiHeart, FiInfo, FiLoader, FiSearch } from 'react-icons/fi';
 import { Box } from '../components/box';
 import { HStack } from '../components/hstack';
 import { Link } from '../components/link';
@@ -22,12 +22,11 @@ const HomePage: NextPage<StaticProps> = ({ vocabulary }) => {
   const tip = useRotatingRandom(
     [
       'Press ENTER to instantly navigate to the first result',
-      'You can search using incorrect translations too',
-      'You can search in different languages where applicable',
-      'You can install this app as PWA on your phone or computer',
-      'This app caches data and works offline',
-      `There are ${vocabulary.length} entries in this vocabulary`,
+      `There are currently ${vocabulary.length} entries in this vocabulary`,
       'All vocabulary entries have been carefully reviewed by humans',
+      'You can search by incorrect translations as well (e.g. "Kiev")',
+      'You can search in different languages (where available)',
+      'You can install this app as PWA on your device',
       'Not sure what to search for? Try "Kyiv"',
       'Not sure what to search for? Try "Ukraine"',
       'Not sure what to search for? Try "Kharkiv"',
@@ -84,29 +83,47 @@ const HomePage: NextPage<StaticProps> = ({ vocabulary }) => {
         </HStack>
       </Box>
 
-      {!search.query && !search.processing && (
-        <Box classes={['mx-2', 'mt-8', 'space-y-2']}>
-          <Box>
-            <Box type="p" classes={['text-xl', 'font-semibold']}>
-              Why does spelling matter?
-            </Box>
-            <Box type="p" classes={['text-lg']}>
-              Why does it matter?
-            </Box>
-          </Box>
-
-          <Box>
-            <Box type="p" classes={['text-xl', 'font-semibold']}>
-              How does this help?
-            </Box>
-            <Box type="p" classes={['text-lg']}>
-              Why does it matter?
-            </Box>
-          </Box>
-        </Box>
-      )}
-
       <Box classes={['mt-8']}>
+        {!search.query && !search.processing && (
+          <Box classes={['mx-2', 'space-y-2', 'text-lg']}>
+            <Box type="p" classes={['text-xl', 'font-semibold']}>
+              Why does it matter?
+            </Box>
+            <Box type="p">
+              Ukrainian language has a long and troubled history. Before it became independent,
+              Ukraine had spent many decades occupied by the Russian-speaking Soviet Union and,
+              prior to that, Russian Empire. During this period, Ukrainian language faced
+              suppression and its speakers were victims of persecution and ridicule. The vast
+              majority of educational facilities and businesses at the time mandated the use of
+              Russian, which left no opportunities for other languages.
+            </Box>
+            <Box type="p">
+              As a result of this, names of Ukrainian cities, people, as well as many other words,
+              have made it into English based on their transliteration from the Russian language and
+              not Ukrainian. Considering Ukraine&apos;s desire to establish its own identity,
+              especially in the light of military aggression waged against it by Russia, the choice
+              of spelling has become more than just a preference, but a{' '}
+              <Box type="span" classes={['font-semibold']}>
+                political stance
+              </Box>
+              .
+            </Box>
+            <Box type="p">
+              While Russia continuously attempts to undermine and, ultimately, erase Ukrainian
+              culture, taking a moment of your time to ensure the correct spelling is another way
+              that you can{' '}
+              <Box type="span" classes={['font-semibold']}>
+                #StandWithUkraine
+              </Box>{' '}
+              in its fight for freedom.{' '}
+              <Box type="span" classes={['inline-flex']}>
+                <FiHeart strokeWidth={1} fill="#3b82f6" />
+                <FiHeart strokeWidth={1} fill="#facc15" />
+              </Box>
+            </Box>
+          </Box>
+        )}
+
         {search.results.length > 0 && (
           <Box classes={['flex', 'flex-col', 'lg:flex-row', 'flex-wrap', 'gap-4']}>
             {search.results.map((entry) => (
@@ -117,8 +134,8 @@ const HomePage: NextPage<StaticProps> = ({ vocabulary }) => {
                     'bg-neutral-100',
                     'border-2',
                     'border-neutral-400',
-                    'rounded',
-                    'hover:border-blue-500'
+                    'hover:border-blue-500',
+                    'rounded'
                   ]}
                 >
                   <Box classes={['text-xl']}>{entry.translation}</Box>
@@ -132,7 +149,7 @@ const HomePage: NextPage<StaticProps> = ({ vocabulary }) => {
         )}
 
         {search.results.length <= 0 && search.query && !search.processing && (
-          <Box classes={['p-6', 'border-2', 'border-neutral-400', 'rounded', 'bg-neutral-100']}>
+          <Box>
             <Box classes={['text-xl']}>
               <HStack gap="medium">
                 <Box>No results found</Box>

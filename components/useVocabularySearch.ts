@@ -1,7 +1,11 @@
 import React from 'react';
 import type { VocabularyEntry } from '../data/vocabulary';
-import { normalizeString } from '../utils/str';
 import { useDebouncedValue } from './useDebouncedValue';
+
+const normalizeString = (str: string) => {
+  // Lowercase and remove diacritics & accents
+  return str.toLowerCase().replace(/[\u0300-\u036f]/g, '');
+};
 
 const filterVocabulary = (vocabulary: VocabularyEntry[], query: string) => {
   // TODO: Use a trie or something
@@ -13,12 +17,9 @@ const filterVocabulary = (vocabulary: VocabularyEntry[], query: string) => {
   const matches = [] as { entry: VocabularyEntry; quality: number }[];
 
   for (const entry of vocabulary) {
-    const keys = [
-      entry.name,
-      entry.translation,
-      ...entry.mistranslations,
-      ...entry.aliases
-    ].map(normalizeString);
+    const keys = [entry.name, entry.translation, ...entry.mistranslations, ...entry.aliases].map(
+      normalizeString
+    );
 
     for (const key of keys) {
       if (key.includes(queryNormalized)) {

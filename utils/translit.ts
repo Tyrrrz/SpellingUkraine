@@ -1,5 +1,6 @@
 // Ukrainian official transliteration is a simplified version of ALA-LC
 const table = new Map<string, string>();
+table.set(' ', ' ');
 table.set('а', 'a');
 table.set('б', 'b');
 table.set('в', 'v');
@@ -73,11 +74,8 @@ export const transliterate = (text: string) => {
   let last = '';
 
   for (const c of text) {
-    if (c === ' ') {
-      // Skip spaces
-      result += ' ';
-    } else if (c.toLowerCase() === 'г' && last.toLowerCase() === 'з') {
-      // Special case for 'ЗГ' compound
+    // Special case for 'ЗГ' compound
+    if (last.toLowerCase() === 'з' && c.toLowerCase() === 'г') {
       result += 'gh';
     } else {
       if (!table.has(c)) {
