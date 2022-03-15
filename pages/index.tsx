@@ -27,6 +27,8 @@ const HomePage: NextPage<StaticProps> = ({ vocabulary }) => {
       'You can install this app as PWA on your phone or computer',
       'This app caches data and works offline',
       'Thank you for using this website 💙💛',
+      `There are ${vocabulary.entries.length} entries in our vocabulary`,
+      'All vocabulary entries have been carefully reviewed by a human',
       'Not sure what to search for? Try "Kyiv"',
       'Not sure what to search for? Try "Ukraine"',
       'Not sure what to search for? Try "Kharkiv"',
@@ -34,7 +36,7 @@ const HomePage: NextPage<StaticProps> = ({ vocabulary }) => {
       'Not sure what to search for? Try "Mykolaiv"'
     ];
     return tips[Math.floor(Math.random() * tips.length)];
-  }, []);
+  }, [vocabulary.entries.length]);
 
   return (
     <>
