@@ -89,7 +89,7 @@ const EntryPage: NextPage<StaticProps> = ({ entry }) => {
             </Box>
           )}
 
-          {entry.description && <Box>{entry.description}</Box>}
+          {entry.description && <Box type="article">{entry.description}</Box>}
 
           {entry.externalLinks.length > 0 && (
             <Box>

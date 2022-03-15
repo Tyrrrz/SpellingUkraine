@@ -6,6 +6,7 @@ import { FiFrown, FiInfo, FiLoader, FiSearch } from 'react-icons/fi';
 import { Box } from '../components/box';
 import { HStack } from '../components/hstack';
 import { Link } from '../components/link';
+import { useRotatingRandom } from '../components/useRotatingRandom';
 import { useVocabularySearch } from '../components/useVocabularySearch';
 import { getVocabulary, VocabularyEntry } from '../data/vocabulary';
 import { transliterate } from '../utils/translit';
@@ -17,10 +18,9 @@ interface StaticProps {
 const HomePage: NextPage<StaticProps> = ({ vocabulary }) => {
   const router = useRouter();
   const search = useVocabularySearch(vocabulary);
-  const transliterated = transliterate(search.query);
 
-  const tip = React.useMemo(() => {
-    const tips = [
+  const tip = useRotatingRandom(
+    [
       'Press ENTER to instantly navigate to the first result',
       'You can search using incorrect translations too',
       'You can search in different languages where applicable',
@@ -33,9 +33,11 @@ const HomePage: NextPage<StaticProps> = ({ vocabulary }) => {
       'Not sure what to search for? Try "Kharkiv"',
       'Not sure what to search for? Try "Lviv"',
       'Not sure what to search for? Try "Mykolaiv"'
-    ];
-    return tips[Math.floor(Math.random() * tips.length)];
-  }, [vocabulary.length]);
+    ],
+    15000
+  );
+
+  const transliterated = transliterate(search.query);
 
   return (
     <>
@@ -60,8 +62,7 @@ const HomePage: NextPage<StaticProps> = ({ vocabulary }) => {
               'py-6',
               'appearance-none',
               'focus:outline-none',
-              'bg-transparent',
-              'leading-wide'
+              'bg-transparent'
             )}
             placeholder="Start typing to search"
             value={search.query}
@@ -76,16 +77,36 @@ const HomePage: NextPage<StaticProps> = ({ vocabulary }) => {
         </HStack>
       </Box>
 
+      <Box classes={['flex', 'm-2', 'place-content-center', 'text-neutral-600', 'text-light']}>
+        <HStack gap="medium">
+          <FiInfo />
+          <Box>{tip}</Box>
+        </HStack>
+      </Box>
+
       {!search.query && !search.processing && (
-        <Box classes={['flex', 'my-2', 'place-content-center', 'text-neutral-600', 'text-light']}>
-          <HStack gap="medium">
-            <FiInfo />
-            <Box>{tip}</Box>
-          </HStack>
+        <Box classes={['mx-2', 'mt-8', 'space-y-2']}>
+          <Box>
+            <Box type="p" classes={['text-xl', 'font-semibold']}>
+              Why does spelling matter?
+            </Box>
+            <Box type="p" classes={['text-lg']}>
+              Why does it matter?
+            </Box>
+          </Box>
+
+          <Box>
+            <Box type="p" classes={['text-xl', 'font-semibold']}>
+              How does this help?
+            </Box>
+            <Box type="p" classes={['text-lg']}>
+              Why does it matter?
+            </Box>
+          </Box>
         </Box>
       )}
 
-      <Box classes={['mt-6']}>
+      <Box classes={['mt-8']}>
         {search.results.length > 0 && (
           <Box classes={['flex', 'flex-col', 'lg:flex-row', 'flex-wrap', 'gap-4']}>
             {search.results.map((entry) => (
