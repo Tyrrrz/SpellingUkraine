@@ -2,6 +2,7 @@ import classNames from 'classnames';
 import type { GetStaticProps, NextPage } from 'next';
 import React from 'react';
 import { FiFrown, FiLoader, FiSearch } from 'react-icons/fi';
+import { Box } from '../components/box';
 import { HStack } from '../components/hstack';
 import { Link } from '../components/link';
 import { useVocabularySearch } from '../components/useVocabularySearch';
@@ -16,20 +17,20 @@ const HomePage: NextPage<StaticProps> = ({ vocabulary }) => {
 
   return (
     <>
-      <div
-        className={classNames(
+      <Box
+        classes={[
           'border-2',
           'border-neutral-400',
           'hover:border-blue-500',
           'rounded',
           'bg-neutral-100',
           'text-xl'
-        )}
+        ]}
       >
         <HStack>
-          <div className={classNames('px-4')}>
+          <Box classes={['px-4']}>
             {search.processing ? <FiLoader className={classNames('animate-spin')} /> : <FiSearch />}
-          </div>
+          </Box>
 
           <input
             className={classNames(
@@ -46,53 +47,53 @@ const HomePage: NextPage<StaticProps> = ({ vocabulary }) => {
             autoFocus
           />
         </HStack>
-      </div>
+      </Box>
 
-      <div className={classNames('py-8')}>
+      <Box classes={['py-8']}>
         {search.results.length > 0 && (
-          <div className={classNames('flex', 'flex-col', 'lg:flex-row', 'flex-wrap', 'gap-4')}>
+          <Box classes={['flex', 'flex-col', 'lg:flex-row', 'flex-wrap', 'gap-4']}>
             {search.results.map((entry) => (
               <Link key={entry.id} href={`/i/${entry.id}`}>
-                <div
-                  className={classNames(
+                <Box
+                  classes={[
                     'p-4',
                     'bg-neutral-100',
                     'border-2',
                     'border-neutral-400',
                     'rounded',
                     'hover:border-blue-500'
-                  )}
+                  ]}
                 >
-                  <div className={classNames('text-xl')}>{entry.translation}</div>
-                  <div className={classNames('text-lg', 'font-light')}>
+                  <Box classes={['text-xl']}>{entry.translation}</Box>
+                  <Box classes={['text-lg', 'font-light']}>
                     {entry.name} • {entry.category}
-                  </div>
-                </div>
+                  </Box>
+                </Box>
               </Link>
             ))}
-          </div>
+          </Box>
         )}
 
         {search.results.length <= 0 && search.query && !search.processing && (
-          <div>
-            <div className={classNames('text-xl')}>
+          <Box>
+            <Box classes={['text-xl']}>
               <HStack gap="medium">
-                <div>No results found</div>
+                <Box>No results found</Box>
                 <FiFrown strokeWidth={1} />
               </HStack>
-            </div>
+            </Box>
 
-            <div className={classNames('text-lg', 'font-light')}>
+            <Box classes={['text-lg', 'font-light']}>
               Double check that your search query is correct. If the entry you are looking for is
               missing, you can add it by{' '}
               <Link href="https://github.com/Tyrrrz/SpellingUkraine/tree/master/data/vocabulary">
                 submitting a pull request
               </Link>
               .
-            </div>
-          </div>
+            </Box>
+          </Box>
         )}
-      </div>
+      </Box>
     </>
   );
 };

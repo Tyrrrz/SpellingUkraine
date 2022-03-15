@@ -1,7 +1,7 @@
-import classNames from 'classnames';
 import type { AppProps } from 'next/app';
 import Script from 'next/script';
 import { FiAward, FiGithub, FiHeart } from 'react-icons/fi';
+import { Box } from '../components/box';
 import { HStack } from '../components/hstack';
 import { Link } from '../components/link';
 import { Meta } from '../components/meta';
@@ -11,66 +11,72 @@ import './globals.css';
 const Header: React.FC = () => {
   return (
     <Link href="/">
-      <header
-        className={classNames(
+      <Box
+        type="header"
+        classes={[
           'px-4',
           'py-8',
           'hover:bg-stone-800',
           'space-y-2',
           'text-neutral-100',
           'text-center'
-        )}
+        ]}
       >
-        <div className={classNames('text-4xl', 'font-bold')}>
-          <span>Spelling </span>
-          <span
-            className={classNames(
+        <Box classes={['text-4xl', 'font-bold']}>
+          <Box type="span">Spelling </Box>
+          <Box
+            type="span"
+            classes={[
               'text-blue-500',
               'underline',
               'underline-offset-4',
               'decoration-2',
               'decoration-wavy',
               'decoration-yellow-400'
-            )}
+            ]}
           >
             Ukraine
-          </span>
-        </div>
+          </Box>
+        </Box>
 
-        <div className={classNames('text-xl', 'font-light', 'tracking-wide')}>
+        <Box classes={['text-xl', 'font-light', 'tracking-wide']}>
           Language is political. Romanize correctly.
-        </div>
-      </header>
+        </Box>
+      </Box>
     </Link>
   );
 };
 
 const Main: React.FC = ({ children }) => {
   return (
-    <div
-      className={classNames('flex-grow', 'p-8', 'border-y-8', 'border-blue-500', 'bg-stone-200')}
+    <Box
+      classes={[
+        'flex-grow',
+        'px-2',
+        'lg:px-6',
+        'py-6',
+        'border-y-8',
+        'border-blue-500',
+        'bg-stone-200'
+      ]}
     >
-      <main className={classNames('container', 'mx-auto')}>{children}</main>
-    </div>
+      <Box type="main" classes={['container', 'mx-auto']}>
+        {children}
+      </Box>
+    </Box>
   );
 };
 
 const Footer: React.FC = () => {
   return (
-    <footer
-      className={classNames(
-        'flex',
-        'p-4',
-        'place-content-center',
-        'text-sm',
-        'text-neutral-400',
-        'font-light'
-      )}
+    <Box
+      type="footer"
+      classes={['flex', 'p-4', 'place-content-center', 'text-sm', 'text-neutral-400', 'font-light']}
     >
       <HStack gap="large">
-        <div className={classNames('font-mono')}>{getBuildId() || 'unknown build'}</div>
+        <Box classes={['font-mono']}>{getBuildId() || 'unknown build'}</Box>
 
-        <div> • </div>
+        <Box> • </Box>
 
         <Link href="https://github.com/Tyrrrz/SpellingUkraine" emphasize={false}>
           <HStack>
@@ -79,7 +85,7 @@ const Footer: React.FC = () => {
           </HStack>
         </Link>
 
-        <div> • </div>
+        <Box> • </Box>
 
         <Link href="https://tyrrrz.me/donate" emphasize={false}>
           <HStack>
@@ -88,7 +94,7 @@ const Footer: React.FC = () => {
           </HStack>
         </Link>
 
-        <div> • </div>
+        <Box> • </Box>
 
         <Link href="/attribution" emphasize={false}>
           <HStack>
@@ -97,7 +103,7 @@ const Footer: React.FC = () => {
           </HStack>
         </Link>
       </HStack>
-    </footer>
+    </Box>
   );
 };
 
@@ -106,15 +112,15 @@ const App = ({ Component, pageProps }: AppProps) => {
     <>
       <Meta />
 
-      <div
-        className={classNames(
+      <Box
+        classes={[
           'flex',
           'flex-col',
           'min-h-screen',
           'border-y-8',
           'border-y-yellow-400',
           'bg-stone-900'
-        )}
+        ]}
       >
         <Header />
 
@@ -123,7 +129,7 @@ const App = ({ Component, pageProps }: AppProps) => {
         </Main>
 
         <Footer />
-      </div>
+      </Box>
 
       <Script
         src={`https://www.googletagmanager.com/gtag/js?id=${getAnalyticsDsn()}`}

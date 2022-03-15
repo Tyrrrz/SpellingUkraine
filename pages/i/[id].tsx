@@ -2,7 +2,18 @@ import classNames from 'classnames';
 import { GetStaticPaths, GetStaticProps, NextPage } from 'next';
 import { Map, Marker } from 'pigeon-maps';
 import React from 'react';
-import { FiChevronLeft, FiEdit3, FiExternalLink, FiVolume1, FiVolume2, FiX } from 'react-icons/fi';
+import {
+  FiCheck,
+  FiChevronLeft,
+  FiEdit3,
+  FiExternalLink,
+  FiMap,
+  FiVolume1,
+  FiVolume2,
+  FiX
+} from 'react-icons/fi';
+import { Box } from '../../components/box';
+import { HDock } from '../../components/hdock';
 import { HStack } from '../../components/hstack';
 import { Link } from '../../components/link';
 import { Meta } from '../../components/meta';
@@ -23,11 +34,11 @@ const EntryPage: NextPage<StaticProps> = ({ entry }) => {
         description={`"${entry.translation}" is the correct way to spell "${entry.name}" in English. Look up other words on spellingukraine.com.`}
       />
 
-      <div className="flex mb-8 gap-x-4">
+      <HDock>
         <Link href="/">
           <HStack>
-            <FiChevronLeft size={24} />
-            <div>Go back</div>
+            <FiChevronLeft />
+            <Box>Back</Box>
           </HStack>
         </Link>
 
@@ -36,71 +47,85 @@ const EntryPage: NextPage<StaticProps> = ({ entry }) => {
         >
           <HStack>
             <FiEdit3 />
-            <div>Edit Information</div>
+            <Box>Edit</Box>
           </HStack>
         </Link>
-      </div>
+      </HDock>
 
-      <div className="space-y-4">
-        <div className="flex items-center gap-x-4">
-          <h2 className="text-6xl font-bold tracking-wide">{entry.translation}</h2>
-          {speech.available && (
-            <button className="mt-3" onClick={() => speech.say(entry.translation)}>
-              {speech.active ? <FiVolume2 size={32} /> : <FiVolume1 size={32} />}
-            </button>
+      <Box classes={['mt-4', 'p-4', 'border-2', 'border-neutral-400', 'rounded', 'bg-neutral-100']}>
+        <Box classes={['space-y-1', 'text-3xl', 'leading-wide']}>
+          <HStack gap="large">
+            <Box>{entry.translation}</Box>
+
+            {speech.available && (
+              <button className={classNames('mt-2')} onClick={() => speech.say(entry.translation)}>
+                {speech.active ? <FiVolume2 strokeWidth={1} /> : <FiVolume1 strokeWidth={1} />}
+              </button>
+            )}
+          </HStack>
+
+          <Box classes={['text-xl', 'font-light', 'tracking-wide']}>
+            {entry.name} • {entry.category}
+          </Box>
+        </Box>
+
+        <Box classes={['mt-4', 'space-y-4']}>
+          <Box classes={['flex', 'gap-2']}>
+            <HStack>
+              <FiCheck className={classNames('text-green-600')} />
+              <Box>{entry.translation}</Box>
+            </HStack>
+
+            {entry.mistranslations.map((mistranslation) => (
+              <HStack key={mistranslation}>
+                <FiX className={classNames('text-red-600')} />
+                <Box>{mistranslation}</Box>
+              </HStack>
+            ))}
+          </Box>
+
+          {entry.description && <Box>{entry.description}</Box>}
+
+          {entry.externalLinks.length > 0 && (
+            <Box>
+              {entry.externalLinks.map((link) => (
+                <HStack key={link.name}>
+                  <FiExternalLink />
+                  <Link href={link.url}>{link.name}</Link>
+                </HStack>
+              ))}
+            </Box>
           )}
-        </div>
 
-        <div className="text-4xl tracking-wide">
-          <span>{entry.name}</span>
-          <span> • </span>
-          <span>{entry.category}</span>
-        </div>
-      </div>
+          {entry.location && (
+            <Box>
+              <Box classes={['cursor-grab']}>
+                <Map
+                  height={400}
+                  defaultCenter={[entry.location.latitude, entry.location.longitude]}
+                  defaultZoom={6}
+                >
+                  <Marker
+                    color="#0ea5e9"
+                    anchor={[entry.location.latitude, entry.location.longitude]}
+                  />
+                </Map>
+              </Box>
 
-      <div className="flex flex-wrap gap-x-8">
-        <div className="p-4 border-2 rounded">
-          <div>Description</div>
-          <div>{entry.description}</div>
-        </div>
-
-        <div className="p-4 border-2 rounded">
-          <div>Incorrect</div>
-          <div>
-            {entry.mistranslations.map((invalid) => (
-              <HStack key={invalid}>
-                <FiX className="text-red-600" /> {invalid}
-              </HStack>
-            ))}
-          </div>
-        </div>
-
-        <div className="p-4 border-2 rounded">
-          <div>External links</div>
-          {entry.externalLinks &&
-            entry.externalLinks.map((link) => (
-              <HStack key={link.url}>
-                <FiExternalLink />
-                <Link href={link.url}>{link.name}</Link>
-              </HStack>
-            ))}
-        </div>
-
-        {entry.location && (
-          <div className={classNames('w-full')}>
-            <Map
-              height={400}
-              defaultCenter={[entry.location.latitude, entry.location.longitude]}
-              defaultZoom={6}
-            >
-              <Marker
-                color="#0ea5e9"
-                anchor={[entry.location.latitude, entry.location.longitude]}
-              />
-            </Map>
-          </div>
-        )}
-      </div>
+              <Box classes={['flex', 'place-content-end']}>
+                <Link
+                  href={`https://google.com/maps/@${entry.location.latitude},${entry.location.longitude},10z`}
+                >
+                  <HStack>
+                    <FiMap />
+                    <Box>Open in Google Maps</Box>
+                  </HStack>
+                </Link>
+              </Box>
+            </Box>
+          )}
+        </Box>
+      </Box>
     </>
   );
 };

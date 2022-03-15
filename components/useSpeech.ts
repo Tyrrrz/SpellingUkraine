@@ -59,6 +59,10 @@ export const useSpeech = () => {
     available: !!voice,
     active,
     say: (text: string) => {
+      if (!voice) {
+        return;
+      }
+
       setActive(true);
       say(text, voice).finally(() => setActive(false));
     }
