@@ -1,6 +1,7 @@
 # Contributing to the vocabulary
 
 The vocabulary data is stored in this directory.
+If you want to update the vocabulary, create or modify the corresponding file(s) and submit a new pull request.
 Each individual vocabulary entry is a separate JSON file with the following structure:
 
 ```jsonc
@@ -59,4 +60,4 @@ Each individual vocabulary entry is a separate JSON file with the following stru
 }
 ```
 
-If you want to update the vocabulary, create or modify the corresponding file(s) and submit a new pull request.
+Transliteration of Ukrainian sounds is based on the [ALA-LC Romanization Table for Ukrainian](https://loc.gov/catdir/cpso/romanization/ukrainia.pdf) without the use of ligatures.
