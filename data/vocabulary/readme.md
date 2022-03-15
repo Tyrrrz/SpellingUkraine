@@ -1,8 +1,9 @@
 # Contributing to the vocabulary
 
 The vocabulary data is stored in this directory.
-If you want to update the vocabulary, create or modify the corresponding file(s) and submit a new pull request.
-Each individual vocabulary entry is a separate JSON file with the following structure:
+If you want to update the vocabulary, create or modify the corresponding JSON file(s) and submit a new pull request.
+
+## File structure
 
 ```jsonc
 // REMEMBER TO REMOVE THE COMMENTS BEFORE COMMITTING THE FILE!
@@ -60,4 +61,55 @@ Each individual vocabulary entry is a separate JSON file with the following stru
 }
 ```
 
-Transliteration of Ukrainian sounds is based on the [ALA-LC Romanization Table for Ukrainian](https://loc.gov/catdir/cpso/romanization/ukrainia.pdf) without the use of ligatures.
+## Transliteration system
+
+Transliteration of Ukrainian sounds is based on the [official transliteration system adopted by Ukrainian Cabinet of Ministers](https://mfa.gov.ua/storage/app/sites/1/e-conf101-84-roman-system-ukraine-eng.pdf) in 2010.
+This system is itself derived from the [ALA-LC transliteration system](https://loc.gov/catdir/cpso/romanization/ukrainia.pdf) with some nuances, notably:
+
+- No diacritics
+- No ligatures
+- No apostrophes (meaning that `ь' and `'` are ignored)
+- Some sounds may be mapped differently, depending on whether they're in the beginning of the word or not
+
+Below is the table of transliteration mappings:
+
+| Source  | Transliterated                                   |
+| ------- | ------------------------------------------------ |
+| `А` `а` | `A` `a`                                          |
+| `Б` `б` | `B` `b`                                          |
+| `В` `в` | `V` `v`                                          |
+| `Г` `г` | `H` `h`                                          |
+| `Ґ` `ґ` | `G` `g`                                          |
+| `Д` `д` | `D` `d`                                          |
+| `Е` `е` | `E` `e`                                          |
+| `Є` `є` | `Ye` (beginning of the word) or `ie` (elsewhere) |
+| `Ж` `ж` | `Zh` `zh`                                        |
+| `З` `з` | `Z` `z`                                          |
+| `И` `и` | `Y` `y`                                          |
+| `І` `і` | `I` `i`                                          |
+| `Ї` `ї` | `Yi` (beginning of the word) or `i` (elsewhere)  |
+| `Й` `й` | `Yi` (beginning of the word) or `i` (elsewhere)  |
+| `К` `к` | `K` `k`                                          |
+| `Л` `л` | `L` `l`                                          |
+| `М` `м` | `M` `m`                                          |
+| `Н` `н` | `N` `n`                                          |
+| `О` `о` | `O` `o`                                          |
+| `П` `п` | `P` `p`                                          |
+| `Р` `р` | `R` `r`                                          |
+| `С` `с` | `S` `s`                                          |
+| `Т` `т` | `T` `t`                                          |
+| `У` `у` | `U` `u`                                          |
+| `Ф` `ф` | `F` `f`                                          |
+| `Х` `х` | `Kh` `kh`                                        |
+| `Ц` `ц` | `Ts` `ts`                                        |
+| `Ч` `ч` | `Ch` `ch`                                        |
+| `Ш` `ш` | `Sh` `sh`                                        |
+| `Щ` `щ` | `Shch` `shch`                                    |
+| `Ю` `ю` | `Yu` (beginning of the word) or `iu` (elsewhere) |
+| `Я` `я` | `Ya` (beginning of the word) or `ia` (elsewhere) |
+
+With additional exceptions for compound sounds:
+
+| Source    | Transliterated |
+| --------- | -------------- |
+| `Зг` `зг` | `Zgh` `zgh`    |

@@ -7,6 +7,7 @@ import { HStack } from '../components/hstack';
 import { Link } from '../components/link';
 import { useVocabularySearch } from '../components/useVocabularySearch';
 import { getVocabulary, VocabularyEntry } from '../data/vocabulary';
+import { transliterate } from '../utils/translit';
 
 interface StaticProps {
   vocabulary: VocabularyEntry[];
@@ -14,6 +15,7 @@ interface StaticProps {
 
 const HomePage: NextPage<StaticProps> = ({ vocabulary }) => {
   const search = useVocabularySearch(vocabulary);
+  const transliterated = transliterate(search.query);
 
   return (
     <>
@@ -84,12 +86,27 @@ const HomePage: NextPage<StaticProps> = ({ vocabulary }) => {
             </Box>
 
             <Box classes={['text-lg', 'font-light']}>
-              Double check that your search query is correct. If the entry you are looking for is
-              missing, you can add it by{' '}
-              <Link href="https://github.com/Tyrrrz/SpellingUkraine/tree/master/data/vocabulary">
-                submitting a pull request
-              </Link>
-              .
+              {transliterated && transliterated !== search.query && (
+                <Box>
+                  However, according to the{' '}
+                  <Link href="https://github.com/Tyrrrz/SpellingUkraine/tree/master/data/vocabulary#transliteration-system">
+                    official Ukrainian transliteration system
+                  </Link>
+                  , your input should be spelled as{' '}
+                  <Box type="span" classes={['font-mono']}>
+                    {transliterated}
+                  </Box>{' '}
+                  in English.
+                </Box>
+              )}
+
+              <Box>
+                If you believe this entry should be added to the vocabulary, please{' '}
+                <Link href="https://github.com/Tyrrrz/SpellingUkraine/tree/master/data/vocabulary">
+                  submit a pull request
+                </Link>
+                .
+              </Box>
             </Box>
           </Box>
         )}

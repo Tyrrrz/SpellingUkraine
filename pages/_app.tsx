@@ -40,7 +40,7 @@ const Header: React.FC = () => {
         </Box>
 
         <Box classes={['text-xl', 'font-light', 'tracking-wide']}>
-          Language is political. Romanize correctly.
+          Language is political. Transliterate correctly.
         </Box>
       </Box>
     </Link>
