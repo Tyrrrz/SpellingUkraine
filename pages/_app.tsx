@@ -1,6 +1,7 @@
 import type { AppProps } from 'next/app';
+import { useRouter } from 'next/router';
 import Script from 'next/script';
-import { FiAward, FiGithub, FiHeart } from 'react-icons/fi';
+import { FiAward, FiChevronLeft, FiGithub, FiHeart } from 'react-icons/fi';
 import { Box } from '../components/box';
 import { HStack } from '../components/hstack';
 import { Link } from '../components/link';
@@ -48,6 +49,8 @@ const Header: React.FC = () => {
 };
 
 const Main: React.FC = ({ children }) => {
+  const router = useRouter();
+
   return (
     <Box
       classes={[
@@ -61,7 +64,18 @@ const Main: React.FC = ({ children }) => {
       ]}
     >
       <Box type="main" classes={['container', 'mx-auto']}>
-        {children}
+        {router.asPath !== '/' && (
+          <Box classes={['max-w-max', 'mb-4']}>
+            <Link href="/">
+              <HStack>
+                <FiChevronLeft />
+                <Box>Home</Box>
+              </HStack>
+            </Link>
+          </Box>
+        )}
+
+        <Box>{children}</Box>
       </Box>
     </Box>
   );
@@ -73,7 +87,7 @@ const Footer: React.FC = () => {
       type="footer"
       classes={['flex', 'p-4', 'place-content-center', 'text-sm', 'text-neutral-400', 'font-light']}
     >
-      <HStack gap="large">
+      <HStack wrap gap="large">
         <Box classes={['font-mono']}>{getBuildId() || 'unknown build'}</Box>
 
         <Box> • </Box>

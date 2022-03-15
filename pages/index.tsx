@@ -25,7 +25,7 @@ const HomePage: NextPage<StaticProps> = ({ vocabulary }) => {
       `There are currently ${vocabulary.length} entries in this vocabulary`,
       'All vocabulary entries have been carefully reviewed by humans',
       'You can search by incorrect translations as well (e.g. "Kiev")',
-      'You can search in different languages (where available)',
+      'You can search in different languages (where applicable)',
       'You can install this app as PWA on your device',
       'Not sure what to search for? Try "Kyiv"',
       'Not sure what to search for? Try "Ukraine"',
@@ -84,6 +84,30 @@ const HomePage: NextPage<StaticProps> = ({ vocabulary }) => {
       </Box>
 
       <Box classes={['mt-8']}>
+        {search.results.length > 0 && (
+          <Box classes={['flex', 'flex-col', 'lg:flex-row', 'flex-wrap', 'gap-4']}>
+            {search.results.map((entry) => (
+              <Link key={entry.id} href={`/i/${entry.id}`}>
+                <Box
+                  classes={[
+                    'p-4',
+                    'bg-neutral-100',
+                    'border-2',
+                    'border-neutral-400',
+                    'hover:border-blue-500',
+                    'rounded'
+                  ]}
+                >
+                  <Box classes={['text-xl']}>{entry.translation}</Box>
+                  <Box classes={['text-lg', 'font-light']}>
+                    {entry.name} • {entry.category}
+                  </Box>
+                </Box>
+              </Link>
+            ))}
+          </Box>
+        )}
+
         {!search.query && !search.processing && (
           <Box classes={['mx-2', 'space-y-2', 'text-lg']}>
             <Box type="p" classes={['text-xl', 'font-semibold']}>
@@ -121,30 +145,6 @@ const HomePage: NextPage<StaticProps> = ({ vocabulary }) => {
                 <FiHeart strokeWidth={1} fill="#facc15" />
               </Box>
             </Box>
-          </Box>
-        )}
-
-        {search.results.length > 0 && (
-          <Box classes={['flex', 'flex-col', 'lg:flex-row', 'flex-wrap', 'gap-4']}>
-            {search.results.map((entry) => (
-              <Link key={entry.id} href={`/i/${entry.id}`}>
-                <Box
-                  classes={[
-                    'p-4',
-                    'bg-neutral-100',
-                    'border-2',
-                    'border-neutral-400',
-                    'hover:border-blue-500',
-                    'rounded'
-                  ]}
-                >
-                  <Box classes={['text-xl']}>{entry.translation}</Box>
-                  <Box classes={['text-lg', 'font-light']}>
-                    {entry.name} • {entry.category}
-                  </Box>
-                </Box>
-              </Link>
-            ))}
           </Box>
         )}
 

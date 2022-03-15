@@ -3,12 +3,14 @@
   "name": "Україна",
   "translation": "Ukraine",
   "mistranslations": [
-    "The Ukraine"
+    "The Ukraine",
+    "Ukrajina"
   ],
   "aliases": [
-    "Украіна",
     "Украина",
     "Ukraina",
+    "Ukrajna",
+    "Ukrayna",
     "Ucrania"
   ],
   "description": "Ukraine is a country in Eastern Europe. It is the second-largest country by area in Europe after Russia, which it borders to the east and north-east.",
