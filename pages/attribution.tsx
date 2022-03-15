@@ -2,19 +2,20 @@ import type { NextPage } from 'next';
 import { Box } from '../components/box';
 import { Link } from '../components/link';
 import { Meta } from '../components/meta';
+import { Paper } from '../components/paper';
 
 const AttributionsPage: NextPage = () => {
   return (
     <>
       <Meta title="Attribution" />
 
-      <Box classes={['p-6', 'border-2', 'border-neutral-400', 'rounded', 'bg-neutral-100']}>
+      <Paper>
         <Box classes={['text-3xl']}>Attribution</Box>
-        <Box classes={['mt-2', 'text-xl', 'font-light']}>
+        <Box classes={['text-xl', 'font-light']}>
           This website uses the following publicly available external assets:
         </Box>
 
-        <Box type="ul" classes={['mt-2', 'list-disc', 'px-8']}>
+        <Box type="ul" classes={['list-disc', 'px-8']}>
           <Box type="li">
             <Link href="https://flaticon.com/free-icon/ukraine_197572">
               Ukraine icon by Freepik
@@ -29,7 +30,7 @@ const AttributionsPage: NextPage = () => {
             (Open Database License)
           </Box>
         </Box>
-      </Box>
+      </Paper>
     </>
   );
 };

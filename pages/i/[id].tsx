@@ -7,6 +7,7 @@ import { Box } from '../../components/box';
 import { HStack } from '../../components/hstack';
 import { Link } from '../../components/link';
 import { Meta } from '../../components/meta';
+import { Paper } from '../../components/paper';
 import { SectionHeader } from '../../components/sectionHeader';
 import { useSpeech } from '../../components/useSpeech';
 import { getVocabulary, getVocabularyEntry, VocabularyEntry } from '../../data/vocabulary';
@@ -25,16 +26,7 @@ const EntryPage: NextPage<StaticProps> = ({ entry }) => {
         description={`"${entry.translation}" is the correct way to spell "${entry.name}" in English. Support Ukraine, transliterate correctly!`}
       />
 
-      <Box
-        classes={[
-          'p-4',
-          'border-2',
-          'border-neutral-400',
-          'rounded',
-          'bg-neutral-100',
-          'space-y-4'
-        ]}
-      >
+      <Paper>
         <Box classes={['flex', 'justify-between']}>
           <Box classes={['space-y-1', 'text-3xl']}>
             <HStack align="bottom" gap="large">
@@ -159,7 +151,7 @@ const EntryPage: NextPage<StaticProps> = ({ entry }) => {
             </Box>
           </Box>
         )}
-      </Box>
+      </Paper>
     </>
   );
 };
