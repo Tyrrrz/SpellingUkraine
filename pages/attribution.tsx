@@ -9,7 +9,7 @@ const AttributionsPage: NextPage = () => {
       <Meta title="Attribution" />
 
       <Box classes={['p-6', 'border-2', 'border-neutral-400', 'rounded', 'bg-neutral-100']}>
-        <Box classes={['text-3xl', 'leading-wide']}>Attribution</Box>
+        <Box classes={['text-3xl']}>Attribution</Box>
         <Box classes={['mt-2', 'text-xl', 'font-light']}>
           This website uses the following publicly available external assets:
         </Box>

@@ -53,12 +53,16 @@ const EntryPage: NextPage<StaticProps> = ({ entry }) => {
       </HDock>
 
       <Box classes={['mt-4', 'p-4', 'border-2', 'border-neutral-400', 'rounded', 'bg-neutral-100']}>
-        <Box classes={['space-y-1', 'text-3xl', 'leading-wide']}>
+        <Box classes={['space-y-1', 'text-3xl']}>
           <HStack gap="large">
             <Box>{entry.translation}</Box>
 
             {speech.available && (
-              <button className={classNames('mt-2')} onClick={() => speech.say(entry.translation)}>
+              <button
+                className={classNames('mt-2')}
+                title={`Pronounce "${entry.translation}"`}
+                onClick={() => speech.say(entry.translation)}
+              >
                 {speech.active ? <FiVolume2 strokeWidth={1} /> : <FiVolume1 strokeWidth={1} />}
               </button>
             )}

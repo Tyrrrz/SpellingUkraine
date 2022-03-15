@@ -9,7 +9,7 @@ const NotFoundPage: NextPage = () => {
       <Meta title="Not Found" />
 
       <Box classes={['p-6', 'border-2', 'border-neutral-400', 'rounded', 'bg-neutral-100']}>
-        <Box classes={['text-3xl', 'leading-wide']}>Not Found</Box>
+        <Box classes={['text-3xl']}>Not Found</Box>
         <Box classes={['mt-2', 'text-xl', 'font-light']}>The page you requested does not exist</Box>
         <Box classes={['mt-2']}>
           <Link href="/">Go to home page</Link>
