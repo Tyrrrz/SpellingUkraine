@@ -51,7 +51,7 @@ export const useVocabularySearch = (vocabulary: VocabularyEntry[]) => {
   return {
     query,
     setQuery,
-    processing: !!(query && query !== debouncedQuery),
+    processing: query !== debouncedQuery,
     results
   };
 };

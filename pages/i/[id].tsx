@@ -72,20 +72,22 @@ const EntryPage: NextPage<StaticProps> = ({ entry }) => {
           </Box>
         </Box>
 
-        <Box classes={['mt-4', 'space-y-4']}>
-          <Box classes={['flex', 'gap-2']}>
-            <HStack>
-              <FiCheck className={classNames('text-green-600')} />
-              <Box>{entry.translation}</Box>
-            </HStack>
-
-            {entry.mistranslations.map((mistranslation) => (
-              <HStack key={mistranslation}>
-                <FiX className={classNames('text-red-600')} />
-                <Box>{mistranslation}</Box>
+        <Box classes={['mt-2', 'space-y-4']}>
+          {entry.mistranslations.length > 0 && (
+            <Box classes={['flex', 'gap-2']}>
+              <HStack>
+                <FiCheck className={classNames('text-green-600')} />
+                <Box>{entry.translation}</Box>
               </HStack>
-            ))}
-          </Box>
+
+              {entry.mistranslations.map((mistranslation) => (
+                <HStack key={mistranslation}>
+                  <FiX className={classNames('text-red-600')} />
+                  <Box>{mistranslation}</Box>
+                </HStack>
+              ))}
+            </Box>
+          )}
 
           {entry.description && <Box>{entry.description}</Box>}
 

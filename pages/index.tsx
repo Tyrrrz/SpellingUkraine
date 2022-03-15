@@ -1,7 +1,8 @@
 import classNames from 'classnames';
 import type { GetStaticProps, NextPage } from 'next';
+import { useRouter } from 'next/router';
 import React from 'react';
-import { FiFrown, FiLoader, FiSearch } from 'react-icons/fi';
+import { FiFrown, FiInfo, FiLoader, FiSearch } from 'react-icons/fi';
 import { Box } from '../components/box';
 import { HStack } from '../components/hstack';
 import { Link } from '../components/link';
@@ -14,8 +15,26 @@ interface StaticProps {
 }
 
 const HomePage: NextPage<StaticProps> = ({ vocabulary }) => {
+  const router = useRouter();
   const search = useVocabularySearch(vocabulary);
   const transliterated = transliterate(search.query);
+
+  const tip = React.useMemo(() => {
+    const tips = [
+      'Press ENTER to instantly navigate to the first result',
+      'You can search using incorrect translations too',
+      'You can search in different languages where applicable',
+      'You can install this app as PWA on your phone or computer',
+      'This app caches data and works offline',
+      'Thank you for using this website 💙💛',
+      'Not sure what to search for? Try "Kyiv"',
+      'Not sure what to search for? Try "Ukraine"',
+      'Not sure what to search for? Try "Kharkiv"',
+      'Not sure what to search for? Try "Lviv"',
+      'Not sure what to search for? Try "Mykolaiv"'
+    ];
+    return tips[Math.floor(Math.random() * tips.length)];
+  }, []);
 
   return (
     <>
@@ -30,7 +49,7 @@ const HomePage: NextPage<StaticProps> = ({ vocabulary }) => {
         ]}
       >
         <HStack>
-          <Box classes={['px-4']}>
+          <Box classes={['mx-4']}>
             {search.processing ? <FiLoader className={classNames('animate-spin')} /> : <FiSearch />}
           </Box>
 
@@ -45,13 +64,27 @@ const HomePage: NextPage<StaticProps> = ({ vocabulary }) => {
             )}
             placeholder="Start typing to search"
             value={search.query}
+            onKeyPress={(e) => {
+              if (e.key === 'Enter' && search.results.length > 0) {
+                router.push(`/i/${search.results[0].id}`);
+              }
+            }}
             onChange={(e) => search.setQuery(e.target.value)}
             autoFocus
           />
         </HStack>
       </Box>
 
-      <Box classes={['py-8']}>
+      {!search.query && !search.processing && (
+        <Box classes={['flex', 'my-2', 'place-content-center', 'text-light']}>
+          <HStack>
+            <FiInfo />
+            <Box>{tip}</Box>
+          </HStack>
+        </Box>
+      )}
+
+      <Box classes={['mt-6']}>
         {search.results.length > 0 && (
           <Box classes={['flex', 'flex-col', 'lg:flex-row', 'flex-wrap', 'gap-4']}>
             {search.results.map((entry) => (
@@ -77,11 +110,11 @@ const HomePage: NextPage<StaticProps> = ({ vocabulary }) => {
         )}
 
         {search.results.length <= 0 && search.query && !search.processing && (
-          <Box>
+          <Box classes={['p-6', 'border-2', 'border-neutral-400', 'rounded', 'bg-neutral-100']}>
             <Box classes={['text-xl']}>
               <HStack gap="medium">
                 <Box>No results found</Box>
-                <FiFrown strokeWidth={1} />
+                <FiFrown />
               </HStack>
             </Box>
 
