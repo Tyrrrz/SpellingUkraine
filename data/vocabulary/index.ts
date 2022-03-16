@@ -13,14 +13,18 @@ export interface VocabularyEntry {
   mistranslations: string[];
   aliases: string[];
   description?: string;
-  location?: {
-    latitude: number;
-    longitude: number;
-  };
   externalLinks: {
     name: string;
     url: string;
   }[];
+  location?: {
+    latitude: number;
+    longitude: number;
+  };
+  image?: {
+    name: string;
+    url: string;
+  }
 }
 
 export const getVocabulary = () => {

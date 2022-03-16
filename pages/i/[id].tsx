@@ -1,5 +1,6 @@
 import classNames from 'classnames';
 import { GetStaticPaths, GetStaticProps, NextPage } from 'next';
+import Image from 'next/image';
 import { Map, Marker } from 'pigeon-maps';
 import React from 'react';
 import { FiCheck, FiEdit3, FiExternalLink, FiMap, FiVolume1, FiVolume2, FiX } from 'react-icons/fi';
@@ -24,6 +25,7 @@ const EntryPage: NextPage<StaticProps> = ({ entry }) => {
       <Meta
         title={entry.translation}
         description={`"${entry.translation}" is the correct way to spell "${entry.name}" in English. Support Ukraine, transliterate correctly!`}
+        imageUrl={entry.image?.url}
       />
 
       <Paper>
@@ -148,6 +150,23 @@ const EntryPage: NextPage<StaticProps> = ({ entry }) => {
                   <Box>Open in Google Maps</Box>
                 </HStack>
               </Link>
+            </Box>
+          </Box>
+        )}
+
+        {entry.image && (
+          <Box>
+            <SectionHeader>Image</SectionHeader>
+
+            <Box classes={['relative', 'w-full', 'h-[400px]']}>
+              <Image
+                src={entry.image.url}
+                alt={entry.image.name}
+                title={entry.image.name}
+                layout="fill"
+                objectFit="contain"
+                objectPosition="left top"
+              />
             </Box>
           </Box>
         )}

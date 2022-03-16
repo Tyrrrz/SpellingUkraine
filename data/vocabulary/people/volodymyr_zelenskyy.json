@@ -3,9 +3,10 @@
   "name": "Володимир Зеленський",
   "translation": "Volodymyr Zelenskyy",
   "mistranslations": [
-    "Vladimir Zelenskiy",
     "Volodymyr Zelenskiy",
-    "Volodymyr Zelensky"
+    "Volodymyr Zelensky",
+    "Volodimir Zelenskyy",
+    "Vladimir Zelenskiy"
   ],
   "aliases": [
     "Volodymyr Zelenskyi",
@@ -15,6 +16,10 @@
     "Volodímir Zelenski"
   ],
   "description": "Ukraine's sixth president. While the more accurate transliteration of his last name would be \"Zelenskyi\", the president prefers to spell it as \"Zelenskyy\" instead, both of which are considered correct.",
+  "image": {
+    "name": "Photo of Volodymyr Zelenskyy",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Volodymyr_Zelensky_Official_portrait.jpg/756px-Volodymyr_Zelensky_Official_portrait.jpg"
+  },
   "externalLinks": [
     {
       "name": "Wikipedia: Volodymyr Zelenskyy",

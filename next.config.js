@@ -7,6 +7,10 @@ const runtimeCaching = require('next-pwa/cache');
 const nextConfig = {
   reactStrictMode: true,
 
+  images: {
+    domains: ['upload.wikimedia.org']
+  },
+
   generateBuildId: () => {
     const gitHash = spawnSync('git', ['rev-parse', '--short', 'HEAD']).stdout.toString().trim();
     const gitTag = spawnSync('git', ['tag', '--points-at', 'HEAD']).stdout.toString().trim();
