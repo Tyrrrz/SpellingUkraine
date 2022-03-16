@@ -1,0 +1,26 @@
+{
+  "category": "Person",
+  "term": "Віталій Кличко",
+  "translation": "Vitali Klitschko",
+  "mistakes": [
+    "Vitaliy Klitschko",
+    "Vitali Klitchko",
+    "Vitali Klichko",
+    "Vitali Klytschko"
+  ],
+  "aliases": [
+    "Vitalii Klychko",
+    "Виталий Кличко"
+  ],
+  "description": "Professional boxer and the mayor of Kyiv.",
+  "links": [
+    {
+      "name": "Wikipedia: Vitali Klitschko",
+      "url": "https://en.wikipedia.org/wiki/Vitali_Klitschko"
+    }
+  ],
+  "image": {
+    "name": "Photo of Vitali Klitschko",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/2014-09-12_-_Vitali_Klitschko_-_9019_%28cropped%29.jpg/775px-2014-09-12_-_Vitali_Klitschko_-_9019_%28cropped%29.jpg"
+  }
+}
