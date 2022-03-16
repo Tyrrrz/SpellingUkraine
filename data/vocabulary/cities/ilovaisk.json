@@ -1,0 +1,23 @@
+{
+  "category": "City",
+  "name": "Іловайськ",
+  "translation": "Ilovaisk",
+  "mistranslations": [
+    "Ilovaysk",
+    "Illovaisk",
+    "Illovaysk"
+  ],
+  "aliases": [
+    "Иловайск"
+  ],
+  "location": {
+    "latitude": 47.9275,
+    "longitude": 38.2034
+  },
+  "externalLinks": [
+    {
+      "name": "Wikipedia: Ilovaisk",
+      "url": "https://en.wikipedia.org/wiki/Ilovaisk"
+    }
+  ]
+}
