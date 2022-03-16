@@ -3,11 +3,15 @@
   "name": "Чорноморськ",
   "translation": "Chornomorsk",
   "mistranslations": [
-    "Chernomorsk"
+    "Chernomorsk",
+    "Illichivsk"
   ],
   "aliases": [
-    "Черноморск"
+    "Черноморск",
+    "Іллічівськ",
+    "Ильичёвск"
   ],
+  "description": "Renamed from \"Illichivsk\" in February 2016.",
   "location": {
     "latitude": 46.3017,
     "longitude": 30.6569
