@@ -5,8 +5,9 @@ const dirPath = path.join(process.cwd(), 'data', 'vocabulary');
 
 export interface VocabularyEntry {
   id: string;
-  category: string;
+  path: string;
 
+  category: string;
   term: string;
   translation: string;
   mistakes: string[];
