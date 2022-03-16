@@ -40,9 +40,8 @@ const filterVocabulary = (vocabulary: VocabularyEntry[], query: string) => {
     .map((match) => match.entry);
 };
 
-export const useVocabularySearch = (vocabulary: VocabularyEntry[]) => {
+export const useVocabularySearch = (vocabulary: VocabularyEntry[], query: string) => {
   const [results, setResults] = React.useState([] as VocabularyEntry[]);
-  const [query, setQuery] = React.useState('');
   const debouncedQuery = useDebouncedValue(query, 500);
 
   React.useEffect(
@@ -51,8 +50,6 @@ export const useVocabularySearch = (vocabulary: VocabularyEntry[]) => {
   );
 
   return {
-    query,
-    setQuery,
     processing: query !== debouncedQuery,
     results
   };

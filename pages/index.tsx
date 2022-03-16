@@ -7,6 +7,7 @@ import { Box } from '../components/box';
 import { HStack } from '../components/hstack';
 import { Link } from '../components/link';
 import { useRotatingRandom } from '../components/useRotatingRandom';
+import { useSessionState } from '../components/useSessionState';
 import { useVocabularySearch } from '../components/useVocabularySearch';
 import { getVocabulary, VocabularyEntry } from '../data/vocabulary';
 import { transliterate } from '../utils/translit';
@@ -17,7 +18,9 @@ interface StaticProps {
 
 const HomePage: NextPage<StaticProps> = ({ vocabulary }) => {
   const router = useRouter();
-  const search = useVocabularySearch(vocabulary);
+
+  const [query, setQuery] = useSessionState('searchQuery', '');
+  const search = useVocabularySearch(vocabulary, query);
 
   const tip = useRotatingRandom(
     [
@@ -36,7 +39,7 @@ const HomePage: NextPage<StaticProps> = ({ vocabulary }) => {
     15000
   );
 
-  const transliterated = transliterate(search.query);
+  const transliterated = transliterate(query);
 
   return (
     <>
@@ -64,13 +67,13 @@ const HomePage: NextPage<StaticProps> = ({ vocabulary }) => {
               'bg-transparent'
             )}
             placeholder="Start typing to search"
-            value={search.query}
+            value={query}
             onKeyPress={(e) => {
               if (e.key === 'Enter' && search.results.length > 0) {
                 router.push(`/i/${search.results[0].id}`);
               }
             }}
-            onChange={(e) => search.setQuery(e.target.value)}
+            onChange={(e) => setQuery(e.target.value)}
             autoFocus
           />
         </HStack>
@@ -108,7 +111,7 @@ const HomePage: NextPage<StaticProps> = ({ vocabulary }) => {
           </Box>
         )}
 
-        {!search.query && !search.processing && (
+        {!query && !search.processing && (
           <Box classes={['mx-2', 'space-y-2', 'text-lg']}>
             <Box type="p" classes={['text-xl', 'font-semibold']}>
               Why does it matter?
@@ -148,7 +151,7 @@ const HomePage: NextPage<StaticProps> = ({ vocabulary }) => {
           </Box>
         )}
 
-        {search.results.length <= 0 && search.query && !search.processing && (
+        {query && !search.processing && search.results.length <= 0 && (
           <Box>
             <Box classes={['text-xl']}>
               <HStack gap="medium">
@@ -158,7 +161,7 @@ const HomePage: NextPage<StaticProps> = ({ vocabulary }) => {
             </Box>
 
             <Box classes={['text-lg', 'font-light']}>
-              {transliterated && transliterated !== search.query && (
+              {transliterated && transliterated !== query && (
                 <Box>
                   However, according to the{' '}
                   <Link href="https://github.com/Tyrrrz/SpellingUkraine/tree/master/data/vocabulary#transliteration-system">
