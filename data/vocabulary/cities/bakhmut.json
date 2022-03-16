@@ -3,12 +3,15 @@
   "name": "Бахмут",
   "translation": "Bakhmut",
   "mistranslations": [
-    "Bahmut"
-  ],
-  "aliases": [
+    "Bahmut",
     "Artemivsk",
     "Artyomovsk"
   ],
+  "aliases": [
+    "Артемівськ",
+    "Артёмовск"
+  ],
+  "description": "Renamed from \"Artemivsk\" in February 2016. Not to be confused with another city currently named Artemivsk located in Luhansk Oblast.",
   "location": {
     "latitude": 48.6044,
     "longitude": 38.0067
