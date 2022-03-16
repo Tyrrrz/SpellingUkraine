@@ -104,7 +104,7 @@ const HomePage: NextPage<StaticProps> = ({ vocabulary }) => {
                   <HStack gap="medium">
                     <Box classes={['text-xl']}>{result.entry.translation}</Box>
 
-                    {result.match.on !== 'name' && result.match.on !== 'translation' && (
+                    {result.match.on === 'aliases' && (
                       <Box classes={['font-light']}>
                         {'('}
                         {result.match.source}
