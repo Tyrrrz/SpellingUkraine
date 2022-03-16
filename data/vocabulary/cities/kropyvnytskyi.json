@@ -4,11 +4,14 @@
   "translation": "Kropyvnytskyi",
   "mistranslations": [
     "Kropivnitskyi",
-    "Kropivnitskiy"
+    "Kropivnitskiy",
+    "Kirovohrad",
+    "Kirovograd"
   ],
   "aliases": [
     "Кропивницкий"
   ],
+  "description": "Renamed from \"Kirovohrad\" in May 2016.",
   "location": {
     "latitude": 48.5103,
     "longitude": 32.2667
