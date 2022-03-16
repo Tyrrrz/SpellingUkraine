@@ -2,50 +2,102 @@ import React from 'react';
 import type { VocabularyEntry } from '../data/vocabulary';
 import { useDebouncedValue } from './useDebouncedValue';
 
-const normalizeString = (str: string) => {
-  // Lowercase and remove diacritics & accents
-  return str.toLowerCase().replace(/[\u0300-\u036f]/g, '');
-};
+interface SearchMatch {
+  on: keyof VocabularyEntry;
+  source: string;
+  value: string;
+  quality: number;
+}
 
-const filterVocabulary = (vocabulary: VocabularyEntry[], query: string) => {
-  // TODO: Use a trie or something
+interface SearchResult {
+  entry: VocabularyEntry;
+  match: SearchMatch;
+}
+
+const resolveMatch = (entry: VocabularyEntry, query: string): SearchMatch | null => {
+  const normalizeString = (str: string) => {
+    // Lowercase and remove diacritics & accents
+    return str.toLowerCase().replace(/[\u0300-\u036f]/g, '');
+  };
+
+  const getQuality = (source: string, value: string) => {
+    // Quality is determined by how many characters are matched
+    // and how close to the beginning of the key the match happened.
+    return value.length / source.length - source.indexOf(value) / source.length;
+  };
+
   const queryNormalized = normalizeString(query);
-  if (!queryNormalized) {
-    return [];
+
+  const nameNormalized = normalizeString(entry.name);
+  if (nameNormalized.includes(queryNormalized)) {
+    return {
+      on: 'name',
+      source: entry.name,
+      value: query,
+      quality: getQuality(nameNormalized, queryNormalized)
+    };
   }
 
-  const matches = [] as { entry: VocabularyEntry; quality: number }[];
+  const translationNormalized = normalizeString(entry.translation);
+  if (translationNormalized.includes(queryNormalized)) {
+    return {
+      on: 'translation',
+      source: entry.translation,
+      value: query,
+      quality: getQuality(translationNormalized, queryNormalized)
+    };
+  }
 
-  for (const entry of vocabulary) {
-    const keys = [entry.name, entry.translation, ...entry.mistranslations, ...entry.aliases].map(
-      normalizeString
-    );
-
-    for (const key of keys) {
-      if (key.includes(queryNormalized)) {
-        // Quality is determined by how many characters are matched
-        // and how close to the beginning of the key the match happened.
-        const quality =
-          queryNormalized.length / key.length - key.indexOf(queryNormalized) / key.length;
-
-        matches.push({ entry, quality });
-        break;
-      }
+  for (const mistranslation of entry.mistranslations) {
+    const mistranslationNormalized = normalizeString(mistranslation);
+    if (mistranslationNormalized.includes(queryNormalized)) {
+      return {
+        on: 'mistranslations',
+        source: mistranslation,
+        value: query,
+        quality: getQuality(mistranslationNormalized, queryNormalized)
+      };
     }
   }
 
-  return matches
-    .sort((a, b) => b.quality - a.quality)
-    .slice(0, 10)
-    .map((match) => match.entry);
+  for (const alias of entry.aliases) {
+    const aliasNormalized = normalizeString(alias);
+    if (aliasNormalized.includes(queryNormalized)) {
+      return {
+        on: 'aliases',
+        source: alias,
+        value: query,
+        quality: getQuality(aliasNormalized, queryNormalized)
+      };
+    }
+  }
+
+  return null;
+};
+
+const resolveResults = (vocabulary: VocabularyEntry[], query: string) => {
+  // TODO: Use a trie or something
+  if (!query) {
+    return [];
+  }
+
+  const results: SearchResult[] = [];
+  for (const entry of vocabulary) {
+    const match = resolveMatch(entry, query);
+    if (match) {
+      results.push({ entry, match });
+    }
+  }
+
+  return results.sort((a, b) => b.match.quality - a.match.quality).slice(0, 10);
 };
 
 export const useVocabularySearch = (vocabulary: VocabularyEntry[], query: string) => {
-  const [results, setResults] = React.useState([] as VocabularyEntry[]);
+  const [results, setResults] = React.useState<SearchResult[]>([]);
   const debouncedQuery = useDebouncedValue(query, 500);
 
   React.useEffect(
-    () => setResults(filterVocabulary(vocabulary, debouncedQuery)),
+    () => setResults(resolveResults(vocabulary, debouncedQuery)),
     [vocabulary, debouncedQuery]
   );
 

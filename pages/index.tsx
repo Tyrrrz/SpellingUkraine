@@ -70,7 +70,7 @@ const HomePage: NextPage<StaticProps> = ({ vocabulary }) => {
             value={query}
             onKeyPress={(e) => {
               if (e.key === 'Enter' && search.results.length > 0) {
-                router.push(`/i/${search.results[0].id}`);
+                router.push(`/i/${search.results[0].entry.id}`);
               }
             }}
             onChange={(e) => setQuery(e.target.value)}
@@ -89,8 +89,8 @@ const HomePage: NextPage<StaticProps> = ({ vocabulary }) => {
       <Box classes={['mt-8']}>
         {search.results.length > 0 && (
           <Box classes={['flex', 'flex-col', 'lg:flex-row', 'flex-wrap', 'gap-4']}>
-            {search.results.map((entry) => (
-              <Link key={entry.id} href={`/i/${entry.id}`}>
+            {search.results.map((result) => (
+              <Link key={result.entry.id} href={`/i/${result.entry.id}`}>
                 <Box
                   classes={[
                     'p-4',
@@ -101,9 +101,20 @@ const HomePage: NextPage<StaticProps> = ({ vocabulary }) => {
                     'rounded'
                   ]}
                 >
-                  <Box classes={['text-xl']}>{entry.translation}</Box>
+                  <HStack gap="medium">
+                    <Box classes={['text-xl']}>{result.entry.translation}</Box>
+
+                    {result.match.on !== 'name' && result.match.on !== 'translation' && (
+                      <Box classes={['font-light']}>
+                        {'('}
+                        {result.match.source}
+                        {')'}
+                      </Box>
+                    )}
+                  </HStack>
+
                   <Box classes={['text-lg', 'font-light']}>
-                    {entry.name} • {entry.category}
+                    {result.entry.name} • {result.entry.category}
                   </Box>
                 </Box>
               </Link>

@@ -2,7 +2,7 @@ import React from 'react';
 
 const resolveVoices = () => {
   return new Promise<SpeechSynthesisVoice[]>((resolve) => {
-    if (typeof window === 'undefined') {
+    if (typeof window === 'undefined' || !speechSynthesis) {
       resolve([]);
     }
 
@@ -22,7 +22,7 @@ const resolveVoices = () => {
 
 const say = (text: string, voice?: SpeechSynthesisVoice) => {
   return new Promise<void>((resolve) => {
-    if (typeof window === 'undefined') {
+    if (typeof window === 'undefined' || !speechSynthesis) {
       resolve();
     }
 

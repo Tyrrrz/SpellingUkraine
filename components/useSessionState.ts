@@ -1,7 +1,7 @@
 import React from 'react';
 
 const getStorageItem = (key: string) => {
-  if (typeof window === 'undefined') {
+  if (typeof window === 'undefined' || !sessionStorage) {
     return null;
   }
 
@@ -14,7 +14,7 @@ const getStorageItem = (key: string) => {
 };
 
 const setStorageItem = (key: string, value: any) => {
-  if (typeof window === 'undefined') {
+  if (typeof window === 'undefined' || !sessionStorage) {
     return;
   }
 

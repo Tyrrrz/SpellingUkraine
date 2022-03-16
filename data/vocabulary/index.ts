@@ -45,7 +45,7 @@ export const getVocabulary = () => {
   return filePaths
     .map(
       (filePath) =>
-        ({
+        (<VocabularyEntry>{
           id: path.parse(filePath).name,
           path: path.relative(dirPath, filePath),
           visible: true,
@@ -53,7 +53,7 @@ export const getVocabulary = () => {
           aliases: [],
           externalLinks: [],
           ...JSON.parse(fs.readFileSync(filePath, 'utf8'))
-        } as VocabularyEntry)
+        })
     )
     .filter((entry) => entry.visible);
 };

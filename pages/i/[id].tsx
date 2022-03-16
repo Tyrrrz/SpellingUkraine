@@ -189,7 +189,7 @@ export const getStaticProps: GetStaticProps<StaticProps> = ({ params }) => {
 
   return {
     props: {
-      entry: getVocabularyEntry(id as string)
+      entry: getVocabularyEntry(id)
     }
   };
 };
