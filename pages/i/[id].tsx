@@ -162,7 +162,6 @@ const EntryPage: NextPage<StaticProps> = ({ entry }) => {
               <Image
                 src={entry.image.url}
                 alt={entry.image.name}
-                title={entry.image.name}
                 layout="fill"
                 objectFit="contain"
                 objectPosition="left top"
