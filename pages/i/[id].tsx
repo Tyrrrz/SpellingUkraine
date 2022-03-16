@@ -61,100 +61,102 @@ const EntryPage: NextPage<StaticProps> = ({ entry }) => {
           </Box>
         </Box>
 
-        {entry.mistakes.length > 0 && (
-          <Box>
-            <SectionHeader>Spelling</SectionHeader>
-
-            <Box classes={['text-lg']}>
-              <HStack wrap gap="large">
-                <HStack>
-                  <FiCheck className={classNames('text-green-600')} />
-                  <Box>{entry.translation}</Box>
-                </HStack>
-
-                {entry.mistakes.map((mistake) => (
-                  <HStack key={mistake}>
-                    <FiX className={classNames('text-red-600')} />
-                    <Box>{mistake}</Box>
-                  </HStack>
-                ))}
-              </HStack>
-            </Box>
-          </Box>
-        )}
-
-        {entry.description && (
-          <Box>
-            <SectionHeader>Description</SectionHeader>
-
-            <Box type="article">{entry.description}</Box>
-          </Box>
-        )}
-
-        {entry.links.length > 0 && (
-          <Box>
-            <SectionHeader>See also</SectionHeader>
-
-            {entry.links.map((link) => (
-              <HStack key={link.name}>
-                <FiExternalLink />
-                <Link href={link.url}>{link.name}</Link>
-              </HStack>
-            ))}
-          </Box>
-        )}
-
-        {entry.location && (
-          <Box>
-            <SectionHeader>Location</SectionHeader>
-
+        <Box classes={['space-y-4']}>
+          {entry.mistakes.length > 0 && (
             <Box>
-              <Map
-                height={400}
-                mouseEvents={false}
-                touchEvents={false}
-                defaultCenter={[entry.location.latitude, entry.location.longitude]}
-                defaultZoom={6}
-              >
-                <Marker
-                  color="#0ea5e9"
-                  width={48}
-                  hover={false}
-                  anchor={[entry.location.latitude, entry.location.longitude]}
-                />
-              </Map>
-            </Box>
+              <SectionHeader>Spelling</SectionHeader>
 
-            <Box classes={['flex', 'place-content-end']}>
-              <Link
-                href={`https://google.com/maps/search/?api=1&query=${encodeURIComponent(
-                  entry.translation
-                )}`}
-              >
-                <HStack>
-                  <FiMap />
-                  <Box>Open in Google Maps</Box>
+              <Box classes={['text-lg']}>
+                <HStack wrap gap="large">
+                  <HStack>
+                    <FiCheck className={classNames('text-green-600')} />
+                    <Box>{entry.translation}</Box>
+                  </HStack>
+
+                  {entry.mistakes.map((mistake) => (
+                    <HStack key={mistake}>
+                      <FiX className={classNames('text-red-600')} />
+                      <Box>{mistake}</Box>
+                    </HStack>
+                  ))}
                 </HStack>
-              </Link>
+              </Box>
             </Box>
-          </Box>
-        )}
+          )}
 
-        {entry.image && (
-          <Box>
-            <SectionHeader>Image</SectionHeader>
+          {entry.description && (
+            <Box>
+              <SectionHeader>Description</SectionHeader>
 
-            <Box classes={['relative', 'w-full', 'h-[400px]']}>
-              <Image
-                src={entry.image.url}
-                alt={entry.image.name}
-                layout="fill"
-                objectFit="contain"
-                objectPosition="left top"
-              />
+              <Box type="article">{entry.description}</Box>
             </Box>
-          </Box>
-        )}
+          )}
+
+          {entry.links.length > 0 && (
+            <Box>
+              <SectionHeader>See also</SectionHeader>
+
+              {entry.links.map((link) => (
+                <HStack key={link.name}>
+                  <FiExternalLink />
+                  <Link href={link.url}>{link.name}</Link>
+                </HStack>
+              ))}
+            </Box>
+          )}
+
+          {entry.location && (
+            <Box>
+              <SectionHeader>Location</SectionHeader>
+
+              <Box>
+                <Map
+                  height={400}
+                  mouseEvents={false}
+                  touchEvents={false}
+                  defaultCenter={[entry.location.latitude, entry.location.longitude]}
+                  defaultZoom={6}
+                >
+                  <Marker
+                    color="#0ea5e9"
+                    width={48}
+                    hover={false}
+                    anchor={[entry.location.latitude, entry.location.longitude]}
+                  />
+                </Map>
+              </Box>
+
+              <Box classes={['flex', 'place-content-end']}>
+                <Link
+                  href={`https://google.com/maps/search/?api=1&query=${encodeURIComponent(
+                    entry.translation
+                  )}`}
+                >
+                  <HStack>
+                    <FiMap />
+                    <Box>Open in Google Maps</Box>
+                  </HStack>
+                </Link>
+              </Box>
+            </Box>
+          )}
+
+          {entry.image && (
+            <Box>
+              <SectionHeader>Image</SectionHeader>
+
+              <Box classes={['relative', 'w-full', 'h-[400px]']}>
+                <Image
+                  src={entry.image.url}
+                  alt={entry.image.name}
+                  layout="fill"
+                  objectFit="contain"
+                  objectPosition="left top"
+                />
+              </Box>
+            </Box>
+          )}
+        </Box>
       </Paper>
     </>
   );

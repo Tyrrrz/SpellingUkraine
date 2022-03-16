@@ -10,7 +10,7 @@ const NotFoundPage: NextPage = () => {
 
       <Paper>
         <Box classes={['text-3xl']}>Not Found</Box>
-        <Box classes={['text-xl', 'font-light']}>The page you requested does not exist</Box>
+        <Box classes={['mt-2', 'text-xl', 'font-light']}>The page you requested does not exist</Box>
       </Paper>
     </>
   );

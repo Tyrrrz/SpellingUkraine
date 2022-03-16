@@ -11,11 +11,11 @@ const AttributionsPage: NextPage = () => {
 
       <Paper>
         <Box classes={['text-3xl']}>Attribution</Box>
-        <Box classes={['text-xl', 'font-light']}>
+        <Box classes={['mt-2', 'text-xl', 'font-light']}>
           This website uses the following publicly available external assets:
         </Box>
 
-        <Box type="ul" classes={['list-disc', 'px-8']}>
+        <Box type="ul" classes={['mt-2', 'list-disc', 'px-8']}>
           <Box type="li">
             <Link href="https://flaticon.com/free-icon/ukraine_197572">
               Ukraine icon by Freepik
