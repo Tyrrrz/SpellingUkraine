@@ -1,21 +1,21 @@
 {
   "category": "City",
-  "name": "Куп'янськ",
+  "term": "Куп'янськ",
   "translation": "Kupiansk",
-  "mistranslations": [
+  "mistakes": [
     "Kupyansk"
   ],
   "aliases": [
     "Купянск"
   ],
-  "location": {
-    "latitude": 49.7064,
-    "longitude": 37.6167
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Kupiansk",
       "url": "https://en.wikipedia.org/wiki/Kupiansk"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 49.7064,
+    "longitude": 37.6167
+  }
 }

@@ -1,22 +1,22 @@
 {
   "category": "City",
-  "name": "Калинівка",
+  "term": "Калинівка",
   "translation": "Kalynivka",
-  "mistranslations": [
+  "mistakes": [
     "Kalinovka"
   ],
   "aliases": [
     "Калиновка",
     "Kalinówka"
   ],
-  "location": {
-    "latitude": 49.4472,
-    "longitude": 28.5231
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Kalynivka",
       "url": "https://en.wikipedia.org/wiki/Kalynivka,_Vinnytsia_Oblast"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 49.4472,
+    "longitude": 28.5231
+  }
 }

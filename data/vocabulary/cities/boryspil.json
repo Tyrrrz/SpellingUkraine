@@ -1,8 +1,8 @@
 {
   "category": "City",
-  "name": "Бориспіль",
+  "term": "Бориспіль",
   "translation": "Boryspil",
-  "mistranslations": [
+  "mistakes": [
     "Borispil",
     "Borispol"
   ],
@@ -10,14 +10,14 @@
     "Борисполь",
     "Bortespil"
   ],
-  "location": {
-    "latitude": 50.35,
-    "longitude": 30.95
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Boryspil",
       "url": "https://en.wikipedia.org/wiki/Boryspil"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 50.35,
+    "longitude": 30.95
+  }
 }

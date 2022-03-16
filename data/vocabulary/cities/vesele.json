@@ -1,22 +1,22 @@
 {
   "category": "City",
-  "name": "Веселе",
+  "term": "Веселе",
   "translation": "Vesele",
-  "mistranslations": [
+  "mistakes": [
     "Veseloye",
     "Veseloe"
   ],
   "aliases": [
     "Весёлое"
   ],
-  "location": {
-    "latitude": 47.016,
-    "longitude": 34.9124
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Vesele",
       "url": "https://en.wikipedia.org/wiki/Vesele,_Zaporizhzhia_Oblast"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 47.016,
+    "longitude": 34.9124
+  }
 }

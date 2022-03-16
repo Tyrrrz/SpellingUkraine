@@ -1,20 +1,20 @@
 {
   "category": "City",
-  "name": "Донецьк",
+  "term": "Донецьк",
   "translation": "Donetsk",
-  "mistranslations": [],
+  "mistakes": [],
   "aliases": [
     "Донецк",
     "Donieck"
   ],
-  "location": {
-    "latitude": 48.0089,
-    "longitude": 37.8042
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Donetsk",
       "url": "https://en.wikipedia.org/wiki/Donetsk"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 48.0089,
+    "longitude": 37.8042
+  }
 }

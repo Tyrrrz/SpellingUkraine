@@ -1,21 +1,21 @@
 {
   "category": "City",
-  "name": "Ананьїв",
+  "term": "Ананьїв",
   "translation": "Ananiv",
-  "mistranslations": [
+  "mistakes": [
     "Ananiev"
   ],
   "aliases": [
     "Ананьев"
   ],
-  "location": {
-    "latitude": 47.7225,
-    "longitude": 29.96
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Ananiv",
       "url": "https://en.wikipedia.org/wiki/Ananiv"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 47.7225,
+    "longitude": 29.96
+  }
 }

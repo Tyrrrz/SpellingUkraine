@@ -1,20 +1,20 @@
 {
   "category": "City",
-  "name": "Кобеляки",
+  "term": "Кобеляки",
   "translation": "Kobeliaky",
-  "mistranslations": [
+  "mistakes": [
     "Kobelyaky",
     "Kobelyaki"
   ],
   "aliases": [],
-  "location": {
-    "latitude": 49.1474,
-    "longitude": 34.1993
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Kobeliaky",
       "url": "https://en.wikipedia.org/wiki/Kobeliaky"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 49.1474,
+    "longitude": 34.1993
+  }
 }

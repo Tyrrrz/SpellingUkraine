@@ -1,22 +1,22 @@
 {
   "category": "City",
-  "name": "Іванівка",
+  "term": "Іванівка",
   "translation": "Ivanivka",
-  "mistranslations": [
+  "mistakes": [
     "Ivanovka"
   ],
   "aliases": [
     "Ивановка",
     "Iwanivka"
   ],
-  "location": {
-    "latitude": 48.2325,
-    "longitude": 38.9525
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Ivanivka",
       "url": "https://en.wikipedia.org/wiki/Ivanivka,_Kherson_Oblast"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 48.2325,
+    "longitude": 38.9525
+  }
 }

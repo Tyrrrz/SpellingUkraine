@@ -1,22 +1,22 @@
 {
   "category": "City",
-  "name": "Тарутине",
+  "term": "Тарутине",
   "translation": "Tarutyne",
-  "mistranslations": [
+  "mistakes": [
     "Tarutino"
   ],
   "aliases": [
     "Тарутино",
     "Thyratyna"
   ],
-  "location": {
-    "latitude": 46.1846,
-    "longitude": 29.1495
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Tarutyne",
       "url": "https://en.wikipedia.org/wiki/Tarutyne"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 46.1846,
+    "longitude": 29.1495
+  }
 }

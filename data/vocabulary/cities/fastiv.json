@@ -1,21 +1,21 @@
 {
   "category": "City",
-  "name": "Фастів",
+  "term": "Фастів",
   "translation": "Fastiv",
-  "mistranslations": [
+  "mistakes": [
     "Fastov"
   ],
   "aliases": [
     "Фастов"
   ],
-  "location": {
-    "latitude": 50.0747,
-    "longitude": 29.9181
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Fastiv",
       "url": "https://en.wikipedia.org/wiki/Fastiv"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 50.0747,
+    "longitude": 29.9181
+  }
 }

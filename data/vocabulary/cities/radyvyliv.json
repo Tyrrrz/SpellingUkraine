@@ -1,21 +1,21 @@
 {
   "category": "City",
-  "name": "Радивилів",
+  "term": "Радивилів",
   "translation": "Radyvyliv",
-  "mistranslations": [
+  "mistakes": [
     "Radivilov"
   ],
   "aliases": [
     "Радивилов"
   ],
-  "location": {
-    "latitude": 50.1333,
-    "longitude": 25.25
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Radyvyliv",
       "url": "https://en.wikipedia.org/wiki/Radyvyliv"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 50.1333,
+    "longitude": 25.25
+  }
 }

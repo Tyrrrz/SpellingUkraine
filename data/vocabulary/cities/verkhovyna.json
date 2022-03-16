@@ -1,22 +1,22 @@
 {
   "category": "City",
-  "name": "Верховина",
+  "term": "Верховина",
   "translation": "Verkhovyna",
-  "mistranslations": [
+  "mistakes": [
     "Verkhovina"
   ],
   "aliases": [
     "Верховина",
     "Żabie"
   ],
-  "location": {
-    "latitude": 48.1517,
-    "longitude": 24.8136
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Verkhovyna",
       "url": "https://en.wikipedia.org/wiki/Verkhovyna"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 48.1517,
+    "longitude": 24.8136
+  }
 }

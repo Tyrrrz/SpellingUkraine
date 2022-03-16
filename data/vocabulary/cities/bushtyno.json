@@ -1,8 +1,8 @@
 {
   "category": "City",
-  "name": "Буштино",
+  "term": "Буштино",
   "translation": "Bushtyno",
-  "mistranslations": [
+  "mistakes": [
     "Bushtino"
   ],
   "aliases": [
@@ -11,14 +11,14 @@
     "Bustea",
     "Buštín"
   ],
-  "location": {
-    "latitude": 48.0503,
-    "longitude": 23.4894
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Bushtyno",
       "url": "https://en.wikipedia.org/wiki/Bushtyno"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 48.0503,
+    "longitude": 23.4894
+  }
 }

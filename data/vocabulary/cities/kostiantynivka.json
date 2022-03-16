@@ -1,8 +1,8 @@
 {
   "category": "City",
-  "name": "Костянтинівка",
+  "term": "Костянтинівка",
   "translation": "Kostiantynivka",
-  "mistranslations": [
+  "mistakes": [
     "Kostyantynivka",
     "Kostiantinovka",
     "Kostyantinovka"
@@ -10,14 +10,14 @@
   "aliases": [
     "Константиновка"
   ],
-  "location": {
-    "latitude": 48.5333,
-    "longitude": 37.7167
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Kostiantynivka",
       "url": "https://en.wikipedia.org/wiki/Kostiantynivka"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 48.5333,
+    "longitude": 37.7167
+  }
 }

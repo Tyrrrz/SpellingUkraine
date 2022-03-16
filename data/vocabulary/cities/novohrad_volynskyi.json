@@ -1,8 +1,8 @@
 {
   "category": "City",
-  "name": "Новоград-Волинський",
+  "term": "Новоград-Волинський",
   "translation": "Novohrad-Volynskyi",
-  "mistranslations": [
+  "mistakes": [
     "Novograd-Volynsky",
     "Novograd-Volynskiy"
   ],
@@ -10,14 +10,14 @@
     "Новоград-Волынский",
     "Zwiahel"
   ],
-  "location": {
-    "latitude": 50.5833,
-    "longitude": 27.6333
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Novohrad-Volynskyi",
       "url": "https://en.wikipedia.org/wiki/Novohrad-Volynskyi"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 50.5833,
+    "longitude": 27.6333
+  }
 }

@@ -1,8 +1,8 @@
 {
   "category": "City",
-  "name": "Болехів",
+  "term": "Болехів",
   "translation": "Bolekhiv",
-  "mistranslations": [
+  "mistakes": [
     "Bolehiv",
     "Bolechiw"
   ],
@@ -10,14 +10,14 @@
     "Болехов",
     "Bolechów"
   ],
-  "location": {
-    "latitude": 49.0669,
-    "longitude": 23.8514
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Bolekhiv",
       "url": "https://en.wikipedia.org/wiki/Bolekhiv"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 49.0669,
+    "longitude": 23.8514
+  }
 }

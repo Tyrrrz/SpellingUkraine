@@ -1,22 +1,22 @@
 {
   "category": "City",
-  "name": "Хмільник",
+  "term": "Хмільник",
   "translation": "Khmilnyk",
-  "mistranslations": [
+  "mistakes": [
     "Khmelnik"
   ],
   "aliases": [
     "Хмельник",
     "Chmielnik"
   ],
-  "location": {
-    "latitude": 49.55,
-    "longitude": 27.9667
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Khmilnyk",
       "url": "https://en.wikipedia.org/wiki/Khmilnyk"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 49.55,
+    "longitude": 27.9667
+  }
 }

@@ -1,21 +1,21 @@
 {
   "category": "City",
-  "name": "Кам'янка-Дніпровська",
+  "term": "Кам'янка-Дніпровська",
   "translation": "Kamianka-Dniprovska",
-  "mistranslations": [
+  "mistakes": [
     "Kamenka-Dneprovskaya"
   ],
   "aliases": [
     "Каменка-Днепровская"
   ],
-  "location": {
-    "latitude": 47.4792,
-    "longitude": 34.4232
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Kamianka-Dniprovska",
       "url": "https://en.wikipedia.org/wiki/Kamianka-Dniprovska"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 47.4792,
+    "longitude": 34.4232
+  }
 }

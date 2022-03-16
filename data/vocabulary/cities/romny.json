@@ -1,19 +1,19 @@
 {
   "category": "City",
-  "name": "Ромни",
+  "term": "Ромни",
   "translation": "Romny",
-  "mistranslations": [],
+  "mistakes": [],
   "aliases": [
     "Ромны"
   ],
-  "location": {
-    "latitude": 50.7428,
-    "longitude": 33.4879
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Romny",
       "url": "https://en.wikipedia.org/wiki/Romny"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 50.7428,
+    "longitude": 33.4879
+  }
 }

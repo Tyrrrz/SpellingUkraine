@@ -1,21 +1,21 @@
 {
   "category": "City",
-  "name": "Калуш",
+  "term": "Калуш",
   "translation": "Kalush",
-  "mistranslations": [
+  "mistakes": [
     "Kaluzh"
   ],
   "aliases": [
     "Kałusz"
   ],
-  "location": {
-    "latitude": 49.0442,
-    "longitude": 24.3597
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Kalush",
       "url": "https://en.wikipedia.org/wiki/Kalush,_Ukraine"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 49.0442,
+    "longitude": 24.3597
+  }
 }

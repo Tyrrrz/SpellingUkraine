@@ -1,8 +1,8 @@
 {
   "category": "Phrase",
-  "name": "Героям Слава",
+  "term": "Героям Слава",
   "translation": "Heroiam Slava",
-  "mistranslations": [
+  "mistakes": [
     "Geroyam Slava",
     "Heroyam Slava"
   ],
@@ -10,7 +10,7 @@
     "Glory to Heroes"
   ],
   "description": "Customary response to \"Slava Ukraini\", a national salute. Translated from Ukrainian, it means \"Glory to the Heroes\".",
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Glory to Ukraine",
       "url": "https://en.wikipedia.org/wiki/Glory_to_Ukraine"

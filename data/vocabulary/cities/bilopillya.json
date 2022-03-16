@@ -1,21 +1,21 @@
 {
   "category": "City",
-  "name": "Білопілля",
+  "term": "Білопілля",
   "translation": "Bilopillya",
-  "mistranslations": [
+  "mistakes": [
     "Belopolye"
   ],
   "aliases": [
     "Белополье"
   ],
-  "location": {
-    "latitude": 51.1532,
-    "longitude": 34.3025
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Bilopillya",
       "url": "https://en.wikipedia.org/wiki/Bilopillya"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 51.1532,
+    "longitude": 34.3025
+  }
 }

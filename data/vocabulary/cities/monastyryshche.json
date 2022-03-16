@@ -1,21 +1,21 @@
 {
   "category": "City",
-  "name": "Монастирище",
+  "term": "Монастирище",
   "translation": "Monastyryshche",
-  "mistranslations": [
+  "mistakes": [
     "Monastyrishche"
   ],
   "aliases": [
     "Монастырище"
   ],
-  "location": {
-    "latitude": 48.99,
-    "longitude": 29.8011
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Monastyryshche",
       "url": "https://en.wikipedia.org/wiki/Monastyryshche"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 48.99,
+    "longitude": 29.8011
+  }
 }

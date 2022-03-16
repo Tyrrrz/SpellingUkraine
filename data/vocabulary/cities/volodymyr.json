@@ -1,26 +1,26 @@
 {
   "category": "City",
-  "name": "Володимир-Волинський",
+  "term": "Володимир-Волинський",
   "translation": "Volodymyr",
-  "mistranslations": [
-    "Vladimir",
-    "Volodymyr-Volynskyi",
-    "Vladimir-Volynskiy"
+  "mistakes": [
+    "Vladimir"
   ],
   "aliases": [
     "Владимир",
     "Володимир-Волинський",
-    "Владимир-Волынский"
+    "Владимир-Волынский",
+    "Volodymyr-Volynskyi",
+    "Vladimir-Volynskiy"
   ],
   "description": "Renamed from \"Volodymyr-Volynskyi\" in 2021.",
-  "location": {
-    "latitude": 50.8481,
-    "longitude": 24.3222
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Volodymyr",
       "url": "https://en.wikipedia.org/wiki/Volodymyr_(city)"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 50.8481,
+    "longitude": 24.3222
+  }
 }

@@ -1,8 +1,8 @@
 {
   "category": "City",
-  "name": "Благовіщенське",
+  "term": "Благовіщенське",
   "translation": "Blahovishchenske",
-  "mistranslations": [
+  "mistakes": [
     "Blagovishchenske",
     "Blahoveshchenskoe",
     "Blagoveshchenskoe"
@@ -10,14 +10,14 @@
   "aliases": [
     "Благовищенское"
   ],
-  "location": {
-    "latitude": 48.3197,
-    "longitude": 30.2353
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Blahovishchenske",
       "url": "https://en.wikipedia.org/wiki/Blahovishchenske"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 48.3197,
+    "longitude": 30.2353
+  }
 }

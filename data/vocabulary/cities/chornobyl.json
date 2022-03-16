@@ -1,8 +1,8 @@
 {
   "category": "City",
-  "name": "Чорнобиль",
+  "term": "Чорнобиль",
   "translation": "Chornobyl",
-  "mistranslations": [
+  "mistakes": [
     "Chernobyl",
     "Chernobil"
   ],
@@ -10,14 +10,14 @@
     "Чернобыль",
     "Чернобль"
   ],
-  "location": {
-    "latitude": 51.275,
-    "longitude": 30.221
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Chornobyl",
       "url": "https://en.wikipedia.org/wiki/Chornobyl"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 51.275,
+    "longitude": 30.221
+  }
 }

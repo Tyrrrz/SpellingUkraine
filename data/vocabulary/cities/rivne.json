@@ -1,22 +1,22 @@
 {
   "category": "City",
-  "name": "Рівне",
+  "term": "Рівне",
   "translation": "Rivne",
-  "mistranslations": [
+  "mistakes": [
     "Rovno"
   ],
   "aliases": [
     "Ровно",
     "Równe"
   ],
-  "location": {
-    "latitude": 50.6197,
-    "longitude": 26.2514
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Rivne",
       "url": "https://en.wikipedia.org/wiki/Rivne"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 50.6197,
+    "longitude": 26.2514
+  }
 }

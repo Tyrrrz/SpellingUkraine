@@ -1,22 +1,22 @@
 {
   "category": "City",
-  "name": "Радомишль",
+  "term": "Радомишль",
   "translation": "Radomyshl",
-  "mistranslations": [
+  "mistakes": [
     "Radomishl"
   ],
   "aliases": [
     "Радомышль",
     "Radomyśl"
   ],
-  "location": {
-    "latitude": 50.4947,
-    "longitude": 29.2333
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Radomyshl",
       "url": "https://en.wikipedia.org/wiki/Radomyshl"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 50.4947,
+    "longitude": 29.2333
+  }
 }

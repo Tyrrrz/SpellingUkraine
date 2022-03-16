@@ -1,8 +1,8 @@
 {
   "category": "City",
-  "name": "Верхньодніпровськ",
+  "term": "Верхньодніпровськ",
   "translation": "Verkhnodniprovsk",
-  "mistranslations": [
+  "mistakes": [
     "Verkhnedneprovsk",
     "Verkhnednieprovsk",
     "Verkhnednyeprovsk"
@@ -10,14 +10,14 @@
   "aliases": [
     "Верхнеднепровск"
   ],
-  "location": {
-    "latitude": 48.6561,
-    "longitude": 34.3283
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Verkhnodniprovsk",
       "url": "https://en.wikipedia.org/wiki/Verkhnodniprovsk"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 48.6561,
+    "longitude": 34.3283
+  }
 }

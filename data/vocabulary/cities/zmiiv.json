@@ -1,22 +1,22 @@
 {
   "category": "City",
-  "name": "Зміїв",
+  "term": "Зміїв",
   "translation": "Zmiiv",
-  "mistranslations": [
+  "mistakes": [
     "Zmiev",
     "Zmiyev"
   ],
   "aliases": [
     "Змиёв"
   ],
-  "location": {
-    "latitude": 49.6878,
-    "longitude": 36.3558
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Zmiiv",
       "url": "https://en.wikipedia.org/wiki/Zmiiv"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 49.6878,
+    "longitude": 36.3558
+  }
 }

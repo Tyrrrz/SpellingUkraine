@@ -1,21 +1,21 @@
 {
   "category": "City",
-  "name": "Обухівка",
+  "term": "Обухівка",
   "translation": "Obukhivka",
-  "mistranslations": [
+  "mistakes": [
     "Obukhovka"
   ],
   "aliases": [
     "Обуховка"
   ],
-  "location": {
-    "latitude": 48.5442,
-    "longitude": 34.8664
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Obukhivka",
       "url": "https://en.wikipedia.org/wiki/Obukhivka"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 48.5442,
+    "longitude": 34.8664
+  }
 }

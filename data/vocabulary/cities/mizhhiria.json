@@ -1,8 +1,8 @@
 {
   "category": "City",
-  "name": "Міжгір'я",
+  "term": "Міжгір'я",
   "translation": "Mizhhiria",
-  "mistranslations": [
+  "mistakes": [
     "Mizhigiria",
     "Mizhigirya"
   ],
@@ -13,14 +13,14 @@
     "Mižhiria",
     "Volove Pole"
   ],
-  "location": {
-    "latitude": 48.5286,
-    "longitude": 23.5019
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Mizhhiria",
       "url": "https://en.wikipedia.org/wiki/Mizhhiria"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 48.5286,
+    "longitude": 23.5019
+  }
 }

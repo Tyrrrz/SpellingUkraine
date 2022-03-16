@@ -1,19 +1,19 @@
 {
   "category": "City",
-  "name": "Понінка",
+  "term": "Понінка",
   "translation": "Poninka",
-  "mistranslations": [],
+  "mistakes": [],
   "aliases": [
     "Понинка"
   ],
-  "location": {
-    "latitude": 50.1833,
-    "longitude": 27.5333
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Poninka",
       "url": "https://en.wikipedia.org/wiki/Poninka"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 50.1833,
+    "longitude": 27.5333
+  }
 }

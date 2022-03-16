@@ -1,8 +1,8 @@
 {
   "category": "City",
-  "name": "Нетішин",
+  "term": "Нетішин",
   "translation": "Netishyn",
-  "mistranslations": [
+  "mistakes": [
     "Netishin",
     "Neteshin"
   ],
@@ -10,14 +10,14 @@
     "Нетешин",
     "Niecieszyn"
   ],
-  "location": {
-    "latitude": 50.33,
-    "longitude": 26.64
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Netishyn",
       "url": "https://en.wikipedia.org/wiki/Netishyn"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 50.33,
+    "longitude": 26.64
+  }
 }

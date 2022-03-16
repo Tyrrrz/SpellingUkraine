@@ -1,22 +1,22 @@
 {
   "category": "City",
-  "name": "Якимівка",
+  "term": "Якимівка",
   "translation": "Yakymivka",
-  "mistranslations": [
+  "mistakes": [
     "Yakimovka",
     "Akimovka"
   ],
   "aliases": [
     "Акимовка"
   ],
-  "location": {
-    "latitude": 46.6967,
-    "longitude": 35.1664
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Yakymivka",
       "url": "https://en.wikipedia.org/wiki/Yakymivka"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 46.6967,
+    "longitude": 35.1664
+  }
 }

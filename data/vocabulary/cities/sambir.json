@@ -1,22 +1,22 @@
 {
   "category": "City",
-  "name": "Самбір",
+  "term": "Самбір",
   "translation": "Sambir",
-  "mistranslations": [
+  "mistakes": [
     "Sambor"
   ],
   "aliases": [
     "Самбор",
     "Sambor"
   ],
-  "location": {
-    "latitude": 49.5167,
-    "longitude": 23.2
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Sambir",
       "url": "https://en.wikipedia.org/wiki/Sambir"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 49.5167,
+    "longitude": 23.2
+  }
 }

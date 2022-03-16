@@ -1,17 +1,17 @@
 {
   "category": "City",
-  "name": "Ворожба",
+  "term": "Ворожба",
   "translation": "Vorozhba",
-  "mistranslations": [],
+  "mistakes": [],
   "aliases": [],
-  "location": {
-    "latitude": 51.1749,
-    "longitude": 34.2299
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Vorozhba",
       "url": "https://en.wikipedia.org/wiki/Vorozhba"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 51.1749,
+    "longitude": 34.2299
+  }
 }

@@ -1,21 +1,21 @@
 {
   "category": "City",
-  "name": "Васильків",
+  "term": "Васильків",
   "translation": "Vasylkiv",
-  "mistranslations": [
+  "mistakes": [
     "Vasilkov"
   ],
   "aliases": [
     "Васильков"
   ],
-  "location": {
-    "latitude": 50.1775,
-    "longitude": 30.3217
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Vasylkiv",
       "url": "https://en.wikipedia.org/wiki/Vasylkiv"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 50.1775,
+    "longitude": 30.3217
+  }
 }

@@ -1,17 +1,17 @@
 {
   "category": "City",
-  "name": "Короп",
+  "term": "Короп",
   "translation": "Korop",
-  "mistranslations": [],
+  "mistakes": [],
   "aliases": [],
-  "location": {
-    "latitude": 51.5661,
-    "longitude": 32.9508
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Korop",
       "url": "https://en.wikipedia.org/wiki/Korop"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 51.5661,
+    "longitude": 32.9508
+  }
 }

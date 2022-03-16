@@ -1,22 +1,22 @@
 {
   "category": "City",
-  "name": "Судак",
+  "term": "Судак",
   "translation": "Sudak",
-  "mistranslations": [],
+  "mistakes": [],
   "aliases": [
     "Sudaq",
     "Σουγδαία",
     "Sudac",
     "Sudagh"
   ],
-  "location": {
-    "latitude": 44.8514,
-    "longitude": 34.9725
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Sudak",
       "url": "https://en.wikipedia.org/wiki/Sudak"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 44.8514,
+    "longitude": 34.9725
+  }
 }

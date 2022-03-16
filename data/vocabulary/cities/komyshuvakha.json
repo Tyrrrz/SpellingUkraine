@@ -1,22 +1,22 @@
 {
   "category": "City",
-  "name": "Комишуваха",
+  "term": "Комишуваха",
   "translation": "Komyshuvakha",
-  "mistranslations": [
+  "mistakes": [
     "Kamishevakha",
     "Kamyshevakha"
   ],
   "aliases": [
     "Камышеваха"
   ],
-  "location": {
-    "latitude": 47.7155,
-    "longitude": 35.5241
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Komyshuvakha",
       "url": "https://en.wikipedia.org/wiki/Komyshuvakha,_Zaporizhzhia_Oblast"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 47.7155,
+    "longitude": 35.5241
+  }
 }

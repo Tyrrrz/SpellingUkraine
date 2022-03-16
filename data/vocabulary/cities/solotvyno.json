@@ -1,8 +1,8 @@
 {
   "category": "City",
-  "name": "Солотвино",
+  "term": "Солотвино",
   "translation": "Solotvyno",
-  "mistranslations": [
+  "mistakes": [
     "Solotvino"
   ],
   "aliases": [
@@ -10,14 +10,14 @@
     "Slatina",
     "Slatinské Doly"
   ],
-  "location": {
-    "latitude": 47.9597,
-    "longitude": 23.8669
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Solotvyno",
       "url": "https://en.wikipedia.org/wiki/Solotvyno"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 47.9597,
+    "longitude": 23.8669
+  }
 }

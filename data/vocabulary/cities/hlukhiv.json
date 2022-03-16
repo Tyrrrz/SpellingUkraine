@@ -1,8 +1,8 @@
 {
   "category": "City",
-  "name": "Глухів",
+  "term": "Глухів",
   "translation": "Hlukhiv",
-  "mistranslations": [
+  "mistakes": [
     "Glukhov",
     "Gluhov"
   ],
@@ -10,14 +10,14 @@
     "Глухов",
     "Głuchów"
   ],
-  "location": {
-    "latitude": 51.6765,
-    "longitude": 33.9078
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Hlukhiv",
       "url": "https://en.wikipedia.org/wiki/Hlukhiv"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 51.6765,
+    "longitude": 33.9078
+  }
 }

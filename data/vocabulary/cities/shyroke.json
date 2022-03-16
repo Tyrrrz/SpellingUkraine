@@ -1,21 +1,21 @@
 {
   "category": "City",
-  "name": "Широке",
+  "term": "Широке",
   "translation": "Shyroke",
-  "mistranslations": [
+  "mistakes": [
     "Shirokoe"
   ],
   "aliases": [
     "Широкое"
   ],
-  "location": {
-    "latitude": 47.6882,
-    "longitude": 33.2654
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Shyroke",
       "url": "https://en.wikipedia.org/wiki/Shyroke"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 47.6882,
+    "longitude": 33.2654
+  }
 }

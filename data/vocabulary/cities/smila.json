@@ -1,21 +1,21 @@
 {
   "category": "City",
-  "name": "Сміла",
+  "term": "Сміла",
   "translation": "Smila",
-  "mistranslations": [
+  "mistakes": [
     "Smela"
   ],
   "aliases": [
     "Смела"
   ],
-  "location": {
-    "latitude": 49.2167,
-    "longitude": 31.8667
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Smila",
       "url": "https://en.wikipedia.org/wiki/Smila"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 49.2167,
+    "longitude": 31.8667
+  }
 }

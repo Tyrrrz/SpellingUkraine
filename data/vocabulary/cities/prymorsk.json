@@ -1,21 +1,21 @@
 {
   "category": "City",
-  "name": "Приморськ",
+  "term": "Приморськ",
   "translation": "Prymorsk",
-  "mistranslations": [
+  "mistakes": [
     "Primorsk"
   ],
   "aliases": [
     "Приморск"
   ],
-  "location": {
-    "latitude": 46.7333,
-    "longitude": 36.3596
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Prymorsk",
       "url": "https://en.wikipedia.org/wiki/Prymorsk"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 46.7333,
+    "longitude": 36.3596
+  }
 }

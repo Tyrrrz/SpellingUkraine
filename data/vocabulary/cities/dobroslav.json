@@ -1,20 +1,20 @@
 {
   "category": "City",
-  "name": "Доброслав",
+  "term": "Доброслав",
   "translation": "Dobroslav",
-  "mistranslations": [
+  "mistakes": [],
+  "aliases": [
     "Kominternivske"
   ],
-  "aliases": [],
   "description": "Renamed from \"Kominternivske\" in May 2016.",
-  "location": {
-    "latitude": 46.82,
-    "longitude": 30.945
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Dobroslav",
       "url": "https://en.wikipedia.org/wiki/Dobroslav,_Ukraine"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 46.82,
+    "longitude": 30.945
+  }
 }

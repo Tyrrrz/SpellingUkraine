@@ -1,21 +1,21 @@
 {
   "category": "City",
-  "name": "Великодолинське",
+  "term": "Великодолинське",
   "translation": "Velykodolynske",
-  "mistranslations": [
+  "mistakes": [
     "Velikodolinskoe"
   ],
   "aliases": [
     "Великодолинское"
   ],
-  "location": {
-    "latitude": 46.3425,
-    "longitude": 30.5653
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Velykodolynske",
       "url": "https://en.wikipedia.org/wiki/Velykodolynske"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 46.3425,
+    "longitude": 30.5653
+  }
 }

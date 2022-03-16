@@ -1,22 +1,22 @@
 {
   "category": "City",
-  "name": "Великий Березний",
+  "term": "Великий Березний",
   "translation": "Velykyi Bereznyi",
-  "mistranslations": [
+  "mistakes": [
     "Velikiy Bereznyi"
   ],
   "aliases": [
     "Великий Березный",
     "Veľké Berezné"
   ],
-  "location": {
-    "latitude": 48.8922,
-    "longitude": 22.4586
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Velykyi Bereznyi",
       "url": "https://en.wikipedia.org/wiki/Velykyi_Bereznyi"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 48.8922,
+    "longitude": 22.4586
+  }
 }

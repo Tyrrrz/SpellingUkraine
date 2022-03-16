@@ -1,22 +1,22 @@
 {
   "category": "City",
-  "name": "Іваничі",
+  "term": "Іваничі",
   "translation": "Ivanychi",
-  "mistranslations": [
+  "mistakes": [
     "Ivanichi"
   ],
   "aliases": [
     "Иваничи",
     "Iwanicze"
   ],
-  "location": {
-    "latitude": 50.6419,
-    "longitude": 24.3606
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Ivanychi",
       "url": "https://en.wikipedia.org/wiki/Ivanychi"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 50.6419,
+    "longitude": 24.3606
+  }
 }

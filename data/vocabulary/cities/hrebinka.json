@@ -1,21 +1,21 @@
 {
   "category": "City",
-  "name": "Гребінка",
+  "term": "Гребінка",
   "translation": "Hrebinka",
-  "mistranslations": [
+  "mistakes": [
     "Grebenka"
   ],
   "aliases": [
     "Гребёнка"
   ],
-  "location": {
-    "latitude": 50.118,
-    "longitude": 32.4396
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Hrebinka",
       "url": "https://en.wikipedia.org/wiki/Hrebinka"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 50.118,
+    "longitude": 32.4396
+  }
 }

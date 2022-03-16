@@ -1,24 +1,25 @@
 {
   "category": "City",
-  "name": "Сніжне",
+  "term": "Сніжне",
   "translation": "Snizhne",
-  "mistranslations": [
-    "Snezhnoye",
-    "Vasylivka"
+  "mistakes": [
+    "Snezhnoye"
   ],
   "aliases": [
     "Снежное",
-    "Василівка"
+    "Василівка",
+    "Васильевка",
+    "Vasylivka"
   ],
   "description": "Renamed from \"Vasylivka\" in 1864.",
-  "location": {
-    "latitude": 48.0167,
-    "longitude": 38.7667
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Snizhne",
       "url": "https://en.wikipedia.org/wiki/Snizhne"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 48.0167,
+    "longitude": 38.7667
+  }
 }

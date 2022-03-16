@@ -1,20 +1,20 @@
 {
   "category": "City",
-  "name": "Шацьк",
+  "term": "Шацьк",
   "translation": "Shatsk",
-  "mistranslations": [],
+  "mistakes": [],
   "aliases": [
     "Шацк",
     "Szack"
   ],
-  "location": {
-    "latitude": 51.4878,
-    "longitude": 23.9297
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Shatsk",
       "url": "https://en.wikipedia.org/wiki/Shatsk,_Volyn_Oblast"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 51.4878,
+    "longitude": 23.9297
+  }
 }

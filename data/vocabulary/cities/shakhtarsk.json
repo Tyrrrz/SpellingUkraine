@@ -1,21 +1,21 @@
 {
   "category": "City",
-  "name": "Шахтарськ",
+  "term": "Шахтарськ",
   "translation": "Shakhtarsk",
-  "mistranslations": [
+  "mistakes": [
     "Shakhtyorsk"
   ],
   "aliases": [
     "Шахтёрск"
   ],
-  "location": {
-    "latitude": 48.0333,
-    "longitude": 38.4833
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Shakhtarsk",
       "url": "https://en.wikipedia.org/wiki/Shakhtarsk"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 48.0333,
+    "longitude": 38.4833
+  }
 }

@@ -1,19 +1,19 @@
 {
   "category": "City",
-  "name": "Новомосковськ",
+  "term": "Новомосковськ",
   "translation": "Novomoskovsk",
-  "mistranslations": [],
+  "mistakes": [],
   "aliases": [
     "Новомосковск"
   ],
-  "location": {
-    "latitude": 48.6328,
-    "longitude": 35.2239
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Novomoskovsk",
       "url": "https://en.wikipedia.org/wiki/Novomoskovsk,_Ukraine"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 48.6328,
+    "longitude": 35.2239
+  }
 }

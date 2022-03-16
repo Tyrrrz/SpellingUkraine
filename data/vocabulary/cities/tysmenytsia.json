@@ -1,22 +1,22 @@
 {
   "category": "City",
-  "name": "Тисмениця",
+  "term": "Тисмениця",
   "translation": "Tysmenytsia",
-  "mistranslations": [
+  "mistakes": [
     "Tysmenitsa"
   ],
   "aliases": [
     "Тысменица",
     "Tyśmienica"
   ],
-  "location": {
-    "latitude": 48.9008,
-    "longitude": 24.8492
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Tysmenytsia",
       "url": "https://en.wikipedia.org/wiki/Tysmenytsia"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 48.9008,
+    "longitude": 24.8492
+  }
 }

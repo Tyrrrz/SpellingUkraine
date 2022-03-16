@@ -1,8 +1,8 @@
 {
   "category": "City",
-  "name": "Виноградів",
+  "term": "Виноградів",
   "translation": "Vynohradiv",
-  "mistranslations": [
+  "mistakes": [
     "Vinogradov"
   ],
   "aliases": [
@@ -11,14 +11,14 @@
     "Seleușu Mare",
     "Vinohradov"
   ],
-  "location": {
-    "latitude": 48.1397,
-    "longitude": 23.0331
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Vynohradiv",
       "url": "https://en.wikipedia.org/wiki/Vynohradiv"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 48.1397,
+    "longitude": 23.0331
+  }
 }

@@ -1,21 +1,21 @@
 {
   "category": "City",
-  "name": "Тетіїв",
+  "term": "Тетіїв",
   "translation": "Tetiiv",
-  "mistranslations": [
+  "mistakes": [
     "Tetiev"
   ],
   "aliases": [
     "Тетиев"
   ],
-  "location": {
-    "latitude": 49.3708,
-    "longitude": 29.69
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Tetiiv",
       "url": "https://en.wikipedia.org/wiki/Tetiiv"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 49.3708,
+    "longitude": 29.69
+  }
 }

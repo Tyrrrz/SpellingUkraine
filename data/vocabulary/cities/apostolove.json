@@ -1,8 +1,8 @@
 {
   "category": "City",
-  "name": "Апостолове",
+  "term": "Апостолове",
   "translation": "Apostolove",
-  "mistranslations": [
+  "mistakes": [
     "Apostolovo"
   ],
   "aliases": [
@@ -10,14 +10,14 @@
     "Apostolen",
     "Apostolave"
   ],
-  "location": {
-    "latitude": 47.6595,
-    "longitude": 33.717
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Apostolove",
       "url": "https://en.wikipedia.org/wiki/Apostolove"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 47.6595,
+    "longitude": 33.717
+  }
 }

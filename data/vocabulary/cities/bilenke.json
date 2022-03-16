@@ -1,21 +1,21 @@
 {
   "category": "City",
-  "name": "Біленьке",
+  "term": "Біленьке",
   "translation": "Bilenke",
-  "mistranslations": [
+  "mistakes": [
     "Belenkoe"
   ],
   "aliases": [
     "Беленькое"
   ],
-  "location": {
-    "latitude": 48.7664,
-    "longitude": 37.6314
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Bilenke",
       "url": "https://en.wikipedia.org/wiki/Bilenke_(urban-type_settlement)"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 48.7664,
+    "longitude": 37.6314
+  }
 }

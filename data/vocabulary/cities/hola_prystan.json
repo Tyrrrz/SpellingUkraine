@@ -1,22 +1,22 @@
 {
   "category": "City",
-  "name": "Гола Пристань",
+  "term": "Гола Пристань",
   "translation": "Hola Prystan",
-  "mistranslations": [
+  "mistakes": [
     "Gola Prystan",
     "Golaya Pristan"
   ],
   "aliases": [
     "Голая Пристань"
   ],
-  "location": {
-    "latitude": 46.5167,
-    "longitude": 32.5167
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Hola Prystan",
       "url": "https://en.wikipedia.org/wiki/Hola_Prystan"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 46.5167,
+    "longitude": 32.5167
+  }
 }

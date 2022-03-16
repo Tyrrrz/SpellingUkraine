@@ -1,21 +1,21 @@
 {
   "category": "City",
-  "name": "Бучач",
+  "term": "Бучач",
   "translation": "Buchach",
-  "mistranslations": [],
+  "mistakes": [],
   "aliases": [
     "Buczacz",
     "Butschatsch",
     "Bucaş"
   ],
-  "location": {
-    "latitude": 49.0647,
-    "longitude": 25.3872
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Buchach",
       "url": "https://en.wikipedia.org/wiki/Buchach"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 49.0647,
+    "longitude": 25.3872
+  }
 }

@@ -1,8 +1,8 @@
 {
   "category": "City",
-  "name": "Ясіня",
+  "term": "Ясіня",
   "translation": "Yasinia",
-  "mistranslations": [
+  "mistakes": [
     "Yasinya"
   ],
   "aliases": [
@@ -10,14 +10,14 @@
     "Körösmező",
     "Jasiňa"
   ],
-  "location": {
-    "latitude": 48.2728,
-    "longitude": 24.3747
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Yasinia",
       "url": "https://en.wikipedia.org/wiki/Yasinia"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 48.2728,
+    "longitude": 24.3747
+  }
 }

@@ -1,21 +1,21 @@
 {
   "category": "City",
-  "name": "Українськ",
+  "term": "Українськ",
   "translation": "Ukrainsk",
-  "mistranslations": [
+  "mistakes": [
     "Ukrayinsk"
   ],
   "aliases": [
     "Украинск"
   ],
-  "location": {
-    "latitude": 48.1,
-    "longitude": 37.3667
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Ukrainsk",
       "url": "https://en.wikipedia.org/wiki/Ukrainsk"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 48.1,
+    "longitude": 37.3667
+  }
 }

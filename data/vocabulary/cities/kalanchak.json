@@ -1,17 +1,17 @@
 {
   "category": "City",
-  "name": "Каланчак",
+  "term": "Каланчак",
   "translation": "Kalanchak",
-  "mistranslations": [],
+  "mistakes": [],
   "aliases": [],
-  "location": {
-    "latitude": 46.255,
-    "longitude": 33.2906
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Kalanchak",
       "url": "https://en.wikipedia.org/wiki/Kalanchak"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 46.255,
+    "longitude": 33.2906
+  }
 }

@@ -1,21 +1,21 @@
 {
   "category": "City",
-  "name": "Покровське",
+  "term": "Покровське",
   "translation": "Pokrovske",
-  "mistranslations": [
+  "mistakes": [
     "Pokrovskoe"
   ],
   "aliases": [
     "Покровское"
   ],
-  "location": {
-    "latitude": 47.9853,
-    "longitude": 36.2367
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Pokrovske",
       "url": "https://en.wikipedia.org/wiki/Pokrovske_(urban-type_settlement)"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 47.9853,
+    "longitude": 36.2367
+  }
 }

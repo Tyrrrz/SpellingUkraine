@@ -1,22 +1,22 @@
 {
   "category": "City",
-  "name": "Магдалинiвка",
+  "term": "Магдалинiвка",
   "translation": "Mahdalynivka",
-  "mistranslations": [
+  "mistakes": [
     "Magdalynivka",
     "Magdalinovka"
   ],
   "aliases": [
     "Магдалиновка"
   ],
-  "location": {
-    "latitude": 48.9147,
-    "longitude": 34.9154
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Mahdalynivka",
       "url": "https://en.wikipedia.org/wiki/Mahdalynivka"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 48.9147,
+    "longitude": 34.9154
+  }
 }

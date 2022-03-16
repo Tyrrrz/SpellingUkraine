@@ -1,25 +1,24 @@
 {
   "category": "City",
-  "name": "Торецьк",
+  "term": "Торецьк",
   "translation": "Toretsk",
-  "mistranslations": [
+  "mistakes": [],
+  "aliases": [
+    "Торецк",
+    "Дзержинськ",
+    "Дзержинск",
     "Dzerzhynsk",
     "Dzerzhinsk"
   ],
-  "aliases": [
-    "Дзержинськ",
-    "Дзержинск",
-    "Торецк"
-  ],
   "description": "Renamed from \"Dzerzhynsk\" in February 2016.",
-  "location": {
-    "latitude": 48.4,
-    "longitude": 37.8333
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Toretsk",
       "url": "https://en.wikipedia.org/wiki/Toretsk"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 48.4,
+    "longitude": 37.8333
+  }
 }

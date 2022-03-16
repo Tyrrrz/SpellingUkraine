@@ -1,22 +1,22 @@
 {
   "category": "City",
-  "name": "Чортків",
+  "term": "Чортків",
   "translation": "Chortkiv",
-  "mistranslations": [
+  "mistakes": [
     "Chortkov"
   ],
   "aliases": [
     "Чортков",
     "Czortków"
   ],
-  "location": {
-    "latitude": 49.0167,
-    "longitude": 25.8
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Chortkiv",
       "url": "https://en.wikipedia.org/wiki/Chortkiv"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 49.0167,
+    "longitude": 25.8
+  }
 }

@@ -1,8 +1,8 @@
 {
   "category": "City",
-  "name": "Чернігів",
+  "term": "Чернігів",
   "translation": "Chernihiv",
-  "mistranslations": [
+  "mistakes": [
     "Chernigov",
     "Chernigiv"
   ],
@@ -11,14 +11,14 @@
     "Czerniusza",
     "Tschernihiv"
   ],
-  "location": {
-    "latitude": 51.4939,
-    "longitude": 31.2947
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Chernihiv",
       "url": "https://en.wikipedia.org/wiki/Chernihiv"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 51.4939,
+    "longitude": 31.2947
+  }
 }

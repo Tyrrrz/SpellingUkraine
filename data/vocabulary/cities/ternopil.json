@@ -1,21 +1,21 @@
 {
   "category": "City",
-  "name": "Тернопіль",
+  "term": "Тернопіль",
   "translation": "Ternopil",
-  "mistranslations": [
+  "mistakes": [
     "Ternopol"
   ],
   "aliases": [
     "Тернополь"
   ],
-  "location": {
-    "latitude": 49.5667,
-    "longitude": 25.6
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Ternopil",
       "url": "https://en.wikipedia.org/wiki/Ternopil"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 49.5667,
+    "longitude": 25.6
+  }
 }

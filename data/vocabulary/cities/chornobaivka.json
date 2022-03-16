@@ -1,8 +1,8 @@
 {
   "category": "City",
-  "name": "Чорнобаївка",
+  "term": "Чорнобаївка",
   "translation": "Chornobaivka",
-  "mistranslations": [
+  "mistakes": [
     "Chernobaevka",
     "Chernobayevka",
     "Chernobaivka"

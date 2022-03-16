@@ -1,21 +1,21 @@
 {
   "category": "City",
-  "name": "Гребінки",
+  "term": "Гребінки",
   "translation": "Hrebinky",
-  "mistranslations": [
+  "mistakes": [
     "Grebenki"
   ],
   "aliases": [
     "Гребёнки"
   ],
-  "location": {
-    "latitude": 49.9564,
-    "longitude": 30.1714
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Hrebinky",
       "url": "https://en.wikipedia.org/wiki/Hrebinky"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 49.9564,
+    "longitude": 30.1714
+  }
 }

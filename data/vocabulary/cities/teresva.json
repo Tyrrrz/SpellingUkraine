@@ -1,22 +1,22 @@
 {
   "category": "City",
-  "name": "Тересва",
+  "term": "Тересва",
   "translation": "Teresva",
-  "mistranslations": [],
+  "mistakes": [],
   "aliases": [
     "Theresiental",
     "Teresva",
     "Taracköz",
     "Terešva"
   ],
-  "location": {
-    "latitude": 48,
-    "longitude": 23.6992
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Teresva",
       "url": "https://en.wikipedia.org/wiki/Teresva"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 48,
+    "longitude": 23.6992
+  }
 }

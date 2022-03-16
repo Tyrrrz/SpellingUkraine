@@ -1,22 +1,22 @@
 {
   "category": "City",
-  "name": "Ширяєве",
+  "term": "Ширяєве",
   "translation": "Shyriaieve",
-  "mistranslations": [
+  "mistakes": [
     "Shiriaievo",
     "Shiryaevo"
   ],
   "aliases": [
     "Ширяево"
   ],
-  "location": {
-    "latitude": 47.3878,
-    "longitude": 30.1911
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Shyriaieve",
       "url": "https://en.wikipedia.org/wiki/Shyriaieve"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 47.3878,
+    "longitude": 30.1911
+  }
 }

@@ -1,21 +1,21 @@
 {
   "category": "City",
-  "name": "Носівка",
+  "term": "Носівка",
   "translation": "Nosivka",
-  "mistranslations": [
+  "mistakes": [
     "Nosovka"
   ],
   "aliases": [
     "Носовка"
   ],
-  "location": {
-    "latitude": 50.93,
-    "longitude": 31.58
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Nosivka",
       "url": "https://en.wikipedia.org/wiki/Nosivka"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 50.93,
+    "longitude": 31.58
+  }
 }

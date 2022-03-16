@@ -1,19 +1,19 @@
 {
   "category": "City",
-  "name": "Теплик",
+  "term": "Теплик",
   "translation": "Teplyk",
-  "mistranslations": [
+  "mistakes": [
     "Teplik"
   ],
   "aliases": [],
-  "location": {
-    "latitude": 48.6594,
-    "longitude": 29.7539
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Teplyk",
       "url": "https://en.wikipedia.org/wiki/Teplyk"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 48.6594,
+    "longitude": 29.7539
+  }
 }

@@ -1,8 +1,8 @@
 {
   "category": "City",
-  "name": "Євпаторія",
+  "term": "Євпаторія",
   "translation": "Yevpatoriia",
-  "mistranslations": [
+  "mistakes": [
     "Yevpatoria",
     "Yevpatoriya",
     "Evpatoria"
@@ -10,14 +10,14 @@
   "aliases": [
     "Евпатория"
   ],
-  "location": {
-    "latitude": 45.2,
-    "longitude": 33.3583
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Yevpatoriia",
       "url": "https://en.wikipedia.org/wiki/Yevpatoriia"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 45.2,
+    "longitude": 33.3583
+  }
 }

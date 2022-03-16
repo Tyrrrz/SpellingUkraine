@@ -1,19 +1,19 @@
 {
   "category": "City",
-  "name": "Бобринець",
+  "term": "Бобринець",
   "translation": "Bobrynets",
-  "mistranslations": [],
+  "mistakes": [],
   "aliases": [
     "Бобрынец"
   ],
-  "location": {
-    "latitude": 48.0578,
-    "longitude": 32.1581
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Bobrynets",
       "url": "https://en.wikipedia.org/wiki/Bobrynets"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 48.0578,
+    "longitude": 32.1581
+  }
 }

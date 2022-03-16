@@ -1,8 +1,8 @@
 {
   "category": "City",
-  "name": "Чернівці",
+  "term": "Чернівці",
   "translation": "Chernivtsi",
-  "mistranslations": [
+  "mistakes": [
     "Chernyvtsi"
   ],
   "aliases": [
@@ -10,14 +10,14 @@
     "Cernăuți",
     "Czernowitz"
   ],
-  "location": {
-    "latitude": 48.2908,
-    "longitude": 25.9344
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Chernivtsi",
       "url": "https://en.wikipedia.org/wiki/Chernivtsi"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 48.2908,
+    "longitude": 25.9344
+  }
 }

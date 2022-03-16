@@ -1,25 +1,26 @@
 {
   "category": "City",
-  "name": "Більмак",
+  "term": "Більмак",
   "translation": "Bilmak",
-  "mistranslations": [
-    "Belmak",
-    "Kuibysheve",
-    "Kuibyshevo"
+  "mistakes": [
+    "Belmak"
   ],
   "aliases": [
     "Бильмак",
-    "Куйбышево"
+    "Куйбишеве",
+    "Куйбышево",
+    "Kuibysheve",
+    "Kuibyshevo"
   ],
-  "location": {
-    "latitude": 47.3589,
-    "longitude": 36.65
-  },
   "description": "Renamed from \"Kuibysheve\" in May 2016.",
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Bilmak",
       "url": "https://en.wikipedia.org/wiki/Bilmak"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 47.3589,
+    "longitude": 36.65
+  }
 }

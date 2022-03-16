@@ -1,21 +1,21 @@
 {
   "category": "City",
-  "name": "Генічеськ",
+  "term": "Генічеськ",
   "translation": "Henichesk",
-  "mistranslations": [
+  "mistakes": [
     "Genichesk"
   ],
   "aliases": [
     "Геническ"
   ],
-  "location": {
-    "latitude": 46.1769,
-    "longitude": 34.7989
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Henichesk",
       "url": "https://en.wikipedia.org/wiki/Henichesk"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 46.1769,
+    "longitude": 34.7989
+  }
 }

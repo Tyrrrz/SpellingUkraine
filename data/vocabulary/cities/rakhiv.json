@@ -1,8 +1,8 @@
 {
   "category": "City",
-  "name": "Рахів",
+  "term": "Рахів",
   "translation": "Rakhiv",
-  "mistranslations": [
+  "mistakes": [
     "Rakhov"
   ],
   "aliases": [
@@ -10,14 +10,14 @@
     "Rahó",
     "Rahău"
   ],
-  "location": {
-    "latitude": 48.05,
-    "longitude": 24.2167
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Rakhiv",
       "url": "https://en.wikipedia.org/wiki/Rakhiv"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 48.05,
+    "longitude": 24.2167
+  }
 }

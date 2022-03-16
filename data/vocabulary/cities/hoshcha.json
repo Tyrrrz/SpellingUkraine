@@ -1,21 +1,21 @@
 {
   "category": "City",
-  "name": "Гоща",
+  "term": "Гоща",
   "translation": "Hoshcha",
-  "mistranslations": [
+  "mistakes": [
     "Goscha"
   ],
   "aliases": [
     "Hoszcza"
   ],
-  "location": {
-    "latitude": 50.5986,
-    "longitude": 26.6753
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Hoshcha",
       "url": "https://en.wikipedia.org/wiki/Hoshcha"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 50.5986,
+    "longitude": 26.6753
+  }
 }

@@ -1,22 +1,22 @@
 {
   "category": "City",
-  "name": "Хуст",
+  "term": "Хуст",
   "translation": "Khust",
-  "mistranslations": [
+  "mistakes": [
     "Hust"
   ],
   "aliases": [
     "Chust",
     "Huszt"
   ],
-  "location": {
-    "latitude": 48.1814,
-    "longitude": 23.2978
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Khust",
       "url": "https://en.wikipedia.org/wiki/Khust"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 48.1814,
+    "longitude": 23.2978
+  }
 }

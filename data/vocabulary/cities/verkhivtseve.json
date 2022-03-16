@@ -1,21 +1,21 @@
 {
   "category": "City",
-  "name": "Верхівцеве",
+  "term": "Верхівцеве",
   "translation": "Verkhivtseve",
-  "mistranslations": [
+  "mistakes": [
     "Verkhovtsevo"
   ],
   "aliases": [
     "Верховцево"
   ],
-  "location": {
-    "latitude": 48.4812,
-    "longitude": 34.2488
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Verkhivtseve",
       "url": "https://en.wikipedia.org/wiki/Verkhivtseve"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 48.4812,
+    "longitude": 34.2488
+  }
 }

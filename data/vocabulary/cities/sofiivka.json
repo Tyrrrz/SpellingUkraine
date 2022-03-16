@@ -1,8 +1,8 @@
 {
   "category": "City",
-  "name": "Софіївка",
+  "term": "Софіївка",
   "translation": "Sofiivka",
-  "mistranslations": [
+  "mistakes": [
     "Sofiyivka",
     "Sofievka",
     "Sofiyevka"
@@ -10,14 +10,14 @@
   "aliases": [
     "Софиевка"
   ],
-  "location": {
-    "latitude": 48.2683,
-    "longitude": 38.1847
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Sofiivka",
       "url": "https://en.wikipedia.org/wiki/Sofiivka,_Kramatorsk_Municipality"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 48.2683,
+    "longitude": 38.1847
+  }
 }

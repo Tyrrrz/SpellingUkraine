@@ -1,26 +1,26 @@
 {
   "category": "City",
-  "name": "Хрестівка",
+  "term": "Хрестівка",
   "translation": "Khrestivka",
-  "mistranslations": [
-    "Khrestovka",
-    "Kirovske",
-    "Kirovskoe"
+  "mistakes": [
+    "Khrestovka"
   ],
   "aliases": [
     "Крестовка",
     "Кіровське",
-    "Кировское"
+    "Кировское",
+    "Kirovske",
+    "Kirovskoe"
   ],
   "description": "Renamed from \"Kirovske\" in May 2016.",
-  "location": {
-    "latitude": 48.15,
-    "longitude": 38.3667
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Khrestivka",
       "url": "https://en.wikipedia.org/wiki/Khrestivka"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 48.15,
+    "longitude": 38.3667
+  }
 }

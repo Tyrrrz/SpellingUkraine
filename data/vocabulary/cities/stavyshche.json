@@ -1,19 +1,19 @@
 {
   "category": "City",
-  "name": "Ставище",
+  "term": "Ставище",
   "translation": "Stavyshche",
-  "mistranslations": [
+  "mistakes": [
     "Stavische"
   ],
   "aliases": [],
-  "location": {
-    "latitude": 49.3914,
-    "longitude": 30.1917
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Stavyshche",
       "url": "https://en.wikipedia.org/wiki/Stavyshche"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 49.3914,
+    "longitude": 30.1917
+  }
 }

@@ -1,19 +1,19 @@
 {
   "category": "City",
-  "name": "Іршанськ",
+  "term": "Іршанськ",
   "translation": "Irshansk",
-  "mistranslations": [],
+  "mistakes": [],
   "aliases": [
     "Иршанск"
   ],
-  "location": {
-    "latitude": 50.7167,
-    "longitude": 28.7167
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Irshansk",
       "url": "https://en.wikipedia.org/wiki/Irshansk"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 50.7167,
+    "longitude": 28.7167
+  }
 }

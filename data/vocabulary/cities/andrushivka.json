@@ -1,22 +1,22 @@
 {
   "category": "City",
-  "name": "Андрушівка",
+  "term": "Андрушівка",
   "translation": "Andrushivka",
-  "mistranslations": [
+  "mistakes": [
     "Andrushevka"
   ],
   "aliases": [
     "Андрушевка",
     "Andruszówka"
   ],
-  "location": {
-    "latitude": 50.0167,
-    "longitude": 29.0167
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Andrushivka",
       "url": "https://en.wikipedia.org/wiki/Andrushivka"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 50.0167,
+    "longitude": 29.0167
+  }
 }

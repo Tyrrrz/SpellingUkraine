@@ -1,8 +1,8 @@
 {
   "category": "City",
-  "name": "Великий Бичків",
+  "term": "Великий Бичків",
   "translation": "Velykyi Bychkiv",
-  "mistranslations": [
+  "mistakes": [
     "Velikiy Bychkov"
   ],
   "aliases": [
@@ -14,14 +14,14 @@
     "Veľký Bočkov",
     "Bočková"
   ],
-  "location": {
-    "latitude": 47.9714,
-    "longitude": 24.0047
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Velykyi Bychkiv",
       "url": "https://en.wikipedia.org/wiki/Velykyi_Bychkiv"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 47.9714,
+    "longitude": 24.0047
+  }
 }

@@ -1,8 +1,8 @@
 {
   "category": "City",
-  "name": "Хотин",
+  "term": "Хотин",
   "translation": "Khotyn",
-  "mistranslations": [
+  "mistakes": [
     "Khotin"
   ],
   "aliases": [
@@ -10,14 +10,14 @@
     "Chocim",
     "Chotyn"
   ],
-  "location": {
-    "latitude": 48.5078,
-    "longitude": 26.486
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Khotyn",
       "url": "https://en.wikipedia.org/wiki/Khotyn"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 48.5078,
+    "longitude": 26.486
+  }
 }

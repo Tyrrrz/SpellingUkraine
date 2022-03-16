@@ -1,8 +1,8 @@
 {
   "category": "City",
-  "name": "Очаків",
+  "term": "Очаків",
   "translation": "Ochakiv",
-  "mistranslations": [
+  "mistakes": [
     "Ochakov"
   ],
   "aliases": [
@@ -13,14 +13,14 @@
     "Alektor",
     "Ἀλέκτορος "
   ],
-  "location": {
-    "latitude": 46.6186,
-    "longitude": 31.5392
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Ochakiv",
       "url": "https://en.wikipedia.org/wiki/Ochakiv"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 46.6186,
+    "longitude": 31.5392
+  }
 }

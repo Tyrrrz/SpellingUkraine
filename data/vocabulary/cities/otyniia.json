@@ -1,8 +1,8 @@
 {
   "category": "City",
-  "name": "Отинія",
+  "term": "Отинія",
   "translation": "Otyniia",
-  "mistranslations": [
+  "mistakes": [
     "Ottynia",
     "Otyniya",
     "Otynya",
@@ -12,14 +12,14 @@
     "Отыния",
     "Oteniia"
   ],
-  "location": {
-    "latitude": 48.7339,
-    "longitude": 24.8569
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Otyniia",
       "url": "https://en.wikipedia.org/wiki/Otyniia"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 48.7339,
+    "longitude": 24.8569
+  }
 }

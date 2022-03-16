@@ -1,21 +1,21 @@
 {
   "category": "City",
-  "name": "Гнівань",
+  "term": "Гнівань",
   "translation": "Hnivan",
-  "mistranslations": [
+  "mistakes": [
     "Gnivan"
   ],
   "aliases": [
     "Гнивань"
   ],
-  "location": {
-    "latitude": 49.0833,
-    "longitude": 28.35
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Hnivan",
       "url": "https://en.wikipedia.org/wiki/Hnivan"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 49.0833,
+    "longitude": 28.35
+  }
 }

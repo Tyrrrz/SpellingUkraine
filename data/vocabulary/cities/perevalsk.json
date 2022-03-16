@@ -1,19 +1,19 @@
 {
   "category": "City",
-  "name": "Перевальськ",
+  "term": "Перевальськ",
   "translation": "Perevalsk",
-  "mistranslations": [],
+  "mistakes": [],
   "aliases": [
     "Перевальск"
   ],
-  "location": {
-    "latitude": 48.4333,
-    "longitude": 38.8167
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Perevalsk",
       "url": "https://en.wikipedia.org/wiki/Perevalsk"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 48.4333,
+    "longitude": 38.8167
+  }
 }

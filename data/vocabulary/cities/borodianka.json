@@ -1,19 +1,19 @@
 {
   "category": "City",
-  "name": "Бородянка",
+  "term": "Бородянка",
   "translation": "Borodianka",
-  "mistranslations": [
+  "mistakes": [
     "Borodyanka"
   ],
   "aliases": [],
-  "location": {
-    "latitude": 50.6439,
-    "longitude": 29.9339
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Borodianka",
       "url": "https://en.wikipedia.org/wiki/Borodianka"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 50.6439,
+    "longitude": 29.9339
+  }
 }

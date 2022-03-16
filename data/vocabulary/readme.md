@@ -8,9 +8,9 @@ If you want to update the vocabulary, create or modify the corresponding JSON fi
 ```jsonc
 // REMEMBER TO REMOVE THE COMMENTS BEFORE COMMITTING THE FILE!
 
-// File name should be derived from "translation" field:
-// - all lowercase
-// - underscores instead of spaces or dashes
+// File name should be derived from the "translation" field:
+// - all lowercase characters
+// - spaces and dashes replaced with underscores
 // - no special characters
 
 // kyiv.json
@@ -19,22 +19,23 @@ If you want to update the vocabulary, create or modify the corresponding JSON fi
   "category": "City",
 
   // Spelling in Ukrainian
-  "name": "Київ",
+  "term": "Київ",
 
   // Correct spelling in English
   "translation": "Kyiv",
 
-  // Commonly used incorrect spellings in English (optional)
-  "mistranslations": ["Kiev", "Kiyv", "Kyyv"],
+  // Commonly used incorrect spellings in English
+  "mistakes": ["Kiev", "Kiyv", "Kyyv"],
 
-  // Correct spelling in other languages (optional)
-  "aliases": ["Киев", "Kijow", "Kiew"],
+  // Additional search keywords for this entry (optional)
+  // These can include spellings in other languages, old names which are no longer in use, etc.
+  "aliases": ["Киев", "Kijow", "Kyjiw", "Kiew"],
 
   // Additional information about the entry (optional)
   "description": "The capital and most populous city of Ukraine. Its name is derived from Proto-Slavic \"Kyjevŭ gordŭ\" (Kyi's castle) and is associated with Kyi, one of the city's legendary founders. Following the declaration of Ukraine's independence, the official English spelling of the capital became \"Kyiv\", replacing the outdated \"Kiev\" spelling based on Russian transliteration. Choosing the correct way to spell Kyiv is an integral part of asserting the Ukrainian identity as distinct from the relics of the Soviet Union and Russian Empire.",
 
   // Links to relevant resources (optional)
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Kyiv",
       "url": "https://en.wikipedia.org/wiki/Kyiv"

@@ -1,21 +1,21 @@
 {
   "category": "City",
-  "name": "Безлюдівка",
+  "term": "Безлюдівка",
   "translation": "Bezliudivka",
-  "mistranslations": [
+  "mistakes": [
     "Bezludivka"
   ],
   "aliases": [
     "Безлюдовка"
   ],
-  "location": {
-    "latitude": 49.8694,
-    "longitude": 36.2719
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Bezliudivka",
       "url": "https://en.wikipedia.org/wiki/Bezliudivka"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 49.8694,
+    "longitude": 36.2719
+  }
 }

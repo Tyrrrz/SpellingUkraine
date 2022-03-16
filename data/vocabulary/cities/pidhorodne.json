@@ -1,22 +1,22 @@
 {
   "category": "City",
-  "name": "Підгородне",
+  "term": "Підгородне",
   "translation": "Pidhorodne",
-  "mistranslations": [
+  "mistakes": [
     "Pidgorodne",
     "Podgorodnoe"
   ],
   "aliases": [
     "Подгородное"
   ],
-  "location": {
-    "latitude": 48.5737,
-    "longitude": 35.0966
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Pidhorodne",
       "url": "https://en.wikipedia.org/wiki/Pidhorodne"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 48.5737,
+    "longitude": 35.0966
+  }
 }

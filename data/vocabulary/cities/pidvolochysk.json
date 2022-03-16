@@ -1,22 +1,22 @@
 {
   "category": "City",
-  "name": "Підволочиськ",
+  "term": "Підволочиськ",
   "translation": "Pidvolochysk",
-  "mistranslations": [
+  "mistakes": [
     "Podvolochisk"
   ],
   "aliases": [
     "Подволочиск",
     "Podwołoczyska"
   ],
-  "location": {
-    "latitude": 49.5311,
-    "longitude": 26.1467
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Pidvolochysk",
       "url": "https://en.wikipedia.org/wiki/Pidvolochysk"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 49.5311,
+    "longitude": 26.1467
+  }
 }

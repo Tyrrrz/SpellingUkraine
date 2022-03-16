@@ -1,8 +1,8 @@
 {
   "category": "City",
-  "name": "Судова Вишня",
+  "term": "Судова Вишня",
   "translation": "Sudova Vyshnia",
-  "mistranslations": [
+  "mistakes": [
     "Sudova Vyshnya",
     "Sudovaya Vishnya"
   ],
@@ -10,14 +10,14 @@
     "Судовая Вишня",
     "Sądowa Wisznia"
   ],
-  "location": {
-    "latitude": 49.7892,
-    "longitude": 23.3722
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Sudova Vyshnia",
       "url": "https://en.wikipedia.org/wiki/Sudova_Vyshnia"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 49.7892,
+    "longitude": 23.3722
+  }
 }

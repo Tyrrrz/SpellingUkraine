@@ -1,8 +1,8 @@
 {
   "category": "City",
-  "name": "Галич",
+  "term": "Галич",
   "translation": "Halych",
-  "mistranslations": [
+  "mistakes": [
     "Galich"
   ],
   "aliases": [
@@ -12,14 +12,14 @@
     "Halitsch",
     "Galitsch"
   ],
-  "location": {
-    "latitude": 49.1128,
-    "longitude": 24.7217
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Halych",
       "url": "https://en.wikipedia.org/wiki/Halych"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 49.1128,
+    "longitude": 24.7217
+  }
 }

@@ -1,8 +1,8 @@
 {
   "category": "City",
-  "name": "Першотравенськ",
+  "term": "Першотравенськ",
   "translation": "Pershotravensk",
-  "mistranslations": [
+  "mistakes": [
     "Pervomaysk",
     "Pervomaisk"
   ],
@@ -10,14 +10,14 @@
     "Першотравенск",
     "Первомайск"
   ],
-  "location": {
-    "latitude": 48.3464,
-    "longitude": 36.4044
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Pershotravensk",
       "url": "https://en.wikipedia.org/wiki/Pershotravensk"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 48.3464,
+    "longitude": 36.4044
+  }
 }

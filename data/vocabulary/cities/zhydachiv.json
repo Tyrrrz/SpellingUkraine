@@ -1,21 +1,21 @@
 {
   "category": "City",
-  "name": "Жидачів",
+  "term": "Жидачів",
   "translation": "Zhydachiv",
-  "mistranslations": [
+  "mistakes": [
     "Zhidachov"
   ],
   "aliases": [
     "Жидачов"
   ],
-  "location": {
-    "latitude": 49.3833,
-    "longitude": 24.1333
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Zhydachiv",
       "url": "https://en.wikipedia.org/wiki/Zhydachiv"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 49.3833,
+    "longitude": 24.1333
+  }
 }

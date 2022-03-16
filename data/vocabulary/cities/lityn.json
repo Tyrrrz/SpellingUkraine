@@ -1,22 +1,22 @@
 {
   "category": "City",
-  "name": "Літин",
+  "term": "Літин",
   "translation": "Lityn",
-  "mistranslations": [
+  "mistakes": [
     "Litin"
   ],
   "aliases": [
     "Литин",
     "Lityn"
   ],
-  "location": {
-    "latitude": 49.3255,
-    "longitude": 28.0872
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Lityn",
       "url": "https://en.wikipedia.org/wiki/Lityn"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 49.3255,
+    "longitude": 28.0872
+  }
 }

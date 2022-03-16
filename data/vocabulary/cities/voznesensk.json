@@ -1,19 +1,19 @@
 {
   "category": "City",
-  "name": "Вознесенськ",
+  "term": "Вознесенськ",
   "translation": "Voznesensk",
-  "mistranslations": [],
+  "mistakes": [],
   "aliases": [
     "Вознесенск"
   ],
-  "location": {
-    "latitude": 47.5725,
-    "longitude": 31.3119
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Voznesensk",
       "url": "https://en.wikipedia.org/wiki/Voznesensk"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 47.5725,
+    "longitude": 31.3119
+  }
 }

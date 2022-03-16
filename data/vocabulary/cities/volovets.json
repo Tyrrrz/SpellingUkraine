@@ -1,22 +1,22 @@
 {
   "category": "City",
-  "name": "Воловець",
+  "term": "Воловець",
   "translation": "Volovets",
-  "mistranslations": [],
+  "mistakes": [],
   "aliases": [
     "Воловец",
     "Volóc",
     "Wołowiec",
     "Volovec"
   ],
-  "location": {
-    "latitude": 48.7242,
-    "longitude": 23.2
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Volovets",
       "url": "https://en.wikipedia.org/wiki/Volovets"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 48.7242,
+    "longitude": 23.2
+  }
 }

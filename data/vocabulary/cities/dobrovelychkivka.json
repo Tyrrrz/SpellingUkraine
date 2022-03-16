@@ -1,21 +1,21 @@
 {
   "category": "City",
-  "name": "Добровеличківка",
+  "term": "Добровеличківка",
   "translation": "Dobrovelychkivka",
-  "mistranslations": [
+  "mistakes": [
     "Dobrovelichkovka"
   ],
   "aliases": [
     "Добровеличковка"
   ],
-  "location": {
-    "latitude": 48.35,
-    "longitude": 31.1667
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Dobrovelychkivka",
       "url": "https://en.wikipedia.org/wiki/Dobrovelychkivka"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 48.35,
+    "longitude": 31.1667
+  }
 }

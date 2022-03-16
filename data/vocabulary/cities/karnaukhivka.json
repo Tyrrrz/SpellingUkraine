@@ -1,21 +1,21 @@
 {
   "category": "City",
-  "name": "Карнаухівка",
+  "term": "Карнаухівка",
   "translation": "Karnaukhivka",
-  "mistranslations": [
+  "mistakes": [
     "Karnukhovka"
   ],
   "aliases": [
     "Карнауховка"
   ],
-  "location": {
-    "latitude": 48.4698,
-    "longitude": 34.7376
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Karnaukhivka",
       "url": "https://en.wikipedia.org/wiki/Karnaukhivka"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 48.4698,
+    "longitude": 34.7376
+  }
 }

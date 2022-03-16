@@ -1,17 +1,17 @@
 {
   "category": "City",
-  "name": "Мена",
+  "term": "Мена",
   "translation": "Mena",
-  "mistranslations": [],
+  "mistakes": [],
   "aliases": [],
-  "location": {
-    "latitude": 51.5167,
-    "longitude": 32.2167
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Mena",
       "url": "https://en.wikipedia.org/wiki/Mena,_Ukraine"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 51.5167,
+    "longitude": 32.2167
+  }
 }

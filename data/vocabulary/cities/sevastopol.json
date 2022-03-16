@@ -1,20 +1,20 @@
 {
   "category": "City",
-  "name": "Севастополь",
+  "term": "Севастополь",
   "translation": "Sevastopol",
-  "mistranslations": [],
+  "mistakes": [],
   "aliases": [
     "Sewastopol",
     "Sebastopol"
   ],
-  "location": {
-    "latitude": 44.6,
-    "longitude": 33.5333
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Sevastopol",
       "url": "https://en.wikipedia.org/wiki/Sevastopol"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 44.6,
+    "longitude": 33.5333
+  }
 }

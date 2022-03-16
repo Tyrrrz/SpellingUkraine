@@ -1,21 +1,21 @@
 {
   "category": "City",
-  "name": "Червонохригорівка",
+  "term": "Червонохригорівка",
   "translation": "Chervonohryhorivka",
-  "mistranslations": [
+  "mistakes": [
     "Chervonogrigorovka"
   ],
   "aliases": [
     "Червоногригоровка"
   ],
-  "location": {
-    "latitude": 47.6233,
-    "longitude": 34.5309
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Chervonohryhorivka",
       "url": "https://en.wikipedia.org/wiki/Chervonohryhorivka"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 47.6233,
+    "longitude": 34.5309
+  }
 }

@@ -1,19 +1,19 @@
 {
   "category": "City",
-  "name": "Царичанка",
+  "term": "Царичанка",
   "translation": "Tsarychanka",
-  "mistranslations": [
+  "mistakes": [
     "Tsarichanka"
   ],
   "aliases": [],
-  "location": {
-    "latitude": 48.9432,
-    "longitude": 34.4748
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Tsarychanka",
       "url": "https://en.wikipedia.org/wiki/Tsarychanka"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 48.9432,
+    "longitude": 34.4748
+  }
 }

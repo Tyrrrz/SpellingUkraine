@@ -1,8 +1,8 @@
 {
   "category": "City",
-  "name": "Запоріжжя",
+  "term": "Запоріжжя",
   "translation": "Zaporizhzhia",
-  "mistranslations": [
+  "mistakes": [
     "Zaporizhia",
     "Zaporozhye",
     "Zaporozhie"
@@ -10,14 +10,14 @@
   "aliases": [
     "Запорожье"
   ],
-  "location": {
-    "latitude": 47.8378,
-    "longitude": 35.1383
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Zaporizhzhia",
       "url": "https://en.wikipedia.org/wiki/Zaporizhzhia"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 47.8378,
+    "longitude": 35.1383
+  }
 }

@@ -1,21 +1,21 @@
 {
   "category": "City",
-  "name": "Семенівка",
+  "term": "Семенівка",
   "translation": "Semenivka",
-  "mistranslations": [
+  "mistakes": [
     "Semenovka"
   ],
   "aliases": [
     "Семёновка"
   ],
-  "location": {
-    "latitude": 52.1772,
-    "longitude": 32.5797
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Semenivka",
       "url": "https://en.wikipedia.org/wiki/Semenivka,_Chernihiv_Oblast"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 52.1772,
+    "longitude": 32.5797
+  }
 }

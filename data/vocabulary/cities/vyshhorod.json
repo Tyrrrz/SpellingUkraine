@@ -1,21 +1,21 @@
 {
   "category": "City",
-  "name": "Вишгород",
+  "term": "Вишгород",
   "translation": "Vyshhorod",
-  "mistranslations": [
+  "mistakes": [
     "Vyshgorod"
   ],
   "aliases": [
     "Вышгород"
   ],
-  "location": {
-    "latitude": 50.5833,
-    "longitude": 30.5
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Vyshhorod",
       "url": "https://en.wikipedia.org/wiki/Vyshhorod"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 50.5833,
+    "longitude": 30.5
+  }
 }

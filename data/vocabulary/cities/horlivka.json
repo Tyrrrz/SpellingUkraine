@@ -1,22 +1,22 @@
 {
   "category": "City",
-  "name": "Горлівка",
+  "term": "Горлівка",
   "translation": "Horlivka",
-  "mistranslations": [
+  "mistakes": [
     "Gorlovka"
   ],
   "aliases": [
     "Горловка",
     "Gorlowka"
   ],
-  "location": {
-    "latitude": 48.3336,
-    "longitude": 38.0925
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Horlivka",
       "url": "https://en.wikipedia.org/wiki/Horlivka"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 48.3336,
+    "longitude": 38.0925
+  }
 }

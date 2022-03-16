@@ -1,25 +1,26 @@
 {
   "category": "City",
-  "name": "Горішні Плавні",
+  "term": "Горішні Плавні",
   "translation": "Horishni Plavni",
-  "mistranslations": [
+  "mistakes": [
     "Gorishni Plavni",
-    "Komsomolsk"
+    "Gorishnie Plavni"
   ],
   "aliases": [
+    "Горишние Плавни",
     "Комсомольськ",
     "Комсомольск",
-    "Горишние Плавни"
+    "Komsomolsk"
   ],
   "description": "Renamed from \"Komsomolsk\" in May 2016.",
-  "location": {
-    "latitude": 49.0107,
-    "longitude": 33.6562
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Horishni Plavni",
       "url": "https://en.wikipedia.org/wiki/Horishni_Plavni"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 49.0107,
+    "longitude": 33.6562
+  }
 }

@@ -1,21 +1,21 @@
 {
   "category": "City",
-  "name": "Ясинувата",
+  "term": "Ясинувата",
   "translation": "Yasynuvata",
-  "mistranslations": [
+  "mistakes": [
     "Yasinovataya"
   ],
   "aliases": [
     "Ясиноватая"
   ],
-  "location": {
-    "latitude": 48.1167,
-    "longitude": 37.8333
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Yasynuvata",
       "url": "https://en.wikipedia.org/wiki/Yasynuvata"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 48.1167,
+    "longitude": 37.8333
+  }
 }

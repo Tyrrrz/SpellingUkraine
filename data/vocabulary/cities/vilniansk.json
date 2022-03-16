@@ -1,22 +1,22 @@
 {
   "category": "City",
-  "name": "Вільнянськ",
+  "term": "Вільнянськ",
   "translation": "Vilniansk",
-  "mistranslations": [
+  "mistakes": [
     "Vilnyansk",
     "Volnyansk"
   ],
   "aliases": [
     "Вольнянск"
   ],
-  "location": {
-    "latitude": 47.9445,
-    "longitude": 35.4331
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Vilniansk",
       "url": "https://en.wikipedia.org/wiki/Vilniansk"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 47.9445,
+    "longitude": 35.4331
+  }
 }

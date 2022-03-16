@@ -1,8 +1,8 @@
 {
   "category": "City",
-  "name": "Горохів",
+  "term": "Горохів",
   "translation": "Horokhiv",
-  "mistranslations": [
+  "mistakes": [
     "Gorokhov",
     "Gorohov"
   ],
@@ -10,14 +10,14 @@
     "Горохов",
     "Horochów"
   ],
-  "location": {
-    "latitude": 50.4994,
-    "longitude": 24.765
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Horokhiv",
       "url": "https://en.wikipedia.org/wiki/Horokhiv"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 50.4994,
+    "longitude": 24.765
+  }
 }

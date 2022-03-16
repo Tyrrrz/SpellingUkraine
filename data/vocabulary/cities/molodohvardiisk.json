@@ -1,21 +1,21 @@
 {
   "category": "City",
-  "name": "Молодогвардійськ",
+  "term": "Молодогвардійськ",
   "translation": "Molodohvardiisk",
-  "mistranslations": [
+  "mistakes": [
     "Molodogvardeysk"
   ],
   "aliases": [
     "Молодогвардейск"
   ],
-  "location": {
-    "latitude": 48.3444,
-    "longitude": 39.6583
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Molodohvardiisk",
       "url": "https://en.wikipedia.org/wiki/Molodohvardiisk"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 48.3444,
+    "longitude": 39.6583
+  }
 }

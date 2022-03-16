@@ -1,19 +1,19 @@
 {
   "category": "City",
-  "name": "Сутиски",
+  "term": "Сутиски",
   "translation": "Sutysky",
-  "mistranslations": [
+  "mistakes": [
     "Sutiski"
   ],
   "aliases": [],
-  "location": {
-    "latitude": 49.0422,
-    "longitude": 28.4208
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Sutysky",
       "url": "https://en.wikipedia.org/wiki/Sutysky,_Vinnytsia_Oblast"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 49.0422,
+    "longitude": 28.4208
+  }
 }

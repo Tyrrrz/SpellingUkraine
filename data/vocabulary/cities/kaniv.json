@@ -1,22 +1,22 @@
 {
   "category": "City",
-  "name": "Канів",
+  "term": "Канів",
   "translation": "Kaniv",
-  "mistranslations": [
+  "mistakes": [
     "Kanev"
   ],
   "aliases": [
     "Канев",
     "Kaniów"
   ],
-  "location": {
-    "latitude": 49.7447,
-    "longitude": 31.4558
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Kaniv",
       "url": "https://en.wikipedia.org/wiki/Kaniv"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 49.7447,
+    "longitude": 31.4558
+  }
 }

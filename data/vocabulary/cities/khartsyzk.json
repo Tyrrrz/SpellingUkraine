@@ -1,21 +1,21 @@
 {
   "category": "City",
-  "name": "Харцизьк",
+  "term": "Харцизьк",
   "translation": "Khartsyzk",
-  "mistranslations": [
+  "mistakes": [
     "Khartsyzsk"
   ],
   "aliases": [
     "Харцызск"
   ],
-  "location": {
-    "latitude": 48.0333,
-    "longitude": 38.15
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Khartsyzk",
       "url": "https://en.wikipedia.org/wiki/Khartsyzk"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 48.0333,
+    "longitude": 38.15
+  }
 }

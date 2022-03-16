@@ -1,21 +1,21 @@
 {
   "category": "City",
-  "name": "Сосниця",
+  "term": "Сосниця",
   "translation": "Sosnytsia",
-  "mistranslations": [
+  "mistakes": [
     "Sosnitsa"
   ],
   "aliases": [
     "Сосница"
   ],
-  "location": {
-    "latitude": 51.5222,
-    "longitude": 32.5017
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Sosnytsia",
       "url": "https://en.wikipedia.org/wiki/Sosnytsia"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 51.5222,
+    "longitude": 32.5017
+  }
 }

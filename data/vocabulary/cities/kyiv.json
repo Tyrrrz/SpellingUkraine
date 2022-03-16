@@ -1,8 +1,8 @@
 {
   "category": "City",
-  "name": "Київ",
+  "term": "Київ",
   "translation": "Kyiv",
-  "mistranslations": [
+  "mistakes": [
     "Kiev",
     "Kiyv",
     "Kyyv"
@@ -10,14 +10,11 @@
   "aliases": [
     "Киев",
     "Kijów",
+    "Kyjiw",
     "Kiew"
   ],
   "description": "The capital and most populous city of Ukraine. Its name is derived from Proto-Slavic \"Kyjevŭ gordŭ\" (Kyi's castle) and is associated with Kyi, one of the city's legendary founders. Following the declaration of Ukraine's independence, the official English spelling of the capital became \"Kyiv\", replacing the outdated \"Kiev\" spelling based on Russian transliteration. Choosing the correct way to spell Kyiv is an integral part of asserting the Ukrainian identity as distinct from the relics of the Soviet Union and Russian Empire.",
-  "location": {
-    "latitude": 50.4501,
-    "longitude": 30.5234
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Kyiv",
       "url": "https://en.wikipedia.org/wiki/Kyiv"
@@ -34,5 +31,9 @@
       "name": "MFA of Ukraine: #CorrectUA",
       "url": "https://mfa.gov.ua/en/correctua"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 50.4501,
+    "longitude": 30.5234
+  }
 }

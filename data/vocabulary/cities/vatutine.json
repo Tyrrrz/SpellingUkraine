@@ -1,21 +1,21 @@
 {
   "category": "City",
-  "name": "Ватутіне",
+  "term": "Ватутіне",
   "translation": "Vatutine",
-  "mistranslations": [
+  "mistakes": [
     "Vatutino"
   ],
   "aliases": [
     "Ватутино"
   ],
-  "location": {
-    "latitude": 49.0167,
-    "longitude": 31.0667
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Vatutine",
       "url": "https://en.wikipedia.org/wiki/Vatutine"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 49.0167,
+    "longitude": 31.0667
+  }
 }

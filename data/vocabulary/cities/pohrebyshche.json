@@ -1,8 +1,8 @@
 {
   "category": "City",
-  "name": "Погребище",
+  "term": "Погребище",
   "translation": "Pohrebyshche",
-  "mistranslations": [
+  "mistakes": [
     "Pogrebysche",
     "Pogrebische",
     "Pohrebische"
@@ -11,14 +11,14 @@
     "Погребыще",
     "Рокитня"
   ],
-  "location": {
-    "latitude": 49.4869,
-    "longitude": 29.2733
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Pohrebyshche",
       "url": "https://en.wikipedia.org/wiki/Pohrebyshche"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 49.4869,
+    "longitude": 29.2733
+  }
 }

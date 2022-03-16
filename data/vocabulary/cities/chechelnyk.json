@@ -1,8 +1,8 @@
 {
   "category": "City",
-  "name": "Чечельник",
+  "term": "Чечельник",
   "translation": "Chechelnyk",
-  "mistranslations": [
+  "mistakes": [
     "Chichelnik"
   ],
   "aliases": [
@@ -12,14 +12,14 @@
     "Czeczelnik",
     "Tschetschelnik"
   ],
-  "location": {
-    "latitude": 48.2122,
-    "longitude": 29.3622
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Chechelnyk",
       "url": "https://en.wikipedia.org/wiki/Chechelnyk"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 48.2122,
+    "longitude": 29.3622
+  }
 }

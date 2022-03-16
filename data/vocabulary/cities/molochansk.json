@@ -1,19 +1,19 @@
 {
   "category": "City",
-  "name": "Молочанськ",
+  "term": "Молочанськ",
   "translation": "Molochansk",
-  "mistranslations": [],
+  "mistakes": [],
   "aliases": [
     "Молочанск"
   ],
-  "location": {
-    "latitude": 47.2038,
-    "longitude": 35.5985
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Molochansk",
       "url": "https://en.wikipedia.org/wiki/Molochansk"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 47.2038,
+    "longitude": 35.5985
+  }
 }

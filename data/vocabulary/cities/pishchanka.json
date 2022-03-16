@@ -1,22 +1,22 @@
 {
   "category": "City",
-  "name": "Піщанка",
+  "term": "Піщанка",
   "translation": "Pishchanka",
-  "mistranslations": [
+  "mistakes": [
     "Peschanka"
   ],
   "aliases": [
     "Песчанка",
     "Piszczanka"
   ],
-  "location": {
-    "latitude": 48.2058,
-    "longitude": 28.8889
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Pishchanka",
       "url": "https://en.wikipedia.org/wiki/Pishchanka"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 48.2058,
+    "longitude": 28.8889
+  }
 }

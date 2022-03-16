@@ -1,21 +1,21 @@
 {
   "category": "City",
-  "name": "Кременець",
+  "term": "Кременець",
   "translation": "Kremenets",
-  "mistranslations": [],
+  "mistakes": [],
   "aliases": [
     "Кременец",
     "Крем'янець",
     "Krzemieniec"
   ],
-  "location": {
-    "latitude": 50.1081,
-    "longitude": 25.7275
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Kremenets",
       "url": "https://en.wikipedia.org/wiki/Kremenets"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 50.1081,
+    "longitude": 25.7275
+  }
 }

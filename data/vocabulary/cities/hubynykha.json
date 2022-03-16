@@ -1,19 +1,19 @@
 {
   "category": "City",
-  "name": "Губиниха",
+  "term": "Губиниха",
   "translation": "Hubynykha",
-  "mistranslations": [
+  "mistakes": [
     "Gubiniha"
   ],
   "aliases": [],
-  "location": {
-    "latitude": 48.8084,
-    "longitude": 35.2535
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Hubynykha",
       "url": "https://en.wikipedia.org/wiki/Hubynykha"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 48.8084,
+    "longitude": 35.2535
+  }
 }

@@ -1,19 +1,21 @@
 {
   "category": "City",
-  "name": "Саки",
+  "term": "Саки",
   "translation": "Saky",
-  "mistranslations": [
+  "mistakes": [
     "Saki"
   ],
-  "aliases": ["Saq"],
-  "location": {
-    "latitude": 45.1336,
-    "longitude": 33.5772
-  },
-  "externalLinks": [
+  "aliases": [
+    "Saq"
+  ],
+  "links": [
     {
       "name": "Wikipedia: Saky",
       "url": "https://en.wikipedia.org/wiki/Saky"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 45.1336,
+    "longitude": 33.5772
+  }
 }

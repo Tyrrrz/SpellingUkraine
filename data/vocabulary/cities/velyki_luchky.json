@@ -1,8 +1,8 @@
 {
   "category": "City",
-  "name": "Великі Лучки",
+  "term": "Великі Лучки",
   "translation": "Velyki Luchky",
-  "mistranslations": [
+  "mistakes": [
     "Velikie Luchki"
   ],
   "aliases": [
@@ -11,14 +11,14 @@
     "Nagylucska",
     "Veľké Lúčky"
   ],
-  "location": {
-    "latitude": 48.42,
-    "longitude": 22.5611
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Velyki Luchky",
       "url": "https://en.wikipedia.org/wiki/Velyki_Luchky"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 48.42,
+    "longitude": 22.5611
+  }
 }

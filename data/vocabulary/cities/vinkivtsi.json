@@ -1,21 +1,21 @@
 {
   "category": "City",
-  "name": "Віньківці",
+  "term": "Віньківці",
   "translation": "Vinkivtsi",
-  "mistranslations": [
+  "mistakes": [
     "Vinkovtsy"
   ],
   "aliases": [
     "Виньковцы"
   ],
-  "location": {
-    "latitude": 49.0333,
-    "longitude": 27.2333
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Vinkivtsi",
       "url": "https://en.wikipedia.org/wiki/Vinkivtsi"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 49.0333,
+    "longitude": 27.2333
+  }
 }

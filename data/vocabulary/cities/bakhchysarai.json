@@ -1,8 +1,8 @@
 {
   "category": "City",
-  "name": "Бахчисарай",
+  "term": "Бахчисарай",
   "translation": "Bakhchysarai",
-  "mistranslations": [
+  "mistakes": [
     "Bakhchisarai"
   ],
   "aliases": [
@@ -10,14 +10,14 @@
     "Bağçasaray",
     "Bāghche Sarāy"
   ],
-  "location": {
-    "latitude": 44.7528,
-    "longitude": 33.8608
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Bakhchysarai",
       "url": "https://en.wikipedia.org/wiki/Bakhchysarai"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 44.7528,
+    "longitude": 33.8608
+  }
 }

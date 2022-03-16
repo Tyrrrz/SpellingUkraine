@@ -1,22 +1,22 @@
 {
   "category": "City",
-  "name": "Яворів",
+  "term": "Яворів",
   "translation": "Yavoriv",
-  "mistranslations": [
+  "mistakes": [
     "Yavorov"
   ],
   "aliases": [
     "Яворов",
     "Jaworów"
   ],
-  "location": {
-    "latitude": 49.9469,
-    "longitude": 23.3931
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Yavoriv",
       "url": "https://en.wikipedia.org/wiki/Yavoriv"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 49.9469,
+    "longitude": 23.3931
+  }
 }

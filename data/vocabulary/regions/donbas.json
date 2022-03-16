@@ -1,15 +1,15 @@
 {
   "category": "Region",
-  "name": "Донбас",
+  "term": "Донбас",
   "translation": "Donbas",
-  "mistranslations": [
+  "mistakes": [
     "Donbass"
   ],
   "aliases": [
     "Донбасс"
   ],
   "description": "Historical, cultural, and economic region in south-eastern Ukraine.",
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Donbas",
       "url": "https://en.wikipedia.org/wiki/Donbas"

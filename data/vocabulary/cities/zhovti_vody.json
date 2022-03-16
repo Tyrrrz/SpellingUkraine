@@ -1,22 +1,22 @@
 {
   "category": "City",
-  "name": "Жовті Води",
+  "term": "Жовті Води",
   "translation": "Zhovti Vody",
-  "mistranslations": [
+  "mistakes": [
     "Zheltie Vody",
     "Zheltye Vody"
   ],
   "aliases": [
     "Жёлтые Воды"
   ],
-  "location": {
-    "latitude": 48.35,
-    "longitude": 33.5167
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Zhovti Vody",
       "url": "https://en.wikipedia.org/wiki/Zhovti_Vody"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 48.35,
+    "longitude": 33.5167
+  }
 }

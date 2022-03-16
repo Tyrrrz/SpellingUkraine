@@ -1,8 +1,8 @@
 {
   "category": "City",
-  "name": "Коломия",
+  "term": "Коломия",
   "translation": "Kolomyia",
-  "mistranslations": [
+  "mistakes": [
     "Kolomia",
     "Kolomea"
   ],
@@ -11,14 +11,14 @@
     "Kołomyja",
     "Colomeea"
   ],
-  "location": {
-    "latitude": 48.5167,
-    "longitude": 25.0333
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Kolomyia",
       "url": "https://en.wikipedia.org/wiki/Kolomyia"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 48.5167,
+    "longitude": 25.0333
+  }
 }

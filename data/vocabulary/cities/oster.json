@@ -1,21 +1,21 @@
 {
   "category": "City",
-  "name": "Остер",
+  "term": "Остер",
   "translation": "Oster",
-  "mistranslations": [
+  "mistakes": [
     "Ostior"
   ],
   "aliases": [
     "Остёр"
   ],
-  "location": {
-    "latitude": 50.9486,
-    "longitude": 30.8811
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Oster",
       "url": "https://en.wikipedia.org/wiki/Oster"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 50.9486,
+    "longitude": 30.8811
+  }
 }

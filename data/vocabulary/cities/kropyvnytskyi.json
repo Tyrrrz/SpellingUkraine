@@ -1,25 +1,25 @@
 {
   "category": "City",
-  "name": "Кропивницький",
+  "term": "Кропивницький",
   "translation": "Kropyvnytskyi",
-  "mistranslations": [
+  "mistakes": [
     "Kropivnitskyi",
-    "Kropivnitskiy",
+    "Kropivnitskiy"
+  ],
+  "aliases": [
+    "Кропивницкий",
     "Kirovohrad",
     "Kirovograd"
   ],
-  "aliases": [
-    "Кропивницкий"
-  ],
   "description": "Renamed from \"Kirovohrad\" in May 2016.",
-  "location": {
-    "latitude": 48.5103,
-    "longitude": 32.2667
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Kropyvnytskyi",
       "url": "https://en.wikipedia.org/wiki/Kropyvnytskyi"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 48.5103,
+    "longitude": 32.2667
+  }
 }

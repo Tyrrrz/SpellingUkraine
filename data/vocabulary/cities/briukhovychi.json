@@ -1,21 +1,21 @@
 {
   "category": "City",
-  "name": "Брюховичі",
+  "term": "Брюховичі",
   "translation": "Briukhovychi",
-  "mistranslations": [
+  "mistakes": [
     "Bryukhovichi",
     "Bryukhovychi",
     "Briuhovychi"
   ],
   "aliases": [],
-  "location": {
-    "latitude": 49.9,
-    "longitude": 23.9436
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Briukhovychi",
       "url": "https://en.wikipedia.org/wiki/Briukhovychi"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 49.9,
+    "longitude": 23.9436
+  }
 }

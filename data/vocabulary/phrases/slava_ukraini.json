@@ -1,8 +1,8 @@
 {
   "category": "Phrase",
-  "name": "Слава Україні",
+  "term": "Слава Україні",
   "translation": "Slava Ukraini",
-  "mistranslations": [
+  "mistakes": [
     "Slava Ukraine",
     "Slava Ukraina",
     "Slava Ukrajini"
@@ -11,7 +11,7 @@
     "Glory to Ukraine"
   ],
   "description": "Ukrainian national salute and the official salute of the Armed Forces of Ukraine. Translated from Ukrainian, it means \"Glory to Ukraine\".",
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Glory to Ukraine",
       "url": "https://en.wikipedia.org/wiki/Glory_to_Ukraine"

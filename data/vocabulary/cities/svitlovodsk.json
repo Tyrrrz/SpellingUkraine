@@ -1,21 +1,21 @@
 {
   "category": "City",
-  "name": "Світловодськ",
+  "term": "Світловодськ",
   "translation": "Svitlovodsk",
-  "mistranslations": [
+  "mistakes": [
     "Svetlovodsk"
   ],
   "aliases": [
     "Светловодск"
   ],
-  "location": {
-    "latitude": 49.0833,
-    "longitude": 33.25
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Svitlovodsk",
       "url": "https://en.wikipedia.org/wiki/Svitlovodsk"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 49.0833,
+    "longitude": 33.25
+  }
 }

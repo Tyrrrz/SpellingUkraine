@@ -1,19 +1,19 @@
 {
   "category": "City",
-  "name": "Овруч",
+  "term": "Овруч",
   "translation": "Ovruch",
-  "mistranslations": [],
+  "mistakes": [],
   "aliases": [
     "Owrucz"
   ],
-  "location": {
-    "latitude": 51.3244,
-    "longitude": 28.8081
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Ovruch",
       "url": "https://en.wikipedia.org/wiki/Ovruch"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 51.3244,
+    "longitude": 28.8081
+  }
 }

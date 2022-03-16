@@ -1,21 +1,21 @@
 {
   "category": "City",
-  "name": "Вовчанськ",
+  "term": "Вовчанськ",
   "translation": "Vovchansk",
-  "mistranslations": [
+  "mistakes": [
     "Volchansk"
   ],
   "aliases": [
     "Волчанск"
   ],
-  "location": {
-    "latitude": 50.2881,
-    "longitude": 36.9461
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Vovchansk",
       "url": "https://en.wikipedia.org/wiki/Vovchansk"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 50.2881,
+    "longitude": 36.9461
+  }
 }

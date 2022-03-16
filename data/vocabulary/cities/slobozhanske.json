@@ -1,24 +1,26 @@
 {
   "category": "City",
-  "name": "Слобожанське",
+  "term": "Слобожанське",
   "translation": "Slobozhanske",
-  "mistranslations": [
+  "mistakes": [
     "Slobozhanskoe",
-    "Yuvileine"
+    "Slobozhanskoye"
   ],
   "aliases": [
+    "Слобожанское",
     "Ювілейне",
-    "Слобожанское"
+    "Ювилейное",
+    "Yuvileine"
   ],
   "description": "Renamed from \"Yuvileine\" in May 2016.",
-  "location": {
-    "latitude": 48.5342,
-    "longitude": 35.0749
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Slobozhanske",
       "url": "https://en.wikipedia.org/wiki/Slobozhanske,_Dnipropetrovsk_Oblast"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 48.5342,
+    "longitude": 35.0749
+  }
 }

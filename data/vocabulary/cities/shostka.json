@@ -1,17 +1,17 @@
 {
   "category": "City",
-  "name": "Шостка",
+  "term": "Шостка",
   "translation": "Shostka",
-  "mistranslations": [],
+  "mistakes": [],
   "aliases": [],
-  "location": {
-    "latitude": 51.8657,
-    "longitude": 33.4766
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Shostka",
       "url": "https://en.wikipedia.org/wiki/Shostka"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 51.8657,
+    "longitude": 33.4766
+  }
 }

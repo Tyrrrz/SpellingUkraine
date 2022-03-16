@@ -1,25 +1,25 @@
 {
   "category": "City",
-  "name": "Пулини",
+  "term": "Пулини",
   "translation": "Pulyny",
-  "mistranslations": [
-    "Puliny",
-    "Chervonoarmiisk"
+  "mistakes": [
+    "Puliny"
   ],
   "aliases": [
+    "Пулины",
     "Червоноармійськ",
     "Червоноармейск",
-    "Пулины"
+    "Chervonoarmiisk"
   ],
   "description": "Renamed from \"Chervonoarmiisk\" in May 2016.",
-  "location": {
-    "latitude": 50.4664,
-    "longitude": 28.2778
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Pulyny",
       "url": "https://en.wikipedia.org/wiki/Pulyny"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 50.4664,
+    "longitude": 28.2778
+  }
 }

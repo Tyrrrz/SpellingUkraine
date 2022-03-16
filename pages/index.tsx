@@ -114,7 +114,7 @@ const HomePage: NextPage<StaticProps> = ({ vocabulary }) => {
                   </HStack>
 
                   <Box classes={['text-lg', 'font-light']}>
-                    {result.entry.name} • {result.entry.category}
+                    {result.entry.term} • {result.entry.category}
                   </Box>
                 </Box>
               </Link>

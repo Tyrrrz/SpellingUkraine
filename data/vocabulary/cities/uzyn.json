@@ -1,19 +1,19 @@
 {
   "category": "City",
-  "name": "Узин",
+  "term": "Узин",
   "translation": "Uzyn",
-  "mistranslations": [
+  "mistakes": [
     "Uzin"
   ],
   "aliases": [],
-  "location": {
-    "latitude": 49.8242,
-    "longitude": 30.4425
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Uzyn",
       "url": "https://en.wikipedia.org/wiki/Uzyn"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 49.8242,
+    "longitude": 30.4425
+  }
 }

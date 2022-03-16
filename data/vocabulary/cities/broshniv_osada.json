@@ -1,21 +1,21 @@
 {
   "category": "City",
-  "name": "Брошнів-Осада",
+  "term": "Брошнів-Осада",
   "translation": "Broshniv-Osada",
-  "mistranslations": [
+  "mistakes": [
     "Broshnev-Osada"
   ],
   "aliases": [
     "Брошнев-Осада"
   ],
-  "location": {
-    "latitude": 48.9994,
-    "longitude": 24.1814
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Broshniv-Osada",
       "url": "https://en.wikipedia.org/wiki/Broshniv-Osada"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 48.9994,
+    "longitude": 24.1814
+  }
 }

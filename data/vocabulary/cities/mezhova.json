@@ -1,22 +1,22 @@
 {
   "category": "City",
-  "name": "Межова",
+  "term": "Межова",
   "translation": "Mezhova",
-  "mistranslations": [
+  "mistakes": [
     "Mezhevaya",
     "Mezhevaia"
   ],
   "aliases": [
     "Межевая"
   ],
-  "location": {
-    "latitude": 48.2563,
-    "longitude": 36.7313
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Mezhova",
       "url": "https://en.wikipedia.org/wiki/Mezhova"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 48.2563,
+    "longitude": 36.7313
+  }
 }

@@ -1,22 +1,22 @@
 {
   "category": "City",
-  "name": "Миронівка",
+  "term": "Миронівка",
   "translation": "Myronivka",
-  "mistranslations": [
+  "mistakes": [
     "Myronovka",
     "Mironovka"
   ],
   "aliases": [
     "Мироновка"
   ],
-  "location": {
-    "latitude": 49.65,
-    "longitude": 30.9833
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Myronivka",
       "url": "https://en.wikipedia.org/wiki/Myronivka"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 49.65,
+    "longitude": 30.9833
+  }
 }

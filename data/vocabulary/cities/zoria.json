@@ -1,22 +1,22 @@
 {
   "category": "City",
-  "name": "Зорія",
+  "term": "Зорія",
   "translation": "Zoria",
-  "mistranslations": [
+  "mistakes": [
     "Zorya",
     "Zarya"
   ],
   "aliases": [
     "Заря"
   ],
-  "location": {
-    "latitude": 45.9917,
-    "longitude": 29.6989
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Zoria",
       "url": "https://en.wikipedia.org/wiki/Zoria"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 45.9917,
+    "longitude": 29.6989
+  }
 }

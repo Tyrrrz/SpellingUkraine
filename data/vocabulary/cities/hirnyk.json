@@ -1,22 +1,22 @@
 {
   "category": "City",
-  "name": "Гірник",
+  "term": "Гірник",
   "translation": "Hirnyk",
-  "mistranslations": [
+  "mistakes": [
     "Gorniak",
     "Gornyak"
   ],
   "aliases": [
     "Горняк"
   ],
-  "location": {
-    "latitude": 48.05,
-    "longitude": 37.3667
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Hirnyk",
       "url": "https://en.wikipedia.org/wiki/Hirnyk,_Donetsk_Oblast"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 48.05,
+    "longitude": 37.3667
+  }
 }

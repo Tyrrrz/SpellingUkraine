@@ -1,20 +1,20 @@
 {
   "category": "City",
-  "name": "Партенiт",
+  "term": "Партенiт",
   "translation": "Partenit",
-  "mistranslations": [],
+  "mistakes": [],
   "aliases": [
     "Партенит",
     "Παρθένιον"
   ],
-  "location": {
-    "latitude": 44.5764,
-    "longitude": 34.3397
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Partenit",
       "url": "https://en.wikipedia.org/wiki/Partenit"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 44.5764,
+    "longitude": 34.3397
+  }
 }

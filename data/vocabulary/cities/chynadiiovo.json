@@ -1,8 +1,8 @@
 {
   "category": "City",
-  "name": "Чинаді́йово",
+  "term": "Чинаді́йово",
   "translation": "Chynadiiovo",
-  "mistranslations": [
+  "mistakes": [
     "Chynadiyovo",
     "Chynadiieve",
     "Chinadievo"
@@ -12,14 +12,14 @@
     "Szentmiklós",
     "Činadno"
   ],
-  "location": {
-    "latitude": 48.4833,
-    "longitude": 22.8333
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Chynadiiovo",
       "url": "https://en.wikipedia.org/wiki/Chynadiiovo"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 48.4833,
+    "longitude": 22.8333
+  }
 }

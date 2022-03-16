@@ -1,22 +1,22 @@
 {
   "category": "City",
-  "name": "Приазовське",
+  "term": "Приазовське",
   "translation": "Pryazovske",
-  "mistranslations": [
+  "mistakes": [
     "Priazovske",
     "Priazovskoe"
   ],
   "aliases": [
     "Приазовское"
   ],
-  "location": {
-    "latitude": 46.7378,
-    "longitude": 35.6416
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Pryazovske",
       "url": "https://en.wikipedia.org/wiki/Pryazovske"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 46.7378,
+    "longitude": 35.6416
+  }
 }

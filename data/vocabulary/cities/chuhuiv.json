@@ -1,21 +1,21 @@
 {
   "category": "City",
-  "name": "Чугуїв",
+  "term": "Чугуїв",
   "translation": "Chuhuiv",
-  "mistranslations": [
+  "mistakes": [
     "Chuguev"
   ],
   "aliases": [
     "Чугуев"
   ],
-  "location": {
-    "latitude": 49.8353,
-    "longitude": 36.6756
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Chuhuiv",
       "url": "https://en.wikipedia.org/wiki/Chuhuiv"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 49.8353,
+    "longitude": 36.6756
+  }
 }

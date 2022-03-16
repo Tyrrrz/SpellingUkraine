@@ -1,21 +1,21 @@
 {
   "category": "City",
-  "name": "Бердянськ",
+  "term": "Бердянськ",
   "translation": "Berdiansk",
-  "mistranslations": [
+  "mistakes": [
     "Berdyansk"
   ],
   "aliases": [
     "Бердианск"
   ],
-  "location": {
-    "latitude": 46.7598,
-    "longitude": 36.7845
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Berdiansk",
       "url": "https://en.wikipedia.org/wiki/Berdiansk"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 46.7598,
+    "longitude": 36.7845
+  }
 }

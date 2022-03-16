@@ -1,19 +1,19 @@
 {
   "category": "City",
-  "name": "Ковель",
+  "term": "Ковель",
   "translation": "Kovel",
-  "mistranslations": [],
+  "mistakes": [],
   "aliases": [
     "Kowel"
   ],
-  "location": {
-    "latitude": 51.2167,
-    "longitude": 24.7167
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Kovel",
       "url": "https://en.wikipedia.org/wiki/Kovel"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 51.2167,
+    "longitude": 24.7167
+  }
 }

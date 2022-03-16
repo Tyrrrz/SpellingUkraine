@@ -1,22 +1,22 @@
 {
   "category": "City",
-  "name": "Артемівськ",
+  "term": "Артемівськ",
   "translation": "Artemivsk",
-  "mistranslations": [
+  "mistakes": [
     "Artemovsk"
   ],
   "aliases": [
     "Артёмовск"
   ],
   "description": "Not to be confused with the city of Bakhmut which was previously also known as Artemivsk.",
-  "location": {
-    "latitude": 48.4403,
-    "longitude": 38.7422
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Artemivsk",
       "url": "https://en.wikipedia.org/wiki/Artemivsk,_Luhansk_Oblast"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 48.4403,
+    "longitude": 38.7422
+  }
 }

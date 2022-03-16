@@ -1,22 +1,22 @@
 {
   "category": "City",
-  "name": "Козелець",
+  "term": "Козелець",
   "translation": "Kozelets",
-  "mistranslations": [
+  "mistakes": [
     "Kozhelets"
   ],
   "aliases": [
     "Козелец",
     "Kozelez"
   ],
-  "location": {
-    "latitude": 50.9164,
-    "longitude": 31.1147
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Kozelets",
       "url": "https://en.wikipedia.org/wiki/Kozelets"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 50.9164,
+    "longitude": 31.1147
+  }
 }

@@ -1,21 +1,21 @@
 {
   "category": "City",
-  "name": "Білокуракине",
+  "term": "Білокуракине",
   "translation": "Bilokurakyne",
-  "mistranslations": [
+  "mistakes": [
     "Belokurakino"
   ],
   "aliases": [
     "Белокуракино"
   ],
-  "location": {
-    "latitude": 49.5167,
-    "longitude": 38.7167
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Bilokurakyne",
       "url": "https://en.wikipedia.org/wiki/Bilokurakyne"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 49.5167,
+    "longitude": 38.7167
+  }
 }

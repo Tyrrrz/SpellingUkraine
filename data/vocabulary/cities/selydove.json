@@ -1,25 +1,26 @@
 {
   "category": "City",
-  "name": "Селидове",
+  "term": "Селидове",
   "translation": "Selydove",
-  "mistranslations": [
+  "mistakes": [
     "Selidove",
-    "Selidovo",
-    "Selydivka"
+    "Selidovo"
   ],
   "aliases": [
+    "Селидово",
     "Селидівка",
-    "Селидово"
+    "Селидовка",
+    "Selydivka"
   ],
   "description": "Renamed from \"Selydivka\".",
-  "location": {
-    "latitude": 48.15,
-    "longitude": 37.3
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Selydove",
       "url": "https://en.wikipedia.org/wiki/Selydove"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 48.15,
+    "longitude": 37.3
+  }
 }

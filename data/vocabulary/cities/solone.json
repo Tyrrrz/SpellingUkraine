@@ -1,22 +1,22 @@
 {
   "category": "City",
-  "name": "Солоне",
+  "term": "Солоне",
   "translation": "Solone",
-  "mistranslations": [
+  "mistakes": [
     "Solonoe",
     "Solyonoe"
   ],
   "aliases": [
     "Солёное"
   ],
-  "location": {
-    "latitude": 48.2054,
-    "longitude": 34.8686
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Solone",
       "url": "https://en.wikipedia.org/wiki/Solone"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 48.2054,
+    "longitude": 34.8686
+  }
 }

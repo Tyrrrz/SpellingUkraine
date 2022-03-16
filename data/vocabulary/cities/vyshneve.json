@@ -1,8 +1,8 @@
 {
   "category": "City",
-  "name": "Вишневе",
+  "term": "Вишневе",
   "translation": "Vyshneve",
-  "mistranslations": [
+  "mistakes": [
     "Vishnevoe",
     "Vishnevoye",
     "Vishnyovoye"
@@ -10,14 +10,14 @@
   "aliases": [
     "Вишнёвое"
   ],
-  "location": {
-    "latitude": 50.3833,
-    "longitude": 30.3667
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Vyshneve",
       "url": "https://en.wikipedia.org/wiki/Vyshneve_(city)"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 50.3833,
+    "longitude": 30.3667
+  }
 }

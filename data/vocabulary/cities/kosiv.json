@@ -1,22 +1,22 @@
 {
   "category": "City",
-  "name": "Косів",
+  "term": "Косів",
   "translation": "Kosiv",
-  "mistranslations": [
+  "mistakes": [
     "Kosov"
   ],
   "aliases": [
     "Косов",
     "Kosiw"
   ],
-  "location": {
-    "latitude": 48.315,
-    "longitude": 25.0953
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Kosiv",
       "url": "https://en.wikipedia.org/wiki/Kosiv"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 48.315,
+    "longitude": 25.0953
+  }
 }

@@ -1,26 +1,26 @@
 {
   "category": "City",
-  "name": "Хорошів",
+  "term": "Хорошів",
   "translation": "Khoroshiv",
-  "mistranslations": [
+  "mistakes": [
     "Khoroshev",
-    "Khorochev",
-    "Volodarsk-Volynskyi"
+    "Khorochev"
   ],
   "aliases": [
     "Хорошев",
     "Володарськ-Волинський",
-    "Володарск-Волынский"
+    "Володарск-Волынский",
+    "Volodarsk-Volynskyi"
   ],
   "description": "Renamed from \"Volodarsk-Volynskyi\" in 2015.",
-  "location": {
-    "latitude": 50.6,
-    "longitude": 28.45
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Khoroshiv",
       "url": "https://en.wikipedia.org/wiki/Khoroshiv"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 50.6,
+    "longitude": 28.45
+  }
 }

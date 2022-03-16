@@ -1,8 +1,8 @@
 {
   "category": "City",
-  "name": "Василівка",
+  "term": "Василівка",
   "translation": "Vasylivka",
-  "mistranslations": [
+  "mistakes": [
     "Vasilivka",
     "Vasilyevka",
     "Vasilevka"
@@ -10,14 +10,14 @@
   "aliases": [
     "Васильевка"
   ],
-  "location": {
-    "latitude": 47.4344,
-    "longitude": 35.2808
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Vasylivka",
       "url": "https://en.wikipedia.org/wiki/Vasylivka"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 47.4344,
+    "longitude": 35.2808
+  }
 }

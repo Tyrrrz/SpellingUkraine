@@ -1,19 +1,19 @@
 {
   "category": "City",
-  "name": "Алчевськ",
+  "term": "Алчевськ",
   "translation": "Alchevsk",
-  "mistranslations": [],
+  "mistakes": [],
   "aliases": [
     "Алчевск"
   ],
-  "location": {
-    "latitude": 48.4672,
-    "longitude": 38.7983
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Alchevsk",
       "url": "https://en.wikipedia.org/wiki/Alchevsk"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 48.4672,
+    "longitude": 38.7983
+  }
 }

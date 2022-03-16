@@ -1,20 +1,20 @@
 {
   "category": "City",
-  "name": "Нікополь",
+  "term": "Нікополь",
   "translation": "Nikopol",
-  "mistranslations": [],
+  "mistakes": [],
   "aliases": [
     "Никополь",
     "Νικόπολις"
   ],
-  "location": {
-    "latitude": 47.5772,
-    "longitude": 34.3575
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Nikopol",
       "url": "https://en.wikipedia.org/wiki/Nikopol,_Ukraine"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 47.5772,
+    "longitude": 34.3575
+  }
 }

@@ -1,21 +1,21 @@
 {
   "category": "City",
-  "name": "Перещепине",
+  "term": "Перещепине",
   "translation": "Pereshchepyne",
-  "mistranslations": [
+  "mistakes": [
     "Pereshchepino"
   ],
   "aliases": [
     "Перещепино"
   ],
-  "location": {
-    "latitude": 49.0179,
-    "longitude": 35.3598
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Pereshchepyne",
       "url": "https://en.wikipedia.org/wiki/Pereshchepyne"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 49.0179,
+    "longitude": 35.3598
+  }
 }

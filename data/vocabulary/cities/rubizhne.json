@@ -1,22 +1,22 @@
 {
   "category": "City",
-  "name": "Рубіжне",
+  "term": "Рубіжне",
   "translation": "Rubizhne",
-  "mistranslations": [
+  "mistakes": [
     "Rubezhne",
     "Rubezhnoe"
   ],
   "aliases": [
     "Рубежное"
   ],
-  "location": {
-    "latitude": 49.0167,
-    "longitude": 38.3667
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Rubizhne",
       "url": "https://en.wikipedia.org/wiki/Rubizhne"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 49.0167,
+    "longitude": 38.3667
+  }
 }

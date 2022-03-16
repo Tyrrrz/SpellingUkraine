@@ -1,8 +1,8 @@
 {
   "category": "City",
-  "name": "Опішня",
+  "term": "Опішня",
   "translation": "Opishnia",
-  "mistranslations": [
+  "mistakes": [
     "Opishnya",
     "Oposhnia",
     "Oposhnya"
@@ -10,14 +10,14 @@
   "aliases": [
     "Опошня"
   ],
-  "location": {
-    "latitude": 49.9564,
-    "longitude": 34.612
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Opishnia",
       "url": "https://en.wikipedia.org/wiki/Opishnia"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 49.9564,
+    "longitude": 34.612
+  }
 }

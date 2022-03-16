@@ -1,22 +1,22 @@
 {
   "category": "City",
-  "name": "Ізюм",
+  "term": "Ізюм",
   "translation": "Izium",
-  "mistranslations": [
+  "mistakes": [
     "Izum",
     "Izyum"
   ],
   "aliases": [
     "Изюм"
   ],
-  "location": {
-    "latitude": 49.2238,
-    "longitude": 37.2915
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Izium",
       "url": "https://en.wikipedia.org/wiki/Izium"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 49.2238,
+    "longitude": 37.2915
+  }
 }

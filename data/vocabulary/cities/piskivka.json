@@ -1,21 +1,21 @@
 {
   "category": "City",
-  "name": "Пісківка",
+  "term": "Пісківка",
   "translation": "Piskivka",
-  "mistranslations": [
+  "mistakes": [
     "Peskovka"
   ],
   "aliases": [
     "Песковка"
   ],
-  "location": {
-    "latitude": 50.7078,
-    "longitude": 29.595
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Piskivka",
       "url": "https://en.wikipedia.org/wiki/Piskivka"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 50.7078,
+    "longitude": 29.595
+  }
 }

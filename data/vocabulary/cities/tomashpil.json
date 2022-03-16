@@ -1,22 +1,22 @@
 {
   "category": "City",
-  "name": "Томашпіль",
+  "term": "Томашпіль",
   "translation": "Tomashpil",
-  "mistranslations": [
+  "mistakes": [
     "Tomashpol"
   ],
   "aliases": [
     "Томашполь",
     "Tomaszpol"
   ],
-  "location": {
-    "latitude": 48.5471,
-    "longitude": 28.5157
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Tomashpil",
       "url": "https://en.wikipedia.org/wiki/Tomashpil"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 48.5471,
+    "longitude": 28.5157
+  }
 }

@@ -1,21 +1,21 @@
 {
   "category": "City",
-  "name": "Українка",
+  "term": "Українка",
   "translation": "Ukrainka",
-  "mistranslations": [
+  "mistakes": [
     "Ukrayinka"
   ],
   "aliases": [
     "Украинка"
   ],
-  "location": {
-    "latitude": 50.15,
-    "longitude": 30.7519
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Ukrainka",
       "url": "https://en.wikipedia.org/wiki/Ukrainka,_Kyiv_Oblast"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 50.15,
+    "longitude": 30.7519
+  }
 }

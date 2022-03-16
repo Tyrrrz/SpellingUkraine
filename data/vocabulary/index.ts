@@ -5,26 +5,29 @@ const dirPath = path.join(process.cwd(), 'data', 'vocabulary');
 
 export interface VocabularyEntry {
   id: string;
-  path: string;
-  visible: boolean;
   category: string;
-  name: string;
+
+  term: string;
   translation: string;
-  mistranslations: string[];
+  mistakes: string[];
   aliases: string[];
+
   description?: string;
-  externalLinks: {
+
+  links: {
     name: string;
     url: string;
   }[];
+
   location?: {
     latitude: number;
     longitude: number;
   };
+
   image?: {
     name: string;
     url: string;
-  }
+  };
 }
 
 export const getVocabulary = () => {
@@ -42,20 +45,17 @@ export const getVocabulary = () => {
     )
     .reduce((acc, val) => acc.concat(val), []);
 
-  return filePaths
-    .map(
-      (filePath) =>
-        (<VocabularyEntry>{
-          id: path.parse(filePath).name,
-          path: path.relative(dirPath, filePath),
-          visible: true,
-          mistranslations: [],
-          aliases: [],
-          externalLinks: [],
-          ...JSON.parse(fs.readFileSync(filePath, 'utf8'))
-        })
-    )
-    .filter((entry) => entry.visible);
+  return filePaths.map(
+    (filePath) =>
+      <VocabularyEntry>{
+        id: path.parse(filePath).name,
+        path: path.relative(dirPath, filePath),
+        mistakes: [],
+        aliases: [],
+        links: [],
+        ...JSON.parse(fs.readFileSync(filePath, 'utf8'))
+      }
+  );
 };
 
 export const getVocabularyEntry = (id: string) => {

@@ -1,22 +1,22 @@
 {
   "category": "City",
-  "name": "Заводське",
+  "term": "Заводське",
   "translation": "Zavodske",
-  "mistranslations": [
+  "mistakes": [
     "Zavodskoe",
     "Zavodskoye"
   ],
   "aliases": [
     "Заводское"
   ],
-  "location": {
-    "latitude": 50.4002,
-    "longitude": 33.3908
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Zavodske",
       "url": "https://en.wikipedia.org/wiki/Zavodske,_Poltava_Oblast"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 50.4002,
+    "longitude": 33.3908
+  }
 }

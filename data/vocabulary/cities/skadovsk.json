@@ -1,19 +1,19 @@
 {
   "category": "City",
-  "name": "Скадовськ",
+  "term": "Скадовськ",
   "translation": "Skadovsk",
-  "mistranslations": [],
+  "mistakes": [],
   "aliases": [
     "Скадовск"
   ],
-  "location": {
-    "latitude": 46.1167,
-    "longitude": 32.9167
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Skadovsk",
       "url": "https://en.wikipedia.org/wiki/Skadovsk"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 46.1167,
+    "longitude": 32.9167
+  }
 }

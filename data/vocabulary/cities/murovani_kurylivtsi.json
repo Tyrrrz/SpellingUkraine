@@ -1,22 +1,22 @@
 {
   "category": "City",
-  "name": "Муровані Курилівці",
+  "term": "Муровані Курилівці",
   "translation": "Murovani Kurylivtsi",
-  "mistranslations": [
+  "mistakes": [
     "Murovanye Kurylovtsy"
   ],
   "aliases": [
     "Мурованые Куриловцы",
     "Murowane Kuryłowce"
   ],
-  "location": {
-    "latitude": 48.7222,
-    "longitude": 27.515
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Murovani Kurylivtsi",
       "url": "https://en.wikipedia.org/wiki/Murovani_Kurylivtsi"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 48.7222,
+    "longitude": 27.515
+  }
 }

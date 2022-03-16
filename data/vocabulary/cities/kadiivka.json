@@ -1,24 +1,24 @@
 {
   "category": "City",
-  "name": "Кадіївка",
+  "term": "Кадіївка",
   "translation": "Kadiivka",
-  "mistranslations": [
-    "Kadiyevka",
-    "Stakhanov"
+  "mistakes": [
+    "Kadiyevka"
   ],
   "aliases": [
     "Кадиевка",
-    "Стаханов"
+    "Стаханов",
+    "Stakhanov"
   ],
   "description": "Renamed from \"Stakhanov\" in May 2016.",
-  "location": {
-    "latitude": 48.5472,
-    "longitude": 38.6361
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Stakhanov",
       "url": "https://en.wikipedia.org/wiki/Stakhanov,_Ukraine"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 48.5472,
+    "longitude": 38.6361
+  }
 }

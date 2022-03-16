@@ -1,17 +1,17 @@
 {
   "category": "City",
-  "name": "Великі Ком'яти",
+  "term": "Великі Ком'яти",
   "translation": "Velyki Komiaty",
-  "mistranslations": [
+  "mistakes": [
     "Velyki Komyaty",
     "Velikie Komyaty"
   ],
   "aliases": [
     "Великие Комяты"
   ],
+  "links": [],
   "location": {
     "latitude": 48.2386,
     "longitude": 22.9789
-  },
-  "externalLinks": []
+  }
 }

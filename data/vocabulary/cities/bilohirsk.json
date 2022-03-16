@@ -1,22 +1,22 @@
 {
   "category": "City",
-  "name": "Білогірськ",
+  "term": "Білогірськ",
   "translation": "Bilohirsk",
-  "mistranslations": [
+  "mistakes": [
     "Belogorsk"
   ],
   "aliases": [
     "Белогорск",
     "Karasubazar"
   ],
-  "location": {
-    "latitude": 45.0544,
-    "longitude": 34.6022
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Bilohirsk",
       "url": "https://en.wikipedia.org/wiki/Bilohirsk"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 45.0544,
+    "longitude": 34.6022
+  }
 }

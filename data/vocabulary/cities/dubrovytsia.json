@@ -1,8 +1,8 @@
 {
   "category": "City",
-  "name": "Дубровиця",
+  "term": "Дубровиця",
   "translation": "Dubrovytsia",
-  "mistranslations": [
+  "mistakes": [
     "Dubrovitsya",
     "Dubrovytsya"
   ],
@@ -10,14 +10,14 @@
     "Дубровица",
     "Dąbrowica"
   ],
-  "location": {
-    "latitude": 51.5667,
-    "longitude": 26.5667
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Dubrovytsia",
       "url": "https://en.wikipedia.org/wiki/Dubrovytsia"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 51.5667,
+    "longitude": 26.5667
+  }
 }

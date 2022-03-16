@@ -1,20 +1,20 @@
 {
   "category": "City",
-  "name": "Бурштин",
+  "term": "Бурштин",
   "translation": "Burshtyn",
-  "mistranslations": [],
+  "mistakes": [],
   "aliases": [
     "Бурштын",
     "Bursztyn"
   ],
-  "location": {
-    "latitude": 49.26,
-    "longitude": 24.635
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Burshtyn",
       "url": "https://en.wikipedia.org/wiki/Burshtyn"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 49.26,
+    "longitude": 24.635
+  }
 }

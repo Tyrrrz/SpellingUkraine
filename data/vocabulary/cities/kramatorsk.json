@@ -1,19 +1,19 @@
 {
   "category": "City",
-  "name": "Краматорськ",
+  "term": "Краматорськ",
   "translation": "Kramatorsk",
-  "mistranslations": [],
+  "mistakes": [],
   "aliases": [
     "Краматорск"
   ],
-  "location": {
-    "latitude": 48.7208,
-    "longitude": 37.5556
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Kramatorsk",
       "url": "https://en.wikipedia.org/wiki/Kramatorsk"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 48.7208,
+    "longitude": 37.5556
+  }
 }

@@ -1,8 +1,8 @@
 {
   "category": "City",
-  "name": "Снятин",
+  "term": "Снятин",
   "translation": "Sniatyn",
-  "mistranslations": [
+  "mistakes": [
     "Snyatyn"
   ],
   "aliases": [
@@ -10,14 +10,14 @@
     "Śniatyn",
     "Sneatîn"
   ],
-  "location": {
-    "latitude": 48.45,
-    "longitude": 25.5667
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Sniatyn",
       "url": "https://en.wikipedia.org/wiki/Sniatyn"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 48.45,
+    "longitude": 25.5667
+  }
 }

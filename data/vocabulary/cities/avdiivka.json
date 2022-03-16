@@ -1,21 +1,21 @@
 {
   "category": "City",
-  "name": "Авдіївка",
+  "term": "Авдіївка",
   "translation": "Avdiivka",
-  "mistranslations": [
+  "mistakes": [
     "Avdeevka"
   ],
   "aliases": [
     "Авдеевка"
   ],
-  "location": {
-    "latitude": 48.1333,
-    "longitude": 37.75
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Avdiivka",
       "url": "https://en.wikipedia.org/wiki/Avdiivka"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 48.1333,
+    "longitude": 37.75
+  }
 }

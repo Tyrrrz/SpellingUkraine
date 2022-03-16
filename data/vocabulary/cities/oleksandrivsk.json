@@ -1,21 +1,21 @@
 {
   "category": "City",
-  "name": "Олександрівськ",
+  "term": "Олександрівськ",
   "translation": "Oleksandrivsk",
-  "mistranslations": [
+  "mistakes": [
     "Aleksandrovsk"
   ],
   "aliases": [
     "Александровск"
   ],
-  "location": {
-    "latitude": 48.5833,
-    "longitude": 39.1833
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Oleksandrivsk",
       "url": "https://en.wikipedia.org/wiki/Oleksandrivsk"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 48.5833,
+    "longitude": 39.1833
+  }
 }

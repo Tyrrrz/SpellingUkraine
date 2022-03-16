@@ -1,21 +1,21 @@
 {
   "category": "City",
-  "name": "Шаргород",
+  "term": "Шаргород",
   "translation": "Sharhorod",
-  "mistranslations": [
+  "mistakes": [
     "Shargorod"
   ],
   "aliases": [
     "Szarogród"
   ],
-  "location": {
-    "latitude": 48.75,
-    "longitude": 28.0833
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Sharhorod",
       "url": "https://en.wikipedia.org/wiki/Sharhorod"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 48.75,
+    "longitude": 28.0833
+  }
 }

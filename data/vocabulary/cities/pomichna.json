@@ -1,22 +1,22 @@
 {
   "category": "City",
-  "name": "Помічна",
+  "term": "Помічна",
   "translation": "Pomichna",
-  "mistranslations": [
+  "mistakes": [
     "Pomoshnaya",
     "Pomochnaya"
   ],
   "aliases": [
     "Помошная"
   ],
-  "location": {
-    "latitude": 48.25,
-    "longitude": 31.4167
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Pomichna",
       "url": "https://en.wikipedia.org/wiki/Pomichna"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 48.25,
+    "longitude": 31.4167
+  }
 }

@@ -1,21 +1,21 @@
 {
   "category": "City",
-  "name": "Слов'янськ",
+  "term": "Слов'янськ",
   "translation": "Sloviansk",
-  "mistranslations": [
+  "mistakes": [
     "Slavyansk"
   ],
   "aliases": [
     "Славянск"
   ],
-  "location": {
-    "latitude": 48.87,
-    "longitude": 37.625
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Sloviansk",
       "url": "https://en.wikipedia.org/wiki/Sloviansk"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 48.87,
+    "longitude": 37.625
+  }
 }

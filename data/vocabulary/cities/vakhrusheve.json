@@ -1,21 +1,21 @@
 {
   "category": "City",
-  "name": "Вахрушеве",
+  "term": "Вахрушеве",
   "translation": "Vakhrusheve",
-  "mistranslations": [
+  "mistakes": [
     "Vakhrushevo"
   ],
   "aliases": [
     "Вахрушево"
   ],
-  "location": {
-    "latitude": 48.1606,
-    "longitude": 38.8389
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Vakhrusheve",
       "url": "https://en.wikipedia.org/wiki/Vakhrusheve"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 48.1606,
+    "longitude": 38.8389
+  }
 }

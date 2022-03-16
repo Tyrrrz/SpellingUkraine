@@ -1,17 +1,17 @@
 {
   "category": "City",
-  "name": "Володарка",
+  "term": "Володарка",
   "translation": "Volodarka",
-  "mistranslations": [],
+  "mistakes": [],
   "aliases": [],
-  "location": {
-    "latitude": 49.52,
-    "longitude": 29.9153
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Volodarka",
       "url": "https://en.wikipedia.org/wiki/Volodarka"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 49.52,
+    "longitude": 29.9153
+  }
 }

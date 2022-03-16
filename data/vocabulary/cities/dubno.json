@@ -1,17 +1,17 @@
 {
   "category": "City",
-  "name": "Дубно",
+  "term": "Дубно",
   "translation": "Dubno",
-  "mistranslations": [],
+  "mistakes": [],
   "aliases": [],
-  "location": {
-    "latitude": 50.3931,
-    "longitude": 25.735
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Dubno",
       "url": "https://en.wikipedia.org/wiki/Dubno"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 50.3931,
+    "longitude": 25.735
+  }
 }

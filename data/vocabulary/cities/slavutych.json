@@ -1,19 +1,19 @@
 {
   "category": "City",
-  "name": "Славутич",
+  "term": "Славутич",
   "translation": "Slavutych",
-  "mistranslations": [
+  "mistakes": [
     "Slavutich"
   ],
   "aliases": [],
-  "location": {
-    "latitude": 51.5206,
-    "longitude": 30.7569
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Slavutych",
       "url": "https://en.wikipedia.org/wiki/Slavutych"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 51.5206,
+    "longitude": 30.7569
+  }
 }

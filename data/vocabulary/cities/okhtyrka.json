@@ -1,21 +1,21 @@
 {
   "category": "City",
-  "name": "Охтирка",
+  "term": "Охтирка",
   "translation": "Okhtyrka",
-  "mistranslations": [
+  "mistakes": [
     "Akhtyrka"
   ],
   "aliases": [
     "Ахтырка"
   ],
-  "location": {
-    "latitude": 50.3074,
-    "longitude": 34.9016
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Okhtyrka",
       "url": "https://en.wikipedia.org/wiki/Okhtyrka"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 50.3074,
+    "longitude": 34.9016
+  }
 }

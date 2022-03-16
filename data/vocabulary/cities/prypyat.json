@@ -1,22 +1,22 @@
 {
   "category": "City",
-  "name": "Прип'ять",
+  "term": "Прип'ять",
   "translation": "Prypyat",
-  "mistranslations": [
+  "mistakes": [
     "Pripyat",
     "Pripiat"
   ],
   "aliases": [
     "Припять"
   ],
-  "location": {
-    "latitude": 51.406,
-    "longitude": 30.044
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Pripyat",
       "url": "https://en.wikipedia.org/wiki/Pripyat"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 51.406,
+    "longitude": 30.044
+  }
 }

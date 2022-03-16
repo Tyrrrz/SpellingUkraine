@@ -1,21 +1,21 @@
 {
   "category": "City",
-  "name": "Хмельницький",
+  "term": "Хмельницький",
   "translation": "Khmelnytskyi",
-  "mistranslations": [
+  "mistakes": [
     "Khmelnitsky"
   ],
   "aliases": [
     "Хмельницкий"
   ],
-  "location": {
-    "latitude": 49.42,
-    "longitude": 27
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Khmelnytskyi",
       "url": "https://en.wikipedia.org/wiki/Khmelnytskyi,_Ukraine"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 49.42,
+    "longitude": 27
+  }
 }

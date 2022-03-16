@@ -1,21 +1,21 @@
 {
   "category": "City",
-  "name": "Печеніги",
+  "term": "Печеніги",
   "translation": "Pechenihy",
-  "mistranslations": [
+  "mistakes": [
     "Pechenegi"
   ],
   "aliases": [
     "Печенеги"
   ],
-  "location": {
-    "latitude": 49.8647,
-    "longitude": 36.9364
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Pechenihy",
       "url": "https://en.wikipedia.org/wiki/Pechenihy"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 49.8647,
+    "longitude": 36.9364
+  }
 }

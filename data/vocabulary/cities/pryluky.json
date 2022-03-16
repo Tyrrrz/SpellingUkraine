@@ -1,21 +1,21 @@
 {
   "category": "City",
-  "name": "Прилуки",
+  "term": "Прилуки",
   "translation": "Pryluky",
-  "mistranslations": [
+  "mistakes": [
     "Priluki"
   ],
   "aliases": [
     "Прилуки"
   ],
-  "location": {
-    "latitude": 50.6,
-    "longitude": 32.4
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Pryluky",
       "url": "https://en.wikipedia.org/wiki/Pryluky"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 50.6,
+    "longitude": 32.4
+  }
 }

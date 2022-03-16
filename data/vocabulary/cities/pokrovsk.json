@@ -1,19 +1,19 @@
 {
   "category": "City",
-  "name": "Покровськ",
+  "term": "Покровськ",
   "translation": "Pokrovsk",
-  "mistranslations": [],
+  "mistakes": [],
   "aliases": [
     "Покровск"
   ],
-  "location": {
-    "latitude": 48.2833,
-    "longitude": 37.1833
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Pokrovsk",
       "url": "https://en.wikipedia.org/wiki/Pokrovsk,_Ukraine"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 48.2833,
+    "longitude": 37.1833
+  }
 }

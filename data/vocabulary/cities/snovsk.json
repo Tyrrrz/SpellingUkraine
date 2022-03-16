@@ -1,19 +1,19 @@
 {
   "category": "City",
-  "name": "Сновськ",
+  "term": "Сновськ",
   "translation": "Snovsk",
-  "mistranslations": [],
+  "mistakes": [],
   "aliases": [
     "Сновск"
   ],
-  "location": {
-    "latitude": 51.8167,
-    "longitude": 31.95
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Snovsk",
       "url": "https://en.wikipedia.org/wiki/Snovsk"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 51.8167,
+    "longitude": 31.95
+  }
 }

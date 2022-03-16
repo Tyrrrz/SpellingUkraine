@@ -1,22 +1,22 @@
 {
   "category": "City",
-  "name": "Вільшани",
+  "term": "Вільшани",
   "translation": "Vilshany",
-  "mistranslations": [
+  "mistakes": [
     "Vilshani",
     "Olshany"
   ],
   "aliases": [
     "Ольшаны"
   ],
-  "location": {
-    "latitude": 50.0533,
-    "longitude": 35.8847
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Vilshany",
       "url": "https://en.wikipedia.org/wiki/Vilshany"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 50.0533,
+    "longitude": 35.8847
+  }
 }

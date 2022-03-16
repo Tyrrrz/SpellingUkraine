@@ -1,21 +1,21 @@
 {
   "category": "City",
-  "name": "Вороновиця",
+  "term": "Вороновиця",
   "translation": "Voronovytsia",
-  "mistranslations": [
+  "mistakes": [
     "Voronovitsa"
   ],
   "aliases": [
     "Вороновица"
   ],
-  "location": {
-    "latitude": 49.0989,
-    "longitude": 28.6831
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Voronovytsia",
       "url": "https://en.wikipedia.org/wiki/Voronovytsia,_Vinnytsia_Oblast"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 49.0989,
+    "longitude": 28.6831
+  }
 }

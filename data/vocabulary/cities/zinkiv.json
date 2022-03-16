@@ -1,21 +1,21 @@
 {
   "category": "City",
-  "name": "Зіньків",
+  "term": "Зіньків",
   "translation": "Zinkiv",
-  "mistranslations": [
+  "mistakes": [
     "Zenkov"
   ],
   "aliases": [
     "Зеньков"
   ],
-  "location": {
-    "latitude": 50.2081,
-    "longitude": 34.3668
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Zinkiv",
       "url": "https://en.wikipedia.org/wiki/Zinkiv"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 50.2081,
+    "longitude": 34.3668
+  }
 }

@@ -1,21 +1,21 @@
 {
   "category": "City",
-  "name": "Димер",
+  "term": "Димер",
   "translation": "Dymer",
-  "mistranslations": [
+  "mistakes": [
     "Dymier"
   ],
   "aliases": [
     "Дымер"
   ],
-  "location": {
-    "latitude": 50.7872,
-    "longitude": 30.3117
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Dymer",
       "url": "https://en.wikipedia.org/wiki/Dymer,_Kyiv_Oblast"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 50.7872,
+    "longitude": 30.3117
+  }
 }

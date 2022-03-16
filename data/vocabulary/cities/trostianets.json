@@ -1,21 +1,21 @@
 {
   "category": "City",
-  "name": "Тростянець",
+  "term": "Тростянець",
   "translation": "Trostianets",
-  "mistranslations": [
+  "mistakes": [
     "Trostyanets"
   ],
   "aliases": [
     "Тростянец"
   ],
-  "location": {
-    "latitude": 48.512,
-    "longitude": 29.2137
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Trostianets",
       "url": "https://en.wikipedia.org/wiki/Trostianets"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 48.512,
+    "longitude": 29.2137
+  }
 }

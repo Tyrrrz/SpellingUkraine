@@ -1,22 +1,22 @@
 {
   "category": "City",
-  "name": "Івано-Франківськ",
+  "term": "Івано-Франківськ",
   "translation": "Ivano-Frankivsk",
-  "mistranslations": [
+  "mistakes": [
     "Ivano-Frankovsk"
   ],
   "aliases": [
     "Ивано-Франковск",
     "Iwano-Frankivsk"
   ],
-  "location": {
-    "latitude": 48.9228,
-    "longitude": 24.7106
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Ivano-Frankivsk",
       "url": "https://en.wikipedia.org/wiki/Ivano-Frankivsk"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 48.9228,
+    "longitude": 24.7106
+  }
 }

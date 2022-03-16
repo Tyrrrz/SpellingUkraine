@@ -1,19 +1,19 @@
 {
   "category": "City",
-  "name": "Люботин",
+  "term": "Люботин",
   "translation": "Liubotyn",
-  "mistranslations": [
+  "mistakes": [
     "Lyubotyn"
   ],
   "aliases": [],
-  "location": {
-    "latitude": 49.9489,
-    "longitude": 35.9306
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Liubotyn",
       "url": "https://en.wikipedia.org/wiki/Liubotyn"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 49.9489,
+    "longitude": 35.9306
+  }
 }

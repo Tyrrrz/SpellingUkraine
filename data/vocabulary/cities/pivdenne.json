@@ -1,21 +1,21 @@
 {
   "category": "City",
-  "name": "Південне",
+  "term": "Південне",
   "translation": "Pivdenne",
-  "mistranslations": [
+  "mistakes": [
     "Pivdennoe"
   ],
   "aliases": [
     "Пивденное"
   ],
-  "location": {
-    "latitude": 49.8849,
-    "longitude": 36.0687
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Pivdenne",
       "url": "https://en.wikipedia.org/wiki/Pivdenne"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 49.8849,
+    "longitude": 36.0687
+  }
 }

@@ -1,21 +1,21 @@
 {
   "category": "City",
-  "name": "Крижопіль",
+  "term": "Крижопіль",
   "translation": "Kryzhopil",
-  "mistranslations": [
+  "mistakes": [
     "Kryzhopol"
   ],
   "aliases": [
     "Крыжополь"
   ],
-  "location": {
-    "latitude": 48.3842,
-    "longitude": 28.8625
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Kryzhopil",
       "url": "https://en.wikipedia.org/wiki/Kryzhopil"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 48.3842,
+    "longitude": 28.8625
+  }
 }

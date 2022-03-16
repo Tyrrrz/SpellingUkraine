@@ -1,22 +1,22 @@
 {
   "category": "City",
-  "name": "Золоте",
+  "term": "Золоте",
   "translation": "Zolote",
-  "mistranslations": [
+  "mistakes": [
     "Zolotoe",
     "Zolotoye"
   ],
   "aliases": [
     "Золотое"
   ],
-  "location": {
-    "latitude": 48.6833,
-    "longitude": 38.5167
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Zolote",
       "url": "https://en.wikipedia.org/wiki/Zolote"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 48.6833,
+    "longitude": 38.5167
+  }
 }

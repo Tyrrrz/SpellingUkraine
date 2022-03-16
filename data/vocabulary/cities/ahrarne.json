@@ -1,17 +1,17 @@
 {
   "category": "City",
-  "name": "Аграрне",
+  "term": "Аграрне",
   "translation": "Ahrarne",
-  "mistranslations": [
+  "mistakes": [
     "Agrarne",
     "Agrarnoe"
   ],
   "aliases": [
     "Аграрное"
   ],
+  "links": [],
   "location": {
     "latitude": 45.0186,
     "longitude": 34.0544
-  },
-  "externalLinks": []
+  }
 }

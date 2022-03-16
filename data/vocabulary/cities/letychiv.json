@@ -1,8 +1,8 @@
 {
   "category": "City",
-  "name": "Летичів",
+  "term": "Летичів",
   "translation": "Letychiv",
-  "mistranslations": [
+  "mistakes": [
     "Letichev",
     "Letychev"
   ],
@@ -10,14 +10,14 @@
     "Летичев",
     "Latyczów"
   ],
-  "location": {
-    "latitude": 49.3833,
-    "longitude": 27.6167
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Letychiv",
       "url": "https://en.wikipedia.org/wiki/Letychiv"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 49.3833,
+    "longitude": 27.6167
+  }
 }

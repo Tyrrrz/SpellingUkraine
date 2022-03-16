@@ -1,17 +1,17 @@
 {
   "category": "City",
-  "name": "Токмак",
+  "term": "Токмак",
   "translation": "Tokmak",
-  "mistranslations": [],
+  "mistakes": [],
   "aliases": [],
-  "location": {
-    "latitude": 47.2514,
-    "longitude": 35.7058
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Tokmak",
       "url": "https://en.wikipedia.org/wiki/Tokmak,_Ukraine"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 47.2514,
+    "longitude": 35.7058
+  }
 }

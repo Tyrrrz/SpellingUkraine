@@ -1,29 +1,29 @@
 {
   "category": "City",
-  "name": "Немішаєве",
+  "term": "Немішаєве",
   "translation": "Nemishaieve",
-  "mistranslations": [
+  "mistakes": [
     "Nemishayeve",
     "Nemysheev",
     "Nemeshaevo",
-    "Nemeshayevo",
-    "Shevchenkove",
-    "Shevchenkovoe"
+    "Nemeshayevo"
   ],
   "aliases": [
     "Немешаево",
     "Шевченкове",
-    "Шевченковое"
+    "Шевченковое",
+    "Shevchenkove",
+    "Shevchenkovoe"
   ],
   "description": "Renamed from \"Shevchenkove\" in 1928.",
-  "location": {
-    "latitude": 50.5624,
-    "longitude": 30.0925
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Nemishaieve",
       "url": "https://en.wikipedia.org/wiki/Nemishaieve"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 50.5624,
+    "longitude": 30.0925
+  }
 }

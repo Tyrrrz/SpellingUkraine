@@ -1,21 +1,21 @@
 {
   "category": "City",
-  "name": "Балабине",
+  "term": "Балабине",
   "translation": "Balabyne",
-  "mistranslations": [
+  "mistakes": [
     "Balabino"
   ],
   "aliases": [
     "Балабино"
   ],
-  "location": {
-    "latitude": 47.735,
-    "longitude": 35.2142
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Balabyne",
       "url": "https://en.wikipedia.org/wiki/Balabyne"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 47.735,
+    "longitude": 35.2142
+  }
 }

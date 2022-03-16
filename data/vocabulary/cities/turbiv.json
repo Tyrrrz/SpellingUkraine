@@ -1,21 +1,21 @@
 {
   "category": "City",
-  "name": "Турбів",
+  "term": "Турбів",
   "translation": "Turbiv",
-  "mistranslations": [
+  "mistakes": [
     "Turbov"
   ],
   "aliases": [
     "Турбов"
   ],
-  "location": {
-    "latitude": 49.3463,
-    "longitude": 28.7244
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Turbiv",
       "url": "https://en.wikipedia.org/wiki/Turbiv"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 49.3463,
+    "longitude": 28.7244
+  }
 }

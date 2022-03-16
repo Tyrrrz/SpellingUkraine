@@ -1,20 +1,20 @@
 {
   "category": "City",
-  "name": "Бершадь",
+  "term": "Бершадь",
   "translation": "Bershad",
-  "mistranslations": [],
+  "mistakes": [],
   "aliases": [
     "Berszad",
     "Berșad"
   ],
-  "location": {
-    "latitude": 48.3728,
-    "longitude": 29.5325
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Bershad",
       "url": "https://en.wikipedia.org/wiki/Bershad"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 48.3728,
+    "longitude": 29.5325
+  }
 }

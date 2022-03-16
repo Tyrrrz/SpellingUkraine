@@ -1,22 +1,22 @@
 {
   "category": "City",
-  "name": "Обухів",
+  "term": "Обухів",
   "translation": "Obukhiv",
-  "mistranslations": [
+  "mistakes": [
     "Obukhov",
     "Obuhiv"
   ],
   "aliases": [
     "Обухов"
   ],
-  "location": {
-    "latitude": 50.1,
-    "longitude": 30.6167
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Obukhiv",
       "url": "https://en.wikipedia.org/wiki/Obukhiv"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 50.1,
+    "longitude": 30.6167
+  }
 }

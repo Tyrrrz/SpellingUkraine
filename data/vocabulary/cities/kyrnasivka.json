@@ -1,22 +1,22 @@
 {
   "category": "City",
-  "name": "Кирнасівка",
+  "term": "Кирнасівка",
   "translation": "Kyrnasivka",
-  "mistranslations": [
+  "mistakes": [
     "Kyrnasovka",
     "Kirnasovka"
   ],
   "aliases": [
     "Кирнасовка"
   ],
-  "location": {
-    "latitude": 48.5914,
-    "longitude": 28.98
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Kyrnasivka",
       "url": "https://en.wikipedia.org/wiki/Kyrnasivka"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 48.5914,
+    "longitude": 28.98
+  }
 }

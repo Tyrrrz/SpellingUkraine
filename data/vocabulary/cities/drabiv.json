@@ -1,21 +1,21 @@
 {
   "category": "City",
-  "name": "Драбів",
+  "term": "Драбів",
   "translation": "Drabiv",
-  "mistranslations": [
+  "mistakes": [
     "Drabov"
   ],
   "aliases": [
     "Драбов"
   ],
-  "location": {
-    "latitude": 49.9603,
-    "longitude": 32.1481
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Drabiv",
       "url": "https://en.wikipedia.org/wiki/Drabiv"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 49.9603,
+    "longitude": 32.1481
+  }
 }

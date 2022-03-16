@@ -1,19 +1,19 @@
 {
   "category": "City",
-  "name": "Брянка",
+  "term": "Брянка",
   "translation": "Brianka",
-  "mistranslations": [
+  "mistakes": [
     "Bryanka"
   ],
   "aliases": [],
-  "location": {
-    "latitude": 48.5133,
-    "longitude": 38.6431
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Brianka",
       "url": "https://en.wikipedia.org/wiki/Brianka"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 48.5133,
+    "longitude": 38.6431
+  }
 }

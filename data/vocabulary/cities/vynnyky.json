@@ -1,19 +1,19 @@
 {
   "category": "City",
-  "name": "Винники",
+  "term": "Винники",
   "translation": "Vynnyky",
-  "mistranslations": [
+  "mistakes": [
     "Vinniki"
   ],
   "aliases": [],
-  "location": {
-    "latitude": 49.8156,
-    "longitude": 24.1297
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Vynnyky",
       "url": "https://en.wikipedia.org/wiki/Vynnyky"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 49.8156,
+    "longitude": 24.1297
+  }
 }

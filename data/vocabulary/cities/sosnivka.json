@@ -1,22 +1,22 @@
 {
   "category": "City",
-  "name": "Соснівка",
+  "term": "Соснівка",
   "translation": "Sosnivka",
-  "mistranslations": [
+  "mistakes": [
     "Sosnovka"
   ],
   "aliases": [
     "Сосновка",
     "Sosnówka"
   ],
-  "location": {
-    "latitude": 50.2946,
-    "longitude": 24.2525
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Sosnivka",
       "url": "https://en.wikipedia.org/wiki/Sosnivka"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 50.2946,
+    "longitude": 24.2525
+  }
 }

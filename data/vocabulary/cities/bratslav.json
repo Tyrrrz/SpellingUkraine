@@ -1,21 +1,21 @@
 {
   "category": "City",
-  "name": "Брацлав",
+  "term": "Брацлав",
   "translation": "Bratslav",
-  "mistranslations": [
+  "mistakes": [
     "Braclav"
   ],
   "aliases": [
     "Bracław"
   ],
-  "location": {
-    "latitude": 48.8147,
-    "longitude": 28.9447
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Bratslav",
       "url": "https://en.wikipedia.org/wiki/Bratslav"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 48.8147,
+    "longitude": 28.9447
+  }
 }

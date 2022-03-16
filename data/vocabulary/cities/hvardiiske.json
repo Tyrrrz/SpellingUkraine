@@ -1,21 +1,21 @@
 {
   "category": "City",
-  "name": "Гвардійське",
+  "term": "Гвардійське",
   "translation": "Hvardiiske",
-  "mistranslations": [
+  "mistakes": [
     "Hvardiyske"
   ],
   "aliases": [
     "Гвардейское"
   ],
-  "location": {
-    "latitude": 48.7328,
-    "longitude": 35.311
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Hvardiiske",
       "url": "https://en.wikipedia.org/wiki/Hvardiiske,_Dnipropetrovsk_Oblast"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 48.7328,
+    "longitude": 35.311
+  }
 }

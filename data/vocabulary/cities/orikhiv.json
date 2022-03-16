@@ -1,21 +1,21 @@
 {
   "category": "City",
-  "name": "Оріхів",
+  "term": "Оріхів",
   "translation": "Orikhiv",
-  "mistranslations": [
+  "mistakes": [
     "Orekhov"
   ],
   "aliases": [
     "Орехов"
   ],
-  "location": {
-    "latitude": 47.5677,
-    "longitude": 35.7849
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Orikhiv",
       "url": "https://en.wikipedia.org/wiki/Orikhiv"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 47.5677,
+    "longitude": 35.7849
+  }
 }

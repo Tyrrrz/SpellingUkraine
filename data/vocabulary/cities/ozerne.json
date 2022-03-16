@@ -1,21 +1,21 @@
 {
   "category": "City",
-  "name": "Озерне",
+  "term": "Озерне",
   "translation": "Ozerne",
-  "mistranslations": [
+  "mistakes": [
     "Ozernoe"
   ],
   "aliases": [
     "Озёрное"
   ],
-  "location": {
-    "latitude": 50.1794,
-    "longitude": 28.7361
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Ozerne",
       "url": "https://en.wikipedia.org/wiki/Ozerne,_Zhytomyr_Oblast"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 50.1794,
+    "longitude": 28.7361
+  }
 }

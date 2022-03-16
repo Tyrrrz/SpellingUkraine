@@ -1,17 +1,17 @@
 {
   "category": "City",
-  "name": "Чоп",
+  "term": "Чоп",
   "translation": "Chop",
-  "mistranslations": [],
+  "mistakes": [],
   "aliases": [],
-  "location": {
-    "latitude": 48.4333,
-    "longitude": 22.2
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Chop",
       "url": "https://en.wikipedia.org/wiki/Chop,_Ukraine"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 48.4333,
+    "longitude": 22.2
+  }
 }

@@ -1,21 +1,21 @@
 {
   "category": "City",
-  "name": "Луганськ",
+  "term": "Луганськ",
   "translation": "Luhansk",
-  "mistranslations": [
+  "mistakes": [
     "Lugansk"
   ],
   "aliases": [
     "Луганск"
   ],
-  "location": {
-    "latitude": 48.5833,
-    "longitude": 39.3333
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Luhansk",
       "url": "https://en.wikipedia.org/wiki/Luhansk"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 48.5833,
+    "longitude": 39.3333
+  }
 }

@@ -1,21 +1,21 @@
 {
   "category": "City",
-  "name": "Марганець",
+  "term": "Марганець",
   "translation": "Marhanets",
-  "mistranslations": [
+  "mistakes": [
     "Marganets"
   ],
   "aliases": [
     "Марганец"
   ],
-  "location": {
-    "latitude": 47.648,
-    "longitude": 34.6167
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Marhanets",
       "url": "https://en.wikipedia.org/wiki/Marhanets"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 47.648,
+    "longitude": 34.6167
+  }
 }

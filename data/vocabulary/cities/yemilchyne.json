@@ -1,21 +1,21 @@
 {
   "category": "City",
-  "name": "Ємільчине",
+  "term": "Ємільчине",
   "translation": "Yemilchyne",
-  "mistranslations": [
+  "mistakes": [
     "Yemilchino"
   ],
   "aliases": [
     "Емильчино"
   ],
-  "location": {
-    "latitude": 50.8708,
-    "longitude": 27.8028
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Yemilchyne",
       "url": "https://en.wikipedia.org/wiki/Yemilchyne"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 50.8708,
+    "longitude": 27.8028
+  }
 }

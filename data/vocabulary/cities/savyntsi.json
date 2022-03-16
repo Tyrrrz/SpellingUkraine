@@ -1,21 +1,21 @@
 {
   "category": "City",
-  "name": "Савинці",
+  "term": "Савинці",
   "translation": "Savyntsi",
-  "mistranslations": [
+  "mistakes": [
     "Savintsy"
   ],
   "aliases": [
     "Савинцы"
   ],
-  "location": {
-    "latitude": 49.4105,
-    "longitude": 37.0617
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Savyntsi",
       "url": "https://en.wikipedia.org/wiki/Savyntsi"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 49.4105,
+    "longitude": 37.0617
+  }
 }

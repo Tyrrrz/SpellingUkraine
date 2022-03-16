@@ -1,22 +1,22 @@
 {
   "category": "City",
-  "name": "Новогуйвинське",
+  "term": "Новогуйвинське",
   "translation": "Novohuivynske",
-  "mistranslations": [
+  "mistakes": [
     "Novohuivynskoe",
     "Novoguyvinskoe"
   ],
   "aliases": [
     "Новогуйвинское"
   ],
-  "location": {
-    "latitude": 50.2022,
-    "longitude": 28.685
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Novohuivynske",
       "url": "https://en.wikipedia.org/wiki/Novohuivynske"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 50.2022,
+    "longitude": 28.685
+  }
 }

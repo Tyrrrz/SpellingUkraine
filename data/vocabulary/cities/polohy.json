@@ -1,22 +1,27 @@
 {
   "category": "City",
-  "name": "Пологи",
+  "term": "Пологи",
   "translation": "Polohy",
-  "mistranslations": [
+  "mistakes": [
     "Polohi",
     "Pologi",
     "Pology"
   ],
-  "aliases": [],
+  "aliases": [
+    "Чубарівка",
+    "Чубаровка",
+    "Chubarivka",
+    "Chubarovka"
+  ],
   "description": "Renamed from \"Chubarivka\" in 1937.",
-  "location": {
-    "latitude": 47.4796,
-    "longitude": 36.2611
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Polohy",
       "url": "https://en.wikipedia.org/wiki/Polohy"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 47.4796,
+    "longitude": 36.2611
+  }
 }

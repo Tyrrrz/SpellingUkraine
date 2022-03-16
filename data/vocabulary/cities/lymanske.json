@@ -1,22 +1,22 @@
 {
   "category": "City",
-  "name": "Лиманське",
+  "term": "Лиманське",
   "translation": "Lymanske",
-  "mistranslations": [
+  "mistakes": [
     "Lymanskoe",
     "Limanskoe"
   ],
   "aliases": [
     "Лиманское"
   ],
-  "location": {
-    "latitude": 46.6639,
-    "longitude": 29.9708
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Lymanske",
       "url": "https://en.wikipedia.org/wiki/Lymanske_(urban-type_settlement)"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 46.6639,
+    "longitude": 29.9708
+  }
 }

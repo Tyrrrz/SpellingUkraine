@@ -1,17 +1,17 @@
 {
   "category": "City",
-  "name": "Волноваха",
+  "term": "Волноваха",
   "translation": "Volnovakha",
-  "mistranslations": [],
+  "mistakes": [],
   "aliases": [],
-  "location": {
-    "latitude": 47.5725,
-    "longitude": 31.3119
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Volnovakha",
       "url": "https://en.wikipedia.org/wiki/Volnovakha"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 47.5725,
+    "longitude": 31.3119
+  }
 }

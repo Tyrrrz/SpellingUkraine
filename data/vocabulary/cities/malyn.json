@@ -1,19 +1,19 @@
 {
   "category": "City",
-  "name": "Малин",
+  "term": "Малин",
   "translation": "Malyn",
-  "mistranslations": [
+  "mistakes": [
     "Malin"
   ],
   "aliases": [],
-  "location": {
-    "latitude": 50.7689,
-    "longitude": 29.27
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Malyn",
       "url": "https://en.wikipedia.org/wiki/Malyn"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 50.7689,
+    "longitude": 29.27
+  }
 }

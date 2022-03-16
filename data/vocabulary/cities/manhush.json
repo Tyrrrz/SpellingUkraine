@@ -1,8 +1,8 @@
 {
   "category": "City",
-  "name": "Магуш",
+  "term": "Магуш",
   "translation": "Manhush",
-  "mistranslations": [
+  "mistakes": [
     "Mangush",
     "Pershotravneve",
     "Pershotravnevoe",
@@ -12,14 +12,14 @@
     "Першотравневое",
     "Першотравневый"
   ],
-  "location": {
-    "latitude": 47.05,
-    "longitude": 37.3
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Manhush",
       "url": "https://en.wikipedia.org/wiki/Manhush,_Donetsk_Oblast"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 47.05,
+    "longitude": 37.3
+  }
 }

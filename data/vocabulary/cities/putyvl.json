@@ -1,19 +1,19 @@
 {
   "category": "City",
-  "name": "Путивль",
+  "term": "Путивль",
   "translation": "Putyvl",
-  "mistranslations": [
+  "mistakes": [
     "Putivl"
   ],
   "aliases": [],
-  "location": {
-    "latitude": 51.3347,
-    "longitude": 33.8686
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Putyvl",
       "url": "https://en.wikipedia.org/wiki/Putyvl"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 51.3347,
+    "longitude": 33.8686
+  }
 }

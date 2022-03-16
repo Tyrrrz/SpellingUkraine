@@ -1,8 +1,8 @@
 {
   "category": "City",
-  "name": "Щастя",
+  "term": "Щастя",
   "translation": "Shchastia",
-  "mistranslations": [
+  "mistakes": [
     "Schastya",
     "Schastie",
     "Schastye"
@@ -10,14 +10,14 @@
   "aliases": [
     "Счастье"
   ],
-  "location": {
-    "latitude": 48.7381,
-    "longitude": 39.2311
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Shchastia",
       "url": "https://en.wikipedia.org/wiki/Shchastia"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 48.7381,
+    "longitude": 39.2311
+  }
 }

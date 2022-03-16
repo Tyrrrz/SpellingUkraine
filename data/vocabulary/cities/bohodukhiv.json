@@ -1,22 +1,22 @@
 {
   "category": "City",
-  "name": "Богодухів",
+  "term": "Богодухів",
   "translation": "Bohodukhiv",
-  "mistranslations": [
+  "mistakes": [
     "Bohoduhov",
     "Bogoduhov"
   ],
   "aliases": [
     "Богодухов"
   ],
-  "location": {
-    "latitude": 50.1608,
-    "longitude": 35.5164
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Bohodukhiv",
       "url": "https://en.wikipedia.org/wiki/Bohodukhiv"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 50.1608,
+    "longitude": 35.5164
+  }
 }

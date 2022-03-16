@@ -1,22 +1,22 @@
 {
   "category": "City",
-  "name": "Мала Виска",
+  "term": "Мала Виска",
   "translation": "Mala Vyska",
-  "mistranslations": [
+  "mistakes": [
     "Malaya Vyska",
     "Malaya Viska"
   ],
   "aliases": [
     "Малая Виска"
   ],
-  "location": {
-    "latitude": 48.65,
-    "longitude": 31.6333
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Mala Vyska",
       "url": "https://en.wikipedia.org/wiki/Mala_Vyska"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 48.65,
+    "longitude": 31.6333
+  }
 }

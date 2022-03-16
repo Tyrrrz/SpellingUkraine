@@ -1,8 +1,8 @@
 {
   "category": "City",
-  "name": "Коцюбинське",
+  "term": "Коцюбинське",
   "translation": "Kotsiubynske",
-  "mistranslations": [
+  "mistakes": [
     "Kotsyubynske",
     "Kotsubinskoe",
     "Kotsiubinskoe"
@@ -10,14 +10,14 @@
   "aliases": [
     "Коцюбинское"
   ],
-  "location": {
-    "latitude": 50.4883,
-    "longitude": 30.3331
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Kotsiubynske",
       "url": "https://en.wikipedia.org/wiki/Kotsiubynske"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 50.4883,
+    "longitude": 30.3331
+  }
 }

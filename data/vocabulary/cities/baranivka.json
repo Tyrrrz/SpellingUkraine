@@ -1,21 +1,21 @@
 {
   "category": "City",
-  "name": "Баранівка",
+  "term": "Баранівка",
   "translation": "Baranivka",
-  "mistranslations": [
+  "mistakes": [
     "Baranovka"
   ],
   "aliases": [
     "Барановка"
   ],
-  "location": {
-    "latitude": 50.3,
-    "longitude": 27.6667
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Baranivka",
       "url": "https://en.wikipedia.org/wiki/Baranivka_(city)"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 50.3,
+    "longitude": 27.6667
+  }
 }

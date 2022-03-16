@@ -17,7 +17,7 @@ interface SearchResult {
 const resolveMatch = (entry: VocabularyEntry, query: string): SearchMatch | null => {
   const normalizeString = (str: string) => {
     // Lowercase and remove diacritics & accents
-    return str.toLowerCase().replace(/[\u0300-\u036f]/g, '');
+    return str.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
   };
 
   const getQuality = (source: string, value: string) => {
@@ -28,13 +28,13 @@ const resolveMatch = (entry: VocabularyEntry, query: string): SearchMatch | null
 
   const queryNormalized = normalizeString(query);
 
-  const nameNormalized = normalizeString(entry.name);
-  if (nameNormalized.includes(queryNormalized)) {
+  const termNormalized = normalizeString(entry.term);
+  if (termNormalized.includes(queryNormalized)) {
     return {
-      on: 'name',
-      source: entry.name,
+      on: 'term',
+      source: entry.id,
       value: query,
-      quality: getQuality(nameNormalized, queryNormalized)
+      quality: getQuality(termNormalized, queryNormalized)
     };
   }
 
@@ -48,14 +48,14 @@ const resolveMatch = (entry: VocabularyEntry, query: string): SearchMatch | null
     };
   }
 
-  for (const mistranslation of entry.mistranslations) {
-    const mistranslationNormalized = normalizeString(mistranslation);
-    if (mistranslationNormalized.includes(queryNormalized)) {
+  for (const mistake of entry.mistakes) {
+    const mistakeNormalized = normalizeString(mistake);
+    if (mistakeNormalized.includes(queryNormalized)) {
       return {
-        on: 'mistranslations',
-        source: mistranslation,
+        on: 'mistakes',
+        source: mistake,
         value: query,
-        quality: getQuality(mistranslationNormalized, queryNormalized)
+        quality: getQuality(mistakeNormalized, queryNormalized)
       };
     }
   }

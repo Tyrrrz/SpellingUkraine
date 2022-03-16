@@ -1,8 +1,8 @@
 {
   "category": "City",
-  "name": "Сєвєродонецьк",
+  "term": "Сєвєродонецьк",
   "translation": "Sievierodonetsk",
-  "mistranslations": [
+  "mistakes": [
     "Siverskodonetsk",
     "Syeverodonetsk",
     "Severodonetsk"
@@ -11,14 +11,14 @@
     "Сіверськодонецьк",
     "Северодонецк"
   ],
-  "location": {
-    "latitude": 48.95,
-    "longitude": 38.4833
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Sievierodonetsk",
       "url": "https://en.wikipedia.org/wiki/Sievierodonetsk"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 48.95,
+    "longitude": 38.4833
+  }
 }

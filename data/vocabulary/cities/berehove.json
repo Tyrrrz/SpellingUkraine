@@ -1,8 +1,8 @@
 {
   "category": "City",
-  "name": "Берегове",
+  "term": "Берегове",
   "translation": "Berehove",
-  "mistranslations": [
+  "mistakes": [
     "Beregove",
     "Beregovo",
     "Beregovoe"
@@ -11,14 +11,14 @@
     "Береговое",
     "Beregszász"
   ],
-  "location": {
-    "latitude": 48.2025,
-    "longitude": 22.6375
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Berehove",
       "url": "https://en.wikipedia.org/wiki/Berehove"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 48.2025,
+    "longitude": 22.6375
+  }
 }

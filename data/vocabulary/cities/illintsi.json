@@ -1,22 +1,22 @@
 {
   "category": "City",
-  "name": "Іллінці",
+  "term": "Іллінці",
   "translation": "Illintsi",
-  "mistranslations": [
+  "mistakes": [
     "Ilyintsi"
   ],
   "aliases": [
     "Ильинцы",
     "Ilińce"
   ],
-  "location": {
-    "latitude": 49.1,
-    "longitude": 29.2
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Illintsi",
       "url": "https://en.wikipedia.org/wiki/Illintsi"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 49.1,
+    "longitude": 29.2
+  }
 }

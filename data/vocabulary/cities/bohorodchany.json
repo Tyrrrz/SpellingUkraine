@@ -1,21 +1,21 @@
 {
   "category": "City",
-  "name": "Бурородчани",
+  "term": "Бурородчани",
   "translation": "Bohorodchany",
-  "mistranslations": [
+  "mistakes": [
     "Bogorodchani"
   ],
   "aliases": [
     "Богородчаны"
   ],
-  "location": {
-    "latitude": 48.8,
-    "longitude": 24.5333
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Bohorodchany",
       "url": "https://en.wikipedia.org/wiki/Bohorodchany"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 48.8,
+    "longitude": 24.5333
+  }
 }

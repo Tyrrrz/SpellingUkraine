@@ -1,21 +1,21 @@
 {
   "category": "City",
-  "name": "Чигирин",
+  "term": "Чигирин",
   "translation": "Chyhyryn",
-  "mistranslations": [
+  "mistakes": [
     "Chihyrin"
   ],
   "aliases": [
     "Чигирин"
   ],
-  "location": {
-    "latitude": 49.0833,
-    "longitude": 32.6667
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Chyhyryn",
       "url": "https://en.wikipedia.org/wiki/Chyhyryn"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 49.0833,
+    "longitude": 32.6667
+  }
 }

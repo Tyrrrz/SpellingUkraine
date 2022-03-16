@@ -1,20 +1,20 @@
 {
   "category": "City",
-  "name": "Рогатин",
+  "term": "Рогатин",
   "translation": "Rohatyn",
-  "mistranslations": [
+  "mistakes": [
     "Rogatyn",
     "Rogatin"
   ],
   "aliases": [],
-  "location": {
-    "latitude": 49.4167,
-    "longitude": 24.6167
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Rohatyn",
       "url": "https://en.wikipedia.org/wiki/Rohatyn"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 49.4167,
+    "longitude": 24.6167
+  }
 }

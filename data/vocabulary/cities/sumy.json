@@ -1,22 +1,22 @@
 {
   "category": "City",
-  "name": "Суми",
+  "term": "Суми",
   "translation": "Sumy",
-  "mistranslations": [
+  "mistakes": [
     "Sumi",
     "Symi"
   ],
   "aliases": [
     "Сумы"
   ],
-  "location": {
-    "latitude": 50.9068,
-    "longitude": 34.7992
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Sumy",
       "url": "https://en.wikipedia.org/wiki/Sumy"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 50.9068,
+    "longitude": 34.7992
+  }
 }

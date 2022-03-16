@@ -1,21 +1,21 @@
 {
   "category": "City",
-  "name": "Єнакієве",
+  "term": "Єнакієве",
   "translation": "Yenakiieve",
-  "mistranslations": [
+  "mistakes": [
     "Yenakiyevo"
   ],
   "aliases": [
     "Енакиево"
   ],
-  "location": {
-    "latitude": 48.2311,
-    "longitude": 38.2053
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Yenakiieve",
       "url": "https://en.wikipedia.org/wiki/Yenakiieve"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 48.2311,
+    "longitude": 38.2053
+  }
 }

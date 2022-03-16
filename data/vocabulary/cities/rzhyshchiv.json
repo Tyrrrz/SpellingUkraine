@@ -1,8 +1,8 @@
 {
   "category": "City",
-  "name": "Ржищів",
+  "term": "Ржищів",
   "translation": "Rzhyshchiv",
-  "mistranslations": [
+  "mistakes": [
     "Rzhyshchev",
     "Rzhishchev"
   ],
@@ -10,14 +10,14 @@
     "Ржищев",
     "Rzyszczów"
   ],
-  "location": {
-    "latitude": 49.9611,
-    "longitude": 31.0436
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Rzhyshchiv",
       "url": "https://en.wikipedia.org/wiki/Rzhyshchiv"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 49.9611,
+    "longitude": 31.0436
+  }
 }

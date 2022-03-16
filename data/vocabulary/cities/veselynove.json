@@ -1,21 +1,21 @@
 {
   "category": "City",
-  "name": "Веселинове",
+  "term": "Веселинове",
   "translation": "Veselynove",
-  "mistranslations": [
+  "mistakes": [
     "Veselinovo"
   ],
   "aliases": [
     "Веселиново"
   ],
-  "location": {
-    "latitude": 47.3583,
-    "longitude": 31.2397
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Veselynove",
       "url": "https://en.wikipedia.org/wiki/Veselynove"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 47.3583,
+    "longitude": 31.2397
+  }
 }

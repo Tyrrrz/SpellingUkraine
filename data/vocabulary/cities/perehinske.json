@@ -1,8 +1,8 @@
 {
   "category": "City",
-  "name": "Перегінське",
+  "term": "Перегінське",
   "translation": "Perehinske",
-  "mistranslations": [
+  "mistakes": [
     "Pereginske",
     "Pereginskoe"
   ],
@@ -10,14 +10,14 @@
     "Перегинское",
     "Perehińsko"
   ],
-  "location": {
-    "latitude": 48.8103,
-    "longitude": 24.1819
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Perehinske",
       "url": "https://en.wikipedia.org/wiki/Perehinske"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 48.8103,
+    "longitude": 24.1819
+  }
 }

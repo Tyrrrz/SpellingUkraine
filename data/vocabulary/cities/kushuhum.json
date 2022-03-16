@@ -1,19 +1,19 @@
 {
   "category": "City",
-  "name": "Кушугум",
+  "term": "Кушугум",
   "translation": "Kushuhum",
-  "mistranslations": [
+  "mistakes": [
     "Kushugum"
   ],
   "aliases": [],
-  "location": {
-    "latitude": 47.7106,
-    "longitude": 35.2192
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Kushuhum",
       "url": "https://en.wikipedia.org/wiki/Kushuhum"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 47.7106,
+    "longitude": 35.2192
+  }
 }

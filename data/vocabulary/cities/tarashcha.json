@@ -1,19 +1,19 @@
 {
   "category": "City",
-  "name": "Тараща",
+  "term": "Тараща",
   "translation": "Tarashcha",
-  "mistranslations": [
+  "mistakes": [
     "Tarascha"
   ],
   "aliases": [],
-  "location": {
-    "latitude": 49.55,
-    "longitude": 30.5
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Tarashcha",
       "url": "https://en.wikipedia.org/wiki/Tarashcha"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 49.55,
+    "longitude": 30.5
+  }
 }

@@ -1,20 +1,20 @@
 {
   "category": "City",
-  "name": "Олевськ",
+  "term": "Олевськ",
   "translation": "Olevsk",
-  "mistranslations": [],
+  "mistakes": [],
   "aliases": [
     "Олевск",
     "Olewsk"
   ],
-  "location": {
-    "latitude": 51.2278,
-    "longitude": 27.6481
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Olevsk",
       "url": "https://en.wikipedia.org/wiki/Olevsk"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 51.2278,
+    "longitude": 27.6481
+  }
 }

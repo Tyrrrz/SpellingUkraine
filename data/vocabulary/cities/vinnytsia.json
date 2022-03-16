@@ -1,8 +1,8 @@
 {
   "category": "City",
-  "name": "Вінниця",
+  "term": "Вінниця",
   "translation": "Vinnytsia",
-  "mistranslations": [
+  "mistakes": [
     "Vinnytsya",
     "Vinnitsa",
     "Vinitsia"
@@ -10,14 +10,14 @@
   "aliases": [
     "Винница"
   ],
-  "location": {
-    "latitude": 49.2372,
-    "longitude": 28.4672
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Vinnytsia",
       "url": "https://en.wikipedia.org/wiki/Vinnytsia"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 49.2372,
+    "longitude": 28.4672
+  }
 }

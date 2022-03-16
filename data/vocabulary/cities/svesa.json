@@ -1,21 +1,21 @@
 {
   "category": "City",
-  "name": "Свеса",
+  "term": "Свеса",
   "translation": "Svesa",
-  "mistranslations": [
+  "mistakes": [
     "Svessa"
   ],
   "aliases": [
     "Свесса"
   ],
-  "location": {
-    "latitude": 51.9481,
-    "longitude": 33.9367
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Svesa",
       "url": "https://en.wikipedia.org/wiki/Svesa"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 51.9481,
+    "longitude": 33.9367
+  }
 }

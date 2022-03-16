@@ -1,26 +1,26 @@
 {
   "category": "City",
-  "name": "Олександрійське",
+  "term": "Олександрійське",
   "translation": "Oleksandriiske",
-  "mistranslations": [
-    "Alexandriyskoe",
-    "Dymytrove",
-    "Dimitrovo"
+  "mistakes": [
+    "Alexandriyskoe"
   ],
   "aliases": [
     "Александрийское",
     "Димитрове",
-    "Димитрово"
+    "Димитрово",
+    "Dymytrove",
+    "Dimitrovo"
   ],
   "description": "Renamed from \"Dymytrove\" in 1949.",
-  "location": {
-    "latitude": 48.6019,
-    "longitude": 32.9889
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Oleksandriiske",
       "url": "https://en.wikipedia.org/wiki/Oleksandriiske"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 48.6019,
+    "longitude": 32.9889
+  }
 }

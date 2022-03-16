@@ -1,8 +1,8 @@
 {
   "category": "City",
-  "name": "Звенигородка",
+  "term": "Звенигородка",
   "translation": "Zvenyhorodka",
-  "mistranslations": [
+  "mistakes": [
     "Zvenygorodka",
     "Zvenigorodka"
   ],
@@ -10,14 +10,14 @@
     "Звенигородка",
     "Zwinogródka"
   ],
-  "location": {
-    "latitude": 49.0833,
-    "longitude": 30.9667
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Zvenyhorodka",
       "url": "https://en.wikipedia.org/wiki/Zvenyhorodka"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 49.0833,
+    "longitude": 30.9667
+  }
 }

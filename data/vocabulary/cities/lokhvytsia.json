@@ -1,22 +1,22 @@
 {
   "category": "City",
-  "name": "Лохвиця",
+  "term": "Лохвиця",
   "translation": "Lokhvytsia",
-  "mistranslations": [
+  "mistakes": [
     "Lokhvytsya",
     "Lokhvitsa"
   ],
   "aliases": [
     "Лохвица"
   ],
-  "location": {
-    "latitude": 50.361,
-    "longitude": 33.2652
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Lokhvytsia",
       "url": "https://en.wikipedia.org/wiki/Lokhvytsia"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 50.361,
+    "longitude": 33.2652
+  }
 }

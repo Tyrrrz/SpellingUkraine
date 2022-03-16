@@ -1,8 +1,8 @@
 {
   "category": "City",
-  "name": "Антрацит",
+  "term": "Антрацит",
   "translation": "Antratsyt",
-  "mistranslations": [
+  "mistakes": [
     "Antrasit",
     "Antracit",
     "Anthratsyt"
@@ -10,14 +10,14 @@
   "aliases": [
     "Антрацыт"
   ],
-  "location": {
-    "latitude": 48.1167,
-    "longitude": 39.0833
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Antratsyt",
       "url": "https://en.wikipedia.org/wiki/Antratsyt"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 48.1167,
+    "longitude": 39.0833
+  }
 }

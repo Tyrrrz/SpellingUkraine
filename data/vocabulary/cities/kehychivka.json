@@ -1,21 +1,21 @@
 {
   "category": "City",
-  "name": "Кегичівка",
+  "term": "Кегичівка",
   "translation": "Kehychivka",
-  "mistranslations": [
+  "mistakes": [
     "Kegichevka"
   ],
   "aliases": [
     "Кегичёвка"
   ],
-  "location": {
-    "latitude": 49.2858,
-    "longitude": 35.7622
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Kehychivka",
       "url": "https://en.wikipedia.org/wiki/Kehychivka"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 49.2858,
+    "longitude": 35.7622
+  }
 }

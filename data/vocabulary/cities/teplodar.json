@@ -1,17 +1,17 @@
 {
   "category": "City",
-  "name": "Теплодар",
+  "term": "Теплодар",
   "translation": "Teplodar",
-  "mistranslations": [],
+  "mistakes": [],
   "aliases": [],
-  "location": {
-    "latitude": 46.5036,
-    "longitude": 30.3244
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Teplodar",
       "url": "https://en.wikipedia.org/wiki/Teplodar"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 46.5036,
+    "longitude": 30.3244
+  }
 }

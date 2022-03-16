@@ -1,21 +1,21 @@
 {
   "category": "City",
-  "name": "Тальне",
+  "term": "Тальне",
   "translation": "Talne",
-  "mistranslations": [
+  "mistakes": [
     "Talnoye"
   ],
   "aliases": [
     "Тальное"
   ],
-  "location": {
-    "latitude": 48.8863,
-    "longitude": 30.7027
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Talne",
       "url": "https://en.wikipedia.org/wiki/Talne"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 48.8863,
+    "longitude": 30.7027
+  }
 }

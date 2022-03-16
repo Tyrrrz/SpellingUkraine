@@ -1,22 +1,22 @@
 {
   "category": "City",
-  "name": "Вільногірськ",
+  "term": "Вільногірськ",
   "translation": "Vilnohirsk",
-  "mistranslations": [
+  "mistakes": [
     "Vilnogirsk",
     "Volnogorsk"
   ],
   "aliases": [
     "Вольногорск"
   ],
-  "location": {
-    "latitude": 48.4824,
-    "longitude": 34.0189
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Vilnohirsk",
       "url": "https://en.wikipedia.org/wiki/Vilnohirsk"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 48.4824,
+    "longitude": 34.0189
+  }
 }

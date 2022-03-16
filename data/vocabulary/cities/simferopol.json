@@ -1,20 +1,20 @@
 {
   "category": "City",
-  "name": "Сімферополь",
+  "term": "Сімферополь",
   "translation": "Simferopol",
-  "mistranslations": [],
+  "mistakes": [],
   "aliases": [
     "Симферополь",
     "Aqmescit"
   ],
-  "location": {
-    "latitude": 44.9484,
-    "longitude": 34.1
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Simferopol",
       "url": "https://en.wikipedia.org/wiki/Simferopol"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 44.9484,
+    "longitude": 34.1
+  }
 }

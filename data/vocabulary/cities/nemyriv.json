@@ -1,8 +1,8 @@
 {
   "category": "City",
-  "name": "Немирів",
+  "term": "Немирів",
   "translation": "Nemyriv",
-  "mistranslations": [
+  "mistakes": [
     "Nemirov",
     "Nemiroff"
   ],
@@ -11,14 +11,14 @@
     "Niemirów"
   ],
   "description": "Origin of the \"Nemiroff\" vodka.",
-  "location": {
-    "latitude": 48.9794,
-    "longitude": 28.8439
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Nemyriv",
       "url": "https://en.wikipedia.org/wiki/Nemyriv"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 48.9794,
+    "longitude": 28.8439
+  }
 }

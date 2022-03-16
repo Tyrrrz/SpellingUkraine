@@ -1,21 +1,21 @@
 {
   "category": "City",
-  "name": "Ратне",
+  "term": "Ратне",
   "translation": "Ratne",
-  "mistranslations": [
+  "mistakes": [
     "Ratno"
   ],
   "aliases": [
     "Ратно"
   ],
-  "location": {
-    "latitude": 51.65,
-    "longitude": 24.5333
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Ratne",
       "url": "https://en.wikipedia.org/wiki/Ratne"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 51.65,
+    "longitude": 24.5333
+  }
 }

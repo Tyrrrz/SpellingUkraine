@@ -1,8 +1,8 @@
 {
   "category": "City",
-  "name": "Козятин",
+  "term": "Козятин",
   "translation": "Koziatyn",
-  "mistranslations": [
+  "mistakes": [
     "Kozyatyn",
     "Kazatin"
   ],
@@ -10,14 +10,14 @@
     "Казатин",
     "Koziatyn"
   ],
-  "location": {
-    "latitude": 49.7167,
-    "longitude": 28.8333
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Koziatyn",
       "url": "https://en.wikipedia.org/wiki/Koziatyn"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 49.7167,
+    "longitude": 28.8333
+  }
 }

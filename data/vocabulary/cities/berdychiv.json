@@ -1,21 +1,21 @@
 {
   "category": "City",
-  "name": "Бердичів",
+  "term": "Бердичів",
   "translation": "Berdychiv",
-  "mistranslations": [
+  "mistakes": [
     "Berdichiv"
   ],
   "aliases": [
     "Бердычив"
   ],
-  "location": {
-    "latitude": 49.8919,
-    "longitude": 28.6
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Berdychiv",
       "url": "https://en.wikipedia.org/wiki/Berdychiv"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 49.8919,
+    "longitude": 28.6
+  }
 }

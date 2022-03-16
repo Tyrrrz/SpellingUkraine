@@ -1,19 +1,19 @@
 {
   "category": "City",
-  "name": "Долина",
+  "term": "Долина",
   "translation": "Dolyna",
-  "mistranslations": [
+  "mistakes": [
     "Dolina"
   ],
   "aliases": [],
-  "location": {
-    "latitude": 48.9703,
-    "longitude": 24.0108
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Dolyna",
       "url": "https://en.wikipedia.org/wiki/Dolyna"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 48.9703,
+    "longitude": 24.0108
+  }
 }

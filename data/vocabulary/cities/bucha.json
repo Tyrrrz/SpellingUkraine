@@ -1,17 +1,17 @@
 {
   "category": "City",
-  "name": "Буча",
+  "term": "Буча",
   "translation": "Bucha",
-  "mistranslations": [],
+  "mistakes": [],
   "aliases": [],
-  "location": {
-    "latitude": 50.5464,
-    "longitude": 30.235
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Bucha",
       "url": "https://en.wikipedia.org/wiki/Bucha,_Kyiv_Oblast"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 50.5464,
+    "longitude": 30.235
+  }
 }

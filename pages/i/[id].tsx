@@ -24,7 +24,7 @@ const EntryPage: NextPage<StaticProps> = ({ entry }) => {
     <>
       <Meta
         title={entry.translation}
-        description={`"${entry.translation}" is the correct way to spell "${entry.name}" in English. Support Ukraine, transliterate correctly!`}
+        description={`"${entry.translation}" is the correct way to spell "${entry.term}" in English. Support Ukraine, transliterate correctly!`}
         imageUrl={entry.image?.url}
       />
 
@@ -45,7 +45,7 @@ const EntryPage: NextPage<StaticProps> = ({ entry }) => {
             </HStack>
 
             <Box classes={['text-2xl', 'font-light', 'tracking-wide']}>
-              {entry.name} • {entry.category}
+              {entry.term} • {entry.category}
             </Box>
           </Box>
 
@@ -61,7 +61,7 @@ const EntryPage: NextPage<StaticProps> = ({ entry }) => {
           </Box>
         </Box>
 
-        {entry.mistranslations.length > 0 && (
+        {entry.mistakes.length > 0 && (
           <Box>
             <SectionHeader>Spelling</SectionHeader>
 
@@ -72,25 +72,11 @@ const EntryPage: NextPage<StaticProps> = ({ entry }) => {
                   <Box>{entry.translation}</Box>
                 </HStack>
 
-                {entry.mistranslations.map((mistranslation) => (
-                  <HStack key={mistranslation}>
+                {entry.mistakes.map((mistake) => (
+                  <HStack key={mistake}>
                     <FiX className={classNames('text-red-600')} />
-                    <Box>{mistranslation}</Box>
+                    <Box>{mistake}</Box>
                   </HStack>
-                ))}
-              </HStack>
-            </Box>
-          </Box>
-        )}
-
-        {entry.aliases.length > 0 && (
-          <Box>
-            <SectionHeader>In other languages</SectionHeader>
-
-            <Box classes={['text-lg']}>
-              <HStack wrap gap="large">
-                {entry.aliases.map((alias) => (
-                  <Box key={alias}>{alias}</Box>
                 ))}
               </HStack>
             </Box>
@@ -105,11 +91,11 @@ const EntryPage: NextPage<StaticProps> = ({ entry }) => {
           </Box>
         )}
 
-        {entry.externalLinks.length > 0 && (
+        {entry.links.length > 0 && (
           <Box>
             <SectionHeader>See also</SectionHeader>
 
-            {entry.externalLinks.map((link) => (
+            {entry.links.map((link) => (
               <HStack key={link.name}>
                 <FiExternalLink />
                 <Link href={link.url}>{link.name}</Link>

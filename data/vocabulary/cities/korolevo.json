@@ -1,8 +1,8 @@
 {
   "category": "City",
-  "name": "Королево",
+  "term": "Королево",
   "translation": "Korolevo",
-  "mistranslations": [
+  "mistakes": [
     "Koroliovo",
     "Korolyovo"
   ],
@@ -12,14 +12,14 @@
     "Királyháza",
     "Craia"
   ],
-  "location": {
-    "latitude": 48.15,
-    "longitude": 23.1333
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Korolevo",
       "url": "https://en.wikipedia.org/wiki/Korolevo"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 48.15,
+    "longitude": 23.1333
+  }
 }

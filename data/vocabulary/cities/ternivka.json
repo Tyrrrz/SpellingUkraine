@@ -1,21 +1,21 @@
 {
   "category": "City",
-  "name": "Тернівка",
+  "term": "Тернівка",
   "translation": "Ternivka",
-  "mistranslations": [
+  "mistakes": [
     "Ternovka"
   ],
   "aliases": [
     "Терновка"
   ],
-  "location": {
-    "latitude": 48.5231,
-    "longitude": 36.0826
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Ternivka",
       "url": "https://en.wikipedia.org/wiki/Ternivka"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 48.5231,
+    "longitude": 36.0826
+  }
 }

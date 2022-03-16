@@ -1,8 +1,8 @@
 {
   "category": "Country",
-  "name": "Україна",
+  "term": "Україна",
   "translation": "Ukraine",
-  "mistranslations": [
+  "mistakes": [
     "The Ukraine",
     "Ukrajina"
   ],
@@ -14,7 +14,7 @@
     "Ucrania"
   ],
   "description": "Ukraine is a country in Eastern Europe. It is the second-largest country by area in Europe after Russia, which it borders to the east and north-east.",
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Ukraine",
       "url": "https://en.wikipedia.org/wiki/Ukraine"

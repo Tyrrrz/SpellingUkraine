@@ -1,21 +1,21 @@
 {
   "category": "City",
-  "name": "Одеса",
+  "term": "Одеса",
   "translation": "Odesa",
-  "mistranslations": [
+  "mistakes": [
     "Odessa"
   ],
   "aliases": [
     "Одесса"
   ],
-  "location": {
-    "latitude": 46.4775,
-    "longitude": 30.7326
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Odesa",
       "url": "https://en.wikipedia.org/wiki/Odesa"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 46.4775,
+    "longitude": 30.7326
+  }
 }

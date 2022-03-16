@@ -1,28 +1,28 @@
 {
   "category": "City",
-  "name": "Романів",
+  "term": "Романів",
   "translation": "Romaniv",
-  "mistranslations": [
+  "mistakes": [
     "Romanov",
-    "Romanof",
-    "Dzerzhynsk"
+    "Romanof"
   ],
   "aliases": [
     "Романов",
     "Romanów",
     "Дзержинськ",
     "Дзержи́нск",
+    "Dzerzhynsk",
     "Dzierżyńsk"
   ],
   "description": "Renamed from \"Dzerzhynsk\".",
-  "location": {
-    "latitude": 50.1517,
-    "longitude": 27.9392
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Romaniv",
       "url": "https://en.wikipedia.org/wiki/Romaniv"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 50.1517,
+    "longitude": 27.9392
+  }
 }

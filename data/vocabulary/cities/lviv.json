@@ -1,8 +1,8 @@
 {
   "category": "City",
-  "name": "Львів",
+  "term": "Львів",
   "translation": "Lviv",
-  "mistranslations": [
+  "mistakes": [
     "Lvov"
   ],
   "aliases": [
@@ -18,14 +18,14 @@
     "Ilov",
     "Ilôv"
   ],
-  "location": {
-    "latitude": 49.8419,
-    "longitude": 24.0315
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Lviv",
       "url": "https://en.wikipedia.org/wiki/Lviv"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 49.8419,
+    "longitude": 24.0315
+  }
 }

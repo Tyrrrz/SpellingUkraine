@@ -1,19 +1,19 @@
 {
   "category": "City",
-  "name": "Херсон",
+  "term": "Херсон",
   "translation": "Kherson",
-  "mistranslations": [
+  "mistakes": [
     "Herson"
   ],
   "aliases": [],
-  "location": {
-    "latitude": 46.6333,
-    "longitude": 32.6
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Kherson",
       "url": "https://en.wikipedia.org/wiki/Kherson"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 46.6333,
+    "longitude": 32.6
+  }
 }

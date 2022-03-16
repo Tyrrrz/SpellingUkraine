@@ -1,21 +1,21 @@
 {
   "category": "City",
-  "name": "Степанівка",
+  "term": "Степанівка",
   "translation": "Stepanivka",
-  "mistranslations": [
+  "mistakes": [
     "Stepanovka"
   ],
   "aliases": [
     "Степановка"
   ],
-  "location": {
-    "latitude": 50.943,
-    "longitude": 34.6334
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Stepanivka",
       "url": "https://en.wikipedia.org/wiki/Stepanivka"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 50.943,
+    "longitude": 34.6334
+  }
 }

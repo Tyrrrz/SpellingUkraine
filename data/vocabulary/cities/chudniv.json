@@ -1,22 +1,22 @@
 {
   "category": "City",
-  "name": "Чуднів",
+  "term": "Чуднів",
   "translation": "Chudniv",
-  "mistranslations": [
+  "mistakes": [
     "Chudnov"
   ],
   "aliases": [
     "Чуднов",
     "Cudnów"
   ],
-  "location": {
-    "latitude": 50.0528,
-    "longitude": 28.0969
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Chudniv",
       "url": "https://en.wikipedia.org/wiki/Chudniv"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 50.0528,
+    "longitude": 28.0969
+  }
 }

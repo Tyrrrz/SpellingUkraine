@@ -1,22 +1,22 @@
 {
   "category": "City",
-  "name": "Тульчин",
+  "term": "Тульчин",
   "translation": "Tulchyn",
-  "mistranslations": [
+  "mistakes": [
     "Tulchin",
     "Nesterwar"
   ],
   "aliases": [
     "Tulczyn"
   ],
-  "location": {
-    "latitude": 48.6744,
-    "longitude": 28.8497
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Tulchyn",
       "url": "https://en.wikipedia.org/wiki/Tulchyn"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 48.6744,
+    "longitude": 28.8497
+  }
 }

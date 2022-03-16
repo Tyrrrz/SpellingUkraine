@@ -1,22 +1,22 @@
 {
   "category": "City",
-  "name": "Іванків",
+  "term": "Іванків",
   "translation": "Ivankiv",
-  "mistranslations": [
+  "mistakes": [
     "Ivankov"
   ],
   "aliases": [
     "Иванков",
     "Ivanquiv"
   ],
-  "location": {
-    "latitude": 50.9333,
-    "longitude": 29.9
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Ivankiv",
       "url": "https://en.wikipedia.org/wiki/Ivankiv"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 50.9333,
+    "longitude": 29.9
+  }
 }

@@ -1,22 +1,22 @@
 {
   "category": "City",
-  "name": "Городенка",
+  "term": "Городенка",
   "translation": "Horodenka",
-  "mistranslations": [
+  "mistakes": [
     "Gorodenka"
   ],
   "aliases": [
     "Городенка",
     "Horodence"
   ],
-  "location": {
-    "latitude": 48.6675,
-    "longitude": 25.5003
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Horodenka",
       "url": "https://en.wikipedia.org/wiki/Horodenka"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 48.6675,
+    "longitude": 25.5003
+  }
 }

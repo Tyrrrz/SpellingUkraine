@@ -1,23 +1,25 @@
 {
   "category": "City",
-  "name": "Лиман",
+  "term": "Лиман",
   "translation": "Lyman",
-  "mistranslations": [
-    "Liman",
-    "Krasnyi Lyman"
+  "mistakes": [
+    "Liman"
   ],
   "aliases": [
-    "Лыман"
+    "Лыман",
+    "Красний Лиман",
+    "Красный Лыман",
+    "Krasnyi Lyman"
   ],
   "description": "Renamed from \"Krasnyi Lyman\" in 2015.",
-  "location": {
-    "latitude": 48.9861,
-    "longitude": 37.8111
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Lyman",
       "url": "https://en.wikipedia.org/wiki/Lyman,_Ukraine"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 48.9861,
+    "longitude": 37.8111
+  }
 }

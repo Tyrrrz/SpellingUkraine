@@ -1,17 +1,17 @@
 {
   "category": "City",
-  "name": "Успенка",
+  "term": "Успенка",
   "translation": "Uspenka",
-  "mistranslations": [],
+  "mistakes": [],
   "aliases": [],
-  "location": {
-    "latitude": 48.3939,
-    "longitude": 39.1536
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Uspenka",
       "url": "https://en.wikipedia.org/wiki/Uspenka"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 48.3939,
+    "longitude": 39.1536
+  }
 }

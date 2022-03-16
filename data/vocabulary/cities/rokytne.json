@@ -1,22 +1,22 @@
 {
   "category": "City",
-  "name": "Рокитне",
+  "term": "Рокитне",
   "translation": "Rokytne",
-  "mistranslations": [
+  "mistakes": [
     "Rakytne",
     "Rakitnoe"
   ],
   "aliases": [
     "Ракитное"
   ],
-  "location": {
-    "latitude": 49.6897,
-    "longitude": 30.4751
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Rokytne",
       "url": "https://en.wikipedia.org/wiki/Rokytne,_Kyiv_Oblast"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 49.6897,
+    "longitude": 30.4751
+  }
 }

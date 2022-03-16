@@ -1,21 +1,21 @@
 {
   "category": "City",
-  "name": "Христинівка",
+  "term": "Христинівка",
   "translation": "Khrystynivka",
-  "mistranslations": [
+  "mistakes": [
     "Khristinovka"
   ],
   "aliases": [
     "Христиновка"
   ],
-  "location": {
-    "latitude": 48.8333,
-    "longitude": 29.9667
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Khrystynivka",
       "url": "https://en.wikipedia.org/wiki/Khrystynivka"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 48.8333,
+    "longitude": 29.9667
+  }
 }

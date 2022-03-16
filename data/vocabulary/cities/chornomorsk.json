@@ -1,25 +1,25 @@
 {
   "category": "City",
-  "name": "Чорноморськ",
+  "term": "Чорноморськ",
   "translation": "Chornomorsk",
-  "mistranslations": [
-    "Chernomorsk",
-    "Illichivsk"
+  "mistakes": [
+    "Chernomorsk"
   ],
   "aliases": [
     "Черноморск",
     "Іллічівськ",
-    "Ильичёвск"
+    "Ильичёвск",
+    "Illichivsk"
   ],
   "description": "Renamed from \"Illichivsk\" in February 2016.",
-  "location": {
-    "latitude": 46.3017,
-    "longitude": 30.6569
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Chornomorsk",
       "url": "https://en.wikipedia.org/wiki/Chornomorsk"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 46.3017,
+    "longitude": 30.6569
+  }
 }

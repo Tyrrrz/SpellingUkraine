@@ -1,21 +1,21 @@
 {
   "category": "City",
-  "name": "Старобільськ",
+  "term": "Старобільськ",
   "translation": "Starobilsk",
-  "mistranslations": [
+  "mistakes": [
     "Starobelsk"
   ],
   "aliases": [
     "Старобельск"
   ],
-  "location": {
-    "latitude": 49.2667,
-    "longitude": 38.9167
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Starobilsk",
       "url": "https://en.wikipedia.org/wiki/Starobilsk"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 49.2667,
+    "longitude": 38.9167
+  }
 }

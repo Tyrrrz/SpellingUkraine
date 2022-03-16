@@ -1,24 +1,24 @@
 {
   "category": "City",
-  "name": "Мирноград",
+  "term": "Мирноград",
   "translation": "Myrnohrad",
-  "mistranslations": [
-    "Mirnograd",
+  "mistakes": [
+    "Mirnograd"
+  ],
+  "aliases": [
+    "Димитров",
     "Dymytrov",
     "Dimitrov"
   ],
-  "aliases": [
-    "Димитров"
-  ],
   "description": "Renamed from \"Dymytrov\" in May 2016.",
-  "location": {
-    "latitude": 48.3022,
-    "longitude": 37.2614
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Myrnohrad",
       "url": "https://en.wikipedia.org/wiki/Myrnohrad"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 48.3022,
+    "longitude": 37.2614
+  }
 }

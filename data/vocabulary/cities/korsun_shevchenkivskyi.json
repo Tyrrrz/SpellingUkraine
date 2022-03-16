@@ -1,8 +1,8 @@
 {
   "category": "City",
-  "name": "Корсунь-Шевче́нківський",
+  "term": "Корсунь-Шевче́нківський",
   "translation": "Korsun-Shevchenkivskyi",
-  "mistranslations": [
+  "mistakes": [
     "Korsun-Shevchenkovsky",
     "Korsun-Shevchenkovskiy"
   ],
@@ -10,9 +10,9 @@
     "Корсунь-Шевченковский",
     "Korsuń Szewczenkowski"
   ],
+  "links": [],
   "location": {
     "latitude": 49.4261,
     "longitude": 31.2806
-  },
-  "externalLinks": []
+  }
 }

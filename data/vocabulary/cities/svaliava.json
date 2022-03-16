@@ -1,22 +1,22 @@
 {
   "category": "City",
-  "name": "Свалява",
+  "term": "Свалява",
   "translation": "Svaliava",
-  "mistranslations": [
+  "mistakes": [
     "Svalyava"
   ],
   "aliases": [
     "Szolyva",
     "Svaľava"
   ],
-  "location": {
-    "latitude": 48.5472,
-    "longitude": 22.9861
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Svaliava",
       "url": "https://en.wikipedia.org/wiki/Svaliava"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 48.5472,
+    "longitude": 22.9861
+  }
 }

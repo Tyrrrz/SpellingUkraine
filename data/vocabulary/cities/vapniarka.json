@@ -1,8 +1,8 @@
 {
   "category": "City",
-  "name": "Вапнярка",
+  "term": "Вапнярка",
   "translation": "Vapniarka",
-  "mistranslations": [
+  "mistakes": [
     "Vapnyarka"
   ],
   "aliases": [
@@ -10,14 +10,14 @@
     "Wapnjarka",
     "Wapniarka"
   ],
-  "location": {
-    "latitude": 48.5333,
-    "longitude": 28.75
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Vapniarka",
       "url": "https://en.wikipedia.org/wiki/Vapniarka"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 48.5333,
+    "longitude": 28.75
+  }
 }

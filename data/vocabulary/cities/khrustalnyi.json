@@ -1,26 +1,27 @@
 {
   "category": "City",
-  "name": "Хрустальний",
+  "term": "Хрустальний",
   "translation": "Khrustalnyi",
-  "mistranslations": [
-    "Krasnyi Luch",
-    "Kryndachivka",
-    "Krindachyovka"
+  "mistakes": [
+    "Hrustalnyi"
   ],
   "aliases": [
-    "Криндачівка",
     "Хрустальный",
-    "Красный Луч"
+    "Криндачівка",
+    "Kryndachivka",
+    "Krindachyovka",
+    "Красный Луч",
+    "Krasnyi Luch"
   ],
   "description": "Renamed from \"Kryndachivka\" in May 2016.",
-  "location": {
-    "latitude": 48.1214,
-    "longitude": 38.9453
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Khrustalnyi",
       "url": "https://en.wikipedia.org/wiki/Khrustalnyi"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 48.1214,
+    "longitude": 38.9453
+  }
 }

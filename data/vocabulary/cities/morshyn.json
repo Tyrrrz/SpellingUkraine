@@ -1,21 +1,21 @@
 {
   "category": "City",
-  "name": "Моршин",
+  "term": "Моршин",
   "translation": "Morshyn",
-  "mistranslations": [
+  "mistakes": [
     "Morshin"
   ],
   "aliases": [
     "Morszyn-Zdrój"
   ],
-  "location": {
-    "latitude": 49.155,
-    "longitude": 23.8725
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Morshyn",
       "url": "https://en.wikipedia.org/wiki/Morshyn"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 49.155,
+    "longitude": 23.8725
+  }
 }

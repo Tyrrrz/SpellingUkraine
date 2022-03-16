@@ -1,22 +1,22 @@
 {
   "category": "City",
-  "name": "Стрижавка",
+  "term": "Стрижавка",
   "translation": "Stryzhavka",
-  "mistranslations": [
+  "mistakes": [
     "Strizhavka"
   ],
   "aliases": [
     "Стрижавка",
     "Strzyżawka"
   ],
-  "location": {
-    "latitude": 49.3103,
-    "longitude": 28.4808
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Stryzhavka",
       "url": "https://en.wikipedia.org/wiki/Stryzhavka"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 49.3103,
+    "longitude": 28.4808
+  }
 }

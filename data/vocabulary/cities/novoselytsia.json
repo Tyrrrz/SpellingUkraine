@@ -1,21 +1,21 @@
 {
   "category": "City",
-  "name": "Новоселиця",
+  "term": "Новоселиця",
   "translation": "Novoselytsia",
-  "mistranslations": [
+  "mistakes": [
     "Novoselitsa"
   ],
   "aliases": [
     "Новоселица"
   ],
-  "location": {
-    "latitude": 48.2167,
-    "longitude": 26.2667
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Novoselytsia",
       "url": "https://en.wikipedia.org/wiki/Novoselytsia"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 48.2167,
+    "longitude": 26.2667
+  }
 }

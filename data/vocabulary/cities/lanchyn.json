@@ -1,22 +1,22 @@
 {
   "category": "City",
-  "name": "Ланчин",
+  "term": "Ланчин",
   "translation": "Lanchyn",
-  "mistranslations": [
+  "mistakes": [
     "Lanchin"
   ],
   "aliases": [
     "Łanczyn",
     "Lanciîn"
   ],
-  "location": {
-    "latitude": 48.5475,
-    "longitude": 24.7517
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Lanchyn",
       "url": "https://en.wikipedia.org/wiki/Lanchyn"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 48.5475,
+    "longitude": 24.7517
+  }
 }

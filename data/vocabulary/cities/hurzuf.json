@@ -1,21 +1,21 @@
 {
   "category": "City",
-  "name": "Гурзуф",
+  "term": "Гурзуф",
   "translation": "Hurzuf",
-  "mistranslations": [
+  "mistakes": [
     "Gurzuf"
   ],
   "aliases": [
     "Γορζουβίται"
   ],
-  "location": {
-    "latitude": 44.5528,
-    "longitude": 34.2875
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Hurzuf",
       "url": "https://en.wikipedia.org/wiki/Hurzuf"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 44.5528,
+    "longitude": 34.2875
+  }
 }

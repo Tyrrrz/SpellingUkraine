@@ -1,21 +1,21 @@
 {
   "category": "City",
-  "name": "Ічня",
+  "term": "Ічня",
   "translation": "Ichnia",
-  "mistranslations": [
+  "mistakes": [
     "Ichnya"
   ],
   "aliases": [
     "Ичня"
   ],
-  "location": {
-    "latitude": 50.85,
-    "longitude": 32.4
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Ichnia",
       "url": "https://en.wikipedia.org/wiki/Ichnia"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 50.85,
+    "longitude": 32.4
+  }
 }

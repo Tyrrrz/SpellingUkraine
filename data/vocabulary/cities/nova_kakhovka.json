@@ -1,21 +1,21 @@
 {
   "category": "City",
-  "name": "Нова Каховка",
+  "term": "Нова Каховка",
   "translation": "Nova Kakhovka",
-  "mistranslations": [
+  "mistakes": [
     "Novaya Kakhovka"
   ],
   "aliases": [
     "Новая Каховка"
   ],
-  "location": {
-    "latitude": 46.7667,
-    "longitude": 33.3667
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Nova Kakhovka",
       "url": "https://en.wikipedia.org/wiki/Nova_Kakhovka"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 46.7667,
+    "longitude": 33.3667
+  }
 }

@@ -1,19 +1,19 @@
 {
   "category": "City",
-  "name": "Зеленодольськ",
+  "term": "Зеленодольськ",
   "translation": "Zelenodolsk",
-  "mistranslations": [],
+  "mistakes": [],
   "aliases": [
     "Зеленодольск"
   ],
-  "location": {
-    "latitude": 47.5631,
-    "longitude": 33.6524
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Zelenodolsk",
       "url": "https://en.wikipedia.org/wiki/Zelenodolsk,_Ukraine"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 47.5631,
+    "longitude": 33.6524
+  }
 }

@@ -1,8 +1,8 @@
 {
   "category": "City",
-  "name": "Тячів",
+  "term": "Тячів",
   "translation": "Tiachiv",
-  "mistranslations": [
+  "mistakes": [
     "Tyachiv",
     "Tiachev",
     "Tyachev"
@@ -10,14 +10,14 @@
   "aliases": [
     "Тячев"
   ],
-  "location": {
-    "latitude": 48.0114,
-    "longitude": 23.5722
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Tiachiv",
       "url": "https://en.wikipedia.org/wiki/Tiachiv"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 48.0114,
+    "longitude": 23.5722
+  }
 }

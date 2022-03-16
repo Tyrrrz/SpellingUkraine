@@ -1,21 +1,21 @@
 {
   "category": "City",
-  "name": "Макарів",
+  "term": "Макарів",
   "translation": "Makariv",
-  "mistranslations": [
+  "mistakes": [
     "Makarov"
   ],
   "aliases": [
     "Макаров"
   ],
-  "location": {
-    "latitude": 50.4667,
-    "longitude": 29.8167
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Makariv",
       "url": "https://en.wikipedia.org/wiki/Makariv"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 50.4667,
+    "longitude": 29.8167
+  }
 }

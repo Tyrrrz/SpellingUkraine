@@ -1,21 +1,21 @@
 {
   "category": "City",
-  "name": "Братське",
+  "term": "Братське",
   "translation": "Bratske",
-  "mistranslations": [
+  "mistakes": [
     "Bratskoe"
   ],
   "aliases": [
     "Братское"
   ],
-  "location": {
-    "latitude": 47.8636,
-    "longitude": 31.5781
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Bratske",
       "url": "https://en.wikipedia.org/wiki/Bratske"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 47.8636,
+    "longitude": 31.5781
+  }
 }

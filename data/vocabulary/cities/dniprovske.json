@@ -1,22 +1,22 @@
 {
   "category": "City",
-  "name": "Дніпровське",
+  "term": "Дніпровське",
   "translation": "Dniprovske",
-  "mistranslations": [
+  "mistakes": [
     "Dnieprovskoe",
     "Dneprovskoye"
   ],
   "aliases": [
     "Днепровское"
   ],
-  "location": {
-    "latitude": 48.5953,
-    "longitude": 34.4207
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Dniprovske",
       "url": "https://en.wikipedia.org/wiki/Dniprovske"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 48.5953,
+    "longitude": 34.4207
+  }
 }

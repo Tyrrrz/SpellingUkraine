@@ -1,21 +1,21 @@
 {
   "category": "City",
-  "name": "Синельникове",
+  "term": "Синельникове",
   "translation": "Synelnykove",
-  "mistranslations": [
+  "mistakes": [
     "Sinelnikovo"
   ],
   "aliases": [
     "Синельниково"
   ],
-  "location": {
-    "latitude": 48.3178,
-    "longitude": 35.5119
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Synelnykove",
       "url": "https://en.wikipedia.org/wiki/Synelnykove"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 48.3178,
+    "longitude": 35.5119
+  }
 }

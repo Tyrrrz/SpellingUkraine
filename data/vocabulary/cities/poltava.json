@@ -1,17 +1,17 @@
 {
   "category": "City",
-  "name": "Полтава",
+  "term": "Полтава",
   "translation": "Poltava",
-  "mistranslations": [],
+  "mistakes": [],
   "aliases": [],
-  "location": {
-    "latitude": 49.5744,
-    "longitude": 34.5686
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Poltava",
       "url": "https://en.wikipedia.org/wiki/Poltava"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 49.5744,
+    "longitude": 34.5686
+  }
 }

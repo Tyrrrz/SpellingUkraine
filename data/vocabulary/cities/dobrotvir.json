@@ -1,22 +1,22 @@
 {
   "category": "City",
-  "name": "Добротвір",
+  "term": "Добротвір",
   "translation": "Dobrotvir",
-  "mistranslations": [
+  "mistakes": [
     "Dobrotvor"
   ],
   "aliases": [
     "Добротвор",
     "Dobrotwór"
   ],
-  "location": {
-    "latitude": 50.2056,
-    "longitude": 24.3864
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Dobrotvir",
       "url": "https://en.wikipedia.org/wiki/Dobrotvir"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 50.2056,
+    "longitude": 24.3864
+  }
 }

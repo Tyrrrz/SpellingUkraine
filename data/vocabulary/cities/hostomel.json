@@ -1,22 +1,22 @@
 {
   "category": "City",
-  "name": "Гостомель",
+  "term": "Гостомель",
   "translation": "Hostomel",
-  "mistranslations": [
+  "mistakes": [
     "Gostomel",
     "Hostemel"
   ],
   "aliases": [
     "Гостомель"
   ],
-  "location": {
-    "latitude": 50.5692,
-    "longitude": 30.2653
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Hostomel",
       "url": "https://en.wikipedia.org/wiki/Hostomel"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 50.5692,
+    "longitude": 30.2653
+  }
 }

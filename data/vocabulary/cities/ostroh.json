@@ -1,19 +1,19 @@
 {
   "category": "City",
-  "name": "Острог",
+  "term": "Острог",
   "translation": "Ostroh",
-  "mistranslations": [],
+  "mistakes": [],
   "aliases": [
     "Ostróg"
   ],
-  "location": {
-    "latitude": 50.3333,
-    "longitude": 26.5167
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Ostroh",
       "url": "https://en.wikipedia.org/wiki/Ostroh"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 50.3333,
+    "longitude": 26.5167
+  }
 }

@@ -1,8 +1,8 @@
 {
   "category": "City",
-  "name": "Первомайський",
+  "term": "Первомайський",
   "translation": "Pervomaiskyi",
-  "mistranslations": [
+  "mistakes": [
     "Pervomaysky",
     "Pervomayskyi",
     "Likhachove"
@@ -10,14 +10,14 @@
   "aliases": [
     "Первомайский"
   ],
-  "location": {
-    "latitude": 49.3869,
-    "longitude": 36.2142
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Pervomaiskyi",
       "url": "https://en.wikipedia.org/wiki/Pervomaiskyi"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 49.3869,
+    "longitude": 36.2142
+  }
 }

@@ -1,8 +1,8 @@
 {
   "category": "City",
-  "name": "Кривий Ріг",
+  "term": "Кривий Ріг",
   "translation": "Kryvyi Rih",
-  "mistranslations": [
+  "mistakes": [
     "Kryvyi Rig",
     "Kriviy Rig",
     "Krivoy Rog"
@@ -10,14 +10,14 @@
   "aliases": [
     "Кривой Рог"
   ],
-  "location": {
-    "latitude": 47.9086,
-    "longitude": 33.3433
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Kryvyi Rih",
       "url": "https://en.wikipedia.org/wiki/Kryvyi_Rih"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 47.9086,
+    "longitude": 33.3433
+  }
 }

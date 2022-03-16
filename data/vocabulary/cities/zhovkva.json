@@ -1,22 +1,22 @@
 {
   "category": "City",
-  "name": "Жовква",
+  "term": "Жовква",
   "translation": "Zhovkva",
-  "mistranslations": [
+  "mistakes": [
     "Zholkva"
   ],
   "aliases": [
     "Жолква",
     "Żółkiew"
   ],
-  "location": {
-    "latitude": 50.0667,
-    "longitude": 23.9667
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Zhovkva",
       "url": "https://en.wikipedia.org/wiki/Zhovkva"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 50.0667,
+    "longitude": 23.9667
+  }
 }

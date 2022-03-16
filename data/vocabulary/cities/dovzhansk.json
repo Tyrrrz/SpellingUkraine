@@ -1,23 +1,22 @@
 {
   "category": "City",
-  "name": "Довжанськ",
+  "term": "Довжанськ",
   "translation": "Dovzhansk",
-  "mistranslations": [
-    "Sverdlovsk"
-  ],
+  "mistakes": [],
   "aliases": [
     "Свердловськ",
-    "Свердловск"
+    "Свердловск",
+    "Sverdlovsk"
   ],
   "description": "Renamed from \"Sverdlovsk\" in May 2016.",
-  "location": {
-    "latitude": 48.0846,
-    "longitude": 39.6516
-  },
-  "externalLinks": [
+  "links": [
     {
       "name": "Wikipedia: Dovzhansk",
       "url": "https://en.wikipedia.org/wiki/Dovzhansk"
     }
-  ]
+  ],
+  "location": {
+    "latitude": 48.0846,
+    "longitude": 39.6516
+  }
 }
