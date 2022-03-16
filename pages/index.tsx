@@ -116,17 +116,17 @@ const HomePage: NextPage<StaticProps> = ({ vocabulary }) => {
             <Box type="p">
               Ukrainian language has a long and troubled history. Before it became independent,
               Ukraine had spent many decades occupied by the Russian-speaking Soviet Union and,
-              prior to that, Russian Empire. During this period, Ukrainian language faced
-              suppression and its speakers were victims of persecution and ridicule. The vast
-              majority of educational facilities and businesses at the time mandated the use of
-              Russian, which left no opportunities for other languages.
+              prior to that, the Russian Empire. During this period, Ukrainian faced suppression and
+              its speakers were victims of persecution and ridicule. The vast majority of
+              educational facilities and businesses at the time mandated the use of Russian, which
+              left no opportunities for other languages.
             </Box>
             <Box type="p">
-              As a result of this, names of Ukrainian cities, people, as well as many other words,
-              have made it into English based on their transliteration from the Russian language and
-              not Ukrainian. Considering Ukraine&apos;s desire to establish its own identity,
-              especially in the light of military aggression waged against it by Russia, the choice
-              of spelling has become more than just a preference, but a{' '}
+              As a result of this, Ukrainian place names, personal names, as well as many other
+              words, have made it into English based on their transliteration from the Russian
+              language instead of Ukrainian. Considering Ukraine&apos;s desire to establish its own
+              identity, especially in the light of military aggression waged against it by Russia,
+              the choice of spelling has become more than just a preference, but a{' '}
               <Box type="span" classes={['font-semibold']}>
                 political stance
               </Box>
