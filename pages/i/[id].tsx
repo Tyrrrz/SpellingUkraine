@@ -35,7 +35,11 @@ const EntryPage: NextPage<StaticProps> = ({ entry }) => {
               <Box>{entry.translation}</Box>
 
               {speech.available && (
-                <button title={`Pronounce "${entry.term}"`} onClick={() => speech.say(entry.term)}>
+                <button
+                  className={classNames('flex')}
+                  title={`Pronounce "${entry.term}"`}
+                  onClick={() => speech.say(entry.term)}
+                >
                   {speech.active ? <FiVolume2 strokeWidth={1} /> : <FiVolume1 strokeWidth={1} />}
                 </button>
               )}

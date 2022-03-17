@@ -315,14 +315,7 @@ export const transliterate = (text: string) => {
   let prev = '';
 
   for (const cur of text) {
-    const trans = transliterateChar(cur, prev);
-
-    if (trans !== null) {
-      result += trans;
-    } else {
-      return null;
-    }
-
+    result += transliterateChar(cur, prev) ?? cur;
     prev = cur;
   }
 
