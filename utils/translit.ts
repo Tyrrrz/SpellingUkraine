@@ -1,91 +1,329 @@
-// Ukrainian official transliteration is a simplified version of ALA-LC
-const table = new Map<string, string>();
-table.set(' ', ' ');
-table.set('а', 'a');
-table.set('б', 'b');
-table.set('в', 'v');
-table.set('г', 'h');
-table.set('ґ', 'g');
-table.set('д', 'd');
-table.set('е', 'e');
-table.set('є', 'ie');
-table.set('ж', 'zh');
-table.set('з', 'z');
-table.set('и', 'y');
-table.set('і', 'i');
-table.set('ї', 'i');
-table.set('й', 'i');
-table.set('к', 'k');
-table.set('л', 'l');
-table.set('м', 'm');
-table.set('н', 'n');
-table.set('о', 'o');
-table.set('п', 'p');
-table.set('р', 'r');
-table.set('с', 's');
-table.set('т', 't');
-table.set('у', 'u');
-table.set('ф', 'f');
-table.set('х', 'kh');
-table.set('ц', 'ts');
-table.set('ч', 'ch');
-table.set('ш', 'sh');
-table.set('щ', 'shch');
-table.set('ю', 'iu');
-table.set('я', 'ia');
-table.set('ь', '');
-table.set('А', 'A');
-table.set('Б', 'B');
-table.set('В', 'V');
-table.set('Г', 'H');
-table.set('Ґ', 'G');
-table.set('Д', 'D');
-table.set('Е', 'E');
-table.set('Є', 'Ye');
-table.set('Ж', 'Zh');
-table.set('З', 'Z');
-table.set('И', 'Y');
-table.set('І', 'I');
-table.set('Ї', 'Yi');
-table.set('Й', 'Yi');
-table.set('К', 'K');
-table.set('Л', 'L');
-table.set('М', 'M');
-table.set('Н', 'N');
-table.set('О', 'O');
-table.set('П', 'P');
-table.set('Р', 'R');
-table.set('С', 'S');
-table.set('Т', 'T');
-table.set('У', 'U');
-table.set('Ф', 'F');
-table.set('Х', 'Kh');
-table.set('Ц', 'Ts');
-table.set('Ч', 'Ch');
-table.set('Ш', 'Sh');
-table.set('Щ', 'Shch');
-table.set('Ю', 'Yu');
-table.set('Я', 'Ya');
-table.set('Ь', '');
-table.set("'", '');
+const transliterateChar = (cur: string, prev: string) => {
+  if (cur === ' ') {
+    return cur;
+  }
+
+  if (cur === 'а') {
+    return 'a';
+  }
+
+  if (cur === 'А') {
+    return 'A';
+  }
+
+  if (cur === 'б') {
+    return 'b';
+  }
+
+  if (cur === 'Б') {
+    return 'B';
+  }
+
+  if (cur === 'в') {
+    return 'v';
+  }
+
+  if (cur === 'В') {
+    return 'V';
+  }
+
+  if (cur === 'г') {
+    if (prev === 'з' || prev === 'З') {
+      return 'gh';
+    }
+
+    return 'h';
+  }
+
+  if (cur === 'Г') {
+    if (prev === 'з' || prev === 'З') {
+      return 'Gh';
+    }
+
+    return 'H';
+  }
+
+  if (cur === 'ґ') {
+    return 'g';
+  }
+
+  if (cur === 'Ґ') {
+    return 'G';
+  }
+
+  if (cur === 'д') {
+    return 'd';
+  }
+
+  if (cur === 'Д') {
+    return 'D';
+  }
+
+  if (cur === 'е') {
+    return 'e';
+  }
+
+  if (cur === 'Е') {
+    return 'E';
+  }
+
+  if (cur === 'є') {
+    if (!prev || prev === ' ') {
+      return 'ye';
+    }
+
+    return 'ie';
+  }
+
+  if (cur === 'Є') {
+    if (!prev || prev === ' ') {
+      return 'Ye';
+    }
+
+    return 'Ie';
+  }
+
+  if (cur === 'ж') {
+    return 'zh';
+  }
+
+  if (cur === 'Ж') {
+    return 'Zh';
+  }
+
+  if (cur === 'з') {
+    return 'z';
+  }
+
+  if (cur === 'З') {
+    return 'Z';
+  }
+
+  if (cur === 'и') {
+    return 'y';
+  }
+
+  if (cur === 'И') {
+    return 'Y';
+  }
+
+  if (cur === 'і') {
+    return 'i';
+  }
+
+  if (cur === 'І') {
+    return 'I';
+  }
+
+  if (cur === 'ї') {
+    return 'i';
+  }
+
+  if (cur === 'Ї') {
+    return 'Yi';
+  }
+
+  if (cur === 'й') {
+    if (!prev || prev === ' ') {
+      return 'yi';
+    }
+
+    return 'i';
+  }
+
+  if (cur === 'Й') {
+    if (!prev || prev === ' ') {
+      return 'Yi';
+    }
+
+    return 'I';
+  }
+
+  if (cur === 'к') {
+    return 'k';
+  }
+
+  if (cur === 'К') {
+    return 'K';
+  }
+
+  if (cur === 'л') {
+    return 'l';
+  }
+
+  if (cur === 'Л') {
+    return 'L';
+  }
+
+  if (cur === 'м') {
+    return 'm';
+  }
+
+  if (cur === 'М') {
+    return 'M';
+  }
+
+  if (cur === 'н') {
+    return 'n';
+  }
+
+  if (cur === 'Н') {
+    return 'N';
+  }
+
+  if (cur === 'о') {
+    return 'o';
+  }
+
+  if (cur === 'О') {
+    return 'O';
+  }
+
+  if (cur === 'п') {
+    return 'p';
+  }
+
+  if (cur === 'П') {
+    return 'P';
+  }
+
+  if (cur === 'р') {
+    return 'r';
+  }
+
+  if (cur === 'Р') {
+    return 'R';
+  }
+
+  if (cur === 'с') {
+    return 's';
+  }
+
+  if (cur === 'С') {
+    return 'S';
+  }
+
+  if (cur === 'т') {
+    return 't';
+  }
+
+  if (cur === 'Т') {
+    return 'T';
+  }
+
+  if (cur === 'у') {
+    return 'u';
+  }
+
+  if (cur === 'У') {
+    return 'U';
+  }
+
+  if (cur === 'ф') {
+    return 'f';
+  }
+
+  if (cur === 'Ф') {
+    return 'F';
+  }
+
+  if (cur === 'х') {
+    return 'kh';
+  }
+
+  if (cur === 'Х') {
+    return 'Kh';
+  }
+
+  if (cur === 'ц') {
+    return 'ts';
+  }
+
+  if (cur === 'Ц') {
+    return 'Ts';
+  }
+
+  if (cur === 'ч') {
+    return 'ch';
+  }
+
+  if (cur === 'Ч') {
+    return 'Ch';
+  }
+
+  if (cur === 'ш') {
+    return 'sh';
+  }
+
+  if (cur === 'Ш') {
+    return 'Sh';
+  }
+
+  if (cur === 'щ') {
+    return 'shch';
+  }
+
+  if (cur === 'Щ') {
+    return 'Shch';
+  }
+
+  if (cur === 'ю') {
+    if (!prev || prev === ' ') {
+      return 'yu';
+    }
+
+    return 'iu';
+  }
+
+  if (cur === 'Ю') {
+    if (!prev || prev === ' ') {
+      return 'Yu';
+    }
+
+    return 'Iu';
+  }
+
+  if (cur === 'я') {
+    if (!prev || prev === ' ') {
+      return 'ya';
+    }
+
+    return 'ia';
+  }
+
+  if (cur === 'Я') {
+    if (!prev || prev === ' ') {
+      return 'Ya';
+    }
+
+    return 'Ia';
+  }
+
+  if (cur === 'ь' || cur === 'Ь') {
+    return '';
+  }
+
+  if (cur === "'") {
+    return '';
+  }
+
+  return null;
+};
 
 export const transliterate = (text: string) => {
   let result = '';
-  let last = '';
+  let prev = '';
 
-  for (const c of text) {
-    // Special case for 'ЗГ' compound
-    if (last.toLowerCase() === 'з' && c.toLowerCase() === 'г') {
-      result += 'gh';
+  for (const cur of text) {
+    const trans = transliterateChar(cur, prev);
+
+    if (trans !== null) {
+      result += trans;
     } else {
-      if (!table.has(c)) {
-        return null;
-      }
-
-      result += table.get(c);
+      return null;
     }
 
-    last = c;
+    prev = cur;
   }
 
   return result;
