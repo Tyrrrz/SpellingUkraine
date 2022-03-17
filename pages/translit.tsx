@@ -10,9 +10,7 @@ const TranslitPage: NextPage = () => {
   const [source, setSource] = React.useState('');
   const [output, setOutput] = React.useState('');
 
-  React.useEffect(() => {
-    setOutput(transliterate(source) || source);
-  }, [source]);
+  React.useEffect(() => setOutput(transliterate(source)), [source]);
 
   return (
     <>
