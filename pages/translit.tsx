@@ -43,7 +43,7 @@ const TranslitPage: NextPage = () => {
             )}
             value={source}
             onChange={(e) => setSource(e.target.value)}
-            placeholder="Type Ukrainian text here"
+            placeholder="Type in Ukrainian here"
             rows={5}
             autoFocus
           />
@@ -69,7 +69,7 @@ const TranslitPage: NextPage = () => {
               'bg-transparent'
             )}
             value={output}
-            placeholder="Output text will be here"
+            placeholder="Output will be here"
             rows={5}
             readOnly
           />

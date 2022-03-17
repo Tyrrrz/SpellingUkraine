@@ -2,7 +2,7 @@ import classNames from 'classnames';
 import type { GetStaticProps, NextPage } from 'next';
 import { useRouter } from 'next/router';
 import React from 'react';
-import { FiCornerDownLeft, FiFrown, FiHeart, FiLoader, FiSearch } from 'react-icons/fi';
+import { FiCornerDownLeft, FiFrown, FiHeart, FiLoader, FiSearch, FiTarget } from 'react-icons/fi';
 import { Box } from '../components/box';
 import { HStack } from '../components/hstack';
 import { Link } from '../components/link';
@@ -73,7 +73,16 @@ const HomePage: NextPage<StaticProps> = ({ vocabulary }) => {
         </Box>
       </form>
 
-      <Box classes={['m-1', 'text-right', 'text-sm', 'text-light', 'text-neutral-600']}>
+      <Box
+        classes={[
+          'm-1',
+          'text-center',
+          'lg:text-right',
+          'text-sm',
+          'text-light',
+          'text-neutral-600'
+        ]}
+      >
         Need to transliterate arbitrary text? <Link href="/translit">Click here</Link>
       </Box>
 
@@ -84,29 +93,32 @@ const HomePage: NextPage<StaticProps> = ({ vocabulary }) => {
               <Link key={result.entry.id} href={`/i/${result.entry.id}`}>
                 <Box
                   classes={[
+                    'flex',
+                    'flex-col',
+                    'h-full',
                     'p-4',
-                    'bg-neutral-100',
                     'border-2',
                     'border-neutral-400',
                     'hover:border-blue-500',
-                    'rounded'
+                    'rounded',
+                    'bg-neutral-100',
+                    'place-content-center'
                   ]}
                 >
-                  <HStack gap="medium">
-                    <Box classes={['text-xl']}>{result.entry.translation}</Box>
-
-                    {result.match.on === 'aliases' && (
-                      <Box classes={['font-light']}>
-                        {'('}
-                        {result.match.source}
-                        {')'}
-                      </Box>
-                    )}
-                  </HStack>
+                  <Box classes={['text-xl']}>{result.entry.translation}</Box>
 
                   <Box classes={['text-lg', 'font-light']}>
                     {result.entry.term} • {result.entry.category}
                   </Box>
+
+                  {result.match.on !== 'term' && result.match.on !== 'translation' && (
+                    <Box classes={['mt-1', 'text-sm', 'font-light']}>
+                      <HStack>
+                        <FiTarget strokeWidth={1} />
+                        <Box>Matched on {result.match.source}</Box>
+                      </HStack>
+                    </Box>
+                  )}
                 </Box>
               </Link>
             ))}
