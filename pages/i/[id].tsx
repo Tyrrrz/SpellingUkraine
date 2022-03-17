@@ -1,11 +1,11 @@
 import classNames from 'classnames';
 import { GetStaticPaths, GetStaticProps, NextPage } from 'next';
-import Image from 'next/image';
 import { Map, Marker } from 'pigeon-maps';
 import React from 'react';
 import { FiCheck, FiEdit3, FiExternalLink, FiMap, FiVolume1, FiVolume2, FiX } from 'react-icons/fi';
 import { Box } from '../../components/box';
 import { HStack } from '../../components/hstack';
+import { Image } from '../../components/image';
 import { Link } from '../../components/link';
 import { Meta } from '../../components/meta';
 import { Paper } from '../../components/paper';
@@ -111,11 +111,11 @@ const EntryPage: NextPage<StaticProps> = ({ entry }) => {
 
               <Box>
                 <Map
+                  defaultCenter={[entry.location.latitude, entry.location.longitude]}
+                  defaultZoom={6}
                   height={400}
                   mouseEvents={false}
                   touchEvents={false}
-                  defaultCenter={[entry.location.latitude, entry.location.longitude]}
-                  defaultZoom={6}
                 >
                   <Marker
                     color="#0ea5e9"
@@ -145,14 +145,8 @@ const EntryPage: NextPage<StaticProps> = ({ entry }) => {
             <Box>
               <SectionHeader>Image</SectionHeader>
 
-              <Box classes={['relative', 'w-full', 'h-[400px]']}>
-                <Image
-                  src={entry.image.url}
-                  alt={entry.image.name}
-                  layout="fill"
-                  objectFit="contain"
-                  objectPosition="left top"
-                />
+              <Box>
+                <Image src={entry.image.url} alt={entry.image.name} height={400} />
               </Box>
             </Box>
           )}

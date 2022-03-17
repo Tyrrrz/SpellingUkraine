@@ -1,5 +1,5 @@
 import classNames from 'classnames';
-import LocalLink from 'next/link';
+import NextLink from 'next/link';
 
 interface LinkProps {
   href: string;
@@ -19,11 +19,11 @@ export const Link: React.FC<LinkProps> = ({ href, emphasize = true, children, ..
     );
   } else {
     return (
-      <LocalLink href={href} passHref>
+      <NextLink href={href} passHref>
         <a {...props} className={className}>
           {children}
         </a>
-      </LocalLink>
+      </NextLink>
     );
   }
 };
