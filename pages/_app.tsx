@@ -64,7 +64,7 @@ const Main: React.FC = ({ children }) => {
       ]}
     >
       <Box type="main" classes={['container', 'mx-auto']}>
-        {router.asPath !== '/' && (
+        {router.route !== '/' && (
           <Box classes={['max-w-max', 'mb-4']}>
             <Link href="/">
               <HStack>
