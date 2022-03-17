@@ -26,9 +26,8 @@ const HomePage: NextPage<StaticProps> = ({ vocabulary }) => {
     [
       'Press ENTER to instantly navigate to the first result',
       `There are currently ${vocabulary.length} entries in this vocabulary`,
-      'All vocabulary entries have been carefully reviewed by humans',
-      'You can search by incorrect translations as well (e.g. "Kiev")',
-      'You can search in different languages (where applicable)',
+      'You can search using incorrect spelling as well (e.g. "Kiev")',
+      'You can search in English, Ukrainian, and other languages',
       'You can install this app as PWA on your device',
       'Not sure what to search for? Try "Kyiv"',
       'Not sure what to search for? Try "Ukraine"',
@@ -130,10 +129,10 @@ const HomePage: NextPage<StaticProps> = ({ vocabulary }) => {
             <Box type="p">
               Ukrainian language has a long and troubled history. Before it became independent,
               Ukraine had spent many decades occupied by the Russian-speaking Soviet Union and,
-              prior to that, the Russian Empire. During this period, Ukrainian faced suppression and
-              its speakers were victims of persecution and ridicule. The vast majority of
-              educational facilities and businesses at the time mandated the use of Russian, which
-              left no opportunities for other languages.
+              prior to that, the Russian Empire. During this period, the Ukrainian language faced
+              suppression and its speakers were victims of persecution and ridicule. The vast
+              majority of educational facilities and businesses at the time mandated the use of
+              Russian, which left no opportunities for other languages.
             </Box>
             <Box type="p">
               As a result of this, Ukrainian place names, personal names, as well as many other

@@ -145,7 +145,7 @@ const EntryPage: NextPage<StaticProps> = ({ entry }) => {
             <Box>
               <SectionHeader>Image</SectionHeader>
 
-              <Box>
+              <Box type="figure">
                 <Image src={entry.image.url} alt={entry.image.name} height={400} />
               </Box>
             </Box>
