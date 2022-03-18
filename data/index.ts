@@ -1,5 +1,6 @@
 import fs from 'fs';
 import path from 'path';
+import { getRootDirPath } from './utils/fs';
 
 export interface VocabularyEntry {
   id: string;
@@ -30,7 +31,7 @@ export interface VocabularyEntry {
 }
 
 export const getVocabulary = () => {
-  const dirPath = path.resolve(path.dirname(require.resolve('./package.json')), './vocabulary');
+  const dirPath = path.resolve(getRootDirPath(), 'data', 'vocabulary');
 
   return fs
     .readdirSync(dirPath, { withFileTypes: true })
