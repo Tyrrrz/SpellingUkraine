@@ -3,6 +3,7 @@ import { GetStaticPaths, GetStaticProps, NextPage } from 'next';
 import { Map, Marker } from 'pigeon-maps';
 import React from 'react';
 import { FiCheck, FiEdit3, FiExternalLink, FiMap, FiVolume1, FiVolume2, FiX } from 'react-icons/fi';
+import { getVocabulary, getVocabularyEntry, VocabularyEntry } from 'spelling-ukraine-data';
 import { Box } from '../../components/box';
 import { HStack } from '../../components/hstack';
 import { Image } from '../../components/image';
@@ -11,7 +12,6 @@ import { Meta } from '../../components/meta';
 import { Paper } from '../../components/paper';
 import { SectionHeader } from '../../components/sectionHeader';
 import { useSpeech } from '../../components/useSpeech';
-import { getVocabulary, getVocabularyEntry, VocabularyEntry } from '../../data/vocabulary';
 
 interface StaticProps {
   entry: VocabularyEntry;

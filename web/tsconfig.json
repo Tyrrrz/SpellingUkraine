@@ -6,9 +6,9 @@
       "dom.iterable",
       "esnext"
     ],
+    "jsx": "preserve",
     "module": "esnext",
     "moduleResolution": "node",
-    "jsx": "preserve",
     "allowJs": true,
     "strict": true,
     "noImplicitReturns": true,
@@ -22,7 +22,6 @@
     "isolatedModules": true
   },
   "include": [
-    "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx"
   ],

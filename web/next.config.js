@@ -1,6 +1,8 @@
-const webpack = require('webpack');
 const { spawnSync } = require('child_process');
+const webpack = require('webpack');
+const withPlugins = require('next-compose-plugins');
 const withPWA = require('next-pwa');
+const withTM = require('next-transpile-modules');
 const runtimeCaching = require('next-pwa/cache');
 
 /** @type {import('next').NextConfig} */
@@ -29,11 +31,18 @@ const nextConfig = {
   }
 };
 
-module.exports = withPWA({
-  ...nextConfig,
-  pwa: {
-    dest: 'public',
-    disable: process.env.NODE_ENV === 'development',
-    runtimeCaching
-  }
-});
+module.exports = withPlugins(
+  [
+    withTM(['spelling-ukraine-data']),
+
+    withPWA,
+    {
+      pwa: {
+        dest: 'public',
+        disable: process.env.NODE_ENV === 'development',
+        runtimeCaching
+      }
+    }
+  ],
+  nextConfig
+);

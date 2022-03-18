@@ -14,13 +14,18 @@
 
 ## Building locally
 
-1. Ensure you have latest versions of NodeJS and Yarn installed
-2. Clone this repository
-3. Run `yarn` to download dependencies
-4. Run `yarn dev` to run the project locally
-5. Application should be available on `http://localhost:3000`
+Prerequisites:
 
-See `package.json` for other available commands.
+- NodeJS
+- Yarn
+
+To start the web application, run:
+
+1. `cd web`
+2. `yarn install`
+3. `yarn dev`
+
+Application should be available on `http://localhost:3000`
 
 ## Contributing to the vocabulary
 

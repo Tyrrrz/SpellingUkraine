@@ -1,0 +1,35 @@
+{
+  "name": "spelling-ukraine-web",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "classnames": "^2.3.1",
+    "next": "^12.1.0",
+    "next-compose-plugins": "^2.2.1",
+    "next-pwa": "^5.4.6",
+    "next-transpile-modules": "^9.0.0",
+    "pigeon-maps": "^0.21.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-icons": "^4.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.21",
+    "@types/react": "^17.0.39",
+    "autoprefixer": "^10.4.2",
+    "eslint": "^8.10.0",
+    "eslint-config-next": "^12.1.0",
+    "postcss": "^8.4.8",
+    "prettier": "^2.5.1",
+    "prettier-plugin-organize-imports": "^2.3.4",
+    "spelling-ukraine-data": "^1.0.0",
+    "tailwindcss": "^3.0.23",
+    "typescript": "^4.6.2"
+  }
+}

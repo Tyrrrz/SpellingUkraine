@@ -8,7 +8,7 @@ import { HStack } from '../components/hstack';
 import { Link } from '../components/link';
 import { useSessionState } from '../components/useSessionState';
 import { useVocabularySearch } from '../components/useVocabularySearch';
-import { getVocabulary, VocabularyEntry } from '../data/vocabulary';
+import { getVocabulary, VocabularyEntry } from 'spelling-ukraine-data';
 
 interface StaticProps {
   vocabulary: VocabularyEntry[];
