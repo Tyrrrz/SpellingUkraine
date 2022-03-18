@@ -15,5 +15,9 @@ export const getRootDirPath = () => {
     }
 
     dirPath = path.resolve(dirPath, '..');
+
+    if (path.parse(dirPath).root === dirPath) {
+      throw new Error('Could not find root package.json');
+    }
   }
 };
