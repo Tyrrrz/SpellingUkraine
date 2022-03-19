@@ -39,7 +39,9 @@ const main = async () => {
   // Only include a subset of the vocabulary to reduce tweet volume.
   // Also don't include 'ukraine' because 'the ukraine' triggers many false positives.
   const predicates = getVocabulary()
-    .filter((entry) => ['kyiv', 'lviv', 'odesa', 'mykolaiv', 'slava_ukraini'].includes(entry.id))
+    .filter((entry) =>
+      ['kyiv', 'lviv', 'odesa', 'mykolaiv', 'chornobyl', 'slava_ukraini'].includes(entry.id)
+    )
     .flatMap((entry) =>
       entry.mistakes.map((mistake) => ({
         entryId: entry.id,
