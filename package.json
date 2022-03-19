@@ -2,7 +2,12 @@
   "name": "root",
   "private": true,
   "workspaces": [
+    "bot-twitter",
     "data",
     "web"
-  ]
+  ],
+  "scripts": {
+    "start:bot-twitter": "cd bot-twitter && npm start",
+    "start:web": "cd web && npm start"
+  }
 }

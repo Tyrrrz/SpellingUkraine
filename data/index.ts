@@ -1,6 +1,6 @@
 import fs from 'fs';
 import path from 'path';
-import { getRootDirPath } from './utils/fs';
+import { getRootDirPath } from './utils/path';
 
 export interface VocabularyEntry {
   id: string;
@@ -36,13 +36,12 @@ export const getVocabulary = () => {
   return fs
     .readdirSync(dirPath, { withFileTypes: true })
     .filter((dirent) => dirent.isDirectory())
-    .map((dirent) =>
+    .flatMap((dirent) =>
       fs
         .readdirSync(path.resolve(dirPath, dirent.name))
         .filter((fileName) => fileName.endsWith('.json'))
         .map((fileName) => path.resolve(dirPath, dirent.name, fileName))
     )
-    .reduce((acc, val) => acc.concat(val), [])
     .map(
       (filePath) =>
         <VocabularyEntry>{
