@@ -7,7 +7,7 @@
     "web"
   ],
   "scripts": {
-    "start:bot-twitter": "cd bot-twitter && npm start",
-    "start:web": "cd web && npm start"
+    "start:bot-twitter": "cd bot-twitter && npm run start",
+    "start:web": "cd web && npm run dev"
   }
 }
