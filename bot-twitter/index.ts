@@ -63,10 +63,7 @@ const main = async () => {
       '-is:retweet',
       '-is:quote',
       '-from:SpellingUkraine',
-      `(${predicates
-        .flatMap((predicate) => predicate.mistake)
-        .map((keyword) => '"' + keyword + '"')
-        .join(' OR ')})`
+      `(${predicates.map((predicate) => '"' + predicate.mistake + '"').join(' OR ')})`
     ].join(' ')
   );
 
@@ -82,6 +79,13 @@ const main = async () => {
 
     if (matchedPredicate) {
       console.log('Matched predicate', matchedPredicate);
+
+      // Don't trigger if the tweet contains both the correct and the incorrect spelling.
+      // If that's the case it's probably another tweet correcting the mistake for us.
+      if (tweet.data.text.toLowerCase().includes(matchedPredicate.correct.toLowerCase())) {
+        console.log('Tweet contains both correct and incorrect spelling, skipping');
+        continue;
+      }
 
       const reply = await twitterBot.reply(
         [
