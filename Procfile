@@ -1,1 +1,1 @@
-worker: yarn install && npm run start:bot-twitter
+worker: npm i ts-node --global && npm run start:bot-twitter
