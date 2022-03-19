@@ -61,7 +61,7 @@ const main = async () => {
   const stream = await streamTweets(
     [
       'lang:en',
-      'sample:15',
+      'sample:5',
       '-is:retweet',
       '-is:quote',
       '-from:SpellingUkraine',
