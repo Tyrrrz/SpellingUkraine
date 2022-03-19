@@ -19,13 +19,17 @@ Prerequisites:
 - NodeJS
 - Yarn
 
-To start the web application, run:
+Before doing anything, install dependencies by running:
 
-1. `cd web`
-2. `yarn install`
-3. `yarn dev`
+```
+yarn install
+```
 
-Application should be available on `http://localhost:3000`
+To start the web app locally, run:
+
+```
+yarn start:web
+```
 
 ## Contributing to the vocabulary
 
