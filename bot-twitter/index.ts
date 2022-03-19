@@ -53,7 +53,7 @@ const main = async () => {
       // Only include significant mistakes, to avoid matching on benign typos
       (predicate) =>
         levenshtein(predicate.correct.toLowerCase(), predicate.mistake.toLowerCase()).relative >=
-        0.15
+        0.1
     );
 
   console.log('Predicates', predicates);
