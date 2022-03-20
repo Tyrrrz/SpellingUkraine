@@ -21,7 +21,7 @@ const setStorageItem = (key: string, value: any) => {
   sessionStorage.setItem(key, JSON.stringify(value));
 };
 
-export const useSessionState = <T>(key: string, initialValue: T) => {
+const useSessionState = <T>(key: string, initialValue: T) => {
   const [value, setValue] = React.useState<T>(() => {
     return getStorageItem(key) ?? initialValue;
   });
@@ -30,3 +30,5 @@ export const useSessionState = <T>(key: string, initialValue: T) => {
 
   return [value, setValue] as const;
 };
+
+export default useSessionState;

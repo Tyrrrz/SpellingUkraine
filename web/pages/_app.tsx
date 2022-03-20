@@ -2,10 +2,10 @@ import type { AppProps } from 'next/app';
 import { useRouter } from 'next/router';
 import Script from 'next/script';
 import { FiAward, FiChevronLeft, FiGithub, FiHeart } from 'react-icons/fi';
-import { Box } from '../components/box';
-import { HStack } from '../components/hstack';
-import { Link } from '../components/link';
-import { Meta } from '../components/meta';
+import Box from '../components/box';
+import HStack from '../components/hstack';
+import Link from '../components/link';
+import Meta from '../components/meta';
 import { getGoogleAnalyticsToken, getBuildId } from '../utils/env';
 import './globals.css';
 

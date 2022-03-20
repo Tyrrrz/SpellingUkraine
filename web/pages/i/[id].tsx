@@ -3,15 +3,15 @@ import { GetStaticPaths, GetStaticProps, NextPage } from 'next';
 import { Map, Marker } from 'pigeon-maps';
 import React from 'react';
 import { FiCheck, FiEdit3, FiExternalLink, FiMap, FiVolume1, FiVolume2, FiX } from 'react-icons/fi';
-import { getVocabulary, getVocabularyEntry, VocabularyEntry } from 'spelling-ukraine-data';
-import { Box } from '../../components/box';
-import { HStack } from '../../components/hstack';
-import { Image } from '../../components/image';
-import { Link } from '../../components/link';
-import { Meta } from '../../components/meta';
-import { Paper } from '../../components/paper';
-import { SectionHeader } from '../../components/sectionHeader';
-import { useSpeech } from '../../components/useSpeech';
+import { loadVocabulary, loadVocabularyEntry, VocabularyEntry } from 'spelling-ukraine-data';
+import Box from '../../components/box';
+import HStack from '../../components/hstack';
+import Image from '../../components/image';
+import Link from '../../components/link';
+import Meta from '../../components/meta';
+import Paper from '../../components/paper';
+import SectionHeader from '../../components/sectionHeader';
+import useSpeech from '../../components/useSpeech';
 
 interface StaticProps {
   entry: VocabularyEntry;
@@ -38,7 +38,7 @@ const EntryPage: NextPage<StaticProps> = ({ entry }) => {
                 <button
                   className={classNames('flex')}
                   title={`Pronounce "${entry.term}"`}
-                  onClick={() => speech.say(entry.term)}
+                  onClick={() => speech.speak(entry.term)}
                 >
                   {speech.active ? <FiVolume2 strokeWidth={1} /> : <FiVolume1 strokeWidth={1} />}
                 </button>
@@ -159,7 +159,7 @@ const EntryPage: NextPage<StaticProps> = ({ entry }) => {
 
 export const getStaticPaths: GetStaticPaths = () => {
   return {
-    paths: getVocabulary().map((entry) => ({
+    paths: loadVocabulary().map((entry) => ({
       params: { id: entry.id }
     })),
     fallback: false
@@ -171,7 +171,7 @@ export const getStaticProps: GetStaticProps<StaticProps> = ({ params }) => {
 
   return {
     props: {
-      entry: getVocabularyEntry(id)
+      entry: loadVocabularyEntry(id)
     }
   };
 };

@@ -1,6 +1,6 @@
-import { Box } from './box';
+import Box from './box';
 
-export const SectionHeader: React.FC = ({ children }) => {
+const SectionHeader: React.FC = ({ children }) => {
   return (
     <>
       <Box classes={['flex', 'my-2', 'items-center', 'gap-2', 'text-lg', 'font-light']}>
@@ -13,3 +13,5 @@ export const SectionHeader: React.FC = ({ children }) => {
     </>
   );
 };
+
+export default SectionHeader;

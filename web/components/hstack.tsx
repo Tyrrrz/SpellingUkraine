@@ -1,4 +1,4 @@
-import { Box } from './box';
+import Box from './box';
 
 interface HStackProps {
   wrap?: boolean;
@@ -6,7 +6,7 @@ interface HStackProps {
   gap?: 'small' | 'medium' | 'large';
 }
 
-export const HStack: React.FC<HStackProps> = ({
+const HStack: React.FC<HStackProps> = ({
   wrap = false,
   align = 'center',
   gap = 'small',
@@ -32,3 +32,5 @@ export const HStack: React.FC<HStackProps> = ({
     </Box>
   );
 };
+
+export default HStack;

@@ -3,12 +3,12 @@ import type { GetStaticProps, NextPage } from 'next';
 import { useRouter } from 'next/router';
 import React from 'react';
 import { FiCornerDownLeft, FiFrown, FiHeart, FiLoader, FiSearch, FiTarget } from 'react-icons/fi';
-import { Box } from '../components/box';
-import { HStack } from '../components/hstack';
-import { Link } from '../components/link';
-import { useSessionState } from '../components/useSessionState';
-import { useVocabularySearch } from '../components/useVocabularySearch';
-import { getVocabulary, VocabularyEntry } from 'spelling-ukraine-data';
+import Box from '../components/box';
+import HStack from '../components/hstack';
+import Link from '../components/link';
+import useSessionState from '../components/useSessionState';
+import useVocabularySearch from '../components/useVocabularySearch';
+import { loadVocabulary, VocabularyEntry } from 'spelling-ukraine-data';
 
 interface StaticProps {
   vocabulary: VocabularyEntry[];
@@ -191,7 +191,7 @@ const HomePage: NextPage<StaticProps> = ({ vocabulary }) => {
 export const getStaticProps: GetStaticProps<StaticProps> = () => {
   return {
     props: {
-      vocabulary: getVocabulary()
+      vocabulary: loadVocabulary()
     }
   };
 };

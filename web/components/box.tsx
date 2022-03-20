@@ -6,7 +6,9 @@ interface BoxProps {
   classes?: ClassName[];
 }
 
-export const Box: React.FC<BoxProps> = ({ type, classes, children }) => {
+const Box: React.FC<BoxProps> = ({ type, classes, children }) => {
   const className = classes && classes.length > 0 ? classNames(...classes) : undefined;
   return React.createElement(type || 'div', { className }, children);
 };
+
+export default Box;

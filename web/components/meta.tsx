@@ -8,7 +8,7 @@ interface MetaProps {
   imageUrl?: string;
 }
 
-export const Meta: React.FC<MetaProps> = ({ title, description, keywords, imageUrl }) => {
+const Meta: React.FC<MetaProps> = ({ title, description, keywords, imageUrl }) => {
   const actualTitle = title ? title + ' • Spelling Ukraine' : 'Spelling Ukraine';
 
   const actualDescription =
@@ -44,3 +44,5 @@ export const Meta: React.FC<MetaProps> = ({ title, description, keywords, imageU
     </Head>
   );
 };
+
+export default Meta;

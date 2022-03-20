@@ -6,7 +6,7 @@ interface LinkProps {
   emphasize?: boolean;
 }
 
-export const Link: React.FC<LinkProps> = ({ href, emphasize = true, children, ...props }) => {
+const Link: React.FC<LinkProps> = ({ href, emphasize = true, children, ...props }) => {
   const isAbsolute = /^[a-z][a-z\d+\-.]*:/iu.test(href);
 
   const className = classNames('hover:text-blue-500', { 'font-semibold': emphasize });
@@ -27,3 +27,5 @@ export const Link: React.FC<LinkProps> = ({ href, emphasize = true, children, ..
     );
   }
 };
+
+export default Link;

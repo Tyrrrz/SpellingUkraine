@@ -1,7 +1,7 @@
 import type { NextPage } from 'next';
-import { Box } from '../components/box';
-import { Meta } from '../components/meta';
-import { Paper } from '../components/paper';
+import Box from '../components/box';
+import Meta from '../components/meta';
+import Paper from '../components/paper';
 
 const NotFoundPage: NextPage = () => {
   return (

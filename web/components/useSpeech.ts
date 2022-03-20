@@ -20,7 +20,7 @@ const resolveVoices = () => {
   });
 };
 
-const say = (text: string, voice?: SpeechSynthesisVoice) => {
+const speak = (text: string, voice?: SpeechSynthesisVoice) => {
   return new Promise<void>((resolve) => {
     if (typeof window === 'undefined' || !speechSynthesis) {
       resolve();
@@ -43,7 +43,7 @@ const say = (text: string, voice?: SpeechSynthesisVoice) => {
   });
 };
 
-export const useSpeech = () => {
+const useSpeech = () => {
   const [voice, setVoice] = React.useState<SpeechSynthesisVoice>();
   const [active, setActive] = React.useState(false);
 
@@ -62,13 +62,15 @@ export const useSpeech = () => {
   return {
     available: !!voice,
     active,
-    say: (text: string) => {
+    speak: (text: string) => {
       if (!voice) {
         return;
       }
 
       setActive(true);
-      say(text, voice).finally(() => setActive(false));
+      speak(text, voice).finally(() => setActive(false));
     }
   };
 };
+
+export default useSpeech;

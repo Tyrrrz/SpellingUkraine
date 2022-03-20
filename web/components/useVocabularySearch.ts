@@ -1,6 +1,6 @@
 import React from 'react';
 import type { VocabularyEntry } from 'spelling-ukraine-data';
-import { useDebouncedValue } from './useDebouncedValue';
+import useDebouncedValue from './useDebouncedValue';
 
 export interface SearchMatch {
   on: keyof VocabularyEntry;
@@ -78,7 +78,7 @@ const resolveMatch = (entry: VocabularyEntry, query: string): SearchMatch | null
   return null;
 };
 
-export const resolveResults = (vocabulary: VocabularyEntry[], query: string) => {
+const resolveResults = (vocabulary: VocabularyEntry[], query: string) => {
   // TODO: Use a trie or something
   if (!query) {
     return [];
@@ -96,7 +96,7 @@ export const resolveResults = (vocabulary: VocabularyEntry[], query: string) => 
   return results.sort((a, b) => b.match.quality - a.match.quality).slice(0, 10);
 };
 
-export const useVocabularySearch = (vocabulary: VocabularyEntry[], query: string) => {
+const useVocabularySearch = (vocabulary: VocabularyEntry[], query: string) => {
   const [results, setResults] = React.useState<SearchResult[]>([]);
   const debouncedQuery = useDebouncedValue(query, 500);
 
@@ -110,3 +110,5 @@ export const useVocabularySearch = (vocabulary: VocabularyEntry[], query: string
     results
   };
 };
+
+export default useVocabularySearch;

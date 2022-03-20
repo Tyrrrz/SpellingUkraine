@@ -1,8 +1,8 @@
 import type { NextPage } from 'next';
-import { Box } from '../components/box';
-import { Link } from '../components/link';
-import { Meta } from '../components/meta';
-import { Paper } from '../components/paper';
+import Box from '../components/box';
+import Link from '../components/link';
+import Meta from '../components/meta';
+import Paper from '../components/paper';
 
 const AttributionsPage: NextPage = () => {
   return (

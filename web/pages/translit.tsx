@@ -1,9 +1,9 @@
 import classNames from 'classnames';
 import { NextPage } from 'next';
 import React from 'react';
-import { Box } from '../components/box';
-import { Meta } from '../components/meta';
-import { Paper } from '../components/paper';
+import Box from '../components/box';
+import Meta from '../components/meta';
+import Paper from '../components/paper';
 import { transliterate } from '../utils/translit';
 
 const TranslitPage: NextPage = () => {

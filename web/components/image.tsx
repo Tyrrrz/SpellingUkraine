@@ -8,7 +8,7 @@ interface ImageProps {
   height?: number;
 }
 
-export const Image: React.FC<ImageProps> = ({ src, alt, width, height }) => {
+const Image: React.FC<ImageProps> = ({ src, alt, width, height }) => {
   const [actualWidth, setActualWidth] = React.useState(width);
   const [actualHeight, setActualHeight] = React.useState(height);
 
@@ -34,3 +34,5 @@ export const Image: React.FC<ImageProps> = ({ src, alt, width, height }) => {
     />
   );
 };
+
+export default Image;

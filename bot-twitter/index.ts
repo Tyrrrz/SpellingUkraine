@@ -1,9 +1,9 @@
-import { getVocabulary, VocabularyEntry } from 'spelling-ukraine-data';
+import { loadVocabulary, VocabularyEntry } from 'spelling-ukraine-data';
 import twitter from './twitter';
 
 // Only include a subset of the vocabulary to reduce tweet volume.
 // Also don't include 'ukraine' because 'the ukraine' triggers many false positives.
-const vocabulary = getVocabulary().filter((entry) =>
+const vocabulary = loadVocabulary().filter((entry) =>
   ['kyiv', 'lviv', 'odesa', 'mykolaiv', 'chornobyl', 'slava_ukraini', 'heroiam_slava'].includes(
     entry.id
   )

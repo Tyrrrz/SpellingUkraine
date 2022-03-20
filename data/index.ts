@@ -30,7 +30,7 @@ export interface VocabularyEntry {
   };
 }
 
-export const getVocabulary = () => {
+export const loadVocabulary = () => {
   const dirPath = path.resolve(getRootDirPath(), 'data', 'vocabulary');
 
   return fs
@@ -55,8 +55,8 @@ export const getVocabulary = () => {
     );
 };
 
-export const getVocabularyEntry = (id: string) => {
-  const entry = getVocabulary().find((entry) => entry.id === id);
+export const loadVocabularyEntry = (id: string) => {
+  const entry = loadVocabulary().find((entry) => entry.id === id);
 
   if (!entry) {
     throw new Error(`Vocabulary entry with ID '${id}' not found`);
