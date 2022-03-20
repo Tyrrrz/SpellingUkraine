@@ -10,7 +10,7 @@ const vocabulary = loadVocabulary().filter((entry) =>
 );
 
 const resolveMatch = (entry: VocabularyEntry, text: string) => {
-  for (const mistake in entry.mistakes) {
+  for (const mistake of entry.mistakes) {
     // Don't trigger if the tweet contains both the correct and the incorrect spelling.
     // If that's the case it's probably another tweet correcting the mistake for us.
     if (
@@ -84,6 +84,8 @@ const main = async () => {
   ].join(' ');
 
   for await (const tweet of await twitter.stream(tweetFilter)) {
+    console.log('~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~');
+
     console.log('Tweet', {
       url: `https://twitter.com/i/web/status/${tweet.data.id}`,
       ...tweet.data
