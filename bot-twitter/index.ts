@@ -71,6 +71,8 @@ const formatMatchReply = ({ entry, mistake }: { entry: VocabularyEntry; mistake:
 };
 
 const main = async () => {
+  console.log('Twitter bot is starting...');
+
   const tweetFilter = [
     'lang:en',
     'sample:5',
