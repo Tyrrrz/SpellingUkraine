@@ -1,3 +1,7 @@
+export const getEnvironment = () => {
+  return process.env.NODE_ENV;
+};
+
 export const getBuildId = () => {
   return process.env.NEXT_PUBLIC_BUILD_ID;
 };
@@ -22,6 +26,10 @@ export const getAbsoluteUrl = (path: string) => {
   return path;
 };
 
-export const getAnalyticsDsn = () => {
-  return process.env.NEXT_PUBLIC_ANALYTICS_DSN;
+export const getGoogleAnalyticsToken = () => {
+  if (getEnvironment() !== 'production') {
+    return null;
+  }
+
+  return process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_TOKEN;
 };

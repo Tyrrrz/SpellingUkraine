@@ -25,7 +25,7 @@ Before doing anything, install dependencies by running:
 yarn install
 ```
 
-To start the web app locally, run:
+To start the web app, run:
 
 ```
 yarn start:web

@@ -6,7 +6,7 @@ import { Box } from '../components/box';
 import { HStack } from '../components/hstack';
 import { Link } from '../components/link';
 import { Meta } from '../components/meta';
-import { getAnalyticsDsn, getBuildId } from '../utils/env';
+import { getGoogleAnalyticsToken, getBuildId } from '../utils/env';
 import './globals.css';
 
 const Header: React.FC = () => {
@@ -146,7 +146,7 @@ const App = ({ Component, pageProps }: AppProps) => {
       </Box>
 
       <Script
-        src={`https://www.googletagmanager.com/gtag/js?id=${getAnalyticsDsn()}`}
+        src={`https://www.googletagmanager.com/gtag/js?id=${getGoogleAnalyticsToken()}`}
         strategy="afterInteractive"
       />
 
@@ -156,7 +156,7 @@ const App = ({ Component, pageProps }: AppProps) => {
           function gtag(){window.dataLayer.push(arguments);}
           gtag('js', new Date());
 
-          gtag('config', '${getAnalyticsDsn()}');
+          gtag('config', '${getGoogleAnalyticsToken()}');
         `}
       </Script>
     </>
