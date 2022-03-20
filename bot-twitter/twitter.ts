@@ -1,4 +1,4 @@
-import { TwitterApi } from 'twitter-api-v2';
+import { ApiResponseError, TwitterApi } from 'twitter-api-v2';
 import { getTwitterCredentials } from './utils/env';
 
 // Streams require app-only authentication
@@ -30,7 +30,18 @@ const stream = async (filter: string) => {
 };
 
 const reply = async (tweetId: string, text: string) => {
+  try {
   return await twitterBot.reply(text, tweetId);
+  } catch (err) {
+    const apiError = err as ApiResponseError;
+
+    // Skip failures due to privacy settings
+    if (apiError.data.detail?.includes('You are not allowed to reply to this Tweet')) {
+      return null;
+    }
+
+    throw err;
+  }
 };
 
 export default { stream, reply };

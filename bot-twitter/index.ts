@@ -105,7 +105,11 @@ const main = async () => {
 
       const reply = await twitter.reply(tweet.data.id, formatMatchReply(match));
 
-      console.log('Reply', reply.data);
+      if (reply) {
+        console.log('Reply', reply.data);
+      } else {
+        console.log('Reply failed');
+      }
     } else {
       console.log('No match found');
     }
