@@ -1,6 +1,6 @@
 import React from 'react';
 
-const getStorageItem = (key: string) => {
+const getStorageValue = (key: string) => {
   if (typeof window === 'undefined' || !sessionStorage) {
     return null;
   }
@@ -13,7 +13,7 @@ const getStorageItem = (key: string) => {
   return null;
 };
 
-const setStorageItem = (key: string, value: any) => {
+const setStorageValue = (key: string, value: any) => {
   if (typeof window === 'undefined' || !sessionStorage) {
     return;
   }
@@ -21,12 +21,19 @@ const setStorageItem = (key: string, value: any) => {
   sessionStorage.setItem(key, JSON.stringify(value));
 };
 
-const useSessionState = <T>(key: string, initialValue: T) => {
-  const [value, setValue] = React.useState<T>(() => {
-    return getStorageItem(key) ?? initialValue;
-  });
+const useSessionState = <T>(key: string, initialState: T | (() => T)) => {
+  const [value, setValue] = React.useState<T>(initialState);
 
-  React.useEffect(() => setStorageItem(key, value), [key, value]);
+  React.useEffect(() => {
+    const storedValue = getStorageValue(key);
+    if (storedValue) {
+      setValue(storedValue);
+    }
+  }, [key]);
+
+  React.useEffect(() => {
+    setStorageValue(key, value);
+  }, [key, value]);
 
   return [value, setValue] as const;
 };
