@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Більмак",
-  "translation": "Bilmak",
-  "mistakes": [
+  "sourceSpelling": "Більмак",
+  "correctSpelling": "Bilmak",
+  "incorrectSpellings": [
     "Belmak"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Бильмак",
     "Куйбишеве",
     "Куйбышево",
@@ -20,7 +20,7 @@
     }
   ],
   "location": {
-    "latitude": 47.3589,
-    "longitude": 36.65
+    "lat": 47.3589,
+    "lng": 36.65
   }
 }

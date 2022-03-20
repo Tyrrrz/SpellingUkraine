@@ -1,12 +1,12 @@
 {
   "category": "City",
-  "term": "Городня",
-  "translation": "Horodnia",
-  "mistakes": [
+  "sourceSpelling": "Городня",
+  "correctSpelling": "Horodnia",
+  "incorrectSpellings": [
     "Gorodnia",
     "Gorodnya"
   ],
-  "aliases": [],
+  "relatedSpellings": [],
   "links": [
     {
       "name": "Wikipedia: Horodnia",
@@ -14,7 +14,7 @@
     }
   ],
   "location": {
-    "latitude": 51.8833,
-    "longitude": 31.5833
+    "lat": 51.8833,
+    "lng": 31.5833
   }
 }

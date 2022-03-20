@@ -1,12 +1,12 @@
 {
   "category": "City",
-  "term": "Зорія",
-  "translation": "Zoria",
-  "mistakes": [
+  "sourceSpelling": "Зорія",
+  "correctSpelling": "Zoria",
+  "incorrectSpellings": [
     "Zorya",
     "Zarya"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Заря"
   ],
   "links": [
@@ -16,7 +16,7 @@
     }
   ],
   "location": {
-    "latitude": 45.9917,
-    "longitude": 29.6989
+    "lat": 45.9917,
+    "lng": 29.6989
   }
 }

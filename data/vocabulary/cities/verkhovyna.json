@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Верховина",
-  "translation": "Verkhovyna",
-  "mistakes": [
+  "sourceSpelling": "Верховина",
+  "correctSpelling": "Verkhovyna",
+  "incorrectSpellings": [
     "Verkhovina"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Верховина",
     "Żabie"
   ],
@@ -16,7 +16,7 @@
     }
   ],
   "location": {
-    "latitude": 48.1517,
-    "longitude": 24.8136
+    "lat": 48.1517,
+    "lng": 24.8136
   }
 }

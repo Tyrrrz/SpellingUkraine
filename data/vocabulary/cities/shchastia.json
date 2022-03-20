@@ -1,13 +1,13 @@
 {
   "category": "City",
-  "term": "Щастя",
-  "translation": "Shchastia",
-  "mistakes": [
+  "sourceSpelling": "Щастя",
+  "correctSpelling": "Shchastia",
+  "incorrectSpellings": [
     "Schastya",
     "Schastie",
     "Schastye"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Счастье"
   ],
   "links": [
@@ -17,7 +17,7 @@
     }
   ],
   "location": {
-    "latitude": 48.7381,
-    "longitude": 39.2311
+    "lat": 48.7381,
+    "lng": 39.2311
   }
 }

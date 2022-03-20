@@ -1,9 +1,9 @@
 {
   "category": "City",
-  "term": "Понінка",
-  "translation": "Poninka",
-  "mistakes": [],
-  "aliases": [
+  "sourceSpelling": "Понінка",
+  "correctSpelling": "Poninka",
+  "incorrectSpellings": [],
+  "relatedSpellings": [
     "Понинка"
   ],
   "links": [
@@ -13,7 +13,7 @@
     }
   ],
   "location": {
-    "latitude": 50.1833,
-    "longitude": 27.5333
+    "lat": 50.1833,
+    "lng": 27.5333
   }
 }

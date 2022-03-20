@@ -1,9 +1,9 @@
 {
   "category": "City",
-  "term": "Броди",
-  "translation": "Brody",
-  "mistakes": [],
-  "aliases": [],
+  "sourceSpelling": "Броди",
+  "correctSpelling": "Brody",
+  "incorrectSpellings": [],
+  "relatedSpellings": [],
   "links": [
     {
       "name": "Wikipedia: Brody",
@@ -11,7 +11,7 @@
     }
   ],
   "location": {
-    "latitude": 50.0781,
-    "longitude": 25.1542
+    "lat": 50.0781,
+    "lng": 25.1542
   }
 }

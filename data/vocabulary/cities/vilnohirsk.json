@@ -1,12 +1,12 @@
 {
   "category": "City",
-  "term": "Вільногірськ",
-  "translation": "Vilnohirsk",
-  "mistakes": [
+  "sourceSpelling": "Вільногірськ",
+  "correctSpelling": "Vilnohirsk",
+  "incorrectSpellings": [
     "Vilnogirsk",
     "Volnogorsk"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Вольногорск"
   ],
   "links": [
@@ -16,7 +16,7 @@
     }
   ],
   "location": {
-    "latitude": 48.4824,
-    "longitude": 34.0189
+    "lat": 48.4824,
+    "lng": 34.0189
   }
 }

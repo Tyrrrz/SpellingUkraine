@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Баранівка",
-  "translation": "Baranivka",
-  "mistakes": [
+  "sourceSpelling": "Баранівка",
+  "correctSpelling": "Baranivka",
+  "incorrectSpellings": [
     "Baranovka"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Барановка"
   ],
   "links": [
@@ -15,7 +15,7 @@
     }
   ],
   "location": {
-    "latitude": 50.3,
-    "longitude": 27.6667
+    "lat": 50.3,
+    "lng": 27.6667
   }
 }

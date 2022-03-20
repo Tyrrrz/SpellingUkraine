@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Хрустальний",
-  "translation": "Khrustalnyi",
-  "mistakes": [
+  "sourceSpelling": "Хрустальний",
+  "correctSpelling": "Khrustalnyi",
+  "incorrectSpellings": [
     "Hrustalnyi"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Хрустальный",
     "Криндачівка",
     "Kryndachivka",
@@ -21,7 +21,7 @@
     }
   ],
   "location": {
-    "latitude": 48.1214,
-    "longitude": 38.9453
+    "lat": 48.1214,
+    "lng": 38.9453
   }
 }

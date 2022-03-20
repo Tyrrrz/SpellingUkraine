@@ -1,9 +1,9 @@
 {
   "category": "City",
-  "term": "Нововолинськ",
-  "translation": "Novovolynsk",
-  "mistakes": [],
-  "aliases": [
+  "sourceSpelling": "Нововолинськ",
+  "correctSpelling": "Novovolynsk",
+  "incorrectSpellings": [],
+  "relatedSpellings": [
     "Нововолынск"
   ],
   "links": [
@@ -13,7 +13,7 @@
     }
   ],
   "location": {
-    "latitude": 50.7333,
-    "longitude": 24.1667
+    "lat": 50.7333,
+    "lng": 24.1667
   }
 }

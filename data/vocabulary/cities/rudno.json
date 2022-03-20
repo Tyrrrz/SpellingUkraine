@@ -1,12 +1,12 @@
 {
   "category": "City",
-  "term": "Рудно",
-  "translation": "Rudno",
-  "mistakes": [],
-  "aliases": [],
+  "sourceSpelling": "Рудно",
+  "correctSpelling": "Rudno",
+  "incorrectSpellings": [],
+  "relatedSpellings": [],
   "links": [],
   "location": {
-    "latitude": 49.8404,
-    "longitude": 23.8747
+    "lat": 49.8404,
+    "lng": 23.8747
   }
 }

@@ -1,14 +1,14 @@
 {
   "category": "City",
-  "term": "Южне",
-  "translation": "Yuzhne",
-  "mistakes": [
+  "sourceSpelling": "Южне",
+  "correctSpelling": "Yuzhne",
+  "incorrectSpellings": [
     "Yuzhny",
     "Yuzhniy",
     "Yuzhnoe",
     "Yuzhnoye"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Южний",
     "Южное"
   ],
@@ -19,7 +19,7 @@
     }
   ],
   "location": {
-    "latitude": 46.6222,
-    "longitude": 31.1008
+    "lat": 46.6222,
+    "lng": 31.1008
   }
 }

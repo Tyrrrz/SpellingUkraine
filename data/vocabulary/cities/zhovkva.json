@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Жовква",
-  "translation": "Zhovkva",
-  "mistakes": [
+  "sourceSpelling": "Жовква",
+  "correctSpelling": "Zhovkva",
+  "incorrectSpellings": [
     "Zholkva"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Жолква",
     "Żółkiew"
   ],
@@ -16,7 +16,7 @@
     }
   ],
   "location": {
-    "latitude": 50.0667,
-    "longitude": 23.9667
+    "lat": 50.0667,
+    "lng": 23.9667
   }
 }

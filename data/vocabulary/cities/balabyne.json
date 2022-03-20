@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Балабине",
-  "translation": "Balabyne",
-  "mistakes": [
+  "sourceSpelling": "Балабине",
+  "correctSpelling": "Balabyne",
+  "incorrectSpellings": [
     "Balabino"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Балабино"
   ],
   "links": [
@@ -15,7 +15,7 @@
     }
   ],
   "location": {
-    "latitude": 47.735,
-    "longitude": 35.2142
+    "lat": 47.735,
+    "lng": 35.2142
   }
 }

@@ -1,12 +1,12 @@
 {
   "category": "City",
-  "term": "Ржищів",
-  "translation": "Rzhyshchiv",
-  "mistakes": [
+  "sourceSpelling": "Ржищів",
+  "correctSpelling": "Rzhyshchiv",
+  "incorrectSpellings": [
     "Rzhyshchev",
     "Rzhishchev"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Ржищев",
     "Rzyszczów"
   ],
@@ -17,7 +17,7 @@
     }
   ],
   "location": {
-    "latitude": 49.9611,
-    "longitude": 31.0436
+    "lat": 49.9611,
+    "lng": 31.0436
   }
 }

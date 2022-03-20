@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Українка",
-  "translation": "Ukrainka",
-  "mistakes": [
+  "sourceSpelling": "Українка",
+  "correctSpelling": "Ukrainka",
+  "incorrectSpellings": [
     "Ukrayinka"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Украинка"
   ],
   "links": [
@@ -15,7 +15,7 @@
     }
   ],
   "location": {
-    "latitude": 50.15,
-    "longitude": 30.7519
+    "lat": 50.15,
+    "lng": 30.7519
   }
 }

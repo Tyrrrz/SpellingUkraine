@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Макарів",
-  "translation": "Makariv",
-  "mistakes": [
+  "sourceSpelling": "Макарів",
+  "correctSpelling": "Makariv",
+  "incorrectSpellings": [
     "Makarov"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Макаров"
   ],
   "links": [
@@ -15,7 +15,7 @@
     }
   ],
   "location": {
-    "latitude": 50.4667,
-    "longitude": 29.8167
+    "lat": 50.4667,
+    "lng": 29.8167
   }
 }

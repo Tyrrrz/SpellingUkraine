@@ -1,9 +1,9 @@
 {
   "category": "City",
-  "term": "Донецьк",
-  "translation": "Donetsk",
-  "mistakes": [],
-  "aliases": [
+  "sourceSpelling": "Донецьк",
+  "correctSpelling": "Donetsk",
+  "incorrectSpellings": [],
+  "relatedSpellings": [
     "Донецк",
     "Donieck"
   ],
@@ -14,7 +14,7 @@
     }
   ],
   "location": {
-    "latitude": 48.0089,
-    "longitude": 37.8042
+    "lat": 48.0089,
+    "lng": 37.8042
   }
 }

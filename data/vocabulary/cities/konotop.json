@@ -1,9 +1,9 @@
 {
   "category": "City",
-  "term": "Конотоп",
-  "translation": "Konotop",
-  "mistakes": [],
-  "aliases": [],
+  "sourceSpelling": "Конотоп",
+  "correctSpelling": "Konotop",
+  "incorrectSpellings": [],
+  "relatedSpellings": [],
   "links": [
     {
       "name": "Wikipedia: Konotop",
@@ -11,7 +11,7 @@
     }
   ],
   "location": {
-    "latitude": 51.2369,
-    "longitude": 33.2027
+    "lat": 51.2369,
+    "lng": 33.2027
   }
 }

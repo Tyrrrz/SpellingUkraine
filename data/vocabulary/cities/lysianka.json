@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Лисянка",
-  "translation": "Lysianka",
-  "mistakes": [
+  "sourceSpelling": "Лисянка",
+  "correctSpelling": "Lysianka",
+  "incorrectSpellings": [
     "Lysyanka"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Лысянка"
   ],
   "links": [
@@ -15,7 +15,7 @@
     }
   ],
   "location": {
-    "latitude": 49.2542,
-    "longitude": 30.8207
+    "lat": 49.2542,
+    "lng": 30.8207
   }
 }

@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Бердичів",
-  "translation": "Berdychiv",
-  "mistakes": [
+  "sourceSpelling": "Бердичів",
+  "correctSpelling": "Berdychiv",
+  "incorrectSpellings": [
     "Berdichiv"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Бердычив"
   ],
   "links": [
@@ -15,7 +15,7 @@
     }
   ],
   "location": {
-    "latitude": 49.8919,
-    "longitude": 28.6
+    "lat": 49.8919,
+    "lng": 28.6
   }
 }

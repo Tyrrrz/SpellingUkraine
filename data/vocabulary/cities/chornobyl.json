@@ -1,12 +1,12 @@
 {
   "category": "City",
-  "term": "Чорнобиль",
-  "translation": "Chornobyl",
-  "mistakes": [
+  "sourceSpelling": "Чорнобиль",
+  "correctSpelling": "Chornobyl",
+  "incorrectSpellings": [
     "Chernobyl",
     "Chernobil"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Чернобыль",
     "Чернобль"
   ],
@@ -17,7 +17,7 @@
     }
   ],
   "location": {
-    "latitude": 51.275,
-    "longitude": 30.221
+    "lat": 51.275,
+    "lng": 30.221
   }
 }

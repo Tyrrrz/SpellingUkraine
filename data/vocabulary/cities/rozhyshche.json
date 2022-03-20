@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Рожище",
-  "translation": "Rozhyshche",
-  "mistakes": [
+  "sourceSpelling": "Рожище",
+  "correctSpelling": "Rozhyshche",
+  "incorrectSpellings": [
     "Rozhishche"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Rożyszcze"
   ],
   "links": [
@@ -15,7 +15,7 @@
     }
   ],
   "location": {
-    "latitude": 50.9131,
-    "longitude": 25.27
+    "lat": 50.9131,
+    "lng": 25.27
   }
 }

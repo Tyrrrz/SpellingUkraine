@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Петропавлівська Борщагівка",
-  "translation": "Petropavlivska Borshchahivka",
-  "mistakes": [
+  "sourceSpelling": "Петропавлівська Борщагівка",
+  "correctSpelling": "Petropavlivska Borshchahivka",
+  "incorrectSpellings": [
     "Petropavlovskaya Borschagovka"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Петропавловская Борщаговка"
   ],
   "links": [
@@ -15,7 +15,7 @@
     }
   ],
   "location": {
-    "latitude": 50.4378,
-    "longitude": 30.3439
+    "lat": 50.4378,
+    "lng": 30.3439
   }
 }

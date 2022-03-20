@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Радивилів",
-  "translation": "Radyvyliv",
-  "mistakes": [
+  "sourceSpelling": "Радивилів",
+  "correctSpelling": "Radyvyliv",
+  "incorrectSpellings": [
     "Radivilov"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Радивилов"
   ],
   "links": [
@@ -15,7 +15,7 @@
     }
   ],
   "location": {
-    "latitude": 50.1333,
-    "longitude": 25.25
+    "lat": 50.1333,
+    "lng": 25.25
   }
 }

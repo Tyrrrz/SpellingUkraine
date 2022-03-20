@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Калуш",
-  "translation": "Kalush",
-  "mistakes": [
+  "sourceSpelling": "Калуш",
+  "correctSpelling": "Kalush",
+  "incorrectSpellings": [
     "Kaluzh"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Kałusz"
   ],
   "links": [
@@ -15,7 +15,7 @@
     }
   ],
   "location": {
-    "latitude": 49.0442,
-    "longitude": 24.3597
+    "lat": 49.0442,
+    "lng": 24.3597
   }
 }

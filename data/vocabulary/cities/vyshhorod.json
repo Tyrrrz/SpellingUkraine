@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Вишгород",
-  "translation": "Vyshhorod",
-  "mistakes": [
+  "sourceSpelling": "Вишгород",
+  "correctSpelling": "Vyshhorod",
+  "incorrectSpellings": [
     "Vyshgorod"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Вышгород"
   ],
   "links": [
@@ -15,7 +15,7 @@
     }
   ],
   "location": {
-    "latitude": 50.5833,
-    "longitude": 30.5
+    "lat": 50.5833,
+    "lng": 30.5
   }
 }

@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Ворзель",
-  "translation": "Vorzel",
-  "mistakes": [
+  "sourceSpelling": "Ворзель",
+  "correctSpelling": "Vorzel",
+  "incorrectSpellings": [
     "Vorsel"
   ],
-  "aliases": [],
+  "relatedSpellings": [],
   "links": [
     {
       "name": "Wikipedia: Vorzel",
@@ -13,7 +13,7 @@
     }
   ],
   "location": {
-    "latitude": 50.55,
-    "longitude": 30.15
+    "lat": 50.55,
+    "lng": 30.15
   }
 }

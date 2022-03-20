@@ -1,12 +1,12 @@
 {
   "category": "City",
-  "term": "Жовті Води",
-  "translation": "Zhovti Vody",
-  "mistakes": [
+  "sourceSpelling": "Жовті Води",
+  "correctSpelling": "Zhovti Vody",
+  "incorrectSpellings": [
     "Zheltie Vody",
     "Zheltye Vody"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Жёлтые Воды"
   ],
   "links": [
@@ -16,7 +16,7 @@
     }
   ],
   "location": {
-    "latitude": 48.35,
-    "longitude": 33.5167
+    "lat": 48.35,
+    "lng": 33.5167
   }
 }

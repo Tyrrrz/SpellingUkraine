@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Буштино",
-  "translation": "Bushtyno",
-  "mistakes": [
+  "sourceSpelling": "Буштино",
+  "correctSpelling": "Bushtyno",
+  "incorrectSpellings": [
     "Bushtino"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Буштыно",
     "Bustyaháza",
     "Bustea",
@@ -18,7 +18,7 @@
     }
   ],
   "location": {
-    "latitude": 48.0503,
-    "longitude": 23.4894
+    "lat": 48.0503,
+    "lng": 23.4894
   }
 }

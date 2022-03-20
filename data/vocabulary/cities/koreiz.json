@@ -1,9 +1,9 @@
 {
   "category": "City",
-  "term": "Кореїз",
-  "translation": "Koreiz",
-  "mistakes": [],
-  "aliases": [
+  "sourceSpelling": "Кореїз",
+  "correctSpelling": "Koreiz",
+  "incorrectSpellings": [],
+  "relatedSpellings": [
     "Кореиз",
     "Koreiz"
   ],
@@ -14,7 +14,7 @@
     }
   ],
   "location": {
-    "latitude": 44.4331,
-    "longitude": 34.0872
+    "lat": 44.4331,
+    "lng": 34.0872
   }
 }

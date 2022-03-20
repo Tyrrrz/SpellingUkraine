@@ -1,12 +1,12 @@
 {
   "category": "City",
-  "term": "Ніжин",
-  "translation": "Nizhyn",
-  "mistakes": [
+  "sourceSpelling": "Ніжин",
+  "correctSpelling": "Nizhyn",
+  "incorrectSpellings": [
     "Nezhin",
     "Nizhin"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Нежин",
     "Nieżyn"
   ],
@@ -17,7 +17,7 @@
     }
   ],
   "location": {
-    "latitude": 51.05,
-    "longitude": 31.9
+    "lat": 51.05,
+    "lng": 31.9
   }
 }

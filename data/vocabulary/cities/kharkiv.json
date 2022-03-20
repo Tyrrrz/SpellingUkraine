@@ -1,12 +1,12 @@
 {
   "category": "City",
-  "term": "Харків",
-  "translation": "Kharkiv",
-  "mistakes": [
+  "sourceSpelling": "Харків",
+  "correctSpelling": "Kharkiv",
+  "incorrectSpellings": [
     "Kharkov",
     "Harkov"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Харьков"
   ],
   "links": [
@@ -16,7 +16,7 @@
     }
   ],
   "location": {
-    "latitude": 50,
-    "longitude": 36.2292
+    "lat": 50,
+    "lng": 36.2292
   }
 }

@@ -1,12 +1,12 @@
 {
   "category": "City",
-  "term": "Рубіжне",
-  "translation": "Rubizhne",
-  "mistakes": [
+  "sourceSpelling": "Рубіжне",
+  "correctSpelling": "Rubizhne",
+  "incorrectSpellings": [
     "Rubezhne",
     "Rubezhnoe"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Рубежное"
   ],
   "links": [
@@ -16,7 +16,7 @@
     }
   ],
   "location": {
-    "latitude": 49.0167,
-    "longitude": 38.3667
+    "lat": 49.0167,
+    "lng": 38.3667
   }
 }

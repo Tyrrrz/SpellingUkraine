@@ -1,12 +1,12 @@
 {
   "category": "City",
-  "term": "Чернігів",
-  "translation": "Chernihiv",
-  "mistakes": [
+  "sourceSpelling": "Чернігів",
+  "correctSpelling": "Chernihiv",
+  "incorrectSpellings": [
     "Chernigov",
     "Chernigiv"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Чернигов",
     "Czerniusza",
     "Tschernihiv"
@@ -18,7 +18,7 @@
     }
   ],
   "location": {
-    "latitude": 51.4939,
-    "longitude": 31.2947
+    "lat": 51.4939,
+    "lng": 31.2947
   }
 }

@@ -1,12 +1,12 @@
 {
   "category": "City",
-  "term": "Мукачеве",
-  "translation": "Mukacheve",
-  "mistakes": [
+  "sourceSpelling": "Мукачеве",
+  "correctSpelling": "Mukacheve",
+  "incorrectSpellings": [
     "Mukachev",
     "Mukachevo"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Мукачево",
     "Mukaczewo",
     "Muncaciu",
@@ -21,7 +21,7 @@
     }
   ],
   "location": {
-    "latitude": 48.4414,
-    "longitude": 22.7136
+    "lat": 48.4414,
+    "lng": 22.7136
   }
 }

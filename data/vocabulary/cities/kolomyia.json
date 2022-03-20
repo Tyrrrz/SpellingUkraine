@@ -1,12 +1,12 @@
 {
   "category": "City",
-  "term": "Коломия",
-  "translation": "Kolomyia",
-  "mistakes": [
+  "sourceSpelling": "Коломия",
+  "correctSpelling": "Kolomyia",
+  "incorrectSpellings": [
     "Kolomia",
     "Kolomea"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Коломия",
     "Kołomyja",
     "Colomeea"
@@ -18,7 +18,7 @@
     }
   ],
   "location": {
-    "latitude": 48.5167,
-    "longitude": 25.0333
+    "lat": 48.5167,
+    "lng": 25.0333
   }
 }

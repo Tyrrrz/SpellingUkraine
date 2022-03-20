@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Борова",
-  "translation": "Borova",
-  "mistakes": [
+  "sourceSpelling": "Борова",
+  "correctSpelling": "Borova",
+  "incorrectSpellings": [
     "Borovaya"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Боровая"
   ],
   "links": [
@@ -15,7 +15,7 @@
     }
   ],
   "location": {
-    "latitude": 50.1733,
-    "longitude": 30.1039
+    "lat": 50.1733,
+    "lng": 30.1039
   }
 }

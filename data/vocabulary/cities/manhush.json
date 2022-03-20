@@ -1,14 +1,14 @@
 {
   "category": "City",
-  "term": "Магуш",
-  "translation": "Manhush",
-  "mistakes": [
+  "sourceSpelling": "Магуш",
+  "correctSpelling": "Manhush",
+  "incorrectSpellings": [
     "Mangush",
     "Pershotravneve",
     "Pershotravnevoe",
     "Pershotravnevy"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Першотравневое",
     "Першотравневый"
   ],
@@ -19,7 +19,7 @@
     }
   ],
   "location": {
-    "latitude": 47.05,
-    "longitude": 37.3
+    "lat": 47.05,
+    "lng": 37.3
   }
 }

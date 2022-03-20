@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Олександрівськ",
-  "translation": "Oleksandrivsk",
-  "mistakes": [
+  "sourceSpelling": "Олександрівськ",
+  "correctSpelling": "Oleksandrivsk",
+  "incorrectSpellings": [
     "Aleksandrovsk"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Александровск"
   ],
   "links": [
@@ -15,7 +15,7 @@
     }
   ],
   "location": {
-    "latitude": 48.5833,
-    "longitude": 39.1833
+    "lat": 48.5833,
+    "lng": 39.1833
   }
 }

@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Ланівці",
-  "translation": "Lanivtsi",
-  "mistakes": [
+  "sourceSpelling": "Ланівці",
+  "correctSpelling": "Lanivtsi",
+  "incorrectSpellings": [
     "Lanovtsy"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Лановцы",
     "Łanowce"
   ],
@@ -16,7 +16,7 @@
     }
   ],
   "location": {
-    "latitude": 49.8644,
-    "longitude": 26.0782
+    "lat": 49.8644,
+    "lng": 26.0782
   }
 }

@@ -1,13 +1,13 @@
 {
   "category": "Phrase",
-  "term": "Слава Україні",
-  "translation": "Slava Ukraini",
-  "mistakes": [
+  "sourceSpelling": "Слава Україні",
+  "correctSpelling": "Slava Ukraini",
+  "incorrectSpellings": [
     "Slava Ukraine",
     "Slava Ukraina",
     "Slava Ukrajini"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Glory to Ukraine"
   ],
   "description": "Ukrainian national salute and the official salute of the Armed Forces of Ukraine. Translated from Ukrainian, it means \"Glory to Ukraine\".",

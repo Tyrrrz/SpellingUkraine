@@ -1,13 +1,13 @@
 {
   "category": "City",
-  "term": "Берегове",
-  "translation": "Berehove",
-  "mistakes": [
+  "sourceSpelling": "Берегове",
+  "correctSpelling": "Berehove",
+  "incorrectSpellings": [
     "Beregove",
     "Beregovo",
     "Beregovoe"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Береговое",
     "Beregszász"
   ],
@@ -18,7 +18,7 @@
     }
   ],
   "location": {
-    "latitude": 48.2025,
-    "longitude": 22.6375
+    "lat": 48.2025,
+    "lng": 22.6375
   }
 }

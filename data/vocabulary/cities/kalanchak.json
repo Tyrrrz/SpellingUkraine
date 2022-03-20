@@ -1,9 +1,9 @@
 {
   "category": "City",
-  "term": "Каланчак",
-  "translation": "Kalanchak",
-  "mistakes": [],
-  "aliases": [],
+  "sourceSpelling": "Каланчак",
+  "correctSpelling": "Kalanchak",
+  "incorrectSpellings": [],
+  "relatedSpellings": [],
   "links": [
     {
       "name": "Wikipedia: Kalanchak",
@@ -11,7 +11,7 @@
     }
   ],
   "location": {
-    "latitude": 46.255,
-    "longitude": 33.2906
+    "lat": 46.255,
+    "lng": 33.2906
   }
 }

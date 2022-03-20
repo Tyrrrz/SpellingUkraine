@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Кушугум",
-  "translation": "Kushuhum",
-  "mistakes": [
+  "sourceSpelling": "Кушугум",
+  "correctSpelling": "Kushuhum",
+  "incorrectSpellings": [
     "Kushugum"
   ],
-  "aliases": [],
+  "relatedSpellings": [],
   "links": [
     {
       "name": "Wikipedia: Kushuhum",
@@ -13,7 +13,7 @@
     }
   ],
   "location": {
-    "latitude": 47.7106,
-    "longitude": 35.2192
+    "lat": 47.7106,
+    "lng": 35.2192
   }
 }

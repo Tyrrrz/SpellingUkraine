@@ -1,12 +1,12 @@
 {
   "category": "City",
-  "term": "Новогуйвинське",
-  "translation": "Novohuivynske",
-  "mistakes": [
+  "sourceSpelling": "Новогуйвинське",
+  "correctSpelling": "Novohuivynske",
+  "incorrectSpellings": [
     "Novohuivynskoe",
     "Novoguyvinskoe"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Новогуйвинское"
   ],
   "links": [
@@ -16,7 +16,7 @@
     }
   ],
   "location": {
-    "latitude": 50.2022,
-    "longitude": 28.685
+    "lat": 50.2022,
+    "lng": 28.685
   }
 }

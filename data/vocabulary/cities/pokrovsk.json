@@ -1,9 +1,9 @@
 {
   "category": "City",
-  "term": "Покровськ",
-  "translation": "Pokrovsk",
-  "mistakes": [],
-  "aliases": [
+  "sourceSpelling": "Покровськ",
+  "correctSpelling": "Pokrovsk",
+  "incorrectSpellings": [],
+  "relatedSpellings": [
     "Покровск"
   ],
   "links": [
@@ -13,7 +13,7 @@
     }
   ],
   "location": {
-    "latitude": 48.2833,
-    "longitude": 37.1833
+    "lat": 48.2833,
+    "lng": 37.1833
   }
 }

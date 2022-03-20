@@ -1,9 +1,9 @@
 {
   "category": "City",
-  "term": "Волноваха",
-  "translation": "Volnovakha",
-  "mistakes": [],
-  "aliases": [],
+  "sourceSpelling": "Волноваха",
+  "correctSpelling": "Volnovakha",
+  "incorrectSpellings": [],
+  "relatedSpellings": [],
   "links": [
     {
       "name": "Wikipedia: Volnovakha",
@@ -11,7 +11,7 @@
     }
   ],
   "location": {
-    "latitude": 47.5725,
-    "longitude": 31.3119
+    "lat": 47.5725,
+    "lng": 31.3119
   }
 }

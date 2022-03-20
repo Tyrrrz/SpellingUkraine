@@ -1,12 +1,12 @@
 {
   "category": "City",
-  "term": "Горішні Плавні",
-  "translation": "Horishni Plavni",
-  "mistakes": [
+  "sourceSpelling": "Горішні Плавні",
+  "correctSpelling": "Horishni Plavni",
+  "incorrectSpellings": [
     "Gorishni Plavni",
     "Gorishnie Plavni"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Горишние Плавни",
     "Комсомольськ",
     "Комсомольск",
@@ -20,7 +20,7 @@
     }
   ],
   "location": {
-    "latitude": 49.0107,
-    "longitude": 33.6562
+    "lat": 49.0107,
+    "lng": 33.6562
   }
 }

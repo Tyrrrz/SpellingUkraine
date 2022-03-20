@@ -1,12 +1,12 @@
 {
   "category": "City",
-  "term": "Селидове",
-  "translation": "Selydove",
-  "mistakes": [
+  "sourceSpelling": "Селидове",
+  "correctSpelling": "Selydove",
+  "incorrectSpellings": [
     "Selidove",
     "Selidovo"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Селидово",
     "Селидівка",
     "Селидовка",
@@ -20,7 +20,7 @@
     }
   ],
   "location": {
-    "latitude": 48.15,
-    "longitude": 37.3
+    "lat": 48.15,
+    "lng": 37.3
   }
 }

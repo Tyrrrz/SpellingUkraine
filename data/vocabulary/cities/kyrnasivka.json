@@ -1,12 +1,12 @@
 {
   "category": "City",
-  "term": "Кирнасівка",
-  "translation": "Kyrnasivka",
-  "mistakes": [
+  "sourceSpelling": "Кирнасівка",
+  "correctSpelling": "Kyrnasivka",
+  "incorrectSpellings": [
     "Kyrnasovka",
     "Kirnasovka"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Кирнасовка"
   ],
   "links": [
@@ -16,7 +16,7 @@
     }
   ],
   "location": {
-    "latitude": 48.5914,
-    "longitude": 28.98
+    "lat": 48.5914,
+    "lng": 28.98
   }
 }

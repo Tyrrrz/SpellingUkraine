@@ -1,9 +1,9 @@
 {
   "category": "City",
-  "term": "Скадовськ",
-  "translation": "Skadovsk",
-  "mistakes": [],
-  "aliases": [
+  "sourceSpelling": "Скадовськ",
+  "correctSpelling": "Skadovsk",
+  "incorrectSpellings": [],
+  "relatedSpellings": [
     "Скадовск"
   ],
   "links": [
@@ -13,7 +13,7 @@
     }
   ],
   "location": {
-    "latitude": 46.1167,
-    "longitude": 32.9167
+    "lat": 46.1167,
+    "lng": 32.9167
   }
 }

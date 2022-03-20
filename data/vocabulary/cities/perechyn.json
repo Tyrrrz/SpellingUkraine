@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Перечин",
-  "translation": "Perechyn",
-  "mistakes": [
+  "sourceSpelling": "Перечин",
+  "correctSpelling": "Perechyn",
+  "incorrectSpellings": [
     "Perechin"
   ],
-  "aliases": [],
+  "relatedSpellings": [],
   "links": [
     {
       "name": "Wikipedia: Perechyn",
@@ -13,7 +13,7 @@
     }
   ],
   "location": {
-    "latitude": 48.7333,
-    "longitude": 22.4667
+    "lat": 48.7333,
+    "lng": 22.4667
   }
 }

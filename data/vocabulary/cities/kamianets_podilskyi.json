@@ -1,13 +1,13 @@
 {
   "category": "City",
-  "term": "Кам'янець-Подільський",
-  "translation": "Kamianets-Podilskyi",
-  "mistakes": [
+  "sourceSpelling": "Кам'янець-Подільський",
+  "correctSpelling": "Kamianets-Podilskyi",
+  "incorrectSpellings": [
     "Kamenets-Podolskiy",
     "Kamyanets-Podilskyi",
     "Kamianets-Podolskyi"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Каменец-Подольский",
     "Kamieniec Podolski",
     "Camenița"
@@ -19,7 +19,7 @@
     }
   ],
   "location": {
-    "latitude": 48.6806,
-    "longitude": 26.5806
+    "lat": 48.6806,
+    "lng": 26.5806
   }
 }

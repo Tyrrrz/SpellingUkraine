@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Тисмениця",
-  "translation": "Tysmenytsia",
-  "mistakes": [
+  "sourceSpelling": "Тисмениця",
+  "correctSpelling": "Tysmenytsia",
+  "incorrectSpellings": [
     "Tysmenitsa"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Тысменица",
     "Tyśmienica"
   ],
@@ -16,7 +16,7 @@
     }
   ],
   "location": {
-    "latitude": 48.9008,
-    "longitude": 24.8492
+    "lat": 48.9008,
+    "lng": 24.8492
   }
 }

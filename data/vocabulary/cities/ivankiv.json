@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Іванків",
-  "translation": "Ivankiv",
-  "mistakes": [
+  "sourceSpelling": "Іванків",
+  "correctSpelling": "Ivankiv",
+  "incorrectSpellings": [
     "Ivankov"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Иванков",
     "Ivanquiv"
   ],
@@ -16,7 +16,7 @@
     }
   ],
   "location": {
-    "latitude": 50.9333,
-    "longitude": 29.9
+    "lat": 50.9333,
+    "lng": 29.9
   }
 }

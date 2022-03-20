@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Валки",
-  "translation": "Valky",
-  "mistakes": [
+  "sourceSpelling": "Валки",
+  "correctSpelling": "Valky",
+  "incorrectSpellings": [
     "Valki"
   ],
-  "aliases": [],
+  "relatedSpellings": [],
   "links": [
     {
       "name": "Wikipedia: Valky",
@@ -13,7 +13,7 @@
     }
   ],
   "location": {
-    "latitude": 49.8386,
-    "longitude": 35.6217
+    "lat": 49.8386,
+    "lng": 35.6217
   }
 }

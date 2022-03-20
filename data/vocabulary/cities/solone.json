@@ -1,12 +1,12 @@
 {
   "category": "City",
-  "term": "Солоне",
-  "translation": "Solone",
-  "mistakes": [
+  "sourceSpelling": "Солоне",
+  "correctSpelling": "Solone",
+  "incorrectSpellings": [
     "Solonoe",
     "Solyonoe"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Солёное"
   ],
   "links": [
@@ -16,7 +16,7 @@
     }
   ],
   "location": {
-    "latitude": 48.2054,
-    "longitude": 34.8686
+    "lat": 48.2054,
+    "lng": 34.8686
   }
 }

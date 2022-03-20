@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Чернівці",
-  "translation": "Chernivtsi",
-  "mistakes": [
+  "sourceSpelling": "Чернівці",
+  "correctSpelling": "Chernivtsi",
+  "incorrectSpellings": [
     "Chernyvtsi"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Черновцы",
     "Cernăuți",
     "Czernowitz"
@@ -17,7 +17,7 @@
     }
   ],
   "location": {
-    "latitude": 48.2908,
-    "longitude": 25.9344
+    "lat": 48.2908,
+    "lng": 25.9344
   }
 }

@@ -1,13 +1,13 @@
 {
   "category": "City",
-  "term": "Первомайський",
-  "translation": "Pervomaiskyi",
-  "mistakes": [
+  "sourceSpelling": "Первомайський",
+  "correctSpelling": "Pervomaiskyi",
+  "incorrectSpellings": [
     "Pervomaysky",
     "Pervomayskyi",
     "Likhachove"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Первомайский"
   ],
   "links": [
@@ -17,7 +17,7 @@
     }
   ],
   "location": {
-    "latitude": 49.3869,
-    "longitude": 36.2142
+    "lat": 49.3869,
+    "lng": 36.2142
   }
 }

@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Новоселиця",
-  "translation": "Novoselytsia",
-  "mistakes": [
+  "sourceSpelling": "Новоселиця",
+  "correctSpelling": "Novoselytsia",
+  "incorrectSpellings": [
     "Novoselitsa"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Новоселица"
   ],
   "links": [
@@ -15,7 +15,7 @@
     }
   ],
   "location": {
-    "latitude": 48.2167,
-    "longitude": 26.2667
+    "lat": 48.2167,
+    "lng": 26.2667
   }
 }

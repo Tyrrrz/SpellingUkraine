@@ -1,9 +1,9 @@
 {
   "category": "City",
-  "term": "Сновськ",
-  "translation": "Snovsk",
-  "mistakes": [],
-  "aliases": [
+  "sourceSpelling": "Сновськ",
+  "correctSpelling": "Snovsk",
+  "incorrectSpellings": [],
+  "relatedSpellings": [
     "Сновск"
   ],
   "links": [
@@ -13,7 +13,7 @@
     }
   ],
   "location": {
-    "latitude": 51.8167,
-    "longitude": 31.95
+    "lat": 51.8167,
+    "lng": 31.95
   }
 }

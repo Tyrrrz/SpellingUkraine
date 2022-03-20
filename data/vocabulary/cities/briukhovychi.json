@@ -1,13 +1,13 @@
 {
   "category": "City",
-  "term": "Брюховичі",
-  "translation": "Briukhovychi",
-  "mistakes": [
+  "sourceSpelling": "Брюховичі",
+  "correctSpelling": "Briukhovychi",
+  "incorrectSpellings": [
     "Bryukhovichi",
     "Bryukhovychi",
     "Briuhovychi"
   ],
-  "aliases": [],
+  "relatedSpellings": [],
   "links": [
     {
       "name": "Wikipedia: Briukhovychi",
@@ -15,7 +15,7 @@
     }
   ],
   "location": {
-    "latitude": 49.9,
-    "longitude": 23.9436
+    "lat": 49.9,
+    "lng": 23.9436
   }
 }

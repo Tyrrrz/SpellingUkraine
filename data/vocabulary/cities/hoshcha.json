@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Гоща",
-  "translation": "Hoshcha",
-  "mistakes": [
+  "sourceSpelling": "Гоща",
+  "correctSpelling": "Hoshcha",
+  "incorrectSpellings": [
     "Goscha"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Hoszcza"
   ],
   "links": [
@@ -15,7 +15,7 @@
     }
   ],
   "location": {
-    "latitude": 50.5986,
-    "longitude": 26.6753
+    "lat": 50.5986,
+    "lng": 26.6753
   }
 }

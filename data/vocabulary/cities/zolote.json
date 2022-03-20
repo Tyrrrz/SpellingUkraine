@@ -1,12 +1,12 @@
 {
   "category": "City",
-  "term": "Золоте",
-  "translation": "Zolote",
-  "mistakes": [
+  "sourceSpelling": "Золоте",
+  "correctSpelling": "Zolote",
+  "incorrectSpellings": [
     "Zolotoe",
     "Zolotoye"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Золотое"
   ],
   "links": [
@@ -16,7 +16,7 @@
     }
   ],
   "location": {
-    "latitude": 48.6833,
-    "longitude": 38.5167
+    "lat": 48.6833,
+    "lng": 38.5167
   }
 }

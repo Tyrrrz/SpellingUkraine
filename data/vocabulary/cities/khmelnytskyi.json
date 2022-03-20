@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Хмельницький",
-  "translation": "Khmelnytskyi",
-  "mistakes": [
+  "sourceSpelling": "Хмельницький",
+  "correctSpelling": "Khmelnytskyi",
+  "incorrectSpellings": [
     "Khmelnitsky"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Хмельницкий"
   ],
   "links": [
@@ -15,7 +15,7 @@
     }
   ],
   "location": {
-    "latitude": 49.42,
-    "longitude": 27
+    "lat": 49.42,
+    "lng": 27
   }
 }

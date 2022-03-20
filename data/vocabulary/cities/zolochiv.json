@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Золочів",
-  "translation": "Zolochiv",
-  "mistakes": [
+  "sourceSpelling": "Золочів",
+  "correctSpelling": "Zolochiv",
+  "incorrectSpellings": [
     "Zolochev"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Золочев",
     "Złoczów",
     "Solotschiw"
@@ -17,7 +17,7 @@
     }
   ],
   "location": {
-    "latitude": 49.8075,
-    "longitude": 24.9031
+    "lat": 49.8075,
+    "lng": 24.9031
   }
 }

@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Губиниха",
-  "translation": "Hubynykha",
-  "mistakes": [
+  "sourceSpelling": "Губиниха",
+  "correctSpelling": "Hubynykha",
+  "incorrectSpellings": [
     "Gubiniha"
   ],
-  "aliases": [],
+  "relatedSpellings": [],
   "links": [
     {
       "name": "Wikipedia: Hubynykha",
@@ -13,7 +13,7 @@
     }
   ],
   "location": {
-    "latitude": 48.8084,
-    "longitude": 35.2535
+    "lat": 48.8084,
+    "lng": 35.2535
   }
 }

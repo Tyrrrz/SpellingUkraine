@@ -1,13 +1,13 @@
 {
   "category": "City",
-  "term": "Макіївка",
-  "translation": "Makiivka",
-  "mistakes": [
+  "sourceSpelling": "Макіївка",
+  "correctSpelling": "Makiivka",
+  "incorrectSpellings": [
     "Makiyivka",
     "Makeyevka",
     "Makeievka"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Макеевка",
     "Дмитріївськ",
     "Дмитриевск",
@@ -25,7 +25,7 @@
     }
   ],
   "location": {
-    "latitude": 48.0556,
-    "longitude": 37.9611
+    "lat": 48.0556,
+    "lng": 37.9611
   }
 }

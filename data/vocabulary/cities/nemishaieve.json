@@ -1,14 +1,14 @@
 {
   "category": "City",
-  "term": "Немішаєве",
-  "translation": "Nemishaieve",
-  "mistakes": [
+  "sourceSpelling": "Немішаєве",
+  "correctSpelling": "Nemishaieve",
+  "incorrectSpellings": [
     "Nemishayeve",
     "Nemysheev",
     "Nemeshaevo",
     "Nemeshayevo"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Немешаево",
     "Шевченкове",
     "Шевченковое",
@@ -23,7 +23,7 @@
     }
   ],
   "location": {
-    "latitude": 50.5624,
-    "longitude": 30.0925
+    "lat": 50.5624,
+    "lng": 30.0925
   }
 }

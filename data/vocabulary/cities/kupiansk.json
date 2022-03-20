@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Куп'янськ",
-  "translation": "Kupiansk",
-  "mistakes": [
+  "sourceSpelling": "Куп'янськ",
+  "correctSpelling": "Kupiansk",
+  "incorrectSpellings": [
     "Kupyansk"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Купянск"
   ],
   "links": [
@@ -15,7 +15,7 @@
     }
   ],
   "location": {
-    "latitude": 49.7064,
-    "longitude": 37.6167
+    "lat": 49.7064,
+    "lng": 37.6167
   }
 }

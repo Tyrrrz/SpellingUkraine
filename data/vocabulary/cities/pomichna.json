@@ -1,12 +1,12 @@
 {
   "category": "City",
-  "term": "Помічна",
-  "translation": "Pomichna",
-  "mistakes": [
+  "sourceSpelling": "Помічна",
+  "correctSpelling": "Pomichna",
+  "incorrectSpellings": [
     "Pomoshnaya",
     "Pomochnaya"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Помошная"
   ],
   "links": [
@@ -16,7 +16,7 @@
     }
   ],
   "location": {
-    "latitude": 48.25,
-    "longitude": 31.4167
+    "lat": 48.25,
+    "lng": 31.4167
   }
 }

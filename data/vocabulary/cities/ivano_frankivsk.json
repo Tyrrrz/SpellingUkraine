@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Івано-Франківськ",
-  "translation": "Ivano-Frankivsk",
-  "mistakes": [
+  "sourceSpelling": "Івано-Франківськ",
+  "correctSpelling": "Ivano-Frankivsk",
+  "incorrectSpellings": [
     "Ivano-Frankovsk"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Ивано-Франковск",
     "Iwano-Frankivsk"
   ],
@@ -16,7 +16,7 @@
     }
   ],
   "location": {
-    "latitude": 48.9228,
-    "longitude": 24.7106
+    "lat": 48.9228,
+    "lng": 24.7106
   }
 }

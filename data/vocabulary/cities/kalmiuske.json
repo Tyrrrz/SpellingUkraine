@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Кальміуське",
-  "translation": "Kalmiuske",
-  "mistakes": [
+  "sourceSpelling": "Кальміуське",
+  "correctSpelling": "Kalmiuske",
+  "incorrectSpellings": [
     "Kalmiske"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Кальмиусское",
     "Комсомольское",
     "Komsomolske",
@@ -19,7 +19,7 @@
     }
   ],
   "location": {
-    "latitude": 47.6667,
-    "longitude": 38.0667
+    "lat": 47.6667,
+    "lng": 38.0667
   }
 }

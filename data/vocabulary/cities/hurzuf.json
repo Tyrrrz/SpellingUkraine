@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Гурзуф",
-  "translation": "Hurzuf",
-  "mistakes": [
+  "sourceSpelling": "Гурзуф",
+  "correctSpelling": "Hurzuf",
+  "incorrectSpellings": [
     "Gurzuf"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Γορζουβίται"
   ],
   "links": [
@@ -15,7 +15,7 @@
     }
   ],
   "location": {
-    "latitude": 44.5528,
-    "longitude": 34.2875
+    "lat": 44.5528,
+    "lng": 34.2875
   }
 }

@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Чугуїв",
-  "translation": "Chuhuiv",
-  "mistakes": [
+  "sourceSpelling": "Чугуїв",
+  "correctSpelling": "Chuhuiv",
+  "incorrectSpellings": [
     "Chuguev"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Чугуев"
   ],
   "links": [
@@ -15,7 +15,7 @@
     }
   ],
   "location": {
-    "latitude": 49.8353,
-    "longitude": 36.6756
+    "lat": 49.8353,
+    "lng": 36.6756
   }
 }

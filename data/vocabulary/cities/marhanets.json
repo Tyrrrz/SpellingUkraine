@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Марганець",
-  "translation": "Marhanets",
-  "mistakes": [
+  "sourceSpelling": "Марганець",
+  "correctSpelling": "Marhanets",
+  "incorrectSpellings": [
     "Marganets"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Марганец"
   ],
   "links": [
@@ -15,7 +15,7 @@
     }
   ],
   "location": {
-    "latitude": 47.648,
-    "longitude": 34.6167
+    "lat": 47.648,
+    "lng": 34.6167
   }
 }

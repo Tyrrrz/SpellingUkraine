@@ -1,9 +1,9 @@
 {
   "category": "City",
-  "term": "Токмак",
-  "translation": "Tokmak",
-  "mistakes": [],
-  "aliases": [],
+  "sourceSpelling": "Токмак",
+  "correctSpelling": "Tokmak",
+  "incorrectSpellings": [],
+  "relatedSpellings": [],
   "links": [
     {
       "name": "Wikipedia: Tokmak",
@@ -11,7 +11,7 @@
     }
   ],
   "location": {
-    "latitude": 47.2514,
-    "longitude": 35.7058
+    "lat": 47.2514,
+    "lng": 35.7058
   }
 }

@@ -1,9 +1,9 @@
 {
   "category": "City",
-  "term": "Балта",
-  "translation": "Balta",
-  "mistakes": [],
-  "aliases": [],
+  "sourceSpelling": "Балта",
+  "correctSpelling": "Balta",
+  "incorrectSpellings": [],
+  "relatedSpellings": [],
   "links": [
     {
       "name": "Wikipedia: Balta",
@@ -11,7 +11,7 @@
     }
   ],
   "location": {
-    "latitude": 47.9361,
-    "longitude": 29.6225
+    "lat": 47.9361,
+    "lng": 29.6225
   }
 }

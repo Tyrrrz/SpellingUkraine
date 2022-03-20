@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Карнаухівка",
-  "translation": "Karnaukhivka",
-  "mistakes": [
+  "sourceSpelling": "Карнаухівка",
+  "correctSpelling": "Karnaukhivka",
+  "incorrectSpellings": [
     "Karnukhovka"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Карнауховка"
   ],
   "links": [
@@ -15,7 +15,7 @@
     }
   ],
   "location": {
-    "latitude": 48.4698,
-    "longitude": 34.7376
+    "lat": 48.4698,
+    "lng": 34.7376
   }
 }

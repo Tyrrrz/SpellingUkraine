@@ -1,12 +1,12 @@
 {
   "category": "City",
-  "term": "Городище",
-  "translation": "Horodyshche",
-  "mistakes": [
+  "sourceSpelling": "Городище",
+  "correctSpelling": "Horodyshche",
+  "incorrectSpellings": [
     "Gorodyshche",
     "Gorodishche"
   ],
-  "aliases": [],
+  "relatedSpellings": [],
   "links": [
     {
       "name": "Wikipedia: Horodyshche",
@@ -14,7 +14,7 @@
     }
   ],
   "location": {
-    "latitude": 49.2925,
-    "longitude": 31.4581
+    "lat": 49.2925,
+    "lng": 31.4581
   }
 }

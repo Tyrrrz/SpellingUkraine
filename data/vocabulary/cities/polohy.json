@@ -1,13 +1,13 @@
 {
   "category": "City",
-  "term": "Пологи",
-  "translation": "Polohy",
-  "mistakes": [
+  "sourceSpelling": "Пологи",
+  "correctSpelling": "Polohy",
+  "incorrectSpellings": [
     "Polohi",
     "Pologi",
     "Pology"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Чубарівка",
     "Чубаровка",
     "Chubarivka",
@@ -21,7 +21,7 @@
     }
   ],
   "location": {
-    "latitude": 47.4796,
-    "longitude": 36.2611
+    "lat": 47.4796,
+    "lng": 36.2611
   }
 }

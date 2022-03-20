@@ -1,12 +1,12 @@
 {
   "category": "City",
-  "term": "Гірник",
-  "translation": "Hirnyk",
-  "mistakes": [
+  "sourceSpelling": "Гірник",
+  "correctSpelling": "Hirnyk",
+  "incorrectSpellings": [
     "Gorniak",
     "Gornyak"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Горняк"
   ],
   "links": [
@@ -16,7 +16,7 @@
     }
   ],
   "location": {
-    "latitude": 48.05,
-    "longitude": 37.3667
+    "lat": 48.05,
+    "lng": 37.3667
   }
 }

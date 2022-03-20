@@ -1,12 +1,12 @@
 {
   "category": "City",
-  "term": "Підгородне",
-  "translation": "Pidhorodne",
-  "mistakes": [
+  "sourceSpelling": "Підгородне",
+  "correctSpelling": "Pidhorodne",
+  "incorrectSpellings": [
     "Pidgorodne",
     "Podgorodnoe"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Подгородное"
   ],
   "links": [
@@ -16,7 +16,7 @@
     }
   ],
   "location": {
-    "latitude": 48.5737,
-    "longitude": 35.0966
+    "lat": 48.5737,
+    "lng": 35.0966
   }
 }

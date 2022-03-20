@@ -1,9 +1,9 @@
 {
   "category": "City",
-  "term": "Золотоноша",
-  "translation": "Zolotonosha",
-  "mistakes": [],
-  "aliases": [],
+  "sourceSpelling": "Золотоноша",
+  "correctSpelling": "Zolotonosha",
+  "incorrectSpellings": [],
+  "relatedSpellings": [],
   "links": [
     {
       "name": "Wikipedia: Zolotonosha",
@@ -11,7 +11,7 @@
     }
   ],
   "location": {
-    "latitude": 49.6833,
-    "longitude": 32.0333
+    "lat": 49.6833,
+    "lng": 32.0333
   }
 }

@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Гнівань",
-  "translation": "Hnivan",
-  "mistakes": [
+  "sourceSpelling": "Гнівань",
+  "correctSpelling": "Hnivan",
+  "incorrectSpellings": [
     "Gnivan"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Гнивань"
   ],
   "links": [
@@ -15,7 +15,7 @@
     }
   ],
   "location": {
-    "latitude": 49.0833,
-    "longitude": 28.35
+    "lat": 49.0833,
+    "lng": 28.35
   }
 }

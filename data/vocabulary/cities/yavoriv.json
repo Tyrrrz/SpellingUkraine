@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Яворів",
-  "translation": "Yavoriv",
-  "mistakes": [
+  "sourceSpelling": "Яворів",
+  "correctSpelling": "Yavoriv",
+  "incorrectSpellings": [
     "Yavorov"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Яворов",
     "Jaworów"
   ],
@@ -16,7 +16,7 @@
     }
   ],
   "location": {
-    "latitude": 49.9469,
-    "longitude": 23.3931
+    "lat": 49.9469,
+    "lng": 23.3931
   }
 }

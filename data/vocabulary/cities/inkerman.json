@@ -1,9 +1,9 @@
 {
   "category": "City",
-  "term": "Інкерман",
-  "translation": "Inkerman",
-  "mistakes": [],
-  "aliases": [
+  "sourceSpelling": "Інкерман",
+  "correctSpelling": "Inkerman",
+  "incorrectSpellings": [],
+  "relatedSpellings": [
     "Инкерман"
   ],
   "links": [
@@ -13,7 +13,7 @@
     }
   ],
   "location": {
-    "latitude": 44.6142,
-    "longitude": 33.6083
+    "lat": 44.6142,
+    "lng": 33.6083
   }
 }

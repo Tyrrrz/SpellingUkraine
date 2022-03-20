@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Павлоград",
-  "translation": "Pavlohrad",
-  "mistakes": [
+  "sourceSpelling": "Павлоград",
+  "correctSpelling": "Pavlohrad",
+  "incorrectSpellings": [
     "Pavlograd"
   ],
-  "aliases": [],
+  "relatedSpellings": [],
   "links": [
     {
       "name": "Wikipedia: Pavlohrad",
@@ -13,7 +13,7 @@
     }
   ],
   "location": {
-    "latitude": 48.52,
-    "longitude": 35.87
+    "lat": 48.52,
+    "lng": 35.87
   }
 }

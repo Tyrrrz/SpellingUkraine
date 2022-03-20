@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Шевченкове",
-  "translation": "Shevchenkove",
-  "mistakes": [
+  "sourceSpelling": "Шевченкове",
+  "correctSpelling": "Shevchenkove",
+  "incorrectSpellings": [
     "Shevchenkovo"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Шевченково"
   ],
   "links": [
@@ -15,7 +15,7 @@
     }
   ],
   "location": {
-    "latitude": 49.6939,
-    "longitude": 37.1794
+    "lat": 49.6939,
+    "lng": 37.1794
   }
 }

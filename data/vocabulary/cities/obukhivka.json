@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Обухівка",
-  "translation": "Obukhivka",
-  "mistakes": [
+  "sourceSpelling": "Обухівка",
+  "correctSpelling": "Obukhivka",
+  "incorrectSpellings": [
     "Obukhovka"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Обуховка"
   ],
   "links": [
@@ -15,7 +15,7 @@
     }
   ],
   "location": {
-    "latitude": 48.5442,
-    "longitude": 34.8664
+    "lat": 48.5442,
+    "lng": 34.8664
   }
 }

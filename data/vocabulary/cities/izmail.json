@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Ізмаїл",
-  "translation": "Izmail",
-  "mistakes": [
+  "sourceSpelling": "Ізмаїл",
+  "correctSpelling": "Izmail",
+  "incorrectSpellings": [
     "Izmayil"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Измаил",
     "Исмаил",
     "Ismail",
@@ -19,7 +19,7 @@
     }
   ],
   "location": {
-    "latitude": 45.35,
-    "longitude": 28.8333
+    "lat": 45.35,
+    "lng": 28.8333
   }
 }

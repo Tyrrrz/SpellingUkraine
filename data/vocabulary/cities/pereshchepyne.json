@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Перещепине",
-  "translation": "Pereshchepyne",
-  "mistakes": [
+  "sourceSpelling": "Перещепине",
+  "correctSpelling": "Pereshchepyne",
+  "incorrectSpellings": [
     "Pereshchepino"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Перещепино"
   ],
   "links": [
@@ -15,7 +15,7 @@
     }
   ],
   "location": {
-    "latitude": 49.0179,
-    "longitude": 35.3598
+    "lat": 49.0179,
+    "lng": 35.3598
   }
 }

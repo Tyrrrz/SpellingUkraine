@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Андрушівка",
-  "translation": "Andrushivka",
-  "mistakes": [
+  "sourceSpelling": "Андрушівка",
+  "correctSpelling": "Andrushivka",
+  "incorrectSpellings": [
     "Andrushevka"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Андрушевка",
     "Andruszówka"
   ],
@@ -16,7 +16,7 @@
     }
   ],
   "location": {
-    "latitude": 50.0167,
-    "longitude": 29.0167
+    "lat": 50.0167,
+    "lng": 29.0167
   }
 }

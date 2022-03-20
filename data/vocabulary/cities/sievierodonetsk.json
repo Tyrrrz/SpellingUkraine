@@ -1,13 +1,13 @@
 {
   "category": "City",
-  "term": "Сєвєродонецьк",
-  "translation": "Sievierodonetsk",
-  "mistakes": [
+  "sourceSpelling": "Сєвєродонецьк",
+  "correctSpelling": "Sievierodonetsk",
+  "incorrectSpellings": [
     "Siverskodonetsk",
     "Syeverodonetsk",
     "Severodonetsk"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Сіверськодонецьк",
     "Северодонецк"
   ],
@@ -18,7 +18,7 @@
     }
   ],
   "location": {
-    "latitude": 48.95,
-    "longitude": 38.4833
+    "lat": 48.95,
+    "lng": 38.4833
   }
 }

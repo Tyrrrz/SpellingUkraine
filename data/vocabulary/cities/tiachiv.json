@@ -1,13 +1,13 @@
 {
   "category": "City",
-  "term": "Тячів",
-  "translation": "Tiachiv",
-  "mistakes": [
+  "sourceSpelling": "Тячів",
+  "correctSpelling": "Tiachiv",
+  "incorrectSpellings": [
     "Tyachiv",
     "Tiachev",
     "Tyachev"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Тячев"
   ],
   "links": [
@@ -17,7 +17,7 @@
     }
   ],
   "location": {
-    "latitude": 48.0114,
-    "longitude": 23.5722
+    "lat": 48.0114,
+    "lng": 23.5722
   }
 }

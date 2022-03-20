@@ -1,13 +1,13 @@
 {
   "category": "City",
-  "term": "Новомиколаївка",
-  "translation": "Novomykolaivka",
-  "mistakes": [
+  "sourceSpelling": "Новомиколаївка",
+  "correctSpelling": "Novomykolaivka",
+  "incorrectSpellings": [
     "Novomykolayivka",
     "Novomikolayivka",
     "Novonikolaevka"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Новониколаевка"
   ],
   "links": [
@@ -17,7 +17,7 @@
     }
   ],
   "location": {
-    "latitude": 47.9779,
-    "longitude": 35.9099
+    "lat": 47.9779,
+    "lng": 35.9099
   }
 }

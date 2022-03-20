@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Христинівка",
-  "translation": "Khrystynivka",
-  "mistakes": [
+  "sourceSpelling": "Христинівка",
+  "correctSpelling": "Khrystynivka",
+  "incorrectSpellings": [
     "Khristinovka"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Христиновка"
   ],
   "links": [
@@ -15,7 +15,7 @@
     }
   ],
   "location": {
-    "latitude": 48.8333,
-    "longitude": 29.9667
+    "lat": 48.8333,
+    "lng": 29.9667
   }
 }

@@ -1,12 +1,12 @@
 {
   "category": "City",
-  "term": "Козятин",
-  "translation": "Koziatyn",
-  "mistakes": [
+  "sourceSpelling": "Козятин",
+  "correctSpelling": "Koziatyn",
+  "incorrectSpellings": [
     "Kozyatyn",
     "Kazatin"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Казатин",
     "Koziatyn"
   ],
@@ -17,7 +17,7 @@
     }
   ],
   "location": {
-    "latitude": 49.7167,
-    "longitude": 28.8333
+    "lat": 49.7167,
+    "lng": 28.8333
   }
 }

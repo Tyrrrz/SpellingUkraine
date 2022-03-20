@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Бердянськ",
-  "translation": "Berdiansk",
-  "mistakes": [
+  "sourceSpelling": "Бердянськ",
+  "correctSpelling": "Berdiansk",
+  "incorrectSpellings": [
     "Berdyansk"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Бердианск"
   ],
   "links": [
@@ -15,7 +15,7 @@
     }
   ],
   "location": {
-    "latitude": 46.7598,
-    "longitude": 36.7845
+    "lat": 46.7598,
+    "lng": 36.7845
   }
 }

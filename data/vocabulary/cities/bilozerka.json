@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Білозерка",
-  "translation": "Bilozerka",
-  "mistakes": [
+  "sourceSpelling": "Білозерка",
+  "correctSpelling": "Bilozerka",
+  "incorrectSpellings": [
     "Belozerka"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Белозерка"
   ],
   "links": [
@@ -15,7 +15,7 @@
     }
   ],
   "location": {
-    "latitude": 46.6333,
-    "longitude": 32.4333
+    "lat": 46.6333,
+    "lng": 32.4333
   }
 }

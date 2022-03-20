@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Самбір",
-  "translation": "Sambir",
-  "mistakes": [
+  "sourceSpelling": "Самбір",
+  "correctSpelling": "Sambir",
+  "incorrectSpellings": [
     "Sambor"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Самбор",
     "Sambor"
   ],
@@ -16,7 +16,7 @@
     }
   ],
   "location": {
-    "latitude": 49.5167,
-    "longitude": 23.2
+    "lat": 49.5167,
+    "lng": 23.2
   }
 }

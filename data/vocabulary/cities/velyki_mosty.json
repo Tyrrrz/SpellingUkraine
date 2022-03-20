@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Великі Мости",
-  "translation": "Velyki Mosty",
-  "mistakes": [
+  "sourceSpelling": "Великі Мости",
+  "correctSpelling": "Velyki Mosty",
+  "incorrectSpellings": [
     "Velikie Mosty"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Великие Мосты",
     "Mosty Wielkie"
   ],
@@ -16,7 +16,7 @@
     }
   ],
   "location": {
-    "latitude": 50.24,
-    "longitude": 24.1394
+    "lat": 50.24,
+    "lng": 24.1394
   }
 }

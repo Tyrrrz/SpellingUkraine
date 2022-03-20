@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Хуст",
-  "translation": "Khust",
-  "mistakes": [
+  "sourceSpelling": "Хуст",
+  "correctSpelling": "Khust",
+  "incorrectSpellings": [
     "Hust"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Chust",
     "Huszt"
   ],
@@ -16,7 +16,7 @@
     }
   ],
   "location": {
-    "latitude": 48.1814,
-    "longitude": 23.2978
+    "lat": 48.1814,
+    "lng": 23.2978
   }
 }

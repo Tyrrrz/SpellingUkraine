@@ -1,12 +1,12 @@
 {
   "category": "City",
-  "term": "Магдалинiвка",
-  "translation": "Mahdalynivka",
-  "mistakes": [
+  "sourceSpelling": "Магдалинiвка",
+  "correctSpelling": "Mahdalynivka",
+  "incorrectSpellings": [
     "Magdalynivka",
     "Magdalinovka"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Магдалиновка"
   ],
   "links": [
@@ -16,7 +16,7 @@
     }
   ],
   "location": {
-    "latitude": 48.9147,
-    "longitude": 34.9154
+    "lat": 48.9147,
+    "lng": 34.9154
   }
 }

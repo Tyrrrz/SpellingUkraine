@@ -1,12 +1,12 @@
 {
   "category": "City",
-  "term": "Прип'ять",
-  "translation": "Prypyat",
-  "mistakes": [
+  "sourceSpelling": "Прип'ять",
+  "correctSpelling": "Prypyat",
+  "incorrectSpellings": [
     "Pripyat",
     "Pripiat"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Припять"
   ],
   "links": [
@@ -16,7 +16,7 @@
     }
   ],
   "location": {
-    "latitude": 51.406,
-    "longitude": 30.044
+    "lat": 51.406,
+    "lng": 30.044
   }
 }

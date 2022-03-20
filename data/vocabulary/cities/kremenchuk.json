@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Кременчук",
-  "translation": "Kremenchuk",
-  "mistakes": [
+  "sourceSpelling": "Кременчук",
+  "correctSpelling": "Kremenchuk",
+  "incorrectSpellings": [
     "Kremenchug"
   ],
-  "aliases": [],
+  "relatedSpellings": [],
   "links": [
     {
       "name": "Wikipedia: Kremenchuk",
@@ -13,7 +13,7 @@
     }
   ],
   "location": {
-    "latitude": 49.0775,
-    "longitude": 33.4239
+    "lat": 49.0775,
+    "lng": 33.4239
   }
 }

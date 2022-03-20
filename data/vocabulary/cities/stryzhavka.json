@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Стрижавка",
-  "translation": "Stryzhavka",
-  "mistakes": [
+  "sourceSpelling": "Стрижавка",
+  "correctSpelling": "Stryzhavka",
+  "incorrectSpellings": [
     "Strizhavka"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Стрижавка",
     "Strzyżawka"
   ],
@@ -16,7 +16,7 @@
     }
   ],
   "location": {
-    "latitude": 49.3103,
-    "longitude": 28.4808
+    "lat": 49.3103,
+    "lng": 28.4808
   }
 }

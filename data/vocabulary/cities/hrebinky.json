@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Гребінки",
-  "translation": "Hrebinky",
-  "mistakes": [
+  "sourceSpelling": "Гребінки",
+  "correctSpelling": "Hrebinky",
+  "incorrectSpellings": [
     "Grebenki"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Гребёнки"
   ],
   "links": [
@@ -15,7 +15,7 @@
     }
   ],
   "location": {
-    "latitude": 49.9564,
-    "longitude": 30.1714
+    "lat": 49.9564,
+    "lng": 30.1714
   }
 }

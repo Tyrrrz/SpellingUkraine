@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Чорноморськ",
-  "translation": "Chornomorsk",
-  "mistakes": [
+  "sourceSpelling": "Чорноморськ",
+  "correctSpelling": "Chornomorsk",
+  "incorrectSpellings": [
     "Chernomorsk"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Черноморск",
     "Іллічівськ",
     "Ильичёвск",
@@ -19,7 +19,7 @@
     }
   ],
   "location": {
-    "latitude": 46.3017,
-    "longitude": 30.6569
+    "lat": 46.3017,
+    "lng": 30.6569
   }
 }

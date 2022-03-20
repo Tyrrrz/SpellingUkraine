@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Косів",
-  "translation": "Kosiv",
-  "mistakes": [
+  "sourceSpelling": "Косів",
+  "correctSpelling": "Kosiv",
+  "incorrectSpellings": [
     "Kosov"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Косов",
     "Kosiw"
   ],
@@ -16,7 +16,7 @@
     }
   ],
   "location": {
-    "latitude": 48.315,
-    "longitude": 25.0953
+    "lat": 48.315,
+    "lng": 25.0953
   }
 }

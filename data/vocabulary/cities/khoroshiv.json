@@ -1,12 +1,12 @@
 {
   "category": "City",
-  "term": "Хорошів",
-  "translation": "Khoroshiv",
-  "mistakes": [
+  "sourceSpelling": "Хорошів",
+  "correctSpelling": "Khoroshiv",
+  "incorrectSpellings": [
     "Khoroshev",
     "Khorochev"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Хорошев",
     "Володарськ-Волинський",
     "Володарск-Волынский",
@@ -20,7 +20,7 @@
     }
   ],
   "location": {
-    "latitude": 50.6,
-    "longitude": 28.45
+    "lat": 50.6,
+    "lng": 28.45
   }
 }

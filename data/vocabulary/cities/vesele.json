@@ -1,12 +1,12 @@
 {
   "category": "City",
-  "term": "Веселе",
-  "translation": "Vesele",
-  "mistakes": [
+  "sourceSpelling": "Веселе",
+  "correctSpelling": "Vesele",
+  "incorrectSpellings": [
     "Veseloye",
     "Veseloe"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Весёлое"
   ],
   "links": [
@@ -16,7 +16,7 @@
     }
   ],
   "location": {
-    "latitude": 47.016,
-    "longitude": 34.9124
+    "lat": 47.016,
+    "lng": 34.9124
   }
 }

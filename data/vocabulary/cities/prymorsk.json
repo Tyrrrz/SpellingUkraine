@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Приморськ",
-  "translation": "Prymorsk",
-  "mistakes": [
+  "sourceSpelling": "Приморськ",
+  "correctSpelling": "Prymorsk",
+  "incorrectSpellings": [
     "Primorsk"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Приморск"
   ],
   "links": [
@@ -15,7 +15,7 @@
     }
   ],
   "location": {
-    "latitude": 46.7333,
-    "longitude": 36.3596
+    "lat": 46.7333,
+    "lng": 36.3596
   }
 }

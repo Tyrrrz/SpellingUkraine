@@ -1,9 +1,9 @@
 {
   "category": "City",
-  "term": "Красноїльськ",
-  "translation": "Krasnoilsk",
-  "mistakes": [],
-  "aliases": [
+  "sourceSpelling": "Красноїльськ",
+  "correctSpelling": "Krasnoilsk",
+  "incorrectSpellings": [],
+  "relatedSpellings": [
     "Красноилск",
     "Crasna-Ilschi"
   ],
@@ -14,7 +14,7 @@
     }
   ],
   "location": {
-    "latitude": 48.0167,
-    "longitude": 25.5833
+    "lat": 48.0167,
+    "lng": 25.5833
   }
 }

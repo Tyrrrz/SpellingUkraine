@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Кадіївка",
-  "translation": "Kadiivka",
-  "mistakes": [
+  "sourceSpelling": "Кадіївка",
+  "correctSpelling": "Kadiivka",
+  "incorrectSpellings": [
     "Kadiyevka"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Кадиевка",
     "Стаханов",
     "Stakhanov"
@@ -18,7 +18,7 @@
     }
   ],
   "location": {
-    "latitude": 48.5472,
-    "longitude": 38.6361
+    "lat": 48.5472,
+    "lng": 38.6361
   }
 }

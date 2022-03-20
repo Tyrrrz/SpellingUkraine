@@ -1,9 +1,9 @@
 {
   "category": "City",
-  "term": "Сімферополь",
-  "translation": "Simferopol",
-  "mistakes": [],
-  "aliases": [
+  "sourceSpelling": "Сімферополь",
+  "correctSpelling": "Simferopol",
+  "incorrectSpellings": [],
+  "relatedSpellings": [
     "Симферополь",
     "Aqmescit"
   ],
@@ -14,7 +14,7 @@
     }
   ],
   "location": {
-    "latitude": 44.9484,
-    "longitude": 34.1
+    "lat": 44.9484,
+    "lng": 34.1
   }
 }

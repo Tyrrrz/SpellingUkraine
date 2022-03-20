@@ -1,12 +1,12 @@
 {
   "category": "City",
-  "term": "Перегінське",
-  "translation": "Perehinske",
-  "mistakes": [
+  "sourceSpelling": "Перегінське",
+  "correctSpelling": "Perehinske",
+  "incorrectSpellings": [
     "Pereginske",
     "Pereginskoe"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Перегинское",
     "Perehińsko"
   ],
@@ -17,7 +17,7 @@
     }
   ],
   "location": {
-    "latitude": 48.8103,
-    "longitude": 24.1819
+    "lat": 48.8103,
+    "lng": 24.1819
   }
 }

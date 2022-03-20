@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Ківерці",
-  "translation": "Kivertsi",
-  "mistakes": [
+  "sourceSpelling": "Ківерці",
+  "correctSpelling": "Kivertsi",
+  "incorrectSpellings": [
     "Kivertsy"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Киверцы",
     "Kiwerce"
   ],
@@ -16,7 +16,7 @@
     }
   ],
   "location": {
-    "latitude": 50.8331,
-    "longitude": 25.4614
+    "lat": 50.8331,
+    "lng": 25.4614
   }
 }

@@ -1,12 +1,12 @@
 {
   "category": "City",
-  "term": "Яготин",
-  "translation": "Yahotyn",
-  "mistakes": [
+  "sourceSpelling": "Яготин",
+  "correctSpelling": "Yahotyn",
+  "incorrectSpellings": [
     "Yagotyn",
     "Yagotin"
   ],
-  "aliases": [],
+  "relatedSpellings": [],
   "links": [
     {
       "name": "Wikipedia: Yahotyn",
@@ -14,7 +14,7 @@
     }
   ],
   "location": {
-    "latitude": 50.2569,
-    "longitude": 31.7817
+    "lat": 50.2569,
+    "lng": 31.7817
   }
 }

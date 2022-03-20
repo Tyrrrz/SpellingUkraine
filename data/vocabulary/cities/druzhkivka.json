@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Дружківка",
-  "translation": "Druzhkivka",
-  "mistakes": [
+  "sourceSpelling": "Дружківка",
+  "correctSpelling": "Druzhkivka",
+  "incorrectSpellings": [
     "Druzhkovka"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Дружковка"
   ],
   "links": [
@@ -15,7 +15,7 @@
     }
   ],
   "location": {
-    "latitude": 48.6203,
-    "longitude": 37.5278
+    "lat": 48.6203,
+    "lng": 37.5278
   }
 }

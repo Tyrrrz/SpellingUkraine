@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Богданівка",
-  "translation": "Bohdanivka",
-  "mistakes": [
+  "sourceSpelling": "Богданівка",
+  "correctSpelling": "Bohdanivka",
+  "incorrectSpellings": [
     "Bogdanovka"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Богдановка"
   ],
   "links": [
@@ -15,7 +15,7 @@
     }
   ],
   "location": {
-    "latitude": 48.5015,
-    "longitude": 36.11
+    "lat": 48.5015,
+    "lng": 36.11
   }
 }

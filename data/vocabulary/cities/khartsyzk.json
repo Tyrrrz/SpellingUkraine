@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Харцизьк",
-  "translation": "Khartsyzk",
-  "mistakes": [
+  "sourceSpelling": "Харцизьк",
+  "correctSpelling": "Khartsyzk",
+  "incorrectSpellings": [
     "Khartsyzsk"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Харцызск"
   ],
   "links": [
@@ -15,7 +15,7 @@
     }
   ],
   "location": {
-    "latitude": 48.0333,
-    "longitude": 38.15
+    "lat": 48.0333,
+    "lng": 38.15
   }
 }

@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Чигирин",
-  "translation": "Chyhyryn",
-  "mistakes": [
+  "sourceSpelling": "Чигирин",
+  "correctSpelling": "Chyhyryn",
+  "incorrectSpellings": [
     "Chihyrin"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Чигирин"
   ],
   "links": [
@@ -15,7 +15,7 @@
     }
   ],
   "location": {
-    "latitude": 49.0833,
-    "longitude": 32.6667
+    "lat": 49.0833,
+    "lng": 32.6667
   }
 }

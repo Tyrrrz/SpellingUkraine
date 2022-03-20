@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Каховка",
-  "translation": "Kakhovka",
-  "mistakes": [
+  "sourceSpelling": "Каховка",
+  "correctSpelling": "Kakhovka",
+  "incorrectSpellings": [
     "Kahovka"
   ],
-  "aliases": [],
+  "relatedSpellings": [],
   "links": [
     {
       "name": "Wikipedia: Kakhovka",
@@ -13,7 +13,7 @@
     }
   ],
   "location": {
-    "latitude": 46.8,
-    "longitude": 33.4667
+    "lat": 46.8,
+    "lng": 33.4667
   }
 }

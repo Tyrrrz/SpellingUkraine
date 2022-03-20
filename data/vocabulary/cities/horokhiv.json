@@ -1,12 +1,12 @@
 {
   "category": "City",
-  "term": "Горохів",
-  "translation": "Horokhiv",
-  "mistakes": [
+  "sourceSpelling": "Горохів",
+  "correctSpelling": "Horokhiv",
+  "incorrectSpellings": [
     "Gorokhov",
     "Gorohov"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Горохов",
     "Horochów"
   ],
@@ -17,7 +17,7 @@
     }
   ],
   "location": {
-    "latitude": 50.4994,
-    "longitude": 24.765
+    "lat": 50.4994,
+    "lng": 24.765
   }
 }

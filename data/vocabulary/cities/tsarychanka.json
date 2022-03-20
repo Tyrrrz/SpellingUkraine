@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Царичанка",
-  "translation": "Tsarychanka",
-  "mistakes": [
+  "sourceSpelling": "Царичанка",
+  "correctSpelling": "Tsarychanka",
+  "incorrectSpellings": [
     "Tsarichanka"
   ],
-  "aliases": [],
+  "relatedSpellings": [],
   "links": [
     {
       "name": "Wikipedia: Tsarychanka",
@@ -13,7 +13,7 @@
     }
   ],
   "location": {
-    "latitude": 48.9432,
-    "longitude": 34.4748
+    "lat": 48.9432,
+    "lng": 34.4748
   }
 }

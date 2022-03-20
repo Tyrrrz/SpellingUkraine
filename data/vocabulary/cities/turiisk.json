@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Турійськ",
-  "translation": "Turiisk",
-  "mistakes": [
+  "sourceSpelling": "Турійськ",
+  "correctSpelling": "Turiisk",
+  "incorrectSpellings": [
     "Turiysk"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Турийск"
   ],
   "links": [
@@ -15,7 +15,7 @@
     }
   ],
   "location": {
-    "latitude": 51.0833,
-    "longitude": 24.5333
+    "lat": 51.0833,
+    "lng": 24.5333
   }
 }

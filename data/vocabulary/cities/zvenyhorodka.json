@@ -1,12 +1,12 @@
 {
   "category": "City",
-  "term": "Звенигородка",
-  "translation": "Zvenyhorodka",
-  "mistakes": [
+  "sourceSpelling": "Звенигородка",
+  "correctSpelling": "Zvenyhorodka",
+  "incorrectSpellings": [
     "Zvenygorodka",
     "Zvenigorodka"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Звенигородка",
     "Zwinogródka"
   ],
@@ -17,7 +17,7 @@
     }
   ],
   "location": {
-    "latitude": 49.0833,
-    "longitude": 30.9667
+    "lat": 49.0833,
+    "lng": 30.9667
   }
 }

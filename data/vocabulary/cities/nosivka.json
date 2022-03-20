@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Носівка",
-  "translation": "Nosivka",
-  "mistakes": [
+  "sourceSpelling": "Носівка",
+  "correctSpelling": "Nosivka",
+  "incorrectSpellings": [
     "Nosovka"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Носовка"
   ],
   "links": [
@@ -15,7 +15,7 @@
     }
   ],
   "location": {
-    "latitude": 50.93,
-    "longitude": 31.58
+    "lat": 50.93,
+    "lng": 31.58
   }
 }

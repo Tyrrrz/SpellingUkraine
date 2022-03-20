@@ -1,9 +1,9 @@
 {
   "category": "City",
-  "term": "Бар",
-  "translation": "Bar",
-  "mistakes": [],
-  "aliases": [],
+  "sourceSpelling": "Бар",
+  "correctSpelling": "Bar",
+  "incorrectSpellings": [],
+  "relatedSpellings": [],
   "links": [
     {
       "name": "Wikipedia: Bar",
@@ -11,7 +11,7 @@
     }
   ],
   "location": {
-    "latitude": 49.0781,
-    "longitude": 27.6831
+    "lat": 49.0781,
+    "lng": 27.6831
   }
 }

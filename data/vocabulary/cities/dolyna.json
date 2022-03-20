@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Долина",
-  "translation": "Dolyna",
-  "mistakes": [
+  "sourceSpelling": "Долина",
+  "correctSpelling": "Dolyna",
+  "incorrectSpellings": [
     "Dolina"
   ],
-  "aliases": [],
+  "relatedSpellings": [],
   "links": [
     {
       "name": "Wikipedia: Dolyna",
@@ -13,7 +13,7 @@
     }
   ],
   "location": {
-    "latitude": 48.9703,
-    "longitude": 24.0108
+    "lat": 48.9703,
+    "lng": 24.0108
   }
 }

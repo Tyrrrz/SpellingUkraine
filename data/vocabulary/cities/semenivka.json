@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Семенівка",
-  "translation": "Semenivka",
-  "mistakes": [
+  "sourceSpelling": "Семенівка",
+  "correctSpelling": "Semenivka",
+  "incorrectSpellings": [
     "Semenovka"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Семёновка"
   ],
   "links": [
@@ -15,7 +15,7 @@
     }
   ],
   "location": {
-    "latitude": 52.1772,
-    "longitude": 32.5797
+    "lat": 52.1772,
+    "lng": 32.5797
   }
 }

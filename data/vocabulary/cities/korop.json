@@ -1,9 +1,9 @@
 {
   "category": "City",
-  "term": "Короп",
-  "translation": "Korop",
-  "mistakes": [],
-  "aliases": [],
+  "sourceSpelling": "Короп",
+  "correctSpelling": "Korop",
+  "incorrectSpellings": [],
+  "relatedSpellings": [],
   "links": [
     {
       "name": "Wikipedia: Korop",
@@ -11,7 +11,7 @@
     }
   ],
   "location": {
-    "latitude": 51.5661,
-    "longitude": 32.9508
+    "lat": 51.5661,
+    "lng": 32.9508
   }
 }

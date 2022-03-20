@@ -1,12 +1,12 @@
 {
   "category": "City",
-  "term": "Криве Озеро",
-  "translation": "Kryve Ozero",
-  "mistakes": [
+  "sourceSpelling": "Криве Озеро",
+  "correctSpelling": "Kryve Ozero",
+  "incorrectSpellings": [
     "Krivoe Ozero",
     "Krivoye Ozero"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Кривое Озеро"
   ],
   "links": [
@@ -16,7 +16,7 @@
     }
   ],
   "location": {
-    "latitude": 47.9333,
-    "longitude": 30.3333
+    "lat": 47.9333,
+    "lng": 30.3333
   }
 }

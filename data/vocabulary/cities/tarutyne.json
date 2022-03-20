@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Тарутине",
-  "translation": "Tarutyne",
-  "mistakes": [
+  "sourceSpelling": "Тарутине",
+  "correctSpelling": "Tarutyne",
+  "incorrectSpellings": [
     "Tarutino"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Тарутино",
     "Thyratyna"
   ],
@@ -16,7 +16,7 @@
     }
   ],
   "location": {
-    "latitude": 46.1846,
-    "longitude": 29.1495
+    "lat": 46.1846,
+    "lng": 29.1495
   }
 }

@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Молодогвардійськ",
-  "translation": "Molodohvardiisk",
-  "mistakes": [
+  "sourceSpelling": "Молодогвардійськ",
+  "correctSpelling": "Molodohvardiisk",
+  "incorrectSpellings": [
     "Molodogvardeysk"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Молодогвардейск"
   ],
   "links": [
@@ -15,7 +15,7 @@
     }
   ],
   "location": {
-    "latitude": 48.3444,
-    "longitude": 39.6583
+    "lat": 48.3444,
+    "lng": 39.6583
   }
 }

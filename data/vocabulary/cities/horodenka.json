@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Городенка",
-  "translation": "Horodenka",
-  "mistakes": [
+  "sourceSpelling": "Городенка",
+  "correctSpelling": "Horodenka",
+  "incorrectSpellings": [
     "Gorodenka"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Городенка",
     "Horodence"
   ],
@@ -16,7 +16,7 @@
     }
   ],
   "location": {
-    "latitude": 48.6675,
-    "longitude": 25.5003
+    "lat": 48.6675,
+    "lng": 25.5003
   }
 }

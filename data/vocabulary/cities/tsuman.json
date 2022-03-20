@@ -1,9 +1,9 @@
 {
   "category": "City",
-  "term": "Цумань",
-  "translation": "Tsuman",
-  "mistakes": [],
-  "aliases": [
+  "sourceSpelling": "Цумань",
+  "correctSpelling": "Tsuman",
+  "incorrectSpellings": [],
+  "relatedSpellings": [
     "Cumań"
   ],
   "links": [
@@ -13,7 +13,7 @@
     }
   ],
   "location": {
-    "latitude": 50.8333,
-    "longitude": 25.8833
+    "lat": 50.8333,
+    "lng": 25.8833
   }
 }

@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Балаклія",
-  "translation": "Balakliia",
-  "mistakes": [
+  "sourceSpelling": "Балаклія",
+  "correctSpelling": "Balakliia",
+  "incorrectSpellings": [
     "Balakleya"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Бaлaклeя"
   ],
   "links": [
@@ -15,7 +15,7 @@
     }
   ],
   "location": {
-    "latitude": 49.4564,
-    "longitude": 36.8389
+    "lat": 49.4564,
+    "lng": 36.8389
   }
 }

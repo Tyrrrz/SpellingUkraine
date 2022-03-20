@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Тлумач",
-  "translation": "Tlumach",
-  "mistakes": [
+  "sourceSpelling": "Тлумач",
+  "correctSpelling": "Tlumach",
+  "incorrectSpellings": [
     "Tovmach"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Товмач",
     "Tłumacz"
   ],
@@ -16,7 +16,7 @@
     }
   ],
   "location": {
-    "latitude": 48.8669,
-    "longitude": 25.0012
+    "lat": 48.8669,
+    "lng": 25.0012
   }
 }

@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Калинівка",
-  "translation": "Kalynivka",
-  "mistakes": [
+  "sourceSpelling": "Калинівка",
+  "correctSpelling": "Kalynivka",
+  "incorrectSpellings": [
     "Kalinovka"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Калиновка",
     "Kalinówka"
   ],
@@ -16,7 +16,7 @@
     }
   ],
   "location": {
-    "latitude": 49.4472,
-    "longitude": 28.5231
+    "lat": 49.4472,
+    "lng": 28.5231
   }
 }

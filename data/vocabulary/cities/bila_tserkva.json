@@ -1,13 +1,13 @@
 {
   "category": "City",
-  "term": "Біла Церква",
-  "translation": "Bila Tserkva",
-  "mistakes": [
+  "sourceSpelling": "Біла Церква",
+  "correctSpelling": "Bila Tserkva",
+  "incorrectSpellings": [
     "Bila Cerkva",
     "Belaya Tserkva",
     "Belaya Tserkov"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Белая Церковь",
     "Била Церква",
     "Biała Cerkiew"
@@ -19,7 +19,7 @@
     }
   ],
   "location": {
-    "latitude": 49.7956,
-    "longitude": 30.1167
+    "lat": 49.7956,
+    "lng": 30.1167
   }
 }

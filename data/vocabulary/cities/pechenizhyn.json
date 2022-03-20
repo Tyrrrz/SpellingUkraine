@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Печеніжин",
-  "translation": "Pechenizhyn",
-  "mistakes": [
+  "sourceSpelling": "Печеніжин",
+  "correctSpelling": "Pechenizhyn",
+  "incorrectSpellings": [
     "Pechenezhin"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Печенежин",
     "Peczeniżyn"
   ],
@@ -16,7 +16,7 @@
     }
   ],
   "location": {
-    "latitude": 48.51,
-    "longitude": 24.8892
+    "lat": 48.51,
+    "lng": 24.8892
   }
 }

@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Томаківка",
-  "translation": "Tomakivka",
-  "mistakes": [
+  "sourceSpelling": "Томаківка",
+  "correctSpelling": "Tomakivka",
+  "incorrectSpellings": [
     "Tomakovka"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Томаковка"
   ],
   "links": [
@@ -15,7 +15,7 @@
     }
   ],
   "location": {
-    "latitude": 47.8163,
-    "longitude": 34.7471
+    "lat": 47.8163,
+    "lng": 34.7471
   }
 }

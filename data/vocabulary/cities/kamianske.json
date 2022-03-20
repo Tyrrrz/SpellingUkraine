@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Кам'янське",
-  "translation": "Kamianske",
-  "mistakes": [
+  "sourceSpelling": "Кам'янське",
+  "correctSpelling": "Kamianske",
+  "incorrectSpellings": [
     "Kamyanske"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Каменское",
     "Днепродзержинск",
     "Dniprodzerzhynsk",
@@ -19,7 +19,7 @@
     }
   ],
   "location": {
-    "latitude": 48.5076,
-    "longitude": 34.6132
+    "lat": 48.5076,
+    "lng": 34.6132
   }
 }

@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Ужгород",
-  "translation": "Uzhhorod",
-  "mistakes": [
+  "sourceSpelling": "Ужгород",
+  "correctSpelling": "Uzhhorod",
+  "incorrectSpellings": [
     "Uzhgorod"
   ],
-  "aliases": [],
+  "relatedSpellings": [],
   "links": [
     {
       "name": "Wikipedia: Uzhhorod",
@@ -13,7 +13,7 @@
     }
   ],
   "location": {
-    "latitude": 48.6239,
-    "longitude": 22.295
+    "lat": 48.6239,
+    "lng": 22.295
   }
 }

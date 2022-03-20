@@ -1,12 +1,12 @@
 {
   "category": "City",
-  "term": "Глухів",
-  "translation": "Hlukhiv",
-  "mistakes": [
+  "sourceSpelling": "Глухів",
+  "correctSpelling": "Hlukhiv",
+  "incorrectSpellings": [
     "Glukhov",
     "Gluhov"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Глухов",
     "Głuchów"
   ],
@@ -17,7 +17,7 @@
     }
   ],
   "location": {
-    "latitude": 51.6765,
-    "longitude": 33.9078
+    "lat": 51.6765,
+    "lng": 33.9078
   }
 }

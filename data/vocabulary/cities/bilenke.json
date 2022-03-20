@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Біленьке",
-  "translation": "Bilenke",
-  "mistakes": [
+  "sourceSpelling": "Біленьке",
+  "correctSpelling": "Bilenke",
+  "incorrectSpellings": [
     "Belenkoe"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Беленькое"
   ],
   "links": [
@@ -15,7 +15,7 @@
     }
   ],
   "location": {
-    "latitude": 48.7664,
-    "longitude": 37.6314
+    "lat": 48.7664,
+    "lng": 37.6314
   }
 }

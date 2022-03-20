@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Сміла",
-  "translation": "Smila",
-  "mistakes": [
+  "sourceSpelling": "Сміла",
+  "correctSpelling": "Smila",
+  "incorrectSpellings": [
     "Smela"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Смела"
   ],
   "links": [
@@ -15,7 +15,7 @@
     }
   ],
   "location": {
-    "latitude": 49.2167,
-    "longitude": 31.8667
+    "lat": 49.2167,
+    "lng": 31.8667
   }
 }

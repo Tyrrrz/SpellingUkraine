@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Саки",
-  "translation": "Saky",
-  "mistakes": [
+  "sourceSpelling": "Саки",
+  "correctSpelling": "Saky",
+  "incorrectSpellings": [
     "Saki"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Saq"
   ],
   "links": [
@@ -15,7 +15,7 @@
     }
   ],
   "location": {
-    "latitude": 45.1336,
-    "longitude": 33.5772
+    "lat": 45.1336,
+    "lng": 33.5772
   }
 }

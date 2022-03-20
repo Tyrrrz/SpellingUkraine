@@ -1,9 +1,9 @@
 {
   "category": "City",
-  "term": "Кременець",
-  "translation": "Kremenets",
-  "mistakes": [],
-  "aliases": [
+  "sourceSpelling": "Кременець",
+  "correctSpelling": "Kremenets",
+  "incorrectSpellings": [],
+  "relatedSpellings": [
     "Кременец",
     "Крем'янець",
     "Krzemieniec"
@@ -15,7 +15,7 @@
     }
   ],
   "location": {
-    "latitude": 50.1081,
-    "longitude": 25.7275
+    "lat": 50.1081,
+    "lng": 25.7275
   }
 }

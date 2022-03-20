@@ -1,9 +1,9 @@
 {
   "category": "City",
-  "term": "Трускавець",
-  "translation": "Truskavets",
-  "mistakes": [],
-  "aliases": [
+  "sourceSpelling": "Трускавець",
+  "correctSpelling": "Truskavets",
+  "incorrectSpellings": [],
+  "relatedSpellings": [
     "Трускавец",
     "Truskawiec"
   ],
@@ -14,7 +14,7 @@
     }
   ],
   "location": {
-    "latitude": 49.2806,
-    "longitude": 23.505
+    "lat": 49.2806,
+    "lng": 23.505
   }
 }

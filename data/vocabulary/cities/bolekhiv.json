@@ -1,12 +1,12 @@
 {
   "category": "City",
-  "term": "Болехів",
-  "translation": "Bolekhiv",
-  "mistakes": [
+  "sourceSpelling": "Болехів",
+  "correctSpelling": "Bolekhiv",
+  "incorrectSpellings": [
     "Bolehiv",
     "Bolechiw"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Болехов",
     "Bolechów"
   ],
@@ -17,7 +17,7 @@
     }
   ],
   "location": {
-    "latitude": 49.0669,
-    "longitude": 23.8514
+    "lat": 49.0669,
+    "lng": 23.8514
   }
 }

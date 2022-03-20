@@ -1,9 +1,9 @@
 {
   "category": "City",
-  "term": "Дубно",
-  "translation": "Dubno",
-  "mistakes": [],
-  "aliases": [],
+  "sourceSpelling": "Дубно",
+  "correctSpelling": "Dubno",
+  "incorrectSpellings": [],
+  "relatedSpellings": [],
   "links": [
     {
       "name": "Wikipedia: Dubno",
@@ -11,7 +11,7 @@
     }
   ],
   "location": {
-    "latitude": 50.3931,
-    "longitude": 25.735
+    "lat": 50.3931,
+    "lng": 25.735
   }
 }

@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Луганськ",
-  "translation": "Luhansk",
-  "mistakes": [
+  "sourceSpelling": "Луганськ",
+  "correctSpelling": "Luhansk",
+  "incorrectSpellings": [
     "Lugansk"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Луганск"
   ],
   "links": [
@@ -15,7 +15,7 @@
     }
   ],
   "location": {
-    "latitude": 48.5833,
-    "longitude": 39.3333
+    "lat": 48.5833,
+    "lng": 39.3333
   }
 }

@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Драбів",
-  "translation": "Drabiv",
-  "mistakes": [
+  "sourceSpelling": "Драбів",
+  "correctSpelling": "Drabiv",
+  "incorrectSpellings": [
     "Drabov"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Драбов"
   ],
   "links": [
@@ -15,7 +15,7 @@
     }
   ],
   "location": {
-    "latitude": 49.9603,
-    "longitude": 32.1481
+    "lat": 49.9603,
+    "lng": 32.1481
   }
 }

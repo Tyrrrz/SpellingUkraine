@@ -1,12 +1,12 @@
 {
   "category": "City",
-  "term": "Корюківка",
-  "translation": "Koriukivka",
-  "mistakes": [
+  "sourceSpelling": "Корюківка",
+  "correctSpelling": "Koriukivka",
+  "incorrectSpellings": [
     "Koriukovka",
     "Korukovka"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Корюковка"
   ],
   "links": [
@@ -16,7 +16,7 @@
     }
   ],
   "location": {
-    "latitude": 51.7833,
-    "longitude": 32.25
+    "lat": 51.7833,
+    "lng": 32.25
   }
 }

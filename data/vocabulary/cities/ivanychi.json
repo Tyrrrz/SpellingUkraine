@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Іваничі",
-  "translation": "Ivanychi",
-  "mistakes": [
+  "sourceSpelling": "Іваничі",
+  "correctSpelling": "Ivanychi",
+  "incorrectSpellings": [
     "Ivanichi"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Иваничи",
     "Iwanicze"
   ],
@@ -16,7 +16,7 @@
     }
   ],
   "location": {
-    "latitude": 50.6419,
-    "longitude": 24.3606
+    "lat": 50.6419,
+    "lng": 24.3606
   }
 }

@@ -1,12 +1,12 @@
 {
   "category": "City",
-  "term": "Вільнянськ",
-  "translation": "Vilniansk",
-  "mistakes": [
+  "sourceSpelling": "Вільнянськ",
+  "correctSpelling": "Vilniansk",
+  "incorrectSpellings": [
     "Vilnyansk",
     "Volnyansk"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Вольнянск"
   ],
   "links": [
@@ -16,7 +16,7 @@
     }
   ],
   "location": {
-    "latitude": 47.9445,
-    "longitude": 35.4331
+    "lat": 47.9445,
+    "lng": 35.4331
   }
 }

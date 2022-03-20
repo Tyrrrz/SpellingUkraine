@@ -1,14 +1,14 @@
 {
   "category": "City",
-  "term": "Миколаїв",
-  "translation": "Mykolaiv",
-  "mistakes": [
+  "sourceSpelling": "Миколаїв",
+  "correctSpelling": "Mykolaiv",
+  "incorrectSpellings": [
     "Mykolayiv",
     "Nikolaev",
     "Nikolayev",
     "Nikolaiv"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Николаев"
   ],
   "links": [
@@ -18,7 +18,7 @@
     }
   ],
   "location": {
-    "latitude": 46.9667,
-    "longitude": 32
+    "lat": 46.9667,
+    "lng": 32
   }
 }

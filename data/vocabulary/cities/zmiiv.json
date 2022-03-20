@@ -1,12 +1,12 @@
 {
   "category": "City",
-  "term": "Зміїв",
-  "translation": "Zmiiv",
-  "mistakes": [
+  "sourceSpelling": "Зміїв",
+  "correctSpelling": "Zmiiv",
+  "incorrectSpellings": [
     "Zmiev",
     "Zmiyev"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Змиёв"
   ],
   "links": [
@@ -16,7 +16,7 @@
     }
   ],
   "location": {
-    "latitude": 49.6878,
-    "longitude": 36.3558
+    "lat": 49.6878,
+    "lng": 36.3558
   }
 }

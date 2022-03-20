@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Хмільник",
-  "translation": "Khmilnyk",
-  "mistakes": [
+  "sourceSpelling": "Хмільник",
+  "correctSpelling": "Khmilnyk",
+  "incorrectSpellings": [
     "Khmelnik"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Хмельник",
     "Chmielnik"
   ],
@@ -16,7 +16,7 @@
     }
   ],
   "location": {
-    "latitude": 49.55,
-    "longitude": 27.9667
+    "lat": 49.55,
+    "lng": 27.9667
   }
 }

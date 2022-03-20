@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Прилуки",
-  "translation": "Pryluky",
-  "mistakes": [
+  "sourceSpelling": "Прилуки",
+  "correctSpelling": "Pryluky",
+  "incorrectSpellings": [
     "Priluki"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Прилуки"
   ],
   "links": [
@@ -15,7 +15,7 @@
     }
   ],
   "location": {
-    "latitude": 50.6,
-    "longitude": 32.4
+    "lat": 50.6,
+    "lng": 32.4
   }
 }

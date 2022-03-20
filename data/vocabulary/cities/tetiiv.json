@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Тетіїв",
-  "translation": "Tetiiv",
-  "mistakes": [
+  "sourceSpelling": "Тетіїв",
+  "correctSpelling": "Tetiiv",
+  "incorrectSpellings": [
     "Tetiev"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Тетиев"
   ],
   "links": [
@@ -15,7 +15,7 @@
     }
   ],
   "location": {
-    "latitude": 49.3708,
-    "longitude": 29.69
+    "lat": 49.3708,
+    "lng": 29.69
   }
 }

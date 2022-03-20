@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Ірпін",
-  "translation": "Irpin",
-  "mistakes": [
+  "sourceSpelling": "Ірпін",
+  "correctSpelling": "Irpin",
+  "incorrectSpellings": [
     "Irpen"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Ирпень"
   ],
   "links": [
@@ -15,7 +15,7 @@
     }
   ],
   "location": {
-    "latitude": 50.5167,
-    "longitude": 30.25
+    "lat": 50.5167,
+    "lng": 30.25
   }
 }

@@ -1,14 +1,14 @@
 {
   "category": "City",
-  "term": "Гуляйполе",
-  "translation": "Huliaipole",
-  "mistakes": [
+  "sourceSpelling": "Гуляйполе",
+  "correctSpelling": "Huliaipole",
+  "incorrectSpellings": [
     "Hulaypole",
     "Hulyaypole",
     "Guliapole",
     "Gulaypole"
   ],
-  "aliases": [],
+  "relatedSpellings": [],
   "links": [
     {
       "name": "Wikipedia: Huliaipole",
@@ -16,7 +16,7 @@
     }
   ],
   "location": {
-    "latitude": 47.6644,
-    "longitude": 36.2632
+    "lat": 47.6644,
+    "lng": 36.2632
   }
 }

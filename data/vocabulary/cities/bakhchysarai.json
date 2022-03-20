@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Бахчисарай",
-  "translation": "Bakhchysarai",
-  "mistakes": [
+  "sourceSpelling": "Бахчисарай",
+  "correctSpelling": "Bakhchysarai",
+  "incorrectSpellings": [
     "Bakhchisarai"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Bahçesaray",
     "Bağçasaray",
     "Bāghche Sarāy"
@@ -17,7 +17,7 @@
     }
   ],
   "location": {
-    "latitude": 44.7528,
-    "longitude": 33.8608
+    "lat": 44.7528,
+    "lng": 33.8608
   }
 }

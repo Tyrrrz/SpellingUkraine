@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Ясинувата",
-  "translation": "Yasynuvata",
-  "mistakes": [
+  "sourceSpelling": "Ясинувата",
+  "correctSpelling": "Yasynuvata",
+  "incorrectSpellings": [
     "Yasinovataya"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Ясиноватая"
   ],
   "links": [
@@ -15,7 +15,7 @@
     }
   ],
   "location": {
-    "latitude": 48.1167,
-    "longitude": 37.8333
+    "lat": 48.1167,
+    "lng": 37.8333
   }
 }

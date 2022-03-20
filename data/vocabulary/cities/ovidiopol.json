@@ -1,9 +1,9 @@
 {
   "category": "City",
-  "term": "Овідіополь",
-  "translation": "Ovidiopol",
-  "mistakes": [],
-  "aliases": [
+  "sourceSpelling": "Овідіополь",
+  "correctSpelling": "Ovidiopol",
+  "incorrectSpellings": [],
+  "relatedSpellings": [
     "Овидиополь",
     "Hacıdere"
   ],
@@ -14,7 +14,7 @@
     }
   ],
   "location": {
-    "latitude": 46.2667,
-    "longitude": 30.4333
+    "lat": 46.2667,
+    "lng": 30.4333
   }
 }

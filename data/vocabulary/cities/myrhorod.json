@@ -1,13 +1,13 @@
 {
   "category": "City",
-  "term": "Миргород",
-  "translation": "Myrhorod",
-  "mistakes": [
+  "sourceSpelling": "Миргород",
+  "correctSpelling": "Myrhorod",
+  "incorrectSpellings": [
     "Myrgorod",
     "Mirhorod",
     "Mirgorod"
   ],
-  "aliases": [],
+  "relatedSpellings": [],
   "links": [
     {
       "name": "Wikipedia: Myrhorod",
@@ -15,7 +15,7 @@
     }
   ],
   "location": {
-    "latitude": 49.964,
-    "longitude": 33.6124
+    "lat": 49.964,
+    "lng": 33.6124
   }
 }

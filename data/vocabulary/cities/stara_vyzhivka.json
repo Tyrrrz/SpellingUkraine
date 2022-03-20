@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Стара Вижівка",
-  "translation": "Stara Vyzhivka",
-  "mistakes": [
+  "sourceSpelling": "Стара Вижівка",
+  "correctSpelling": "Stara Vyzhivka",
+  "incorrectSpellings": [
     "Staraya Vyzhevka"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Старая Выжевка",
     "Wyżwa Stara"
   ],
@@ -16,7 +16,7 @@
     }
   ],
   "location": {
-    "latitude": 51.4396,
-    "longitude": 24.4373
+    "lat": 51.4396,
+    "lng": 24.4373
   }
 }

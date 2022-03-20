@@ -1,9 +1,9 @@
 {
   "category": "City",
-  "term": "Іршанськ",
-  "translation": "Irshansk",
-  "mistakes": [],
-  "aliases": [
+  "sourceSpelling": "Іршанськ",
+  "correctSpelling": "Irshansk",
+  "incorrectSpellings": [],
+  "relatedSpellings": [
     "Иршанск"
   ],
   "links": [
@@ -13,7 +13,7 @@
     }
   ],
   "location": {
-    "latitude": 50.7167,
-    "longitude": 28.7167
+    "lat": 50.7167,
+    "lng": 28.7167
   }
 }

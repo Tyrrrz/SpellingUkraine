@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Брацлав",
-  "translation": "Bratslav",
-  "mistakes": [
+  "sourceSpelling": "Брацлав",
+  "correctSpelling": "Bratslav",
+  "incorrectSpellings": [
     "Braclav"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Bracław"
   ],
   "links": [
@@ -15,7 +15,7 @@
     }
   ],
   "location": {
-    "latitude": 48.8147,
-    "longitude": 28.9447
+    "lat": 48.8147,
+    "lng": 28.9447
   }
 }

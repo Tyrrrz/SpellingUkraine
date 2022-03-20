@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Пісківка",
-  "translation": "Piskivka",
-  "mistakes": [
+  "sourceSpelling": "Пісківка",
+  "correctSpelling": "Piskivka",
+  "incorrectSpellings": [
     "Peskovka"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Песковка"
   ],
   "links": [
@@ -15,7 +15,7 @@
     }
   ],
   "location": {
-    "latitude": 50.7078,
-    "longitude": 29.595
+    "lat": 50.7078,
+    "lng": 29.595
   }
 }

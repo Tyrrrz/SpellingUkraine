@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Сніжне",
-  "translation": "Snizhne",
-  "mistakes": [
+  "sourceSpelling": "Сніжне",
+  "correctSpelling": "Snizhne",
+  "incorrectSpellings": [
     "Snezhnoye"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Снежное",
     "Василівка",
     "Васильевка",
@@ -19,7 +19,7 @@
     }
   ],
   "location": {
-    "latitude": 48.0167,
-    "longitude": 38.7667
+    "lat": 48.0167,
+    "lng": 38.7667
   }
 }

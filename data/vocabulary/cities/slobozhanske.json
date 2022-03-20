@@ -1,12 +1,12 @@
 {
   "category": "City",
-  "term": "Слобожанське",
-  "translation": "Slobozhanske",
-  "mistakes": [
+  "sourceSpelling": "Слобожанське",
+  "correctSpelling": "Slobozhanske",
+  "incorrectSpellings": [
     "Slobozhanskoe",
     "Slobozhanskoye"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Слобожанское",
     "Ювілейне",
     "Ювилейное",
@@ -20,7 +20,7 @@
     }
   ],
   "location": {
-    "latitude": 48.5342,
-    "longitude": 35.0749
+    "lat": 48.5342,
+    "lng": 35.0749
   }
 }

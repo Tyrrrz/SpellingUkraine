@@ -1,9 +1,9 @@
 {
   "category": "City",
-  "term": "Шацьк",
-  "translation": "Shatsk",
-  "mistakes": [],
-  "aliases": [
+  "sourceSpelling": "Шацьк",
+  "correctSpelling": "Shatsk",
+  "incorrectSpellings": [],
+  "relatedSpellings": [
     "Шацк",
     "Szack"
   ],
@@ -14,7 +14,7 @@
     }
   ],
   "location": {
-    "latitude": 51.4878,
-    "longitude": 23.9297
+    "lat": 51.4878,
+    "lng": 23.9297
   }
 }

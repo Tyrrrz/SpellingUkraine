@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Люботин",
-  "translation": "Liubotyn",
-  "mistakes": [
+  "sourceSpelling": "Люботин",
+  "correctSpelling": "Liubotyn",
+  "incorrectSpellings": [
     "Lyubotyn"
   ],
-  "aliases": [],
+  "relatedSpellings": [],
   "links": [
     {
       "name": "Wikipedia: Liubotyn",
@@ -13,7 +13,7 @@
     }
   ],
   "location": {
-    "latitude": 49.9489,
-    "longitude": 35.9306
+    "lat": 49.9489,
+    "lng": 35.9306
   }
 }

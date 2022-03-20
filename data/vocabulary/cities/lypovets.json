@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Липовець",
-  "translation": "Lypovets",
-  "mistakes": [
+  "sourceSpelling": "Липовець",
+  "correctSpelling": "Lypovets",
+  "incorrectSpellings": [
     "Lipovets"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Липовец"
   ],
   "links": [
@@ -15,7 +15,7 @@
     }
   ],
   "location": {
-    "latitude": 49.2161,
-    "longitude": 29.0561
+    "lat": 49.2161,
+    "lng": 29.0561
   }
 }

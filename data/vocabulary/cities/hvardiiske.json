@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Гвардійське",
-  "translation": "Hvardiiske",
-  "mistakes": [
+  "sourceSpelling": "Гвардійське",
+  "correctSpelling": "Hvardiiske",
+  "incorrectSpellings": [
     "Hvardiyske"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Гвардейское"
   ],
   "links": [
@@ -15,7 +15,7 @@
     }
   ],
   "location": {
-    "latitude": 48.7328,
-    "longitude": 35.311
+    "lat": 48.7328,
+    "lng": 35.311
   }
 }

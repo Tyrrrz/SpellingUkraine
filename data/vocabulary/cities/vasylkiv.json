@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Васильків",
-  "translation": "Vasylkiv",
-  "mistakes": [
+  "sourceSpelling": "Васильків",
+  "correctSpelling": "Vasylkiv",
+  "incorrectSpellings": [
     "Vasilkov"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Васильков"
   ],
   "links": [
@@ -15,7 +15,7 @@
     }
   ],
   "location": {
-    "latitude": 50.1775,
-    "longitude": 30.3217
+    "lat": 50.1775,
+    "lng": 30.3217
   }
 }

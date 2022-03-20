@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Савинці",
-  "translation": "Savyntsi",
-  "mistakes": [
+  "sourceSpelling": "Савинці",
+  "correctSpelling": "Savyntsi",
+  "incorrectSpellings": [
     "Savintsy"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Савинцы"
   ],
   "links": [
@@ -15,7 +15,7 @@
     }
   ],
   "location": {
-    "latitude": 49.4105,
-    "longitude": 37.0617
+    "lat": 49.4105,
+    "lng": 37.0617
   }
 }

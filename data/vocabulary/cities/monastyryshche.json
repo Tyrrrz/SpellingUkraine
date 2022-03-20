@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Монастирище",
-  "translation": "Monastyryshche",
-  "mistakes": [
+  "sourceSpelling": "Монастирище",
+  "correctSpelling": "Monastyryshche",
+  "incorrectSpellings": [
     "Monastyrishche"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Монастырище"
   ],
   "links": [
@@ -15,7 +15,7 @@
     }
   ],
   "location": {
-    "latitude": 48.99,
-    "longitude": 29.8011
+    "lat": 48.99,
+    "lng": 29.8011
   }
 }

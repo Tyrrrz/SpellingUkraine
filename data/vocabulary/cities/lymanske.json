@@ -1,12 +1,12 @@
 {
   "category": "City",
-  "term": "Лиманське",
-  "translation": "Lymanske",
-  "mistakes": [
+  "sourceSpelling": "Лиманське",
+  "correctSpelling": "Lymanske",
+  "incorrectSpellings": [
     "Lymanskoe",
     "Limanskoe"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Лиманское"
   ],
   "links": [
@@ -16,7 +16,7 @@
     }
   ],
   "location": {
-    "latitude": 46.6639,
-    "longitude": 29.9708
+    "lat": 46.6639,
+    "lng": 29.9708
   }
 }

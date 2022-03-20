@@ -1,12 +1,12 @@
 {
   "category": "City",
-  "term": "Комишуваха",
-  "translation": "Komyshuvakha",
-  "mistakes": [
+  "sourceSpelling": "Комишуваха",
+  "correctSpelling": "Komyshuvakha",
+  "incorrectSpellings": [
     "Kamishevakha",
     "Kamyshevakha"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Камышеваха"
   ],
   "links": [
@@ -16,7 +16,7 @@
     }
   ],
   "location": {
-    "latitude": 47.7155,
-    "longitude": 35.5241
+    "lat": 47.7155,
+    "lng": 35.5241
   }
 }

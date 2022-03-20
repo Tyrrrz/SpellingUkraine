@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Енергодар",
-  "translation": "Enerhodar",
-  "mistakes": [
+  "sourceSpelling": "Енергодар",
+  "correctSpelling": "Enerhodar",
+  "incorrectSpellings": [
     "Energodar"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Энергодар"
   ],
   "links": [
@@ -15,7 +15,7 @@
     }
   ],
   "location": {
-    "latitude": 47.4989,
-    "longitude": 34.6558
+    "lat": 47.4989,
+    "lng": 34.6558
   }
 }

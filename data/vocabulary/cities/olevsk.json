@@ -1,9 +1,9 @@
 {
   "category": "City",
-  "term": "Олевськ",
-  "translation": "Olevsk",
-  "mistakes": [],
-  "aliases": [
+  "sourceSpelling": "Олевськ",
+  "correctSpelling": "Olevsk",
+  "incorrectSpellings": [],
+  "relatedSpellings": [
     "Олевск",
     "Olewsk"
   ],
@@ -14,7 +14,7 @@
     }
   ],
   "location": {
-    "latitude": 51.2278,
-    "longitude": 27.6481
+    "lat": 51.2278,
+    "lng": 27.6481
   }
 }

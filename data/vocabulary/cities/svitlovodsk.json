@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Світловодськ",
-  "translation": "Svitlovodsk",
-  "mistakes": [
+  "sourceSpelling": "Світловодськ",
+  "correctSpelling": "Svitlovodsk",
+  "incorrectSpellings": [
     "Svetlovodsk"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Светловодск"
   ],
   "links": [
@@ -15,7 +15,7 @@
     }
   ],
   "location": {
-    "latitude": 49.0833,
-    "longitude": 33.25
+    "lat": 49.0833,
+    "lng": 33.25
   }
 }

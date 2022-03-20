@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Синельникове",
-  "translation": "Synelnykove",
-  "mistakes": [
+  "sourceSpelling": "Синельникове",
+  "correctSpelling": "Synelnykove",
+  "incorrectSpellings": [
     "Sinelnikovo"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Синельниково"
   ],
   "links": [
@@ -15,7 +15,7 @@
     }
   ],
   "location": {
-    "latitude": 48.3178,
-    "longitude": 35.5119
+    "lat": 48.3178,
+    "lng": 35.5119
   }
 }

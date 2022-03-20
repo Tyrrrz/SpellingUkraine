@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Українськ",
-  "translation": "Ukrainsk",
-  "mistakes": [
+  "sourceSpelling": "Українськ",
+  "correctSpelling": "Ukrainsk",
+  "incorrectSpellings": [
     "Ukrayinsk"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Украинск"
   ],
   "links": [
@@ -15,7 +15,7 @@
     }
   ],
   "location": {
-    "latitude": 48.1,
-    "longitude": 37.3667
+    "lat": 48.1,
+    "lng": 37.3667
   }
 }

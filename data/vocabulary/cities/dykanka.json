@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Диканька",
-  "translation": "Dykanka",
-  "mistakes": [
+  "sourceSpelling": "Диканька",
+  "correctSpelling": "Dykanka",
+  "incorrectSpellings": [
     "Dikanka"
   ],
-  "aliases": [],
+  "relatedSpellings": [],
   "links": [
     {
       "name": "Wikipedia: Dykanka",
@@ -13,7 +13,7 @@
     }
   ],
   "location": {
-    "latitude": 49.8222,
-    "longitude": 34.5341
+    "lat": 49.8222,
+    "lng": 34.5341
   }
 }

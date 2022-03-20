@@ -1,12 +1,12 @@
 {
   "category": "City",
-  "term": "Романів",
-  "translation": "Romaniv",
-  "mistakes": [
+  "sourceSpelling": "Романів",
+  "correctSpelling": "Romaniv",
+  "incorrectSpellings": [
     "Romanov",
     "Romanof"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Романов",
     "Romanów",
     "Дзержинськ",
@@ -22,7 +22,7 @@
     }
   ],
   "location": {
-    "latitude": 50.1517,
-    "longitude": 27.9392
+    "lat": 50.1517,
+    "lng": 27.9392
   }
 }

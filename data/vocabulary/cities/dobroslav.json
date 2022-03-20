@@ -1,9 +1,9 @@
 {
   "category": "City",
-  "term": "Доброслав",
-  "translation": "Dobroslav",
-  "mistakes": [],
-  "aliases": [
+  "sourceSpelling": "Доброслав",
+  "correctSpelling": "Dobroslav",
+  "incorrectSpellings": [],
+  "relatedSpellings": [
     "Kominternivske"
   ],
   "description": "Renamed from \"Kominternivske\" in May 2016.",
@@ -14,7 +14,7 @@
     }
   ],
   "location": {
-    "latitude": 46.82,
-    "longitude": 30.945
+    "lat": 46.82,
+    "lng": 30.945
   }
 }

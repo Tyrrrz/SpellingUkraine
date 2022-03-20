@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Свеса",
-  "translation": "Svesa",
-  "mistakes": [
+  "sourceSpelling": "Свеса",
+  "correctSpelling": "Svesa",
+  "incorrectSpellings": [
     "Svessa"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Свесса"
   ],
   "links": [
@@ -15,7 +15,7 @@
     }
   ],
   "location": {
-    "latitude": 51.9481,
-    "longitude": 33.9367
+    "lat": 51.9481,
+    "lng": 33.9367
   }
 }

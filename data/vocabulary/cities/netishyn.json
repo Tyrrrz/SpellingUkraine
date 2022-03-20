@@ -1,12 +1,12 @@
 {
   "category": "City",
-  "term": "Нетішин",
-  "translation": "Netishyn",
-  "mistakes": [
+  "sourceSpelling": "Нетішин",
+  "correctSpelling": "Netishyn",
+  "incorrectSpellings": [
     "Netishin",
     "Neteshin"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Нетешин",
     "Niecieszyn"
   ],
@@ -17,7 +17,7 @@
     }
   ],
   "location": {
-    "latitude": 50.33,
-    "longitude": 26.64
+    "lat": 50.33,
+    "lng": 26.64
   }
 }

@@ -1,12 +1,12 @@
 {
   "category": "City",
-  "term": "Бобровиця",
-  "translation": "Bobrovytsia",
-  "mistakes": [
+  "sourceSpelling": "Бобровиця",
+  "correctSpelling": "Bobrovytsia",
+  "incorrectSpellings": [
     "Bobrovitsia",
     "Bobrovytsa"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Бобровица"
   ],
   "links": [
@@ -16,7 +16,7 @@
     }
   ],
   "location": {
-    "latitude": 50.7333,
-    "longitude": 31.3833
+    "lat": 50.7333,
+    "lng": 31.3833
   }
 }

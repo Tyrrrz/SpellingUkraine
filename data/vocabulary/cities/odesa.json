@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Одеса",
-  "translation": "Odesa",
-  "mistakes": [
+  "sourceSpelling": "Одеса",
+  "correctSpelling": "Odesa",
+  "incorrectSpellings": [
     "Odessa"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Одесса"
   ],
   "links": [
@@ -15,7 +15,7 @@
     }
   ],
   "location": {
-    "latitude": 46.4775,
-    "longitude": 30.7326
+    "lat": 46.4775,
+    "lng": 30.7326
   }
 }

@@ -1,9 +1,9 @@
 {
   "category": "City",
-  "term": "Стрий",
-  "translation": "Stryi",
-  "mistakes": [],
-  "aliases": [
+  "sourceSpelling": "Стрий",
+  "correctSpelling": "Stryi",
+  "incorrectSpellings": [],
+  "relatedSpellings": [
     "Стрый",
     "Stryj"
   ],
@@ -14,7 +14,7 @@
     }
   ],
   "location": {
-    "latitude": 49.25,
-    "longitude": 23.85
+    "lat": 49.25,
+    "lng": 23.85
   }
 }

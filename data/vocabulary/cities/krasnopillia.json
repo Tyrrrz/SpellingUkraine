@@ -1,13 +1,13 @@
 {
   "category": "City",
-  "term": "Краснопілля",
-  "translation": "Krasnopillia",
-  "mistakes": [
+  "sourceSpelling": "Краснопілля",
+  "correctSpelling": "Krasnopillia",
+  "incorrectSpellings": [
     "Krasnopillya",
     "Krasnopolie",
     "Krasnopolye"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Краснополье"
   ],
   "links": [
@@ -17,7 +17,7 @@
     }
   ],
   "location": {
-    "latitude": 50.7732,
-    "longitude": 35.2717
+    "lat": 50.7732,
+    "lng": 35.2717
   }
 }

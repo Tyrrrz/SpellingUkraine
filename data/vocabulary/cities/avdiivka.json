@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Авдіївка",
-  "translation": "Avdiivka",
-  "mistakes": [
+  "sourceSpelling": "Авдіївка",
+  "correctSpelling": "Avdiivka",
+  "incorrectSpellings": [
     "Avdeevka"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Авдеевка"
   ],
   "links": [
@@ -15,7 +15,7 @@
     }
   ],
   "location": {
-    "latitude": 48.1333,
-    "longitude": 37.75
+    "lat": 48.1333,
+    "lng": 37.75
   }
 }

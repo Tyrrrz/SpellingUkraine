@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Остер",
-  "translation": "Oster",
-  "mistakes": [
+  "sourceSpelling": "Остер",
+  "correctSpelling": "Oster",
+  "incorrectSpellings": [
     "Ostior"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Остёр"
   ],
   "links": [
@@ -15,7 +15,7 @@
     }
   ],
   "location": {
-    "latitude": 50.9486,
-    "longitude": 30.8811
+    "lat": 50.9486,
+    "lng": 30.8811
   }
 }

@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Галич",
-  "translation": "Halych",
-  "mistakes": [
+  "sourceSpelling": "Галич",
+  "correctSpelling": "Halych",
+  "incorrectSpellings": [
     "Galich"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Halici",
     "Halicz",
     "Halytsch",
@@ -19,7 +19,7 @@
     }
   ],
   "location": {
-    "latitude": 49.1128,
-    "longitude": 24.7217
+    "lat": 49.1128,
+    "lng": 24.7217
   }
 }

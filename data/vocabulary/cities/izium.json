@@ -1,12 +1,12 @@
 {
   "category": "City",
-  "term": "Ізюм",
-  "translation": "Izium",
-  "mistakes": [
+  "sourceSpelling": "Ізюм",
+  "correctSpelling": "Izium",
+  "incorrectSpellings": [
     "Izum",
     "Izyum"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Изюм"
   ],
   "links": [
@@ -16,7 +16,7 @@
     }
   ],
   "location": {
-    "latitude": 49.2238,
-    "longitude": 37.2915
+    "lat": 49.2238,
+    "lng": 37.2915
   }
 }

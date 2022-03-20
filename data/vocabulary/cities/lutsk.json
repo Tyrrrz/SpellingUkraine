@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Луцьк",
-  "translation": "Lutsk",
-  "mistakes": [
+  "sourceSpelling": "Луцьк",
+  "correctSpelling": "Lutsk",
+  "incorrectSpellings": [
     "Luck"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Луцк"
   ],
   "links": [
@@ -15,7 +15,7 @@
     }
   ],
   "location": {
-    "latitude": 50.7478,
-    "longitude": 25.3244
+    "lat": 50.7478,
+    "lng": 25.3244
   }
 }

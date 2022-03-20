@@ -1,8 +1,8 @@
 {
   "category": "City",
-  "term": "Дніпро",
-  "translation": "Dnipro",
-  "mistakes": [
+  "sourceSpelling": "Дніпро",
+  "correctSpelling": "Dnipro",
+  "incorrectSpellings": [
     "Dnepr",
     "Dnieper",
     "Dniepr",
@@ -10,7 +10,7 @@
     "Dnepropetrovsk",
     "Dnipropetrovsk"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Днепр",
     "Днепропетровск"
   ],
@@ -22,7 +22,7 @@
     }
   ],
   "location": {
-    "latitude": 48.45,
-    "longitude": 34.9833
+    "lat": 48.45,
+    "lng": 34.9833
   }
 }

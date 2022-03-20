@@ -1,12 +1,12 @@
 {
   "category": "City",
-  "term": "Летичів",
-  "translation": "Letychiv",
-  "mistakes": [
+  "sourceSpelling": "Летичів",
+  "correctSpelling": "Letychiv",
+  "incorrectSpellings": [
     "Letichev",
     "Letychev"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Летичев",
     "Latyczów"
   ],
@@ -17,7 +17,7 @@
     }
   ],
   "location": {
-    "latitude": 49.3833,
-    "longitude": 27.6167
+    "lat": 49.3833,
+    "lng": 27.6167
   }
 }

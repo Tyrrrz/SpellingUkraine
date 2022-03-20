@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Володимир-Волинський",
-  "translation": "Volodymyr",
-  "mistakes": [
+  "sourceSpelling": "Володимир-Волинський",
+  "correctSpelling": "Volodymyr",
+  "incorrectSpellings": [
     "Vladimir"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Владимир",
     "Володимир-Волинський",
     "Владимир-Волынский",
@@ -20,7 +20,7 @@
     }
   ],
   "location": {
-    "latitude": 50.8481,
-    "longitude": 24.3222
+    "lat": 50.8481,
+    "lng": 24.3222
   }
 }

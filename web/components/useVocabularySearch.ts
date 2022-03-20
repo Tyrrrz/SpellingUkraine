@@ -1,85 +1,48 @@
 import React from 'react';
 import type { VocabularyEntry } from 'spelling-ukraine-data';
+import { normalizeString } from '../utils/str';
 import useDebouncedValue from './useDebouncedValue';
-
-export interface SearchMatch {
-  on: keyof VocabularyEntry;
-  source: string;
-  value: string;
-  quality: number;
-}
 
 export interface SearchResult {
   entry: VocabularyEntry;
-  match: SearchMatch;
+  matchedValue: string;
+  relevance: number;
 }
 
-const normalizeString = (str: string) => {
-  // Lowercase and remove diacritics & accents
-  return str
-    .toLowerCase()
-    .normalize('NFD')
-    .replace(/[\u0300-\u036f]/g, '');
-};
-
-const getQuality = (source: string, value: string) => {
-  // Quality is determined by how many characters are matched
-  // and how close to the beginning of the key the match happened.
-  return value.length / source.length - source.indexOf(value) / source.length;
-};
-
-const resolveMatch = (entry: VocabularyEntry, query: string): SearchMatch | null => {
+// TODO: Use a trie or something
+const resolveResult = (entry: VocabularyEntry, query: string) => {
   const queryNormalized = normalizeString(query);
 
-  const termNormalized = normalizeString(entry.term);
-  if (termNormalized.includes(queryNormalized)) {
-    return {
-      on: 'term',
-      source: entry.id,
-      value: query,
-      quality: getQuality(termNormalized, queryNormalized)
-    };
-  }
-
-  const translationNormalized = normalizeString(entry.translation);
-  if (translationNormalized.includes(queryNormalized)) {
-    return {
-      on: 'translation',
-      source: entry.translation,
-      value: query,
-      quality: getQuality(translationNormalized, queryNormalized)
-    };
-  }
-
-  for (const mistake of entry.mistakes) {
-    const mistakeNormalized = normalizeString(mistake);
-    if (mistakeNormalized.includes(queryNormalized)) {
-      return {
-        on: 'mistakes',
-        source: mistake,
-        value: query,
-        quality: getQuality(mistakeNormalized, queryNormalized)
-      };
+  const resolveResultByValue = (value: string) => {
+    const valueNormalized = normalizeString(value);
+    if (!valueNormalized.includes(queryNormalized)) {
+      return null;
     }
-  }
 
-  for (const alias of entry.aliases) {
-    const aliasNormalized = normalizeString(alias);
-    if (aliasNormalized.includes(queryNormalized)) {
-      return {
-        on: 'aliases',
-        source: alias,
-        value: query,
-        quality: getQuality(aliasNormalized, queryNormalized)
-      };
-    }
-  }
+    // Relevance is determined by how many characters are matched
+    // and how close to the beginning the match happened.
+    const relevance =
+      queryNormalized.length / valueNormalized.length -
+      valueNormalized.indexOf(queryNormalized) / valueNormalized.length;
 
-  return null;
+    return {
+      entry,
+      matchedValue: value,
+      relevance
+    };
+  };
+
+  return (
+    resolveResultByValue(entry.sourceSpelling) ||
+    resolveResultByValue(entry.correctSpelling) ||
+    entry.incorrectSpellings
+      .map((spelling) => resolveResultByValue(spelling))
+      .find((val) => !!val) ||
+    entry.relatedSpellings.map((spelling) => resolveResultByValue(spelling)).find((val) => !!val)
+  );
 };
 
 const resolveResults = (vocabulary: VocabularyEntry[], query: string) => {
-  // TODO: Use a trie or something
   if (!query) {
     return [];
   }
@@ -87,13 +50,13 @@ const resolveResults = (vocabulary: VocabularyEntry[], query: string) => {
   const results: SearchResult[] = [];
 
   for (const entry of vocabulary) {
-    const match = resolveMatch(entry, query);
-    if (match) {
-      results.push({ entry, match });
+    const result = resolveResult(entry, query);
+    if (result) {
+      results.push(result);
     }
   }
 
-  return results.sort((a, b) => b.match.quality - a.match.quality).slice(0, 10);
+  return results.sort((a, b) => b.relevance - a.relevance).slice(0, 10);
 };
 
 const useVocabularySearch = (vocabulary: VocabularyEntry[], query: string) => {

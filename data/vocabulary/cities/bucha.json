@@ -1,9 +1,9 @@
 {
   "category": "City",
-  "term": "Буча",
-  "translation": "Bucha",
-  "mistakes": [],
-  "aliases": [],
+  "sourceSpelling": "Буча",
+  "correctSpelling": "Bucha",
+  "incorrectSpellings": [],
+  "relatedSpellings": [],
   "links": [
     {
       "name": "Wikipedia: Bucha",
@@ -11,7 +11,7 @@
     }
   ],
   "location": {
-    "latitude": 50.5464,
-    "longitude": 30.235
+    "lat": 50.5464,
+    "lng": 30.235
   }
 }

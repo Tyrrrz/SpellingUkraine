@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Шаргород",
-  "translation": "Sharhorod",
-  "mistakes": [
+  "sourceSpelling": "Шаргород",
+  "correctSpelling": "Sharhorod",
+  "incorrectSpellings": [
     "Shargorod"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Szarogród"
   ],
   "links": [
@@ -15,7 +15,7 @@
     }
   ],
   "location": {
-    "latitude": 48.75,
-    "longitude": 28.0833
+    "lat": 48.75,
+    "lng": 28.0833
   }
 }

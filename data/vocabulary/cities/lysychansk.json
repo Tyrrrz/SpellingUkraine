@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Лисичанськ",
-  "translation": "Lysychansk",
-  "mistakes": [
+  "sourceSpelling": "Лисичанськ",
+  "correctSpelling": "Lysychansk",
+  "incorrectSpellings": [
     "Lisichansk"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Лисичанск"
   ],
   "links": [
@@ -15,7 +15,7 @@
     }
   ],
   "location": {
-    "latitude": 48.9169,
-    "longitude": 38.4306
+    "lat": 48.9169,
+    "lng": 38.4306
   }
 }

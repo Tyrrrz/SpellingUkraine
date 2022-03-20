@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Радомишль",
-  "translation": "Radomyshl",
-  "mistakes": [
+  "sourceSpelling": "Радомишль",
+  "correctSpelling": "Radomyshl",
+  "incorrectSpellings": [
     "Radomishl"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Радомышль",
     "Radomyśl"
   ],
@@ -16,7 +16,7 @@
     }
   ],
   "location": {
-    "latitude": 50.4947,
-    "longitude": 29.2333
+    "lat": 50.4947,
+    "lng": 29.2333
   }
 }

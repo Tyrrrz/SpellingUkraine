@@ -1,12 +1,12 @@
 {
   "category": "City",
-  "term": "Немирів",
-  "translation": "Nemyriv",
-  "mistakes": [
+  "sourceSpelling": "Немирів",
+  "correctSpelling": "Nemyriv",
+  "incorrectSpellings": [
     "Nemirov",
     "Nemiroff"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Немиров",
     "Niemirów"
   ],
@@ -18,7 +18,7 @@
     }
   ],
   "location": {
-    "latitude": 48.9794,
-    "longitude": 28.8439
+    "lat": 48.9794,
+    "lng": 28.8439
   }
 }

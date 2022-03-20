@@ -3,12 +3,12 @@ import type { GetStaticProps, NextPage } from 'next';
 import { useRouter } from 'next/router';
 import React from 'react';
 import { FiCornerDownLeft, FiFrown, FiHeart, FiLoader, FiSearch, FiTarget } from 'react-icons/fi';
+import { loadVocabulary, VocabularyEntry } from 'spelling-ukraine-data';
 import Box from '../components/box';
 import HStack from '../components/hstack';
 import Link from '../components/link';
 import useSessionState from '../components/useSessionState';
 import useVocabularySearch from '../components/useVocabularySearch';
-import { loadVocabulary, VocabularyEntry } from 'spelling-ukraine-data';
 
 interface StaticProps {
   vocabulary: VocabularyEntry[];
@@ -105,20 +105,21 @@ const HomePage: NextPage<StaticProps> = ({ vocabulary }) => {
                     'place-content-center'
                   ]}
                 >
-                  <Box classes={['text-xl']}>{result.entry.translation}</Box>
+                  <Box classes={['text-xl']}>{result.entry.correctSpelling}</Box>
 
                   <Box classes={['text-lg', 'font-light']}>
-                    {result.entry.term} • {result.entry.category}
+                    {result.entry.sourceSpelling} • {result.entry.category}
                   </Box>
 
-                  {result.match.on !== 'term' && result.match.on !== 'translation' && (
-                    <Box classes={['mt-1', 'text-sm', 'font-light']}>
-                      <HStack>
-                        <FiTarget strokeWidth={1} />
-                        <Box>Matched on {result.match.source}</Box>
-                      </HStack>
-                    </Box>
-                  )}
+                  {result.matchedValue !== result.entry.correctSpelling &&
+                    result.matchedValue !== result.entry.sourceSpelling && (
+                      <Box classes={['mt-1', 'text-sm', 'font-light']}>
+                        <HStack>
+                          <FiTarget strokeWidth={1} />
+                          <Box>Matched on {result.matchedValue}</Box>
+                        </HStack>
+                      </Box>
+                    )}
                 </Box>
               </Link>
             ))}

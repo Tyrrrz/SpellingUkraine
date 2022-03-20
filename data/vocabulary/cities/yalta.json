@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Ялта",
-  "translation": "Yalta",
-  "mistakes": [
+  "sourceSpelling": "Ялта",
+  "correctSpelling": "Yalta",
+  "incorrectSpellings": [
     "Ialta"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Jałta",
     "Yalita"
   ],
@@ -16,7 +16,7 @@
     }
   ],
   "location": {
-    "latitude": 44.4994,
-    "longitude": 34.1553
+    "lat": 44.4994,
+    "lng": 34.1553
   }
 }

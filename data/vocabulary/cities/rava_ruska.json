@@ -1,12 +1,12 @@
 {
   "category": "City",
-  "term": "Рава-Руська",
-  "translation": "Rava-Ruska",
-  "mistakes": [
+  "sourceSpelling": "Рава-Руська",
+  "correctSpelling": "Rava-Ruska",
+  "incorrectSpellings": [
     "Rava-Russka",
     "Rava-Russkaya"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Рава-Русская",
     "Rawa Ruska"
   ],
@@ -17,7 +17,7 @@
     }
   ],
   "location": {
-    "latitude": 50.25,
-    "longitude": 23.6167
+    "lat": 50.25,
+    "lng": 23.6167
   }
 }

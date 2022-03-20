@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Братське",
-  "translation": "Bratske",
-  "mistakes": [
+  "sourceSpelling": "Братське",
+  "correctSpelling": "Bratske",
+  "incorrectSpellings": [
     "Bratskoe"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Братское"
   ],
   "links": [
@@ -15,7 +15,7 @@
     }
   ],
   "location": {
-    "latitude": 47.8636,
-    "longitude": 31.5781
+    "lat": 47.8636,
+    "lng": 31.5781
   }
 }

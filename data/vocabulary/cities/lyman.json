@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Лиман",
-  "translation": "Lyman",
-  "mistakes": [
+  "sourceSpelling": "Лиман",
+  "correctSpelling": "Lyman",
+  "incorrectSpellings": [
     "Liman"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Лыман",
     "Красний Лиман",
     "Красный Лыман",
@@ -19,7 +19,7 @@
     }
   ],
   "location": {
-    "latitude": 48.9861,
-    "longitude": 37.8111
+    "lat": 48.9861,
+    "lng": 37.8111
   }
 }

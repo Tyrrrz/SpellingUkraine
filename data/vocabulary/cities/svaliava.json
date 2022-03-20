@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Свалява",
-  "translation": "Svaliava",
-  "mistakes": [
+  "sourceSpelling": "Свалява",
+  "correctSpelling": "Svaliava",
+  "incorrectSpellings": [
     "Svalyava"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Szolyva",
     "Svaľava"
   ],
@@ -16,7 +16,7 @@
     }
   ],
   "location": {
-    "latitude": 48.5472,
-    "longitude": 22.9861
+    "lat": 48.5472,
+    "lng": 22.9861
   }
 }

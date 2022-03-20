@@ -1,13 +1,13 @@
 {
   "category": "City",
-  "term": "Коцюбинське",
-  "translation": "Kotsiubynske",
-  "mistakes": [
+  "sourceSpelling": "Коцюбинське",
+  "correctSpelling": "Kotsiubynske",
+  "incorrectSpellings": [
     "Kotsyubynske",
     "Kotsubinskoe",
     "Kotsiubinskoe"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Коцюбинское"
   ],
   "links": [
@@ -17,7 +17,7 @@
     }
   ],
   "location": {
-    "latitude": 50.4883,
-    "longitude": 30.3331
+    "lat": 50.4883,
+    "lng": 30.3331
   }
 }

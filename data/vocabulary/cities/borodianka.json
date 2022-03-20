@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Бородянка",
-  "translation": "Borodianka",
-  "mistakes": [
+  "sourceSpelling": "Бородянка",
+  "correctSpelling": "Borodianka",
+  "incorrectSpellings": [
     "Borodyanka"
   ],
-  "aliases": [],
+  "relatedSpellings": [],
   "links": [
     {
       "name": "Wikipedia: Borodianka",
@@ -13,7 +13,7 @@
     }
   ],
   "location": {
-    "latitude": 50.6439,
-    "longitude": 29.9339
+    "lat": 50.6439,
+    "lng": 29.9339
   }
 }

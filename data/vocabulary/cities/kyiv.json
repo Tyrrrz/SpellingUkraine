@@ -1,13 +1,13 @@
 {
   "category": "City",
-  "term": "Київ",
-  "translation": "Kyiv",
-  "mistakes": [
+  "sourceSpelling": "Київ",
+  "correctSpelling": "Kyiv",
+  "incorrectSpellings": [
     "Kiev",
     "Kiyv",
     "Kyyv"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Киев",
     "Kijów",
     "Kyjiw",
@@ -33,7 +33,7 @@
     }
   ],
   "location": {
-    "latitude": 50.4501,
-    "longitude": 30.5234
+    "lat": 50.4501,
+    "lng": 30.5234
   }
 }

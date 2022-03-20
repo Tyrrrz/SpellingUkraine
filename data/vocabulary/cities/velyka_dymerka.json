@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Велика Димерка",
-  "translation": "Velyka Dymerka",
-  "mistakes": [
+  "sourceSpelling": "Велика Димерка",
+  "correctSpelling": "Velyka Dymerka",
+  "incorrectSpellings": [
     "Velikaya Dymerka"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Великая Дымерка"
   ],
   "links": [
@@ -15,7 +15,7 @@
     }
   ],
   "location": {
-    "latitude": 50.5928,
-    "longitude": 30.9103
+    "lat": 50.5928,
+    "lng": 30.9103
   }
 }

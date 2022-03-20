@@ -1,12 +1,12 @@
 {
   "category": "City",
-  "term": "Суми",
-  "translation": "Sumy",
-  "mistakes": [
+  "sourceSpelling": "Суми",
+  "correctSpelling": "Sumy",
+  "incorrectSpellings": [
     "Sumi",
     "Symi"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Сумы"
   ],
   "links": [
@@ -16,7 +16,7 @@
     }
   ],
   "location": {
-    "latitude": 50.9068,
-    "longitude": 34.7992
+    "lat": 50.9068,
+    "lng": 34.7992
   }
 }

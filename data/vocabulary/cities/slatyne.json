@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Слатине",
-  "translation": "Slatyne",
-  "mistakes": [
+  "sourceSpelling": "Слатине",
+  "correctSpelling": "Slatyne",
+  "incorrectSpellings": [
     "Slatino"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Слатино"
   ],
   "links": [
@@ -15,7 +15,7 @@
     }
   ],
   "location": {
-    "latitude": 50.2161,
-    "longitude": 36.1525
+    "lat": 50.2161,
+    "lng": 36.1525
   }
 }

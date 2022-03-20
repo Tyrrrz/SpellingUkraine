@@ -1,12 +1,12 @@
 {
   "category": "City",
-  "term": "Дрогобич",
-  "translation": "Drohobych",
-  "mistakes": [
+  "sourceSpelling": "Дрогобич",
+  "correctSpelling": "Drohobych",
+  "incorrectSpellings": [
     "Drogobych",
     "Drogobich"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Дрогобыч",
     "Drohobycz"
   ],
@@ -17,7 +17,7 @@
     }
   ],
   "location": {
-    "latitude": 49.35,
-    "longitude": 23.5
+    "lat": 49.35,
+    "lng": 23.5
   }
 }

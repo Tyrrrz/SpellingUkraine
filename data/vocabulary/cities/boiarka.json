@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Боярка",
-  "translation": "Boiarka",
-  "mistakes": [
+  "sourceSpelling": "Боярка",
+  "correctSpelling": "Boiarka",
+  "incorrectSpellings": [
     "Boyarka"
   ],
-  "aliases": [],
+  "relatedSpellings": [],
   "links": [
     {
       "name": "Wikipedia: Boiarka",
@@ -13,7 +13,7 @@
     }
   ],
   "location": {
-    "latitude": 50.3292,
-    "longitude": 30.2886
+    "lat": 50.3292,
+    "lng": 30.2886
   }
 }

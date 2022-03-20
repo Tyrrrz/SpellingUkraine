@@ -1,9 +1,9 @@
 {
   "category": "City",
-  "term": "Торецьк",
-  "translation": "Toretsk",
-  "mistakes": [],
-  "aliases": [
+  "sourceSpelling": "Торецьк",
+  "correctSpelling": "Toretsk",
+  "incorrectSpellings": [],
+  "relatedSpellings": [
     "Торецк",
     "Дзержинськ",
     "Дзержинск",
@@ -18,7 +18,7 @@
     }
   ],
   "location": {
-    "latitude": 48.4,
-    "longitude": 37.8333
+    "lat": 48.4,
+    "lng": 37.8333
   }
 }

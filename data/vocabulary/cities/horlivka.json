@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Горлівка",
-  "translation": "Horlivka",
-  "mistakes": [
+  "sourceSpelling": "Горлівка",
+  "correctSpelling": "Horlivka",
+  "incorrectSpellings": [
     "Gorlovka"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Горловка",
     "Gorlowka"
   ],
@@ -16,7 +16,7 @@
     }
   ],
   "location": {
-    "latitude": 48.3336,
-    "longitude": 38.0925
+    "lat": 48.3336,
+    "lng": 38.0925
   }
 }

@@ -1,16 +1,16 @@
 {
   "category": "City",
-  "term": "Барвинкове",
-  "translation": "Barvynkove",
-  "mistakes": [
+  "sourceSpelling": "Барвинкове",
+  "correctSpelling": "Barvynkove",
+  "incorrectSpellings": [
     "Barvinkovoe"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Барвинковое"
   ],
   "links": [],
   "location": {
-    "latitude": 48.9067,
-    "longitude": 37.0131
+    "lat": 48.9067,
+    "lng": 37.0131
   }
 }

@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Лозова",
-  "translation": "Lozova",
-  "mistakes": [
+  "sourceSpelling": "Лозова",
+  "correctSpelling": "Lozova",
+  "incorrectSpellings": [
     "Lozovaya"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Лозовая"
   ],
   "links": [
@@ -15,7 +15,7 @@
     }
   ],
   "location": {
-    "latitude": 48.8892,
-    "longitude": 36.3161
+    "lat": 48.8892,
+    "lng": 36.3161
   }
 }

@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Козелець",
-  "translation": "Kozelets",
-  "mistakes": [
+  "sourceSpelling": "Козелець",
+  "correctSpelling": "Kozelets",
+  "incorrectSpellings": [
     "Kozhelets"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Козелец",
     "Kozelez"
   ],
@@ -16,7 +16,7 @@
     }
   ],
   "location": {
-    "latitude": 50.9164,
-    "longitude": 31.1147
+    "lat": 50.9164,
+    "lng": 31.1147
   }
 }

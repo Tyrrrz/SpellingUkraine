@@ -9,52 +9,54 @@ const vocabulary = loadVocabulary().filter((entry) =>
   )
 );
 
-const resolveMatch = (entry: VocabularyEntry, text: string) => {
-  for (const mistake of entry.mistakes) {
-    // Don't trigger if the tweet contains both the correct and the incorrect spelling.
-    // If that's the case it's probably another tweet correcting the mistake for us.
-    if (
-      text.toLowerCase().includes(mistake.toLowerCase()) &&
-      !text.toLowerCase().includes(entry.translation.toLowerCase())
-    ) {
-      return {
-        entry,
-        mistake
-      };
+const checkSpelling = (text: string) => {
+  for (const entry of vocabulary) {
+    for (const incorrectSpelling of entry.incorrectSpellings) {
+      // Don't trigger if the text contains both the correct and the incorrect spelling.
+      // If that's the case it's probably another tweet correcting the mistake for us.
+      if (
+        text.toLowerCase().includes(incorrectSpelling.toLowerCase()) &&
+        !text.toLowerCase().includes(entry.correctSpelling.toLowerCase())
+      ) {
+        return {
+          entry,
+          incorrectSpelling
+        };
+      }
     }
   }
 
   return null;
 };
 
-const formatMatchReply = ({ entry, mistake }: { entry: VocabularyEntry; mistake: string }) => {
+const formatReply = (entry: VocabularyEntry, incorrectSpelling: string) => {
   const learnMoreUrl = `https://spellingukraine.com/i/${entry.id}/?utm_source=twitter&utm_medium=social&utm_campaign=twitter-bot`;
 
   // Include a variety of reply templates to avoid looking like spam
   const replies = [
     [
-      `💡 It's "${entry.translation}" and not "${mistake}". `,
+      `💡 It's "${entry.correctSpelling}" and not "${incorrectSpelling}". `,
       `Please support Ukraine by using the correct spelling 🇺🇦`,
       '\n\n',
       `Learn more here: ${learnMoreUrl}`
     ].join(''),
 
     [
-      `👋 Hey there! The correct spelling is "${entry.translation}" instead of "${mistake}". `,
+      `👋 Hey there! The correct spelling is "${entry.correctSpelling}" instead of "${incorrectSpelling}". `,
       `Language is political, please transliterate correctly 🇺🇦`,
       '\n\n',
       `Read more here: ${learnMoreUrl}`
     ].join(''),
 
     [
-      `💡 Consider using "${entry.translation}" instead of "${mistake}". `,
+      `💡 Consider using "${entry.correctSpelling}" instead of "${incorrectSpelling}". `,
       `Spelling matters — support Ukraine 🇺🇦`,
       '\n\n',
       `More about this here: ${learnMoreUrl}`
     ].join(''),
 
     [
-      `👀 It's "${entry.translation}", not "${mistake}". `,
+      `👀 It's "${entry.correctSpelling}", not "${incorrectSpelling}". `,
       `Using correct, Ukrainian-based spelling is another way that you can #StandWithUkraine 🇺🇦`,
       '\n\n',
       `Read more: ${learnMoreUrl}`
@@ -74,8 +76,8 @@ const main = async () => {
     '-is:quote',
     '-from:SpellingUkraine',
     `(${vocabulary
-      .flatMap((entry) => entry.mistakes)
-      .map((mistake) => '"' + mistake + '"')
+      .flatMap((entry) => entry.incorrectSpellings)
+      .map((spelling) => '"' + spelling + '"')
       .join(' OR ')})`
   ].join(' ');
 
@@ -87,17 +89,18 @@ const main = async () => {
       ...tweet.data
     });
 
-    const match = vocabulary
-      .map((entry) => resolveMatch(entry, tweet.data.text))
-      .find((match) => !!match);
+    const check = checkSpelling(tweet.data.text);
 
-    if (match) {
+    if (check) {
       console.log('Matched', {
-        mistake: match.mistake,
-        correct: match.entry.translation
+        incorrect: check.incorrectSpelling,
+        correct: check.entry.correctSpelling
       });
 
-      const reply = await twitter.reply(tweet.data.id, formatMatchReply(match));
+      const reply = await twitter.reply(
+        tweet.data.id,
+        formatReply(check.entry, check.incorrectSpelling)
+      );
 
       if (reply) {
         console.log('Reply', reply.data);

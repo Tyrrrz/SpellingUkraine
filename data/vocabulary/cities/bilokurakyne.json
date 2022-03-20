@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Білокуракине",
-  "translation": "Bilokurakyne",
-  "mistakes": [
+  "sourceSpelling": "Білокуракине",
+  "correctSpelling": "Bilokurakyne",
+  "incorrectSpellings": [
     "Belokurakino"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Белокуракино"
   ],
   "links": [
@@ -15,7 +15,7 @@
     }
   ],
   "location": {
-    "latitude": 49.5167,
-    "longitude": 38.7167
+    "lat": 49.5167,
+    "lng": 38.7167
   }
 }

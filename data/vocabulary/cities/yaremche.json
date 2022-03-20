@@ -1,9 +1,9 @@
 {
   "category": "City",
-  "term": "Яремче",
-  "translation": "Yaremche",
-  "mistakes": [],
-  "aliases": [
+  "sourceSpelling": "Яремче",
+  "correctSpelling": "Yaremche",
+  "incorrectSpellings": [],
+  "relatedSpellings": [
     "Jaremcze",
     "Jaremcza"
   ],
@@ -14,7 +14,7 @@
     }
   ],
   "location": {
-    "latitude": 48.4536,
-    "longitude": 24.5564
+    "lat": 48.4536,
+    "lng": 24.5564
   }
 }

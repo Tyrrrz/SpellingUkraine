@@ -1,14 +1,14 @@
 {
   "category": "City",
-  "term": "Отинія",
-  "translation": "Otyniia",
-  "mistakes": [
+  "sourceSpelling": "Отинія",
+  "correctSpelling": "Otyniia",
+  "incorrectSpellings": [
     "Ottynia",
     "Otyniya",
     "Otynya",
     "Otinya"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Отыния",
     "Oteniia"
   ],
@@ -19,7 +19,7 @@
     }
   ],
   "location": {
-    "latitude": 48.7339,
-    "longitude": 24.8569
+    "lat": 48.7339,
+    "lng": 24.8569
   }
 }

@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Баришівка",
-  "translation": "Baryshivka",
-  "mistakes": [
+  "sourceSpelling": "Баришівка",
+  "correctSpelling": "Baryshivka",
+  "incorrectSpellings": [
     "Baryshevka"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Барышевка"
   ],
   "links": [
@@ -15,7 +15,7 @@
     }
   ],
   "location": {
-    "latitude": 50.3703,
-    "longitude": 31.3286
+    "lat": 50.3703,
+    "lng": 31.3286
   }
 }

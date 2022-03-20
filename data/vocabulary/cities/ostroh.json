@@ -1,9 +1,9 @@
 {
   "category": "City",
-  "term": "Острог",
-  "translation": "Ostroh",
-  "mistakes": [],
-  "aliases": [
+  "sourceSpelling": "Острог",
+  "correctSpelling": "Ostroh",
+  "incorrectSpellings": [],
+  "relatedSpellings": [
     "Ostróg"
   ],
   "links": [
@@ -13,7 +13,7 @@
     }
   ],
   "location": {
-    "latitude": 50.3333,
-    "longitude": 26.5167
+    "lat": 50.3333,
+    "lng": 26.5167
   }
 }

@@ -1,12 +1,12 @@
 {
   "category": "City",
-  "term": "Міжгір'я",
-  "translation": "Mizhhiria",
-  "mistakes": [
+  "sourceSpelling": "Міжгір'я",
+  "correctSpelling": "Mizhhiria",
+  "incorrectSpellings": [
     "Mizhigiria",
     "Mizhigirya"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Межгорье",
     "Ökörmező",
     "Boureni",
@@ -20,7 +20,7 @@
     }
   ],
   "location": {
-    "latitude": 48.5286,
-    "longitude": 23.5019
+    "lat": 48.5286,
+    "lng": 23.5019
   }
 }

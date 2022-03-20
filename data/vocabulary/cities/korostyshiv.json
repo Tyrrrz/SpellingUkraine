@@ -1,12 +1,12 @@
 {
   "category": "City",
-  "term": "Коростишів",
-  "translation": "Korostyshiv",
-  "mistakes": [
+  "sourceSpelling": "Коростишів",
+  "correctSpelling": "Korostyshiv",
+  "incorrectSpellings": [
     "Korostyshov",
     "Korostishov"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Коростышов",
     "Korosteszów"
   ],
@@ -17,7 +17,7 @@
     }
   ],
   "location": {
-    "latitude": 50.3186,
-    "longitude": 29.0592
+    "lat": 50.3186,
+    "lng": 29.0592
   }
 }

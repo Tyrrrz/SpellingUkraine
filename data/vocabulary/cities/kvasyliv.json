@@ -1,12 +1,12 @@
 {
   "category": "City",
-  "term": "Квасилів",
-  "translation": "Kvasyliv",
-  "mistakes": [
+  "sourceSpelling": "Квасилів",
+  "correctSpelling": "Kvasyliv",
+  "incorrectSpellings": [
     "Kvasilov",
     "Kvasylov"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Квасилов",
     "Kwasiłów"
   ],
@@ -17,7 +17,7 @@
     }
   ],
   "location": {
-    "latitude": 50.5569,
-    "longitude": 26.2675
+    "lat": 50.5569,
+    "lng": 26.2675
   }
 }

@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Очаків",
-  "translation": "Ochakiv",
-  "mistakes": [
+  "sourceSpelling": "Очаків",
+  "correctSpelling": "Ochakiv",
+  "incorrectSpellings": [
     "Ochakov"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Очаков",
     "Özü",
     "Oceacov",
@@ -20,7 +20,7 @@
     }
   ],
   "location": {
-    "latitude": 46.6186,
-    "longitude": 31.5392
+    "lat": 46.6186,
+    "lng": 31.5392
   }
 }

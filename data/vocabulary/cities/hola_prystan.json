@@ -1,12 +1,12 @@
 {
   "category": "City",
-  "term": "Гола Пристань",
-  "translation": "Hola Prystan",
-  "mistakes": [
+  "sourceSpelling": "Гола Пристань",
+  "correctSpelling": "Hola Prystan",
+  "incorrectSpellings": [
     "Gola Prystan",
     "Golaya Pristan"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Голая Пристань"
   ],
   "links": [
@@ -16,7 +16,7 @@
     }
   ],
   "location": {
-    "latitude": 46.5167,
-    "longitude": 32.5167
+    "lat": 46.5167,
+    "lng": 32.5167
   }
 }

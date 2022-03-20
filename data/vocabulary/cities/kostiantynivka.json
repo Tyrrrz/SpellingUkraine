@@ -1,13 +1,13 @@
 {
   "category": "City",
-  "term": "Костянтинівка",
-  "translation": "Kostiantynivka",
-  "mistakes": [
+  "sourceSpelling": "Костянтинівка",
+  "correctSpelling": "Kostiantynivka",
+  "incorrectSpellings": [
     "Kostyantynivka",
     "Kostiantinovka",
     "Kostyantinovka"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Константиновка"
   ],
   "links": [
@@ -17,7 +17,7 @@
     }
   ],
   "location": {
-    "latitude": 48.5333,
-    "longitude": 37.7167
+    "lat": 48.5333,
+    "lng": 37.7167
   }
 }

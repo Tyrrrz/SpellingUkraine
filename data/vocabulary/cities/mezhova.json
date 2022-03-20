@@ -1,12 +1,12 @@
 {
   "category": "City",
-  "term": "Межова",
-  "translation": "Mezhova",
-  "mistakes": [
+  "sourceSpelling": "Межова",
+  "correctSpelling": "Mezhova",
+  "incorrectSpellings": [
     "Mezhevaya",
     "Mezhevaia"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Межевая"
   ],
   "links": [
@@ -16,7 +16,7 @@
     }
   ],
   "location": {
-    "latitude": 48.2563,
-    "longitude": 36.7313
+    "lat": 48.2563,
+    "lng": 36.7313
   }
 }

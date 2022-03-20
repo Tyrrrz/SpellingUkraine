@@ -1,9 +1,9 @@
 {
   "category": "City",
-  "term": "Вознесенськ",
-  "translation": "Voznesensk",
-  "mistakes": [],
-  "aliases": [
+  "sourceSpelling": "Вознесенськ",
+  "correctSpelling": "Voznesensk",
+  "incorrectSpellings": [],
+  "relatedSpellings": [
     "Вознесенск"
   ],
   "links": [
@@ -13,7 +13,7 @@
     }
   ],
   "location": {
-    "latitude": 47.5725,
-    "longitude": 31.3119
+    "lat": 47.5725,
+    "lng": 31.3119
   }
 }

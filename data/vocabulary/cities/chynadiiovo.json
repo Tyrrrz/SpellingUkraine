@@ -1,13 +1,13 @@
 {
   "category": "City",
-  "term": "Чинаді́йово",
-  "translation": "Chynadiiovo",
-  "mistakes": [
+  "sourceSpelling": "Чинаді́йово",
+  "correctSpelling": "Chynadiiovo",
+  "incorrectSpellings": [
     "Chynadiyovo",
     "Chynadiieve",
     "Chinadievo"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Чинадиево",
     "Szentmiklós",
     "Činadno"
@@ -19,7 +19,7 @@
     }
   ],
   "location": {
-    "latitude": 48.4833,
-    "longitude": 22.8333
+    "lat": 48.4833,
+    "lng": 22.8333
   }
 }

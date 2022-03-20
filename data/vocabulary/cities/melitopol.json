@@ -1,9 +1,9 @@
 {
   "category": "City",
-  "term": "Мелітополь",
-  "translation": "Melitopol",
-  "mistakes": [],
-  "aliases": [
+  "sourceSpelling": "Мелітополь",
+  "correctSpelling": "Melitopol",
+  "incorrectSpellings": [],
+  "relatedSpellings": [
     "Мелитополь",
     "Melitopoli"
   ],
@@ -14,7 +14,7 @@
     }
   ],
   "location": {
-    "latitude": 46.8333,
-    "longitude": 35.3667
+    "lat": 46.8333,
+    "lng": 35.3667
   }
 }

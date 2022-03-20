@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Ватутіне",
-  "translation": "Vatutine",
-  "mistakes": [
+  "sourceSpelling": "Ватутіне",
+  "correctSpelling": "Vatutine",
+  "incorrectSpellings": [
     "Vatutino"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Ватутино"
   ],
   "links": [
@@ -15,7 +15,7 @@
     }
   ],
   "location": {
-    "latitude": 49.0167,
-    "longitude": 31.0667
+    "lat": 49.0167,
+    "lng": 31.0667
   }
 }

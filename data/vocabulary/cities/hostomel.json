@@ -1,12 +1,12 @@
 {
   "category": "City",
-  "term": "Гостомель",
-  "translation": "Hostomel",
-  "mistakes": [
+  "sourceSpelling": "Гостомель",
+  "correctSpelling": "Hostomel",
+  "incorrectSpellings": [
     "Gostomel",
     "Hostemel"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Гостомель"
   ],
   "links": [
@@ -16,7 +16,7 @@
     }
   ],
   "location": {
-    "latitude": 50.5692,
-    "longitude": 30.2653
+    "lat": 50.5692,
+    "lng": 30.2653
   }
 }

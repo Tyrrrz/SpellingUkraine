@@ -1,11 +1,11 @@
 {
   "category": "Region",
-  "term": "Донбас",
-  "translation": "Donbas",
-  "mistakes": [
+  "sourceSpelling": "Донбас",
+  "correctSpelling": "Donbas",
+  "incorrectSpellings": [
     "Donbass"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Донбасс"
   ],
   "description": "Historical, cultural, and economic region in south-eastern Ukraine.",

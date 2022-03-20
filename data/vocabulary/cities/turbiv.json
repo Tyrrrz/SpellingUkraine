@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Турбів",
-  "translation": "Turbiv",
-  "mistakes": [
+  "sourceSpelling": "Турбів",
+  "correctSpelling": "Turbiv",
+  "incorrectSpellings": [
     "Turbov"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Турбов"
   ],
   "links": [
@@ -15,7 +15,7 @@
     }
   ],
   "location": {
-    "latitude": 49.3463,
-    "longitude": 28.7244
+    "lat": 49.3463,
+    "lng": 28.7244
   }
 }

@@ -1,12 +1,12 @@
 {
   "category": "City",
-  "term": "Новий Розділ",
-  "translation": "Novyi Rozdil",
-  "mistakes": [
+  "sourceSpelling": "Новий Розділ",
+  "correctSpelling": "Novyi Rozdil",
+  "incorrectSpellings": [
     "Novyi Rozdol",
     "Noviy Rozdol"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Новый Роздол",
     "Nowy Rozdół"
   ],
@@ -17,7 +17,7 @@
     }
   ],
   "location": {
-    "latitude": 49.4703,
-    "longitude": 24.13
+    "lat": 49.4703,
+    "lng": 24.13
   }
 }

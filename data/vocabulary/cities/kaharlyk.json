@@ -1,12 +1,12 @@
 {
   "category": "City",
-  "term": "Кагарлик",
-  "translation": "Kaharlyk",
-  "mistakes": [
+  "sourceSpelling": "Кагарлик",
+  "correctSpelling": "Kaharlyk",
+  "incorrectSpellings": [
     "Kagarlyk",
     "Kagarlik"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Кагарлык"
   ],
   "links": [
@@ -16,7 +16,7 @@
     }
   ],
   "location": {
-    "latitude": 49.8522,
-    "longitude": 30.8092
+    "lat": 49.8522,
+    "lng": 30.8092
   }
 }

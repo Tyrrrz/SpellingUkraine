@@ -1,9 +1,9 @@
 {
   "category": "City",
-  "term": "Судак",
-  "translation": "Sudak",
-  "mistakes": [],
-  "aliases": [
+  "sourceSpelling": "Судак",
+  "correctSpelling": "Sudak",
+  "incorrectSpellings": [],
+  "relatedSpellings": [
     "Sudaq",
     "Σουγδαία",
     "Sudac",
@@ -16,7 +16,7 @@
     }
   ],
   "location": {
-    "latitude": 44.8514,
-    "longitude": 34.9725
+    "lat": 44.8514,
+    "lng": 34.9725
   }
 }

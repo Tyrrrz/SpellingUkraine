@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Веселинове",
-  "translation": "Veselynove",
-  "mistakes": [
+  "sourceSpelling": "Веселинове",
+  "correctSpelling": "Veselynove",
+  "incorrectSpellings": [
     "Veselinovo"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Веселиново"
   ],
   "links": [
@@ -15,7 +15,7 @@
     }
   ],
   "location": {
-    "latitude": 47.3583,
-    "longitude": 31.2397
+    "lat": 47.3583,
+    "lng": 31.2397
   }
 }

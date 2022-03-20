@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Черкаси",
-  "translation": "Cherkasy",
-  "mistakes": [
+  "sourceSpelling": "Черкаси",
+  "correctSpelling": "Cherkasy",
+  "incorrectSpellings": [
     "Cherkasi"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Черкассы",
     "Tscherkasy",
     "Querkasia"
@@ -17,7 +17,7 @@
     }
   ],
   "location": {
-    "latitude": 49.4444,
-    "longitude": 32.0597
+    "lat": 49.4444,
+    "lng": 32.0597
   }
 }

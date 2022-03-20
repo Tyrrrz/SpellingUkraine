@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Рівне",
-  "translation": "Rivne",
-  "mistakes": [
+  "sourceSpelling": "Рівне",
+  "correctSpelling": "Rivne",
+  "incorrectSpellings": [
     "Rovno"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Ровно",
     "Równe"
   ],
@@ -16,7 +16,7 @@
     }
   ],
   "location": {
-    "latitude": 50.6197,
-    "longitude": 26.2514
+    "lat": 50.6197,
+    "lng": 26.2514
   }
 }

@@ -1,9 +1,9 @@
 {
   "category": "City",
-  "term": "Бучач",
-  "translation": "Buchach",
-  "mistakes": [],
-  "aliases": [
+  "sourceSpelling": "Бучач",
+  "correctSpelling": "Buchach",
+  "incorrectSpellings": [],
+  "relatedSpellings": [
     "Buczacz",
     "Butschatsch",
     "Bucaş"
@@ -15,7 +15,7 @@
     }
   ],
   "location": {
-    "latitude": 49.0647,
-    "longitude": 25.3872
+    "lat": 49.0647,
+    "lng": 25.3872
   }
 }

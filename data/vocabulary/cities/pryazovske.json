@@ -1,12 +1,12 @@
 {
   "category": "City",
-  "term": "Приазовське",
-  "translation": "Pryazovske",
-  "mistakes": [
+  "sourceSpelling": "Приазовське",
+  "correctSpelling": "Pryazovske",
+  "incorrectSpellings": [
     "Priazovske",
     "Priazovskoe"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Приазовское"
   ],
   "links": [
@@ -16,7 +16,7 @@
     }
   ],
   "location": {
-    "latitude": 46.7378,
-    "longitude": 35.6416
+    "lat": 46.7378,
+    "lng": 35.6416
   }
 }

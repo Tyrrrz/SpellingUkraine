@@ -1,13 +1,13 @@
 {
   "category": "City",
-  "term": "Погребище",
-  "translation": "Pohrebyshche",
-  "mistakes": [
+  "sourceSpelling": "Погребище",
+  "correctSpelling": "Pohrebyshche",
+  "incorrectSpellings": [
     "Pogrebysche",
     "Pogrebische",
     "Pohrebische"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Погребыще",
     "Рокитня"
   ],
@@ -18,7 +18,7 @@
     }
   ],
   "location": {
-    "latitude": 49.4869,
-    "longitude": 29.2733
+    "lat": 49.4869,
+    "lng": 29.2733
   }
 }

@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Безлюдівка",
-  "translation": "Bezliudivka",
-  "mistakes": [
+  "sourceSpelling": "Безлюдівка",
+  "correctSpelling": "Bezliudivka",
+  "incorrectSpellings": [
     "Bezludivka"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Безлюдовка"
   ],
   "links": [
@@ -15,7 +15,7 @@
     }
   ],
   "location": {
-    "latitude": 49.8694,
-    "longitude": 36.2719
+    "lat": 49.8694,
+    "lng": 36.2719
   }
 }

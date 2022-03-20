@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Томашпіль",
-  "translation": "Tomashpil",
-  "mistakes": [
+  "sourceSpelling": "Томашпіль",
+  "correctSpelling": "Tomashpil",
+  "incorrectSpellings": [
     "Tomashpol"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Томашполь",
     "Tomaszpol"
   ],
@@ -16,7 +16,7 @@
     }
   ],
   "location": {
-    "latitude": 48.5471,
-    "longitude": 28.5157
+    "lat": 48.5471,
+    "lng": 28.5157
   }
 }

@@ -1,12 +1,12 @@
 {
   "category": "City",
-  "term": "Миронівка",
-  "translation": "Myronivka",
-  "mistakes": [
+  "sourceSpelling": "Миронівка",
+  "correctSpelling": "Myronivka",
+  "incorrectSpellings": [
     "Myronovka",
     "Mironovka"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Мироновка"
   ],
   "links": [
@@ -16,7 +16,7 @@
     }
   ],
   "location": {
-    "latitude": 49.65,
-    "longitude": 30.9833
+    "lat": 49.65,
+    "lng": 30.9833
   }
 }

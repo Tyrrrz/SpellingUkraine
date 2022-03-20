@@ -1,9 +1,9 @@
 {
   "category": "City",
-  "term": "Сокаль",
-  "translation": "Sokal",
-  "mistakes": [],
-  "aliases": [],
+  "sourceSpelling": "Сокаль",
+  "correctSpelling": "Sokal",
+  "incorrectSpellings": [],
+  "relatedSpellings": [],
   "links": [
     {
       "name": "Wikipedia: Sokal",
@@ -11,7 +11,7 @@
     }
   ],
   "location": {
-    "latitude": 50.4833,
-    "longitude": 24.2833
+    "lat": 50.4833,
+    "lng": 24.2833
   }
 }

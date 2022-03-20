@@ -1,13 +1,13 @@
 {
   "category": "City",
-  "term": "Могилів-Подільський",
-  "translation": "Mohyliv-Podilskyi",
-  "mistakes": [
+  "sourceSpelling": "Могилів-Подільський",
+  "correctSpelling": "Mohyliv-Podilskyi",
+  "incorrectSpellings": [
     "Mogilev-Podolsky",
     "Mogilev-Podolskyi",
     "Mogilev-Podolskiy"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Могилёв-Подольский",
     "Mohylów Podolski",
     "Moghilău",
@@ -20,7 +20,7 @@
     }
   ],
   "location": {
-    "latitude": 48.45,
-    "longitude": 27.7833
+    "lat": 48.45,
+    "lng": 27.7833
   }
 }

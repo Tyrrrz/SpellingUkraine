@@ -1,9 +1,9 @@
 {
   "category": "City",
-  "term": "Умань",
-  "translation": "Uman",
-  "mistakes": [],
-  "aliases": [
+  "sourceSpelling": "Умань",
+  "correctSpelling": "Uman",
+  "incorrectSpellings": [],
+  "relatedSpellings": [
     "Humań"
   ],
   "links": [
@@ -13,7 +13,7 @@
     }
   ],
   "location": {
-    "latitude": 48.75,
-    "longitude": 30.2167
+    "lat": 48.75,
+    "lng": 30.2167
   }
 }

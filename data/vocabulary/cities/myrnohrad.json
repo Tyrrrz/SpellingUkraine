@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Мирноград",
-  "translation": "Myrnohrad",
-  "mistakes": [
+  "sourceSpelling": "Мирноград",
+  "correctSpelling": "Myrnohrad",
+  "incorrectSpellings": [
     "Mirnograd"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Димитров",
     "Dymytrov",
     "Dimitrov"
@@ -18,7 +18,7 @@
     }
   ],
   "location": {
-    "latitude": 48.3022,
-    "longitude": 37.2614
+    "lat": 48.3022,
+    "lng": 37.2614
   }
 }

@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Берислав",
-  "translation": "Beryslav",
-  "mistakes": [
+  "sourceSpelling": "Берислав",
+  "correctSpelling": "Beryslav",
+  "incorrectSpellings": [
     "Berislav"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Berynslav"
   ],
   "links": [
@@ -15,7 +15,7 @@
     }
   ],
   "location": {
-    "latitude": 46.8333,
-    "longitude": 33.4167
+    "lat": 46.8333,
+    "lng": 33.4167
   }
 }

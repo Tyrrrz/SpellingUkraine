@@ -1,9 +1,9 @@
 {
   "category": "City",
-  "term": "Чоп",
-  "translation": "Chop",
-  "mistakes": [],
-  "aliases": [],
+  "sourceSpelling": "Чоп",
+  "correctSpelling": "Chop",
+  "incorrectSpellings": [],
+  "relatedSpellings": [],
   "links": [
     {
       "name": "Wikipedia: Chop",
@@ -11,7 +11,7 @@
     }
   ],
   "location": {
-    "latitude": 48.4333,
-    "longitude": 22.2
+    "lat": 48.4333,
+    "lng": 22.2
   }
 }

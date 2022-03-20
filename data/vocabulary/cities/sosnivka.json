@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Соснівка",
-  "translation": "Sosnivka",
-  "mistakes": [
+  "sourceSpelling": "Соснівка",
+  "correctSpelling": "Sosnivka",
+  "incorrectSpellings": [
     "Sosnovka"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Сосновка",
     "Sosnówka"
   ],
@@ -16,7 +16,7 @@
     }
   ],
   "location": {
-    "latitude": 50.2946,
-    "longitude": 24.2525
+    "lat": 50.2946,
+    "lng": 24.2525
   }
 }

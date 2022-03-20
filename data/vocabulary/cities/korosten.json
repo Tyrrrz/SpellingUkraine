@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Коростень",
-  "translation": "Korosten",
-  "mistakes": [
+  "sourceSpelling": "Коростень",
+  "correctSpelling": "Korosten",
+  "incorrectSpellings": [
     "Iskorosten"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Іскоростень"
   ],
   "links": [
@@ -15,7 +15,7 @@
     }
   ],
   "location": {
-    "latitude": 50.95,
-    "longitude": 28.65
+    "lat": 50.95,
+    "lng": 28.65
   }
 }

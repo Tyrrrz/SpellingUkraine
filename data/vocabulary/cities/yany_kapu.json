@@ -1,10 +1,9 @@
 {
   "category": "City",
-  "term": "Яни Капу",
-  "translation": "Yany Kapu",
-  "mistakes": [
-  ],
-  "aliases": [
+  "sourceSpelling": "Яни Капу",
+  "correctSpelling": "Yany Kapu",
+  "incorrectSpellings": [],
+  "relatedSpellings": [
     "Красноперекопськ",
     "Krasnoperekopsk",
     "Yañı Qapı"
@@ -12,7 +11,7 @@
   "description": "Renamed from \"Krasnoperekopsk\" in May 2016.",
   "links": [],
   "location": {
-    "latitude": 45.9675,
-    "longitude": 33.8003
+    "lat": 45.9675,
+    "lng": 33.8003
   }
 }

@@ -1,13 +1,13 @@
 {
   "category": "City",
-  "term": "Кривий Ріг",
-  "translation": "Kryvyi Rih",
-  "mistakes": [
+  "sourceSpelling": "Кривий Ріг",
+  "correctSpelling": "Kryvyi Rih",
+  "incorrectSpellings": [
     "Kryvyi Rig",
     "Kriviy Rig",
     "Krivoy Rog"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Кривой Рог"
   ],
   "links": [
@@ -17,7 +17,7 @@
     }
   ],
   "location": {
-    "latitude": 47.9086,
-    "longitude": 33.3433
+    "lat": 47.9086,
+    "lng": 33.3433
   }
 }

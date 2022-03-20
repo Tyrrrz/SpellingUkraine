@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Олександрійське",
-  "translation": "Oleksandriiske",
-  "mistakes": [
+  "sourceSpelling": "Олександрійське",
+  "correctSpelling": "Oleksandriiske",
+  "incorrectSpellings": [
     "Alexandriyskoe"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Александрийское",
     "Димитрове",
     "Димитрово",
@@ -20,7 +20,7 @@
     }
   ],
   "location": {
-    "latitude": 48.6019,
-    "longitude": 32.9889
+    "lat": 48.6019,
+    "lng": 32.9889
   }
 }

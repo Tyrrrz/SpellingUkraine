@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Джанкой",
-  "translation": "Dzhankoi",
-  "mistakes": [
+  "sourceSpelling": "Джанкой",
+  "correctSpelling": "Dzhankoi",
+  "incorrectSpellings": [
     "Jankoy"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Dshankoj",
     "Canköy"
   ],
@@ -16,7 +16,7 @@
     }
   ],
   "location": {
-    "latitude": 45.7086,
-    "longitude": 34.3933
+    "lat": 45.7086,
+    "lng": 34.3933
   }
 }

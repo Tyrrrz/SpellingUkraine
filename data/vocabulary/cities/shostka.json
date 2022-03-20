@@ -1,9 +1,9 @@
 {
   "category": "City",
-  "term": "Шостка",
-  "translation": "Shostka",
-  "mistakes": [],
-  "aliases": [],
+  "sourceSpelling": "Шостка",
+  "correctSpelling": "Shostka",
+  "incorrectSpellings": [],
+  "relatedSpellings": [],
   "links": [
     {
       "name": "Wikipedia: Shostka",
@@ -11,7 +11,7 @@
     }
   ],
   "location": {
-    "latitude": 51.8657,
-    "longitude": 33.4766
+    "lat": 51.8657,
+    "lng": 33.4766
   }
 }

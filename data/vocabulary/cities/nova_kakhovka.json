@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Нова Каховка",
-  "translation": "Nova Kakhovka",
-  "mistakes": [
+  "sourceSpelling": "Нова Каховка",
+  "correctSpelling": "Nova Kakhovka",
+  "incorrectSpellings": [
     "Novaya Kakhovka"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Новая Каховка"
   ],
   "links": [
@@ -15,7 +15,7 @@
     }
   ],
   "location": {
-    "latitude": 46.7667,
-    "longitude": 33.3667
+    "lat": 46.7667,
+    "lng": 33.3667
   }
 }

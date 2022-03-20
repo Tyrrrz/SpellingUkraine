@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Путивль",
-  "translation": "Putyvl",
-  "mistakes": [
+  "sourceSpelling": "Путивль",
+  "correctSpelling": "Putyvl",
+  "incorrectSpellings": [
     "Putivl"
   ],
-  "aliases": [],
+  "relatedSpellings": [],
   "links": [
     {
       "name": "Wikipedia: Putyvl",
@@ -13,7 +13,7 @@
     }
   ],
   "location": {
-    "latitude": 51.3347,
-    "longitude": 33.8686
+    "lat": 51.3347,
+    "lng": 33.8686
   }
 }

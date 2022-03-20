@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Старобільськ",
-  "translation": "Starobilsk",
-  "mistakes": [
+  "sourceSpelling": "Старобільськ",
+  "correctSpelling": "Starobilsk",
+  "incorrectSpellings": [
     "Starobelsk"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Старобельск"
   ],
   "links": [
@@ -15,7 +15,7 @@
     }
   ],
   "location": {
-    "latitude": 49.2667,
-    "longitude": 38.9167
+    "lat": 49.2667,
+    "lng": 38.9167
   }
 }

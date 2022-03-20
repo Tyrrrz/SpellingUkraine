@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Бурородчани",
-  "translation": "Bohorodchany",
-  "mistakes": [
+  "sourceSpelling": "Бурородчани",
+  "correctSpelling": "Bohorodchany",
+  "incorrectSpellings": [
     "Bogorodchani"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Богородчаны"
   ],
   "links": [
@@ -15,7 +15,7 @@
     }
   ],
   "location": {
-    "latitude": 48.8,
-    "longitude": 24.5333
+    "lat": 48.8,
+    "lng": 24.5333
   }
 }

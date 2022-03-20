@@ -1,11 +1,12 @@
 {
   "category": "City",
-  "term": "Артемівськ",
-  "translation": "Artemivsk",
-  "mistakes": [
-    "Artemovsk"
+  "sourceSpelling": "Артемівськ",
+  "correctSpelling": "Artemivsk",
+  "incorrectSpellings": [
+    "Artemovsk",
+    "Artyomovsk"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Артёмовск"
   ],
   "description": "Not to be confused with the city of Bakhmut which was previously also known as Artemivsk.",
@@ -16,7 +17,7 @@
     }
   ],
   "location": {
-    "latitude": 48.4403,
-    "longitude": 38.7422
+    "lat": 48.4403,
+    "lng": 38.7422
   }
 }

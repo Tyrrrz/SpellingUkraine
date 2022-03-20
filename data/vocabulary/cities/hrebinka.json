@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Гребінка",
-  "translation": "Hrebinka",
-  "mistakes": [
+  "sourceSpelling": "Гребінка",
+  "correctSpelling": "Hrebinka",
+  "incorrectSpellings": [
     "Grebenka"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Гребёнка"
   ],
   "links": [
@@ -15,7 +15,7 @@
     }
   ],
   "location": {
-    "latitude": 50.118,
-    "longitude": 32.4396
+    "lat": 50.118,
+    "lng": 32.4396
   }
 }

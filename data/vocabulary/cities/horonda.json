@@ -1,14 +1,14 @@
 {
   "category": "City",
-  "term": "Горонда",
-  "translation": "Horonda",
-  "mistakes": [
+  "sourceSpelling": "Горонда",
+  "correctSpelling": "Horonda",
+  "incorrectSpellings": [
     "Goronda"
   ],
-  "aliases": [],
+  "relatedSpellings": [],
   "links": [],
   "location": {
-    "latitude": 48.3786,
-    "longitude": 22.5681
+    "lat": 48.3786,
+    "lng": 22.5681
   }
 }

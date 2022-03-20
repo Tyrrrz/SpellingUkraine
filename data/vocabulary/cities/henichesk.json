@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Генічеськ",
-  "translation": "Henichesk",
-  "mistakes": [
+  "sourceSpelling": "Генічеськ",
+  "correctSpelling": "Henichesk",
+  "incorrectSpellings": [
     "Genichesk"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Геническ"
   ],
   "links": [
@@ -15,7 +15,7 @@
     }
   ],
   "location": {
-    "latitude": 46.1769,
-    "longitude": 34.7989
+    "lat": 46.1769,
+    "lng": 34.7989
   }
 }

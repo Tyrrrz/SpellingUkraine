@@ -1,9 +1,9 @@
 {
   "category": "City",
-  "term": "Алчевськ",
-  "translation": "Alchevsk",
-  "mistakes": [],
-  "aliases": [
+  "sourceSpelling": "Алчевськ",
+  "correctSpelling": "Alchevsk",
+  "incorrectSpellings": [],
+  "relatedSpellings": [
     "Алчевск"
   ],
   "links": [
@@ -13,7 +13,7 @@
     }
   ],
   "location": {
-    "latitude": 48.4672,
-    "longitude": 38.7983
+    "lat": 48.4672,
+    "lng": 38.7983
   }
 }

@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Вапнярка",
-  "translation": "Vapniarka",
-  "mistakes": [
+  "sourceSpelling": "Вапнярка",
+  "correctSpelling": "Vapniarka",
+  "incorrectSpellings": [
     "Vapnyarka"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Vapniarca",
     "Wapnjarka",
     "Wapniarka"
@@ -17,7 +17,7 @@
     }
   ],
   "location": {
-    "latitude": 48.5333,
-    "longitude": 28.75
+    "lat": 48.5333,
+    "lng": 28.75
   }
 }

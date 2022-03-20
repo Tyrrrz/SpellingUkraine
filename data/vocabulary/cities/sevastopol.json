@@ -1,9 +1,9 @@
 {
   "category": "City",
-  "term": "Севастополь",
-  "translation": "Sevastopol",
-  "mistakes": [],
-  "aliases": [
+  "sourceSpelling": "Севастополь",
+  "correctSpelling": "Sevastopol",
+  "incorrectSpellings": [],
+  "relatedSpellings": [
     "Sewastopol",
     "Sebastopol"
   ],
@@ -14,7 +14,7 @@
     }
   ],
   "location": {
-    "latitude": 44.6,
-    "longitude": 33.5333
+    "lat": 44.6,
+    "lng": 33.5333
   }
 }

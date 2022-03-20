@@ -1,9 +1,9 @@
 {
   "category": "City",
-  "term": "Бобринець",
-  "translation": "Bobrynets",
-  "mistakes": [],
-  "aliases": [
+  "sourceSpelling": "Бобринець",
+  "correctSpelling": "Bobrynets",
+  "incorrectSpellings": [],
+  "relatedSpellings": [
     "Бобрынец"
   ],
   "links": [
@@ -13,7 +13,7 @@
     }
   ],
   "location": {
-    "latitude": 48.0578,
-    "longitude": 32.1581
+    "lat": 48.0578,
+    "lng": 32.1581
   }
 }

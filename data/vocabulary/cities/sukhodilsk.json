@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Суходільськ",
-  "translation": "Sukhodilsk",
-  "mistakes": [
+  "sourceSpelling": "Суходільськ",
+  "correctSpelling": "Sukhodilsk",
+  "incorrectSpellings": [
     "Sukhodolsk"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Суходольск"
   ],
   "links": [
@@ -15,7 +15,7 @@
     }
   ],
   "location": {
-    "latitude": 48.35,
-    "longitude": 39.7167
+    "lat": 48.35,
+    "lng": 39.7167
   }
 }

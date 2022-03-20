@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Шепетівка",
-  "translation": "Shepetivka",
-  "mistakes": [
+  "sourceSpelling": "Шепетівка",
+  "correctSpelling": "Shepetivka",
+  "incorrectSpellings": [
     "Shepetovka"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Шепетовка",
     "Szepetówka"
   ],
@@ -16,7 +16,7 @@
     }
   ],
   "location": {
-    "latitude": 50.1833,
-    "longitude": 27.0667
+    "lat": 50.1833,
+    "lng": 27.0667
   }
 }

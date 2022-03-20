@@ -1,9 +1,9 @@
 {
   "category": "City",
-  "term": "Козова",
-  "translation": "Kozova",
-  "mistakes": [],
-  "aliases": [
+  "sourceSpelling": "Козова",
+  "correctSpelling": "Kozova",
+  "incorrectSpellings": [],
+  "relatedSpellings": [
     "Kozowa"
   ],
   "links": [
@@ -13,7 +13,7 @@
     }
   ],
   "location": {
-    "latitude": 49.4318,
-    "longitude": 25.1544
+    "lat": 49.4318,
+    "lng": 25.1544
   }
 }

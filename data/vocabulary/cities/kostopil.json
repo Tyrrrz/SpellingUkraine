@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Костопіль",
-  "translation": "Kostopil",
-  "mistakes": [
+  "sourceSpelling": "Костопіль",
+  "correctSpelling": "Kostopil",
+  "incorrectSpellings": [
     "Kostopol"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Костополь"
   ],
   "links": [
@@ -15,7 +15,7 @@
     }
   ],
   "location": {
-    "latitude": 50.8833,
-    "longitude": 26.4431
+    "lat": 50.8833,
+    "lng": 26.4431
   }
 }

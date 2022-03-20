@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Ставище",
-  "translation": "Stavyshche",
-  "mistakes": [
+  "sourceSpelling": "Ставище",
+  "correctSpelling": "Stavyshche",
+  "incorrectSpellings": [
     "Stavische"
   ],
-  "aliases": [],
+  "relatedSpellings": [],
   "links": [
     {
       "name": "Wikipedia: Stavyshche",
@@ -13,7 +13,7 @@
     }
   ],
   "location": {
-    "latitude": 49.3914,
-    "longitude": 30.1917
+    "lat": 49.3914,
+    "lng": 30.1917
   }
 }

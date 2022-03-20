@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Долинська",
-  "translation": "Dolynska",
-  "mistakes": [
+  "sourceSpelling": "Долинська",
+  "correctSpelling": "Dolynska",
+  "incorrectSpellings": [
     "Dolinskaya"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Долинская"
   ],
   "links": [
@@ -15,7 +15,7 @@
     }
   ],
   "location": {
-    "latitude": 48.1111,
-    "longitude": 32.7648
+    "lat": 48.1111,
+    "lng": 32.7648
   }
 }

@@ -1,14 +1,14 @@
 {
   "category": "Person",
-  "term": "Віталій Кличко",
-  "translation": "Vitali Klitschko",
-  "mistakes": [
+  "sourceSpelling": "Віталій Кличко",
+  "correctSpelling": "Vitali Klitschko",
+  "incorrectSpellings": [
     "Vitaliy Klitschko",
     "Vitali Klitchko",
     "Vitali Klichko",
     "Vitali Klytschko"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Vitalii Klychko",
     "Виталий Кличко"
   ],

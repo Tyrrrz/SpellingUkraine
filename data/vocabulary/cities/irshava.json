@@ -1,9 +1,9 @@
 {
   "category": "City",
-  "term": "Іршава",
-  "translation": "Irshava",
-  "mistakes": [],
-  "aliases": [
+  "sourceSpelling": "Іршава",
+  "correctSpelling": "Irshava",
+  "incorrectSpellings": [],
+  "relatedSpellings": [
     "Иршава"
   ],
   "links": [
@@ -13,7 +13,7 @@
     }
   ],
   "location": {
-    "latitude": 48.3172,
-    "longitude": 23.0375
+    "lat": 48.3172,
+    "lng": 23.0375
   }
 }

@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Віньківці",
-  "translation": "Vinkivtsi",
-  "mistakes": [
+  "sourceSpelling": "Віньківці",
+  "correctSpelling": "Vinkivtsi",
+  "incorrectSpellings": [
     "Vinkovtsy"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Виньковцы"
   ],
   "links": [
@@ -15,7 +15,7 @@
     }
   ],
   "location": {
-    "latitude": 49.0333,
-    "longitude": 27.2333
+    "lat": 49.0333,
+    "lng": 27.2333
   }
 }

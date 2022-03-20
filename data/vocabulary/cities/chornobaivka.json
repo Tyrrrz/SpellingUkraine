@@ -1,15 +1,15 @@
 {
   "category": "City",
-  "term": "Чорнобаївка",
-  "translation": "Chornobaivka",
-  "mistakes": [
+  "sourceSpelling": "Чорнобаївка",
+  "correctSpelling": "Chornobaivka",
+  "incorrectSpellings": [
     "Chernobaevka",
     "Chernobayevka",
     "Chernobaivka"
   ],
-  "aliases": [],
+  "relatedSpellings": [],
   "location": {
-    "latitude": 46.7004,
-    "longitude": 32.5477
+    "lat": 46.7004,
+    "lng": 32.5477
   }
 }

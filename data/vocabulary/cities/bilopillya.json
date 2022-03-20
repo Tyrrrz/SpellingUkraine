@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Білопілля",
-  "translation": "Bilopillya",
-  "mistakes": [
+  "sourceSpelling": "Білопілля",
+  "correctSpelling": "Bilopillya",
+  "incorrectSpellings": [
     "Belopolye"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Белополье"
   ],
   "links": [
@@ -15,7 +15,7 @@
     }
   ],
   "location": {
-    "latitude": 51.1532,
-    "longitude": 34.3025
+    "lat": 51.1532,
+    "lng": 34.3025
   }
 }

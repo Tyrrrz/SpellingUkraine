@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Пулини",
-  "translation": "Pulyny",
-  "mistakes": [
+  "sourceSpelling": "Пулини",
+  "correctSpelling": "Pulyny",
+  "incorrectSpellings": [
     "Puliny"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Пулины",
     "Червоноармійськ",
     "Червоноармейск",
@@ -19,7 +19,7 @@
     }
   ],
   "location": {
-    "latitude": 50.4664,
-    "longitude": 28.2778
+    "lat": 50.4664,
+    "lng": 28.2778
   }
 }

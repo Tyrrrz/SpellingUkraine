@@ -1,14 +1,14 @@
 {
   "category": "Person",
-  "term": "Володимир Зеленський",
-  "translation": "Volodymyr Zelenskyy",
-  "mistakes": [
+  "sourceSpelling": "Володимир Зеленський",
+  "correctSpelling": "Volodymyr Zelenskyy",
+  "incorrectSpellings": [
     "Volodymyr Zelenskiy",
     "Volodymyr Zelensky",
     "Volodimir Zelenskyy",
     "Vladimir Zelenskiy"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Volodymyr Zelenskyi",
     "Владимир Зеленский",
     "Wolodymyr Selenskyj",

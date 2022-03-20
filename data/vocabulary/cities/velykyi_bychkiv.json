@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Великий Бичків",
-  "translation": "Velykyi Bychkiv",
-  "mistakes": [
+  "sourceSpelling": "Великий Бичків",
+  "correctSpelling": "Velykyi Bychkiv",
+  "incorrectSpellings": [
     "Velikiy Bychkov"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Великий Бычков",
     "Nagybocskó",
     "Nagybocska",
@@ -21,7 +21,7 @@
     }
   ],
   "location": {
-    "latitude": 47.9714,
-    "longitude": 24.0047
+    "lat": 47.9714,
+    "lng": 24.0047
   }
 }

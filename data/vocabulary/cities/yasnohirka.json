@@ -1,16 +1,16 @@
 {
   "category": "City",
-  "term": "Ясногірка",
-  "translation": "Yasnohirka",
-  "mistakes": [
+  "sourceSpelling": "Ясногірка",
+  "correctSpelling": "Yasnohirka",
+  "incorrectSpellings": [
     "Yasnogorka"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Ясногорка"
   ],
   "links": [],
   "location": {
-    "latitude": 48.7725,
-    "longitude": 37.5506
+    "lat": 48.7725,
+    "lng": 37.5506
   }
 }

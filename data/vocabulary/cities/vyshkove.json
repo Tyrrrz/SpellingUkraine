@@ -1,17 +1,17 @@
 {
   "category": "City",
-  "term": "Вишкове",
-  "translation": "Vyshkove",
-  "mistakes": [
+  "sourceSpelling": "Вишкове",
+  "correctSpelling": "Vyshkove",
+  "incorrectSpellings": [
     "Vyshkovo"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Вышково",
     "Visk"
   ],
   "links": [],
   "location": {
-    "latitude": 48.0581,
-    "longitude": 23.4164
+    "lat": 48.0581,
+    "lng": 23.4164
   }
 }

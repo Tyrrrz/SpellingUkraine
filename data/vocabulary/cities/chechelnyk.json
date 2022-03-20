@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Чечельник",
-  "translation": "Chechelnyk",
-  "mistakes": [
+  "sourceSpelling": "Чечельник",
+  "correctSpelling": "Chechelnyk",
+  "incorrectSpellings": [
     "Chichelnik"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Chetschelnik",
     "Chitchilnik",
     "Cicelnic",
@@ -19,7 +19,7 @@
     }
   ],
   "location": {
-    "latitude": 48.2122,
-    "longitude": 29.3622
+    "lat": 48.2122,
+    "lng": 29.3622
   }
 }

@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Тернопіль",
-  "translation": "Ternopil",
-  "mistakes": [
+  "sourceSpelling": "Тернопіль",
+  "correctSpelling": "Ternopil",
+  "incorrectSpellings": [
     "Ternopol"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Тернополь"
   ],
   "links": [
@@ -15,7 +15,7 @@
     }
   ],
   "location": {
-    "latitude": 49.5667,
-    "longitude": 25.6
+    "lat": 49.5667,
+    "lng": 25.6
   }
 }

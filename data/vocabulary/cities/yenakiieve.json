@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Єнакієве",
-  "translation": "Yenakiieve",
-  "mistakes": [
+  "sourceSpelling": "Єнакієве",
+  "correctSpelling": "Yenakiieve",
+  "incorrectSpellings": [
     "Yenakiyevo"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Енакиево"
   ],
   "links": [
@@ -15,7 +15,7 @@
     }
   ],
   "location": {
-    "latitude": 48.2311,
-    "longitude": 38.2053
+    "lat": 48.2311,
+    "lng": 38.2053
   }
 }

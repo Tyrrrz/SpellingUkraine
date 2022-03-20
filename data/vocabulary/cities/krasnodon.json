@@ -1,9 +1,9 @@
 {
   "category": "City",
-  "term": "Краснодон",
-  "translation": "Krasnodon",
-  "mistakes": [],
-  "aliases": [],
+  "sourceSpelling": "Краснодон",
+  "correctSpelling": "Krasnodon",
+  "incorrectSpellings": [],
+  "relatedSpellings": [],
   "links": [
     {
       "name": "Wikipedia: Krasnodon",
@@ -11,7 +11,7 @@
     }
   ],
   "location": {
-    "latitude": 48.3,
-    "longitude": 39.7333
+    "lat": 48.3,
+    "lng": 39.7333
   }
 }

@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Чернігівка",
-  "translation": "Chernihivka",
-  "mistakes": [
+  "sourceSpelling": "Чернігівка",
+  "correctSpelling": "Chernihivka",
+  "incorrectSpellings": [
     "Chernigovka"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Черниговка",
     "Tschernihivka"
   ],
@@ -16,7 +16,7 @@
     }
   ],
   "location": {
-    "latitude": 47.1942,
-    "longitude": 36.2023
+    "lat": 47.1942,
+    "lng": 36.2023
   }
 }

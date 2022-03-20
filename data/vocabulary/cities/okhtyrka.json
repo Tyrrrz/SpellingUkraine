@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Охтирка",
-  "translation": "Okhtyrka",
-  "mistakes": [
+  "sourceSpelling": "Охтирка",
+  "correctSpelling": "Okhtyrka",
+  "incorrectSpellings": [
     "Akhtyrka"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Ахтырка"
   ],
   "links": [
@@ -15,7 +15,7 @@
     }
   ],
   "location": {
-    "latitude": 50.3074,
-    "longitude": 34.9016
+    "lat": 50.3074,
+    "lng": 34.9016
   }
 }

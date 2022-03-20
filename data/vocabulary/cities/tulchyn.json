@@ -1,12 +1,12 @@
 {
   "category": "City",
-  "term": "Тульчин",
-  "translation": "Tulchyn",
-  "mistakes": [
+  "sourceSpelling": "Тульчин",
+  "correctSpelling": "Tulchyn",
+  "incorrectSpellings": [
     "Tulchin",
     "Nesterwar"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Tulczyn"
   ],
   "links": [
@@ -16,7 +16,7 @@
     }
   ],
   "location": {
-    "latitude": 48.6744,
-    "longitude": 28.8497
+    "lat": 48.6744,
+    "lng": 28.8497
   }
 }

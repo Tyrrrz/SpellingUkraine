@@ -1,9 +1,9 @@
 {
   "category": "City",
-  "term": "Воловець",
-  "translation": "Volovets",
-  "mistakes": [],
-  "aliases": [
+  "sourceSpelling": "Воловець",
+  "correctSpelling": "Volovets",
+  "incorrectSpellings": [],
+  "relatedSpellings": [
     "Воловец",
     "Volóc",
     "Wołowiec",
@@ -16,7 +16,7 @@
     }
   ],
   "location": {
-    "latitude": 48.7242,
-    "longitude": 23.2
+    "lat": 48.7242,
+    "lng": 23.2
   }
 }

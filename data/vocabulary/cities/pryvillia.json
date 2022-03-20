@@ -1,12 +1,12 @@
 {
   "category": "City",
-  "term": "Привілля",
-  "translation": "Pryvillia",
-  "mistakes": [
+  "sourceSpelling": "Привілля",
+  "correctSpelling": "Pryvillia",
+  "incorrectSpellings": [
     "Privolie",
     "Privolye"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Приволье"
   ],
   "links": [
@@ -16,7 +16,7 @@
     }
   ],
   "location": {
-    "latitude": 48.9999,
-    "longitude": 38.2948
+    "lat": 48.9999,
+    "lng": 38.2948
   }
 }

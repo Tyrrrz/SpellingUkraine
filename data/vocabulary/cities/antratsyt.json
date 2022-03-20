@@ -1,13 +1,13 @@
 {
   "category": "City",
-  "term": "Антрацит",
-  "translation": "Antratsyt",
-  "mistakes": [
+  "sourceSpelling": "Антрацит",
+  "correctSpelling": "Antratsyt",
+  "incorrectSpellings": [
     "Antrasit",
     "Antracit",
     "Anthratsyt"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Антрацыт"
   ],
   "links": [
@@ -17,7 +17,7 @@
     }
   ],
   "location": {
-    "latitude": 48.1167,
-    "longitude": 39.0833
+    "lat": 48.1167,
+    "lng": 39.0833
   }
 }

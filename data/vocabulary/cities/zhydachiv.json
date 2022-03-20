@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Жидачів",
-  "translation": "Zhydachiv",
-  "mistakes": [
+  "sourceSpelling": "Жидачів",
+  "correctSpelling": "Zhydachiv",
+  "incorrectSpellings": [
     "Zhidachov"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Жидачов"
   ],
   "links": [
@@ -15,7 +15,7 @@
     }
   ],
   "location": {
-    "latitude": 49.3833,
-    "longitude": 24.1333
+    "lat": 49.3833,
+    "lng": 24.1333
   }
 }

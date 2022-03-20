@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Хрестівка",
-  "translation": "Khrestivka",
-  "mistakes": [
+  "sourceSpelling": "Хрестівка",
+  "correctSpelling": "Khrestivka",
+  "incorrectSpellings": [
     "Khrestovka"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Крестовка",
     "Кіровське",
     "Кировское",
@@ -20,7 +20,7 @@
     }
   ],
   "location": {
-    "latitude": 48.15,
-    "longitude": 38.3667
+    "lat": 48.15,
+    "lng": 38.3667
   }
 }

@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Винники",
-  "translation": "Vynnyky",
-  "mistakes": [
+  "sourceSpelling": "Винники",
+  "correctSpelling": "Vynnyky",
+  "incorrectSpellings": [
     "Vinniki"
   ],
-  "aliases": [],
+  "relatedSpellings": [],
   "links": [
     {
       "name": "Wikipedia: Vynnyky",
@@ -13,7 +13,7 @@
     }
   ],
   "location": {
-    "latitude": 49.8156,
-    "longitude": 24.1297
+    "lat": 49.8156,
+    "lng": 24.1297
   }
 }

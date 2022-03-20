@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Львів",
-  "translation": "Lviv",
-  "mistakes": [
+  "sourceSpelling": "Львів",
+  "correctSpelling": "Lviv",
+  "incorrectSpellings": [
     "Lvov"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Львов",
     "Lwów",
     "Lemberg",
@@ -26,7 +26,7 @@
     }
   ],
   "location": {
-    "latitude": 49.8419,
-    "longitude": 24.0315
+    "lat": 49.8419,
+    "lng": 24.0315
   }
 }

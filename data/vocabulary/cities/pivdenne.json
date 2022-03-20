@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Південне",
-  "translation": "Pivdenne",
-  "mistakes": [
+  "sourceSpelling": "Південне",
+  "correctSpelling": "Pivdenne",
+  "incorrectSpellings": [
     "Pivdennoe"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Пивденное"
   ],
   "links": [
@@ -15,7 +15,7 @@
     }
   ],
   "location": {
-    "latitude": 49.8849,
-    "longitude": 36.0687
+    "lat": 49.8849,
+    "lng": 36.0687
   }
 }

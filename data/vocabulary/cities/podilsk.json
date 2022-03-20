@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Подільськ",
-  "translation": "Podilsk",
-  "mistakes": [
+  "sourceSpelling": "Подільськ",
+  "correctSpelling": "Podilsk",
+  "incorrectSpellings": [
     "Podolsk"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Подольск",
     "Котовськ",
     "Котовск",
@@ -21,7 +21,7 @@
     }
   ],
   "location": {
-    "latitude": 47.7419,
-    "longitude": 29.535
+    "lat": 47.7419,
+    "lng": 29.535
   }
 }

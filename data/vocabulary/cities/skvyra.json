@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Сквира",
-  "translation": "Skvyra",
-  "mistakes": [
+  "sourceSpelling": "Сквира",
+  "correctSpelling": "Skvyra",
+  "incorrectSpellings": [
     "Skvira"
   ],
-  "aliases": [],
+  "relatedSpellings": [],
   "links": [
     {
       "name": "Wikipedia: Skvyra",
@@ -13,7 +13,7 @@
     }
   ],
   "location": {
-    "latitude": 49.7333,
-    "longitude": 29.6833
+    "lat": 49.7333,
+    "lng": 29.6833
   }
 }

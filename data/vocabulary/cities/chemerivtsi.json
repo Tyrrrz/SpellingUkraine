@@ -1,12 +1,12 @@
 {
   "category": "City",
-  "term": "Чемерівці",
-  "translation": "Chemerivtsi",
-  "mistakes": [
+  "sourceSpelling": "Чемерівці",
+  "correctSpelling": "Chemerivtsi",
+  "incorrectSpellings": [
     "Chemerovtsi",
     "Chemerovtsy"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Чемеровцы"
   ],
   "links": [
@@ -16,7 +16,7 @@
     }
   ],
   "location": {
-    "latitude": 49,
-    "longitude": 26.3667
+    "lat": 49,
+    "lng": 26.3667
   }
 }

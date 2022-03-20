@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Піщанка",
-  "translation": "Pishchanka",
-  "mistakes": [
+  "sourceSpelling": "Піщанка",
+  "correctSpelling": "Pishchanka",
+  "incorrectSpellings": [
     "Peschanka"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Песчанка",
     "Piszczanka"
   ],
@@ -16,7 +16,7 @@
     }
   ],
   "location": {
-    "latitude": 48.2058,
-    "longitude": 28.8889
+    "lat": 48.2058,
+    "lng": 28.8889
   }
 }

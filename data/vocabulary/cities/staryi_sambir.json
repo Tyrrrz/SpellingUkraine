@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Старий Самбір",
-  "translation": "Staryi Sambir",
-  "mistakes": [
+  "sourceSpelling": "Старий Самбір",
+  "correctSpelling": "Staryi Sambir",
+  "incorrectSpellings": [
     "Staryi Sambor"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Старый Самбор",
     "Stary Sambor",
     "Staremiasto",
@@ -18,7 +18,7 @@
     }
   ],
   "location": {
-    "latitude": 49.4333,
-    "longitude": 23
+    "lat": 49.4333,
+    "lng": 23
   }
 }

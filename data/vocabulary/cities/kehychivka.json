@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Кегичівка",
-  "translation": "Kehychivka",
-  "mistakes": [
+  "sourceSpelling": "Кегичівка",
+  "correctSpelling": "Kehychivka",
+  "incorrectSpellings": [
     "Kegichevka"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Кегичёвка"
   ],
   "links": [
@@ -15,7 +15,7 @@
     }
   ],
   "location": {
-    "latitude": 49.2858,
-    "longitude": 35.7622
+    "lat": 49.2858,
+    "lng": 35.7622
   }
 }

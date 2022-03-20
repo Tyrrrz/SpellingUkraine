@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Брошнів-Осада",
-  "translation": "Broshniv-Osada",
-  "mistakes": [
+  "sourceSpelling": "Брошнів-Осада",
+  "correctSpelling": "Broshniv-Osada",
+  "incorrectSpellings": [
     "Broshnev-Osada"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Брошнев-Осада"
   ],
   "links": [
@@ -15,7 +15,7 @@
     }
   ],
   "location": {
-    "latitude": 48.9994,
-    "longitude": 24.1814
+    "lat": 48.9994,
+    "lng": 24.1814
   }
 }

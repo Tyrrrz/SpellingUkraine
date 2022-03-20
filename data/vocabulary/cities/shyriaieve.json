@@ -1,12 +1,12 @@
 {
   "category": "City",
-  "term": "Ширяєве",
-  "translation": "Shyriaieve",
-  "mistakes": [
+  "sourceSpelling": "Ширяєве",
+  "correctSpelling": "Shyriaieve",
+  "incorrectSpellings": [
     "Shiriaievo",
     "Shiryaevo"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Ширяево"
   ],
   "links": [
@@ -16,7 +16,7 @@
     }
   ],
   "location": {
-    "latitude": 47.3878,
-    "longitude": 30.1911
+    "lat": 47.3878,
+    "lng": 30.1911
   }
 }

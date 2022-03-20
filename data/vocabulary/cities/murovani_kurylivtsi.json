@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Муровані Курилівці",
-  "translation": "Murovani Kurylivtsi",
-  "mistakes": [
+  "sourceSpelling": "Муровані Курилівці",
+  "correctSpelling": "Murovani Kurylivtsi",
+  "incorrectSpellings": [
     "Murovanye Kurylovtsy"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Мурованые Куриловцы",
     "Murowane Kuryłowce"
   ],
@@ -16,7 +16,7 @@
     }
   ],
   "location": {
-    "latitude": 48.7222,
-    "longitude": 27.515
+    "lat": 48.7222,
+    "lng": 27.515
   }
 }

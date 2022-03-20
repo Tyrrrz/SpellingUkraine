@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Рахів",
-  "translation": "Rakhiv",
-  "mistakes": [
+  "sourceSpelling": "Рахів",
+  "correctSpelling": "Rakhiv",
+  "incorrectSpellings": [
     "Rakhov"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Рахов",
     "Rahó",
     "Rahău"
@@ -17,7 +17,7 @@
     }
   ],
   "location": {
-    "latitude": 48.05,
-    "longitude": 24.2167
+    "lat": 48.05,
+    "lng": 24.2167
   }
 }

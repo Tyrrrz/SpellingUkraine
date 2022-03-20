@@ -5,31 +5,28 @@ If you want to update the vocabulary, create or modify the corresponding JSON fi
 
 ## File structure
 
+Each vocabulary entry is stored in a JSON file with the following structure:
+
+> ⚠ Comments below are only used for demonstration purposes.
+> Remember to remove them from your own files to avoid errors.
+
 ```jsonc
-// REMEMBER TO REMOVE THE COMMENTS BEFORE COMMITTING THE FILE!
-
-// File name should be derived from the "translation" field:
-// - all lowercase characters
-// - spaces and dashes replaced with underscores
-// - no special characters
-
 // kyiv.json
 {
   // Category of the vocabulary entry
   "category": "City",
 
   // Spelling in Ukrainian
-  "term": "Київ",
+  "sourceSpelling": "Київ",
 
   // Correct spelling in English
-  "translation": "Kyiv",
+  "correctSpelling": "Kyiv",
 
   // Commonly used incorrect spellings in English
-  "mistakes": ["Kiev", "Kiyv", "Kyyv"],
+  "incorrectSpellings": ["Kiev", "Kiyv", "Kyyv"],
 
-  // Additional search keywords for this entry (optional)
-  // These can include spellings in other languages, old names which are no longer in use, etc.
-  "aliases": ["Киев", "Kijow", "Kyjiw", "Kiew"],
+  // Additional spellings in other languages or alternative names for this entry (optional)
+  "relatedSpellings": ["Киев", "Kijow", "Kyjiw", "Kiew"],
 
   // Additional information about the entry (optional)
   "description": "The capital and most populous city of Ukraine. Its name is derived from Proto-Slavic \"Kyjevŭ gordŭ\" (Kyi's castle) and is associated with Kyi, one of the city's legendary founders. Following the declaration of Ukraine's independence, the official English spelling of the capital became \"Kyiv\", replacing the outdated \"Kiev\" spelling based on Russian transliteration. Choosing the correct way to spell Kyiv is an integral part of asserting the Ukrainian identity as distinct from the relics of the Soviet Union and Russian Empire.",
@@ -56,8 +53,8 @@ If you want to update the vocabulary, create or modify the corresponding JSON fi
 
   // Geographical location associated with this entry (optional)
   "location": {
-    "latitude": 50.4501,
-    "longitude": 30.5234
+    "lat": 50.4501,
+    "lng": 30.5234
   },
 
   // Image associated with this entry (optional)
@@ -68,50 +65,58 @@ If you want to update the vocabulary, create or modify the corresponding JSON fi
 }
 ```
 
+The name of the file is derived from the value of the `correctSpelling` field with the following adjustments:
+
+- All characters lowercased
+- Spaces and dashes replaced by underscores
+- Special characters removed
+
 ## Transliteration system
 
-Transliteration of Ukrainian sounds is based on the [official transliteration system adopted by Cabinet of Ministers](https://mfa.gov.ua/storage/app/sites/1/e-conf101-84-roman-system-ukraine-eng.pdf) in 2010.
+Transliteration of Ukrainian characters is based on the [official transliteration system adopted by Cabinet of Ministers](https://mfa.gov.ua/storage/app/sites/1/e-conf101-84-roman-system-ukraine-eng.pdf) in 2010.
 This system is itself derived from the [ALA-LC transliteration system](https://loc.gov/catdir/cpso/romanization/ukrainia.pdf) with some nuances, notably:
 
 - No diacritics
 - No ligatures
-- No apostrophes (meaning that `ь` and `'` are ignored)
-- Some sounds may be mapped differently depending on whether they're in the beginning of the word or elsewhere
+- No apostrophes (`ь` and `'` are both ignored)
+- Position-aware mapping for certain characters
 
-Below is the table of transliteration mappings:
+Below is the full mapping table for the Ukrainian alphabet:
 
-| Source    | Transliterated                                   | Note                                     |
-| --------- | ------------------------------------------------ | ---------------------------------------- |
-| `А` `а`   | `A` `a`                                          |                                          |
-| `Б` `б`   | `B` `b`                                          |                                          |
-| `В` `в`   | `V` `v`                                          |                                          |
-| `Г` `г`   | `H` `h`                                          |                                          |
-| `Ґ` `ґ`   | `G` `g`                                          |                                          |
-| `Д` `д`   | `D` `d`                                          |                                          |
-| `Е` `е`   | `E` `e`                                          |                                          |
-| `Є` `є`   | `Ye` (beginning of the word) or `ie` (elsewhere) |                                          |
-| `Ж` `ж`   | `Zh` `zh`                                        |                                          |
-| `З` `з`   | `Z` `z`                                          |                                          |
-| `И` `и`   | `Y` `y`                                          |                                          |
-| `І` `і`   | `I` `i`                                          |                                          |
-| `Ї` `ї`   | `Yi` (beginning of the word) or `i` (elsewhere)  |                                          |
-| `Й` `й`   | `Yi` (beginning of the word) or `i` (elsewhere)  |                                          |
-| `К` `к`   | `K` `k`                                          |                                          |
-| `Л` `л`   | `L` `l`                                          |                                          |
-| `М` `м`   | `M` `m`                                          |                                          |
-| `Н` `н`   | `N` `n`                                          |                                          |
-| `О` `о`   | `O` `o`                                          |                                          |
-| `П` `п`   | `P` `p`                                          |                                          |
-| `Р` `р`   | `R` `r`                                          |                                          |
-| `С` `с`   | `S` `s`                                          |                                          |
-| `Т` `т`   | `T` `t`                                          |                                          |
-| `У` `у`   | `U` `u`                                          |                                          |
-| `Ф` `ф`   | `F` `f`                                          |                                          |
-| `Х` `х`   | `Kh` `kh`                                        |                                          |
-| `Ц` `ц`   | `Ts` `ts`                                        |                                          |
-| `Ч` `ч`   | `Ch` `ch`                                        |                                          |
-| `Ш` `ш`   | `Sh` `sh`                                        |                                          |
-| `Щ` `щ`   | `Shch` `shch`                                    |                                          |
-| `Ю` `ю`   | `Yu` (beginning of the word) or `iu` (elsewhere) |                                          |
-| `Я` `я`   | `Ya` (beginning of the word) or `ia` (elsewhere) |                                          |
-| `Зг` `зг` | `Zgh` `zgh`                                      | Special case to avoid ambiguity with `Ж` |
+| Source       | Transliterated                                   |
+| ------------ | ------------------------------------------------ |
+| `А` `а`      | `A` `a`                                          |
+| `Б` `б`      | `B` `b`                                          |
+| `В` `в`      | `V` `v`                                          |
+| `Г` `г`      | `H` `h`                                          |
+| `Ґ` `ґ`      | `G` `g`                                          |
+| `Д` `д`      | `D` `d`                                          |
+| `Е` `е`      | `E` `e`                                          |
+| `Є` `є`      | `Ye` (beginning of the word) or `ie` (elsewhere) |
+| `Ж` `ж`      | `Zh` `zh`                                        |
+| `З` `з`      | `Z` `z`                                          |
+| `И` `и`      | `Y` `y`                                          |
+| `І` `і`      | `I` `i`                                          |
+| `Ї` `ї`      | `Yi` (beginning of the word) or `i` (elsewhere)  |
+| `Й` `й`      | `Yi` (beginning of the word) or `i` (elsewhere)  |
+| `К` `к`      | `K` `k`                                          |
+| `Л` `л`      | `L` `l`                                          |
+| `М` `м`      | `M` `m`                                          |
+| `Н` `н`      | `N` `n`                                          |
+| `О` `о`      | `O` `o`                                          |
+| `П` `п`      | `P` `p`                                          |
+| `Р` `р`      | `R` `r`                                          |
+| `С` `с`      | `S` `s`                                          |
+| `Т` `т`      | `T` `t`                                          |
+| `У` `у`      | `U` `u`                                          |
+| `Ф` `ф`      | `F` `f`                                          |
+| `Х` `х`      | `Kh` `kh`                                        |
+| `Ц` `ц`      | `Ts` `ts`                                        |
+| `Ч` `ч`      | `Ch` `ch`                                        |
+| `Ш` `ш`      | `Sh` `sh`                                        |
+| `Щ` `щ`      | `Shch` `shch`                                    |
+| `Ю` `ю`      | `Yu` (beginning of the word) or `iu` (elsewhere) |
+| `Я` `я`      | `Ya` (beginning of the word) or `ia` (elsewhere) |
+| \* `Зг` `зг` | `Zgh` `zgh`                                      |
+
+\* - Special case to avoid ambiguity with `Ж`

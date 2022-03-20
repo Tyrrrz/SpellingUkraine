@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Великий Березний",
-  "translation": "Velykyi Bereznyi",
-  "mistakes": [
+  "sourceSpelling": "Великий Березний",
+  "correctSpelling": "Velykyi Bereznyi",
+  "incorrectSpellings": [
     "Velikiy Bereznyi"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Великий Березный",
     "Veľké Berezné"
   ],
@@ -16,7 +16,7 @@
     }
   ],
   "location": {
-    "latitude": 48.8922,
-    "longitude": 22.4586
+    "lat": 48.8922,
+    "lng": 22.4586
   }
 }

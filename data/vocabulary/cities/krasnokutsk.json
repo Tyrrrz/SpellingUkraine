@@ -1,9 +1,9 @@
 {
   "category": "City",
-  "term": "Краснокутськ",
-  "translation": "Krasnokutsk",
-  "mistakes": [],
-  "aliases": [
+  "sourceSpelling": "Краснокутськ",
+  "correctSpelling": "Krasnokutsk",
+  "incorrectSpellings": [],
+  "relatedSpellings": [
     "Краснокутск"
   ],
   "links": [
@@ -13,7 +13,7 @@
     }
   ],
   "location": {
-    "latitude": 50.0567,
-    "longitude": 35.1492
+    "lat": 50.0567,
+    "lng": 35.1492
   }
 }

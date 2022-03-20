@@ -1,12 +1,12 @@
 {
   "category": "City",
-  "term": "Дубровиця",
-  "translation": "Dubrovytsia",
-  "mistakes": [
+  "sourceSpelling": "Дубровиця",
+  "correctSpelling": "Dubrovytsia",
+  "incorrectSpellings": [
     "Dubrovitsya",
     "Dubrovytsya"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Дубровица",
     "Dąbrowica"
   ],
@@ -17,7 +17,7 @@
     }
   ],
   "location": {
-    "latitude": 51.5667,
-    "longitude": 26.5667
+    "lat": 51.5667,
+    "lng": 26.5667
   }
 }

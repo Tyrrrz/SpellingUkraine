@@ -1,13 +1,13 @@
 {
   "category": "City",
-  "term": "Вишневе",
-  "translation": "Vyshneve",
-  "mistakes": [
+  "sourceSpelling": "Вишневе",
+  "correctSpelling": "Vyshneve",
+  "incorrectSpellings": [
     "Vishnevoe",
     "Vishnevoye",
     "Vishnyovoye"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Вишнёвое"
   ],
   "links": [
@@ -17,7 +17,7 @@
     }
   ],
   "location": {
-    "latitude": 50.3833,
-    "longitude": 30.3667
+    "lat": 50.3833,
+    "lng": 30.3667
   }
 }

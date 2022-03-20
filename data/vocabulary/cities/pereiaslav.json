@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Переяслав",
-  "translation": "Pereiaslav",
-  "mistakes": [
+  "sourceSpelling": "Переяслав",
+  "correctSpelling": "Pereiaslav",
+  "incorrectSpellings": [
     "Pereyaslav"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Переяслав-Хмельницький",
     "Переяслав-Хмельницкий",
     "Pereyaslav-Khmelnytskyy",
@@ -20,7 +20,7 @@
     }
   ],
   "location": {
-    "latitude": 50.065,
-    "longitude": 31.445
+    "lat": 50.065,
+    "lng": 31.445
   }
 }

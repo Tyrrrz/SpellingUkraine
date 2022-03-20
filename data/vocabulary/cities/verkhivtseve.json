@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Верхівцеве",
-  "translation": "Verkhivtseve",
-  "mistakes": [
+  "sourceSpelling": "Верхівцеве",
+  "correctSpelling": "Verkhivtseve",
+  "incorrectSpellings": [
     "Verkhovtsevo"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Верховцево"
   ],
   "links": [
@@ -15,7 +15,7 @@
     }
   ],
   "location": {
-    "latitude": 48.4812,
-    "longitude": 34.2488
+    "lat": 48.4812,
+    "lng": 34.2488
   }
 }

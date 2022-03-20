@@ -1,13 +1,13 @@
 {
   "category": "City",
-  "term": "Іларіонове",
-  "translation": "Ilarionove",
-  "mistakes": [
+  "sourceSpelling": "Іларіонове",
+  "correctSpelling": "Ilarionove",
+  "incorrectSpellings": [
     "Ilarionovo",
     "Illarionovo",
     "Illarionove"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Илларионово"
   ],
   "links": [
@@ -17,7 +17,7 @@
     }
   ],
   "location": {
-    "latitude": 48.4059,
-    "longitude": 35.2734
+    "lat": 48.4059,
+    "lng": 35.2734
   }
 }

@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Теплик",
-  "translation": "Teplyk",
-  "mistakes": [
+  "sourceSpelling": "Теплик",
+  "correctSpelling": "Teplyk",
+  "incorrectSpellings": [
     "Teplik"
   ],
-  "aliases": [],
+  "relatedSpellings": [],
   "links": [
     {
       "name": "Wikipedia: Teplyk",
@@ -13,7 +13,7 @@
     }
   ],
   "location": {
-    "latitude": 48.6594,
-    "longitude": 29.7539
+    "lat": 48.6594,
+    "lng": 29.7539
   }
 }

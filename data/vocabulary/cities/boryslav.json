@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Борислав",
-  "translation": "Boryslav",
-  "mistakes": [
+  "sourceSpelling": "Борислав",
+  "correctSpelling": "Boryslav",
+  "incorrectSpellings": [
     "Borislav"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Borysław"
   ],
   "links": [
@@ -15,7 +15,7 @@
     }
   ],
   "location": {
-    "latitude": 49.2881,
-    "longitude": 23.4267
+    "lat": 49.2881,
+    "lng": 23.4267
   }
 }

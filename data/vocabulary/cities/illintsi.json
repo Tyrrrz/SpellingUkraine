@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Іллінці",
-  "translation": "Illintsi",
-  "mistakes": [
+  "sourceSpelling": "Іллінці",
+  "correctSpelling": "Illintsi",
+  "incorrectSpellings": [
     "Ilyintsi"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Ильинцы",
     "Ilińce"
   ],
@@ -16,7 +16,7 @@
     }
   ],
   "location": {
-    "latitude": 49.1,
-    "longitude": 29.2
+    "lat": 49.1,
+    "lng": 29.2
   }
 }

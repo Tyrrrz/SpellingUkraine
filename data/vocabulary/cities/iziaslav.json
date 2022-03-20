@@ -1,12 +1,12 @@
 {
   "category": "City",
-  "term": "Ізяслав",
-  "translation": "Iziaslav",
-  "mistakes": [
+  "sourceSpelling": "Ізяслав",
+  "correctSpelling": "Iziaslav",
+  "incorrectSpellings": [
     "Zaslav",
     "Izyaslav"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Изяслав"
   ],
   "links": [
@@ -16,7 +16,7 @@
     }
   ],
   "location": {
-    "latitude": 50.1167,
-    "longitude": 26.8
+    "lat": 50.1167,
+    "lng": 26.8
   }
 }

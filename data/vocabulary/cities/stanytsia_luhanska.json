@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Станиця Луганська",
-  "translation": "Stanytsia Luhanska",
-  "mistakes": [
+  "sourceSpelling": "Станиця Луганська",
+  "correctSpelling": "Stanytsia Luhanska",
+  "incorrectSpellings": [
     "Stanitsa Luganskaya"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Станица Луганская"
   ],
   "links": [
@@ -15,7 +15,7 @@
     }
   ],
   "location": {
-    "latitude": 48.6667,
-    "longitude": 39.4667
+    "lat": 48.6667,
+    "lng": 39.4667
   }
 }

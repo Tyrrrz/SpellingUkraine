@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Васильківка",
-  "translation": "Vasylkivka",
-  "mistakes": [
+  "sourceSpelling": "Васильківка",
+  "correctSpelling": "Vasylkivka",
+  "incorrectSpellings": [
     "Vasilkovka"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Васильковка"
   ],
   "links": [
@@ -15,7 +15,7 @@
     }
   ],
   "location": {
-    "latitude": 48.2084,
-    "longitude": 36.0253
+    "lat": 48.2084,
+    "lng": 36.0253
   }
 }

@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Березівка",
-  "translation": "Berezivka",
-  "mistakes": [
+  "sourceSpelling": "Березівка",
+  "correctSpelling": "Berezivka",
+  "incorrectSpellings": [
     "Berezovka"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Березовка"
   ],
   "links": [
@@ -15,7 +15,7 @@
     }
   ],
   "location": {
-    "latitude": 47.2039,
-    "longitude": 30.9125
+    "lat": 47.2039,
+    "lng": 30.9125
   }
 }

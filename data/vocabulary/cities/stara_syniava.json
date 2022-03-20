@@ -1,12 +1,12 @@
 {
   "category": "City",
-  "term": "Стара Синява",
-  "translation": "Stara Syniava",
-  "mistakes": [
+  "sourceSpelling": "Стара Синява",
+  "correctSpelling": "Stara Syniava",
+  "incorrectSpellings": [
     "Stara Siniava",
     "Staraya Sinyava"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Старая Синява"
   ],
   "links": [
@@ -16,7 +16,7 @@
     }
   ],
   "location": {
-    "latitude": 49.6,
-    "longitude": 27.6167
+    "lat": 49.6,
+    "lng": 27.6167
   }
 }

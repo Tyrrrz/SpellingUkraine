@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Тростянець",
-  "translation": "Trostianets",
-  "mistakes": [
+  "sourceSpelling": "Тростянець",
+  "correctSpelling": "Trostianets",
+  "incorrectSpellings": [
     "Trostyanets"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Тростянец"
   ],
   "links": [
@@ -15,7 +15,7 @@
     }
   ],
   "location": {
-    "latitude": 48.512,
-    "longitude": 29.2137
+    "lat": 48.512,
+    "lng": 29.2137
   }
 }

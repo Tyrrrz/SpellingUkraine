@@ -23,8 +23,8 @@ const EntryPage: NextPage<StaticProps> = ({ entry }) => {
   return (
     <>
       <Meta
-        title={entry.translation}
-        description={`"${entry.translation}" is the correct way to spell "${entry.term}" in English. Support Ukraine, transliterate correctly!`}
+        title={entry.correctSpelling}
+        description={`"${entry.correctSpelling}" is the correct way to spell "${entry.sourceSpelling}" in English. Support Ukraine, transliterate correctly!`}
         imageUrl={entry.image?.url}
       />
 
@@ -32,13 +32,13 @@ const EntryPage: NextPage<StaticProps> = ({ entry }) => {
         <Box classes={['flex', 'justify-between']}>
           <Box classes={['space-y-1', 'text-3xl']}>
             <HStack align="bottom" gap="large">
-              <Box>{entry.translation}</Box>
+              <Box>{entry.correctSpelling}</Box>
 
               {speech.available && (
                 <button
                   className={classNames('flex')}
-                  title={`Pronounce "${entry.term}"`}
-                  onClick={() => speech.speak(entry.term)}
+                  title={`Pronounce "${entry.sourceSpelling}"`}
+                  onClick={() => speech.speak(entry.sourceSpelling)}
                 >
                   {speech.active ? <FiVolume2 strokeWidth={1} /> : <FiVolume1 strokeWidth={1} />}
                 </button>
@@ -46,7 +46,7 @@ const EntryPage: NextPage<StaticProps> = ({ entry }) => {
             </HStack>
 
             <Box classes={['text-2xl', 'font-light', 'tracking-wide']}>
-              {entry.term} • {entry.category}
+              {entry.sourceSpelling} • {entry.category}
             </Box>
           </Box>
 
@@ -63,7 +63,7 @@ const EntryPage: NextPage<StaticProps> = ({ entry }) => {
         </Box>
 
         <Box classes={['space-y-4']}>
-          {entry.mistakes.length > 0 && (
+          {entry.incorrectSpellings.length > 0 && (
             <Box>
               <SectionHeader>Spelling</SectionHeader>
 
@@ -71,13 +71,13 @@ const EntryPage: NextPage<StaticProps> = ({ entry }) => {
                 <HStack wrap gap="large">
                   <HStack>
                     <FiCheck className={classNames('text-green-600')} />
-                    <Box>{entry.translation}</Box>
+                    <Box>{entry.correctSpelling}</Box>
                   </HStack>
 
-                  {entry.mistakes.map((mistake) => (
-                    <HStack key={mistake}>
+                  {entry.incorrectSpellings.map((spelling) => (
+                    <HStack key={spelling}>
                       <FiX className={classNames('text-red-600')} />
-                      <Box>{mistake}</Box>
+                      <Box>{spelling}</Box>
                     </HStack>
                   ))}
                 </HStack>
@@ -112,7 +112,7 @@ const EntryPage: NextPage<StaticProps> = ({ entry }) => {
 
               <Box>
                 <Map
-                  defaultCenter={[entry.location.latitude, entry.location.longitude]}
+                  defaultCenter={[entry.location.lat, entry.location.lng]}
                   defaultZoom={6}
                   height={400}
                   mouseEvents={false}
@@ -122,7 +122,7 @@ const EntryPage: NextPage<StaticProps> = ({ entry }) => {
                     color="#0ea5e9"
                     width={48}
                     hover={false}
-                    anchor={[entry.location.latitude, entry.location.longitude]}
+                    anchor={[entry.location.lat, entry.location.lng]}
                   />
                 </Map>
               </Box>
@@ -130,7 +130,7 @@ const EntryPage: NextPage<StaticProps> = ({ entry }) => {
               <Box classes={['flex', 'place-content-end']}>
                 <Link
                   href={`https://google.com/maps/search/?api=1&query=${encodeURIComponent(
-                    entry.translation
+                    entry.correctSpelling
                   )}`}
                 >
                   <HStack>

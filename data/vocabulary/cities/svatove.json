@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Сватове",
-  "translation": "Svatove",
-  "mistakes": [
+  "sourceSpelling": "Сватове",
+  "correctSpelling": "Svatove",
+  "incorrectSpellings": [
     "Svatovo"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Сватово"
   ],
   "links": [
@@ -15,7 +15,7 @@
     }
   ],
   "location": {
-    "latitude": 49.4092,
-    "longitude": 38.1619
+    "lat": 49.4092,
+    "lng": 38.1619
   }
 }

@@ -1,12 +1,12 @@
 {
   "category": "City",
-  "term": "Кропивницький",
-  "translation": "Kropyvnytskyi",
-  "mistakes": [
+  "sourceSpelling": "Кропивницький",
+  "correctSpelling": "Kropyvnytskyi",
+  "incorrectSpellings": [
     "Kropivnitskyi",
     "Kropivnitskiy"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Кропивницкий",
     "Kirovohrad",
     "Kirovograd"
@@ -19,7 +19,7 @@
     }
   ],
   "location": {
-    "latitude": 48.5103,
-    "longitude": 32.2667
+    "lat": 48.5103,
+    "lng": 32.2667
   }
 }

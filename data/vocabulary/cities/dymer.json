@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Димер",
-  "translation": "Dymer",
-  "mistakes": [
+  "sourceSpelling": "Димер",
+  "correctSpelling": "Dymer",
+  "incorrectSpellings": [
     "Dymier"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Дымер"
   ],
   "links": [
@@ -15,7 +15,7 @@
     }
   ],
   "location": {
-    "latitude": 50.7872,
-    "longitude": 30.3117
+    "lat": 50.7872,
+    "lng": 30.3117
   }
 }

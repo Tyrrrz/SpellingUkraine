@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Ланчин",
-  "translation": "Lanchyn",
-  "mistakes": [
+  "sourceSpelling": "Ланчин",
+  "correctSpelling": "Lanchyn",
+  "incorrectSpellings": [
     "Lanchin"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Łanczyn",
     "Lanciîn"
   ],
@@ -16,7 +16,7 @@
     }
   ],
   "location": {
-    "latitude": 48.5475,
-    "longitude": 24.7517
+    "lat": 48.5475,
+    "lng": 24.7517
   }
 }

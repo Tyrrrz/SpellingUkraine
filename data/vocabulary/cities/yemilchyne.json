@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Ємільчине",
-  "translation": "Yemilchyne",
-  "mistakes": [
+  "sourceSpelling": "Ємільчине",
+  "correctSpelling": "Yemilchyne",
+  "incorrectSpellings": [
     "Yemilchino"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Емильчино"
   ],
   "links": [
@@ -15,7 +15,7 @@
     }
   ],
   "location": {
-    "latitude": 50.8708,
-    "longitude": 27.8028
+    "lat": 50.8708,
+    "lng": 27.8028
   }
 }

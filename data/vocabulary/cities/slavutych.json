@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Славутич",
-  "translation": "Slavutych",
-  "mistakes": [
+  "sourceSpelling": "Славутич",
+  "correctSpelling": "Slavutych",
+  "incorrectSpellings": [
     "Slavutich"
   ],
-  "aliases": [],
+  "relatedSpellings": [],
   "links": [
     {
       "name": "Wikipedia: Slavutych",
@@ -13,7 +13,7 @@
     }
   ],
   "location": {
-    "latitude": 51.5206,
-    "longitude": 30.7569
+    "lat": 51.5206,
+    "lng": 30.7569
   }
 }

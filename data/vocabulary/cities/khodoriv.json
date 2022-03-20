@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Ходорів",
-  "translation": "Khodoriv",
-  "mistakes": [
+  "sourceSpelling": "Ходорів",
+  "correctSpelling": "Khodoriv",
+  "incorrectSpellings": [
     "Khodorov"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Ходоров",
     "Chodorów"
   ],
@@ -16,7 +16,7 @@
     }
   ],
   "location": {
-    "latitude": 49.41,
-    "longitude": 24.3094
+    "lat": 49.41,
+    "lng": 24.3094
   }
 }

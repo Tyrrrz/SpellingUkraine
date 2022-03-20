@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Ічня",
-  "translation": "Ichnia",
-  "mistakes": [
+  "sourceSpelling": "Ічня",
+  "correctSpelling": "Ichnia",
+  "incorrectSpellings": [
     "Ichnya"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Ичня"
   ],
   "links": [
@@ -15,7 +15,7 @@
     }
   ],
   "location": {
-    "latitude": 50.85,
-    "longitude": 32.4
+    "lat": 50.85,
+    "lng": 32.4
   }
 }

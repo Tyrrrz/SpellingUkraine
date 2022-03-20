@@ -1,9 +1,9 @@
 {
   "category": "City",
-  "term": "Тересва",
-  "translation": "Teresva",
-  "mistakes": [],
-  "aliases": [
+  "sourceSpelling": "Тересва",
+  "correctSpelling": "Teresva",
+  "incorrectSpellings": [],
+  "relatedSpellings": [
     "Theresiental",
     "Teresva",
     "Taracköz",
@@ -16,7 +16,7 @@
     }
   ],
   "location": {
-    "latitude": 48,
-    "longitude": 23.6992
+    "lat": 48,
+    "lng": 23.6992
   }
 }

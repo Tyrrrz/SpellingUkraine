@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Амвросіївка",
-  "translation": "Amvrosiivka",
-  "mistakes": [
+  "sourceSpelling": "Амвросіївка",
+  "correctSpelling": "Amvrosiivka",
+  "incorrectSpellings": [
     "Amvrosiyivka"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Амворосиевка",
     "Amvrosivka"
   ],
@@ -16,7 +16,7 @@
     }
   ],
   "location": {
-    "latitude": 47.7958,
-    "longitude": 38.4801
+    "lat": 47.7958,
+    "lng": 38.4801
   }
 }

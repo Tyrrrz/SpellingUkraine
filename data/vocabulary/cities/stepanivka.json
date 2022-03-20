@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Степанівка",
-  "translation": "Stepanivka",
-  "mistakes": [
+  "sourceSpelling": "Степанівка",
+  "correctSpelling": "Stepanivka",
+  "incorrectSpellings": [
     "Stepanovka"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Степановка"
   ],
   "links": [
@@ -15,7 +15,7 @@
     }
   ],
   "location": {
-    "latitude": 50.943,
-    "longitude": 34.6334
+    "lat": 50.943,
+    "lng": 34.6334
   }
 }

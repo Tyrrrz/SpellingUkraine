@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Добровеличківка",
-  "translation": "Dobrovelychkivka",
-  "mistakes": [
+  "sourceSpelling": "Добровеличківка",
+  "correctSpelling": "Dobrovelychkivka",
+  "incorrectSpellings": [
     "Dobrovelichkovka"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Добровеличковка"
   ],
   "links": [
@@ -15,7 +15,7 @@
     }
   ],
   "location": {
-    "latitude": 48.35,
-    "longitude": 31.1667
+    "lat": 48.35,
+    "lng": 31.1667
   }
 }

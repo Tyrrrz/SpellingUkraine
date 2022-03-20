@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Червонохригорівка",
-  "translation": "Chervonohryhorivka",
-  "mistakes": [
+  "sourceSpelling": "Червонохригорівка",
+  "correctSpelling": "Chervonohryhorivka",
+  "incorrectSpellings": [
     "Chervonogrigorovka"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Червоногригоровка"
   ],
   "links": [
@@ -15,7 +15,7 @@
     }
   ],
   "location": {
-    "latitude": 47.6233,
-    "longitude": 34.5309
+    "lat": 47.6233,
+    "lng": 34.5309
   }
 }

@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Ровеньки",
-  "translation": "Rovenky",
-  "mistakes": [
+  "sourceSpelling": "Ровеньки",
+  "correctSpelling": "Rovenky",
+  "incorrectSpellings": [
     "Rovenki"
   ],
-  "aliases": [],
+  "relatedSpellings": [],
   "links": [
     {
       "name": "Wikipedia: Rovenky",
@@ -13,7 +13,7 @@
     }
   ],
   "location": {
-    "latitude": 48.0833,
-    "longitude": 39.3667
+    "lat": 48.0833,
+    "lng": 39.3667
   }
 }

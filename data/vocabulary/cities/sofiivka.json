@@ -1,13 +1,13 @@
 {
   "category": "City",
-  "term": "Софіївка",
-  "translation": "Sofiivka",
-  "mistakes": [
+  "sourceSpelling": "Софіївка",
+  "correctSpelling": "Sofiivka",
+  "incorrectSpellings": [
     "Sofiyivka",
     "Sofievka",
     "Sofiyevka"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Софиевка"
   ],
   "links": [
@@ -17,7 +17,7 @@
     }
   ],
   "location": {
-    "latitude": 48.2683,
-    "longitude": 38.1847
+    "lat": 48.2683,
+    "lng": 38.1847
   }
 }

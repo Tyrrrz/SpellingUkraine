@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Чуднів",
-  "translation": "Chudniv",
-  "mistakes": [
+  "sourceSpelling": "Чуднів",
+  "correctSpelling": "Chudniv",
+  "incorrectSpellings": [
     "Chudnov"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Чуднов",
     "Cudnów"
   ],
@@ -16,7 +16,7 @@
     }
   ],
   "location": {
-    "latitude": 50.0528,
-    "longitude": 28.0969
+    "lat": 50.0528,
+    "lng": 28.0969
   }
 }

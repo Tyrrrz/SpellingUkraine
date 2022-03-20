@@ -1,12 +1,12 @@
 {
   "category": "City",
-  "term": "Королево",
-  "translation": "Korolevo",
-  "mistakes": [
+  "sourceSpelling": "Королево",
+  "correctSpelling": "Korolevo",
+  "incorrectSpellings": [
     "Koroliovo",
     "Korolyovo"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Королёво",
     "Kráľovec nad Tisou",
     "Királyháza",
@@ -19,7 +19,7 @@
     }
   ],
   "location": {
-    "latitude": 48.15,
-    "longitude": 23.1333
+    "lat": 48.15,
+    "lng": 23.1333
   }
 }

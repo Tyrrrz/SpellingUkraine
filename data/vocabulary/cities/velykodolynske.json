@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Великодолинське",
-  "translation": "Velykodolynske",
-  "mistakes": [
+  "sourceSpelling": "Великодолинське",
+  "correctSpelling": "Velykodolynske",
+  "incorrectSpellings": [
     "Velikodolinskoe"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Великодолинское"
   ],
   "links": [
@@ -15,7 +15,7 @@
     }
   ],
   "location": {
-    "latitude": 46.3425,
-    "longitude": 30.5653
+    "lat": 46.3425,
+    "lng": 30.5653
   }
 }

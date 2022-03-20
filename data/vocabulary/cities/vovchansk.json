@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Вовчанськ",
-  "translation": "Vovchansk",
-  "mistakes": [
+  "sourceSpelling": "Вовчанськ",
+  "correctSpelling": "Vovchansk",
+  "incorrectSpellings": [
     "Volchansk"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Волчанск"
   ],
   "links": [
@@ -15,7 +15,7 @@
     }
   ],
   "location": {
-    "latitude": 50.2881,
-    "longitude": 36.9461
+    "lat": 50.2881,
+    "lng": 36.9461
   }
 }

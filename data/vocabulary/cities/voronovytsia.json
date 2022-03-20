@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Вороновиця",
-  "translation": "Voronovytsia",
-  "mistakes": [
+  "sourceSpelling": "Вороновиця",
+  "correctSpelling": "Voronovytsia",
+  "incorrectSpellings": [
     "Voronovitsa"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Вороновица"
   ],
   "links": [
@@ -15,7 +15,7 @@
     }
   ],
   "location": {
-    "latitude": 49.0989,
-    "longitude": 28.6831
+    "lat": 49.0989,
+    "lng": 28.6831
   }
 }

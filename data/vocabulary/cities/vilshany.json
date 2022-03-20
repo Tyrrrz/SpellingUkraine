@@ -1,12 +1,12 @@
 {
   "category": "City",
-  "term": "Вільшани",
-  "translation": "Vilshany",
-  "mistakes": [
+  "sourceSpelling": "Вільшани",
+  "correctSpelling": "Vilshany",
+  "incorrectSpellings": [
     "Vilshani",
     "Olshany"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Ольшаны"
   ],
   "links": [
@@ -16,7 +16,7 @@
     }
   ],
   "location": {
-    "latitude": 50.0533,
-    "longitude": 35.8847
+    "lat": 50.0533,
+    "lng": 35.8847
   }
 }

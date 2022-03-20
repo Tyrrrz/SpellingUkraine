@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Брянка",
-  "translation": "Brianka",
-  "mistakes": [
+  "sourceSpelling": "Брянка",
+  "correctSpelling": "Brianka",
+  "incorrectSpellings": [
     "Bryanka"
   ],
-  "aliases": [],
+  "relatedSpellings": [],
   "links": [
     {
       "name": "Wikipedia: Brianka",
@@ -13,7 +13,7 @@
     }
   ],
   "location": {
-    "latitude": 48.5133,
-    "longitude": 38.6431
+    "lat": 48.5133,
+    "lng": 38.6431
   }
 }

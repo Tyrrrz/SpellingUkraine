@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Херсон",
-  "translation": "Kherson",
-  "mistakes": [
+  "sourceSpelling": "Херсон",
+  "correctSpelling": "Kherson",
+  "incorrectSpellings": [
     "Herson"
   ],
-  "aliases": [],
+  "relatedSpellings": [],
   "links": [
     {
       "name": "Wikipedia: Kherson",
@@ -13,7 +13,7 @@
     }
   ],
   "location": {
-    "latitude": 46.6333,
-    "longitude": 32.6
+    "lat": 46.6333,
+    "lng": 32.6
   }
 }

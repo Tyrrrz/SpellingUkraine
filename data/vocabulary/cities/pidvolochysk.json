@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Підволочиськ",
-  "translation": "Pidvolochysk",
-  "mistakes": [
+  "sourceSpelling": "Підволочиськ",
+  "correctSpelling": "Pidvolochysk",
+  "incorrectSpellings": [
     "Podvolochisk"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Подволочиск",
     "Podwołoczyska"
   ],
@@ -16,7 +16,7 @@
     }
   ],
   "location": {
-    "latitude": 49.5311,
-    "longitude": 26.1467
+    "lat": 49.5311,
+    "lng": 26.1467
   }
 }

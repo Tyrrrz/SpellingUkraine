@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Дубове",
-  "translation": "Dubove",
-  "mistakes": [
+  "sourceSpelling": "Дубове",
+  "correctSpelling": "Dubove",
+  "incorrectSpellings": [
     "Dubovoe"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Дубовое",
     "Dombó",
     "Delureni"
@@ -17,7 +17,7 @@
     }
   ],
   "location": {
-    "latitude": 48.1781,
-    "longitude": 23.8863
+    "lat": 48.1781,
+    "lng": 23.8863
   }
 }

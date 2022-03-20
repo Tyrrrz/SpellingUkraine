@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Фастів",
-  "translation": "Fastiv",
-  "mistakes": [
+  "sourceSpelling": "Фастів",
+  "correctSpelling": "Fastiv",
+  "incorrectSpellings": [
     "Fastov"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Фастов"
   ],
   "links": [
@@ -15,7 +15,7 @@
     }
   ],
   "location": {
-    "latitude": 50.0747,
-    "longitude": 29.9181
+    "lat": 50.0747,
+    "lng": 29.9181
   }
 }

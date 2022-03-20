@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Ладижин",
-  "translation": "Ladyzhyn",
-  "mistakes": [
+  "sourceSpelling": "Ладижин",
+  "correctSpelling": "Ladyzhyn",
+  "incorrectSpellings": [
     "Ladyzhin"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Ладыжин",
     "Ładyżyn"
   ],
@@ -16,7 +16,7 @@
     }
   ],
   "location": {
-    "latitude": 48.6667,
-    "longitude": 29.2167
+    "lat": 48.6667,
+    "lng": 29.2167
   }
 }

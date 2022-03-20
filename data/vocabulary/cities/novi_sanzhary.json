@@ -1,12 +1,12 @@
 {
   "category": "City",
-  "term": "Нові Санжари",
-  "translation": "Novi Sanzhary",
-  "mistakes": [
+  "sourceSpelling": "Нові Санжари",
+  "correctSpelling": "Novi Sanzhary",
+  "incorrectSpellings": [
     "Novyie Sanzhary",
     "Novie Sanzhary"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Новые Санжары"
   ],
   "links": [
@@ -16,7 +16,7 @@
     }
   ],
   "location": {
-    "latitude": 49.3354,
-    "longitude": 34.3162
+    "lat": 49.3354,
+    "lng": 34.3162
   }
 }

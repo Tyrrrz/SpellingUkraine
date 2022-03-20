@@ -1,9 +1,9 @@
 {
   "category": "City",
-  "term": "Овруч",
-  "translation": "Ovruch",
-  "mistakes": [],
-  "aliases": [
+  "sourceSpelling": "Овруч",
+  "correctSpelling": "Ovruch",
+  "incorrectSpellings": [],
+  "relatedSpellings": [
     "Owrucz"
   ],
   "links": [
@@ -13,7 +13,7 @@
     }
   ],
   "location": {
-    "latitude": 51.3244,
-    "longitude": 28.8081
+    "lat": 51.3244,
+    "lng": 28.8081
   }
 }

@@ -1,14 +1,14 @@
 {
   "category": "City",
-  "term": "Михайлівка",
-  "translation": "Mykhailivka",
-  "mistakes": [
+  "sourceSpelling": "Михайлівка",
+  "correctSpelling": "Mykhailivka",
+  "incorrectSpellings": [
     "Mykhailivka",
     "Mikhailivka",
     "Mikhailovka",
     "Mikhaylovka"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Михайловка"
   ],
   "links": [
@@ -18,7 +18,7 @@
     }
   ],
   "location": {
-    "latitude": 47.2717,
-    "longitude": 35.2248
+    "lat": 47.2717,
+    "lng": 35.2248
   }
 }

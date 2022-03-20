@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Іванівка",
-  "translation": "Ivanivka",
-  "mistakes": [
+  "sourceSpelling": "Іванівка",
+  "correctSpelling": "Ivanivka",
+  "incorrectSpellings": [
     "Ivanovka"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Ивановка",
     "Iwanivka"
   ],
@@ -16,7 +16,7 @@
     }
   ],
   "location": {
-    "latitude": 48.2325,
-    "longitude": 38.9525
+    "lat": 48.2325,
+    "lng": 38.9525
   }
 }

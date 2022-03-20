@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Жашків",
-  "translation": "Zhashkiv",
-  "mistakes": [
+  "sourceSpelling": "Жашків",
+  "correctSpelling": "Zhashkiv",
+  "incorrectSpellings": [
     "Zhashkov"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Жашков"
   ],
   "links": [
@@ -15,7 +15,7 @@
     }
   ],
   "location": {
-    "latitude": 49.25,
-    "longitude": 30.1
+    "lat": 49.25,
+    "lng": 30.1
   }
 }

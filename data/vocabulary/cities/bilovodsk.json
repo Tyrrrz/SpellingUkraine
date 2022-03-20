@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Біловодськ",
-  "translation": "Bilovodsk",
-  "mistakes": [
+  "sourceSpelling": "Біловодськ",
+  "correctSpelling": "Bilovodsk",
+  "incorrectSpellings": [
     "Belovodsk"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Беловодск"
   ],
   "links": [
@@ -15,7 +15,7 @@
     }
   ],
   "location": {
-    "latitude": 49.1992,
-    "longitude": 39.5756
+    "lat": 49.1992,
+    "lng": 39.5756
   }
 }

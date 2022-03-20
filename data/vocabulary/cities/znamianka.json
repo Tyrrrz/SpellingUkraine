@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Знам'янка",
-  "translation": "Znamianka",
-  "mistakes": [
+  "sourceSpelling": "Знам'янка",
+  "correctSpelling": "Znamianka",
+  "incorrectSpellings": [
     "Znamenka"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Знаменка"
   ],
   "links": [
@@ -15,7 +15,7 @@
     }
   ],
   "location": {
-    "latitude": 48.7136,
-    "longitude": 32.6733
+    "lat": 48.7136,
+    "lng": 32.6733
   }
 }

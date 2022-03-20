@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Озерне",
-  "translation": "Ozerne",
-  "mistakes": [
+  "sourceSpelling": "Озерне",
+  "correctSpelling": "Ozerne",
+  "incorrectSpellings": [
     "Ozernoe"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Озёрное"
   ],
   "links": [
@@ -15,7 +15,7 @@
     }
   ],
   "location": {
-    "latitude": 50.1794,
-    "longitude": 28.7361
+    "lat": 50.1794,
+    "lng": 28.7361
   }
 }

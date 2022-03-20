@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Гайсин",
-  "translation": "Haisyn",
-  "mistakes": [
+  "sourceSpelling": "Гайсин",
+  "correctSpelling": "Haisyn",
+  "incorrectSpellings": [
     "Haysyn"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Hajsyn"
   ],
   "links": [
@@ -15,7 +15,7 @@
     }
   ],
   "location": {
-    "latitude": 48.8094,
-    "longitude": 29.3906
+    "lat": 48.8094,
+    "lng": 29.3906
   }
 }

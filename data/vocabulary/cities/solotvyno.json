@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Солотвино",
-  "translation": "Solotvyno",
-  "mistakes": [
+  "sourceSpelling": "Солотвино",
+  "correctSpelling": "Solotvyno",
+  "incorrectSpellings": [
     "Solotvino"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Aknaszlatina",
     "Slatina",
     "Slatinské Doly"
@@ -17,7 +17,7 @@
     }
   ],
   "location": {
-    "latitude": 47.9597,
-    "longitude": 23.8669
+    "lat": 47.9597,
+    "lng": 23.8669
   }
 }

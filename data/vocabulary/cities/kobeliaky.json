@@ -1,12 +1,12 @@
 {
   "category": "City",
-  "term": "Кобеляки",
-  "translation": "Kobeliaky",
-  "mistakes": [
+  "sourceSpelling": "Кобеляки",
+  "correctSpelling": "Kobeliaky",
+  "incorrectSpellings": [
     "Kobelyaky",
     "Kobelyaki"
   ],
-  "aliases": [],
+  "relatedSpellings": [],
   "links": [
     {
       "name": "Wikipedia: Kobeliaky",
@@ -14,7 +14,7 @@
     }
   ],
   "location": {
-    "latitude": 49.1474,
-    "longitude": 34.1993
+    "lat": 49.1474,
+    "lng": 34.1993
   }
 }

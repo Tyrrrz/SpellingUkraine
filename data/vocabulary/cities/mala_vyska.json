@@ -1,12 +1,12 @@
 {
   "category": "City",
-  "term": "Мала Виска",
-  "translation": "Mala Vyska",
-  "mistakes": [
+  "sourceSpelling": "Мала Виска",
+  "correctSpelling": "Mala Vyska",
+  "incorrectSpellings": [
     "Malaya Vyska",
     "Malaya Viska"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Малая Виска"
   ],
   "links": [
@@ -16,7 +16,7 @@
     }
   ],
   "location": {
-    "latitude": 48.65,
-    "longitude": 31.6333
+    "lat": 48.65,
+    "lng": 31.6333
   }
 }

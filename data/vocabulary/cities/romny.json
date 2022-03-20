@@ -1,9 +1,9 @@
 {
   "category": "City",
-  "term": "Ромни",
-  "translation": "Romny",
-  "mistakes": [],
-  "aliases": [
+  "sourceSpelling": "Ромни",
+  "correctSpelling": "Romny",
+  "incorrectSpellings": [],
+  "relatedSpellings": [
     "Ромны"
   ],
   "links": [
@@ -13,7 +13,7 @@
     }
   ],
   "location": {
-    "latitude": 50.7428,
-    "longitude": 33.4879
+    "lat": 50.7428,
+    "lng": 33.4879
   }
 }

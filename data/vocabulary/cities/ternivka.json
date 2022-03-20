@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Тернівка",
-  "translation": "Ternivka",
-  "mistakes": [
+  "sourceSpelling": "Тернівка",
+  "correctSpelling": "Ternivka",
+  "incorrectSpellings": [
     "Ternovka"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Терновка"
   ],
   "links": [
@@ -15,7 +15,7 @@
     }
   ],
   "location": {
-    "latitude": 48.5231,
-    "longitude": 36.0826
+    "lat": 48.5231,
+    "lng": 36.0826
   }
 }

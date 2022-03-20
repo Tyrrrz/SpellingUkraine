@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Слов'янськ",
-  "translation": "Sloviansk",
-  "mistakes": [
+  "sourceSpelling": "Слов'янськ",
+  "correctSpelling": "Sloviansk",
+  "incorrectSpellings": [
     "Slavyansk"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Славянск"
   ],
   "links": [
@@ -15,7 +15,7 @@
     }
   ],
   "location": {
-    "latitude": 48.87,
-    "longitude": 37.625
+    "lat": 48.87,
+    "lng": 37.625
   }
 }

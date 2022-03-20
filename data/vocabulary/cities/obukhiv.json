@@ -1,12 +1,12 @@
 {
   "category": "City",
-  "term": "Обухів",
-  "translation": "Obukhiv",
-  "mistakes": [
+  "sourceSpelling": "Обухів",
+  "correctSpelling": "Obukhiv",
+  "incorrectSpellings": [
     "Obukhov",
     "Obuhiv"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Обухов"
   ],
   "links": [
@@ -16,7 +16,7 @@
     }
   ],
   "location": {
-    "latitude": 50.1,
-    "longitude": 30.6167
+    "lat": 50.1,
+    "lng": 30.6167
   }
 }

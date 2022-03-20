@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Ясіня",
-  "translation": "Yasinia",
-  "mistakes": [
+  "sourceSpelling": "Ясіня",
+  "correctSpelling": "Yasinia",
+  "incorrectSpellings": [
     "Yasinya"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Ясиня",
     "Körösmező",
     "Jasiňa"
@@ -17,7 +17,7 @@
     }
   ],
   "location": {
-    "latitude": 48.2728,
-    "longitude": 24.3747
+    "lat": 48.2728,
+    "lng": 24.3747
   }
 }

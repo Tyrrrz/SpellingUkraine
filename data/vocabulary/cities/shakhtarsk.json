@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Шахтарськ",
-  "translation": "Shakhtarsk",
-  "mistakes": [
+  "sourceSpelling": "Шахтарськ",
+  "correctSpelling": "Shakhtarsk",
+  "incorrectSpellings": [
     "Shakhtyorsk"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Шахтёрск"
   ],
   "links": [
@@ -15,7 +15,7 @@
     }
   ],
   "location": {
-    "latitude": 48.0333,
-    "longitude": 38.4833
+    "lat": 48.0333,
+    "lng": 38.4833
   }
 }

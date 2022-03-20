@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Печеніги",
-  "translation": "Pechenihy",
-  "mistakes": [
+  "sourceSpelling": "Печеніги",
+  "correctSpelling": "Pechenihy",
+  "incorrectSpellings": [
     "Pechenegi"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Печенеги"
   ],
   "links": [
@@ -15,7 +15,7 @@
     }
   ],
   "location": {
-    "latitude": 49.8647,
-    "longitude": 36.9364
+    "lat": 49.8647,
+    "lng": 36.9364
   }
 }

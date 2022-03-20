@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Виноградів",
-  "translation": "Vynohradiv",
-  "mistakes": [
+  "sourceSpelling": "Виноградів",
+  "correctSpelling": "Vynohradiv",
+  "incorrectSpellings": [
     "Vinogradov"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Виноградов",
     "Nagyszőlős",
     "Seleușu Mare",
@@ -18,7 +18,7 @@
     }
   ],
   "location": {
-    "latitude": 48.1397,
-    "longitude": 23.0331
+    "lat": 48.1397,
+    "lng": 23.0331
   }
 }

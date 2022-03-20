@@ -1,13 +1,13 @@
 {
   "category": "City",
-  "term": "Євпаторія",
-  "translation": "Yevpatoriia",
-  "mistakes": [
+  "sourceSpelling": "Євпаторія",
+  "correctSpelling": "Yevpatoriia",
+  "incorrectSpellings": [
     "Yevpatoria",
     "Yevpatoriya",
     "Evpatoria"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Евпатория"
   ],
   "links": [
@@ -17,7 +17,7 @@
     }
   ],
   "location": {
-    "latitude": 45.2,
-    "longitude": 33.3583
+    "lat": 45.2,
+    "lng": 33.3583
   }
 }

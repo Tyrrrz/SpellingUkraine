@@ -1,13 +1,13 @@
 {
   "category": "City",
-  "term": "Запоріжжя",
-  "translation": "Zaporizhzhia",
-  "mistakes": [
+  "sourceSpelling": "Запоріжжя",
+  "correctSpelling": "Zaporizhzhia",
+  "incorrectSpellings": [
     "Zaporizhia",
     "Zaporozhye",
     "Zaporozhie"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Запорожье"
   ],
   "links": [
@@ -17,7 +17,7 @@
     }
   ],
   "location": {
-    "latitude": 47.8378,
-    "longitude": 35.1383
+    "lat": 47.8378,
+    "lng": 35.1383
   }
 }

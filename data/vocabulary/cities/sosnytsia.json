@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Сосниця",
-  "translation": "Sosnytsia",
-  "mistakes": [
+  "sourceSpelling": "Сосниця",
+  "correctSpelling": "Sosnytsia",
+  "incorrectSpellings": [
     "Sosnitsa"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Сосница"
   ],
   "links": [
@@ -15,7 +15,7 @@
     }
   ],
   "location": {
-    "latitude": 51.5222,
-    "longitude": 32.5017
+    "lat": 51.5222,
+    "lng": 32.5017
   }
 }

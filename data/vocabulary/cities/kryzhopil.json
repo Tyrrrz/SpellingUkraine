@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Крижопіль",
-  "translation": "Kryzhopil",
-  "mistakes": [
+  "sourceSpelling": "Крижопіль",
+  "correctSpelling": "Kryzhopil",
+  "incorrectSpellings": [
     "Kryzhopol"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Крыжополь"
   ],
   "links": [
@@ -15,7 +15,7 @@
     }
   ],
   "location": {
-    "latitude": 48.3842,
-    "longitude": 28.8625
+    "lat": 48.3842,
+    "lng": 28.8625
   }
 }

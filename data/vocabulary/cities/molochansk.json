@@ -1,9 +1,9 @@
 {
   "category": "City",
-  "term": "Молочанськ",
-  "translation": "Molochansk",
-  "mistakes": [],
-  "aliases": [
+  "sourceSpelling": "Молочанськ",
+  "correctSpelling": "Molochansk",
+  "incorrectSpellings": [],
+  "relatedSpellings": [
     "Молочанск"
   ],
   "links": [
@@ -13,7 +13,7 @@
     }
   ],
   "location": {
-    "latitude": 47.2038,
-    "longitude": 35.5985
+    "lat": 47.2038,
+    "lng": 35.5985
   }
 }

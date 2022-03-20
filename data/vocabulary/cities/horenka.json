@@ -1,14 +1,14 @@
 {
   "category": "City",
-  "term": "Горенка",
-  "translation": "Horenka",
-  "mistakes": [
+  "sourceSpelling": "Горенка",
+  "correctSpelling": "Horenka",
+  "incorrectSpellings": [
     "Gorenka"
   ],
-  "aliases": [],
+  "relatedSpellings": [],
   "links": [],
   "location": {
-    "latitude": 50.5569,
-    "longitude": 30.3175
+    "lat": 50.5569,
+    "lng": 30.3175
   }
 }

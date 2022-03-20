@@ -1,12 +1,12 @@
 {
   "category": "City",
-  "term": "Любомль",
-  "translation": "Liuboml",
-  "mistakes": [
+  "sourceSpelling": "Любомль",
+  "correctSpelling": "Liuboml",
+  "incorrectSpellings": [
     "Lyuboml",
     "Luboml"
   ],
-  "aliases": [],
+  "relatedSpellings": [],
   "links": [
     {
       "name": "Wikipedia: Liuboml",
@@ -14,7 +14,7 @@
     }
   ],
   "location": {
-    "latitude": 51.2158,
-    "longitude": 24.0408
+    "lat": 51.2158,
+    "lng": 24.0408
   }
 }

@@ -1,12 +1,12 @@
 {
   "category": "City",
-  "term": "Богодухів",
-  "translation": "Bohodukhiv",
-  "mistakes": [
+  "sourceSpelling": "Богодухів",
+  "correctSpelling": "Bohodukhiv",
+  "incorrectSpellings": [
     "Bohoduhov",
     "Bogoduhov"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Богодухов"
   ],
   "links": [
@@ -16,7 +16,7 @@
     }
   ],
   "location": {
-    "latitude": 50.1608,
-    "longitude": 35.5164
+    "lat": 50.1608,
+    "lng": 35.5164
   }
 }

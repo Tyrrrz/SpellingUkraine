@@ -1,13 +1,13 @@
 {
   "category": "City",
-  "term": "Нижньогірський",
-  "translation": "Nyzhnohirskyi",
-  "mistakes": [
+  "sourceSpelling": "Нижньогірський",
+  "correctSpelling": "Nyzhnohirskyi",
+  "incorrectSpellings": [
     "Nyznohirskyi",
     "Nyzhnogirskiy",
     "Nizhnegorskiy"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Нижнегорский",
     "Seyitler"
   ],
@@ -18,7 +18,7 @@
     }
   ],
   "location": {
-    "latitude": 45.4464,
-    "longitude": 34.7344
+    "lat": 45.4464,
+    "lng": 34.7344
   }
 }

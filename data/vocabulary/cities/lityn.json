@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Літин",
-  "translation": "Lityn",
-  "mistakes": [
+  "sourceSpelling": "Літин",
+  "correctSpelling": "Lityn",
+  "incorrectSpellings": [
     "Litin"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Литин",
     "Lityn"
   ],
@@ -16,7 +16,7 @@
     }
   ],
   "location": {
-    "latitude": 49.3255,
-    "longitude": 28.0872
+    "lat": 49.3255,
+    "lng": 28.0872
   }
 }

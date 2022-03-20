@@ -1,9 +1,9 @@
 {
   "category": "City",
-  "term": "Колочава",
-  "translation": "Kolochava",
-  "mistakes": [],
-  "aliases": [],
+  "sourceSpelling": "Колочава",
+  "correctSpelling": "Kolochava",
+  "incorrectSpellings": [],
+  "relatedSpellings": [],
   "links": [
     {
       "name": "Wikipedia: Kolochava",
@@ -11,7 +11,7 @@
     }
   ],
   "location": {
-    "latitude": 48.4266,
-    "longitude": 23.6984
+    "lat": 48.4266,
+    "lng": 23.6984
   }
 }

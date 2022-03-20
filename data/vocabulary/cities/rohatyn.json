@@ -1,12 +1,12 @@
 {
   "category": "City",
-  "term": "Рогатин",
-  "translation": "Rohatyn",
-  "mistakes": [
+  "sourceSpelling": "Рогатин",
+  "correctSpelling": "Rohatyn",
+  "incorrectSpellings": [
     "Rogatyn",
     "Rogatin"
   ],
-  "aliases": [],
+  "relatedSpellings": [],
   "links": [
     {
       "name": "Wikipedia: Rohatyn",
@@ -14,7 +14,7 @@
     }
   ],
   "location": {
-    "latitude": 49.4167,
-    "longitude": 24.6167
+    "lat": 49.4167,
+    "lng": 24.6167
   }
 }

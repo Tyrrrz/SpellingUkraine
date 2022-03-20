@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Великі Лучки",
-  "translation": "Velyki Luchky",
-  "mistakes": [
+  "sourceSpelling": "Великі Лучки",
+  "correctSpelling": "Velyki Luchky",
+  "incorrectSpellings": [
     "Velikie Luchki"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Великие Лучки",
     "Velyki Lučky",
     "Nagylucska",
@@ -18,7 +18,7 @@
     }
   ],
   "location": {
-    "latitude": 48.42,
-    "longitude": 22.5611
+    "lat": 48.42,
+    "lng": 22.5611
   }
 }

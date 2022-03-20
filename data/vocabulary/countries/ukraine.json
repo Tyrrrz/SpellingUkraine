@@ -1,12 +1,12 @@
 {
   "category": "Country",
-  "term": "Україна",
-  "translation": "Ukraine",
-  "mistakes": [
+  "sourceSpelling": "Україна",
+  "correctSpelling": "Ukraine",
+  "incorrectSpellings": [
     "The Ukraine",
     "Ukrajina"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Украина",
     "Ukraina",
     "Ukrajna",

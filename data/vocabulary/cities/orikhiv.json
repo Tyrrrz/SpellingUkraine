@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Оріхів",
-  "translation": "Orikhiv",
-  "mistakes": [
+  "sourceSpelling": "Оріхів",
+  "correctSpelling": "Orikhiv",
+  "incorrectSpellings": [
     "Orekhov"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Орехов"
   ],
   "links": [
@@ -15,7 +15,7 @@
     }
   ],
   "location": {
-    "latitude": 47.5677,
-    "longitude": 35.7849
+    "lat": 47.5677,
+    "lng": 35.7849
   }
 }

@@ -1,12 +1,12 @@
 {
   "category": "City",
-  "term": "Житомир",
-  "translation": "Zhytomyr",
-  "mistakes": [
+  "sourceSpelling": "Житомир",
+  "correctSpelling": "Zhytomyr",
+  "incorrectSpellings": [
     "Zhitomyr",
     "Zhytomir"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Żytomierz"
   ],
   "links": [
@@ -16,7 +16,7 @@
     }
   ],
   "location": {
-    "latitude": 50.2544,
-    "longitude": 28.6578
+    "lat": 50.2544,
+    "lng": 28.6578
   }
 }

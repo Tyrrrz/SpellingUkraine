@@ -1,12 +1,12 @@
 {
   "category": "City",
-  "term": "Судова Вишня",
-  "translation": "Sudova Vyshnia",
-  "mistakes": [
+  "sourceSpelling": "Судова Вишня",
+  "correctSpelling": "Sudova Vyshnia",
+  "incorrectSpellings": [
     "Sudova Vyshnya",
     "Sudovaya Vishnya"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Судовая Вишня",
     "Sądowa Wisznia"
   ],
@@ -17,7 +17,7 @@
     }
   ],
   "location": {
-    "latitude": 49.7892,
-    "longitude": 23.3722
+    "lat": 49.7892,
+    "lng": 23.3722
   }
 }

@@ -1,9 +1,9 @@
 {
   "category": "City",
-  "term": "Лубни",
-  "translation": "Lubny",
-  "mistakes": [],
-  "aliases": [
+  "sourceSpelling": "Лубни",
+  "correctSpelling": "Lubny",
+  "incorrectSpellings": [],
+  "relatedSpellings": [
     "Лубны"
   ],
   "links": [
@@ -13,7 +13,7 @@
     }
   ],
   "location": {
-    "latitude": 50.0186,
-    "longitude": 32.9869
+    "lat": 50.0186,
+    "lng": 32.9869
   }
 }

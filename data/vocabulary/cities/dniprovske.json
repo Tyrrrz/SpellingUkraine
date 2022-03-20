@@ -1,12 +1,12 @@
 {
   "category": "City",
-  "term": "Дніпровське",
-  "translation": "Dniprovske",
-  "mistakes": [
+  "sourceSpelling": "Дніпровське",
+  "correctSpelling": "Dniprovske",
+  "incorrectSpellings": [
     "Dnieprovskoe",
     "Dneprovskoye"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Днепровское"
   ],
   "links": [
@@ -16,7 +16,7 @@
     }
   ],
   "location": {
-    "latitude": 48.5953,
-    "longitude": 34.4207
+    "lat": 48.5953,
+    "lng": 34.4207
   }
 }

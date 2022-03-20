@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Масандра",
-  "translation": "Masandra",
-  "mistakes": [
+  "sourceSpelling": "Масандра",
+  "correctSpelling": "Masandra",
+  "incorrectSpellings": [
     "Massandra"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Массандра"
   ],
   "links": [
@@ -15,7 +15,7 @@
     }
   ],
   "location": {
-    "latitude": 44.5167,
-    "longitude": 34.1833
+    "lat": 44.5167,
+    "lng": 34.1833
   }
 }

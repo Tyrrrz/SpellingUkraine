@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Тальне",
-  "translation": "Talne",
-  "mistakes": [
+  "sourceSpelling": "Тальне",
+  "correctSpelling": "Talne",
+  "incorrectSpellings": [
     "Talnoye"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Тальное"
   ],
   "links": [
@@ -15,7 +15,7 @@
     }
   ],
   "location": {
-    "latitude": 48.8863,
-    "longitude": 30.7027
+    "lat": 48.8863,
+    "lng": 30.7027
   }
 }

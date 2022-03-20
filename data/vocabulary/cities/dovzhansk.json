@@ -1,9 +1,9 @@
 {
   "category": "City",
-  "term": "Довжанськ",
-  "translation": "Dovzhansk",
-  "mistakes": [],
-  "aliases": [
+  "sourceSpelling": "Довжанськ",
+  "correctSpelling": "Dovzhansk",
+  "incorrectSpellings": [],
+  "relatedSpellings": [
     "Свердловськ",
     "Свердловск",
     "Sverdlovsk"
@@ -16,7 +16,7 @@
     }
   ],
   "location": {
-    "latitude": 48.0846,
-    "longitude": 39.6516
+    "lat": 48.0846,
+    "lng": 39.6516
   }
 }

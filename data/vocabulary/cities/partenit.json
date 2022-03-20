@@ -1,9 +1,9 @@
 {
   "category": "City",
-  "term": "Партенiт",
-  "translation": "Partenit",
-  "mistakes": [],
-  "aliases": [
+  "sourceSpelling": "Партенiт",
+  "correctSpelling": "Partenit",
+  "incorrectSpellings": [],
+  "relatedSpellings": [
     "Партенит",
     "Παρθένιον"
   ],
@@ -14,7 +14,7 @@
     }
   ],
   "location": {
-    "latitude": 44.5764,
-    "longitude": 34.3397
+    "lat": 44.5764,
+    "lng": 34.3397
   }
 }

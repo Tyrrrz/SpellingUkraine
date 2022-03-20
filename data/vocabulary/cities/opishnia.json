@@ -1,13 +1,13 @@
 {
   "category": "City",
-  "term": "Опішня",
-  "translation": "Opishnia",
-  "mistakes": [
+  "sourceSpelling": "Опішня",
+  "correctSpelling": "Opishnia",
+  "incorrectSpellings": [
     "Opishnya",
     "Oposhnia",
     "Oposhnya"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Опошня"
   ],
   "links": [
@@ -17,7 +17,7 @@
     }
   ],
   "location": {
-    "latitude": 49.9564,
-    "longitude": 34.612
+    "lat": 49.9564,
+    "lng": 34.612
   }
 }

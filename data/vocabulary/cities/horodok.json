@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Городок",
-  "translation": "Horodok",
-  "mistakes": [
+  "sourceSpelling": "Городок",
+  "correctSpelling": "Horodok",
+  "incorrectSpellings": [
     "Gorodok"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Городок"
   ],
   "links": [
@@ -15,7 +15,7 @@
     }
   ],
   "location": {
-    "latitude": 49.1667,
-    "longitude": 26.5667
+    "lat": 49.1667,
+    "lng": 26.5667
   }
 }

@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Білогірськ",
-  "translation": "Bilohirsk",
-  "mistakes": [
+  "sourceSpelling": "Білогірськ",
+  "correctSpelling": "Bilohirsk",
+  "incorrectSpellings": [
     "Belogorsk"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Белогорск",
     "Karasubazar"
   ],
@@ -16,7 +16,7 @@
     }
   ],
   "location": {
-    "latitude": 45.0544,
-    "longitude": 34.6022
+    "lat": 45.0544,
+    "lng": 34.6022
   }
 }

@@ -1,13 +1,13 @@
 {
   "category": "City",
-  "term": "Іловайськ",
-  "translation": "Ilovaisk",
-  "mistakes": [
+  "sourceSpelling": "Іловайськ",
+  "correctSpelling": "Ilovaisk",
+  "incorrectSpellings": [
     "Ilovaysk",
     "Illovaisk",
     "Illovaysk"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Иловайск"
   ],
   "links": [
@@ -17,7 +17,7 @@
     }
   ],
   "location": {
-    "latitude": 47.9275,
-    "longitude": 38.2034
+    "lat": 47.9275,
+    "lng": 38.2034
   }
 }

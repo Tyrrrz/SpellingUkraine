@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Камінь-Каширський",
-  "translation": "Kamin-Kashyrskyi",
-  "mistakes": [
+  "sourceSpelling": "Камінь-Каширський",
+  "correctSpelling": "Kamin-Kashyrskyi",
+  "incorrectSpellings": [
     "Kamen-Kashyrskyi"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Камень-Каширский",
     "Kamień Koszyrski"
   ],
@@ -16,7 +16,7 @@
     }
   ],
   "location": {
-    "latitude": 51.6242,
-    "longitude": 24.9606
+    "lat": 51.6242,
+    "lng": 24.9606
   }
 }

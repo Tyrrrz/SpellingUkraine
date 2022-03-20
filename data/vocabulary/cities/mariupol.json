@@ -1,9 +1,9 @@
 {
   "category": "City",
-  "term": "Маріуполь",
-  "translation": "Mariupol",
-  "mistakes": [],
-  "aliases": [
+  "sourceSpelling": "Маріуполь",
+  "correctSpelling": "Mariupol",
+  "incorrectSpellings": [],
+  "relatedSpellings": [
     "Жданов",
     "Zhdanov",
     "Мариуполь",
@@ -17,7 +17,7 @@
     }
   ],
   "location": {
-    "latitude": 47.1306,
-    "longitude": 37.5639
+    "lat": 47.1306,
+    "lng": 37.5639
   }
 }

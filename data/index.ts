@@ -7,10 +7,11 @@ export interface VocabularyEntry {
   path: string;
 
   category: string;
-  term: string;
-  translation: string;
-  mistakes: string[];
-  aliases: string[];
+
+  sourceSpelling: string;
+  correctSpelling: string;
+  incorrectSpellings: string[];
+  relatedSpellings: string[];
 
   description?: string;
 
@@ -20,8 +21,8 @@ export interface VocabularyEntry {
   }[];
 
   location?: {
-    latitude: number;
-    longitude: number;
+    lat: number;
+    lng: number;
   };
 
   image?: {
@@ -47,8 +48,8 @@ export const loadVocabulary = () => {
         <VocabularyEntry>{
           id: path.parse(filePath).name,
           path: path.relative(dirPath, filePath),
-          mistakes: [],
-          aliases: [],
+          incorrectSpellings: [],
+          relatedSpellings: [],
           links: [],
           ...JSON.parse(fs.readFileSync(filePath, 'utf8'))
         }

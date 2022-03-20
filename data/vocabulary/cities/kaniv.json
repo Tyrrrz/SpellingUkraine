@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Канів",
-  "translation": "Kaniv",
-  "mistakes": [
+  "sourceSpelling": "Канів",
+  "correctSpelling": "Kaniv",
+  "incorrectSpellings": [
     "Kanev"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Канев",
     "Kaniów"
   ],
@@ -16,7 +16,7 @@
     }
   ],
   "location": {
-    "latitude": 49.7447,
-    "longitude": 31.4558
+    "lat": 49.7447,
+    "lng": 31.4558
   }
 }

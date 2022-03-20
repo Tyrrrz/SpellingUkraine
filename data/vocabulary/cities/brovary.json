@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Броварський",
-  "translation": "Brovary",
-  "mistakes": [
+  "sourceSpelling": "Броварський",
+  "correctSpelling": "Brovary",
+  "incorrectSpellings": [
     "Brovari"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Бровары",
     "Browary"
   ],
@@ -16,7 +16,7 @@
     }
   ],
   "location": {
-    "latitude": 50.5114,
-    "longitude": 30.7903
+    "lat": 50.5114,
+    "lng": 30.7903
   }
 }

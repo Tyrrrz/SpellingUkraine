@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Алушта",
-  "translation": "Alushta",
-  "mistakes": [
+  "sourceSpelling": "Алушта",
+  "correctSpelling": "Alushta",
+  "incorrectSpellings": [
     "Alusta"
   ],
-  "aliases": [],
+  "relatedSpellings": [],
   "links": [
     {
       "name": "Wikipedia: Alushta",
@@ -13,7 +13,7 @@
     }
   ],
   "location": {
-    "latitude": 44.6672,
-    "longitude": 34.3978
+    "lat": 44.6672,
+    "lng": 34.3978
   }
 }

@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Чортків",
-  "translation": "Chortkiv",
-  "mistakes": [
+  "sourceSpelling": "Чортків",
+  "correctSpelling": "Chortkiv",
+  "incorrectSpellings": [
     "Chortkov"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Чортков",
     "Czortków"
   ],
@@ -16,7 +16,7 @@
     }
   ],
   "location": {
-    "latitude": 49.0167,
-    "longitude": 25.8
+    "lat": 49.0167,
+    "lng": 25.8
   }
 }

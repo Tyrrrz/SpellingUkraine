@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Вахрушеве",
-  "translation": "Vakhrusheve",
-  "mistakes": [
+  "sourceSpelling": "Вахрушеве",
+  "correctSpelling": "Vakhrusheve",
+  "incorrectSpellings": [
     "Vakhrushevo"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Вахрушево"
   ],
   "links": [
@@ -15,7 +15,7 @@
     }
   ],
   "location": {
-    "latitude": 48.1606,
-    "longitude": 38.8389
+    "lat": 48.1606,
+    "lng": 38.8389
   }
 }

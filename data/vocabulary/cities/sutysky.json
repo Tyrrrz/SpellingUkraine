@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Сутиски",
-  "translation": "Sutysky",
-  "mistakes": [
+  "sourceSpelling": "Сутиски",
+  "correctSpelling": "Sutysky",
+  "incorrectSpellings": [
     "Sutiski"
   ],
-  "aliases": [],
+  "relatedSpellings": [],
   "links": [
     {
       "name": "Wikipedia: Sutysky",
@@ -13,7 +13,7 @@
     }
   ],
   "location": {
-    "latitude": 49.0422,
-    "longitude": 28.4208
+    "lat": 49.0422,
+    "lng": 28.4208
   }
 }

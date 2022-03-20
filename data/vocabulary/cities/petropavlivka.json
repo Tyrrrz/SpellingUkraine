@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Петропавлiвка",
-  "translation": "Petropavlivka",
-  "mistakes": [
+  "sourceSpelling": "Петропавлiвка",
+  "correctSpelling": "Petropavlivka",
+  "incorrectSpellings": [
     "Petropavlovka"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Петропавловка"
   ],
   "links": [
@@ -15,7 +15,7 @@
     }
   ],
   "location": {
-    "latitude": 48.4549,
-    "longitude": 36.4394
+    "lat": 48.4549,
+    "lng": 36.4394
   }
 }

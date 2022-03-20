@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Широке",
-  "translation": "Shyroke",
-  "mistakes": [
+  "sourceSpelling": "Широке",
+  "correctSpelling": "Shyroke",
+  "incorrectSpellings": [
     "Shirokoe"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Широкое"
   ],
   "links": [
@@ -15,7 +15,7 @@
     }
   ],
   "location": {
-    "latitude": 47.6882,
-    "longitude": 33.2654
+    "lat": 47.6882,
+    "lng": 33.2654
   }
 }

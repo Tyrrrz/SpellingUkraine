@@ -1,13 +1,13 @@
 {
   "category": "City",
-  "term": "Дніпрорудне",
-  "translation": "Dniprorudne",
-  "mistakes": [
+  "sourceSpelling": "Дніпрорудне",
+  "correctSpelling": "Dniprorudne",
+  "incorrectSpellings": [
     "Dnieprorudne",
     "Dneprorudnoye",
     "Dnieprorudnoye"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Днепрорудное"
   ],
   "links": [
@@ -17,7 +17,7 @@
     }
   ],
   "location": {
-    "latitude": 47.3855,
-    "longitude": 34.9879
+    "lat": 47.3855,
+    "lng": 34.9879
   }
 }

@@ -1,9 +1,9 @@
 {
   "category": "City",
-  "term": "Буськ",
-  "translation": "Busk",
-  "mistakes": [],
-  "aliases": [
+  "sourceSpelling": "Буськ",
+  "correctSpelling": "Busk",
+  "incorrectSpellings": [],
+  "relatedSpellings": [
     "Буск"
   ],
   "links": [
@@ -13,7 +13,7 @@
     }
   ],
   "location": {
-    "latitude": 49.9667,
-    "longitude": 24.6167
+    "lat": 49.9667,
+    "lng": 24.6167
   }
 }

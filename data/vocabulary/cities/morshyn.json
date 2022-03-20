@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Моршин",
-  "translation": "Morshyn",
-  "mistakes": [
+  "sourceSpelling": "Моршин",
+  "correctSpelling": "Morshyn",
+  "incorrectSpellings": [
     "Morshin"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Morszyn-Zdrój"
   ],
   "links": [
@@ -15,7 +15,7 @@
     }
   ],
   "location": {
-    "latitude": 49.155,
-    "longitude": 23.8725
+    "lat": 49.155,
+    "lng": 23.8725
   }
 }

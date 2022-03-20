@@ -1,11 +1,11 @@
 {
   "category": "City",
-  "term": "Нова Борова",
-  "translation": "Nova Borova",
-  "mistakes": [
+  "sourceSpelling": "Нова Борова",
+  "correctSpelling": "Nova Borova",
+  "incorrectSpellings": [
     "Novaya Borovaya"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Новая Боровая"
   ],
   "links": [
@@ -15,7 +15,7 @@
     }
   ],
   "location": {
-    "latitude": 50.6922,
-    "longitude": 28.6367
+    "lat": 50.6922,
+    "lng": 28.6367
   }
 }

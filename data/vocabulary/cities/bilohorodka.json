@@ -1,12 +1,12 @@
 {
   "category": "City",
-  "term": "Білогородка",
-  "translation": "Bilohorodka",
-  "mistakes": [
+  "sourceSpelling": "Білогородка",
+  "correctSpelling": "Bilohorodka",
+  "incorrectSpellings": [
     "Bilogorodka",
     "Belogorodka"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Белогородка"
   ],
   "links": [
@@ -16,7 +16,7 @@
     }
   ],
   "location": {
-    "latitude": 50.4,
-    "longitude": 30.2167
+    "lat": 50.4,
+    "lng": 30.2167
   }
 }

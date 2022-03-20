@@ -1,9 +1,9 @@
 {
   "category": "City",
-  "term": "Новомосковськ",
-  "translation": "Novomoskovsk",
-  "mistakes": [],
-  "aliases": [
+  "sourceSpelling": "Новомосковськ",
+  "correctSpelling": "Novomoskovsk",
+  "incorrectSpellings": [],
+  "relatedSpellings": [
     "Новомосковск"
   ],
   "links": [
@@ -13,7 +13,7 @@
     }
   ],
   "location": {
-    "latitude": 48.6328,
-    "longitude": 35.2239
+    "lat": 48.6328,
+    "lng": 35.2239
   }
 }

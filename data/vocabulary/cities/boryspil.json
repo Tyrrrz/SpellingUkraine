@@ -1,12 +1,12 @@
 {
   "category": "City",
-  "term": "Бориспіль",
-  "translation": "Boryspil",
-  "mistakes": [
+  "sourceSpelling": "Бориспіль",
+  "correctSpelling": "Boryspil",
+  "incorrectSpellings": [
     "Borispil",
     "Borispol"
   ],
-  "aliases": [
+  "relatedSpellings": [
     "Борисполь",
     "Bortespil"
   ],
@@ -17,7 +17,7 @@
     }
   ],
   "location": {
-    "latitude": 50.35,
-    "longitude": 30.95
+    "lat": 50.35,
+    "lng": 30.95
   }
 }
