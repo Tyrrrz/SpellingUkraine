@@ -28,42 +28,36 @@ const resolveMatch = (entry: VocabularyEntry, text: string) => {
 };
 
 const formatMatchReply = ({ entry, mistake }: { entry: VocabularyEntry; mistake: string }) => {
+  const learnMoreUrl = `https://spellingukraine.com/i/${entry.id}/?utm_source=twitter&utm_medium=social&utm_campaign=twitter-bot`;
+
   // Include a variety of reply templates to avoid looking like spam
   const replies = [
     [
       `💡 It's "${entry.translation}" and not "${mistake}". `,
-      `Support Ukraine by using the correct spelling 🇺🇦`,
+      `Please support Ukraine by using the correct spelling 🇺🇦`,
       '\n\n',
-      `Learn more here: https://spellingukraine.com/i/${entry.id}`
+      `Learn more here: ${learnMoreUrl}`
     ].join(''),
 
     [
       `👋 Hey there! The correct spelling is "${entry.translation}" instead of "${mistake}". `,
-      `Language is political, transliterate correctly 🇺🇦`,
+      `Language is political, please transliterate correctly 🇺🇦`,
       '\n\n',
-      `Read more here: https://spellingukraine.com/i/${entry.id}`
+      `Read more here: ${learnMoreUrl}`
     ].join(''),
 
     [
-      `💡 Consider using "${entry.translation}" instead of the outdated "${mistake}". `,
-      `Spelling matters 🇺🇦`,
+      `💡 Consider using "${entry.translation}" instead of "${mistake}". `,
+      `Spelling matters — support Ukraine 🇺🇦`,
       '\n\n',
-      `More about this here: https://spellingukraine.com/i/${entry.id}`
+      `More about this here: ${learnMoreUrl}`
     ].join(''),
 
     [
-      `👀 I noticed you wrote "${mistake}". `,
-      `This is an outdated spelling and the preferred one is "${entry.translation}". `,
-      'Support Ukrainian language by using the correct transliteration 🇺🇦',
-      '\n\n',
-      `More info: https://spellingukraine.com/i/${entry.id}`
-    ].join(''),
-
-    [
-      `👆 It's "${entry.translation}", not "${mistake}". `,
+      `👀 It's "${entry.translation}", not "${mistake}". `,
       `Using correct, Ukrainian-based spelling is another way that you can #StandWithUkraine 🇺🇦`,
       '\n\n',
-      `Read more: https://spellingukraine.com/i/${entry.id}`
+      `Read more: ${learnMoreUrl}`
     ].join('')
   ];
 
