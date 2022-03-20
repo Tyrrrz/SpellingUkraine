@@ -12,14 +12,14 @@
 
 🌐 [`https://spellingukraine.com`](https://spellingukraine.com)
 
-## Building locally
+## Local environment
 
 Prerequisites:
 
 - NodeJS
 - Yarn
 
-Before doing anything, install dependencies by running:
+Before doing anything, install project dependencies by running:
 
 ```
 yarn install
@@ -29,6 +29,12 @@ To start the web app, run:
 
 ```
 yarn start:web
+```
+
+To start the Twitter bot, run:
+
+```
+yarn start:bot-twitter
 ```
 
 ## Contributing to the vocabulary

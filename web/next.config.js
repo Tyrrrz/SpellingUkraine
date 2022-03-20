@@ -44,5 +44,6 @@ module.exports = withPlugins(
       }
     }
   ],
+
   nextConfig
 );
