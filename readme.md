@@ -6,13 +6,15 @@
 
 ✅ **Project status: active**<sup>[[?]](https://github.com/Tyrrrz/.github/blob/master/docs/project-status.md)</sup>
 
-**SpellingUkraine** is a website where you can quickly look up the correct English spelling of Ukrainian cities, names, and other words.
+**SpellingUkraine** is a project that aims to promote the correct spelling of Ukrainian place names, personal names, and other words in English.
+It's comprised of a website where you can quickly look up how to write individual names, as well as a Twitter bot that detects typical mistakes online and corrects them automatically.
 
-## Open
+## Production
 
-🌐 [`https://spellingukraine.com`](https://spellingukraine.com)
+- 🌐 Web app: [`https://spellingukraine.com`](https://spellingukraine.com) (hosted on [Vercel](https://vercel.com/tyrrrz/spellingukraine))
+- 🤖 Twitter bot: [`@SpellingUkraine`](https://twitter.com/SpellingUkraine) (hosted on [Heroku](https://dashboard.heroku.com/apps/spellingukraine))
 
-## Local environment
+## Development
 
 Prerequisites:
 

@@ -9,7 +9,12 @@ const vocabulary = loadVocabulary().filter((entry) =>
   )
 );
 
-const checkSpelling = (text: string) => {
+interface Mistake {
+  entry: VocabularyEntry;
+  match: string;
+}
+
+const findMistake = (text: string) => {
   for (const entry of vocabulary) {
     for (const incorrectSpelling of entry.incorrectSpellings) {
       // Don't trigger if the text contains both the correct and the incorrect spelling.
@@ -20,7 +25,7 @@ const checkSpelling = (text: string) => {
       ) {
         return {
           entry,
-          incorrectSpelling
+          match: incorrectSpelling
         };
       }
     }
@@ -29,34 +34,34 @@ const checkSpelling = (text: string) => {
   return null;
 };
 
-const formatReply = (entry: VocabularyEntry, incorrectSpelling: string) => {
-  const learnMoreUrl = `https://spellingukraine.com/i/${entry.id}/?utm_source=twitter&utm_medium=social&utm_campaign=twitter-bot`;
+const formatMistake = (mistake: Mistake) => {
+  const learnMoreUrl = `https://spellingukraine.com/i/${mistake.entry.id}/?utm_source=twitter&utm_medium=social&utm_campaign=twitter-bot`;
 
   // Include a variety of reply templates to avoid looking like spam
   const replies = [
     [
-      `💡 It's "${entry.correctSpelling}" and not "${incorrectSpelling}". `,
+      `💡 It's "${mistake.entry.correctSpelling}" and not "${mistake.match}". `,
       `Please support Ukraine by using the correct spelling 🇺🇦`,
       '\n\n',
       `Learn more here: ${learnMoreUrl}`
     ].join(''),
 
     [
-      `👋 Hey there! The correct spelling is "${entry.correctSpelling}" instead of "${incorrectSpelling}". `,
+      `👋 Hey there! The correct spelling is "${mistake.entry.correctSpelling}" instead of "${mistake.match}". `,
       `Language is political, please transliterate correctly 🇺🇦`,
       '\n\n',
       `Read more here: ${learnMoreUrl}`
     ].join(''),
 
     [
-      `💡 Consider using "${entry.correctSpelling}" instead of "${incorrectSpelling}". `,
+      `💡 Consider using "${mistake.entry.correctSpelling}" instead of "${mistake.match}". `,
       `Spelling matters — support Ukraine 🇺🇦`,
       '\n\n',
       `More about this here: ${learnMoreUrl}`
     ].join(''),
 
     [
-      `👀 It's "${entry.correctSpelling}", not "${incorrectSpelling}". `,
+      `👀 It's "${mistake.entry.correctSpelling}", not "${mistake.match}". `,
       `Using correct, Ukrainian-based spelling is another way that you can #StandWithUkraine 🇺🇦`,
       '\n\n',
       `Read more: ${learnMoreUrl}`
@@ -68,6 +73,13 @@ const formatReply = (entry: VocabularyEntry, incorrectSpelling: string) => {
 
 const main = async () => {
   console.log('Twitter bot is starting...');
+  console.log(
+    'Loaded vocabulary',
+    vocabulary.map((entry) => ({
+      correct: entry.correctSpelling,
+      incorrect: entry.incorrectSpellings
+    }))
+  );
 
   const tweetFilter = [
     'lang:en',
@@ -83,24 +95,20 @@ const main = async () => {
 
   for await (const tweet of await twitter.stream(tweetFilter)) {
     console.log('~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~');
-
     console.log('Tweet', {
       url: `https://twitter.com/i/web/status/${tweet.data.id}`,
       ...tweet.data
     });
 
-    const check = checkSpelling(tweet.data.text);
+    const mistake = findMistake(tweet.data.text);
 
-    if (check) {
-      console.log('Matched', {
-        incorrect: check.incorrectSpelling,
-        correct: check.entry.correctSpelling
+    if (mistake) {
+      console.log('Mistake', {
+        correct: mistake.entry.correctSpelling,
+        incorrect: mistake.match
       });
 
-      const reply = await twitter.reply(
-        tweet.data.id,
-        formatReply(check.entry, check.incorrectSpelling)
-      );
+      const reply = await twitter.reply(tweet.data.id, formatMistake(mistake));
 
       if (reply) {
         console.log('Reply', reply.data);
@@ -110,8 +118,6 @@ const main = async () => {
     } else {
       console.log('No match found');
     }
-
-    console.log('~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~');
   }
 };
 

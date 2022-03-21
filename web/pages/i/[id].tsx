@@ -25,6 +25,15 @@ const EntryPage: NextPage<StaticProps> = ({ entry }) => {
       <Meta
         title={entry.correctSpelling}
         description={`"${entry.correctSpelling}" is the correct way to spell "${entry.sourceSpelling}" in English. Support Ukraine, transliterate correctly!`}
+        keywords={[
+          entry.correctSpelling,
+          entry.sourceSpelling,
+          ...entry.incorrectSpellings,
+          ...entry.relatedSpellings,
+          'spelling',
+          'ukraine',
+          'english'
+        ]}
         imageUrl={entry.image?.url}
       />
 

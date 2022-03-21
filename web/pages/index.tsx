@@ -111,12 +111,12 @@ const HomePage: NextPage<StaticProps> = ({ vocabulary }) => {
                     {result.entry.sourceSpelling} • {result.entry.category}
                   </Box>
 
-                  {result.matchedValue !== result.entry.correctSpelling &&
-                    result.matchedValue !== result.entry.sourceSpelling && (
+                  {result.match !== result.entry.correctSpelling &&
+                    result.match !== result.entry.sourceSpelling && (
                       <Box classes={['mt-1', 'text-sm', 'font-light']}>
                         <HStack>
                           <FiTarget strokeWidth={1} />
-                          <Box>Matched on {result.matchedValue}</Box>
+                          <Box>Matched on {result.match}</Box>
                         </HStack>
                       </Box>
                     )}

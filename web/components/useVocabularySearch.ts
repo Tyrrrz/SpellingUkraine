@@ -5,7 +5,7 @@ import useDebouncedValue from './useDebouncedValue';
 
 export interface SearchResult {
   entry: VocabularyEntry;
-  matchedValue: string;
+  match: string;
   relevance: number;
 }
 
@@ -27,7 +27,7 @@ const resolveResult = (entry: VocabularyEntry, query: string) => {
 
     return {
       entry,
-      matchedValue: value,
+      match: value,
       relevance
     };
   };
