@@ -4,9 +4,16 @@ import twitter from './twitter';
 // Only include a subset of the vocabulary to reduce tweet volume.
 // Also don't include 'ukraine' because 'the ukraine' triggers many false positives.
 const vocabulary = loadVocabulary().filter((entry) =>
-  ['kyiv', 'lviv', 'odesa', 'mykolaiv', 'chornobyl', 'slava_ukraini', 'heroiam_slava'].includes(
-    entry.id
-  )
+  [
+    'kyiv',
+    'lviv',
+    'kharkiv',
+    'odesa',
+    'mykolaiv',
+    'chornobyl',
+    'slava_ukraini',
+    'heroiam_slava'
+  ].includes(entry.id)
 );
 
 interface Mistake {
