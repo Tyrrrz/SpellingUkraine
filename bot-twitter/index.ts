@@ -100,7 +100,7 @@ const main = async () => {
       ...tweet.data
     });
 
-    const mistake = findMistake(tweet.data.text);
+    const mistake = findMistake(tweet.data.text.replace(/@.+?(?=\s|$)/g, ''));
 
     if (mistake) {
       console.log('Mistake', {
