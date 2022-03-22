@@ -2,13 +2,22 @@ import classNames from 'classnames';
 import type { GetStaticProps, NextPage } from 'next';
 import { useRouter } from 'next/router';
 import React from 'react';
-import { FiCornerDownLeft, FiFrown, FiHeart, FiLoader, FiSearch, FiTarget } from 'react-icons/fi';
+import {
+  FiCornerDownLeft,
+  FiFrown,
+  FiHeart,
+  FiLoader,
+  FiSearch,
+  FiTarget,
+  FiX
+} from 'react-icons/fi';
 import { loadVocabulary, VocabularyEntry } from 'spelling-ukraine-data';
 import Box from '../components/box';
 import HStack from '../components/hstack';
 import Link from '../components/link';
 import useSessionState from '../components/useSessionState';
 import useVocabularySearch from '../components/useVocabularySearch';
+import { getRandomItem } from '../utils/array';
 
 interface StaticProps {
   vocabulary: VocabularyEntry[];
@@ -16,6 +25,16 @@ interface StaticProps {
 
 const HomePage: NextPage<StaticProps> = ({ vocabulary }) => {
   const router = useRouter();
+
+  const suggestedQuery = React.useMemo(
+    () =>
+      getRandomItem(
+        vocabulary
+          .filter((entry) => entry.incorrectSpellings.length >= 3)
+          .map((entry) => entry.correctSpelling)
+      ),
+    [vocabulary]
+  );
 
   const [query, setQuery] = useSessionState('searchQuery', '');
   const search = useVocabularySearch(vocabulary, query);
@@ -33,6 +52,19 @@ const HomePage: NextPage<StaticProps> = ({ vocabulary }) => {
       >
         <Box
           classes={[
+            'm-1',
+            'text-center',
+            'lg:text-right',
+            'text-sm',
+            'text-light',
+            'text-neutral-600'
+          ]}
+        >
+          Need to transliterate arbitrary text? <Link href="/translit">Click here</Link>
+        </Box>
+
+        <Box
+          classes={[
             'flex',
             'border-2',
             'border-neutral-400',
@@ -44,7 +76,20 @@ const HomePage: NextPage<StaticProps> = ({ vocabulary }) => {
           ]}
         >
           <Box classes={['mx-4']}>
-            {search.processing ? <FiLoader className={classNames('animate-spin')} /> : <FiSearch />}
+            {search.processing ? (
+              <FiLoader className={classNames('animate-spin')} />
+            ) : query ? (
+              <button
+                type="button"
+                className={classNames('flex')}
+                onClick={() => setQuery('')}
+                title="Reset search (press Escape)"
+              >
+                <FiX />
+              </button>
+            ) : (
+              <FiSearch />
+            )}
           </Box>
 
           <input
@@ -58,6 +103,11 @@ const HomePage: NextPage<StaticProps> = ({ vocabulary }) => {
             placeholder="Start typing to search"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
+            onKeyDown={(e) => {
+              if (e.key === 'Escape') {
+                setQuery('');
+              }
+            }}
             autoFocus
           />
 
@@ -65,26 +115,13 @@ const HomePage: NextPage<StaticProps> = ({ vocabulary }) => {
             <button
               type="submit"
               className={classNames('flex', 'px-4')}
-              title="Go to the first result"
+              title="Go to the first result (press Enter)"
             >
               <FiCornerDownLeft />
             </button>
           )}
         </Box>
       </form>
-
-      <Box
-        classes={[
-          'm-1',
-          'text-center',
-          'lg:text-right',
-          'text-sm',
-          'text-light',
-          'text-neutral-600'
-        ]}
-      >
-        Need to transliterate arbitrary text? <Link href="/translit">Click here</Link>
-      </Box>
 
       <Box classes={['mt-8']}>
         {search.results.length > 0 && (
@@ -127,40 +164,59 @@ const HomePage: NextPage<StaticProps> = ({ vocabulary }) => {
         )}
 
         {!query && !search.processing && (
-          <Box classes={['mx-2', 'space-y-2', 'text-lg']}>
-            <Box type="p" classes={['text-xl', 'font-semibold']}>
-              Why does it matter?
-            </Box>
-            <Box type="p">
-              Ukrainian language has a long and troubled history. Before it became independent,
-              Ukraine had spent many decades occupied by the Russian-speaking Soviet Union and,
-              prior to that, the Russian Empire. During this period, the Ukrainian language faced
-              suppression and its speakers were victims of persecution and ridicule. The vast
-              majority of educational facilities and businesses at the time mandated the use of
-              Russian, which left no opportunities for other languages.
-            </Box>
-            <Box type="p">
-              As a result of this, Ukrainian place names, personal names, as well as many other
-              words, have made it into English based on their transliteration from the Russian
-              language instead of Ukrainian. Considering Ukraine&apos;s desire to establish its own
-              identity, especially in the light of military aggression waged against it by Russia,
-              the choice of spelling has become more than just a preference, but a{' '}
-              <Box type="span" classes={['font-semibold']}>
-                political stance
+          <Box classes={['mx-2', 'space-y-4', 'text-lg']}>
+            <Box classes={['space-y-2']}>
+              <Box type="p" classes={['text-xl', 'font-semibold']}>
+                What does this do?
               </Box>
-              .
+              <Box type="p">
+                Use this app to quickly look up the correct way to write any Ukrainian place name,
+                personal name, or other word in English. You can search by typing in Ukrainian,
+                English, or other relevant language — many entries will also match on outdated or
+                incorrect spellings too. Currently, this vocabulary contains {vocabulary.length}{' '}
+                items, all carefully reviewed by humans. Not sure what to search for? Try{' '}
+                <button onClick={() => setQuery(suggestedQuery)}>
+                  <Box classes={['font-semibold']}>{suggestedQuery}</Box>
+                </button>
+                .
+              </Box>
             </Box>
-            <Box type="p">
-              While Russia continuously attempts to undermine and, ultimately, erase Ukrainian
-              culture, taking a moment of your time to ensure the correct spelling is another way
-              that you can{' '}
-              <Box type="span" classes={['font-semibold']}>
-                #StandWithUkraine
-              </Box>{' '}
-              in its fight for freedom.{' '}
-              <Box type="span" classes={['inline-flex']}>
-                <FiHeart strokeWidth={1} fill="#3b82f6" />
-                <FiHeart strokeWidth={1} fill="#facc15" />
+
+            <Box classes={['space-y-2']}>
+              <Box type="p" classes={['text-xl', 'font-semibold']}>
+                Why does the spelling matter?
+              </Box>
+              <Box type="p">
+                Ukrainian language has a long and troubled history. Before it became independent,
+                Ukraine had spent many decades occupied by the Russian-speaking Soviet Union and,
+                prior to that, the Russian Empire. During this period, Ukrainian language faced
+                suppression and its speakers were victims of persecution and ridicule. The vast
+                majority of institutions at the time mandated the use of Russian, which severely
+                limited opportunities for other languages to thrive.
+              </Box>
+              <Box type="p">
+                Because of this, nearly all Ukrainian names have initially made it into English
+                based on their transliteration from the Russian language, instead of Ukrainian.
+                Nowadays, as Ukraine strives to assert its own identity, especially in the light of
+                military aggression forced upon it by Russia, the choice of spelling has become more
+                than just a preference, but a{' '}
+                <Box type="span" classes={['font-semibold']}>
+                  political stance
+                </Box>
+                .
+              </Box>
+              <Box type="p">
+                While Russia continuously attempts to undermine and, ultimately, erase Ukrainian
+                culture, taking a moment of your time to ensure the correct spelling is another way
+                that you can{' '}
+                <Box type="span" classes={['font-semibold']}>
+                  #StandWithUkraine
+                </Box>{' '}
+                in its fight for freedom.{' '}
+                <Box type="span" classes={['inline-flex']}>
+                  <FiHeart strokeWidth={1} fill="#3b82f6" />
+                  <FiHeart strokeWidth={1} fill="#facc15" />
+                </Box>
               </Box>
             </Box>
           </Box>

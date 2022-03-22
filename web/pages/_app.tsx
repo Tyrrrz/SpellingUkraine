@@ -6,7 +6,7 @@ import Box from '../components/box';
 import HStack from '../components/hstack';
 import Link from '../components/link';
 import Meta from '../components/meta';
-import { getGoogleAnalyticsToken, getBuildId } from '../utils/env';
+import { getBuildId, getGoogleAnalyticsToken } from '../utils/env';
 import './globals.css';
 
 const Header: React.FC = () => {
@@ -57,7 +57,8 @@ const Main: React.FC = ({ children }) => {
         'flex-grow',
         'px-2',
         'lg:px-6',
-        'py-6',
+        'pt-4',
+        'pb-6',
         'border-y-8',
         'border-blue-500',
         'bg-stone-200'
@@ -65,7 +66,7 @@ const Main: React.FC = ({ children }) => {
     >
       <Box type="main" classes={['container', 'mx-auto']}>
         {router.route !== '/' && (
-          <Box classes={['max-w-max', 'mb-4']}>
+          <Box classes={['max-w-max', 'mb-2']}>
             <Link href="/">
               <HStack>
                 <FiChevronLeft />

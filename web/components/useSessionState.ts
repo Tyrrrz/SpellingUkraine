@@ -22,14 +22,7 @@ const setStorageValue = (key: string, value: any) => {
 };
 
 const useSessionState = <T>(key: string, initialState: T | (() => T)) => {
-  const [value, setValue] = React.useState<T>(initialState);
-
-  React.useEffect(() => {
-    const storedValue = getStorageValue(key);
-    if (storedValue) {
-      setValue(storedValue);
-    }
-  }, [key]);
+  const [value, setValue] = React.useState<T>(() => getStorageValue(key) || initialState);
 
   React.useEffect(() => {
     setStorageValue(key, value);
