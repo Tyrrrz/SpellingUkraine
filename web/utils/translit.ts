@@ -1,4 +1,6 @@
 const transliterateChar = (cur: string, prev: string) => {
+  const isInitialPosition = !prev || /^\s$/.test(prev);
+
   if (cur === ' ') {
     return cur;
   }
@@ -68,7 +70,7 @@ const transliterateChar = (cur: string, prev: string) => {
   }
 
   if (cur === 'є') {
-    if (!prev || prev === ' ') {
+    if (isInitialPosition) {
       return 'ye';
     }
 
@@ -76,7 +78,7 @@ const transliterateChar = (cur: string, prev: string) => {
   }
 
   if (cur === 'Є') {
-    if (!prev || prev === ' ') {
+    if (isInitialPosition) {
       return 'Ye';
     }
 
@@ -124,7 +126,7 @@ const transliterateChar = (cur: string, prev: string) => {
   }
 
   if (cur === 'й') {
-    if (!prev || prev === ' ') {
+    if (isInitialPosition) {
       return 'yi';
     }
 
@@ -132,7 +134,7 @@ const transliterateChar = (cur: string, prev: string) => {
   }
 
   if (cur === 'Й') {
-    if (!prev || prev === ' ') {
+    if (isInitialPosition) {
       return 'Yi';
     }
 
@@ -268,7 +270,7 @@ const transliterateChar = (cur: string, prev: string) => {
   }
 
   if (cur === 'ю') {
-    if (!prev || prev === ' ') {
+    if (isInitialPosition) {
       return 'yu';
     }
 
@@ -276,7 +278,7 @@ const transliterateChar = (cur: string, prev: string) => {
   }
 
   if (cur === 'Ю') {
-    if (!prev || prev === ' ') {
+    if (isInitialPosition) {
       return 'Yu';
     }
 
@@ -284,7 +286,7 @@ const transliterateChar = (cur: string, prev: string) => {
   }
 
   if (cur === 'я') {
-    if (!prev || prev === ' ') {
+    if (isInitialPosition) {
       return 'ya';
     }
 
@@ -292,7 +294,7 @@ const transliterateChar = (cur: string, prev: string) => {
   }
 
   if (cur === 'Я') {
-    if (!prev || prev === ' ') {
+    if (isInitialPosition) {
       return 'Ya';
     }
 
