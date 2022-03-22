@@ -98,7 +98,13 @@ const EntryPage: NextPage<StaticProps> = ({ entry }) => {
             <Box>
               <SectionHeader>Description</SectionHeader>
 
-              <Box type="article">{entry.description}</Box>
+              <Box type="article" classes={['space-y-2']}>
+                {entry.description.split('\n').map((paragraph) => (
+                  <Box key={paragraph} type="p">
+                    {paragraph}
+                  </Box>
+                ))}
+              </Box>
             </Box>
           )}
 
