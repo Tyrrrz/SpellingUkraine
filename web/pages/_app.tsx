@@ -58,7 +58,7 @@ const Main: React.FC = ({ children }) => {
         'px-2',
         'lg:px-6',
         'pt-4',
-        'pb-6',
+        'pb-8',
         'border-y-8',
         'border-blue-500',
         'bg-stone-200'
