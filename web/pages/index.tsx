@@ -201,7 +201,7 @@ const HomePage: NextPage<StaticProps> = ({ vocabulary }) => {
                 spelling has become more prevalent and, as never before, more important.
               </Box>
               <Box type="p">
-                While Russia wages a horrific war against Ukraine and continuously attempts to
+                In the light of Russia&apos;s military aggression and continuous attempts to
                 undermine and, ultimately, erase Ukrainian culture, the choice of spelling is no
                 longer a matter of preference, but a{' '}
                 <Box type="span" classes={['font-semibold']}>
