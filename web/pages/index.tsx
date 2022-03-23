@@ -30,7 +30,7 @@ const HomePage: NextPage<StaticProps> = ({ vocabulary }) => {
     () =>
       getRandomItem(
         vocabulary
-          .filter((entry) => entry.incorrectSpellings.length >= 3)
+          .filter((entry) => entry.incorrectSpellings.length >= 2)
           .map((entry) => entry.correctSpelling)
       ),
     [vocabulary]
@@ -197,18 +197,18 @@ const HomePage: NextPage<StaticProps> = ({ vocabulary }) => {
               <Box type="p">
                 Because of this, nearly all Ukrainian names have initially made it into English
                 based on their transliteration from the Russian language, instead of Ukrainian.
-                Nowadays, as Ukraine strives to assert its own identity, especially in the light of
-                military aggression forced upon it by Russia, the choice of spelling has become more
-                than just a preference, but a{' '}
+                Nowadays, as Ukraine strives to assert its own identity, the use of Ukrainian-based
+                spelling has become more prevalent and, as never before, more important.
+              </Box>
+              <Box type="p">
+                While Russia wages a horrific war against Ukraine and continuously attempts to
+                undermine and, ultimately, erase Ukrainian culture, the choice of spelling is no
+                longer a matter of preference, but a{' '}
                 <Box type="span" classes={['font-semibold']}>
                   political stance
                 </Box>
-                .
-              </Box>
-              <Box type="p">
-                While Russia continuously attempts to undermine and, ultimately, erase Ukrainian
-                culture, taking a moment of your time to ensure the correct spelling is another way
-                that you can{' '}
+                . Taking a moment of your time to ensure that you are writing correctly is yet
+                another small way that you can{' '}
                 <Box type="span" classes={['font-semibold']}>
                   #StandWithUkraine
                 </Box>{' '}
