@@ -198,7 +198,7 @@ const HomePage: NextPage<StaticProps> = ({ vocabulary }) => {
                 Because of this, nearly all Ukrainian names have initially made it into English
                 based on their transliteration from the Russian language, instead of Ukrainian.
                 Nowadays, as Ukraine strives to assert its own identity, the use of Ukrainian-based
-                spelling has become more prevalent and, as never before, more important.
+                spelling is becoming more prevalent and, as never before, more important.
               </Box>
               <Box type="p">
                 In the light of Russia&apos;s military aggression and continuous attempts to
