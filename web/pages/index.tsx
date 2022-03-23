@@ -170,11 +170,11 @@ const HomePage: NextPage<StaticProps> = ({ vocabulary }) => {
                 What does this do?
               </Box>
               <Box type="p">
-                Use this app to quickly look up the correct way to write any Ukrainian place name,
-                personal name, or other word in English. You can search by typing in Ukrainian,
-                English, or other relevant language — many entries will also match on outdated or
-                incorrect spellings too. Currently, this vocabulary contains {vocabulary.length}{' '}
-                items, all carefully reviewed by humans. Not sure what to search for? Try{' '}
+                Use this app to quickly look up the correct English spelling of any Ukrainian place
+                name, personal name, or other word. You can search by typing in Ukrainian, English,
+                or another relevant language — many entries will also match on outdated or incorrect
+                spellings too. Currently, this vocabulary contains {vocabulary.length} items, all
+                carefully reviewed by humans. Not sure what to search for? Try{' '}
                 <button onClick={() => setQuery(suggestedQuery)}>
                   <Box classes={['font-semibold']}>{suggestedQuery}</Box>
                 </button>
@@ -187,21 +187,21 @@ const HomePage: NextPage<StaticProps> = ({ vocabulary }) => {
                 Why does the spelling matter?
               </Box>
               <Box type="p">
-                Ukrainian language has a long and troubled history. Before it became independent,
-                Ukraine had spent many decades occupied by the Russian-speaking Soviet Union and,
-                prior to that, the Russian Empire. During this period, Ukrainian language faced
-                suppression and its speakers were victims of persecution and ridicule. The vast
+                The Ukrainian language has a long and troubled history. Before it became
+                independent, Ukraine had spent many decades occupied by the Russian-speaking Soviet
+                Union and, prior to that, the Russian Empire. During this period, the Ukrainian
+                language was suppressed and its speakers were persecuted and ridiculed. The vast
                 majority of institutions at the time mandated the use of Russian, which severely
                 limited opportunities for other languages to thrive.
               </Box>
               <Box type="p">
-                Because of this, nearly all Ukrainian names have initially made it into English
-                based on their transliteration from the Russian language, instead of Ukrainian.
-                Nowadays, as Ukraine strives to assert its own identity, the use of Ukrainian-based
-                spelling is becoming more prevalent and, as never before, more important.
+                Because of this, nearly all Ukrainian names initially made it into English based on
+                their transliteration from the Russian language, instead of Ukrainian. Nowadays, as
+                Ukraine strives to assert its own identity, the use of Ukrainian-based spelling is
+                becoming more prevalent and, as never before, more important.
               </Box>
               <Box type="p">
-                In the light of Russia&apos;s military aggression and continuous attempts to
+                In the face of Russia&apos;s military aggression and continuous attempts to
                 undermine and, ultimately, erase Ukrainian culture, the choice of spelling is no
                 longer a matter of preference, but a{' '}
                 <Box type="span" classes={['font-semibold']}>
