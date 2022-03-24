@@ -2,11 +2,13 @@
   "name": "root",
   "private": true,
   "workspaces": [
+    "bot-reddit",
     "bot-twitter",
     "data",
     "web"
   ],
   "scripts": {
+    "start:bot-reddit": "cd bot-reddit && npm run start",
     "start:bot-twitter": "cd bot-twitter && npm run start",
     "start:web": "cd web && npm run dev"
   }

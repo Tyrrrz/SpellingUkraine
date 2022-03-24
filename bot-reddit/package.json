@@ -1,0 +1,17 @@
+{
+  "name": "spelling-ukraine-bot-reddit",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "ts-node index.ts"
+  },
+  "dependencies": {
+    "snoowrap": "^1.23.0",
+    "spelling-ukraine-data": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.21",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.2"
+  }
+}

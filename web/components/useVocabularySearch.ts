@@ -10,49 +10,42 @@ export interface SearchResult {
 }
 
 // TODO: Use a trie or something
-const resolveResult = (entry: VocabularyEntry, query: string) => {
-  const queryNormalized = normalizeString(query);
-
-  const resolveResultByValue = (value: string) => {
-    const valueNormalized = normalizeString(value);
-    if (!valueNormalized.includes(queryNormalized)) {
-      return null;
-    }
-
-    // Relevance is determined by how many characters are matched
-    // and how close to the beginning the match happened.
-    const relevance =
-      queryNormalized.length / valueNormalized.length -
-      valueNormalized.indexOf(queryNormalized) / valueNormalized.length;
-
-    return {
-      entry,
-      match: value,
-      relevance
-    };
-  };
-
-  return (
-    resolveResultByValue(entry.sourceSpelling) ||
-    resolveResultByValue(entry.correctSpelling) ||
-    entry.incorrectSpellings
-      .map((spelling) => resolveResultByValue(spelling))
-      .find((val) => !!val) ||
-    entry.relatedSpellings.map((spelling) => resolveResultByValue(spelling)).find((val) => !!val)
-  );
-};
-
 const resolveResults = (vocabulary: VocabularyEntry[], query: string) => {
   if (!query) {
     return [];
   }
 
   const results: SearchResult[] = [];
+  const queryNormalized = normalizeString(query);
 
   for (const entry of vocabulary) {
-    const result = resolveResult(entry, query);
-    if (result) {
-      results.push(result);
+    const spellings = [
+      entry.sourceSpelling,
+      entry.correctSpelling,
+      ...entry.incorrectSpellings,
+      ...entry.relatedSpellings
+    ];
+
+    for (const spelling of spellings) {
+      const spellingNormalized = normalizeString(spelling);
+      if (!spellingNormalized.includes(queryNormalized)) {
+        continue;
+      }
+
+      // Relevance is determined by how many characters are matched
+      // and how close to the beginning the match happened.
+      const relevance =
+        queryNormalized.length / spellingNormalized.length -
+        spellingNormalized.indexOf(queryNormalized) / spellingNormalized.length;
+
+      results.push({
+        entry,
+        match: spelling,
+        relevance
+      });
+
+      // We only need to find one match per entry
+      break;
     }
   }
 

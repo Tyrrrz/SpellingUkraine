@@ -1,35 +1,52 @@
 import { loadVocabulary } from 'spelling-ukraine-data';
-import { listenToTweets, postReply } from './twitter';
+import { listenToComments, postReply } from './reddit';
 import { delay } from './utils/promise';
 
 const vocabulary = loadVocabulary().filter((entry) =>
-  ['kyiv', 'lviv', 'kharkiv', 'mykolaiv', 'chornobyl', 'irpin'].includes(entry.id)
+  ['kyiv', 'lviv', 'kharkiv', 'odesa', 'mykolaiv', 'chornobyl', 'irpin'].includes(entry.id)
 );
 
-const sampling = 0.05;
+const sampling = 1;
+
+const subreddits = [
+  'ukraine',
+  'ukraina',
+  'ukraineisverybadass',
+  'ukrainianconflict',
+  'ukraineconflict',
+  '2russophobic4you',
+  'europe',
+  'yurop',
+  'news',
+  'worldnews',
+  'politics',
+  'war',
+  'pics',
+  'interesting',
+  'damnthatsinteresting',
+  'thatsinsane'
+];
 
 const main = async () => {
-  console.log('Twitter bot is starting...');
+  console.log('Reddit bot is starting...');
 
   const predicates = vocabulary.flatMap((entry) =>
     entry.incorrectSpellings.flatMap((spelling) => ({ entry, keyword: spelling }))
   );
 
-  const filter = [
-    `lang:en`,
-    `sample:${Math.floor(100 * sampling)}`,
-    `-is:retweet`,
-    `-is:quote`,
-    `-from:SpellingUkraine`,
-    `(${predicates.map((predicate) => '"' + predicate.keyword + '"').join(' OR ')})`
-  ].join(' ');
-
-  console.log('Listening to tweets', filter);
+  console.log('Listening to comments', subreddits);
 
   let consecutiveReplyFailures = 0;
-  await listenToTweets(filter, async (tweet) => {
-    // Lowercase and remove @username mentions
-    const textNormalized = tweet.text.replace(/\b@\w+\b/g, '').toLowerCase();
+  await listenToComments(subreddits, async (comment) => {
+    if (comment.author === 'SpellingUkraine') {
+      return;
+    }
+
+    // Lowercase, remove u/foo and r/bar mentions
+    const textNormalized = comment.text
+      .replace(/\b\/?u\/\w+\b/g, '')
+      .replace(/\b\/?r\/\w+\b/g, '')
+      .toLowerCase();
 
     const match = predicates.find(
       (predicate) =>
@@ -41,7 +58,11 @@ const main = async () => {
       return;
     }
 
-    console.log('Tweet', tweet);
+    if (Math.random() > sampling) {
+      return;
+    }
+
+    console.log('Comment', comment);
     console.log('Match', {
       correct: match.entry.correctSpelling,
       incorrect: match.keyword
@@ -49,13 +70,13 @@ const main = async () => {
 
     try {
       const reply = await postReply(
-        tweet.id,
+        comment.id,
         [
-          `💡 It's "${match.entry.correctSpelling}", not "${match.keyword}". `,
-          `Support Ukraine by using the correct spelling! 🇺🇦`,
+          `💡 It's \`${match.entry.correctSpelling}\`, not \`${match.keyword}\`. `,
+          `Support Ukraine by using the correct spelling! `,
+          `[Learn more](https://spellingukraine.com/i/${match.entry.id}).`,
           `\n\n`,
-          `Learn more: https://spellingukraine.com/i/${match.entry.id}. `,
-          `Beep boop I'm a bot.`
+          `^(Beep boop I'm a bot)`
         ].join('')
       );
 

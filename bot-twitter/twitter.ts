@@ -1,4 +1,4 @@
-import { ApiResponseError, TwitterApi } from 'twitter-api-v2';
+import { TwitterApi } from 'twitter-api-v2';
 import { getTwitterCredentials } from './utils/env';
 
 // Streams require app-only authentication
@@ -7,7 +7,18 @@ const twitterApp = new TwitterApi(getTwitterCredentials().bearerToken).readOnly.
 // Account-related actions require user-context authentication
 const twitterBot = new TwitterApi(getTwitterCredentials()).readWrite.v2;
 
-const stream = async (filter: string) => {
+interface Tweet {
+  id: string;
+  url: string;
+  text: string;
+}
+
+const getTweetUrl = (id: string) => `https://twitter.com/i/web/status/${id}`;
+
+export const listenToTweets = async (
+  filter: string,
+  callback: (tweet: Tweet) => Promise<void> | void
+) => {
   const rules = await twitterApp.streamRules();
 
   if (rules.data && rules.data.length > 0) {
@@ -26,22 +37,23 @@ const stream = async (filter: string) => {
 
   stream.autoReconnect = true;
 
-  return stream;
-};
-
-const reply = async (tweetId: string, text: string) => {
-  try {
-  return await twitterBot.reply(text, tweetId);
-  } catch (err) {
-    const apiError = err as ApiResponseError;
-
-    // Skip failures due to privacy settings
-    if (apiError.data.detail?.includes('You are not allowed to reply to this Tweet')) {
-      return null;
-    }
-
-    throw err;
+  for await (const item of stream) {
+    await callback({
+      id: item.data.id,
+      url: getTweetUrl(item.data.id),
+      text: item.data.text
+    });
   }
 };
 
-export default { stream, reply };
+export const postReply = async (tweetId: string, text: string) => {
+  const reply = await twitterBot.reply(text, tweetId);
+
+  const result: Tweet = {
+    id: reply.data.id,
+    url: getTweetUrl(reply.data.id),
+    text: reply.data.text
+  };
+
+  return result;
+};
