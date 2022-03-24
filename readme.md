@@ -38,13 +38,13 @@ yarn start:web
 To start the Reddit bot, run:
 
 ```
-yarn start:bot-reddit
+yarn start:reddit-bot
 ```
 
 To start the Twitter bot, run:
 
 ```
-yarn start:bot-twitter
+yarn start:twitter-bot
 ```
 
 ## Contributing to the vocabulary
