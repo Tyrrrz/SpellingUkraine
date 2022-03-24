@@ -40,14 +40,9 @@ export const listenToPosts = async (
 ) => {
   // Only yield content created after this function was called
   const startTimestamp = new Date();
-  let after = '';
 
   while (true) {
-    const submissions = await reddit.getNew(subreddit, {
-      // Request only 1 submissions on the initial iteration just to get the after value
-      limit: after ? 100 : 1,
-      after
-    });
+    const submissions = await reddit.getNew(subreddit, { limit: 500 });
 
     for (const submission of submissions.reverse()) {
       const timestamp = new Date(submission.created_utc * 1000);
@@ -63,12 +58,10 @@ export const listenToPosts = async (
         title: submission.title,
         text: submission.selftext
       });
-
-      after = submission.name;
     }
 
-    // Request new content every 1 minute
-    await delay(1 * 60 * 1000);
+    // Request new content every 5 minutes
+    await delay(5 * 60 * 1000);
   }
 };
 
@@ -78,14 +71,9 @@ export const listenToComments = async (
 ) => {
   // Only yield content created after this function was called
   const startTimestamp = new Date();
-  let after = '';
 
   while (true) {
-    const comments = await reddit.getNewComments(subreddit, {
-      // Request only 1 comment on the initial iteration just to get the after value
-      limit: after ? 100 : 1,
-      after
-    });
+    const comments = await reddit.getNewComments(subreddit, { limit: 500 });
 
     for (const comment of comments.reverse()) {
       const timestamp = new Date(comment.created_utc * 1000);
@@ -100,12 +88,10 @@ export const listenToComments = async (
         author: comment.author.name,
         text: comment.body
       });
-
-      after = comment.name;
     }
 
-    // Request new content every 1 minute
-    await delay(1 * 60 * 1000);
+    // Request new content every 5 minutes
+    await delay(5 * 60 * 1000);
   }
 };
 
@@ -138,7 +124,7 @@ export const postReply = async (content: Content, text: string) => {
     kind: 'comment',
     id: reply.id,
     url: 'https://reddit.com' + reply.permalink,
-    author: reply.author.name,
+    author: 'SpellingUkraine',
     text: reply.body
   };
 

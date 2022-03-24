@@ -93,12 +93,12 @@ const main = async () => {
         } catch (err) {
           // Replies may fail for various reasons, but not consistently.
           // Throw if we have too many consecutive failures.
-          if (++consecutiveReplyFailures >= 5) {
+          if (++consecutiveReplyFailures >= 10) {
             throw err;
           }
 
           console.log(`Reply failure (${consecutiveReplyFailures})`, err);
-          await delay(1 * 60 * 1000); // 1 minute
+          await delay(5 * 60 * 1000); // 5 minutes
         }
       });
     })
