@@ -6,7 +6,7 @@ const vocabulary = loadVocabulary().filter((entry) =>
   ['kyiv', 'lviv', 'kharkiv', 'odesa', 'mykolaiv', 'chornobyl', 'irpin'].includes(entry.id)
 );
 
-const sampling = 1;
+const sampling = 0.25;
 
 const subreddits = [
   'ukraine',

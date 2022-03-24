@@ -125,7 +125,7 @@ export const postReply = async (content: Content, text: string) => {
     id: reply.id,
     url: 'https://reddit.com' + reply.permalink,
     author: 'SpellingUkraine',
-    text: reply.body
+    text
   };
 
   return result;
