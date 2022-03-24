@@ -41,7 +41,7 @@ export const listenToPosts = async (
   let anchorTimestamp = new Date();
 
   while (true) {
-    const submissions = await reddit.getNew(subreddit, { limit: 500 });
+    const submissions = await reddit.getNew(subreddit, { limit: 100 });
 
     for (const submission of submissions.reverse()) {
       const timestamp = new Date(submission.created_utc * 1000);
@@ -61,8 +61,8 @@ export const listenToPosts = async (
       anchorTimestamp = timestamp;
     }
 
-    // Request new content every 5 minutes
-    await delay(5 * 60 * 1000);
+    // Request new content with delay
+    await delay(1 * 60 * 1000);
   }
 };
 
@@ -73,7 +73,7 @@ export const listenToComments = async (
   let anchorTimestamp = new Date();
 
   while (true) {
-    const comments = await reddit.getNewComments(subreddit, { limit: 500 });
+    const comments = await reddit.getNewComments(subreddit, { limit: 100 });
 
     for (const comment of comments.reverse()) {
       const timestamp = new Date(comment.created_utc * 1000);
@@ -92,8 +92,8 @@ export const listenToComments = async (
       anchorTimestamp = timestamp;
     }
 
-    // Request new content every 5 minutes
-    await delay(5 * 60 * 1000);
+    // Request new content with delay
+    await delay(1 * 60 * 1000);
   }
 };
 
