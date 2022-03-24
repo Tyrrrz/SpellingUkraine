@@ -38,15 +38,14 @@ export const listenToPosts = async (
   subreddit: string,
   callback: (post: Submission) => Promise<void> | void
 ) => {
-  // Only yield content created after this function was called
-  const startTimestamp = new Date();
+  let anchorTimestamp = new Date();
 
   while (true) {
     const submissions = await reddit.getNew(subreddit, { limit: 500 });
 
     for (const submission of submissions.reverse()) {
       const timestamp = new Date(submission.created_utc * 1000);
-      if (timestamp <= startTimestamp) {
+      if (timestamp <= anchorTimestamp) {
         continue;
       }
 
@@ -58,6 +57,8 @@ export const listenToPosts = async (
         title: submission.title,
         text: submission.selftext
       });
+
+      anchorTimestamp = timestamp;
     }
 
     // Request new content every 5 minutes
@@ -69,15 +70,14 @@ export const listenToComments = async (
   subreddit: string,
   callback: (comment: Comment) => Promise<void> | void
 ) => {
-  // Only yield content created after this function was called
-  const startTimestamp = new Date();
+  let anchorTimestamp = new Date();
 
   while (true) {
     const comments = await reddit.getNewComments(subreddit, { limit: 500 });
 
     for (const comment of comments.reverse()) {
       const timestamp = new Date(comment.created_utc * 1000);
-      if (timestamp <= startTimestamp) {
+      if (timestamp <= anchorTimestamp) {
         continue;
       }
 
@@ -88,6 +88,8 @@ export const listenToComments = async (
         author: comment.author.name,
         text: comment.body
       });
+
+      anchorTimestamp = timestamp;
     }
 
     // Request new content every 5 minutes
