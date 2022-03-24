@@ -15,19 +15,19 @@ const main = async () => {
     entry.incorrectSpellings.flatMap((spelling) => ({ entry, keyword: spelling }))
   );
 
-  const filter = [
+  const filters = [
     `lang:en`,
     `sample:${Math.floor(100 * sampling)}`,
     `-is:retweet`,
     `-is:quote`,
     `-from:SpellingUkraine`,
     `(${predicates.map((predicate) => '"' + predicate.keyword + '"').join(' OR ')})`
-  ].join(' ');
+  ];
 
-  console.log('Listening to tweets', filter);
+  console.log('Listening to tweets', filters);
 
   let consecutiveReplyFailures = 0;
-  await listenToTweets(filter, async (tweet) => {
+  await listenToTweets(filters.join(' '), async (tweet) => {
     // Lowercase and remove @username mentions
     const textNormalized = tweet.text.replace(/\b@\w+\b/g, '').toLowerCase();
 
@@ -49,7 +49,7 @@ const main = async () => {
 
     try {
       const reply = await postReply(
-        tweet.id,
+        tweet,
         [
           `💡 It's "${match.entry.correctSpelling}", not "${match.keyword}". `,
           `Support Ukraine by using the correct spelling! 🇺🇦`,
@@ -71,8 +71,6 @@ const main = async () => {
       console.log(`Reply failure (${consecutiveReplyFailures})`, err);
       await delay(1 * 60 * 1000); // 1 minute
     }
-
-    console.log('\n');
   });
 };
 

@@ -9,62 +9,133 @@ const reddit = new snoowrap({
 
 reddit.config({ proxies: false });
 
-interface Comment {
+// Workaround for https://github.com/not-an-aardvark/snoowrap/issues/221
+const unpromise = async <T>(promise: Promise<T>) => {
+  const result = await promise;
+  return result as Omit<T, 'then' | 'catch' | 'finally'>;
+};
+
+export interface Submission {
+  kind: 'submission';
+  id: string;
+  url: string;
+  author: string;
+  title: string;
+  text: string;
+}
+
+export interface Comment {
+  kind: 'comment';
   id: string;
   url: string;
   author: string;
   text: string;
 }
 
-export const listenToComments = async (
-  subreddits: string[],
-  callback: (comment: Comment) => Promise<void> | void
+export type Content = Submission | Comment;
+
+export const listenToPosts = async (
+  subreddit: string,
+  callback: (post: Submission) => Promise<void> | void
 ) => {
-  // Only yield comments created after this function was called
+  // Only yield content created after this function was called
   const startTimestamp = new Date();
+  let after = '';
 
-  await Promise.all(
-    subreddits.map(async (subreddit) => {
-      let after = '';
+  while (true) {
+    const submissions = await reddit.getNew(subreddit, {
+      // Request only 1 submissions on the initial iteration just to get the after value
+      limit: after ? 100 : 1,
+      after
+    });
 
-      while (true) {
-        const comments = await reddit.getNewComments(subreddit, {
-          // Request only 1 comment on the initial iteration just to get the after value
-          limit: after ? 100 : 1,
-          after
-        });
-
-        for (const comment of comments.reverse()) {
-          const timestamp = new Date(comment.created_utc * 1000);
-          if (timestamp <= startTimestamp) {
-            continue;
-          }
-
-          await callback({
-            id: comment.id,
-            url: 'https://reddit.com' + comment.permalink,
-            author: comment.author.name,
-            text: comment.body
-          });
-
-          after = comment.name;
-        }
-
-        // Request new content every 5 minutes
-        await delay(5 * 60 * 1000);
+    for (const submission of submissions.reverse()) {
+      const timestamp = new Date(submission.created_utc * 1000);
+      if (timestamp <= startTimestamp) {
+        continue;
       }
-    })
-  );
+
+      await callback({
+        kind: 'submission',
+        id: submission.id,
+        url: 'https://reddit.com' + submission.permalink,
+        author: submission.author.name,
+        title: submission.title,
+        text: submission.selftext
+      });
+
+      after = submission.name;
+    }
+
+    // Request new content every 1 minute
+    await delay(1 * 60 * 1000);
+  }
 };
 
-export const postReply = async (commentId: string, text: string) => {
-  /// @ts-expect-error (https://github.com/not-an-aardvark/snoowrap/issues/221)
-  const comment: snoowrap.Comment = await reddit.getComment(commentId);
+export const listenToComments = async (
+  subreddit: string,
+  callback: (comment: Comment) => Promise<void> | void
+) => {
+  // Only yield content created after this function was called
+  const startTimestamp = new Date();
+  let after = '';
 
-  /// @ts-expect-error (https://github.com/not-an-aardvark/snoowrap/issues/221)
-  const reply: snoowrap.Comment = await comment.reply(text);
+  while (true) {
+    const comments = await reddit.getNewComments(subreddit, {
+      // Request only 1 comment on the initial iteration just to get the after value
+      limit: after ? 100 : 1,
+      after
+    });
+
+    for (const comment of comments.reverse()) {
+      const timestamp = new Date(comment.created_utc * 1000);
+      if (timestamp <= startTimestamp) {
+        continue;
+      }
+
+      await callback({
+        kind: 'comment',
+        id: comment.id,
+        url: 'https://reddit.com' + comment.permalink,
+        author: comment.author.name,
+        text: comment.body
+      });
+
+      after = comment.name;
+    }
+
+    // Request new content every 1 minute
+    await delay(1 * 60 * 1000);
+  }
+};
+
+export const listenToContent = async (
+  subreddit: string,
+  callback: (content: Content) => Promise<void> | void
+) => {
+  await Promise.all([listenToPosts(subreddit, callback), listenToComments(subreddit, callback)]);
+};
+
+export const postReply = async (content: Content, text: string) => {
+  const postReplyToSubmission = async ({ id }: Submission) => {
+    const submission = await unpromise(reddit.getSubmission(id));
+    const { id: replyId } = await unpromise(submission.reply(text));
+    return await unpromise(reddit.getComment(replyId));
+  };
+
+  const postReplyToComment = async ({ id }: Comment) => {
+    const submission = await unpromise(reddit.getComment(id));
+    const { id: replyId } = await unpromise(submission.reply(text));
+    return await unpromise(reddit.getComment(replyId));
+  };
+
+  const reply =
+    content.kind === 'submission'
+      ? await postReplyToSubmission(content)
+      : await postReplyToComment(content);
 
   const result: Comment = {
+    kind: 'comment',
     id: reply.id,
     url: 'https://reddit.com' + reply.permalink,
     author: reply.author.name,
