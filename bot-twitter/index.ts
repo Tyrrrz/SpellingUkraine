@@ -28,13 +28,13 @@ const main = async () => {
 
   let consecutiveReplyFailures = 0;
   await listenToTweets(filters.join(' '), async (tweet) => {
-    // Lowercase and remove @username mentions
-    const textNormalized = tweet.text.replace(/\b@\w+\b/g, '').toLowerCase();
+    // Remove @username mentions
+    const textNormalized = tweet.text.replace(/\b@\w+\b/g, '');
 
     const match = predicates.find(
       (predicate) =>
-        textNormalized.includes(predicate.keyword.toLowerCase()) &&
-        !textNormalized.includes(predicate.entry.correctSpelling.toLowerCase())
+        new RegExp(`\\b${predicate.keyword}\\b`, 'gi').test(textNormalized) &&
+        !new RegExp(`\\b${predicate.entry.correctSpelling}\\b`, 'gi').test(textNormalized)
     );
 
     if (!match) {

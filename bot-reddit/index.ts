@@ -43,26 +43,33 @@ const main = async () => {
     subreddits.map(async (subreddit) => {
       // Random stagger to avoid hitting rate limit
       await delay(60 * Math.random() * 1000);
+
       await listenToContent(subreddit, async (content) => {
         if (content.author === 'SpellingUkraine') {
           return;
         }
 
-        const titleNormalized = content.kind === 'submission' ? content.title.toLowerCase() : '';
+        const titleNormalized = content.kind === 'submission' ? content.title : '';
 
-        // Lowercase, remove u/foo and r/bar mentions
+        // Remove u/foo and r/bar mentions
         const textNormalized = content.text
           .replace(/\b\/?u\/\w+\b/g, '')
-          .replace(/\b\/?r\/\w+\b/g, '')
-          .toLowerCase();
+          .replace(/\b\/?r\/\w+\b/g, '');
 
-        const match = predicates.find(
-          (predicate) =>
-            (titleNormalized.includes(predicate.keyword.toLowerCase()) &&
-              !titleNormalized.includes(predicate.entry.correctSpelling.toLowerCase())) ||
-            (textNormalized.includes(predicate.keyword.toLowerCase()) &&
-              !textNormalized.includes(predicate.entry.correctSpelling.toLowerCase()))
-        );
+        const match = predicates.find((predicate) => {
+          const keywordPattern = new RegExp(`\\b${predicate.keyword}\\b`, 'gi');
+
+          const correctSpellingPattern = new RegExp(
+            `\\b${predicate.entry.correctSpelling}\\b`,
+            'gi'
+          );
+
+          return (
+            (keywordPattern.test(titleNormalized) &&
+              !correctSpellingPattern.test(titleNormalized)) ||
+            (keywordPattern.test(textNormalized) && !correctSpellingPattern.test(textNormalized))
+          );
+        });
 
         if (!match) {
           return;
