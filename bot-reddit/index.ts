@@ -11,9 +11,11 @@ const sampling = 0.25;
 const subreddits = [
   'ukraine',
   'ukraina',
+  'ukrainian',
   'ukraineisverybadass',
   'ukrainianconflict',
   'ukraineconflict',
+  'volunteersforukraine',
   '2russophobic4you',
   'europe',
   'yurop',
