@@ -13,7 +13,7 @@ It's comprised of a website where you can quickly look up how to write individua
 ## Production
 
 - 🌐 Web app: [`https://spellingukraine.com`](https://spellingukraine.com) (hosted on [Vercel](https://vercel.com/tyrrrz/spellingukraine))
-- 🤖 Reddit bot: [`u/SpellingUkraine`](https://reddit.com/u/SpellingUkraine) (hosted on [Heroku](https://dashboard.heroku.com/apps/spellingukraine))
+- 🤖 Reddit bot: [`/u/SpellingUkraine`](https://reddit.com/u/SpellingUkraine) (hosted on [Heroku](https://dashboard.heroku.com/apps/spellingukraine))
 - 🤖 Twitter bot: [`@SpellingUkraine`](https://twitter.com/SpellingUkraine) (hosted on [Heroku](https://dashboard.heroku.com/apps/spellingukraine))
 
 ## Development
