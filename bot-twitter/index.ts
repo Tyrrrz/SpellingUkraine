@@ -6,7 +6,7 @@ const vocabulary = loadVocabulary().filter((entry) =>
   ['kyiv', 'lviv', 'kharkiv', 'mykolaiv', 'chornobyl', 'irpin'].includes(entry.id)
 );
 
-const sampling = 0.025;
+const sampling = 0.01;
 
 const main = async () => {
   console.log('Twitter bot is starting...');

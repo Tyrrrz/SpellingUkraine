@@ -6,24 +6,20 @@ const vocabulary = loadVocabulary().filter((entry) =>
   ['kyiv', 'lviv', 'kharkiv', 'mykolaiv', 'chornobyl', 'irpin'].includes(entry.id)
 );
 
-const sampling = 0.25;
+const sampling = 0.1;
 
 const subreddits = [
   'ukraine',
   'ukraina',
   'ukrainian',
-  'ukraineisverybadass',
   'ukrainianconflict',
   'ukraineconflict',
-  'volunteersforukraine',
   '2russophobic4you',
   'europe',
   'yurop',
   'news',
   'worldnews',
   'politics',
-  'war',
-  'pics',
   'interesting',
   'damnthatsinteresting',
   'thatsinsane'
@@ -41,7 +37,7 @@ const main = async () => {
   let consecutiveReplyFailures = 0;
   await Promise.all(
     subreddits.map(async (subreddit) => {
-      // Random stagger to avoid hitting rate limit
+      // Random stagger to avoid hitting the API for each subreddit at the same time
       await delay(60 * Math.random() * 1000);
 
       await listenToContent(subreddit, async (content) => {
