@@ -3,7 +3,7 @@ import { listenToContent, postReply } from './reddit';
 import { delay } from './utils/promise';
 
 const vocabulary = loadVocabulary().filter((entry) =>
-  ['kyiv', 'lviv', 'kharkiv', 'odesa', 'mykolaiv', 'chornobyl', 'irpin'].includes(entry.id)
+  ['kyiv', 'lviv', 'kharkiv', 'mykolaiv', 'chornobyl', 'irpin'].includes(entry.id)
 );
 
 const sampling = 0.25;
@@ -85,8 +85,8 @@ const main = async () => {
               `💡 It's \`${match.entry.correctSpelling}\`, not \`${match.keyword}\`. `,
               `Support Ukraine by using the correct spelling! `,
               `[Learn more](https://spellingukraine.com/i/${match.entry.id}).`,
-              `\n\n`,
-              `^(Beep boop I'm a bot)`
+              `\n\n___\n\n`,
+              `^([Why does spelling matter?](https://spellingukraine.com) | Beep boop I'm a bot)`
             ].join('')
           );
 
