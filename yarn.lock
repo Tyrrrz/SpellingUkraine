@@ -4078,9 +4078,9 @@ tweetnacl@^0.14.3, tweetnacl@~0.14.0:
   integrity sha1-WuaBd/GS1EViadEIr6k/+HQ/T2Q=
 
 twitter-api-v2@^1.11.0:
-  version "1.11.0"
-  resolved "https://registry.yarnpkg.com/twitter-api-v2/-/twitter-api-v2-1.11.0.tgz#babf2ade5644af627501482e449af51ba96f6192"
-  integrity sha512-aCIHKtzhQdKp5fYXCHY6HCfkNc9QAhbJ+zIPGzPCbx8/2UnfmNGIVt9eZqsJP5kj96p9BfXMXsTVhn4nvFsBNA==
+  version "1.11.2"
+  resolved "https://registry.yarnpkg.com/twitter-api-v2/-/twitter-api-v2-1.11.2.tgz#6faa91cb8b12121c182c33e473b792d7175702df"
+  integrity sha512-BqXmq6nTyKMNrCDgC/Pr05xU9lG20wiRqHTRXaKGqGE9fLOicV8ziJiNnapuVM6N4HmRI4/cKPijfuC1QF6Tzw==
 
 type-check@^0.4.0, type-check@~0.4.0:
   version "0.4.0"
