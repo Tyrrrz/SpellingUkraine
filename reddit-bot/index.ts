@@ -46,10 +46,11 @@ const main = async () => {
 
         const titleNormalized = content.kind === 'submission' ? content.title : '';
 
-        // Remove u/foo and r/bar mentions
+        // Remove u/foo and r/bar mentions, and block quotes
         const textNormalized = content.text
           .replace(/\b\/?u\/\w+\b/g, '')
-          .replace(/\b\/?r\/\w+\b/g, '');
+          .replace(/\b\/?r\/\w+\b/g, '')
+          .replace(/^>.*$/gm, '');
 
         const match = predicates.find((predicate) => {
           const keywordPattern = new RegExp(`\\b${predicate.keyword}\\b`, 'gi');
