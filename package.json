@@ -8,8 +8,8 @@
     "web"
   ],
   "scripts": {
-    "start:reddit-bot": "cd reddit-bot && npm run start",
-    "start:twitter-bot": "cd twitter-bot && npm run start",
-    "start:web": "cd web && npm run dev"
+    "start:reddit-bot": "cd reddit-bot && yarn run start",
+    "start:twitter-bot": "cd twitter-bot && yarn run start",
+    "start:web": "cd web && yarn run dev"
   }
 }

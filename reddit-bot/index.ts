@@ -89,9 +89,9 @@ const main = async () => {
               `Support Ukraine by using the correct spelling! `,
               `[Learn more](https://spellingukraine.com/i/${match.entry.id}).`,
               `\n\n___\n\n`,
-              `[^(Why does spelling matter?)](https://spellingukraine.com) `,
+              `[^(Why spelling matters)](https://spellingukraine.com) `,
               `^(|) `,
-              `[^(Stand with Ukraine)](https://stand-with-ukraine.pp.ua) `,
+              `[^(Other ways to support Ukraine)](https://stand-with-ukraine.pp.ua) `,
               `^(|) `,
               `^(Beep boop I'm a bot)`
             ].join('')
