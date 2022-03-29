@@ -17,11 +17,7 @@ const subreddits = [
   'ukraineconflict',
   '2russophobic4you',
   'yurop',
-  'news',
-  'politics',
-  'interesting',
-  'damnthatsinteresting',
-  'thatsinsane'
+  'news'
 ];
 
 const main = async () => {
@@ -115,3 +111,4 @@ const main = async () => {
 };
 
 main().catch((err) => console.error('Error', err));
+
