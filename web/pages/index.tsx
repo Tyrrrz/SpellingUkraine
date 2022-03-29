@@ -19,11 +19,11 @@ import useSessionState from '../components/useSessionState';
 import useVocabularySearch from '../components/useVocabularySearch';
 import { getRandomItem } from '../utils/array';
 
-interface StaticProps {
+interface HomePageProps {
   vocabulary: VocabularyEntry[];
 }
 
-const HomePage: NextPage<StaticProps> = ({ vocabulary }) => {
+const HomePage: NextPage<HomePageProps> = ({ vocabulary }) => {
   const router = useRouter();
 
   const suggestedQuery = React.useMemo(
@@ -245,7 +245,7 @@ const HomePage: NextPage<StaticProps> = ({ vocabulary }) => {
   );
 };
 
-export const getStaticProps: GetStaticProps<StaticProps> = () => {
+export const getStaticProps: GetStaticProps<HomePageProps> = () => {
   return {
     props: {
       vocabulary: loadVocabulary()
@@ -254,3 +254,4 @@ export const getStaticProps: GetStaticProps<StaticProps> = () => {
 };
 
 export default HomePage;
+

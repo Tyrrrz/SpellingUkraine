@@ -13,11 +13,11 @@ import Paper from '../../components/paper';
 import SectionHeader from '../../components/sectionHeader';
 import useSpeech from '../../components/useSpeech';
 
-interface StaticProps {
+interface EntryPageProps {
   entry: VocabularyEntry;
 }
 
-const EntryPage: NextPage<StaticProps> = ({ entry }) => {
+const EntryPage: NextPage<EntryPageProps> = ({ entry }) => {
   const speech = useSpeech();
 
   return (
@@ -181,7 +181,7 @@ export const getStaticPaths: GetStaticPaths = () => {
   };
 };
 
-export const getStaticProps: GetStaticProps<StaticProps> = ({ params }) => {
+export const getStaticProps: GetStaticProps<EntryPageProps> = ({ params }) => {
   const id = params?.id as string;
 
   return {
@@ -192,3 +192,4 @@ export const getStaticProps: GetStaticProps<StaticProps> = ({ params }) => {
 };
 
 export default EntryPage;
+
