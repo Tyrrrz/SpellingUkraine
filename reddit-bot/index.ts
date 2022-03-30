@@ -89,7 +89,7 @@ const main = async () => {
               `^(|) `,
               `[^(Other ways to support Ukraine)](https://stand-with-ukraine.pp.ua) `,
               `^(|) `,
-              `^(Beep boop I'm a bot)`
+              `^(I'm a bot, sorry if I'm missing context)`
             ].join('')
           );
 
@@ -98,7 +98,7 @@ const main = async () => {
         } catch (err) {
           // Replies may fail for various reasons, but not consistently.
           // Throw if we have too many consecutive failures.
-          if (++consecutiveReplyFailures >= 10) {
+          if (++consecutiveReplyFailures >= 5) {
             throw err;
           }
 

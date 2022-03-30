@@ -55,7 +55,7 @@ const main = async () => {
           `Support Ukraine by using the correct spelling! 🇺🇦`,
           `\n\n`,
           `Learn more: https://spellingukraine.com/i/${match.entry.id}. `,
-          `Beep boop I'm a bot.`
+          `I'm a bot, sorry if I'm missing context.`
         ].join('')
       );
 
