@@ -28,8 +28,10 @@ const main = async () => {
 
   let consecutiveReplyFailures = 0;
   await listenToTweets(filters.join(' '), async (tweet) => {
-    // Remove @username mentions
-    const textNormalized = tweet.text.replace(/\b@\w+\b/g, '');
+    // Scrub mentions, URLs
+    const textNormalized = tweet.text
+      .replace(/\b@\w+\b/g, '')
+      .replace(/\b(https?:\/\/)[^\s]*\b/g, '');
 
     const match = predicates.find(
       (predicate) =>
@@ -75,3 +77,4 @@ const main = async () => {
 };
 
 main().catch((err) => console.error('Error', err));
+

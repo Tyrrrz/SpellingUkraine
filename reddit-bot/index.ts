@@ -42,10 +42,11 @@ const main = async () => {
 
         const titleNormalized = content.kind === 'submission' ? content.title : '';
 
-        // Remove u/foo and r/bar mentions, and block quotes
+        // Scrub mentions, URLs, block quotes
         const textNormalized = content.text
           .replace(/\b\/?u\/\w+\b/g, '')
           .replace(/\b\/?r\/\w+\b/g, '')
+          .replace(/\b(https?:\/\/)[^\s]*\b/g, '')
           .replace(/^>.*$/gm, '');
 
         const match = predicates.find((predicate) => {
