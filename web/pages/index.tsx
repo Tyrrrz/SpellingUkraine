@@ -184,7 +184,7 @@ const HomePage: NextPage<HomePageProps> = ({ vocabulary }) => {
 
             <Box classes={['space-y-2']}>
               <Box type="p" classes={['text-xl', 'font-semibold']}>
-                Why does the spelling matter?
+                Why does spelling matter?
               </Box>
               <Box type="p">
                 The Ukrainian language has a long and troubled history. Before it became
