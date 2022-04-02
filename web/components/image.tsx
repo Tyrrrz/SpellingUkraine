@@ -9,16 +9,16 @@ interface ImageProps {
 }
 
 const Image: React.FC<ImageProps> = ({ src, alt, width, height }) => {
-  const [actualWidth, setActualWidth] = React.useState(width);
-  const [actualHeight, setActualHeight] = React.useState(height);
+  const [actualWidth, setActualWidth] = React.useState(width || 0);
+  const [actualHeight, setActualHeight] = React.useState(height || 0);
 
   return (
     <NextImage
       src={src}
       alt={alt}
-      width={actualWidth || 0}
-      height={actualHeight || 0}
-      layout="fixed"
+      width={actualWidth}
+      height={actualHeight}
+      layout={width || height ? 'intrinsic' : 'responsive'}
       onLoadingComplete={(e) => {
         const ratio = e.naturalWidth / e.naturalHeight;
 

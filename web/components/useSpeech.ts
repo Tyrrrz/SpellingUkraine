@@ -45,7 +45,7 @@ const speak = (text: string, voice?: SpeechSynthesisVoice) => {
 
 const useSpeech = () => {
   const [voice, setVoice] = React.useState<SpeechSynthesisVoice>();
-  const [active, setActive] = React.useState(false);
+  const [isActive, setIsActive] = React.useState(false);
 
   React.useEffect(() => {
     resolveVoices().then((voices) => {
@@ -60,15 +60,15 @@ const useSpeech = () => {
   }, []);
 
   return {
-    available: !!voice,
-    active,
+    isAvailable: !!voice,
+    isActive,
     speak: (text: string) => {
       if (!voice) {
         return;
       }
 
-      setActive(true);
-      speak(text, voice).finally(() => setActive(false));
+      setIsActive(true);
+      speak(text, voice).finally(() => setIsActive(false));
     }
   };
 };

@@ -2,81 +2,82 @@ import type { AppProps } from 'next/app';
 import { useRouter } from 'next/router';
 import Script from 'next/script';
 import { FiAward, FiChevronLeft, FiGithub, FiHeart } from 'react-icons/fi';
+import { useMediaQuery } from 'react-responsive';
 import Box from '../components/box';
 import HStack from '../components/hstack';
+import Image from '../components/image';
 import Link from '../components/link';
 import Meta from '../components/meta';
 import { getBuildId, getGoogleAnalyticsToken } from '../utils/env';
 import './globals.css';
 
 const Header: React.FC = () => {
+  const sm = useMediaQuery({ minWidth: '640px' });
+
   return (
     <Link href="/">
-      <Box
-        type="header"
-        classes={[
-          'px-4',
-          'py-8',
-          'hover:bg-stone-800',
-          'space-y-2',
-          'text-neutral-100',
-          'text-center'
-        ]}
-      >
-        <Box classes={['text-4xl', 'font-bold']}>
-          <Box type="span">Spelling </Box>
-          <Box
-            type="span"
-            classes={[
-              'text-blue-500',
-              'underline',
-              'underline-offset-4',
-              'decoration-2',
-              'decoration-wavy',
-              'decoration-yellow-400'
-            ]}
-          >
-            Ukraine
+      <Box classes={['border-b', 'bg-white', 'hover:bg-neutral-50']}>
+        <Box
+          type="header"
+          classes={[
+            'container',
+            'flex',
+            'mx-auto',
+            'px-4',
+            'py-6',
+            'items-center',
+            'gap-x-5',
+            'text-neutral-900'
+          ]}
+        >
+          <Box style={{ width: sm ? '96px' : '64px', height: sm ? '96px' : '64px' }}>
+            <Image src="/logo.svg" alt="Spelling Ukraine" />
           </Box>
-        </Box>
 
-        <Box classes={['text-xl', 'font-light', 'tracking-wide']}>
-          Language is political. Transliterate correctly.
+          <Box classes={['w-px', 'h-12', 'sm:h-16', 'bg-neutral-600']} />
+
+          <Box>
+            <Box classes={['flex', 'text-3xl', 'sm:text-4xl']}>
+              <Box classes={['p-1', 'pl-2', 'sm:pb-2', 'bg-[#0057b7]', 'text-white']}>Spelling</Box>
+              <Box classes={['p-1', 'pr-2', 'sm:pb-2', 'bg-[#ffd700]']}>Ukraine</Box>
+            </Box>
+
+            <Box classes={['mt-1', 'text-sm', 'sm:text-xl', 'font-light', 'sm:tracking-wide']}>
+              Language is political. Transliterate correctly
+            </Box>
+          </Box>
         </Box>
       </Box>
     </Link>
   );
 };
 
-const Main: React.FC = ({ children }) => {
+const Divider: React.FC = () => {
   const router = useRouter();
 
-  return (
-    <Box
-      classes={[
-        'flex-grow',
-        'px-2',
-        'lg:px-6',
-        'pt-4',
-        'pb-8',
-        'border-y-8',
-        'border-blue-500',
-        'bg-stone-200'
-      ]}
-    >
-      <Box type="main" classes={['container', 'mx-auto']}>
-        {router.route !== '/' && (
-          <Box classes={['max-w-max', 'mb-2']}>
-            <Link href="/">
-              <HStack>
-                <FiChevronLeft />
-                <Box>Home</Box>
-              </HStack>
-            </Link>
-          </Box>
-        )}
+  if (router.route === '/') {
+    return null;
+  }
 
-        <Box>{children}</Box>
+  return (
+    <Box classes={['border-y', 'bg-neutral-100']}>
+      <Box classes={['container', 'mx-auto', 'my-3', 'px-4']}>
+        <Link href="/">
+          <HStack gap="medium">
+            <FiChevronLeft />
+            <Box>Home</Box>
+          </HStack>
+        </Link>
+      </Box>
+    </Box>
+  );
+};
+
+const Main: React.FC = ({ children }) => {
+  return (
+    <Box classes={['flex-grow', 'bg-white']}>
+      <Box type="main" classes={['container', 'mx-auto', 'mt-6', 'mb-8', 'px-4']}>
+        {children}
       </Box>
     </Box>
   );
@@ -86,7 +87,16 @@ const Footer: React.FC = () => {
   return (
     <Box
       type="footer"
-      classes={['flex', 'p-4', 'place-content-center', 'text-sm', 'text-neutral-400', 'font-light']}
+      classes={[
+        'flex',
+        'p-4',
+        'border-t',
+        'bg-neutral-100',
+        'place-content-center',
+        'text-sm',
+        'text-neutral-600',
+        'font-light'
+      ]}
     >
       <HStack wrap gap="large">
         <Box classes={['font-mono']}>{getBuildId() || 'unknown build'}</Box>
@@ -96,7 +106,7 @@ const Footer: React.FC = () => {
         <Link href="https://github.com/Tyrrrz/SpellingUkraine" emphasize={false}>
           <HStack>
             <FiGithub strokeWidth={1} />
-            <div>Contribute</div>
+            <div>Source</div>
           </HStack>
         </Link>
 
@@ -122,22 +132,36 @@ const Footer: React.FC = () => {
   );
 };
 
+const Scripts: React.FC = () => {
+  return (
+    <>
+      <Script
+        src={`https://www.googletagmanager.com/gtag/js?id=${getGoogleAnalyticsToken()}`}
+        strategy="afterInteractive"
+      />
+
+      <Script id="google-analytics" strategy="afterInteractive">
+        {`
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){window.dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', '${getGoogleAnalyticsToken()}');
+  `}
+      </Script>
+    </>
+  );
+};
+
 const App = ({ Component, pageProps }: AppProps) => {
   return (
     <>
       <Meta />
 
-      <Box
-        classes={[
-          'flex',
-          'flex-col',
-          'min-h-screen',
-          'border-y-8',
-          'border-y-yellow-400',
-          'bg-stone-900'
-        ]}
-      >
+      <Box classes={['flex', 'flex-col', 'min-h-screen', 'bg-neutral-50']}>
         <Header />
+
+        <Divider />
 
         <Main>
           <Component {...pageProps} />
@@ -146,20 +170,7 @@ const App = ({ Component, pageProps }: AppProps) => {
         <Footer />
       </Box>
 
-      <Script
-        src={`https://www.googletagmanager.com/gtag/js?id=${getGoogleAnalyticsToken()}`}
-        strategy="afterInteractive"
-      />
-
-      <Script id="google-analytics" strategy="afterInteractive">
-        {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){window.dataLayer.push(arguments);}
-          gtag('js', new Date());
-
-          gtag('config', '${getGoogleAnalyticsToken()}');
-        `}
-      </Script>
+      <Scripts />
     </>
   );
 };

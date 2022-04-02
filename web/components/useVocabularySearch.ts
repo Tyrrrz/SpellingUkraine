@@ -62,7 +62,7 @@ const useVocabularySearch = (vocabulary: VocabularyEntry[], query: string) => {
   );
 
   return {
-    processing: query !== debouncedQuery,
+    isProcessing: query !== debouncedQuery,
     results
   };
 };
