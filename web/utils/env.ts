@@ -1,5 +1,5 @@
 export const getEnvironment = () => {
-  return process.env.NODE_ENV;
+  return process.env.NEXT_PUBLIC_VERCEL_ENV;
 };
 
 export const getBuildId = () => {
@@ -7,7 +7,10 @@ export const getBuildId = () => {
 };
 
 export const getSiteUrl = () => {
-  const url = process.env.NEXT_PUBLIC_VERCEL_URL;
+  const url =
+    getEnvironment() === 'production'
+      ? process.env.NEXT_PUBLIC_DOMAIN
+      : process.env.NEXT_PUBLIC_VERCEL_URL;
 
   if (url && !url.startsWith('http://') && !url.startsWith('https://')) {
     return `https://${url}`;
