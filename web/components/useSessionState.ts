@@ -21,7 +21,7 @@ const setStorageValue = (key: string, value: any) => {
   sessionStorage.setItem(key, JSON.stringify(value));
 };
 
-const useSessionState = <T>(key: string, initialState: T | (() => T)) => {
+const useSessionState = <T>(key: string, initialState: T) => {
   const [value, setValue] = React.useState<T>(() => getStorageValue(key) || initialState);
 
   React.useEffect(() => {

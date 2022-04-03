@@ -204,10 +204,17 @@ const HomePage: NextPage<HomePageProps> = ({ vocabulary }) => {
                   place name, personal name, or other word. You can search by typing in Ukrainian,
                   English, or another relevant language — many entries will also match on outdated
                   or incorrect spellings too. Currently, this vocabulary contains{' '}
-                  {vocabulary.length} items, all carefully reviewed by humans. Not sure what to
-                  search for? Try{' '}
-                  <button onClick={() => setQuery(suggestedQuery)}>
-                    <Box classes={['font-semibold']}>{suggestedQuery}</Box>
+                  {vocabulary.length} items, all carefully reviewed by humans.
+                </Box>
+                <Box type="p">
+                  Not sure what to search for? Try{' '}
+                  <button
+                    className={classNames('inline-block')}
+                    onClick={() => setQuery(suggestedQuery)}
+                  >
+                    <Box type="span" classes={['font-semibold']}>
+                      {suggestedQuery}
+                    </Box>
                   </button>
                   .
                 </Box>
