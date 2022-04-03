@@ -53,7 +53,7 @@ const TranslitPage: NextPage = () => {
 
       <Box
         classes={[
-          'mt-8',
+          'mt-4',
           'border',
           'border-neutral-600',
           'hover:border-blue-500',

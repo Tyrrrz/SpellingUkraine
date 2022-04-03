@@ -92,12 +92,27 @@ const LinksSection: React.FC<{ entry: VocabularyEntry }> = ({ entry }) => {
 
   return (
     <Section title="See also">
-      {entry.links.map((link) => (
-        <HStack key={link.name}>
-          <FiExternalLink />
-          <Link href={link.url}>{link.name}</Link>
-        </HStack>
-      ))}
+      <HStack wrap gap="large">
+        {entry.links.map((link) => (
+          <Link key={link.name} href={link.url}>
+            <Box
+              classes={[
+                'px-2',
+                'py-1',
+                'rounded',
+                'bg-ukraine-blue',
+                'text-white',
+                'hover:text-yellow-400'
+              ]}
+            >
+              <HStack>
+                <FiExternalLink />
+                <Box>{link.name}</Box>
+              </HStack>
+            </Box>
+          </Link>
+        ))}
+      </HStack>
     </Section>
   );
 };
@@ -158,18 +173,18 @@ const ImageSection = ({ entry }: { entry: VocabularyEntry }) => {
 const ContributeSection: React.FC<{ entry: VocabularyEntry }> = ({ entry }) => {
   return (
     <Section title="Contribute">
-      <Box>
+      <HStack wrap gap="large">
         <Link
           href={`https://github.com/Tyrrrz/SpellingUkraine/edit/master/data/vocabulary/${entry.path}`}
         >
-          <HStack>
-            <FiEdit3 />
-            <Box>Edit information</Box>
-          </HStack>
+          <Box classes={['px-2', 'py-1', 'rounded', 'bg-ukraine-yellow']}>
+            <HStack>
+              <FiEdit3 />
+              <Box>Edit information</Box>
+            </HStack>
+          </Box>
         </Link>
-      </Box>
 
-      <Box>
         <Link
           href={withSearchParams('https://github.com/Tyrrrz/SpellingUkraine/issues/new', {
             template: 'bug-report.yml',
@@ -180,12 +195,14 @@ const ContributeSection: React.FC<{ entry: VocabularyEntry }> = ({ entry }) => {
             )})`
           })}
         >
-          <HStack>
-            <FiFlag />
-            <Box>Report issue</Box>
-          </HStack>
+          <Box classes={['px-2', 'py-1', 'rounded', 'bg-ukraine-yellow']}>
+            <HStack>
+              <FiFlag />
+              <Box>Report issue</Box>
+            </HStack>
+          </Box>
         </Link>
-      </Box>
+      </HStack>
     </Section>
   );
 };
@@ -214,7 +231,7 @@ const EntryPage: NextPage<EntryPageProps> = ({ entry }) => {
 
       <Box classes={['space-y-6']}>
         <Box>
-          <Box classes={['text-3xl']}>
+          <Box classes={['text-3xl', 'tracking-wide']}>
             <HStack align="bottom" gap="large">
               <Box>{entry.correctSpelling}</Box>
 

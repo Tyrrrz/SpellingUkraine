@@ -190,13 +190,25 @@ const HomePage: NextPage<HomePageProps> = ({ vocabulary }) => {
       </form>
 
       {!search.isProcessing && (
-        <Box classes={['mt-8']}>
+        <Box classes={['mt-10']}>
           {query ? (
             <SearchResults results={search.results} />
           ) : (
             <Box classes={['space-y-4', 'text-lg']}>
               <Box classes={['space-y-2']}>
-                <Box type="p" classes={['text-xl', 'font-semibold']}>
+                <Box
+                  type="p"
+                  classes={[
+                    'w-fit',
+                    'px-2',
+                    'py-1',
+                    'rounded',
+                    'bg-ukraine-blue',
+                    'text-white',
+                    'text-xl',
+                    'font-semibold'
+                  ]}
+                >
                   What does this app do?
                 </Box>
                 <Box type="p">
@@ -221,7 +233,19 @@ const HomePage: NextPage<HomePageProps> = ({ vocabulary }) => {
               </Box>
 
               <Box classes={['space-y-2']}>
-                <Box type="p" classes={['text-xl', 'font-semibold']}>
+                <Box
+                  type="p"
+                  classes={[
+                    'w-fit',
+                    'px-2',
+                    'py-1',
+                    'rounded',
+                    'bg-ukraine-blue',
+                    'text-white',
+                    'text-xl',
+                    'font-semibold'
+                  ]}
+                >
                   Why does spelling matter?
                 </Box>
                 <Box type="p">

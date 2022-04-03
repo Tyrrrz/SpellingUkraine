@@ -22,7 +22,6 @@ const Header: React.FC = () => {
           classes={[
             'flex',
             'w-fit',
-            'sm:container',
             'mx-auto',
             'px-4',
             'py-6',
@@ -40,8 +39,10 @@ const Header: React.FC = () => {
 
           <Box>
             <Box classes={['flex', 'text-3xl', 'sm:text-4xl']}>
-              <Box classes={['p-1', 'pl-2', 'sm:pb-2', 'bg-[#0057b7]', 'text-white']}>Spelling</Box>
-              <Box classes={['p-1', 'pr-2', 'sm:pb-2', 'bg-[#ffd700]']}>Ukraine</Box>
+              <Box classes={['p-1', 'pl-2', 'sm:pb-2', 'bg-ukraine-blue', 'text-white']}>
+                Spelling
+              </Box>
+              <Box classes={['p-1', 'pr-2', 'sm:pb-2', 'bg-ukraine-yellow']}>Ukraine</Box>
             </Box>
 
             <Box classes={['mt-1', 'text-sm', 'sm:text-xl', 'font-light', 'sm:tracking-wide']}>
