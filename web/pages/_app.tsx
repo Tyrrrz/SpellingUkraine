@@ -1,7 +1,7 @@
 import type { AppProps } from 'next/app';
 import { useRouter } from 'next/router';
 import Script from 'next/script';
-import { FiAward, FiChevronLeft, FiGithub, FiHeart } from 'react-icons/fi';
+import { FiChevronLeft, FiGithub, FiHeart } from 'react-icons/fi';
 import Box from '../components/box';
 import HStack from '../components/hstack';
 import Image from '../components/image';
@@ -119,15 +119,6 @@ const Footer: React.FC = () => {
           <HStack>
             <FiHeart strokeWidth={1} />
             <div>Donate</div>
-          </HStack>
-        </Link>
-
-        <Box> • </Box>
-
-        <Link href="/attribution" emphasize={false}>
-          <HStack>
-            <FiAward strokeWidth={1} />
-            <div>Attribution</div>
           </HStack>
         </Link>
       </HStack>
