@@ -182,7 +182,7 @@ const ContributeSection: React.FC<{ entry: VocabularyEntry }> = ({ entry }) => {
         >
           <HStack>
             <FiFlag />
-            <Box>Report an issue</Box>
+            <Box>Report issue</Box>
           </HStack>
         </Link>
       </Box>

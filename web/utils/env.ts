@@ -1,5 +1,5 @@
 export const getEnvironment = () => {
-  return process.env.NEXT_PUBLIC_VERCEL_ENV;
+  return process.env.NEXT_PUBLIC_VERCEL_ENV as 'production' | 'preview' | 'development';
 };
 
 export const getBuildId = () => {
