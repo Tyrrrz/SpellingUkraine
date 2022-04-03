@@ -20,13 +20,15 @@ const Header: React.FC = () => {
         <Box
           type="header"
           classes={[
-            'container',
             'flex',
+            'w-fit',
+            'sm:container',
             'mx-auto',
             'px-4',
             'py-6',
             'items-center',
-            'gap-x-5',
+            'gap-x-4',
+            'sm:gap-x-6',
             'text-neutral-900'
           ]}
         >
