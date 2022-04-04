@@ -22,6 +22,7 @@ const TranslitPage: NextPage = () => {
         <Link href="https://github.com/Tyrrrz/SpellingUkraine/tree/master/data/vocabulary#transliteration-system">
           official transliteration system
         </Link>
+        .
       </Box>
 
       <Box

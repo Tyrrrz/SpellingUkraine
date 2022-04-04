@@ -1,12 +1,14 @@
 import Box from './box';
 
-interface HStackProps {
+interface StackProps {
+  orientation?: 'horizontal' | 'vertical';
   wrap?: boolean;
   align?: 'top' | 'center' | 'bottom';
   gap?: 'small' | 'medium' | 'large';
 }
 
-const HStack: React.FC<HStackProps> = ({
+const Stack: React.FC<StackProps> = ({
+  orientation = 'vertical',
   wrap = false,
   align = 'center',
   gap = 'small',
@@ -16,8 +18,9 @@ const HStack: React.FC<HStackProps> = ({
     <Box
       classes={[
         'flex',
-        'flex-row',
         {
+          'flex-row': orientation === 'horizontal',
+          'flex-col': orientation === 'vertical',
           'flex-wrap': wrap,
           'items-start': align === 'top',
           'items-center': align === 'center',
@@ -33,4 +36,4 @@ const HStack: React.FC<HStackProps> = ({
   );
 };
 
-export default HStack;
+export default Stack;

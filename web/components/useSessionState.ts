@@ -1,10 +1,6 @@
 import React from 'react';
 
 const getStorageValue = (key: string) => {
-  if (typeof window === 'undefined' || !sessionStorage) {
-    return null;
-  }
-
   const item = sessionStorage.getItem(key);
   if (item) {
     return JSON.parse(item);
@@ -14,19 +10,22 @@ const getStorageValue = (key: string) => {
 };
 
 const setStorageValue = (key: string, value: any) => {
-  if (typeof window === 'undefined' || !sessionStorage) {
-    return;
-  }
-
   sessionStorage.setItem(key, JSON.stringify(value));
 };
 
 const useSessionState = <T>(key: string, initialState: T) => {
-  const [value, setValue] = React.useState<T>(() => getStorageValue(key) || initialState);
+  const isClientSide = typeof window !== 'undefined';
+  const [value, setValue] = React.useState<T>(
+    () => (isClientSide && getStorageValue(key)) ?? initialState
+  );
 
   React.useEffect(() => {
+    if (!isClientSide) {
+      return;
+    }
+
     setStorageValue(key, value);
-  }, [key, value]);
+  }, [key, isClientSide, value]);
 
   return [value, setValue] as const;
 };

@@ -3,21 +3,13 @@ import NextLink from 'next/link';
 
 interface LinkProps {
   href: string;
-  block?: boolean;
   emphasize?: boolean;
 }
 
-const Link: React.FC<LinkProps> = ({
-  href,
-  block = false,
-  emphasize = true,
-  children,
-  ...props
-}) => {
+const Link: React.FC<LinkProps> = ({ href, emphasize = true, children, ...props }) => {
   const isAbsolute = /^[a-z][a-z\d+\-.]*:/iu.test(href);
 
-  const className = classNames('hover:text-blue-500', {
-    'inline-block': !block,
+  const className = classNames('hover:text-blue-500', 'inline', {
     'font-semibold': emphasize
   });
 

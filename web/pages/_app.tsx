@@ -3,16 +3,16 @@ import { useRouter } from 'next/router';
 import Script from 'next/script';
 import { FiChevronLeft, FiGithub, FiHeart } from 'react-icons/fi';
 import Box from '../components/box';
-import HStack from '../components/hstack';
 import Image from '../components/image';
 import Link from '../components/link';
 import Meta from '../components/meta';
-import useMediaQuery from '../components/useMediaQuery';
+import Stack from '../components/stack';
+import useScreenBreakpoint from '../components/useScreenBreakpoint';
 import { getBuildId, getGoogleAnalyticsToken } from '../utils/env';
 import './globals.css';
 
 const Header: React.FC = () => {
-  const sm = useMediaQuery('(min-width: 640px)');
+  const sm = useScreenBreakpoint('sm');
 
   return (
     <Link href="/">
@@ -66,10 +66,10 @@ const Divider: React.FC = () => {
     <Box classes={['border-y', 'bg-neutral-100']}>
       <Box classes={['container', 'mx-auto', 'my-3', 'px-4']}>
         <Link href="/">
-          <HStack gap="medium">
+          <Stack orientation="horizontal" gap="medium">
             <FiChevronLeft />
             <Box>Home</Box>
-          </HStack>
+          </Stack>
         </Link>
       </Box>
     </Box>
@@ -101,27 +101,27 @@ const Footer: React.FC = () => {
         'font-light'
       ]}
     >
-      <HStack wrap gap="large">
+      <Stack orientation="horizontal" wrap gap="large">
         <Box classes={['font-mono']}>{getBuildId() || 'unknown build'}</Box>
 
         <Box> • </Box>
 
         <Link href="https://github.com/Tyrrrz/SpellingUkraine" emphasize={false}>
-          <HStack>
+          <Stack orientation="horizontal">
             <FiGithub strokeWidth={1} />
             <div>Source</div>
-          </HStack>
+          </Stack>
         </Link>
 
         <Box> • </Box>
 
         <Link href="https://tyrrrz.me/donate" emphasize={false}>
-          <HStack>
+          <Stack orientation="horizontal">
             <FiHeart strokeWidth={1} />
             <div>Donate</div>
-          </HStack>
+          </Stack>
         </Link>
-      </HStack>
+      </Stack>
     </Box>
   );
 };

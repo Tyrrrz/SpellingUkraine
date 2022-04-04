@@ -14,8 +14,8 @@ import {
 } from 'react-icons/fi';
 import { loadVocabulary, VocabularyEntry } from 'spelling-ukraine-data';
 import Box from '../components/box';
-import HStack from '../components/hstack';
 import Link from '../components/link';
+import Stack from '../components/stack';
 import useSessionState from '../components/useSessionState';
 import useVocabularySearch, { SearchResult } from '../components/useVocabularySearch';
 import { getRandomItem } from '../utils/array';
@@ -25,39 +25,41 @@ const SearchResults: React.FC<{ results: SearchResult[] }> = ({ results }) => {
     return (
       <FadeIn className={classNames('flex', 'flex-col', 'sm:flex-row', 'flex-wrap', 'gap-4')}>
         {results.map((result) => (
-          <Link key={result.entry.id} href={`/i/${result.entry.id}`} block>
-            <Box
-              classes={[
-                'flex',
-                'flex-col',
-                'h-full',
-                'p-4',
-                'border',
-                'border-neutral-600',
-                'hover:border-blue-500',
-                'rounded',
-                'bg-white',
-                'hover:bg-blue-50',
-                'place-content-center'
-              ]}
-            >
-              <Box classes={['text-xl']}>{result.entry.correctSpelling}</Box>
+          <Box key={result.entry.id}>
+            <Link href={`/i/${result.entry.id}`}>
+              <Box
+                classes={[
+                  'flex',
+                  'flex-col',
+                  'h-full',
+                  'p-4',
+                  'border',
+                  'border-neutral-600',
+                  'hover:border-blue-500',
+                  'rounded',
+                  'bg-white',
+                  'hover:bg-blue-50',
+                  'place-content-center'
+                ]}
+              >
+                <Box classes={['text-xl']}>{result.entry.correctSpelling}</Box>
 
-              <Box classes={['text-lg', 'font-light']}>
-                {result.entry.sourceSpelling} • {result.entry.category}
+                <Box classes={['text-lg', 'font-light']}>
+                  {result.entry.sourceSpelling} • {result.entry.category}
+                </Box>
+
+                {result.match !== result.entry.correctSpelling &&
+                  result.match !== result.entry.sourceSpelling && (
+                    <Box classes={['mt-1', 'text-sm', 'font-light']}>
+                      <Stack orientation="horizontal">
+                        <FiTarget strokeWidth={1} />
+                        <Box>Matched on {result.match}</Box>
+                      </Stack>
+                    </Box>
+                  )}
               </Box>
-
-              {result.match !== result.entry.correctSpelling &&
-                result.match !== result.entry.sourceSpelling && (
-                  <Box classes={['mt-1', 'text-sm', 'font-light']}>
-                    <HStack>
-                      <FiTarget strokeWidth={1} />
-                      <Box>Matched on {result.match}</Box>
-                    </HStack>
-                  </Box>
-                )}
-            </Box>
-          </Link>
+            </Link>
+          </Box>
         ))}
       </FadeIn>
     );
@@ -67,10 +69,10 @@ const SearchResults: React.FC<{ results: SearchResult[] }> = ({ results }) => {
     <FadeIn>
       <Box>
         <Box classes={['text-xl']}>
-          <HStack gap="medium">
+          <Stack orientation="horizontal" gap="medium">
             <Box>No results found</Box>
             <FiFrown />
-          </HStack>
+          </Stack>
         </Box>
 
         <Box classes={['text-lg', 'font-light']}>
@@ -92,7 +94,7 @@ interface HomePageProps {
 const HomePage: NextPage<HomePageProps> = ({ vocabulary }) => {
   const router = useRouter();
 
-  const suggestedQuery = React.useMemo(
+  const querySuggestion = React.useMemo(
     () =>
       getRandomItem(
         vocabulary
@@ -107,6 +109,19 @@ const HomePage: NextPage<HomePageProps> = ({ vocabulary }) => {
 
   return (
     <>
+      <Box
+        classes={[
+          'm-1',
+          'text-center',
+          'sm:text-right',
+          'text-sm',
+          'text-light',
+          'text-neutral-600'
+        ]}
+      >
+        Need to transliterate arbitrary text? <Link href="/translit">Click here</Link>
+      </Box>
+
       <form
         onSubmit={(e) => {
           e.preventDefault();
@@ -116,19 +131,6 @@ const HomePage: NextPage<HomePageProps> = ({ vocabulary }) => {
           }
         }}
       >
-        <Box
-          classes={[
-            'm-1',
-            'text-center',
-            'sm:text-right',
-            'text-sm',
-            'text-light',
-            'text-neutral-600'
-          ]}
-        >
-          Need to transliterate arbitrary text? <Link href="/translit">Click here</Link>
-        </Box>
-
         <Box
           classes={[
             'flex',
@@ -222,10 +224,10 @@ const HomePage: NextPage<HomePageProps> = ({ vocabulary }) => {
                   Not sure what to search for? Try{' '}
                   <button
                     className={classNames('inline-block')}
-                    onClick={() => setQuery(suggestedQuery)}
+                    onClick={() => setQuery(querySuggestion)}
                   >
                     <Box type="span" classes={['font-semibold']}>
-                      {suggestedQuery}
+                      {querySuggestion}
                     </Box>
                   </button>
                   .

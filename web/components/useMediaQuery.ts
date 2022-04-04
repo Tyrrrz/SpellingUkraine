@@ -10,12 +10,12 @@ const useMediaQuery = (query: string) => {
     }
 
     const mediaQueryList = window.matchMedia(query);
-    const update = () => setResult(mediaQueryList.matches);
 
-    update();
+    const onChange = () => setResult(mediaQueryList.matches);
+    onChange();
 
-    mediaQueryList.addEventListener('change', update);
-    return () => mediaQueryList.removeEventListener('change', update);
+    mediaQueryList.addEventListener('change', onChange);
+    return () => mediaQueryList.removeEventListener('change', onChange);
   }, [query, isClientSide]);
 
   return result;

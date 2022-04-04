@@ -2,10 +2,6 @@ import React from 'react';
 
 const resolveVoices = () => {
   return new Promise<SpeechSynthesisVoice[]>((resolve) => {
-    if (typeof window === 'undefined' || !speechSynthesis) {
-      resolve([]);
-    }
-
     const voices = speechSynthesis.getVoices();
     if (voices.length > 0) {
       resolve(voices);
@@ -22,10 +18,6 @@ const resolveVoices = () => {
 
 const speak = (text: string, voice?: SpeechSynthesisVoice) => {
   return new Promise<void>((resolve) => {
-    if (typeof window === 'undefined' || !speechSynthesis) {
-      resolve();
-    }
-
     const utterance = new SpeechSynthesisUtterance(text);
 
     const onEnd = () => {
@@ -44,10 +36,15 @@ const speak = (text: string, voice?: SpeechSynthesisVoice) => {
 };
 
 const useSpeech = () => {
+  const isClientSide = typeof window !== 'undefined';
   const [voice, setVoice] = React.useState<SpeechSynthesisVoice>();
   const [isActive, setIsActive] = React.useState(false);
 
   React.useEffect(() => {
+    if (!isClientSide) {
+      return;
+    }
+
     resolveVoices().then((voices) => {
       // Google UK voices are the best for Ukrainian transliterations
       setVoice(
@@ -57,7 +54,7 @@ const useSpeech = () => {
           voices[0]
       );
     });
-  }, []);
+  }, [isClientSide]);
 
   return {
     isAvailable: !!voice,

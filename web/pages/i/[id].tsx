@@ -14,11 +14,11 @@ import {
 } from 'react-icons/fi';
 import { loadVocabulary, loadVocabularyEntry, VocabularyEntry } from 'spelling-ukraine-data';
 import Box from '../../components/box';
-import HStack from '../../components/hstack';
 import Image from '../../components/image';
 import Link from '../../components/link';
 import Meta from '../../components/meta';
 import Section from '../../components/section';
+import Stack from '../../components/stack';
 import useSpeech from '../../components/useSpeech';
 import { getAbsoluteUrl } from '../../utils/env';
 import { withSearchParams } from '../../utils/url';
@@ -49,19 +49,19 @@ const SpellingSection: React.FC<{ entry: VocabularyEntry }> = ({ entry }) => {
   return (
     <Section title="Spelling">
       <Box classes={['text-lg']}>
-        <HStack wrap gap="large">
-          <HStack>
+        <Stack orientation="horizontal" wrap gap="large">
+          <Stack orientation="horizontal">
             <FiCheck className={classNames('text-green-600')} />
             <Box>{entry.correctSpelling}</Box>
-          </HStack>
+          </Stack>
 
           {entry.incorrectSpellings.map((spelling) => (
-            <HStack key={spelling}>
+            <Stack key={spelling} orientation="horizontal">
               <FiX className={classNames('text-red-600')} />
               <Box>{spelling}</Box>
-            </HStack>
+            </Stack>
           ))}
-        </HStack>
+        </Stack>
       </Box>
     </Section>
   );
@@ -92,7 +92,7 @@ const LinksSection: React.FC<{ entry: VocabularyEntry }> = ({ entry }) => {
 
   return (
     <Section title="See also">
-      <HStack wrap gap="large">
+      <Stack orientation="horizontal" wrap gap="large">
         {entry.links.map((link) => (
           <Link key={link.name} href={link.url}>
             <Box
@@ -105,14 +105,14 @@ const LinksSection: React.FC<{ entry: VocabularyEntry }> = ({ entry }) => {
                 'hover:text-yellow-400'
               ]}
             >
-              <HStack>
+              <Stack orientation="horizontal">
                 <FiExternalLink />
                 <Box>{link.name}</Box>
-              </HStack>
+              </Stack>
             </Box>
           </Link>
         ))}
-      </HStack>
+      </Stack>
     </Section>
   );
 };
@@ -148,10 +148,10 @@ const LocationSection: React.FC<{ entry: VocabularyEntry }> = ({ entry }) => {
             query: entry.correctSpelling
           })}
         >
-          <HStack>
+          <Stack orientation="horizontal">
             <FiMap />
             <Box>Open in Google Maps</Box>
-          </HStack>
+          </Stack>
         </Link>
       </Box>
     </Section>
@@ -173,15 +173,15 @@ const ImageSection = ({ entry }: { entry: VocabularyEntry }) => {
 const ContributeSection: React.FC<{ entry: VocabularyEntry }> = ({ entry }) => {
   return (
     <Section title="Contribute">
-      <HStack wrap gap="large">
+      <Stack orientation="horizontal" wrap gap="large">
         <Link
           href={`https://github.com/Tyrrrz/SpellingUkraine/edit/master/data/vocabulary/${entry.path}`}
         >
           <Box classes={['px-2', 'py-1', 'rounded', 'bg-ukraine-yellow']}>
-            <HStack>
+            <Stack orientation="horizontal">
               <FiEdit3 />
               <Box>Edit information</Box>
-            </HStack>
+            </Stack>
           </Box>
         </Link>
 
@@ -196,13 +196,13 @@ const ContributeSection: React.FC<{ entry: VocabularyEntry }> = ({ entry }) => {
           })}
         >
           <Box classes={['px-2', 'py-1', 'rounded', 'bg-ukraine-yellow']}>
-            <HStack>
+            <Stack orientation="horizontal">
               <FiFlag />
               <Box>Report issue</Box>
-            </HStack>
+            </Stack>
           </Box>
         </Link>
-      </HStack>
+      </Stack>
     </Section>
   );
 };
@@ -232,11 +232,10 @@ const EntryPage: NextPage<EntryPageProps> = ({ entry }) => {
       <Box classes={['space-y-6']}>
         <Box>
           <Box classes={['text-3xl', 'tracking-wide']}>
-            <HStack align="bottom" gap="large">
+            <Stack orientation="horizontal" align="bottom" gap="large">
               <Box>{entry.correctSpelling}</Box>
-
               <PronounceButton entry={entry} />
-            </HStack>
+            </Stack>
           </Box>
 
           <Box classes={['mt-1', 'text-2xl', 'font-light', 'tracking-wide']}>
