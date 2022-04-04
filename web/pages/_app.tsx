@@ -109,7 +109,7 @@ const Footer: React.FC = () => {
         <Link href="https://github.com/Tyrrrz/SpellingUkraine" emphasize={false}>
           <Stack orientation="horizontal">
             <FiGithub strokeWidth={1} />
-            <div>Source</div>
+            <Box>Source</Box>
           </Stack>
         </Link>
 
@@ -118,7 +118,7 @@ const Footer: React.FC = () => {
         <Link href="https://tyrrrz.me/donate" emphasize={false}>
           <Stack orientation="horizontal">
             <FiHeart strokeWidth={1} />
-            <div>Donate</div>
+            <Box>Donate</Box>
           </Stack>
         </Link>
       </Stack>
