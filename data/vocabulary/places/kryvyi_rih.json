@@ -1,0 +1,24 @@
+{
+  "category": "City",
+  "sourceSpelling": "Кривий Ріг",
+  "correctSpelling": "Kryvyi Rih",
+  "incorrectSpellings": [
+    "Kryvyi Rig",
+    "Kriviy Rig",
+    "Krivoy Rog"
+  ],
+  "relatedSpellings": [
+    "Кривой Рог"
+  ],
+  "description": "Kryvyi Rih is the largest city in central Ukraine and 7th most populous city in the country; 2nd biggest city in the country by area. It lies within a large urban area and serves as the administrative center of Kryvyi Rih Raion. It hosts the administration of Kryvyi Rih urban hromada, one of the hromadas of Ukraine.\nThe name of the city literally translates to \"crooked horn\". When writing in English, the name should be spelled as \"Kryvyi Rih\", instead of the russified \"Krivoy Rog\".",
+  "links": [
+    {
+      "name": "Wikipedia: Kryvyi Rih",
+      "url": "https://en.wikipedia.org/wiki/Kryvyi_Rih"
+    }
+  ],
+  "location": {
+    "lat": 47.9086,
+    "lng": 33.3433
+  }
+}

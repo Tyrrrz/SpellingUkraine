@@ -1,0 +1,24 @@
+{
+  "category": "City",
+  "sourceSpelling": "Запоріжжя",
+  "correctSpelling": "Zaporizhzhia",
+  "incorrectSpellings": [
+    "Zaporizhia",
+    "Zaporozhye",
+    "Zaporozhie"
+  ],
+  "relatedSpellings": [
+    "Запорожье"
+  ],
+  "descriptions": "Zaporizhzhia is a city on the Dnipro River in southeastern Ukraine. It's home to Khortytsia Island, a former Cossack stronghold with the Khortytsia National Reserve and the open-air Museum of Zaporizhzhian Cossacks. Riverside Dubovy Hai park has children's rides and a lake. Nearby, the Regional Lore Museum explores Cossack, Scythian and medieval history. Boguslayev Museum of Technology has jet engines and motorbikes.",
+  "links": [
+    {
+      "name": "Wikipedia: Zaporizhzhia",
+      "url": "https://en.wikipedia.org/wiki/Zaporizhzhia"
+    }
+  ],
+  "location": {
+    "lat": 47.8378,
+    "lng": 35.1383
+  }
+}

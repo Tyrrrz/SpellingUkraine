@@ -1,0 +1,23 @@
+{
+  "category": "Village",
+  "sourceSpelling": "Чорнобаївка",
+  "correctSpelling": "Chornobaivka",
+  "incorrectSpellings": [
+    "Chornobayivka",
+    "Chernobaevka",
+    "Chernobayevka",
+    "Chernobaivka"
+  ],
+  "relatedSpellings": [],
+  "description": "Chornobaivka is a village in Ukraine in Kherson Raion of Kherson Oblast. It is the center of the village council. It hosts the administration of Chornobaivka rural hromada, one of the hromadas of Ukraine. Kherson International Airport is situated in Chornobaivka.",
+  "links": [
+    {
+      "name": "Wikipedia: Chornobaivka",
+      "url": "https://en.wikipedia.org/wiki/Chornobaivka"
+    }
+  ],
+  "location": {
+    "lat": 46.7004,
+    "lng": 32.5477
+  }
+}
