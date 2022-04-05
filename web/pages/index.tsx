@@ -196,95 +196,97 @@ const HomePage: NextPage<HomePageProps> = ({ vocabulary }) => {
           {query ? (
             <SearchResults results={search.results} />
           ) : (
-            <Box classes={['space-y-4', 'text-lg']}>
-              <Box classes={['space-y-2']}>
-                <Box
-                  type="p"
-                  classes={[
-                    'w-fit',
-                    'px-2',
-                    'py-1',
-                    'rounded',
-                    'bg-ukraine-blue',
-                    'text-white',
-                    'text-xl',
-                    'font-semibold'
-                  ]}
-                >
-                  What does this app do?
-                </Box>
-                <Box type="p">
-                  Use this app to quickly look up the correct English spelling of any Ukrainian
-                  place name, personal name, or other word. You can search by typing in Ukrainian,
-                  English, or another relevant language — many entries will also match on outdated
-                  or incorrect spellings too. Currently, this vocabulary contains{' '}
-                  {vocabulary.length} items, all carefully reviewed by humans.
-                </Box>
-                <Box type="p">
-                  Not sure what to search for? Try{' '}
-                  <button
-                    className={classNames('inline-block')}
-                    onClick={() => setQuery(querySuggestion)}
+            <FadeIn>
+              <Box classes={['space-y-4', 'text-lg']}>
+                <Box classes={['space-y-2']}>
+                  <Box
+                    type="p"
+                    classes={[
+                      'w-fit',
+                      'px-2',
+                      'py-1',
+                      'rounded',
+                      'bg-ukraine-blue',
+                      'text-white',
+                      'text-xl',
+                      'font-semibold'
+                    ]}
                   >
-                    <Box type="span" classes={['font-semibold']}>
-                      {querySuggestion}
-                    </Box>
-                  </button>
-                  .
+                    What does this app do?
+                  </Box>
+                  <Box type="p">
+                    Use this app to quickly look up the correct English spelling of any Ukrainian
+                    place name, personal name, or other word. You can search by typing in Ukrainian,
+                    English, or another relevant language — many entries will also match on outdated
+                    or incorrect spellings too. Currently, this vocabulary contains{' '}
+                    {vocabulary.length} items, all carefully reviewed by humans.
+                  </Box>
+                  <Box type="p">
+                    Not sure what to search for? Try{' '}
+                    <button
+                      className={classNames('inline-block')}
+                      onClick={() => setQuery(querySuggestion)}
+                    >
+                      <Box type="span" classes={['font-semibold']}>
+                        {querySuggestion}
+                      </Box>
+                    </button>
+                    .
+                  </Box>
                 </Box>
-              </Box>
 
-              <Box classes={['space-y-2']}>
-                <Box
-                  type="p"
-                  classes={[
-                    'w-fit',
-                    'px-2',
-                    'py-1',
-                    'rounded',
-                    'bg-ukraine-blue',
-                    'text-white',
-                    'text-xl',
-                    'font-semibold'
-                  ]}
-                >
-                  Why does spelling matter?
-                </Box>
-                <Box type="p">
-                  The Ukrainian language has a long and troubled history. Before it became
-                  independent, Ukraine had spent many decades occupied by the Russian-speaking
-                  Soviet Union and, prior to that, the Russian Empire. During this period, the
-                  Ukrainian language was suppressed and its speakers were persecuted and ridiculed.
-                  The vast majority of institutions at the time mandated the use of Russian, which
-                  severely limited opportunities for other languages to thrive.
-                </Box>
-                <Box type="p">
-                  Because of this, nearly all Ukrainian names initially made it into English based
-                  on their transliteration from the Russian language, instead of Ukrainian.
-                  Nowadays, as Ukraine strives to assert its own identity, the use of
-                  Ukrainian-based spelling is becoming more prevalent and, as never before, more
-                  important.
-                </Box>
-                <Box type="p">
-                  In the face of Russia&apos;s military aggression and continuous attempts to
-                  undermine and, ultimately, erase Ukrainian culture, the choice of spelling is no
-                  longer a matter of preference, but a{' '}
-                  <Box type="span" classes={['font-semibold']}>
-                    political stance
+                <Box classes={['space-y-2']}>
+                  <Box
+                    type="p"
+                    classes={[
+                      'w-fit',
+                      'px-2',
+                      'py-1',
+                      'rounded',
+                      'bg-ukraine-blue',
+                      'text-white',
+                      'text-xl',
+                      'font-semibold'
+                    ]}
+                  >
+                    Why does spelling matter?
                   </Box>
-                  . Taking a moment of your time to ensure that you are writing correctly is yet
-                  another small way that you can{' '}
-                  <Box type="span" classes={['font-semibold']}>
-                    #StandWithUkraine
-                  </Box>{' '}
-                  in its fight for freedom.{' '}
-                  <Box type="span" classes={['inline-flex']}>
-                    <FiHeart strokeWidth={1} fill="#3b82f6" />
-                    <FiHeart strokeWidth={1} fill="#facc15" />
+                  <Box type="p">
+                    The Ukrainian language has a long and troubled history. Before it became
+                    independent, Ukraine had spent many decades occupied by the Russian-speaking
+                    Soviet Union and, prior to that, the Russian Empire. During this period, the
+                    Ukrainian language was suppressed and its speakers were persecuted and
+                    ridiculed. The vast majority of institutions at the time mandated the use of
+                    Russian, which severely limited opportunities for other languages to thrive.
+                  </Box>
+                  <Box type="p">
+                    Because of this, nearly all Ukrainian names initially made it into English based
+                    on their transliteration from the Russian language, instead of Ukrainian.
+                    Nowadays, as Ukraine strives to assert its own identity, the use of
+                    Ukrainian-based spelling is becoming more prevalent and, as never before, more
+                    important.
+                  </Box>
+                  <Box type="p">
+                    In the face of Russia&apos;s military aggression and continuous attempts to
+                    undermine and, ultimately, erase Ukrainian culture, the choice of spelling is no
+                    longer a matter of preference, but a{' '}
+                    <Box type="span" classes={['font-semibold']}>
+                      political stance
+                    </Box>
+                    . Taking a moment of your time to ensure that you are writing correctly is yet
+                    another small way that you can{' '}
+                    <Box type="span" classes={['font-semibold']}>
+                      #StandWithUkraine
+                    </Box>{' '}
+                    in its fight for freedom.{' '}
+                    <Box type="span" classes={['inline-flex']}>
+                      <FiHeart strokeWidth={1} fill="#3b82f6" />
+                      <FiHeart strokeWidth={1} fill="#facc15" />
+                    </Box>
                   </Box>
                 </Box>
               </Box>
-            </Box>
+            </FadeIn>
           )}
         </Box>
       )}
