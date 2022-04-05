@@ -7,9 +7,9 @@ interface BoxProps {
   style?: React.CSSProperties;
 }
 
-const Box: React.FC<BoxProps> = ({ type, classes, style, children }) => {
-  const className = classes && classes.length > 0 ? classNames(...classes) : undefined;
-  return React.createElement(type || 'div', { className, style }, children);
+const Box: React.FC<BoxProps> = ({ type = 'div', classes = [], style, children }) => {
+  const className = classNames(classes) || undefined;
+  return React.createElement(type, { className, style }, children);
 };
 
 export default Box;

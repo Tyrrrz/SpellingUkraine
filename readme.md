@@ -23,7 +23,7 @@ Prerequisites:
 - NodeJS
 - Yarn
 
-Before doing anything, install project dependencies by running:
+Before doing anything, install dependencies by running:
 
 ```
 yarn install
