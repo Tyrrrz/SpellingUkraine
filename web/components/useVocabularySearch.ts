@@ -53,16 +53,16 @@ const resolveResults = (vocabulary: VocabularyEntry[], query: string) => {
 };
 
 const useVocabularySearch = (vocabulary: VocabularyEntry[], query: string) => {
+  const queryDebounced = useDebouncedValue(query, 500);
   const [results, setResults] = React.useState<SearchResult[]>([]);
-  const debouncedQuery = useDebouncedValue(query, 500);
 
   React.useEffect(
-    () => setResults(resolveResults(vocabulary, debouncedQuery)),
-    [vocabulary, debouncedQuery]
+    () => setResults(resolveResults(vocabulary, queryDebounced)),
+    [vocabulary, queryDebounced]
   );
 
   return {
-    isProcessing: query !== debouncedQuery,
+    isProcessing: query !== queryDebounced,
     results
   };
 };
