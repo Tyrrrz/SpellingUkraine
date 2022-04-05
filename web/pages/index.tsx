@@ -25,7 +25,7 @@ const SearchResults: React.FC<{ results: SearchResult[] }> = ({ results }) => {
     return (
       <FadeIn className={classNames('flex', 'flex-col', 'sm:flex-row', 'flex-wrap', 'gap-4')}>
         {results.map((result) => (
-          <Box key={result.entry.id}>
+          <Box key={result.entry.id} classes={['h-full']}>
             <Link href={`/i/${result.entry.id}`}>
               <Box
                 classes={[
