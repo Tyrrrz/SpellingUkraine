@@ -15,8 +15,8 @@ const setStorageValue = (key: string, value: any) => {
 
 const useSessionState = <T>(key: string, initialState: T) => {
   const isClientSide = typeof window !== 'undefined';
-  const [value, setValue] = React.useState<T>(
-    () => (isClientSide && getStorageValue(key)) ?? initialState
+  const [value, setValue] = React.useState<T>(() =>
+    isClientSide ? getStorageValue(key) ?? initialState : initialState
   );
 
   React.useEffect(() => {
