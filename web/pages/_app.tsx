@@ -1,15 +1,83 @@
 import type { AppProps } from 'next/app';
 import { useRouter } from 'next/router';
 import Script from 'next/script';
+import React from 'react';
 import { FiChevronLeft, FiGithub, FiHeart } from 'react-icons/fi';
 import Box from '../components/box';
 import Image from '../components/image';
 import Link from '../components/link';
 import Meta from '../components/meta';
 import Stack from '../components/stack';
+import useDebouncedValue from '../components/useDebouncedValue';
 import useScreenBreakpoint from '../components/useScreenBreakpoint';
 import { getBuildId, getGoogleAnalyticsToken } from '../utils/env';
 import './globals.css';
+
+const Loader: React.FC = () => {
+  const router = useRouter();
+
+  const [isNavigating, setIsNavigating] = React.useState(false);
+  const [progress, setProgress] = React.useState(0);
+
+  // Only show loading indicator if the navigation takes a while.
+  // This prevents indicator from flashing during faster navigation.
+  const isLoading = useDebouncedValue(isNavigating, 300);
+
+  React.useEffect(() => {
+    const onRouteChangeStart = () => {
+      setIsNavigating(true);
+      setProgress(0);
+    };
+
+    const onRouteChangeComplete = () => {
+      setIsNavigating(false);
+    };
+
+    router.events.on('routeChangeStart', onRouteChangeStart);
+    router.events.on('routeChangeComplete', onRouteChangeComplete);
+    router.events.on('routeChangeError', onRouteChangeComplete);
+
+    return () => {
+      router.events.off('routeChangeStart', onRouteChangeStart);
+      router.events.off('routeChangeComplete', onRouteChangeComplete);
+      router.events.off('routeChangeError', onRouteChangeComplete);
+    };
+  }, [router]);
+
+  React.useEffect(() => {
+    if (!isLoading) {
+      return;
+    }
+
+    const interval = setInterval(() => {
+      // Progress is not representative of anything, it's just used
+      // to give a sense that something is happening.
+      // The value is increased inverse-hyperbolically, so that it
+      // slows down and never actually reaches 100%.
+      setProgress((progress) => progress + 0.5 * (1 - progress) ** 2);
+    }, 100);
+
+    return () => clearInterval(interval);
+  }, [isLoading]);
+
+  return (
+    <Box
+      classes={[
+        'h-1',
+        {
+          'bg-ukraine-blue': isLoading,
+          'bg-transparent': !isLoading
+        }
+      ]}
+      style={{
+        width: `${progress * 100}%`,
+        transitionProperty: 'width',
+        transitionTimingFunction: 'cubic-bezier(0.4, 0, 0.2, 1)',
+        transitionDuration: '150ms'
+      }}
+    />
+  );
+};
 
 const Header: React.FC = () => {
   const sm = useScreenBreakpoint('sm');
@@ -153,6 +221,8 @@ const App = ({ Component, pageProps }: AppProps) => {
       <Meta />
 
       <Box classes={['flex', 'flex-col', 'min-h-screen', 'bg-neutral-50']}>
+        <Loader />
+
         <Header />
 
         <Divider />
