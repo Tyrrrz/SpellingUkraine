@@ -15,7 +15,6 @@ const subreddits = [
   'ukraineisverybadass',
   'ukrainianconflict',
   'ukraineconflict',
-  '2russophobic4you',
   'yurop',
   'news'
 ];
