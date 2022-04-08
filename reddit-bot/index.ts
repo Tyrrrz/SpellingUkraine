@@ -6,7 +6,8 @@ const vocabulary = loadVocabulary().filter((entry) =>
   ['kyiv', 'lviv', 'kharkiv', 'mykolaiv', 'chornobyl', 'irpin', 'chernihiv'].includes(entry.id)
 );
 
-const sampling = 0.25;
+const submissionSampling = 0.85;
+const commentSampling = 0.25;
 
 const subreddits = [
   'ukraine',
@@ -67,6 +68,7 @@ const main = async () => {
           return;
         }
 
+        const sampling = content.kind === 'submission' ? submissionSampling : commentSampling;
         if (Math.random() > sampling) {
           return;
         }
