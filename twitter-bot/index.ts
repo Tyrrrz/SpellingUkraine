@@ -3,7 +3,16 @@ import { listenToTweets, postReply } from './twitter';
 import { delay } from './utils/promise';
 
 const vocabulary = loadVocabulary().filter((entry) =>
-  ['kyiv', 'lviv', 'kharkiv', 'mykolaiv', 'chornobyl', 'irpin', 'chernihiv'].includes(entry.id)
+  [
+    'kyiv',
+    'lviv',
+    'kharkiv',
+    /*'odesa',*/
+    'mykolaiv',
+    /*'chornobyl',*/
+    'irpin',
+    'chernihiv'
+  ].includes(entry.id)
 );
 
 const sampling = 0.01;
