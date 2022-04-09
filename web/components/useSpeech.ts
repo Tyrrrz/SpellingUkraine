@@ -49,9 +49,7 @@ const useSpeech = () => {
       // Google UK voices are the best for Ukrainian transliterations
       setVoice(
         voices.find((voice) => voice.name === 'Google UK English Female') ||
-          voices.find((voice) => voice.name === 'Google UK English Male') ||
-          voices.find((voice) => voice.lang === 'en' || voice.lang.startsWith('en-')) ||
-          voices[0]
+          voices.find((voice) => voice.name === 'Google UK English Male')
       );
     });
   }, [isClientSide]);
