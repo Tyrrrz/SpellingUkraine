@@ -11,7 +11,7 @@ Each vocabulary entry is stored in a JSON file with the following structure:
 > Remember to remove them from your own files to avoid errors.
 
 ```jsonc
-// kyiv.json
+// File name: 'kyiv.json'
 {
   // Category of the vocabulary entry
   "category": "City",
@@ -27,6 +27,9 @@ Each vocabulary entry is stored in a JSON file with the following structure:
 
   // Additional spellings in other languages or alternative names for this entry (optional)
   "relatedSpellings": ["Киев", "Kijow", "Kyjiw", "Kiew"],
+
+  // Pronunciation guide for speech synthesis; test around to find the text that sounds the best (optional)
+  "transcription": "Kyiv",
 
   // Additional information about the entry (optional)
   "description": "The capital and most populous city of Ukraine. Its name is derived from Proto-Slavic \"Kyjevŭ gordŭ\" (Kyi's castle) and is associated with Kyi, one of the city's legendary founders. Following the declaration of Ukraine's independence, the official English spelling of the capital became \"Kyiv\", replacing the outdated \"Kiev\" spelling based on Russian transliteration. Choosing the correct way to spell Kyiv is an integral part of asserting the Ukrainian identity as distinct from the relics of the Soviet Union and Russian Empire.",

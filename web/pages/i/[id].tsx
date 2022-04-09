@@ -10,6 +10,7 @@ import {
   FiMap,
   FiVolume1,
   FiVolume2,
+  FiVolumeX,
   FiX
 } from 'react-icons/fi';
 import { loadVocabulary, loadVocabularyEntry, VocabularyEntry } from 'spelling-ukraine-data';
@@ -26,17 +27,29 @@ import { withSearchParams } from '../../utils/url';
 const PronounceButton: React.FC<{ entry: VocabularyEntry }> = ({ entry }) => {
   const speech = useSpeech();
 
-  if (!speech.isAvailable) {
-    return null;
-  }
-
   return (
     <button
-      className={classNames('flex', { 'text-blue-500': speech.isActive })}
-      title={`Pronounce "${entry.sourceSpelling}"`}
-      onClick={() => speech.speak(entry.sourceSpelling)}
+      className={classNames('flex', {
+        'text-blue-500': speech.isActive,
+        'text-neutral-600': !speech.isAvailable || !entry.transcription
+      })}
+      title={
+        speech.isAvailable && entry.transcription
+          ? `Pronounce "${entry.sourceSpelling}"`
+          : speech.isAvailable
+          ? 'Pronunciation is not available for this entry'
+          : 'Pronunciation is not available for your device'
+      }
+      disabled={!speech.isAvailable || !entry.transcription}
+      onClick={() => speech.isAvailable && entry.transcription && speech.speak(entry.transcription)}
     >
-      {speech.isActive ? <FiVolume2 strokeWidth={1} /> : <FiVolume1 strokeWidth={1} />}
+      {speech.isActive ? (
+        <FiVolume2 strokeWidth={1} />
+      ) : speech.isAvailable && entry.transcription ? (
+        <FiVolume1 strokeWidth={1} />
+      ) : (
+        <FiVolumeX strokeWidth={1} />
+      )}
     </button>
   );
 };

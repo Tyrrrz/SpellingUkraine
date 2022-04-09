@@ -1,9 +1,14 @@
 {
-  "category": "City",
+  "category": "Town",
   "sourceSpelling": "Волноваха",
   "correctSpelling": "Volnovakha",
-  "incorrectSpellings": [],
+  "incorrectSpellings": [
+    "Volnavakha",
+    "Volnovaha"
+  ],
   "relatedSpellings": [],
+  "transcription": "Volnovaha",
+  "description": "Volnovakha is a small town in Ukraine. It served as the administrative center of Volnovakha Raion, one of the 18 districts of the Donetsk Oblast. Before the 2022 Russian invasion of Ukraine, the population of the town was 21,441. The town is reported to have been nearly completely destroyed as a result of Russian attacks.",
   "links": [
     {
       "name": "Wikipedia: Volnovakha",

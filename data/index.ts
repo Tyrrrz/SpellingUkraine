@@ -13,6 +13,8 @@ export interface VocabularyEntry {
   incorrectSpellings: string[];
   relatedSpellings: string[];
 
+  transcription?: string;
+
   description?: string;
 
   links: {

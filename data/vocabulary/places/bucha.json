@@ -2,8 +2,12 @@
   "category": "City",
   "sourceSpelling": "Буча",
   "correctSpelling": "Bucha",
-  "incorrectSpellings": [],
+  "incorrectSpellings": [
+    "Butcha"
+  ],
   "relatedSpellings": [],
+  "transcription": "Bootcha",
+  "description": "Bucha is a city in Ukraine's Kyiv Oblast. Administratively, it is incorporated as a city of oblast significance. Its population is approximately 36,971.",
   "links": [
     {
       "name": "Wikipedia: Bucha",
