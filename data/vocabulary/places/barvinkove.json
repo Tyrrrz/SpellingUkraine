@@ -1,0 +1,24 @@
+{
+  "category": "City",
+  "sourceSpelling": "Барвінкове",
+  "correctSpelling": "Barvinkove",
+  "incorrectSpellings": [
+    "Barvenkove",
+    "Barvenkovo"
+  ],
+  "relatedSpellings": [
+    "Барвенково"
+  ],
+  "transcription": "Bar-veenkoveh",
+  "description": "Barvinkove is a city in Izium Raion of Kharkiv Oblast of Ukraine. It hosts the administration of Barvinkove urban hromada, one of the hromadas of Ukraine.",
+  "links": [
+    {
+      "name": "Wikipedia: Barvinkove",
+      "url": "https://en.wikipedia.org/wiki/Barvinkove"
+    }
+  ],
+  "location": {
+    "lat": 48.9067,
+    "lng": 37.0131
+  }
+}
