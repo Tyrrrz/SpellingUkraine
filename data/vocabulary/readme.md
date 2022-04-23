@@ -7,7 +7,7 @@ If you want to update the vocabulary, create or modify the corresponding JSON fi
 
 Each vocabulary entry is stored in a JSON file with the following structure:
 
-> ⚠ Comments below are only used for demonstration purposes.
+> ⚠ Comments below are only used for documentation purposes.
 > Remember to remove them from your own files to avoid errors.
 
 ```jsonc
