@@ -124,6 +124,16 @@ const Header: React.FC = () => {
   );
 };
 
+const MerchAdvertisement: React.FC = () => {
+  return (
+    <Box classes={['p-2', 'bg-ukraine-yellow', 'text-center', 'text-sm']}>
+      <Link href="https://merch4ukraine.org">
+        👕 Buy exclusive merch &amp; support Ukraine! All proceeds go to charity 💙
+      </Link>
+    </Box>
+  );
+};
+
 const Divider: React.FC = () => {
   const router = useRouter();
 
@@ -225,6 +235,8 @@ const App = ({ Component, pageProps }: AppProps) => {
         <Loader />
 
         <Header />
+
+        <MerchAdvertisement />
 
         <Divider />
 
