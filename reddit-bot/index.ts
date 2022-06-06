@@ -16,7 +16,7 @@ const vocabulary = loadVocabulary().filter((entry) =>
 );
 
 const submissionSampling = 0.85;
-const commentSampling = 0.25;
+const commentSampling = 0.5;
 
 const subreddits = ['ukraine', 'ukraina', 'ukrainianconflict', 'ukraineconflict'];
 
