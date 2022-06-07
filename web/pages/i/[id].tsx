@@ -64,13 +64,13 @@ const SpellingSection: React.FC<{ entry: VocabularyEntry }> = ({ entry }) => {
       <Box classes={['text-lg']}>
         <Stack orientation="horizontal" wrap gap="large">
           <Stack orientation="horizontal">
-            <FiCheck className={classNames('text-green-600')} />
+            <FiCheck className={classNames('mt-px', 'sm:mt-1', 'text-green-600')} />
             <Box>{entry.correctSpelling}</Box>
           </Stack>
 
           {entry.incorrectSpellings.map((spelling) => (
             <Stack key={spelling} orientation="horizontal">
-              <FiX className={classNames('text-red-600')} />
+              <FiX className={classNames('mt-px', 'sm:mt-1', 'text-red-600')} />
               <Box>{spelling}</Box>
             </Stack>
           ))}
