@@ -224,7 +224,7 @@ const HomePage: NextPage<HomePageProps> = ({ vocabulary }) => {
                   <Box type="p">
                     Not sure what to search for? Try{' '}
                     <button
-                      className={classNames('inline-block')}
+                      className={classNames('inline-block', 'hover:text-blue-500')}
                       onClick={() => setQuery(querySuggestion)}
                     >
                       <Box type="span" classes={['font-semibold']}>
