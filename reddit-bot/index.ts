@@ -18,7 +18,7 @@ const vocabulary = loadVocabulary().filter((entry) =>
 const submissionSampling = 0.85;
 const commentSampling = 0.5;
 
-const subreddits = ['ukraine', 'ukraina', 'ukrainianconflict', 'ukraineconflict'];
+const subreddits = ['ukraine', 'ukraina', 'ukrainianconflict', 'ukraineconflict', 'yurop'];
 
 const main = async () => {
   console.log('Reddit bot is starting...');
