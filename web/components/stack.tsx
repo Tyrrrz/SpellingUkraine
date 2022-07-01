@@ -5,6 +5,7 @@ interface StackProps {
   wrap?: boolean;
   align?: 'top' | 'center' | 'bottom';
   gap?: 'small' | 'medium' | 'large';
+  children?: React.ReactNode;
 }
 
 const Stack: React.FC<StackProps> = ({

@@ -1,7 +1,7 @@
 import type { AppProps } from 'next/app';
 import { useRouter } from 'next/router';
 import Script from 'next/script';
-import React from 'react';
+import React, { PropsWithChildren } from 'react';
 import { FiChevronLeft, FiGithub, FiHeart } from 'react-icons/fi';
 import Box from '../components/box';
 import Image from '../components/image';
@@ -155,7 +155,7 @@ const Divider: React.FC = () => {
   );
 };
 
-const Main: React.FC = ({ children }) => {
+const Main: React.FC<PropsWithChildren> = ({ children }) => {
   return (
     <Box classes={['flex-grow', 'bg-white']}>
       <Box type="main" classes={['container', 'mx-auto', 'mt-6', 'mb-8', 'px-4']}>

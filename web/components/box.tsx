@@ -5,6 +5,7 @@ interface BoxProps {
   type?: string;
   classes?: ClassName[];
   style?: React.CSSProperties;
+  children?: React.ReactNode;
 }
 
 const Box: React.FC<BoxProps> = ({ type = 'div', classes = [], style, children }) => {

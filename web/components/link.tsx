@@ -4,6 +4,7 @@ import NextLink from 'next/link';
 interface LinkProps {
   href: string;
   emphasize?: boolean;
+  children?: React.ReactNode;
 }
 
 const Link: React.FC<LinkProps> = ({ href, emphasize = true, children, ...props }) => {

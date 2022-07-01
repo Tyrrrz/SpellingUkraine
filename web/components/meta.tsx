@@ -9,7 +9,9 @@ interface MetaProps {
 }
 
 const Meta: React.FC<MetaProps> = ({ title, description, keywords, imageUrl }) => {
-  const actualTitle = title ? title + ' • Spelling Ukraine' : 'Spelling Ukraine';
+  const siteName = 'Spelling Ukraine';
+
+  const actualTitle = title ? title + ' • ' + siteName : siteName;
 
   const actualDescription =
     description ||
@@ -27,13 +29,13 @@ const Meta: React.FC<MetaProps> = ({ title, description, keywords, imageUrl }) =
       <link rel="icon" href="/favicon.png" />
       <link rel="manifest" href="/manifest.json" />
 
-      <meta name="application-name" content="Spelling Ukraine" />
+      <meta name="application-name" content={siteName} />
       <meta name="description" content={actualDescription} />
       <meta name="keywords" content={actualKeywords} />
       <meta name="theme-color" content="#facc15" />
 
       <meta property="og:type" content="website" />
-      <meta property="og:site_name" content="Spelling Ukraine" />
+      <meta property="og:site_name" content={siteName} />
       <meta property="og:title" content={actualTitle} />
       <meta property="og:description" content={actualDescription} />
       <meta property="og:image" content={getAbsoluteUrl(actualImageUrl)} />
