@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import { FC } from 'react';
 import { getAbsoluteUrl } from '../utils/env';
 
 interface MetaProps {
@@ -8,7 +9,7 @@ interface MetaProps {
   imageUrl?: string;
 }
 
-const Meta: React.FC<MetaProps> = ({ title, description, keywords, imageUrl }) => {
+const Meta: FC<MetaProps> = ({ title, description, keywords, imageUrl }) => {
   const siteName = 'Spelling Ukraine';
 
   const actualTitle = title ? title + ' • ' + siteName : siteName;

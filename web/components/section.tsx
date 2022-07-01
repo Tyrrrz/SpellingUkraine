@@ -1,11 +1,12 @@
+import { FC, ReactNode } from 'react';
 import Box from './box';
 
 interface SectionProps {
   title: string;
-  children?: React.ReactNode;
+  children?: ReactNode;
 }
 
-const Section: React.FC<SectionProps> = ({ title, children }) => {
+const Section: FC<SectionProps> = ({ title, children }) => {
   return (
     <Box>
       <Box classes={['flex', 'my-2', 'items-center', 'gap-2', 'text-lg', 'font-light']}>

@@ -1,7 +1,7 @@
 import type { AppProps } from 'next/app';
 import { useRouter } from 'next/router';
 import Script from 'next/script';
-import React, { PropsWithChildren } from 'react';
+import React, { FC, PropsWithChildren, useEffect, useState } from 'react';
 import { FiChevronLeft, FiGithub, FiHeart } from 'react-icons/fi';
 import Box from '../components/box';
 import Image from '../components/image';
@@ -13,17 +13,17 @@ import useScreenBreakpoint from '../components/useScreenBreakpoint';
 import { getBuildId, getGoogleAnalyticsToken } from '../utils/env';
 import './globals.css';
 
-const Loader: React.FC = () => {
+const Loader: FC = () => {
   const router = useRouter();
 
-  const [isNavigating, setIsNavigating] = React.useState(false);
-  const [progress, setProgress] = React.useState(0);
+  const [isNavigating, setIsNavigating] = useState(false);
+  const [progress, setProgress] = useState(0);
 
   // Only show loading indicator if the navigation takes a while.
   // This prevents indicator from flashing during faster navigation.
   const isVisible = useDebouncedValue(isNavigating, 300);
 
-  React.useEffect(() => {
+  useEffect(() => {
     const onRouteChangeStart = () => {
       setIsNavigating(true);
       setProgress(0);
@@ -45,7 +45,7 @@ const Loader: React.FC = () => {
     };
   }, [router]);
 
-  React.useEffect(() => {
+  useEffect(() => {
     if (!isNavigating) {
       return;
     }
@@ -80,7 +80,7 @@ const Loader: React.FC = () => {
   );
 };
 
-const Header: React.FC = () => {
+const Header: FC = () => {
   const sm = useScreenBreakpoint('sm');
 
   return (
@@ -124,7 +124,7 @@ const Header: React.FC = () => {
   );
 };
 
-const MerchAdvertisement: React.FC = () => {
+const MerchAdvertisement: FC = () => {
   return (
     <Box classes={['p-2', 'bg-ukraine-yellow', 'text-center', 'text-sm']}>
       <Link href="https://merch4ukraine.org">
@@ -134,7 +134,7 @@ const MerchAdvertisement: React.FC = () => {
   );
 };
 
-const Divider: React.FC = () => {
+const Divider: FC = () => {
   const router = useRouter();
 
   if (router.route === '/') {
@@ -155,7 +155,7 @@ const Divider: React.FC = () => {
   );
 };
 
-const Main: React.FC<PropsWithChildren> = ({ children }) => {
+const Main: FC<PropsWithChildren> = ({ children }) => {
   return (
     <Box classes={['flex-grow', 'bg-white']}>
       <Box type="main" classes={['container', 'mx-auto', 'mt-6', 'mb-8', 'px-4']}>
@@ -165,7 +165,7 @@ const Main: React.FC<PropsWithChildren> = ({ children }) => {
   );
 };
 
-const Footer: React.FC = () => {
+const Footer: FC = () => {
   return (
     <Box
       type="footer"
@@ -205,7 +205,7 @@ const Footer: React.FC = () => {
   );
 };
 
-const Scripts: React.FC = () => {
+const Scripts: FC = () => {
   return (
     <>
       <Script

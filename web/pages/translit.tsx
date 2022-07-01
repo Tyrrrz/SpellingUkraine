@@ -1,16 +1,16 @@
 import classNames from 'classnames';
 import { NextPage } from 'next';
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import Box from '../components/box';
 import Link from '../components/link';
 import Meta from '../components/meta';
 import { transliterate } from '../utils/translit';
 
 const TranslitPage: NextPage = () => {
-  const [source, setSource] = React.useState('');
-  const [output, setOutput] = React.useState('');
+  const [source, setSource] = useState('');
+  const [output, setOutput] = useState('');
 
-  React.useEffect(() => setOutput(transliterate(source)), [source]);
+  useEffect(() => setOutput(transliterate(source)), [source]);
 
   return (
     <>

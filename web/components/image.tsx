@@ -1,5 +1,5 @@
 import NextImage from 'next/image';
-import React from 'react';
+import React, { FC, useState } from 'react';
 
 interface ImageProps {
   src: string;
@@ -8,9 +8,9 @@ interface ImageProps {
   height?: number;
 }
 
-const Image: React.FC<ImageProps> = ({ src, alt, width, height }) => {
-  const [actualWidth, setActualWidth] = React.useState(width || 0);
-  const [actualHeight, setActualHeight] = React.useState(height || 0);
+const Image: FC<ImageProps> = ({ src, alt, width, height }) => {
+  const [actualWidth, setActualWidth] = useState(width || 0);
+  const [actualHeight, setActualHeight] = useState(height || 0);
 
   return (
     <NextImage
