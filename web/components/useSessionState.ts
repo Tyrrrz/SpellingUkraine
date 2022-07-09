@@ -3,7 +3,11 @@ import { useEffect, useState } from 'react';
 const getStorageValue = (key: string) => {
   const item = sessionStorage.getItem(key);
   if (item) {
-    return JSON.parse(item);
+    try {
+      return JSON.parse(item);
+    } catch {
+      return null;
+    }
   }
 
   return null;
