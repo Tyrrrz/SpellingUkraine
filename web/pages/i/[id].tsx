@@ -22,7 +22,7 @@ import Section from '../../components/section';
 import Stack from '../../components/stack';
 import useSpeech from '../../components/useSpeech';
 import { getAbsoluteUrl } from '../../utils/env';
-import { withSearchParams } from '../../utils/url';
+import { formatUrlWithQuery } from '../../utils/url';
 
 const PronounceButton: React.FC<{ entry: VocabularyEntry }> = ({ entry }) => {
   const speech = useSpeech();
@@ -156,7 +156,7 @@ const LocationSection: React.FC<{ entry: VocabularyEntry }> = ({ entry }) => {
 
       <Box>
         <Link
-          href={withSearchParams('https://google.com/maps/search/', {
+          href={formatUrlWithQuery('https://google.com/maps/search/', {
             api: '1',
             query: entry.correctSpelling
           })}
@@ -199,7 +199,7 @@ const ContributeSection: React.FC<{ entry: VocabularyEntry }> = ({ entry }) => {
         </Link>
 
         <Link
-          href={withSearchParams('https://github.com/Tyrrrz/SpellingUkraine/issues/new', {
+          href={formatUrlWithQuery('https://github.com/Tyrrrz/SpellingUkraine/issues/new', {
             template: 'bug-report.yml',
             labels: 'bug',
             title: `${entry.correctSpelling}: <your issue>`,

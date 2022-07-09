@@ -12,7 +12,13 @@ export const getSiteUrl = () => {
       ? process.env.NEXT_PUBLIC_DOMAIN
       : process.env.NEXT_PUBLIC_VERCEL_URL;
 
-  if (url && !url.startsWith('http://') && !url.startsWith('https://')) {
+  // Local development
+  if (!url) {
+    return 'http://localhost:3000';
+  }
+
+  // Ensure URL starts with protocol
+  if (!url.startsWith('http://') && !url.startsWith('https://')) {
     return `https://${url}`;
   }
 
@@ -30,6 +36,7 @@ export const getAbsoluteUrl = (path: string) => {
 };
 
 export const getGoogleAnalyticsToken = () => {
+  // Never collect analytics from non-production builds
   if (getEnvironment() !== 'production') {
     return null;
   }
