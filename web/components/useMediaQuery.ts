@@ -1,10 +1,10 @@
-import React from 'react';
+import { useEffect, useState } from 'react';
 
 const useMediaQuery = (query: string) => {
   const isClientSide = typeof window !== 'undefined';
-  const [result, setResult] = React.useState<boolean>();
+  const [result, setResult] = useState<boolean>();
 
-  React.useEffect(() => {
+  useEffect(() => {
     if (!isClientSide) {
       return;
     }

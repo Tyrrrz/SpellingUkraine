@@ -1,4 +1,4 @@
-import React from 'react';
+import { useEffect, useState } from 'react';
 
 const resolveVoices = () => {
   return new Promise<SpeechSynthesisVoice[]>((resolve) => {
@@ -37,10 +37,10 @@ const speak = (text: string, voice?: SpeechSynthesisVoice) => {
 
 const useSpeech = () => {
   const isClientSide = typeof window !== 'undefined';
-  const [voice, setVoice] = React.useState<SpeechSynthesisVoice>();
-  const [isActive, setIsActive] = React.useState(false);
+  const [voice, setVoice] = useState<SpeechSynthesisVoice>();
+  const [isActive, setIsActive] = useState(false);
 
-  React.useEffect(() => {
+  useEffect(() => {
     if (!isClientSide) {
       return;
     }

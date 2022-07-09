@@ -1,7 +1,7 @@
 import classNames from 'classnames';
 import { GetStaticPaths, GetStaticProps, NextPage } from 'next';
 import { Map, Marker } from 'pigeon-maps';
-import React from 'react';
+import React, { FC } from 'react';
 import {
   FiCheck,
   FiEdit3,
@@ -24,7 +24,7 @@ import useSpeech from '../../components/useSpeech';
 import { getAbsoluteUrl } from '../../utils/env';
 import { formatUrlWithQuery } from '../../utils/url';
 
-const PronounceButton: React.FC<{ entry: VocabularyEntry }> = ({ entry }) => {
+const PronounceButton: FC<{ entry: VocabularyEntry }> = ({ entry }) => {
   const speech = useSpeech();
 
   if (!entry.transcription) {
@@ -54,7 +54,7 @@ const PronounceButton: React.FC<{ entry: VocabularyEntry }> = ({ entry }) => {
   );
 };
 
-const SpellingSection: React.FC<{ entry: VocabularyEntry }> = ({ entry }) => {
+const SpellingSection: FC<{ entry: VocabularyEntry }> = ({ entry }) => {
   if (entry.incorrectSpellings.length <= 0) {
     return null;
   }
@@ -80,7 +80,7 @@ const SpellingSection: React.FC<{ entry: VocabularyEntry }> = ({ entry }) => {
   );
 };
 
-const DescriptionSection: React.FC<{ entry: VocabularyEntry }> = ({ entry }) => {
+const DescriptionSection: FC<{ entry: VocabularyEntry }> = ({ entry }) => {
   if (!entry.description) {
     return null;
   }
@@ -98,7 +98,7 @@ const DescriptionSection: React.FC<{ entry: VocabularyEntry }> = ({ entry }) => 
   );
 };
 
-const LinksSection: React.FC<{ entry: VocabularyEntry }> = ({ entry }) => {
+const LinksSection: FC<{ entry: VocabularyEntry }> = ({ entry }) => {
   if (entry.links.length <= 0) {
     return null;
   }
@@ -130,7 +130,7 @@ const LinksSection: React.FC<{ entry: VocabularyEntry }> = ({ entry }) => {
   );
 };
 
-const LocationSection: React.FC<{ entry: VocabularyEntry }> = ({ entry }) => {
+const LocationSection: FC<{ entry: VocabularyEntry }> = ({ entry }) => {
   if (!entry.location) {
     return null;
   }
@@ -183,7 +183,7 @@ const ImageSection = ({ entry }: { entry: VocabularyEntry }) => {
   );
 };
 
-const ContributeSection: React.FC<{ entry: VocabularyEntry }> = ({ entry }) => {
+const ContributeSection: FC<{ entry: VocabularyEntry }> = ({ entry }) => {
   return (
     <Section title="Contribute">
       <Stack orientation="horizontal" wrap gap="large">

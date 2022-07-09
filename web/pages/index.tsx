@@ -1,7 +1,7 @@
 import classNames from 'classnames';
 import type { GetStaticProps, NextPage } from 'next';
 import { useRouter } from 'next/router';
-import React from 'react';
+import React, { FC, useMemo } from 'react';
 import FadeIn from 'react-fade-in';
 import {
   FiCornerDownLeft,
@@ -16,11 +16,12 @@ import { loadVocabulary, VocabularyEntry } from 'spelling-ukraine-data';
 import Box from '../components/box';
 import Link from '../components/link';
 import Stack from '../components/stack';
+import useClientOnlyValue from '../components/useClientOnlyValue';
 import useSessionState from '../components/useSessionState';
 import useVocabularySearch, { SearchResult } from '../components/useVocabularySearch';
 import { getRandomItem } from '../utils/array';
 
-const SearchResults: React.FC<{ results: SearchResult[] }> = ({ results }) => {
+const SearchResults: FC<{ results: SearchResult[] }> = ({ results }) => {
   if (results.length > 0) {
     return (
       <FadeIn className={classNames('flex', 'flex-col', 'sm:flex-row', 'flex-wrap', 'gap-4')}>
@@ -94,14 +95,16 @@ interface HomePageProps {
 const HomePage: NextPage<HomePageProps> = ({ vocabulary }) => {
   const router = useRouter();
 
-  const querySuggestion = React.useMemo(
-    () =>
-      getRandomItem(
-        vocabulary
-          .filter((entry) => entry.incorrectSpellings.length >= 2)
-          .map((entry) => entry.correctSpelling)
-      ),
-    [vocabulary]
+  const querySuggestion = useClientOnlyValue(
+    useMemo(
+      () =>
+        getRandomItem(
+          vocabulary
+            .filter((entry) => entry.incorrectSpellings.length >= 2)
+            .map((entry) => entry.correctSpelling)
+        ),
+      [vocabulary]
+    )
   );
 
   const [query, setQuery] = useSessionState('searchQuery', '');
@@ -221,18 +224,20 @@ const HomePage: NextPage<HomePageProps> = ({ vocabulary }) => {
                     or incorrect spellings too. Currently, this vocabulary contains{' '}
                     {vocabulary.length} items, all carefully reviewed by humans.
                   </Box>
-                  <Box type="p">
-                    Not sure what to search for? Try{' '}
-                    <button
-                      className={classNames('inline-block', 'hover:text-blue-500')}
-                      onClick={() => setQuery(querySuggestion)}
-                    >
-                      <Box type="span" classes={['font-semibold']}>
-                        {querySuggestion}
-                      </Box>
-                    </button>
-                    .
-                  </Box>
+                  {querySuggestion && (
+                    <Box type="p">
+                      Not sure what to search for? Try{' '}
+                      <button
+                        className={classNames('inline-block', 'hover:text-blue-500')}
+                        onClick={() => setQuery(querySuggestion)}
+                      >
+                        <Box type="span" classes={['font-semibold']}>
+                          {querySuggestion}
+                        </Box>
+                      </button>
+                      .
+                    </Box>
+                  )}
                 </Box>
 
                 <Box classes={['space-y-2']}>

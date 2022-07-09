@@ -1,4 +1,4 @@
-import React from 'react';
+import { useEffect, useState } from 'react';
 import type { VocabularyEntry } from 'spelling-ukraine-data';
 import { normalizeString } from '../utils/str';
 import useDebouncedValue from './useDebouncedValue';
@@ -54,9 +54,9 @@ const resolveResults = (vocabulary: VocabularyEntry[], query: string) => {
 
 const useVocabularySearch = (vocabulary: VocabularyEntry[], query: string) => {
   const queryDebounced = useDebouncedValue(query, 500);
-  const [results, setResults] = React.useState<SearchResult[]>([]);
+  const [results, setResults] = useState<SearchResult[]>([]);
 
-  React.useEffect(
+  useEffect(
     () => setResults(resolveResults(vocabulary, queryDebounced)),
     [vocabulary, queryDebounced]
   );

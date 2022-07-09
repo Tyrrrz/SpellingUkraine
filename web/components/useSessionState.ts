@@ -1,4 +1,4 @@
-import React from 'react';
+import { useEffect, useState } from 'react';
 
 const getStorageValue = (key: string) => {
   const item = sessionStorage.getItem(key);
@@ -15,11 +15,11 @@ const setStorageValue = (key: string, value: any) => {
 
 const useSessionState = <T>(key: string, initialState: T) => {
   const isClientSide = typeof window !== 'undefined';
-  const [value, setValue] = React.useState<T>(() =>
+  const [value, setValue] = useState<T>(() =>
     isClientSide ? getStorageValue(key) ?? initialState : initialState
   );
 
-  React.useEffect(() => {
+  useEffect(() => {
     if (!isClientSide) {
       return;
     }
