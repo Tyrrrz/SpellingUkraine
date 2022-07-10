@@ -1,12 +1,11 @@
 import classNames, { Argument as ClassName } from 'classnames';
-import { createElement, CSSProperties, FC, ReactNode } from 'react';
+import { createElement, CSSProperties, FC, PropsWithChildren } from 'react';
 
-interface BoxProps {
+type BoxProps = PropsWithChildren<{
   type?: string;
   classes?: ClassName[];
   style?: CSSProperties;
-  children?: ReactNode;
-}
+}>;
 
 const Box: FC<BoxProps> = ({ type = 'div', classes = [], style, children }) => {
   const className = classNames(classes) || undefined;

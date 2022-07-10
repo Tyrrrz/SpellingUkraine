@@ -1,12 +1,12 @@
 import NextImage from 'next/image';
 import React, { FC, useState } from 'react';
 
-interface ImageProps {
+type ImageProps = {
   src: string;
   alt: string;
   width?: number;
   height?: number;
-}
+};
 
 const Image: FC<ImageProps> = ({ src, alt, width, height }) => {
   const [actualWidth, setActualWidth] = useState(width || 0);

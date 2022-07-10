@@ -1,13 +1,12 @@
-import { FC, ReactNode } from 'react';
+import { FC, PropsWithChildren } from 'react';
 import Box from './box';
 
-interface StackProps {
+type StackProps = PropsWithChildren<{
   orientation?: 'horizontal' | 'vertical';
   wrap?: boolean;
   align?: 'top' | 'center' | 'bottom';
   gap?: 'small' | 'medium' | 'large';
-  children?: ReactNode;
-}
+}>;
 
 const Stack: FC<StackProps> = ({
   orientation = 'vertical',

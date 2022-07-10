@@ -220,9 +220,9 @@ const ContributeSection: FC<{ entry: VocabularyEntry }> = ({ entry }) => {
   );
 };
 
-interface EntryPageProps {
+type EntryPageProps = {
   entry: VocabularyEntry;
-}
+};
 
 const EntryPage: NextPage<EntryPageProps> = ({ entry }) => {
   return (

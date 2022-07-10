@@ -2,7 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import { getRootDirPath } from './utils/path';
 
-export interface VocabularyEntry {
+export type VocabularyEntry = {
   id: string;
   path: string;
 
@@ -31,7 +31,7 @@ export interface VocabularyEntry {
     name: string;
     url: string;
   };
-}
+};
 
 export const loadVocabulary = () => {
   const dirPath = path.resolve(getRootDirPath(), 'data', 'vocabulary');

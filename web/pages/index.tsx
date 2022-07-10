@@ -88,9 +88,9 @@ const SearchResults: FC<{ results: SearchResult[] }> = ({ results }) => {
   );
 };
 
-interface HomePageProps {
+type HomePageProps = {
   vocabulary: VocabularyEntry[];
-}
+};
 
 const HomePage: NextPage<HomePageProps> = ({ vocabulary }) => {
   const router = useRouter();

@@ -15,22 +15,22 @@ const unpromise = async <T>(promise: Promise<T>) => {
   return result as Omit<T, 'then' | 'catch' | 'finally'>;
 };
 
-export interface Submission {
+export type Submission = {
   kind: 'submission';
   id: string;
   url: string;
   author: string;
   title: string;
   text: string;
-}
+};
 
-export interface Comment {
+export type Comment = {
   kind: 'comment';
   id: string;
   url: string;
   author: string;
   text: string;
-}
+};
 
 export type Content = Submission | Comment;
 

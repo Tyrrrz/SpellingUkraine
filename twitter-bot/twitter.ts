@@ -7,11 +7,11 @@ const twitterApp = new TwitterApi(getTwitterCredentials().bearerToken).readOnly.
 // Account-related actions require user-context authentication
 const twitterBot = new TwitterApi(getTwitterCredentials()).readWrite.v2;
 
-export interface Tweet {
+export type Tweet = {
   id: string;
   url: string;
   text: string;
-}
+};
 
 export const getTweetUrl = (id: string) => `https://twitter.com/i/web/status/${id}`;
 

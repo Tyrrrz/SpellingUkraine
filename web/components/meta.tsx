@@ -2,12 +2,12 @@ import Head from 'next/head';
 import { FC } from 'react';
 import { getAbsoluteUrl } from '../utils/env';
 
-interface MetaProps {
+type MetaProps = {
   title?: string;
   description?: string;
   keywords?: string[];
   imageUrl?: string;
-}
+};
 
 const Meta: FC<MetaProps> = ({ title, description, keywords, imageUrl }) => {
   const siteName = 'Spelling Ukraine';

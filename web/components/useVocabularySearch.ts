@@ -3,11 +3,11 @@ import type { VocabularyEntry } from 'spelling-ukraine-data';
 import { normalizeString } from '../utils/str';
 import useDebouncedValue from './useDebouncedValue';
 
-export interface SearchResult {
+export type SearchResult = {
   entry: VocabularyEntry;
   match: string;
   relevance: number;
-}
+};
 
 // TODO: Use a trie or something
 const resolveResults = (vocabulary: VocabularyEntry[], query: string) => {

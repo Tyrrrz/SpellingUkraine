@@ -1,14 +1,13 @@
 import classNames from 'classnames';
 import NextLink from 'next/link';
-import { FC, ReactNode } from 'react';
+import { FC, PropsWithChildren } from 'react';
 
-interface LinkProps {
+type LinkProps = PropsWithChildren<{
   href: string;
   emphasize?: boolean;
-  children?: ReactNode;
-}
+}>;
 
-const Link: FC<LinkProps> = ({ href, emphasize = true, children, ...props }) => {
+const Link: FC<LinkProps> = ({ href, emphasize = true, children }) => {
   const isAbsolute = /^[a-z][a-z\d+\-.]*:/iu.test(href);
 
   const className = classNames('hover:text-blue-500', 'inline', {
@@ -17,16 +16,14 @@ const Link: FC<LinkProps> = ({ href, emphasize = true, children, ...props }) => 
 
   if (isAbsolute) {
     return (
-      <a {...props} className={className} href={href} target="_blank" rel="noreferrer">
+      <a className={className} href={href} target="_blank" rel="noreferrer">
         {children}
       </a>
     );
   } else {
     return (
       <NextLink href={href} passHref>
-        <a {...props} className={className}>
-          {children}
-        </a>
+        <a className={className}>{children}</a>
       </NextLink>
     );
   }
