@@ -1,0 +1,35 @@
+name: Reddit Bot
+
+on:
+  schedule:
+    - cron: '*/15 * * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    strategy:
+      fail-fast: true
+      max-parallel: 1
+      matrix:
+        subreddit: [ukraine, ukraina, ukrainianconflict, ukraineconflict, yurop]
+
+    steps:
+      - name: Get timestamp
+        id: get-timestamp
+        run: echo "::set-output name=timestamp::$(date +%s --date '-15 min')"
+
+      - name: Trigger check
+        uses: satak/webrequest-action@v1.2.4
+        with:
+          url: ${{ secrets.REDDIT_CHECK_WEBHOOK_URL }}
+          method: POST
+          headers: |
+            {
+              "Content-Type": "application/json; charset=UTF-8"
+            }
+          payload: |
+            {
+              "subreddit": "${{ matrix.subreddit }}",
+              "after": ${{ get-timestamp.outputs.timestamp }}
+            }

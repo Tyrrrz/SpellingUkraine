@@ -16,7 +16,7 @@ const resolveResults = (vocabulary: VocabularyEntry[], query: string) => {
   }
 
   const results: SearchResult[] = [];
-  const queryNormalized = normalizeString(query);
+  const normalizedQuery = normalizeString(query);
 
   for (const entry of vocabulary) {
     const spellings = [
@@ -27,16 +27,16 @@ const resolveResults = (vocabulary: VocabularyEntry[], query: string) => {
     ];
 
     for (const spelling of spellings) {
-      const spellingNormalized = normalizeString(spelling);
-      if (!spellingNormalized.includes(queryNormalized)) {
+      const normalizedSpelling = normalizeString(spelling);
+      if (!normalizedSpelling.includes(normalizedQuery)) {
         continue;
       }
 
       // Relevance is determined by how many characters are matched
       // and how close to the beginning the match happened.
       const relevance =
-        queryNormalized.length / spellingNormalized.length -
-        spellingNormalized.indexOf(queryNormalized) / spellingNormalized.length;
+        normalizedQuery.length / normalizedSpelling.length -
+        normalizedSpelling.indexOf(normalizedQuery) / normalizedSpelling.length;
 
       results.push({
         entry,
