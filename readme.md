@@ -47,6 +47,6 @@ To start the Twitter bot, run:
 yarn start:twitter-bot
 ```
 
-## Contributing to the vocabulary
+## Contributing
 
-Read the instructions [here](data/vocabulary).
+Read [the instructions](data/vocabulary) on how to add or update vocabulary entries.
