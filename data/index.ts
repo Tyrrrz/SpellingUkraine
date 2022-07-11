@@ -37,7 +37,7 @@ export const loadVocabulary = () => {
     console.log(file);
   });
 
-  const dirPath = path.resolve(process.cwd(), 'data', 'vocabulary');
+  const dirPath = path.resolve(process.cwd(), '..', 'data', 'vocabulary');
 
   return fs
     .readdirSync(dirPath, { withFileTypes: true })
