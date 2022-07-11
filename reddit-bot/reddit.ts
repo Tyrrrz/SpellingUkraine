@@ -112,8 +112,8 @@ export const postReply = async (content: Content, text: string) => {
   };
 
   const postReplyToComment = async ({ id }: Comment) => {
-    const submission = await unpromise(reddit.getComment(id));
-    const { id: replyId } = await unpromise(submission.reply(text));
+    const comment = await unpromise(reddit.getComment(id));
+    const { id: replyId } = await unpromise(comment.reply(text));
     return await unpromise(reddit.getComment(replyId));
   };
 
