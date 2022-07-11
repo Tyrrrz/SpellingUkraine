@@ -10,42 +10,9 @@
 **SpellingUkraine** is a project that aims to promote the correct spelling of Ukrainian place names, personal names, and other words in English.
 It's comprised of a website where you can quickly look up how to write individual names, as well as a set of bots that detect typical spelling mistakes online and correct them automatically.
 
-## Production
-
-- 🌐 Web app: [`https://spellingukraine.com`](https://spellingukraine.com) (hosted on [Vercel](https://vercel.com/tyrrrz/spellingukraine))
-- 🤖 Reddit bot: [`/u/SpellingUkraine`](https://reddit.com/u/SpellingUkraine) (hosted on [Heroku](https://dashboard.heroku.com/apps/spellingukraine))
-- 🤖 Twitter bot: [`@SpellingUkraine`](https://twitter.com/SpellingUkraine) (hosted on [Heroku](https://dashboard.heroku.com/apps/spellingukraine))
-
-## Development
-
-Prerequisites:
-
-- NodeJS
-- Yarn
-
-Before doing anything, install dependencies by running:
-
-```
-yarn install
-```
-
-To start the web app, run:
-
-```
-yarn start:web
-```
-
-To start the Reddit bot, run:
-
-```
-yarn start:reddit-bot
-```
-
-To start the Twitter bot, run:
-
-```
-yarn start:twitter-bot
-```
+- 🌐 Web app: [`https://spellingukraine.com`](https://spellingukraine.com)
+- 🤖 Reddit bot: [`/u/SpellingUkraine`](https://reddit.com/u/SpellingUkraine)
+- 🤖 Twitter bot: [`@SpellingUkraine`](https://twitter.com/SpellingUkraine)
 
 ## Contributing
 

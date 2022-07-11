@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import { FC } from 'react';
-import { getAbsoluteUrl } from '../utils/env';
+import { getSiteUrl } from '../utils/env';
 
 type MetaProps = {
   title?: string;
@@ -39,7 +39,7 @@ const Meta: FC<MetaProps> = ({ title, description, keywords, imageUrl }) => {
       <meta property="og:site_name" content={siteName} />
       <meta property="og:title" content={actualTitle} />
       <meta property="og:description" content={actualDescription} />
-      <meta property="og:image" content={getAbsoluteUrl(actualImageUrl)} />
+      <meta property="og:image" content={getSiteUrl(actualImageUrl)} />
 
       <meta name="twitter:title" content={actualTitle} />
       <meta name="twitter:creator" content="@Tyrrrz" />

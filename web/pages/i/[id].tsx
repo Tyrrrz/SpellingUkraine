@@ -21,7 +21,7 @@ import Meta from '../../components/meta';
 import Section from '../../components/section';
 import Stack from '../../components/stack';
 import useSpeech from '../../components/useSpeech';
-import { getAbsoluteUrl } from '../../utils/env';
+import { getSiteUrl } from '../../utils/env';
 import { formatUrlWithQuery } from '../../utils/url';
 
 const PronounceButton: FC<{ entry: VocabularyEntry }> = ({ entry }) => {
@@ -203,7 +203,7 @@ const ContributeSection: FC<{ entry: VocabularyEntry }> = ({ entry }) => {
             template: 'bug-report.yml',
             labels: 'bug',
             title: `${entry.correctSpelling}: <your issue>`,
-            details: `Issue related to entry: [${entry.correctSpelling}](${getAbsoluteUrl(
+            details: `Issue related to entry: [${entry.correctSpelling}](${getSiteUrl(
               `/i/${entry.id}`
             )})`
           })}

@@ -15,17 +15,17 @@ export const getBuildId = () => {
   return value;
 };
 
-export const getSiteUrl = () => {
+export const getSiteUrl = (path?: string) => {
   const value = process.env.SITE_URL;
   if (!value) {
     throw new Error(`Environment variable 'SITE_URL' is not defined`);
   }
 
-  return value;
-};
+  if (path) {
+    return new URL(path, value).toString();
+  }
 
-export const getAbsoluteUrl = (path: string) => {
-  return new URL(path, getSiteUrl()).toString();
+  return value;
 };
 
 export const getGoogleAnalyticsId = () => {
