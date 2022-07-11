@@ -1,6 +1,5 @@
 import fs from 'fs';
 import path from 'path';
-import { getRootDirPath } from './utils/path';
 
 export type VocabularyEntry = {
   id: string;
@@ -34,7 +33,11 @@ export type VocabularyEntry = {
 };
 
 export const loadVocabulary = () => {
-  const dirPath = path.resolve(getRootDirPath(), 'data', 'vocabulary');
+  fs.readdirSync(process.cwd()).forEach((file) => {
+    console.log(file);
+  });
+
+  const dirPath = path.resolve(process.cwd(), 'data', 'vocabulary');
 
   return fs
     .readdirSync(dirPath, { withFileTypes: true })
