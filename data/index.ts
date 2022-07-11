@@ -60,9 +60,8 @@ export const loadVocabulary = () => {
 
 export const loadVocabularyEntry = (id: string) => {
   const entry = loadVocabulary().find((entry) => entry.id === id);
-
   if (!entry) {
-    throw new Error(`Vocabulary entry with ID '${id}' not found`);
+    throw new Error(`Vocabulary entry '${id}' not found`);
   }
 
   return entry;

@@ -1,7 +1,7 @@
 import type { AppProps } from 'next/app';
 import { useRouter } from 'next/router';
 import Script from 'next/script';
-import React, { FC, PropsWithChildren, useEffect, useState } from 'react';
+import React, { FC, PropsWithChildren, ReactNode, useEffect, useState } from 'react';
 import { FiChevronLeft, FiGithub, FiHeart } from 'react-icons/fi';
 import Box from '../components/box';
 import Image from '../components/image';
@@ -10,7 +10,7 @@ import Meta from '../components/meta';
 import Stack from '../components/stack';
 import useDebouncedValue from '../components/useDebouncedValue';
 import useScreenBreakpoint from '../components/useScreenBreakpoint';
-import { getBuildId, getGoogleAnalyticsToken } from '../utils/env';
+import { getBuildId, getGoogleAnalyticsId, isProduction } from '../utils/env';
 import './globals.css';
 
 const Loader: FC = () => {
@@ -206,24 +206,29 @@ const Footer: FC = () => {
 };
 
 const Scripts: FC = () => {
-  return (
-    <>
+  const scripts: ReactNode[] = [];
+
+  // Google Analytics (production build only)
+  const googleAnalyticsId = getGoogleAnalyticsId();
+  if (googleAnalyticsId && isProduction()) {
+    scripts.push(
       <Script
-        src={`https://www.googletagmanager.com/gtag/js?id=${getGoogleAnalyticsToken()}`}
+        src={`https://www.googletagmanager.com/gtag/js?id=${googleAnalyticsId}`}
         strategy="afterInteractive"
-      />
+      />,
 
       <Script id="google-analytics" strategy="afterInteractive">
         {`
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){window.dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', '${getGoogleAnalyticsToken()}');
-  `}
+window.dataLayer = window.dataLayer || [];
+function gtag(){window.dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', '${googleAnalyticsId}');
+`}
       </Script>
-    </>
-  );
+    );
+  }
+
+  return <>{scripts}</>;
 };
 
 const App = ({ Component, pageProps }: AppProps) => {

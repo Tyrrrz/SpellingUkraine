@@ -1,5 +1,4 @@
 const { spawnSync } = require('child_process');
-const webpack = require('webpack');
 const withPlugins = require('next-compose-plugins');
 const withPWA = require('next-pwa');
 const withTM = require('next-transpile-modules');
@@ -13,21 +12,17 @@ const nextConfig = {
     domains: ['upload.wikimedia.org']
   },
 
-  generateBuildId: () => {
-    const gitHash = spawnSync('git', ['rev-parse', '--short', 'HEAD']).stdout.toString().trim();
-    const gitTag = spawnSync('git', ['tag', '--points-at', 'HEAD']).stdout.toString().trim();
+  env: {
+    BUILD_ID: [
+      spawnSync('git', ['rev-parse', '--short', 'HEAD']).stdout.toString().trim(),
+      spawnSync('git', ['tag', '--points-at', 'HEAD']).stdout.toString().trim()
+    ]
+      .filter(Boolean)
+      .join('-'),
 
-    return [gitHash, gitTag].filter(Boolean).join('-');
-  },
+    SITE_URL: process.env.SITE_URL || process.env.VERCEL_URL || 'http://localhost:3000',
 
-  webpack: (config, options) => {
-    config.plugins.push(
-      new webpack.DefinePlugin({
-        'process.env.NEXT_PUBLIC_BUILD_ID': JSON.stringify(options.buildId)
-      })
-    );
-
-    return config;
+    GOOGLE_ANALYTICS_ID: process.env.GOOGLE_ANALYTICS_ID
   }
 };
 

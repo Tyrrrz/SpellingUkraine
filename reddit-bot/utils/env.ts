@@ -1,11 +1,22 @@
 export const getRedditCredentials = () => {
   const clientId = process.env.REDDIT_APP_KEY;
-  const clientSecret = process.env.REDDIT_APP_SECRET;
-  const username = process.env.REDDIT_ACCESS_TOKEN;
-  const password = process.env.REDDIT_ACCESS_SECRET;
+  if (!clientId) {
+    throw new Error(`Environment variable 'REDDIT_APP_KEY' is not defined`);
+  }
 
-  if (!clientId || !clientSecret || !username || !password) {
-    throw new Error('Reddit credentials are missing');
+  const clientSecret = process.env.REDDIT_APP_SECRET;
+  if (!clientSecret) {
+    throw new Error(`Environment variable 'REDDIT_APP_SECRET' is not defined`);
+  }
+
+  const username = process.env.REDDIT_ACCESS_TOKEN;
+  if (!username) {
+    throw new Error(`Environment variable 'REDDIT_ACCESS_TOKEN' is not defined`);
+  }
+
+  const password = process.env.REDDIT_ACCESS_SECRET;
+  if (!password) {
+    throw new Error(`Environment variable 'REDDIT_ACCESS_SECRET' is not defined`);
   }
 
   return {

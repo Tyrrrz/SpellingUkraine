@@ -33,7 +33,7 @@ const main = async () => {
   await Promise.all(
     subreddits.map(async (subreddit) => {
       // Random stagger to avoid hitting the API for each subreddit at the same time
-      await delay(60 * Math.random() * 1000);
+      await delay(Math.random() * 60 * 1000); // 0-60 seconds
 
       await listenToContent(subreddit, async (content) => {
         if (content.author === 'SpellingUkraine') {

@@ -62,7 +62,7 @@ export const listenToPosts = async (
     }
 
     // Request new content with delay
-    await delay(1 * 60 * 1000);
+    await delay(1 * 60 * 1000); // 1 minute
   }
 };
 
@@ -93,7 +93,7 @@ export const listenToComments = async (
     }
 
     // Request new content with delay
-    await delay(1 * 60 * 1000);
+    await delay(1 * 60 * 1000); // 1 minute
   }
 };
 
