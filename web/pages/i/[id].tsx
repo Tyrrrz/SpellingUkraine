@@ -224,6 +224,10 @@ type EntryPageProps = {
   entry: VocabularyEntry;
 };
 
+type EntryPageParameters = {
+  id: string;
+};
+
 const EntryPage: NextPage<EntryPageProps> = ({ entry }) => {
   return (
     <>
@@ -267,24 +271,24 @@ const EntryPage: NextPage<EntryPageProps> = ({ entry }) => {
   );
 };
 
-export const getStaticPaths: GetStaticPaths = async () => {
+export const getStaticPaths: GetStaticPaths<EntryPageParameters> = async () => {
   const ids: string[] = [];
   for await (const entry of loadVocabulary()) {
     ids.push(entry.id);
   }
 
   return {
-    paths: ids.map((id) => ({
-      params: { id }
-    })),
+    paths: ids.map((id) => ({ params: { id } })),
     fallback: false
   };
 };
 
-export const getStaticProps: GetStaticProps<EntryPageProps> = async ({ params }) => {
+export const getStaticProps: GetStaticProps<EntryPageProps, EntryPageParameters> = async ({
+  params
+}) => {
   const { id } = params || {};
-  if (!id || typeof id !== 'string') {
-    throw new Error('Missing or invalid vocabulary entry ID');
+  if (!id) {
+    throw new Error('Missing vocabulary entry ID');
   }
 
   return {
