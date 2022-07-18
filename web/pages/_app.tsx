@@ -1,15 +1,15 @@
 import type { AppProps } from 'next/app';
 import { useRouter } from 'next/router';
 import Script from 'next/script';
-import React, { FC, PropsWithChildren, ReactNode, useEffect, useState } from 'react';
+import { FC, PropsWithChildren, ReactNode, useEffect, useState } from 'react';
 import { FiChevronLeft, FiGithub, FiHeart } from 'react-icons/fi';
 import Box from '../components/box';
 import Image from '../components/image';
 import Link from '../components/link';
 import Meta from '../components/meta';
 import Stack from '../components/stack';
-import useDebouncedValue from '../components/useDebouncedValue';
-import useScreenBreakpoint from '../components/useScreenBreakpoint';
+import useDebouncedValue from '../hooks/useDebouncedValue';
+import useScreenBreakpoint from '../hooks/useScreenBreakpoint';
 import { getBuildId, getGoogleAnalyticsId, isProduction } from '../utils/env';
 import './globals.css';
 

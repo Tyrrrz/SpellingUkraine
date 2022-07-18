@@ -1,7 +1,7 @@
 import classNames from 'classnames';
 import { GetStaticPaths, GetStaticProps, NextPage } from 'next';
 import { Map, Marker } from 'pigeon-maps';
-import React, { FC } from 'react';
+import { FC } from 'react';
 import {
   FiCheck,
   FiEdit3,
@@ -20,7 +20,7 @@ import Link from '../../components/link';
 import Meta from '../../components/meta';
 import Section from '../../components/section';
 import Stack from '../../components/stack';
-import useSpeech from '../../components/useSpeech';
+import useSpeech from '../../hooks/useSpeech';
 import { getSiteUrl } from '../../utils/env';
 import { formatUrlWithQuery } from '../../utils/url';
 

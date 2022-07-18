@@ -1,7 +1,7 @@
 import classNames from 'classnames';
 import type { GetStaticProps, NextPage } from 'next';
 import { useRouter } from 'next/router';
-import React, { FC, useMemo } from 'react';
+import { FC, useMemo } from 'react';
 import FadeIn from 'react-fade-in';
 import {
   FiCornerDownLeft,
@@ -16,9 +16,9 @@ import { loadVocabulary, VocabularyEntry } from 'spelling-ukraine-data';
 import Box from '../components/box';
 import Link from '../components/link';
 import Stack from '../components/stack';
-import useClientOnlyValue from '../components/useClientOnlyValue';
-import useSessionState from '../components/useSessionState';
-import useVocabularySearch, { SearchResult } from '../components/useVocabularySearch';
+import useClientOnlyValue from '../hooks/useClientOnlyValue';
+import useSessionState from '../hooks/useSessionState';
+import useVocabularySearch, { SearchResult } from '../hooks/useVocabularySearch';
 import { getRandomItem } from '../utils/array';
 
 const SearchResults: FC<{ results: SearchResult[] }> = ({ results }) => {
