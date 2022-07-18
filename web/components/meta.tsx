@@ -20,7 +20,7 @@ const Meta: FC<MetaProps> = ({ title, description, keywords, imageUrl }) => {
 
   const actualKeywords = (keywords || ['spelling', 'ukraine', 'english']).join(',');
 
-  const actualImageUrl = imageUrl || '/logo.png';
+  const actualImageUrl = getSiteUrl(imageUrl || '/logo.png');
 
   return (
     <Head>
@@ -39,7 +39,7 @@ const Meta: FC<MetaProps> = ({ title, description, keywords, imageUrl }) => {
       <meta property="og:site_name" content={siteName} />
       <meta property="og:title" content={actualTitle} />
       <meta property="og:description" content={actualDescription} />
-      <meta property="og:image" content={getSiteUrl(actualImageUrl)} />
+      <meta property="og:image" content={actualImageUrl} />
 
       <meta name="twitter:title" content={actualTitle} />
       <meta name="twitter:creator" content="@Tyrrrz" />
