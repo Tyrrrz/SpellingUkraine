@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import { FC } from 'react';
-import { getSiteUrl } from '../utils/env';
+import { getBuildId, getSiteUrl } from '../utils/env';
 
 type MetaProps = {
   title?: string;
@@ -11,6 +11,8 @@ type MetaProps = {
 
 const Meta: FC<MetaProps> = ({ title, description, keywords, imageUrl }) => {
   const siteName = 'Spelling Ukraine';
+
+  const buildId = getBuildId();
 
   const actualTitle = title ? title + ' • ' + siteName : siteName;
 
@@ -31,6 +33,7 @@ const Meta: FC<MetaProps> = ({ title, description, keywords, imageUrl }) => {
       <link rel="manifest" href="/manifest.json" />
 
       <meta name="application-name" content={siteName} />
+      <meta name="build-id" content={buildId} />
       <meta name="description" content={actualDescription} />
       <meta name="keywords" content={actualKeywords} />
       <meta name="theme-color" content="#facc15" />
