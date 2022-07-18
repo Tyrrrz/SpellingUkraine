@@ -155,7 +155,7 @@ const Divider: FC = () => {
   );
 };
 
-const Main: FC<PropsWithChildren<{}>> = ({ children }) => {
+const Main: FC<PropsWithChildren> = ({ children }) => {
   return (
     <Box classes={['flex-grow', 'bg-white']}>
       <Box type="main" classes={['container', 'mx-auto', 'mt-6', 'mb-8', 'px-4']}>
