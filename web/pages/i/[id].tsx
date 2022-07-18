@@ -267,21 +267,29 @@ const EntryPage: NextPage<EntryPageProps> = ({ entry }) => {
   );
 };
 
-export const getStaticPaths: GetStaticPaths = () => {
+export const getStaticPaths: GetStaticPaths = async () => {
+  const ids: string[] = [];
+  for await (const entry of loadVocabulary()) {
+    ids.push(entry.id);
+  }
+
   return {
-    paths: loadVocabulary().map((entry) => ({
-      params: { id: entry.id }
+    paths: ids.map((id) => ({
+      params: { id }
     })),
     fallback: false
   };
 };
 
-export const getStaticProps: GetStaticProps<EntryPageProps> = ({ params }) => {
-  const id = params?.id as string;
+export const getStaticProps: GetStaticProps<EntryPageProps> = async ({ params }) => {
+  const { id } = params || {};
+  if (!id || typeof id !== 'string') {
+    throw new Error('Missing or invalid vocabulary entry ID');
+  }
 
   return {
     props: {
-      entry: loadVocabularyEntry(id)
+      entry: await loadVocabularyEntry(id)
     }
   };
 };

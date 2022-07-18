@@ -299,10 +299,15 @@ const HomePage: NextPage<HomePageProps> = ({ vocabulary }) => {
   );
 };
 
-export const getStaticProps: GetStaticProps<HomePageProps> = () => {
+export const getStaticProps: GetStaticProps<HomePageProps> = async () => {
+  const vocabulary: VocabularyEntry[] = [];
+  for await (const entry of loadVocabulary()) {
+    vocabulary.push(entry);
+  }
+
   return {
     props: {
-      vocabulary: loadVocabulary()
+      vocabulary
     }
   };
 };
