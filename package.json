@@ -10,6 +10,6 @@
   "scripts": {
     "start:reddit-bot": "cd reddit-bot && yarn run start",
     "start:twitter-bot": "cd twitter-bot && yarn run start",
-    "start:web": "cd web && yarn run dev"
+    "start:web": "cd web && yarn run start"
   }
 }
