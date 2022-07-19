@@ -1,7 +1,8 @@
 import type { AppProps } from 'next/app';
 import { useRouter } from 'next/router';
 import Script from 'next/script';
-import { FC, PropsWithChildren, ReactNode, useEffect, useState } from 'react';
+import { FC, PropsWithChildren, ReactNode, useEffect, useMemo, useState } from 'react';
+import FadeIn from 'react-fade-in';
 import { FiChevronLeft, FiGithub, FiHeart } from 'react-icons/fi';
 import Box from '../components/box';
 import Image from '../components/image';
@@ -156,10 +157,13 @@ const Divider: FC = () => {
 };
 
 const Main: FC<PropsWithChildren> = ({ children }) => {
+  // Ensure that fade-in triggers each time the content changes
+  const key = useMemo(() => Math.random() * (children?.toString()?.length || 17), [children]);
+
   return (
     <Box classes={['flex-grow', 'bg-white']}>
       <Box type="main" classes={['container', 'mx-auto', 'mt-6', 'mb-8', 'px-4']}>
-        {children}
+        <FadeIn key={key}>{children}</FadeIn>
       </Box>
     </Box>
   );

@@ -67,24 +67,22 @@ const SearchResults: FC<{ results: SearchResult[] }> = ({ results }) => {
   }
 
   return (
-    <FadeIn>
-      <Box>
-        <Box classes={['text-xl']}>
-          <Stack orientation="horizontal" gap="medium">
-            <Box>No results found</Box>
-            <FiFrown />
-          </Stack>
-        </Box>
-
-        <Box classes={['text-lg', 'font-light']}>
-          If you believe this entry should be added to the vocabulary, please{' '}
-          <Link href="https://github.com/Tyrrrz/SpellingUkraine/tree/master/data/vocabulary">
-            submit a pull request
-          </Link>
-          .
-        </Box>
+    <Box>
+      <Box classes={['text-xl']}>
+        <Stack orientation="horizontal" gap="medium">
+          <Box>No results found</Box>
+          <FiFrown />
+        </Stack>
       </Box>
-    </FadeIn>
+
+      <Box classes={['text-lg', 'font-light']}>
+        If you believe this entry should be added to the vocabulary, please{' '}
+        <Link href="https://github.com/Tyrrrz/SpellingUkraine/tree/master/data/vocabulary">
+          submit a pull request
+        </Link>
+        .
+      </Box>
+    </Box>
   );
 };
 
@@ -196,10 +194,10 @@ const HomePage: NextPage<HomePageProps> = ({ vocabulary }) => {
 
       {!search.isProcessing && (
         <Box classes={['mt-10']}>
-          {query ? (
-            <SearchResults results={search.results} />
-          ) : (
-            <FadeIn>
+          <FadeIn>
+            {query ? (
+              <SearchResults results={search.results} />
+            ) : (
               <Box classes={['space-y-4', 'text-lg']}>
                 <Box classes={['space-y-2']}>
                   <Box
@@ -291,8 +289,8 @@ const HomePage: NextPage<HomePageProps> = ({ vocabulary }) => {
                   </Box>
                 </Box>
               </Box>
-            </FadeIn>
-          )}
+            )}
+          </FadeIn>
         </Box>
       )}
     </>
