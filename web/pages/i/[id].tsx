@@ -224,7 +224,7 @@ type EntryPageProps = {
   entry: VocabularyEntry;
 };
 
-type EntryPageParameters = {
+type EntryPageParams = {
   id: string;
 };
 
@@ -271,7 +271,7 @@ const EntryPage: NextPage<EntryPageProps> = ({ entry }) => {
   );
 };
 
-export const getStaticPaths: GetStaticPaths<EntryPageParameters> = async () => {
+export const getStaticPaths: GetStaticPaths<EntryPageParams> = async () => {
   const ids: string[] = [];
   for await (const entry of loadVocabulary()) {
     ids.push(entry.id);
@@ -283,7 +283,7 @@ export const getStaticPaths: GetStaticPaths<EntryPageParameters> = async () => {
   };
 };
 
-export const getStaticProps: GetStaticProps<EntryPageProps, EntryPageParameters> = async ({
+export const getStaticProps: GetStaticProps<EntryPageProps, EntryPageParams> = async ({
   params
 }) => {
   const { id } = params || {};
