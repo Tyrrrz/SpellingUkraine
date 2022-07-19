@@ -2,7 +2,8 @@ import { useEffect, useState } from 'react';
 
 const getStorageValue = (key: string) => {
   const item = sessionStorage.getItem(key);
-  if (item) {
+
+  if (typeof item !== 'undefined' && item !== null) {
     try {
       return JSON.parse(item);
     } catch {
