@@ -10,7 +10,6 @@ import Link from '../components/link';
 import Meta from '../components/meta';
 import Stack from '../components/stack';
 import useDebouncedValue from '../hooks/useDebouncedValue';
-import useScreenBreakpoint from '../hooks/useScreenBreakpoint';
 import { getBuildId, getGoogleAnalyticsId, isProduction } from '../utils/env';
 import './globals.css';
 
@@ -82,8 +81,6 @@ const Loader: FC = () => {
 };
 
 const Header: FC = () => {
-  const sm = useScreenBreakpoint('sm');
-
   return (
     <Link href="/">
       <Box classes={['border-b', 'bg-white', 'hover:bg-neutral-50']}>
@@ -101,7 +98,7 @@ const Header: FC = () => {
             'text-neutral-900'
           ]}
         >
-          <Box style={{ width: sm ? '96px' : '64px', height: sm ? '96px' : '64px' }}>
+          <Box classes={['w-[64px]', 'sm:w-[96px]']}>
             <Image src="/logo.svg" alt="Spelling Ukraine" priority />
           </Box>
 
