@@ -1,14 +1,15 @@
 import NextImage from 'next/image';
-import React, { FC, useState } from 'react';
+import { FC, useState } from 'react';
 
 type ImageProps = {
   src: string;
   alt: string;
   width?: number;
   height?: number;
+  priority?: boolean;
 };
 
-const Image: FC<ImageProps> = ({ src, alt, width, height }) => {
+const Image: FC<ImageProps> = ({ src, alt, width, height, priority }) => {
   const [actualWidth, setActualWidth] = useState(width || 0);
   const [actualHeight, setActualHeight] = useState(height || 0);
 
@@ -18,6 +19,7 @@ const Image: FC<ImageProps> = ({ src, alt, width, height }) => {
       alt={alt}
       width={actualWidth}
       height={actualHeight}
+      priority={priority}
       layout={width || height ? 'intrinsic' : 'responsive'}
       onLoadingComplete={(e) => {
         const ratio = e.naturalWidth / e.naturalHeight;

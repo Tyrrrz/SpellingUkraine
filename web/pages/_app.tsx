@@ -102,7 +102,7 @@ const Header: FC = () => {
           ]}
         >
           <Box style={{ width: sm ? '96px' : '64px', height: sm ? '96px' : '64px' }}>
-            <Image src="/logo.svg" alt="Spelling Ukraine" />
+            <Image src="/logo.svg" alt="Spelling Ukraine" priority />
           </Box>
 
           <Box classes={['w-px', 'h-12', 'sm:h-16', 'bg-neutral-600']} />
