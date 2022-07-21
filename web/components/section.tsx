@@ -8,12 +8,10 @@ type SectionProps = PropsWithChildren<{
 const Section: FC<SectionProps> = ({ title, children }) => {
   return (
     <Box>
-      <Box classes={['flex', 'my-2', 'items-center', 'gap-2', 'text-lg', 'font-light']}>
+      <Box classes={['flex', 'my-2', 'items-center', 'gap-2']}>
         <Box classes={['w-5', 'h-px', 'bg-neutral-400']} />
-
-        <Box>{title}</Box>
-
-        <Box classes={['flex-grow', 'h-px', 'bg-neutral-400']} />
+        <Box classes={['text-lg', 'font-light']}>{title}</Box>
+        <Box classes={['grow', 'h-px', 'bg-neutral-400']} />
       </Box>
 
       <Box>{children}</Box>
