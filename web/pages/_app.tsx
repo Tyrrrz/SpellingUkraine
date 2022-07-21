@@ -6,7 +6,6 @@ import FadeIn from 'react-fade-in';
 import { FiChevronLeft, FiGithub, FiHeart } from 'react-icons/fi';
 import Box from '../components/box';
 import Image from '../components/image';
-import Link from '../components/link';
 import Meta from '../components/meta';
 import RawLink from '../components/rawlink';
 import Stack from '../components/stack';
@@ -144,13 +143,13 @@ const Breadcrumb: FC = () => {
 
   return (
     <Box classes={['border-y', 'bg-neutral-100']}>
-      <Box classes={['container', 'mx-auto', 'my-3', 'px-4']}>
-        <Link href="/">
+      <Box classes={['container', 'mx-auto', 'my-3', 'px-4', 'hover:text-ukraine-blue']}>
+        <RawLink href="/">
           <Stack orientation="horizontal" gap="medium">
             <FiChevronLeft />
             <Box>Home</Box>
           </Stack>
-        </Link>
+        </RawLink>
       </Box>
     </Box>
   );
