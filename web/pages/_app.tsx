@@ -80,9 +80,9 @@ const Loader: FC = () => {
   );
 };
 
-const Header: FC = () => {
+const Nav: FC = () => {
   return (
-    <Link href="/">
+    <Link href="/" emphasize={false}>
       <Box classes={['border-b', 'bg-white', 'hover:bg-neutral-50']}>
         <Box
           type="header"
@@ -105,7 +105,7 @@ const Header: FC = () => {
           <Box classes={['w-px', 'h-12', 'sm:h-16', 'bg-neutral-600']} />
 
           <Box>
-            <Box classes={['flex', 'text-3xl', 'sm:text-4xl']}>
+            <Box classes={['flex', 'text-3xl', 'sm:text-4xl', 'font-semibold']}>
               <Box classes={['p-1', 'pl-2', 'sm:pb-2', 'bg-ukraine-blue', 'text-white']}>
                 Spelling
               </Box>
@@ -182,7 +182,7 @@ const Footer: FC = () => {
       ]}
     >
       <Stack orientation="horizontal" wrap gap="large">
-        <Box classes={['font-mono']}>{getBuildId() || 'unknown build'}</Box>
+        <Box classes={['font-mono']}>{getBuildId()}</Box>
 
         <Box> • </Box>
 
@@ -240,7 +240,7 @@ const App = ({ Component, pageProps }: AppProps) => {
       <Box classes={['flex', 'flex-col', 'min-h-screen', 'bg-neutral-50']}>
         <Loader />
 
-        <Header />
+        <Nav />
 
         <MerchAdvertisement />
 
