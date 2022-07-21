@@ -7,7 +7,6 @@ import {
   FiEdit3,
   FiExternalLink,
   FiFlag,
-  FiMap,
   FiVolume1,
   FiVolume2,
   FiVolumeX,
@@ -16,8 +15,8 @@ import {
 import { loadVocabulary, loadVocabularyEntry, VocabularyEntry } from 'spelling-ukraine-data';
 import Box from '../../components/box';
 import Image from '../../components/image';
-import Link from '../../components/link';
 import Meta from '../../components/meta';
+import RawLink from '../../components/rawlink';
 import Section from '../../components/section';
 import Stack from '../../components/stack';
 import useSpeech from '../../hooks/useSpeech';
@@ -44,7 +43,7 @@ const PronounceButton: FC<{ entry: VocabularyEntry }> = ({ entry }) => {
   return (
     <button
       className={classNames('flex', {
-        'text-blue-500': speech.isActive
+        'text-ukraine-blue': !speech.isActive
       })}
       title={`Pronounce "${entry.sourceSpelling}"`}
       onClick={() => speech.speak(entry.transcription!)}
@@ -99,15 +98,28 @@ const DescriptionSection: FC<{ entry: VocabularyEntry }> = ({ entry }) => {
 };
 
 const LinksSection: FC<{ entry: VocabularyEntry }> = ({ entry }) => {
-  if (entry.links.length <= 0) {
+  if (entry.links.length <= 0 && !entry.location) {
     return null;
   }
+
+  const actualLinks = entry.location
+    ? [
+        ...entry.links,
+        {
+          name: `Google Maps: ${entry.correctSpelling}`,
+          url: formatUrlWithQuery('https://google.com/maps/search/', {
+            api: '1',
+            query: entry.correctSpelling
+          })
+        }
+      ]
+    : entry.links;
 
   return (
     <Section title="See also">
       <Stack orientation="horizontal" wrap gap="large">
-        {entry.links.map((link) => (
-          <Link key={link.name} href={link.url}>
+        {actualLinks.map((link) => (
+          <RawLink key={link.name} href={link.url}>
             <Box
               classes={[
                 'px-2',
@@ -123,7 +135,7 @@ const LinksSection: FC<{ entry: VocabularyEntry }> = ({ entry }) => {
                 <Box>{link.name}</Box>
               </Stack>
             </Box>
-          </Link>
+          </RawLink>
         ))}
       </Stack>
     </Section>
@@ -153,20 +165,6 @@ const LocationSection: FC<{ entry: VocabularyEntry }> = ({ entry }) => {
           />
         </Map>
       </Box>
-
-      <Box>
-        <Link
-          href={formatUrlWithQuery('https://google.com/maps/search/', {
-            api: '1',
-            query: entry.correctSpelling
-          })}
-        >
-          <Stack orientation="horizontal">
-            <FiMap />
-            <Box>Open in Google Maps</Box>
-          </Stack>
-        </Link>
-      </Box>
     </Section>
   );
 };
@@ -187,18 +185,20 @@ const ContributeSection: FC<{ entry: VocabularyEntry }> = ({ entry }) => {
   return (
     <Section title="Contribute">
       <Stack orientation="horizontal" wrap gap="large">
-        <Link
+        <RawLink
           href={`https://github.com/Tyrrrz/SpellingUkraine/edit/master/data/vocabulary/${entry.path}`}
         >
-          <Box classes={['px-2', 'py-1', 'rounded', 'bg-ukraine-yellow']}>
+          <Box
+            classes={['px-2', 'py-1', 'rounded', 'bg-ukraine-yellow', 'hover:text-ukraine-blue']}
+          >
             <Stack orientation="horizontal">
               <FiEdit3 />
               <Box>Edit information</Box>
             </Stack>
           </Box>
-        </Link>
+        </RawLink>
 
-        <Link
+        <RawLink
           href={formatUrlWithQuery('https://github.com/Tyrrrz/SpellingUkraine/issues/new', {
             template: 'bug-report.yml',
             labels: 'bug',
@@ -208,13 +208,15 @@ const ContributeSection: FC<{ entry: VocabularyEntry }> = ({ entry }) => {
             )})`
           })}
         >
-          <Box classes={['px-2', 'py-1', 'rounded', 'bg-ukraine-yellow']}>
+          <Box
+            classes={['px-2', 'py-1', 'rounded', 'bg-ukraine-yellow', 'hover:text-ukraine-blue']}
+          >
             <Stack orientation="horizontal">
               <FiFlag />
               <Box>Report issue</Box>
             </Stack>
           </Box>
-        </Link>
+        </RawLink>
       </Stack>
     </Section>
   );

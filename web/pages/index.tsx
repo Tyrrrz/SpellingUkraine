@@ -14,7 +14,9 @@ import {
 } from 'react-icons/fi';
 import { loadVocabulary, VocabularyEntry } from 'spelling-ukraine-data';
 import Box from '../components/box';
+import ButtonLink from '../components/buttonlink';
 import Link from '../components/link';
+import RawLink from '../components/rawlink';
 import Stack from '../components/stack';
 import useClientOnlyValue from '../hooks/useClientOnlyValue';
 import useSessionState from '../hooks/useSessionState';
@@ -27,7 +29,7 @@ const SearchResults: FC<{ results: SearchResult[] }> = ({ results }) => {
       <FadeIn className={classNames('flex', 'flex-col', 'sm:flex-row', 'flex-wrap', 'gap-4')}>
         {results.map((result) => (
           <Box key={result.entry.id} classes={['h-full']}>
-            <Link href={`/i/${result.entry.id}`}>
+            <RawLink href={`/i/${result.entry.id}`}>
               <Box
                 classes={[
                   'flex',
@@ -59,7 +61,7 @@ const SearchResults: FC<{ results: SearchResult[] }> = ({ results }) => {
                     </Box>
                   )}
               </Box>
-            </Link>
+            </RawLink>
           </Box>
         ))}
       </FadeIn>
@@ -71,11 +73,11 @@ const SearchResults: FC<{ results: SearchResult[] }> = ({ results }) => {
       <Box classes={['text-xl']}>
         <Stack orientation="horizontal" gap="medium">
           <Box>No results found</Box>
-          <FiFrown />
+          <FiFrown strokeWidth={1} />
         </Stack>
       </Box>
 
-      <Box classes={['text-lg', 'font-light']}>
+      <Box classes={['text-lg']}>
         If you believe this entry should be added to the vocabulary, please{' '}
         <Link href="https://github.com/Tyrrrz/SpellingUkraine/tree/master/data/vocabulary">
           submit a pull request
@@ -225,14 +227,9 @@ const HomePage: NextPage<HomePageProps> = ({ vocabulary }) => {
                   {querySuggestion && (
                     <Box type="p">
                       Not sure what to search for? Try{' '}
-                      <button
-                        className={classNames('inline-block', 'hover:text-blue-500')}
-                        onClick={() => setQuery(querySuggestion)}
-                      >
-                        <Box type="span" classes={['font-semibold']}>
-                          {querySuggestion}
-                        </Box>
-                      </button>
+                      <ButtonLink onClick={() => setQuery(querySuggestion)}>
+                        {querySuggestion}
+                      </ButtonLink>
                       .
                     </Box>
                   )}

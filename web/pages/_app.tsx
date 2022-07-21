@@ -8,6 +8,7 @@ import Box from '../components/box';
 import Image from '../components/image';
 import Link from '../components/link';
 import Meta from '../components/meta';
+import RawLink from '../components/rawlink';
 import Stack from '../components/stack';
 import useDebouncedValue from '../hooks/useDebouncedValue';
 import { getBuildId, getGoogleAnalyticsId, isProduction } from '../utils/env';
@@ -82,7 +83,7 @@ const Loader: FC = () => {
 
 const Nav: FC = () => {
   return (
-    <Link href="/" emphasize={false}>
+    <RawLink href="/">
       <Box classes={['border-b', 'bg-white', 'hover:bg-neutral-50']}>
         <Box
           type="header"
@@ -118,21 +119,23 @@ const Nav: FC = () => {
           </Box>
         </Box>
       </Box>
-    </Link>
+    </RawLink>
   );
 };
 
 const MerchAdvertisement: FC = () => {
   return (
-    <Box classes={['p-2', 'bg-ukraine-yellow', 'text-center', 'text-sm']}>
-      <Link href="https://merch4ukraine.org">
+    <Box
+      classes={['p-2', 'bg-ukraine-yellow', 'text-center', 'text-sm', 'hover:text-ukraine-blue']}
+    >
+      <RawLink href="https://merch4ukraine.org">
         👕 Buy exclusive merch &amp; support Ukraine! All proceeds go to charity 💙
-      </Link>
+      </RawLink>
     </Box>
   );
 };
 
-const Divider: FC = () => {
+const Breadcrumb: FC = () => {
   const router = useRouter();
 
   if (router.route === '/') {
@@ -186,21 +189,25 @@ const Footer: FC = () => {
 
         <Box> • </Box>
 
-        <Link href="https://github.com/Tyrrrz/SpellingUkraine" emphasize={false}>
-          <Stack orientation="horizontal">
-            <FiGithub strokeWidth={1} />
-            <Box>Source</Box>
-          </Stack>
-        </Link>
+        <RawLink href="https://github.com/Tyrrrz/SpellingUkraine">
+          <Box classes={['hover:text-ukraine-blue']}>
+            <Stack orientation="horizontal">
+              <FiGithub strokeWidth={1} />
+              <Box>Source</Box>
+            </Stack>
+          </Box>
+        </RawLink>
 
         <Box> • </Box>
 
-        <Link href="https://tyrrrz.me/donate" emphasize={false}>
-          <Stack orientation="horizontal">
-            <FiHeart strokeWidth={1} />
-            <Box>Donate</Box>
-          </Stack>
-        </Link>
+        <RawLink href="https://tyrrrz.me/donate">
+          <Box classes={['hover:text-ukraine-blue']}>
+            <Stack orientation="horizontal">
+              <FiHeart strokeWidth={1} />
+              <Box>Donate</Box>
+            </Stack>
+          </Box>
+        </RawLink>
       </Stack>
     </Box>
   );
@@ -244,7 +251,7 @@ const App = ({ Component, pageProps }: AppProps) => {
 
         <MerchAdvertisement />
 
-        <Divider />
+        <Breadcrumb />
 
         <Main>
           <Component {...pageProps} />

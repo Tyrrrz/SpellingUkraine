@@ -8,7 +8,7 @@ const NotFoundPage: NextPage = () => {
       <Meta title="Not Found" />
 
       <Box classes={['text-3xl']}>Not Found</Box>
-      <Box classes={['mt-2', 'text-xl', 'font-light']}>The page you requested does not exist</Box>
+      <Box classes={['mt-2', 'text-lg']}>The page you requested does not exist</Box>
     </>
   );
 };

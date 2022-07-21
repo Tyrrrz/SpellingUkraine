@@ -1,6 +1,6 @@
 import classNames from 'classnames';
 import { NextPage } from 'next';
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import Box from '../components/box';
 import Link from '../components/link';
 import Meta from '../components/meta';
@@ -17,7 +17,7 @@ const TranslitPage: NextPage = () => {
       <Meta title="Transliterate" />
 
       <Box classes={['text-3xl']}>Transliterate</Box>
-      <Box classes={['mt-2', 'text-xl', 'font-light']}>
+      <Box classes={['mt-2', 'text-lg']}>
         Use this page to transliterate any Ukrainian text according to the{' '}
         <Link href="https://github.com/Tyrrrz/SpellingUkraine/tree/master/data/vocabulary#transliteration-system">
           official transliteration system
@@ -33,7 +33,7 @@ const TranslitPage: NextPage = () => {
           'hover:border-blue-500',
           'rounded',
           'bg-white',
-          'text-xl'
+          'text-lg'
         ]}
       >
         <textarea
@@ -60,7 +60,7 @@ const TranslitPage: NextPage = () => {
           'hover:border-blue-500',
           'rounded',
           'bg-neutral-100',
-          'text-xl'
+          'text-lg'
         ]}
       >
         <textarea
