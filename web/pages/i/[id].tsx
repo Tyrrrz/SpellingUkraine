@@ -14,9 +14,10 @@ import {
 } from 'react-icons/fi';
 import { loadVocabulary, loadVocabularyEntry, VocabularyEntry } from 'spelling-ukraine-data';
 import Box from '../../components/box';
+import ButtonLink from '../../components/buttonLink';
 import Image from '../../components/image';
 import Meta from '../../components/meta';
-import RawLink from '../../components/rawlink';
+import RawLink from '../../components/rawLink';
 import Section from '../../components/section';
 import Stack from '../../components/stack';
 import useSpeech from '../../hooks/useSpeech';
@@ -41,15 +42,9 @@ const PronounceButton: FC<{ entry: VocabularyEntry }> = ({ entry }) => {
   }
 
   return (
-    <button
-      className={classNames('flex', {
-        'text-ukraine-blue': !speech.isActive
-      })}
-      title={`Pronounce "${entry.sourceSpelling}"`}
-      onClick={() => speech.speak(entry.transcription!)}
-    >
+    <ButtonLink onClick={() => speech.speak(entry.transcription!)}>
       {speech.isActive ? <FiVolume2 strokeWidth={1} /> : <FiVolume1 strokeWidth={1} />}
-    </button>
+    </ButtonLink>
   );
 };
 

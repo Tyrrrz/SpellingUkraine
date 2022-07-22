@@ -14,9 +14,9 @@ import {
 } from 'react-icons/fi';
 import { loadVocabulary, VocabularyEntry } from 'spelling-ukraine-data';
 import Box from '../components/box';
-import ButtonLink from '../components/buttonlink';
+import ButtonLink from '../components/buttonLink';
 import Link from '../components/link';
-import RawLink from '../components/rawlink';
+import RawLink from '../components/rawLink';
 import Stack from '../components/stack';
 import useClientOnlyValue from '../hooks/useClientOnlyValue';
 import useSessionState from '../hooks/useSessionState';

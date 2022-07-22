@@ -7,7 +7,7 @@ import { FiChevronLeft, FiGithub, FiHeart } from 'react-icons/fi';
 import Box from '../components/box';
 import Image from '../components/image';
 import Meta from '../components/meta';
-import RawLink from '../components/rawlink';
+import RawLink from '../components/rawLink';
 import Stack from '../components/stack';
 import useDebouncedValue from '../hooks/useDebouncedValue';
 import { getBuildId, getGoogleAnalyticsId, isProduction } from '../utils/env';

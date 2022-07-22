@@ -1,6 +1,6 @@
 import { FC, PropsWithChildren } from 'react';
 import Box from './box';
-import RawLink from './rawlink';
+import RawLink from './rawLink';
 
 type LinkProps = PropsWithChildren<{
   href: string;
