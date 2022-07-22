@@ -122,7 +122,7 @@ const HomePage: NextPage<HomePageProps> = ({ vocabulary }) => {
           'text-neutral-600'
         ]}
       >
-        Need to transliterate arbitrary text? <Link href="/translit">Click here</Link>
+        ✨ New: you can now also <Link href="/translit">transliterate arbitrary text</Link>
       </Box>
 
       <form
