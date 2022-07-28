@@ -1,7 +1,6 @@
-import { useEffect, useState } from 'react';
+import { useMemo } from 'react';
 import type { VocabularyEntry } from 'spelling-ukraine-data';
 import { normalizeString } from '../utils/str';
-import useDebouncedValue from './useDebouncedValue';
 
 export type SearchResult = {
   entry: VocabularyEntry;
@@ -16,7 +15,7 @@ const resolveResults = (vocabulary: VocabularyEntry[], query: string) => {
   }
 
   const results: SearchResult[] = [];
-  const normalizedQuery = normalizeString(query);
+  const queryNormalized = normalizeString(query);
 
   for (const entry of vocabulary) {
     const spellings = [
@@ -27,16 +26,16 @@ const resolveResults = (vocabulary: VocabularyEntry[], query: string) => {
     ];
 
     for (const spelling of spellings) {
-      const normalizedSpelling = normalizeString(spelling);
-      if (!normalizedSpelling.includes(normalizedQuery)) {
+      const spellingNormalized = normalizeString(spelling);
+      if (!spellingNormalized.includes(queryNormalized)) {
         continue;
       }
 
       // Relevance is determined by how many characters are matched
       // and how close to the beginning the match happened.
       const relevance =
-        normalizedQuery.length / normalizedSpelling.length -
-        normalizedSpelling.indexOf(normalizedQuery) / normalizedSpelling.length;
+        queryNormalized.length / spellingNormalized.length -
+        spellingNormalized.indexOf(queryNormalized) / spellingNormalized.length;
 
       results.push({
         entry,
@@ -53,18 +52,7 @@ const resolveResults = (vocabulary: VocabularyEntry[], query: string) => {
 };
 
 const useVocabularySearch = (vocabulary: VocabularyEntry[], query: string) => {
-  const queryDebounced = useDebouncedValue(query, 500);
-  const [results, setResults] = useState<SearchResult[]>([]);
-
-  useEffect(
-    () => setResults(resolveResults(vocabulary, queryDebounced)),
-    [vocabulary, queryDebounced]
-  );
-
-  return {
-    isProcessing: query !== queryDebounced,
-    results
-  };
+  return useMemo(() => resolveResults(vocabulary, query), [vocabulary, query]);
 };
 
 export default useVocabularySearch;

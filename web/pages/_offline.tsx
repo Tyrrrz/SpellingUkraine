@@ -1,16 +1,18 @@
+import c from 'classnames';
 import type { NextPage } from 'next';
-import Box from '../components/box';
+import Heading from '../components/heading';
 import Meta from '../components/meta';
+import Page from '../components/page';
 
 const OfflinePage: NextPage = () => {
   return (
-    <>
+    <Page>
       <Meta title="Offline" />
+      <Heading>Offline</Heading>
 
-      <Box classes={['text-3xl']}>Offline</Box>
-      <Box classes={['mt-2', 'text-lg']}>Your device is currently offline</Box>
-      <Box>Please reconnect to the network to view this page</Box>
-    </>
+      <div className={c('text-lg')}>Your device is currently offline</div>
+      <div>Please reconnect to the network to view this page</div>
+    </Page>
   );
 };
 

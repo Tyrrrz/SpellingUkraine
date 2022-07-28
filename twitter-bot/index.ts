@@ -1,24 +1,24 @@
-import { loadVocabulary } from 'spelling-ukraine-data';
+import { loadVocabularyEntry } from 'spelling-ukraine-data';
 import { listenToTweets, postReply } from './twitter';
 import { delay } from './utils/promise';
-
-const vocabulary = loadVocabulary().filter((entry) =>
-  [
-    'kyiv',
-    'lviv',
-    'kharkiv',
-    /*'odesa',*/
-    'mykolaiv',
-    /*'chornobyl',*/
-    'irpin',
-    'chernihiv'
-  ].includes(entry.id)
-);
 
 const sampling = 0.01;
 
 const main = async () => {
   console.log('Twitter bot is starting...');
+
+  const vocabulary = await Promise.all(
+    [
+      'kyiv',
+      'lviv',
+      'kharkiv',
+      /*'odesa',*/
+      'mykolaiv',
+      /*'chornobyl',*/
+      'irpin',
+      'chernihiv'
+    ].map(async (id) => await loadVocabularyEntry(id))
+  );
 
   const predicates = vocabulary.flatMap((entry) =>
     entry.incorrectSpellings.flatMap((spelling) => ({ entry, keyword: spelling }))

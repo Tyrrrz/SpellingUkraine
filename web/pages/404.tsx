@@ -1,15 +1,17 @@
+import c from 'classnames';
 import type { NextPage } from 'next';
-import Box from '../components/box';
+import Heading from '../components/heading';
 import Meta from '../components/meta';
+import Page from '../components/page';
 
 const NotFoundPage: NextPage = () => {
   return (
-    <>
+    <Page>
       <Meta title="Not Found" />
+      <Heading>Not Found</Heading>
 
-      <Box classes={['text-3xl']}>Not Found</Box>
-      <Box classes={['mt-2', 'text-lg']}>The page you requested does not exist</Box>
-    </>
+      <div className={c('text-lg')}>The page you requested does not exist</div>
+    </Page>
   );
 };
 

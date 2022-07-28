@@ -18,7 +18,7 @@ const Meta: FC<MetaProps> = ({ title, description, keywords, imageUrl }) => {
 
   const actualDescription =
     description ||
-    'Look up the correct English spelling of Ukrainian place names, personal names, and other words. Support Ukraine, transliterate correctly!';
+    'Look up the correct English spelling of Ukrainian toponyms, personal names, and other words. Support Ukraine, transliterate correctly!';
 
   const actualKeywords = (keywords || ['spelling', 'ukraine', 'english']).join(',');
 

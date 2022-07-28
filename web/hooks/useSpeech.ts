@@ -19,6 +19,7 @@ const resolveVoices = () => {
 const speak = (text: string, voice?: SpeechSynthesisVoice) => {
   return new Promise<void>((resolve) => {
     const utterance = new SpeechSynthesisUtterance(text);
+    utterance.voice = voice || null;
 
     const onEnd = () => {
       utterance.removeEventListener('end', onEnd);
@@ -26,42 +27,28 @@ const speak = (text: string, voice?: SpeechSynthesisVoice) => {
     };
 
     utterance.addEventListener('end', onEnd);
-
-    if (voice) {
-      utterance.voice = voice;
-    }
-
     speechSynthesis.speak(utterance);
   });
 };
 
 const useSpeech = () => {
   const isClientSide = typeof window !== 'undefined';
-  const [voice, setVoice] = useState<SpeechSynthesisVoice>();
   const [isActive, setIsActive] = useState(false);
+  const [voices, setVoices] = useState<SpeechSynthesisVoice[]>();
 
   useEffect(() => {
     if (!isClientSide) {
       return;
     }
 
-    resolveVoices().then((voices) => {
-      // Google UK voices are the best for Ukrainian transliterations
-      setVoice(
-        voices.find((voice) => voice.name === 'Google UK English Female') ||
-          voices.find((voice) => voice.name === 'Google UK English Male')
-      );
-    });
+    setVoices([]);
+    resolveVoices().then(setVoices);
   }, [isClientSide]);
 
   return {
-    isAvailable: !!voice,
     isActive,
-    speak: (text: string) => {
-      if (!voice) {
-        return;
-      }
-
+    voices,
+    speak: (text: string, voice?: SpeechSynthesisVoice) => {
       setIsActive(true);
       speak(text, voice).finally(() => setIsActive(false));
     }

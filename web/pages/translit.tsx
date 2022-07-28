@@ -1,40 +1,40 @@
-import classNames from 'classnames';
+import { default as c, default as classNames } from 'classnames';
 import { NextPage } from 'next';
-import { useEffect, useState } from 'react';
-import Box from '../components/box';
+import { useMemo, useState } from 'react';
+import Heading from '../components/heading';
 import Link from '../components/link';
 import Meta from '../components/meta';
+import Page from '../components/page';
+import { getRepoFileUrl } from '../utils/repo';
 import { transliterate } from '../utils/translit';
 
 const TranslitPage: NextPage = () => {
   const [source, setSource] = useState('');
-  const [output, setOutput] = useState('');
-
-  useEffect(() => setOutput(transliterate(source)), [source]);
+  const output = useMemo(() => transliterate(source), [source]);
 
   return (
-    <>
+    <Page>
       <Meta title="Transliterate" />
+      <Heading>Transliterate</Heading>
 
-      <Box classes={['text-3xl']}>Transliterate</Box>
-      <Box classes={['mt-2', 'text-lg']}>
+      <div className={c('text-lg')}>
         Use this page to transliterate any Ukrainian text according to the{' '}
-        <Link href="https://github.com/Tyrrrz/SpellingUkraine/tree/master/data/vocabulary#transliteration-system">
+        <Link href={getRepoFileUrl('data/vocabulary#transliteration-system')}>
           official transliteration system
         </Link>
         .
-      </Box>
+      </div>
 
-      <Box
-        classes={[
+      <div
+        className={c(
           'mt-8',
           'border',
-          'border-neutral-600',
+          'border-neutral-400',
           'hover:border-ukraine-blue',
           'rounded',
           'bg-white',
           'text-lg'
-        ]}
+        )}
       >
         <textarea
           className={classNames(
@@ -50,18 +50,18 @@ const TranslitPage: NextPage = () => {
           rows={5}
           autoFocus
         />
-      </Box>
+      </div>
 
-      <Box
-        classes={[
+      <div
+        className={c(
           'mt-4',
           'border',
-          'border-neutral-600',
+          'border-neutral-400',
           'hover:border-ukraine-blue',
           'rounded',
           'bg-neutral-100',
           'text-lg'
-        ]}
+        )}
       >
         <textarea
           className={classNames(
@@ -76,8 +76,8 @@ const TranslitPage: NextPage = () => {
           rows={5}
           readOnly
         />
-      </Box>
-    </>
+      </div>
+    </Page>
   );
 };
 

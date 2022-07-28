@@ -1,7 +1,7 @@
-import classNames from 'classnames';
+import c from 'classnames';
 import { GetStaticPaths, GetStaticProps, NextPage } from 'next';
 import { Map, Marker } from 'pigeon-maps';
-import { FC } from 'react';
+import { FC, useMemo } from 'react';
 import {
   FiCheck,
   FiEdit3,
@@ -13,28 +13,47 @@ import {
   FiX
 } from 'react-icons/fi';
 import { loadVocabulary, loadVocabularyEntry, VocabularyEntry } from 'spelling-ukraine-data';
-import Box from '../../components/box';
-import ButtonLink from '../../components/buttonLink';
+import Heading from '../../components/heading';
+import Highlight from '../../components/highlight';
 import Image from '../../components/image';
+import Inline from '../../components/inline';
+import Link from '../../components/link';
 import Meta from '../../components/meta';
-import RawLink from '../../components/rawLink';
+import Page from '../../components/page';
 import Section from '../../components/section';
-import Stack from '../../components/stack';
 import useSpeech from '../../hooks/useSpeech';
 import { getSiteUrl } from '../../utils/env';
+import { getRepoFileEditUrl, getRepoNewIssueUrl } from '../../utils/repo';
 import { formatUrlWithQuery } from '../../utils/url';
 
-const PronounceButton: FC<{ entry: VocabularyEntry }> = ({ entry }) => {
-  const speech = useSpeech();
+type EntryPageProps = {
+  entry: VocabularyEntry;
+};
+
+type EntryPageParams = {
+  id: string;
+};
+
+const PronounceButton: FC<EntryPageProps> = ({ entry }) => {
+  const { isActive, voices, speak } = useSpeech();
+
+  // Google UK voices are the best for Ukrainian transliterations and
+  // currently our transcriptions are tailored specifically for them.
+  const voice = useMemo(() => {
+    return (
+      voices?.find((voice) => voice.name === 'Google UK English Female') ||
+      voices?.find((voice) => voice.name === 'Google UK English Male')
+    );
+  }, [voices]);
 
   if (!entry.transcription) {
     return null;
   }
 
-  if (!speech.isAvailable) {
+  if (!voice) {
     return (
       <FiVolumeX
-        className={classNames('text-neutral-600')}
+        className={c('text-neutral-400')}
         strokeWidth={1}
         title="Pronunciation is not available for your device"
       />
@@ -42,62 +61,62 @@ const PronounceButton: FC<{ entry: VocabularyEntry }> = ({ entry }) => {
   }
 
   return (
-    <ButtonLink onClick={() => speech.speak(entry.transcription!)}>
-      {speech.isActive ? <FiVolume2 strokeWidth={1} /> : <FiVolume1 strokeWidth={1} />}
-    </ButtonLink>
+    <button
+      disabled={isActive}
+      onClick={() => speak(entry.transcription!, voice)}
+      title={`Pronounce "${entry.correctSpelling}"`}
+    >
+      {isActive ? <FiVolume2 strokeWidth={1} /> : <FiVolume1 strokeWidth={1} />}
+    </button>
   );
 };
 
-const SpellingSection: FC<{ entry: VocabularyEntry }> = ({ entry }) => {
+const SpellingSection: FC<EntryPageProps> = ({ entry }) => {
   if (entry.incorrectSpellings.length <= 0) {
     return null;
   }
 
   return (
     <Section title="Spelling">
-      <Box classes={['text-lg']}>
-        <Stack orientation="horizontal" wrap gap="large">
-          <Stack orientation="horizontal">
-            <FiCheck className={classNames('mt-px', 'sm:mt-1', 'text-green-600')} />
-            <Box>{entry.correctSpelling}</Box>
-          </Stack>
+      <div className={c('flex', 'gap-3', 'text-lg')}>
+        <Inline>
+          <FiCheck className={c('mt-px', 'sm:mt-1', 'text-green-600')} />
+          <div>{entry.correctSpelling}</div>
+        </Inline>
 
-          {entry.incorrectSpellings.map((spelling) => (
-            <Stack key={spelling} orientation="horizontal">
-              <FiX className={classNames('mt-px', 'sm:mt-1', 'text-red-600')} />
-              <Box>{spelling}</Box>
-            </Stack>
-          ))}
-        </Stack>
-      </Box>
+        {entry.incorrectSpellings.map((spelling) => (
+          <Inline key={spelling}>
+            <FiX className={c('mt-px', 'sm:mt-1', 'text-red-600')} />
+            <div>{spelling}</div>
+          </Inline>
+        ))}
+      </div>
     </Section>
   );
 };
 
-const DescriptionSection: FC<{ entry: VocabularyEntry }> = ({ entry }) => {
+const DescriptionSection: FC<EntryPageProps> = ({ entry }) => {
   if (!entry.description) {
     return null;
   }
 
   return (
     <Section title="Description">
-      <Box type="article" classes={['space-y-2']}>
-        {entry.description.split('\n').map((paragraph) => (
-          <Box key={paragraph} type="p">
-            {paragraph}
-          </Box>
+      <article className={c('space-y-2')}>
+        {entry.description.split('\n').map((paragraph, i) => (
+          <p key={paragraph}>{paragraph}</p>
         ))}
-      </Box>
+      </article>
     </Section>
   );
 };
 
-const LinksSection: FC<{ entry: VocabularyEntry }> = ({ entry }) => {
+const LinksSection: FC<EntryPageProps> = ({ entry }) => {
   if (entry.links.length <= 0 && !entry.location) {
     return null;
   }
 
-  const actualLinks = entry.location
+  const links = entry.location
     ? [
         ...entry.links,
         {
@@ -111,60 +130,49 @@ const LinksSection: FC<{ entry: VocabularyEntry }> = ({ entry }) => {
     : entry.links;
 
   return (
-    <Section title="See also">
-      <Stack orientation="horizontal" wrap gap="large">
-        {actualLinks.map((link) => (
-          <RawLink key={link.name} href={link.url}>
-            <Box
-              classes={[
-                'px-2',
-                'py-1',
-                'rounded',
-                'bg-ukraine-blue',
-                'text-white',
-                'hover:text-yellow-400'
-              ]}
-            >
-              <Stack orientation="horizontal">
+    <Section title="Links">
+      <div className={c('flex', 'flex-wrap', 'gap-3')}>
+        {links.map((link) => (
+          <Highlight key={link.name}>
+            <Link variant="discreet" color="yellow" href={link.url}>
+              <Inline>
                 <FiExternalLink />
-                <Box>{link.name}</Box>
-              </Stack>
-            </Box>
-          </RawLink>
+                <div>{link.name}</div>
+              </Inline>
+            </Link>
+          </Highlight>
         ))}
-      </Stack>
+      </div>
     </Section>
   );
 };
 
-const LocationSection: FC<{ entry: VocabularyEntry }> = ({ entry }) => {
+const LocationSection: FC<EntryPageProps> = ({ entry }) => {
   if (!entry.location) {
     return null;
   }
 
   return (
     <Section title="Location">
-      <Box>
-        <Map
-          defaultCenter={[entry.location.lat, entry.location.lng]}
-          defaultZoom={6}
-          height={400}
-          mouseEvents={false}
-          touchEvents={false}
-        >
-          <Marker
-            color="#0ea5e9"
-            width={48}
-            hover={false}
-            anchor={[entry.location.lat, entry.location.lng]}
-          />
-        </Map>
-      </Box>
+      <Map
+        defaultCenter={[entry.location.lat, entry.location.lng]}
+        defaultZoom={6}
+        height={400}
+        mouseEvents={false}
+        touchEvents={false}
+      >
+        <Marker
+          color="#0ea5e9"
+          width={48}
+          hover={false}
+          anchor={[entry.location.lat, entry.location.lng]}
+        />
+      </Map>
     </Section>
   );
 };
 
-const ImageSection = ({ entry }: { entry: VocabularyEntry }) => {
+const ImageSection: FC<EntryPageProps> = ({ entry }) => {
   if (!entry.image) {
     return null;
   }
@@ -176,58 +184,45 @@ const ImageSection = ({ entry }: { entry: VocabularyEntry }) => {
   );
 };
 
-const ContributeSection: FC<{ entry: VocabularyEntry }> = ({ entry }) => {
+const ContributeSection: FC<EntryPageProps> = ({ entry }) => {
   return (
     <Section title="Contribute">
-      <Stack orientation="horizontal" wrap gap="large">
-        <RawLink
-          href={`https://github.com/Tyrrrz/SpellingUkraine/edit/master/data/vocabulary/${entry.path}`}
-        >
-          <Box
-            classes={['px-2', 'py-1', 'rounded', 'bg-ukraine-yellow', 'hover:text-ukraine-blue']}
-          >
-            <Stack orientation="horizontal">
+      <div className={c('flex', 'flex-wrap', 'gap-3')}>
+        <Highlight color="yellow">
+          <Link variant="discreet" href={getRepoFileEditUrl(`data/vocabulary/${entry.path}`)}>
+            <Inline>
               <FiEdit3 />
-              <Box>Edit information</Box>
-            </Stack>
-          </Box>
-        </RawLink>
+              <div>Edit information</div>
+            </Inline>
+          </Link>
+        </Highlight>
 
-        <RawLink
-          href={formatUrlWithQuery('https://github.com/Tyrrrz/SpellingUkraine/issues/new', {
-            template: 'bug-report.yml',
-            labels: 'bug',
-            title: `${entry.correctSpelling}: <your issue>`,
-            details: `Issue related to entry: [${entry.correctSpelling}](${getSiteUrl(
-              `/i/${entry.id}`
-            )})`
-          })}
-        >
-          <Box
-            classes={['px-2', 'py-1', 'rounded', 'bg-ukraine-yellow', 'hover:text-ukraine-blue']}
+        <Highlight color="yellow">
+          <Link
+            variant="discreet"
+            href={getRepoNewIssueUrl({
+              template: 'bug-report.yml',
+              labels: 'bug',
+              title: `${entry.correctSpelling}: <your issue>`,
+              details: `Issue related to entry: [${entry.correctSpelling}](${getSiteUrl(
+                `/i/${entry.id}`
+              )})`
+            })}
           >
-            <Stack orientation="horizontal">
+            <Inline>
               <FiFlag />
-              <Box>Report issue</Box>
-            </Stack>
-          </Box>
-        </RawLink>
-      </Stack>
+              <div>Report issue</div>
+            </Inline>
+          </Link>
+        </Highlight>
+      </div>
     </Section>
   );
 };
 
-type EntryPageProps = {
-  entry: VocabularyEntry;
-};
-
-type EntryPageParams = {
-  id: string;
-};
-
 const EntryPage: NextPage<EntryPageProps> = ({ entry }) => {
   return (
-    <>
+    <Page>
       <Meta
         title={entry.correctSpelling}
         description={`"${entry.correctSpelling}" is the correct way to spell "${entry.sourceSpelling}" in English. Support Ukraine, transliterate correctly!`}
@@ -243,19 +238,19 @@ const EntryPage: NextPage<EntryPageProps> = ({ entry }) => {
         imageUrl={entry.image?.url}
       />
 
-      <Box classes={['space-y-6']}>
-        <Box>
-          <Box classes={['text-3xl', 'tracking-wide']}>
-            <Stack orientation="horizontal" align="bottom" gap="large">
-              <Box>{entry.correctSpelling}</Box>
+      <div className={c('space-y-6')}>
+        <section>
+          <Heading>
+            <div className={c('flex', 'items-end', 'gap-3')}>
+              <div>{entry.correctSpelling}</div>
               <PronounceButton entry={entry} />
-            </Stack>
-          </Box>
+            </div>
+          </Heading>
 
-          <Box classes={['mt-1', 'text-2xl', 'font-light', 'tracking-wide']}>
+          <div className={c('text-2xl', 'font-light', 'tracking-wide')}>
             {entry.sourceSpelling} • {entry.category}
-          </Box>
-        </Box>
+          </div>
+        </section>
 
         <SpellingSection entry={entry} />
         <DescriptionSection entry={entry} />
@@ -263,8 +258,8 @@ const EntryPage: NextPage<EntryPageProps> = ({ entry }) => {
         <LocationSection entry={entry} />
         <ImageSection entry={entry} />
         <ContributeSection entry={entry} />
-      </Box>
-    </>
+      </div>
+    </Page>
   );
 };
 

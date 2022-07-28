@@ -1,19 +1,6 @@
-import { loadVocabulary } from 'spelling-ukraine-data';
+import { loadVocabularyEntry } from 'spelling-ukraine-data';
 import { listenToContent, postReply } from './reddit';
 import { delay } from './utils/promise';
-
-const vocabulary = loadVocabulary().filter((entry) =>
-  [
-    'kyiv',
-    'lviv',
-    'kharkiv',
-    /*'odesa',*/
-    'mykolaiv',
-    /*'chornobyl',*/
-    'irpin',
-    'chernihiv'
-  ].includes(entry.id)
-);
 
 const submissionSampling = 0.85;
 const commentSampling = 0.5;
@@ -22,6 +9,19 @@ const subreddits = ['ukraine', 'ukraina', 'ukrainianconflict', 'ukraineconflict'
 
 const main = async () => {
   console.log('Reddit bot is starting...');
+
+  const vocabulary = await Promise.all(
+    [
+      'kyiv',
+      'lviv',
+      'kharkiv',
+      /*'odesa',*/
+      'mykolaiv',
+      /*'chornobyl',*/
+      'irpin',
+      'chernihiv'
+    ].map(async (id) => await loadVocabularyEntry(id))
+  );
 
   const predicates = vocabulary.flatMap((entry) =>
     entry.incorrectSpellings.flatMap((spelling) => ({ entry, keyword: spelling }))
