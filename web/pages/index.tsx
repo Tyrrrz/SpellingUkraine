@@ -212,13 +212,13 @@ const HomePage: NextPage<HomePageProps> = ({ vocabulary }) => {
         </div>
       </form>
 
-      <div className={c('mt-10')}>
-        {results.length > 0 ? (
-          <SearchResults vocabulary={vocabulary} results={results} />
-        ) : queryDebounced && !isLoading ? (
-          <NotFound vocabulary={vocabulary} />
-        ) : (
+      <div className={c('mt-6')}>
+        {!queryDebounced ? (
           <Placeholder vocabulary={vocabulary} />
+        ) : results.length > 0 ? (
+          <SearchResults vocabulary={vocabulary} results={results} />
+        ) : (
+          <NotFound vocabulary={vocabulary} />
         )}
       </div>
     </Page>
