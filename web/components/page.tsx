@@ -104,7 +104,7 @@ const Breadcrumb: FC = () => {
         <Link variant="discreet" href="/">
           <Inline>
             <FiChevronLeft />
-            <div>Home</div>
+            <span>Home</span>
           </Inline>
         </Link>
       </div>
@@ -141,7 +141,7 @@ const Footer: FC = () => {
       <Link variant="discreet" href={getRepoCommitUrl(getBuildId())}>
         <Inline>
           <FiGitCommit strokeWidth={1} />
-          <div className={c('font-mono')}>{getBuildId()}</div>
+          <span className={c('font-mono')}>{getBuildId()}</span>
         </Inline>
       </Link>
 
@@ -150,7 +150,7 @@ const Footer: FC = () => {
       <Link variant="discreet" href={getRepoUrl()}>
         <Inline>
           <FiGithub strokeWidth={1} />
-          <div>Source</div>
+          <span>Source</span>
         </Inline>
       </Link>
 
@@ -159,7 +159,7 @@ const Footer: FC = () => {
       <Link variant="discreet" href="https://tyrrrz.me/donate">
         <Inline>
           <FiHeart strokeWidth={1} />
-          <div>Donate</div>
+          <span>Donate</span>
         </Inline>
       </Link>
     </footer>

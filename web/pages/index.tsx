@@ -53,7 +53,7 @@ const SearchResults: FC<SearchResultsProps> = ({ results }) => {
                 <div className={c('mt-1', 'text-sm', 'font-light')}>
                   <Inline>
                     <FiTarget strokeWidth={1} />
-                    <div>Matched on {result.match}</div>
+                    <span>Matched on {result.match}</span>
                   </Inline>
                 </div>
               )}

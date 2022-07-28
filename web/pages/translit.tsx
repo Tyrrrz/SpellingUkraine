@@ -17,13 +17,13 @@ const TranslitPage: NextPage = () => {
       <Meta title="Transliterate" />
       <Heading>Transliterate</Heading>
 
-      <div className={c('text-lg')}>
+      <section className={c('text-lg')}>
         Use this page to transliterate any Ukrainian text according to the{' '}
         <Link href={getRepoFileUrl('data/vocabulary#transliteration-system')}>
           official transliteration system
         </Link>
         .
-      </div>
+      </section>
 
       <div
         className={c(
