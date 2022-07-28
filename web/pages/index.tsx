@@ -69,11 +69,13 @@ const SearchResults: FC<SearchResultsProps> = ({ results }) => {
 const NotFound: FC<HomePageProps> = () => {
   return (
     <FadeIn>
-      <div className={c('text-xl')}>No results found</div>
-      <div className={c('text-lg')}>
-        If you believe this entry should be added to the vocabulary, please{' '}
-        <Link href={getRepoFileUrl('data/vocabulary')}>submit a pull request</Link>.
-      </div>
+      <section>
+        <div className={c('text-xl')}>No results found</div>
+        <div className={c('text-lg')}>
+          If you believe this entry should be added to the vocabulary, please{' '}
+          <Link href={getRepoFileUrl('data/vocabulary')}>submit a pull request</Link>.
+        </div>
+      </section>
     </FadeIn>
   );
 };
