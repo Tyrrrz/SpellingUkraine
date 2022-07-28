@@ -26,41 +26,39 @@ const SearchResults: FC<SearchResultsProps> = ({ results }) => {
   return (
     <FadeIn className={c('flex', 'flex-col', 'sm:flex-row', 'flex-wrap', 'gap-4')}>
       {results.map((result) => (
-        <section key={result.entry.id} className={c('h-full')}>
-          <Link variant="hidden" href={`/i/${result.entry.id}`}>
-            <div
-              className={c(
-                'flex',
-                'flex-col',
-                'h-full',
-                'p-4',
-                'border',
-                'border-neutral-400',
-                'hover:border-ukraine-blue',
-                'rounded',
-                'bg-white',
-                'hover:bg-blue-50',
-                'place-content-center'
-              )}
-            >
-              <div className={c('text-xl')}>{result.entry.correctSpelling}</div>
+        <Link key={result.entry.id} variant="hidden" href={`/i/${result.entry.id}`}>
+          <section
+            className={c(
+              'flex',
+              'flex-col',
+              'h-full',
+              'p-4',
+              'border',
+              'border-neutral-400',
+              'hover:border-ukraine-blue',
+              'rounded',
+              'bg-white',
+              'hover:bg-blue-50',
+              'place-content-center'
+            )}
+          >
+            <div className={c('text-xl')}>{result.entry.correctSpelling}</div>
 
-              <div className={c(['text-lg', 'font-light'])}>
-                {result.entry.sourceSpelling} • {result.entry.category}
-              </div>
-
-              {result.match !== result.entry.correctSpelling &&
-                result.match !== result.entry.sourceSpelling && (
-                  <div className={c('mt-1', 'text-sm', 'font-light')}>
-                    <Inline>
-                      <FiTarget strokeWidth={1} />
-                      <div>Matched on {result.match}</div>
-                    </Inline>
-                  </div>
-                )}
+            <div className={c(['text-lg', 'font-light'])}>
+              {result.entry.sourceSpelling} • {result.entry.category}
             </div>
-          </Link>
-        </section>
+
+            {result.match !== result.entry.correctSpelling &&
+              result.match !== result.entry.sourceSpelling && (
+                <div className={c('mt-1', 'text-sm', 'font-light')}>
+                  <Inline>
+                    <FiTarget strokeWidth={1} />
+                    <div>Matched on {result.match}</div>
+                  </Inline>
+                </div>
+              )}
+          </section>
+        </Link>
       ))}
     </FadeIn>
   );

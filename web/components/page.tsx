@@ -54,36 +54,36 @@ const Loader: FC = () => {
 const Header: FC = () => {
   return (
     <Link variant="hidden" href="/">
-      <header className={c('border-b', 'bg-white', 'hover:bg-neutral-50')}>
-        <div
-          className={c(
-            'flex',
-            'w-fit',
-            'mx-auto',
-            'px-4',
-            'py-6',
-            'items-center',
-            'gap-x-4',
-            'sm:gap-x-6'
-          )}
-        >
-          <div className={c('w-[64px]', 'sm:w-[96px]')}>
-            <Image src="/logo.svg" alt="Spelling Ukraine" priority />
+      <header
+        className={c(
+          'flex',
+          'px-4',
+          'py-6',
+          'border-b',
+          'bg-white',
+          'hover:bg-neutral-50',
+          'items-center',
+          'place-content-center',
+          'gap-x-4',
+          'sm:gap-x-6'
+        )}
+      >
+        <div className={c('w-[64px]', 'sm:w-[96px]')}>
+          <Image src="/logo.svg" alt="Spelling Ukraine" priority />
+        </div>
+
+        <div className={c('w-px', 'h-12', 'sm:h-16', 'bg-neutral-400')} />
+
+        <div>
+          <div className={c('flex', 'text-3xl', 'sm:text-4xl', 'font-semibold')}>
+            <div className={c('p-1', 'pl-2', 'sm:pb-2', 'bg-ukraine-blue', 'text-white')}>
+              Spelling
+            </div>
+            <div className={c('p-1', 'pr-2', 'sm:pb-2', 'bg-ukraine-yellow')}>Ukraine</div>
           </div>
 
-          <div className={c('w-px', 'h-12', 'sm:h-16', 'bg-neutral-400')} />
-
-          <div>
-            <div className={c('flex', 'text-3xl', 'sm:text-4xl', 'font-semibold')}>
-              <div className={c('p-1', 'pl-2', 'sm:pb-2', 'bg-ukraine-blue', 'text-white')}>
-                Spelling
-              </div>
-              <div className={c('p-1', 'pr-2', 'sm:pb-2', 'bg-ukraine-yellow')}>Ukraine</div>
-            </div>
-
-            <div className={c('mt-1', 'text-sm', 'sm:text-xl', 'font-light', 'sm:tracking-wide')}>
-              Language is political. Transliterate correctly.
-            </div>
+          <div className={c('mt-1', 'text-sm', 'sm:text-xl', 'font-light', 'sm:tracking-wide')}>
+            Language is political. Transliterate correctly.
           </div>
         </div>
       </header>
