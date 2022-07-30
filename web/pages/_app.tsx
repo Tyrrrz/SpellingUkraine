@@ -9,10 +9,11 @@ const Scripts: FC = () => {
   const scripts: ReactNode[] = [];
 
   // Google Analytics (production build only)
-  if (getGoogleAnalyticsId() && isProduction()) {
+  const googleAnalyticsId = getGoogleAnalyticsId();
+  if (googleAnalyticsId && isProduction()) {
     scripts.push(
       <Script
-        src={`https://www.googletagmanager.com/gtag/js?id=${getGoogleAnalyticsId()}`}
+        src={`https://www.googletagmanager.com/gtag/js?id=${googleAnalyticsId}`}
         strategy="afterInteractive"
       />,
 
@@ -21,7 +22,7 @@ const Scripts: FC = () => {
 window.dataLayer = window.dataLayer || [];
 function gtag(){window.dataLayer.push(arguments);}
 gtag('js', new Date());
-gtag('config', '${getGoogleAnalyticsId()}');
+gtag('config', '${googleAnalyticsId}');
 `}
       </Script>
     );
