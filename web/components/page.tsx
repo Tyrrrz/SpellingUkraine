@@ -1,15 +1,15 @@
+import Image from '@/components/image';
+import Inline from '@/components/inline';
+import Link from '@/components/link';
+import useDebounce from '@/hooks/useDebounce';
+import useRouterStatus from '@/hooks/useRouterStatus';
+import { getBuildId } from '@/utils/env';
+import { getRepoCommitUrl, getRepoUrl } from '@/utils/repo';
 import c from 'classnames';
 import { useRouter } from 'next/router';
 import { FC, PropsWithChildren, useEffect, useState } from 'react';
 import FadeIn from 'react-fade-in';
 import { FiChevronLeft, FiGitCommit, FiGithub, FiHeart } from 'react-icons/fi';
-import useDebounce from '../hooks/useDebounce';
-import useRouterStatus from '../hooks/useRouterStatus';
-import { getBuildId } from '../utils/env';
-import { getRepoCommitUrl, getRepoUrl } from '../utils/repo';
-import Image from './image';
-import Inline from './inline';
-import Link from './link';
 
 const Loader: FC = () => {
   const status = useRouterStatus();

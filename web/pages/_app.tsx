@@ -1,8 +1,8 @@
+import Meta from '@/components/meta';
+import { getGoogleAnalyticsId, isProduction } from '@/utils/env';
 import type { AppProps } from 'next/app';
 import Script from 'next/script';
 import { FC, ReactNode } from 'react';
-import Meta from '../components/meta';
-import { getGoogleAnalyticsId, isProduction } from '../utils/env';
 import './globals.css';
 
 const Scripts: FC = () => {

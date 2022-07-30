@@ -1,3 +1,11 @@
+import Highlight from '@/components/highlight';
+import Inline from '@/components/inline';
+import Link from '@/components/link';
+import Page from '@/components/page';
+import useDebounce from '@/hooks/useDebounce';
+import useSessionState from '@/hooks/useSessionState';
+import useVocabularySearch, { SearchResult } from '@/hooks/useVocabularySearch';
+import { getRepoFileUrl } from '@/utils/repo';
 import c from 'classnames';
 import type { GetStaticProps, NextPage } from 'next';
 import { useRouter } from 'next/router';
@@ -5,14 +13,6 @@ import { FC } from 'react';
 import FadeIn from 'react-fade-in';
 import { FiCornerDownLeft, FiHeart, FiLoader, FiSearch, FiTarget, FiX } from 'react-icons/fi';
 import { loadVocabulary, VocabularyEntry } from 'spelling-ukraine-data';
-import Highlight from '../components/highlight';
-import Inline from '../components/inline';
-import Link from '../components/link';
-import Page from '../components/page';
-import useDebounce from '../hooks/useDebounce';
-import useSessionState from '../hooks/useSessionState';
-import useVocabularySearch, { SearchResult } from '../hooks/useVocabularySearch';
-import { getRepoFileUrl } from '../utils/repo';
 
 type HomePageProps = {
   vocabulary: VocabularyEntry[];

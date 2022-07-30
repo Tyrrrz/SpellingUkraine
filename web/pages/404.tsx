@@ -1,8 +1,8 @@
+import Heading from '@/components/heading';
+import Meta from '@/components/meta';
+import Page from '@/components/page';
 import c from 'classnames';
 import type { NextPage } from 'next';
-import Heading from '../components/heading';
-import Meta from '../components/meta';
-import Page from '../components/page';
 
 const NotFoundPage: NextPage = () => {
   return (

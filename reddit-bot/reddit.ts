@@ -1,6 +1,6 @@
+import { getRedditCredentials } from '@/utils/env';
+import { delay } from '@/utils/promise';
 import snoowrap from 'snoowrap';
-import { getRedditCredentials } from './utils/env';
-import { delay } from './utils/promise';
 
 const reddit = new snoowrap({
   ...getRedditCredentials(),

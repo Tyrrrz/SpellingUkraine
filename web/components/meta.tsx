@@ -1,6 +1,6 @@
+import { getBuildId, getSiteUrl } from '@/utils/env';
 import Head from 'next/head';
 import { FC } from 'react';
-import { getBuildId, getSiteUrl } from '../utils/env';
 
 type MetaProps = {
   title?: string;

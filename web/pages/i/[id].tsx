@@ -1,3 +1,15 @@
+import Heading from '@/components/heading';
+import Highlight from '@/components/highlight';
+import Image from '@/components/image';
+import Inline from '@/components/inline';
+import Link from '@/components/link';
+import Meta from '@/components/meta';
+import Page from '@/components/page';
+import Section from '@/components/section';
+import useSpeech from '@/hooks/useSpeech';
+import { getSiteUrl } from '@/utils/env';
+import { getRepoFileEditUrl, getRepoNewIssueUrl } from '@/utils/repo';
+import { formatUrlWithQuery } from '@/utils/url';
 import c from 'classnames';
 import { GetStaticPaths, GetStaticProps, NextPage } from 'next';
 import { Map, Marker } from 'pigeon-maps';
@@ -13,18 +25,6 @@ import {
   FiX
 } from 'react-icons/fi';
 import { loadVocabulary, loadVocabularyEntry, VocabularyEntry } from 'spelling-ukraine-data';
-import Heading from '../../components/heading';
-import Highlight from '../../components/highlight';
-import Image from '../../components/image';
-import Inline from '../../components/inline';
-import Link from '../../components/link';
-import Meta from '../../components/meta';
-import Page from '../../components/page';
-import Section from '../../components/section';
-import useSpeech from '../../hooks/useSpeech';
-import { getSiteUrl } from '../../utils/env';
-import { getRepoFileEditUrl, getRepoNewIssueUrl } from '../../utils/repo';
-import { formatUrlWithQuery } from '../../utils/url';
 
 type EntryPageProps = {
   entry: VocabularyEntry;

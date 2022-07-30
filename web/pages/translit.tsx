@@ -1,12 +1,12 @@
+import Heading from '@/components/heading';
+import Link from '@/components/link';
+import Meta from '@/components/meta';
+import Page from '@/components/page';
+import { getRepoFileUrl } from '@/utils/repo';
+import { transliterate } from '@/utils/translit';
 import { default as c, default as classNames } from 'classnames';
 import { NextPage } from 'next';
 import { useMemo, useState } from 'react';
-import Heading from '../components/heading';
-import Link from '../components/link';
-import Meta from '../components/meta';
-import Page from '../components/page';
-import { getRepoFileUrl } from '../utils/repo';
-import { transliterate } from '../utils/translit';
 
 const TranslitPage: NextPage = () => {
   const [source, setSource] = useState('');
