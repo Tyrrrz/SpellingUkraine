@@ -1,0 +1,25 @@
+{
+  "category": "Settlement",
+  "sourceSpelling": "Оленівка",
+  "correctSpelling": "Olenivka",
+  "incorrectSpellings": [
+    "Olenovka",
+    "Elenovka"
+  ],
+  "relatedSpellings": [
+    "Еленовка",
+    "Оленовка"
+  ],
+  "transcription": "Oleneevka",
+  "description": "Olenivka is an urban-type settlement in Kalmiuske Raion, Donetsk Oblast, eastern Ukraine, 20.5 km southwest from the center of the city of Donetsk.",
+  "links": [
+    {
+      "name": "Wikipedia: Olenivka",
+      "url": "https://en.wikipedia.org/wiki/Olenivka,_Kalmiuske_Raion"
+    }
+  ],
+  "location": {
+    "lat": 47.8313,
+    "lng": 37.6423
+  }
+}
