@@ -163,7 +163,7 @@ const LocationSection: FC<EntryPageProps> = ({ entry }) => {
         touchEvents={false}
       >
         <Marker
-          color="#0ea5e9"
+          color="#0057b7"
           width={48}
           hover={false}
           anchor={[entry.location.lat, entry.location.lng]}
