@@ -4,6 +4,7 @@ import Link from '@/components/link';
 import Page from '@/components/page';
 import Paragraph from '@/components/paragraph';
 import useDebounce from '@/hooks/useDebounce';
+import useHydrated from '@/hooks/useHydrated';
 import useSessionState from '@/hooks/useSessionState';
 import useVocabularySearch, { SearchResult } from '@/hooks/useVocabularySearch';
 import { getRepoFileUrl } from '@/utils/repo';
@@ -133,10 +134,10 @@ const HomePage: NextPage<HomePageProps> = ({ vocabulary }) => {
   const { push } = useRouter();
 
   const [query, setQuery] = useSessionState('searchQuery', '');
-  const queryDebounced = useDebounce(query, 500);
+  const queryDebounced = useHydrated(useDebounce(query, 500));
 
   const isLoading = queryDebounced !== query;
-  const results = useVocabularySearch(vocabulary, queryDebounced);
+  const results = useVocabularySearch(vocabulary, queryDebounced || '');
 
   return (
     <Page>
