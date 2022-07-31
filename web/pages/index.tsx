@@ -2,6 +2,7 @@ import Highlight from '@/components/highlight';
 import Inline from '@/components/inline';
 import Link from '@/components/link';
 import Page from '@/components/page';
+import Paragraph from '@/components/paragraph';
 import useDebounce from '@/hooks/useDebounce';
 import useSessionState from '@/hooks/useSessionState';
 import useVocabularySearch, { SearchResult } from '@/hooks/useVocabularySearch';
@@ -81,37 +82,37 @@ const NotFound: FC<HomePageProps> = () => {
 const Placeholder: FC<HomePageProps> = ({ vocabulary }) => {
   return (
     <FadeIn className={c('space-y-6', 'text-lg')}>
-      <section className={c('space-y-2')}>
+      <section>
         <div className={c('text-xl', 'font-semibold')}>
           <Highlight>What does this app do?</Highlight>
         </div>
-        <p>
+        <Paragraph>
           Use this app to quickly look up the correct English spelling of any Ukrainian toponym,
           personal name, or other word. You can search by typing in Ukrainian, English, or another
           relevant language — many entries will also match on outdated or incorrect spellings too.
           Currently, this vocabulary contains {vocabulary.length} items, all carefully reviewed by
           humans.
-        </p>
+        </Paragraph>
       </section>
 
-      <section className={c('space-y-2')}>
+      <section>
         <div className={c('text-xl', 'font-semibold')}>
           <Highlight>Why does spelling matter?</Highlight>
         </div>
-        <p>
+        <Paragraph>
           Before becoming an independent country, Ukraine spent many decades occupied by the Soviet
           Union and, prior to that, the Russian Empire. During that period, the Ukrainian language
           was systemically suppressed, while Ukrainian speakers often found themselves victims of
           ridicule and persecution. State policies at the time mandated the use of the Russian
           language in all nomenclature, which lead to the adoption of Russian spelling for Ukrainian
           names, including in English.
-        </p>
-        <p>
+        </Paragraph>
+        <Paragraph>
           Nowadays, Ukraine strives to assert its own identity, and language remains a crucial part
           of that struggle. The use of Ukrainian-based transliteration is gradually becoming more
           prevalent and, as never before, more important.
-        </p>
-        <p>
+        </Paragraph>
+        <Paragraph>
           In the face of Russia&apos;s military aggression and continuous attempts to undermine and,
           ultimately, erase Ukrainian culture, the choice of spelling is no longer a matter of
           preference, but a <span className={c('font-semibold')}>political stance</span>. Taking a
@@ -122,7 +123,7 @@ const Placeholder: FC<HomePageProps> = ({ vocabulary }) => {
             <FiHeart className={c('fill-ukraine-blue')} strokeWidth={1} />
             <FiHeart className={c('fill-ukraine-yellow')} strokeWidth={1} />
           </Inline>
-        </p>
+        </Paragraph>
       </section>
     </FadeIn>
   );

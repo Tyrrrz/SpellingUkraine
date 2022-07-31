@@ -15,68 +15,73 @@ const TranslitPage: NextPage = () => {
   return (
     <Page>
       <Meta title="Transliterate" />
-      <Heading>Transliterate</Heading>
 
-      <section className={c('text-lg')}>
-        Use this page to transliterate any Ukrainian text according to the{' '}
-        <Link href={getRepoFileUrl('data/vocabulary#transliteration-system')}>
-          official transliteration system
-        </Link>
-        .
+      <section>
+        <Heading>Transliterate</Heading>
+
+        <div className={c('text-lg')}>
+          Use this page to transliterate any Ukrainian text according to the{' '}
+          <Link href={getRepoFileUrl('data/vocabulary#transliteration-system')}>
+            official transliteration system
+          </Link>
+          .
+        </div>
       </section>
 
-      <div
-        className={c(
-          'mt-8',
-          'border',
-          'border-neutral-400',
-          'hover:border-ukraine-blue',
-          'rounded',
-          'bg-white',
-          'text-lg'
-        )}
-      >
-        <textarea
-          className={classNames(
-            'w-full',
-            'p-4',
-            'appearance-none',
-            'focus:outline-none',
-            'bg-transparent'
+      <section>
+        <div
+          className={c(
+            'mt-8',
+            'border',
+            'border-neutral-400',
+            'hover:border-ukraine-blue',
+            'rounded',
+            'bg-white',
+            'text-lg'
           )}
-          value={source}
-          onChange={(e) => setSource(e.target.value)}
-          placeholder="Type in Ukrainian here"
-          rows={5}
-          autoFocus
-        />
-      </div>
+        >
+          <textarea
+            className={classNames(
+              'w-full',
+              'p-4',
+              'appearance-none',
+              'focus:outline-none',
+              'bg-transparent'
+            )}
+            value={source}
+            onChange={(e) => setSource(e.target.value)}
+            placeholder="Type in Ukrainian here"
+            rows={5}
+            autoFocus
+          />
+        </div>
 
-      <div
-        className={c(
-          'mt-4',
-          'border',
-          'border-neutral-400',
-          'hover:border-ukraine-blue',
-          'rounded',
-          'bg-neutral-100',
-          'text-lg'
-        )}
-      >
-        <textarea
-          className={classNames(
-            'w-full',
-            'p-4',
-            'appearance-none',
-            'focus:outline-none',
-            'bg-transparent'
+        <div
+          className={c(
+            'mt-4',
+            'border',
+            'border-neutral-400',
+            'hover:border-ukraine-blue',
+            'rounded',
+            'bg-neutral-100',
+            'text-lg'
           )}
-          value={output}
-          placeholder="Output will be here"
-          rows={5}
-          readOnly
-        />
-      </div>
+        >
+          <textarea
+            className={classNames(
+              'w-full',
+              'p-4',
+              'appearance-none',
+              'focus:outline-none',
+              'bg-transparent'
+            )}
+            value={output}
+            placeholder="Output will be here"
+            rows={5}
+            readOnly
+          />
+        </div>
+      </section>
     </Page>
   );
 };

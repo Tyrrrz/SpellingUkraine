@@ -5,6 +5,7 @@ import Inline from '@/components/inline';
 import Link from '@/components/link';
 import Meta from '@/components/meta';
 import Page from '@/components/page';
+import Paragraph from '@/components/paragraph';
 import Section from '@/components/section';
 import useSpeech from '@/hooks/useSpeech';
 import { getSiteUrl } from '@/utils/env';
@@ -102,9 +103,9 @@ const DescriptionSection: FC<EntryPageProps> = ({ entry }) => {
 
   return (
     <Section title="Description">
-      <article className={c('space-y-2')}>
+      <article>
         {entry.description.split('\n').map((paragraph, i) => (
-          <p key={paragraph}>{paragraph}</p>
+          <Paragraph key={paragraph}>{paragraph}</Paragraph>
         ))}
       </article>
     </Section>

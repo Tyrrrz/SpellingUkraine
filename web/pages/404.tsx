@@ -8,9 +8,12 @@ const NotFoundPage: NextPage = () => {
   return (
     <Page>
       <Meta title="Not Found" />
-      <Heading>Not Found</Heading>
 
-      <div className={c('text-lg')}>The page you requested does not exist</div>
+      <section>
+        <Heading>Not Found</Heading>
+
+        <div className={c('text-lg')}>The page you requested does not exist</div>
+      </section>
     </Page>
   );
 };
