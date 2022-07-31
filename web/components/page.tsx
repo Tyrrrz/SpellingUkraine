@@ -64,25 +64,24 @@ const Header: FC = () => {
           'hover:bg-neutral-50',
           'items-center',
           'place-content-center',
-          'gap-x-4',
-          'sm:gap-x-6'
+          'gap-x-6'
         )}
       >
-        <div className={c('w-[64px]', 'sm:w-[96px]')}>
+        <div className={c('hidden', 'sm:block', 'w-[96px]')}>
           <Image src="/logo.svg" alt="Spelling Ukraine" priority />
         </div>
 
-        <div className={c('w-px', 'h-12', 'sm:h-16', 'bg-neutral-400')} />
+        <div className={c('hidden', 'sm:block', 'w-px', 'h-16', 'bg-neutral-400')} />
 
-        <div>
-          <div className={c('flex', 'text-3xl', 'sm:text-4xl', 'font-semibold')}>
-            <div className={c('p-1', 'pl-2', 'sm:pb-2', 'bg-ukraine-blue', 'text-white')}>
+        <div className={c('flex', 'flex-col', 'items-center', 'sm:items-start')}>
+          <div className={c('flex', 'text-4xl', 'font-semibold')}>
+            <div className={c('p-1', 'pl-2', 'pb-2', 'bg-ukraine-blue', 'text-white')}>
               Spelling
             </div>
-            <div className={c('p-1', 'pr-2', 'sm:pb-2', 'bg-ukraine-yellow')}>Ukraine</div>
+            <div className={c('p-1', 'pr-2', 'pb-2', 'bg-ukraine-yellow')}>Ukraine</div>
           </div>
 
-          <div className={c('mt-1', 'text-sm', 'sm:text-xl', 'font-light', 'sm:tracking-wide')}>
+          <div className={c('mt-1', 'text-xl', 'text-center', 'font-light', 'sm:tracking-wide')}>
             Language is political. Transliterate correctly.
           </div>
         </div>

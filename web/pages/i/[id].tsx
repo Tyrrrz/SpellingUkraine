@@ -105,7 +105,7 @@ const DescriptionSection: FC<EntryPageProps> = ({ entry }) => {
     <Section title="Description">
       <article>
         {entry.description.split('\n').map((paragraph, i) => (
-          <Paragraph key={paragraph}>{paragraph}</Paragraph>
+          <Paragraph key={i}>{paragraph}</Paragraph>
         ))}
       </article>
     </Section>
