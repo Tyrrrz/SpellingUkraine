@@ -2,29 +2,6 @@ import c from 'classnames';
 import NextLink from 'next/link';
 import { FC, PropsWithChildren } from 'react';
 
-type RawLinkProps = PropsWithChildren<{
-  className?: string;
-  href: string;
-}>;
-
-const RawLink: FC<RawLinkProps> = ({ className, href, children }) => {
-  const isAbsolute = /^[a-z][a-z\d+\-.]*:/iu.test(href);
-
-  if (isAbsolute) {
-    return (
-      <a className={className} href={href} target="_blank" rel="noreferrer">
-        {children}
-      </a>
-    );
-  } else {
-    return (
-      <NextLink href={href} passHref>
-        <a className={className}>{children}</a>
-      </NextLink>
-    );
-  }
-};
-
 type LinkProps = PropsWithChildren<{
   variant?: 'normal' | 'discreet' | 'hidden';
   color?: 'blue' | 'yellow';
@@ -32,8 +9,10 @@ type LinkProps = PropsWithChildren<{
 }>;
 
 const Link: FC<LinkProps> = ({ variant = 'normal', color = 'blue', href, children }) => {
-  return (
-    <RawLink
+  const isAbsolute = /^[a-z][a-z\d+\-.]*:/iu.test(href);
+
+  const link = (
+    <a
       className={c({
         'text-ukraine-blue': variant === 'normal' && color === 'blue',
         'text-ukraine-yellow': variant === 'normal' && color === 'yellow',
@@ -42,9 +21,19 @@ const Link: FC<LinkProps> = ({ variant = 'normal', color = 'blue', href, childre
         'hover:text-ukraine-yellow': variant === 'discreet' && color === 'yellow'
       })}
       href={href}
+      target={isAbsolute ? '_blank' : undefined}
+      rel="noreferrer"
     >
       {children}
-    </RawLink>
+    </a>
+  );
+
+  return isAbsolute ? (
+    link
+  ) : (
+    <NextLink href={href} passHref>
+      {link}
+    </NextLink>
   );
 };
 

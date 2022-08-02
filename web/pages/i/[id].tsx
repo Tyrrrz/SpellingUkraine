@@ -79,7 +79,7 @@ const SpellingSection: FC<EntryPageProps> = ({ entry }) => {
 
   return (
     <Section title="Spelling">
-      <div className={c('flex', 'gap-3', 'text-lg')}>
+      <div className={c('flex', 'flex-wrap', 'gap-3', 'text-lg')}>
         <Inline>
           <FiCheck className={c('mt-px', 'sm:mt-1', 'text-green-600')} />
           <span>{entry.correctSpelling}</span>
@@ -180,7 +180,9 @@ const ImageSection: FC<EntryPageProps> = ({ entry }) => {
 
   return (
     <Section title="Image">
-      <Image src={entry.image.url} alt={entry.image.name} height={400} />
+      <Link href={entry.image.url}>
+        <Image src={entry.image.url} alt={entry.image.name} height={400} />
+      </Link>
     </Section>
   );
 };

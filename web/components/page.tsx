@@ -67,7 +67,7 @@ const Header: FC = () => {
           'gap-x-6'
         )}
       >
-        <div className={c('hidden', 'sm:block', 'w-[96px]')}>
+        <div className={c('hidden', 'sm:block', 'w-20')}>
           <Image src="/logo.svg" alt="Spelling Ukraine" priority />
         </div>
 
