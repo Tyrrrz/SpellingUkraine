@@ -1,3 +1,4 @@
+import Head from 'next/head';
 import NextImage from 'next/image';
 import { FC } from 'react';
 
@@ -10,9 +11,18 @@ type ImageProps = {
 };
 
 const Image: FC<ImageProps> = ({ src, alt, width, height, priority }) => {
-  // NextJS's image component doesn't work with images of unknown size
-  if (!width || !height) {
-    return (
+  const image =
+    width && height ? (
+      <NextImage
+        src={src}
+        alt={alt}
+        width={width}
+        height={height}
+        priority={priority}
+        layout="intrinsic"
+      />
+    ) : (
+      // NextJS's image component doesn't work with images of unknown size
       // eslint-disable-next-line @next/next/no-img-element
       <img
         src={src}
@@ -26,17 +36,17 @@ const Image: FC<ImageProps> = ({ src, alt, width, height, priority }) => {
         }}
       />
     );
-  }
 
   return (
-    <NextImage
-      src={src}
-      alt={alt}
-      width={width}
-      height={height}
-      priority={priority}
-      layout="intrinsic"
-    />
+    <>
+      {priority && (
+        <Head>
+          <link key={`preload_${src}`} rel="preload" as="image" href={src} />
+        </Head>
+      )}
+
+      {image}
+    </>
   );
 };
 
