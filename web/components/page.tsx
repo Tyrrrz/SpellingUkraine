@@ -1,6 +1,8 @@
 import Image from '@/components/image';
 import Inline from '@/components/inline';
 import Link from '@/components/link';
+import Meta from '@/components/meta';
+import Tracker from '@/components/tracker';
 import useDebounce from '@/hooks/useDebounce';
 import useRouterStatus from '@/hooks/useRouterStatus';
 import { getBuildId } from '@/utils/env';
@@ -170,7 +172,11 @@ type PageProps = PropsWithChildren;
 const Page: FC<PageProps> = ({ children }) => {
   return (
     <div className={c('flex', 'flex-col', 'min-h-screen', 'bg-neutral-50')}>
+      <Meta />
+      <Tracker />
+
       <Loader />
+
       <Header />
       <Breadcrumb />
       <Main>{children}</Main>
