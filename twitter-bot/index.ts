@@ -33,7 +33,7 @@ const main = async () => {
     `(${predicates.map((predicate) => '"' + predicate.keyword + '"').join(' OR ')})`
   ];
 
-  console.log('Listening to tweets', filters);
+  console.log('Listening to tweets:', filters);
 
   let consecutiveReplyFailures = 0;
   await listenToTweets(filters.join(' '), async (tweet) => {
@@ -52,8 +52,8 @@ const main = async () => {
       return;
     }
 
-    console.log('Tweet', tweet);
-    console.log('Match', {
+    console.log('Tweet:', tweet);
+    console.log('Match:', {
       correct: match.entry.correctSpelling,
       incorrect: match.keyword
     });
@@ -70,7 +70,7 @@ const main = async () => {
         ].join('')
       );
 
-      console.log('Reply', reply);
+      console.log('Reply:', reply);
       consecutiveReplyFailures = 0;
     } catch (err) {
       // Replies may fail for various reasons, but not consistently.
@@ -85,4 +85,7 @@ const main = async () => {
   });
 };
 
-main().catch((err) => console.error('Error', err));
+main().catch((err) => {
+  console.error('Error:', err);
+  process.exit(1);
+});

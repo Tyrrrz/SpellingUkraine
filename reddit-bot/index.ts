@@ -27,7 +27,7 @@ const main = async () => {
     entry.incorrectSpellings.flatMap((spelling) => ({ entry, keyword: spelling }))
   );
 
-  console.log('Listening to subreddits', subreddits);
+  console.log('Listening to subreddits:', subreddits);
 
   let consecutiveReplyFailures = 0;
   await Promise.all(
@@ -73,8 +73,8 @@ const main = async () => {
           return;
         }
 
-        console.log('Content', content);
-        console.log('Match', {
+        console.log('Content:', content);
+        console.log('Match:', {
           correct: match.entry.correctSpelling,
           incorrect: match.keyword
         });
@@ -95,7 +95,7 @@ const main = async () => {
             ].join('')
           );
 
-          console.log('Reply', reply);
+          console.log('Reply:', reply);
           consecutiveReplyFailures = 0;
         } catch (err) {
           // Replies may fail for various reasons, but not consistently.
@@ -112,4 +112,7 @@ const main = async () => {
   );
 };
 
-main().catch((err) => console.error('Error', err));
+main().catch((err) => {
+  console.error('Error:', err);
+  process.exit(1);
+});
