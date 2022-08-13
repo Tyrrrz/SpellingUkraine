@@ -113,6 +113,6 @@ const main = async () => {
 };
 
 main().catch((err) => {
-  console.error('Error:', err);
+  console.error(err);
   process.exit(1);
 });
