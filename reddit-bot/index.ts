@@ -11,16 +11,9 @@ const main = async () => {
   console.log('Reddit bot is starting...');
 
   const vocabulary = await Promise.all(
-    [
-      'kyiv',
-      'lviv',
-      'kharkiv',
-      'odesa',
-      'mykolaiv',
-      /*'chornobyl',*/
-      'irpin',
-      'chernihiv'
-    ].map(async (id) => await loadVocabularyEntry(id))
+    ['kyiv', 'lviv', 'kharkiv', 'odesa', 'mykolaiv', 'chornobyl', 'irpin', 'chernihiv'].map(
+      async (id) => await loadVocabularyEntry(id)
+    )
   );
 
   const predicates = vocabulary.flatMap((entry) =>
