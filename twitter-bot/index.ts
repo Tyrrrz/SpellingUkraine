@@ -12,7 +12,7 @@ const main = async () => {
       'kyiv',
       'lviv',
       'kharkiv',
-      /*'odesa',*/
+      'odesa',
       'mykolaiv',
       /*'chornobyl',*/
       'irpin',

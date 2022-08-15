@@ -2,8 +2,8 @@ import { listenToContent, postReply } from '@/reddit';
 import { delay } from '@/utils/promise';
 import { loadVocabularyEntry } from 'spelling-ukraine-data';
 
-const submissionSampling = 0.85;
-const commentSampling = 0.5;
+const submissionSampling = 1;
+const commentSampling = 0.75;
 
 const subreddits = ['ukraine', 'ukraina', 'ukrainianconflict', 'ukraineconflict', 'yurop'];
 
@@ -15,7 +15,7 @@ const main = async () => {
       'kyiv',
       'lviv',
       'kharkiv',
-      /*'odesa',*/
+      'odesa',
       'mykolaiv',
       /*'chornobyl',*/
       'irpin',
