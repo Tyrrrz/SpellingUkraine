@@ -23,6 +23,7 @@ const main = async () => {
     `-is:retweet`,
     `-is:quote`,
     `-from:SpellingUkraine`,
+    `min_faves:10`,
     `(${predicates.map((predicate) => '"' + predicate.keyword + '"').join(' OR ')})`
   ];
 
