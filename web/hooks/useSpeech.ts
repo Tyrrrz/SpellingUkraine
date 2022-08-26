@@ -32,25 +32,25 @@ const speak = (text: string, voice?: SpeechSynthesisVoice) => {
 };
 
 const useSpeech = () => {
-  const isClientSide = typeof window !== 'undefined';
-  const [isActive, setIsActive] = useState(false);
+  const clientSide = typeof window !== 'undefined';
+  const [active, setActive] = useState(false);
   const [voices, setVoices] = useState<SpeechSynthesisVoice[]>();
 
   useEffect(() => {
-    if (!isClientSide) {
+    if (!clientSide) {
       return;
     }
 
     setVoices([]);
     resolveVoices().then(setVoices);
-  }, [isClientSide]);
+  }, [clientSide]);
 
   return {
-    isActive,
+    active,
     voices,
     speak: (text: string, voice?: SpeechSynthesisVoice) => {
-      setIsActive(true);
-      speak(text, voice).finally(() => setIsActive(false));
+      setActive(true);
+      speak(text, voice).finally(() => setActive(false));
     }
   };
 };

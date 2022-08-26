@@ -18,12 +18,12 @@ const Loader: FC = () => {
 
   // Only show loading indicator if the navigation takes a while.
   // This prevents indicator from flashing during faster navigation.
-  const isVisible = useDebounce(status === 'loading', 300);
+  const visible = useDebounce(status === 'loading', 300);
 
   const [progress, setProgress] = useState(0);
 
   useEffect(() => {
-    if (!isVisible) {
+    if (!visible) {
       return;
     }
 
@@ -36,12 +36,12 @@ const Loader: FC = () => {
     }, 100);
 
     return () => clearInterval(interval);
-  }, [isVisible]);
+  }, [visible]);
 
   return (
     <div
       className={c('h-1', {
-        'bg-ukraine-blue': isVisible
+        'bg-ukraine-blue': visible
       })}
       style={{
         width: `${progress * 100}%`,

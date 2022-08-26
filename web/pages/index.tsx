@@ -136,7 +136,7 @@ const HomePage: NextPage<HomePageProps> = ({ vocabulary }) => {
   const [query, setQuery] = useSessionState('searchQuery', '');
   const queryDebounced = useHydrated(useDebounce(query, 500));
 
-  const isLoading = queryDebounced !== query;
+  const loading = queryDebounced !== query;
   const results = useVocabularySearch(vocabulary, queryDebounced || '');
 
   return (
@@ -149,7 +149,7 @@ const HomePage: NextPage<HomePageProps> = ({ vocabulary }) => {
         onSubmit={(e) => {
           e.preventDefault();
 
-          if (!isLoading && results.length > 0) {
+          if (!loading && results.length > 0) {
             push(`/i/${results[0].entry.id}`);
           }
         }}
@@ -167,7 +167,7 @@ const HomePage: NextPage<HomePageProps> = ({ vocabulary }) => {
           )}
         >
           <div className={c('mx-4')}>
-            {isLoading ? (
+            {loading ? (
               <FiLoader className={c('animate-spin')} />
             ) : query ? (
               <button

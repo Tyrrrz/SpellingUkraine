@@ -9,7 +9,7 @@ type LinkProps = PropsWithChildren<{
 }>;
 
 const Link: FC<LinkProps> = ({ variant = 'normal', color = 'blue', href, children }) => {
-  const isAbsolute = /^[a-z][a-z\d+\-.]*:/iu.test(href);
+  const absolute = /^[a-z][a-z\d+\-.]*:/iu.test(href);
 
   const link = (
     <a
@@ -21,14 +21,14 @@ const Link: FC<LinkProps> = ({ variant = 'normal', color = 'blue', href, childre
         'hover:text-ukraine-yellow': variant === 'discreet' && color === 'yellow'
       })}
       href={href}
-      target={isAbsolute ? '_blank' : undefined}
+      target={absolute ? '_blank' : undefined}
       rel="noreferrer"
     >
       {children}
     </a>
   );
 
-  return isAbsolute ? (
+  return absolute ? (
     link
   ) : (
     <NextLink href={href} passHref>
