@@ -2,7 +2,6 @@ name: reddit-scan
 
 on:
   push:
-  pull_request:
   schedule:
     - cron: '*/15 * * * *'
 
@@ -25,12 +24,12 @@ jobs:
       - name: Run
         run: |
           yarn start:reddit-scan \
-            --client-id ${{ secrets.REDDIT_CLIENT_ID }}
-            --client-secret ${{ secrets.REDDIT_CLIENT_SECRET }}
-            --username ${{ secrets.REDDIT_USERNAME }}
-            --password ${{ secrets.REDDIT_PASSWORD }}
-            --subreddits ukraine ukraina ukrainianconflict ukraineconflict yurop
-            --entries kyiv lviv kharkiv odesa mykolaiv chornobyl irpin chernihiv
-            --interval 15*60
-            --submission-sampling 1
+            --client-id ${{ secrets.REDDIT_CLIENT_ID }} \
+            --client-secret ${{ secrets.REDDIT_CLIENT_SECRET }} \
+            --username ${{ secrets.REDDIT_USERNAME }} \
+            --password ${{ secrets.REDDIT_PASSWORD }} \
+            --subreddits ukraine ukraina ukrainianconflict ukraineconflict yurop \
+            --entries kyiv lviv kharkiv odesa mykolaiv chornobyl irpin chernihiv \
+            --interval 15*60 \
+            --submission-sampling 1 \
             --comment-sampling 0.75
