@@ -1,4 +1,4 @@
-name: main
+name: reddit-scan
 
 on:
   push:
