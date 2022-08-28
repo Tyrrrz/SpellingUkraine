@@ -36,12 +36,16 @@ const createClient = (credentials: RedditCredentials) => {
     userAgent: 'SpellingUkraine Bot (https://github.com/Tyrrrz/SpellingUkraine)'
   });
 
-  reddit.config({ proxies: false });
+  reddit.config({
+    proxies: false,
+    requestDelay: 1000,
+    continueAfterRatelimitError: true
+  });
 
   const getMe = async () => await unpromise(reddit.getMe());
 
-  const getLatestSubmissions = async function* (subreddit: string, after: Date) {
-    let anchorTimestamp = after;
+  const getLatestSubmissions = async function* (subreddit: string, after: Date, before: Date) {
+    let anchor = after;
 
     while (true) {
       const items = await reddit.getNew(subreddit, { limit: 100 });
@@ -51,8 +55,13 @@ const createClient = (credentials: RedditCredentials) => {
 
       for (const item of items.reverse()) {
         const timestamp = new Date(item.created_utc * 1000);
-        if (timestamp <= anchorTimestamp) {
+
+        if (timestamp <= anchor) {
           continue;
+        }
+
+        if (timestamp > before) {
+          return;
         }
 
         const submission: Submission = {
@@ -66,13 +75,13 @@ const createClient = (credentials: RedditCredentials) => {
 
         yield submission;
 
-        anchorTimestamp = timestamp;
+        anchor = timestamp;
       }
     }
   };
 
-  const getLatestComments = async function* (subreddit: string, after: Date) {
-    let anchorTimestamp = after;
+  const getLatestComments = async function* (subreddit: string, after: Date, before: Date) {
+    let anchor = after;
 
     while (true) {
       const items = await reddit.getNewComments(subreddit, { limit: 100 });
@@ -82,8 +91,13 @@ const createClient = (credentials: RedditCredentials) => {
 
       for (const item of items.reverse()) {
         const timestamp = new Date(item.created_utc * 1000);
-        if (timestamp <= anchorTimestamp) {
+
+        if (timestamp <= anchor) {
           continue;
+        }
+
+        if (timestamp > before) {
+          return;
         }
 
         const comment: Comment = {
@@ -96,14 +110,14 @@ const createClient = (credentials: RedditCredentials) => {
 
         yield comment;
 
-        anchorTimestamp = timestamp;
+        anchor = timestamp;
       }
     }
   };
 
-  const getLatestPosts = async function* (subreddit: string, after: Date) {
-    yield* getLatestSubmissions(subreddit, after);
-    yield* getLatestComments(subreddit, after);
+  const getLatestPosts = async function* (subreddit: string, after: Date, before: Date) {
+    yield* getLatestSubmissions(subreddit, after, before);
+    yield* getLatestComments(subreddit, after, before);
   };
 
   const postReply = async (content: Submission | Comment, text: string) => {
@@ -128,7 +142,7 @@ const createClient = (credentials: RedditCredentials) => {
       kind: 'comment',
       id: reply.id,
       url: 'https://reddit.com' + reply.permalink,
-      author: 'SpellingUkraine',
+      author: reply.author.name,
       text
     };
 

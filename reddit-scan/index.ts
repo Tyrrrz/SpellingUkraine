@@ -51,16 +51,16 @@ const app = command({
     submissionSampling,
     commentSampling
   }) => {
-    const after = new Date(Date.now() - interval * 1000);
-    console.log('Anchor timestamp:', after);
+    const before = new Date();
+    const after = new Date(before.getTime() - interval * 1000);
+    console.log('Scanning for messages in range:', { after, before });
 
     const vocabulary = await Promise.all(entryIds.map(async (id) => await loadVocabularyEntry(id)));
-    console.log('Loaded vocabulary:', vocabulary);
+    console.log('Loaded vocabulary:', entryIds);
 
     const predicates = vocabulary.flatMap((entry) =>
       entry.incorrectSpellings.flatMap((spelling) => ({ entry, keyword: spelling }))
     );
-    console.log('Predicates:', predicates);
 
     const reddit = createRedditClient({ clientId, clientSecret, username, password });
 
@@ -69,7 +69,7 @@ const app = command({
 
     await Promise.all(
       subreddits.map(async (subreddit) => {
-        for await (const post of reddit.getLatestPosts(subreddit, after)) {
+        for await (const post of reddit.getLatestPosts(subreddit, after, before)) {
           if (post.author === me.name) {
             continue;
           }
