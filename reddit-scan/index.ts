@@ -1,5 +1,5 @@
 import createRedditClient from '@/reddit';
-import { array, command, multioption, number, option, run, string } from 'cmd-ts';
+import { array, command, flag, multioption, number, option, run, string } from 'cmd-ts';
 import { loadVocabularyEntry } from 'spelling-ukraine-data';
 
 const app = command({
@@ -37,6 +37,10 @@ const app = command({
       description: 'Sampling rate for comments',
       type: number,
       defaultValue: () => 0.5
+    }),
+    dryRun: flag({
+      long: 'dry-run',
+      description: 'If set, no replies will be actually sent'
     })
   },
 
@@ -49,12 +53,14 @@ const app = command({
     entryIds,
     interval,
     submissionSampling,
-    commentSampling
+    commentSampling,
+    dryRun
   }) => {
     console.log('Subreddits:', subreddits);
     console.log('Vocabulary:', entryIds);
     console.log('Submission sampling:', submissionSampling);
     console.log('Comment sampling:', commentSampling);
+    console.log('Dry run:', dryRun);
 
     const before = new Date();
     const after = new Date(before.getTime() - interval * 1000);
@@ -79,6 +85,8 @@ const app = command({
       subreddits.map(async (subreddit) => {
         for await (const post of reddit.getLatestPosts(subreddit, after, before)) {
           try {
+            console.log('Post', { id: post.id, timestamp: post.timestamp });
+
             if (post.author === me.name) {
               continue;
             }
@@ -123,22 +131,25 @@ const app = command({
               incorrect: match.keyword
             });
 
-            const reply = await reddit.postReply(
-              post,
-              [
-                `💡 It's \`${match.entry.correctSpelling}\`, not \`${match.keyword}\`. `,
-                `Support Ukraine by using the correct spelling! `,
-                `[Learn more](https://spellingukraine.com/i/${match.entry.id}).`,
-                `\n\n___\n\n`,
-                `[^(Why spelling matters)](https://spellingukraine.com) `,
-                `^(|) `,
-                `[^(Stand with Ukraine)](https://stand-with-ukraine.pp.ua) `,
-                `^(|) `,
-                `^(I'm a bot, sorry if I'm missing context)`
-              ].join('')
-            );
+            if (!dryRun) {
+              const reply = await reddit.postReply(
+                post,
+                [
+                  `💡 It's \`${match.entry.correctSpelling}\`, not \`${match.keyword}\`. `,
+                  `Support Ukraine by using the correct spelling! `,
+                  `[Learn more](https://spellingukraine.com/i/${match.entry.id}).`,
+                  `\n\n___\n\n`,
+                  `[^(Why spelling matters)](https://spellingukraine.com) `,
+                  `^(|) `,
+                  `[^(Stand with Ukraine)](https://stand-with-ukraine.pp.ua) `,
+                  `^(|) `,
+                  `^(I'm a bot, sorry if I'm missing context)`
+                ].join('')
+              );
 
-            console.log('Reply:', reply);
+              console.log('Reply:', reply);
+            }
+
             postsRepliedTo++;
           } finally {
             if (++postsProcessed % 10 === 0) {

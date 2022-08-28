@@ -2,8 +2,8 @@ name: reddit-scan
 
 on:
   push:
-  schedule:
-    - cron: '*/15 * * * *'
+  #schedule:
+  #  - cron: '*/15 * * * *'
 
 jobs:
   main:
@@ -17,6 +17,7 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 18
+          cache: yarn
 
       - name: Pull dependencies
         run: yarn install
@@ -43,4 +44,5 @@ jobs:
             --entry chernihiv \
             --interval 900 \
             --submission-sampling 1 \
-            --comment-sampling 0.75
+            --comment-sampling 0.75 |
+            --dry-run

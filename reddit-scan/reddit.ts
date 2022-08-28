@@ -11,6 +11,7 @@ type Submission = {
   kind: 'submission';
   id: string;
   url: string;
+  timestamp: Date;
   author: string;
   title: string;
   text: string;
@@ -20,6 +21,7 @@ type Comment = {
   kind: 'comment';
   id: string;
   url: string;
+  timestamp: Date;
   author: string;
   text: string;
 };
@@ -50,7 +52,7 @@ const createClient = (credentials: RedditCredentials) => {
     while (true) {
       const items = await reddit.getNew(subreddit, { limit: 100 });
       if (items.length === 0) {
-        break;
+        return;
       }
 
       for (const item of items.reverse()) {
@@ -68,6 +70,7 @@ const createClient = (credentials: RedditCredentials) => {
           kind: 'submission',
           id: item.id,
           url: 'https://reddit.com' + item.permalink,
+          timestamp,
           author: item.author.name,
           title: item.title,
           text: item.selftext
@@ -86,7 +89,7 @@ const createClient = (credentials: RedditCredentials) => {
     while (true) {
       const items = await reddit.getNewComments(subreddit, { limit: 100 });
       if (items.length === 0) {
-        break;
+        return;
       }
 
       for (const item of items.reverse()) {
@@ -104,6 +107,7 @@ const createClient = (credentials: RedditCredentials) => {
           kind: 'comment',
           id: item.id,
           url: 'https://reddit.com' + item.permalink,
+          timestamp,
           author: item.author.name,
           text: item.body
         };
@@ -142,6 +146,7 @@ const createClient = (credentials: RedditCredentials) => {
       kind: 'comment',
       id: reply.id,
       url: 'https://reddit.com' + reply.permalink,
+      timestamp: new Date(reply.created_utc * 1000),
       author: reply.author.name,
       text
     };
