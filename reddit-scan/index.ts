@@ -3,7 +3,7 @@ import { array, command, multioption, number, option, run, string } from 'cmd-ts
 import { loadVocabularyEntry } from 'spelling-ukraine-data';
 
 const app = command({
-  name: 'spelling-ukraine-reddit',
+  name: 'spelling-ukraine-reddit-scan',
 
   args: {
     clientId: option({ long: 'client-id', description: 'Reddit client ID' }),
@@ -11,12 +11,12 @@ const app = command({
     username: option({ long: 'username', description: 'Reddit username' }),
     password: option({ long: 'password', description: 'Reddit password' }),
     subreddits: multioption({
-      long: 'subreddits',
+      long: 'sub',
       description: 'Subreddits to scan',
       type: array(string)
     }),
     entryIds: multioption({
-      long: 'entries',
+      long: 'entry',
       description: 'Vocabulary entries to check',
       type: array(string)
     }),

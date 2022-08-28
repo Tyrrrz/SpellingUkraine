@@ -28,8 +28,19 @@ jobs:
             --client-secret ${{ secrets.REDDIT_CLIENT_SECRET }} \
             --username ${{ secrets.REDDIT_USERNAME }} \
             --password ${{ secrets.REDDIT_PASSWORD }} \
-            --subreddits ukraine ukraina ukrainianconflict ukraineconflict yurop \
-            --entries kyiv lviv kharkiv odesa mykolaiv chornobyl irpin chernihiv \
+            --sub ukraine \
+            --sub ukraina \
+            --sub ukrainianconflict \
+            --sub ukraineconflict \
+            --sub yurop \
+            --entry kyiv \
+            --entry lviv \
+            --entry kharkiv \
+            --entry odesa \
+            --entry mykolaiv \
+            --entry chornobyl \
+            --entry irpin
+            --entry chernihiv \
             --interval 15*60 \
             --submission-sampling 1 \
             --comment-sampling 0.75
