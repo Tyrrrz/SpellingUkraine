@@ -44,5 +44,5 @@ jobs:
             --entry chernihiv \
             --interval 900 \
             --submission-sampling 1 \
-            --comment-sampling 0.75 |
+            --comment-sampling 0.75 \
             --dry-run
