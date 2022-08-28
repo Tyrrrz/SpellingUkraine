@@ -1,11 +1,12 @@
 {
-  "name": "spelling-ukraine-reddit-bot",
+  "name": "spelling-ukraine-reddit-scan",
   "version": "1.0.0",
   "private": true,
   "scripts": {
     "start": "ts-node index.ts"
   },
   "dependencies": {
+    "cmd-ts": "^0.11.0",
     "snoowrap": "^1.23.0",
     "spelling-ukraine-data": "^1.0.0"
   },

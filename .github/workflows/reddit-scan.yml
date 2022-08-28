@@ -1,0 +1,36 @@
+name: main
+
+on:
+  push:
+  pull_request:
+  schedule:
+    - cron: '*/15 * * * *'
+
+jobs:
+  main:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Install NodeJS
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+
+      - name: Pull dependencies
+        run: yarn install
+
+      - name: Run
+        run: |
+          yarn start:reddit-scan \
+            --client-id ${{ secrets.REDDIT_CLIENT_ID }}
+            --client-secret ${{ secrets.REDDIT_CLIENT_SECRET }}
+            --username ${{ secrets.REDDIT_USERNAME }}
+            --password ${{ secrets.REDDIT_PASSWORD }}
+            --subreddits ukraine ukraina ukrainianconflict ukraineconflict yurop
+            --entries kyiv lviv kharkiv odesa mykolaiv chornobyl irpin chernihiv
+            --interval 15*60
+            --submission-sampling 1
+            --comment-sampling 0.75

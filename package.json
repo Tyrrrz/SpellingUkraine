@@ -3,13 +3,13 @@
   "private": true,
   "workspaces": [
     "data",
-    "reddit-bot",
-    "twitter-bot",
+    "reddit-scan",
+    "twitter-scan",
     "web"
   ],
   "scripts": {
-    "start:reddit-bot": "cd reddit-bot && yarn run start",
-    "start:twitter-bot": "cd twitter-bot && yarn run start",
+    "start:reddit-scan": "cd reddit-scan && yarn run start",
+    "start:twitter-scan": "cd twitter-scan && yarn run start",
     "start:web": "cd web && yarn run start"
   }
 }
