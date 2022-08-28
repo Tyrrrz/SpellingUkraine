@@ -55,8 +55,10 @@ const app = command({
     const after = new Date(before.getTime() - interval * 1000);
     console.log('Scanning for messages in range:', { after, before });
 
+    console.log('Subreddits:', subreddits);
+    console.log('Vocabulary:', entryIds);
+
     const vocabulary = await Promise.all(entryIds.map(async (id) => await loadVocabularyEntry(id)));
-    console.log('Loaded vocabulary:', entryIds);
 
     const predicates = vocabulary.flatMap((entry) =>
       entry.incorrectSpellings.flatMap((spelling) => ({ entry, keyword: spelling }))
@@ -67,9 +69,15 @@ const app = command({
     const me = await reddit.getMe();
     console.log('Logged in as:', me.name);
 
+    let postsProcessed = 0;
+    let postsRepliedTo = 0;
+
+    console.log('Scanning subreddits...');
     await Promise.all(
       subreddits.map(async (subreddit) => {
         for await (const post of reddit.getLatestPosts(subreddit, after, before)) {
+          postsProcessed++;
+
           if (post.author === me.name) {
             continue;
           }
@@ -129,9 +137,14 @@ const app = command({
           );
 
           console.log('Reply:', reply);
+          postsRepliedTo++;
         }
       })
     );
+
+    console.log('Finished scanning.');
+    console.log('Posts processed:', postsProcessed);
+    console.log('Posts replied to:', postsRepliedTo);
   }
 });
 

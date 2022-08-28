@@ -41,6 +41,6 @@ jobs:
             --entry chornobyl \
             --entry irpin
             --entry chernihiv \
-            --interval 15*60 \
+            --interval 900 \
             --submission-sampling 1 \
             --comment-sampling 0.75
