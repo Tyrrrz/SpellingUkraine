@@ -39,7 +39,7 @@ jobs:
             --entry odesa \
             --entry mykolaiv \
             --entry chornobyl \
-            --entry irpin
+            --entry irpin \
             --entry chernihiv \
             --interval 900 \
             --submission-sampling 1 \
