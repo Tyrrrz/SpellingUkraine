@@ -7,6 +7,7 @@ import useDebounce from '@/hooks/useDebounce';
 import useHydrated from '@/hooks/useHydrated';
 import useSessionState from '@/hooks/useSessionState';
 import useVocabularySearch, { SearchResult } from '@/hooks/useVocabularySearch';
+import { bufferIterable } from '@/utils/async';
 import { getRepoFileUrl } from '@/utils/repo';
 import c from 'classnames';
 import type { GetStaticProps, NextPage } from 'next';
@@ -228,10 +229,7 @@ const HomePage: NextPage<HomePageProps> = ({ vocabulary }) => {
 };
 
 export const getStaticProps: GetStaticProps<HomePageProps> = async () => {
-  const vocabulary: VocabularyEntry[] = [];
-  for await (const entry of loadVocabulary()) {
-    vocabulary.push(entry);
-  }
+  const vocabulary = await bufferIterable(loadVocabulary());
 
   return {
     props: {

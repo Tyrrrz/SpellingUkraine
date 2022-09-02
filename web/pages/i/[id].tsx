@@ -8,6 +8,7 @@ import Page from '@/components/page';
 import Paragraph from '@/components/paragraph';
 import Section from '@/components/section';
 import useSpeech from '@/hooks/useSpeech';
+import { bufferIterable } from '@/utils/async';
 import { getSiteUrl } from '@/utils/env';
 import { getRepoFileEditUrl, getRepoNewIssueUrl } from '@/utils/repo';
 import { formatUrlWithQuery } from '@/utils/url';
@@ -267,13 +268,14 @@ const EntryPage: NextPage<EntryPageProps> = ({ entry }) => {
 };
 
 export const getStaticPaths: GetStaticPaths<EntryPageParams> = async () => {
-  const ids: string[] = [];
-  for await (const entry of loadVocabulary()) {
-    ids.push(entry.id);
-  }
+  const entries = await bufferIterable(loadVocabulary());
 
   return {
-    paths: ids.map((id) => ({ params: { id } })),
+    paths: entries.map((entry) => ({
+      params: {
+        id: entry.id
+      }
+    })),
     fallback: false
   };
 };
@@ -286,9 +288,11 @@ export const getStaticProps: GetStaticProps<EntryPageProps, EntryPageParams> = a
     throw new Error('Missing vocabulary entry ID');
   }
 
+  const entry = await loadVocabularyEntry(id);
+
   return {
     props: {
-      entry: await loadVocabularyEntry(id)
+      entry
     }
   };
 };
