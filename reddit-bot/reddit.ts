@@ -123,7 +123,7 @@ export const postReply = async (content: Content, text: string) => {
     kind: 'comment',
     id: reply.id,
     url: 'https://reddit.com' + reply.permalink,
-    author: reply.author.name,
+    author: reply.author?.name,
     text
   };
 
