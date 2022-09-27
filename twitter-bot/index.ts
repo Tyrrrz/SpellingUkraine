@@ -1,4 +1,4 @@
-import { listenToTweets, postReply } from '@/twitter';
+import { getMe, listenToTweets, postReply } from '@/twitter';
 import { delay } from '@/utils/promise';
 import { loadVocabularyEntry } from 'spelling-ukraine-data';
 
@@ -6,6 +6,9 @@ const sampling = 0.01;
 
 const main = async () => {
   console.log('Twitter bot is starting...');
+
+  const me = await getMe();
+  console.log('Logged in as:', me.username);
 
   const vocabulary = await Promise.all(
     ['kyiv', 'lviv', 'kharkiv', 'odesa', 'mykolaiv', 'chornobyl', 'irpin', 'chernihiv'].map(
@@ -17,12 +20,17 @@ const main = async () => {
     entry.incorrectSpellings.flatMap((spelling) => ({ entry, keyword: spelling }))
   );
 
+  console.log(
+    'Predicates:',
+    predicates.map((predicate) => predicate.keyword)
+  );
+
   const filters = [
     `lang:en`,
     `sample:${Math.floor(100 * sampling)}`,
     `-is:retweet`,
     `-is:quote`,
-    `-from:SpellingUkraine`,
+    `-from:${me.username}`,
     `min_faves:10`,
     `(${predicates.map((predicate) => '"' + predicate.keyword + '"').join(' OR ')})`
   ];

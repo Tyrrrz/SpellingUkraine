@@ -1,4 +1,5 @@
 import { listenToContent, postReply } from '@/reddit';
+import { getRedditCredentials } from '@/utils/env';
 import { delay } from '@/utils/promise';
 import { loadVocabularyEntry } from 'spelling-ukraine-data';
 
@@ -10,6 +11,11 @@ const subreddits = ['ukraine', 'ukraina', 'ukrainianconflict', 'ukraineconflict'
 const main = async () => {
   console.log('Reddit bot is starting...');
 
+  const me = { username: getRedditCredentials().username };
+  console.log('Logged in as:', me.username);
+
+  console.log('Listening to subreddits:', subreddits);
+
   const vocabulary = await Promise.all(
     ['kyiv', 'lviv', 'kharkiv', 'odesa', 'mykolaiv', 'chornobyl', 'irpin', 'chernihiv'].map(
       async (id) => await loadVocabularyEntry(id)
@@ -20,16 +26,16 @@ const main = async () => {
     entry.incorrectSpellings.flatMap((spelling) => ({ entry, keyword: spelling }))
   );
 
-  console.log('Listening to subreddits:', subreddits);
+  console.log(
+    'Predicates:',
+    predicates.map((predicate) => predicate.keyword)
+  );
 
   let consecutiveReplyFailures = 0;
   await Promise.all(
     subreddits.map(async (subreddit) => {
-      // Random stagger to avoid hitting the API for each subreddit at the same time
-      await delay(Math.random() * 60 * 1000); // 0-60 seconds
-
       await listenToContent(subreddit, async (content) => {
-        if (content.author === 'SpellingUkraine') {
+        if (content.author === me.username) {
           return;
         }
 

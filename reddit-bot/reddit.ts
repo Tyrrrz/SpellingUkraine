@@ -1,5 +1,4 @@
 import { getRedditCredentials } from '@/utils/env';
-import { delay } from '@/utils/promise';
 import snoowrap from 'snoowrap';
 
 const reddit = new snoowrap({
@@ -7,7 +6,11 @@ const reddit = new snoowrap({
   userAgent: 'SpellingUkraine Bot (https://github.com/Tyrrrz/SpellingUkraine)'
 });
 
-reddit.config({ proxies: false });
+reddit.config({
+  proxies: false,
+  requestDelay: 1000,
+  continueAfterRatelimitError: true
+});
 
 // Workaround for https://github.com/not-an-aardvark/snoowrap/issues/221
 const unpromise = async <T>(promise: Promise<T>) => {
@@ -60,9 +63,6 @@ export const listenToPosts = async (
 
       anchorTimestamp = timestamp;
     }
-
-    // Request new content with delay
-    await delay(1 * 60 * 1000); // 1 minute
   }
 };
 
@@ -91,9 +91,6 @@ export const listenToComments = async (
 
       anchorTimestamp = timestamp;
     }
-
-    // Request new content with delay
-    await delay(1 * 60 * 1000); // 1 minute
   }
 };
 
@@ -126,7 +123,7 @@ export const postReply = async (content: Content, text: string) => {
     kind: 'comment',
     id: reply.id,
     url: 'https://reddit.com' + reply.permalink,
-    author: 'SpellingUkraine',
+    author: reply.author.name,
     text
   };
 

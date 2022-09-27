@@ -15,6 +15,11 @@ export type Tweet = {
 
 export const getTweetUrl = (id: string) => `https://twitter.com/i/web/status/${id}`;
 
+export const getMe = async () => {
+  const { data } = await twitterBot.me();
+  return data;
+};
+
 export const listenToTweets = async (
   filter: string,
   callback: (tweet: Tweet) => Promise<void> | void
