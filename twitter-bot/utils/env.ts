@@ -4,14 +4,14 @@ export const getTwitterCredentials = () => {
     throw new Error(`Environment variable 'TWITTER_BEARER_TOKEN' is not defined`);
   }
 
-  const appKey = process.env.TWITTER_APP_KEY;
+  const appKey = process.env.TWITTER_API_KEY;
   if (!appKey) {
-    throw new Error(`Environment variable 'TWITTER_APP_KEY' is not defined`);
+    throw new Error(`Environment variable 'TWITTER_API_KEY' is not defined`);
   }
 
-  const appSecret = process.env.TWITTER_APP_SECRET;
+  const appSecret = process.env.TWITTER_API_SECRET;
   if (!appSecret) {
-    throw new Error(`Environment variable 'TWITTER_APP_SECRET' is not defined`);
+    throw new Error(`Environment variable 'TWITTER_API_SECRET' is not defined`);
   }
 
   const accessToken = process.env.TWITTER_ACCESS_TOKEN;
