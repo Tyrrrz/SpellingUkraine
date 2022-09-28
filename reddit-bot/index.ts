@@ -6,7 +6,7 @@ import { loadVocabularyEntry } from 'spelling-ukraine-data';
 const submissionSampling = 1;
 const commentSampling = 0.75;
 
-const subreddits = ['ukraine', 'ukraina', 'ukrainianconflict', 'ukraineconflict', 'yurop'];
+const subreddits = ['ukraine', 'ukraina', 'ukraineconflict', 'yurop'];
 
 const main = async () => {
   console.log('Reddit bot is starting...');
