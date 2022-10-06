@@ -1,11 +1,10 @@
 const { spawnSync } = require('child_process');
-const withPlugins = require('next-compose-plugins');
 const withPWA = require('next-pwa');
 const withTM = require('next-transpile-modules');
 const runtimeCaching = require('next-pwa/cache');
 
 /** @type {import('next').NextConfig} */
-const nextConfig = {
+const config = {
   reactStrictMode: true,
 
   images: {
@@ -29,19 +28,15 @@ const nextConfig = {
   }
 };
 
-module.exports = withPlugins(
-  [
-    withTM(['spelling-ukraine-data']),
+const plugins = [
+  withTM(['spelling-ukraine-data']),
+  withPWA({
+    dest: 'public',
+    disable: process.env.NODE_ENV === 'development',
+    runtimeCaching
+  })
+];
 
-    withPWA,
-    {
-      pwa: {
-        dest: 'public',
-        disable: process.env.NODE_ENV === 'development',
-        runtimeCaching
-      }
-    }
-  ],
-
-  nextConfig
-);
+module.exports = (_phase) => {
+  return plugins.reduce((config, plugin) => plugin(config), config);
+};
