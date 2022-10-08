@@ -96,22 +96,26 @@ const main = async () => {
                   `\n\n___\n\n`,
                   `[^(Why spelling matters)](https://spellingukraine.com) `,
                   `^(|) `,
-                  `[^(Stand with Ukraine)](https://stand-with-ukraine.pp.ua) `,
+                  `[^(Ways to support Ukraine)](https://stand-with-ukraine.pp.ua) `,
                   `^(|) `,
-                  `[^(Bot author)](https://twitter.com/tyrrrz) `,
+                  `^(I'm a bot, sorry if I'm missing context) `,
                   `^(|) `,
-                  `^(I'm a bot, sorry if I'm missing context)`
+                  `[^(Source)](https://github.com/Tyrrrz/SpellingUkraine) `,
+                  `^(|) `,
+                  `[^(Author)](https://twitter.com/tyrrrz)`
                 ].join('')
               : [
                   `💡 It's \`${match.entry.correctSpelling}\`, not \`${match.keyword}\`. `,
                   `Support memes by using the correct spelling! `,
                   `[Learn more](https://spellingukraine.com/i/${match.entry.id}).`,
                   `\n\n___\n\n`,
-                  `[^(Stand with Ukraine)](https://stand-with-ukraine.pp.ua) `,
+                  `[^(Ways to support Ukraine)](https://stand-with-ukraine.pp.ua) `,
                   `^(|) `,
-                  `[^(Bot author)](https://twitter.com/tyrrrz) `,
+                  `^(I'm a bot, sorry if you're missing context) `,
                   `^(|) `,
-                  `^(I'm a bot, sorry if you're missing context)`
+                  `[^(Source)](https://github.com/Tyrrrz/SpellingUkraine) `,
+                  `^(|) `,
+                  `[^(Author)](https://twitter.com/tyrrrz)`
                 ].join('');
 
           const reply = await postReply(content, replyContent);
