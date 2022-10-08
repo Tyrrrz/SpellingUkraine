@@ -4,17 +4,15 @@ import { loadVocabularyEntry } from 'spelling-ukraine-data';
 
 const sampling = 0.01;
 
+const entries = ['kyiv', 'lviv', 'kharkiv', 'odesa', 'mykolaiv', 'chornobyl', 'irpin', 'chernihiv'];
+
 const main = async () => {
   console.log('Twitter bot is starting...');
 
   const me = await getMe();
   console.log('Logged in as:', me.username);
 
-  const vocabulary = await Promise.all(
-    ['kyiv', 'lviv', 'kharkiv', 'odesa', 'mykolaiv', 'chornobyl', 'irpin', 'chernihiv'].map(
-      async (id) => await loadVocabularyEntry(id)
-    )
-  );
+  const vocabulary = await Promise.all(entries.map(async (id) => await loadVocabularyEntry(id)));
 
   const predicates = vocabulary.flatMap((entry) =>
     entry.incorrectSpellings.flatMap((spelling) => ({ entry, keyword: spelling }))
