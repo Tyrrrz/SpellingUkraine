@@ -11,7 +11,7 @@ import c from 'classnames';
 import { useRouter } from 'next/router';
 import { FC, PropsWithChildren, useEffect, useState } from 'react';
 import FadeIn from 'react-fade-in';
-import { FiChevronLeft, FiGitCommit, FiGithub, FiHeart } from 'react-icons/fi';
+import { FiChevronLeft, FiGitCommit, FiGithub, FiHeart, FiOctagon } from 'react-icons/fi';
 
 const Loader: FC = () => {
   const status = useRouterStatus();
@@ -161,6 +161,24 @@ const Footer: FC = () => {
         <Inline>
           <FiHeart strokeWidth={1} />
           <span>Donate</span>
+        </Inline>
+      </Link>
+
+      <div>•</div>
+
+      <Link variant="discreet" href="https://reddit.com/u/SpellingUkraine">
+        <Inline>
+          <FiOctagon strokeWidth={1} />
+          <span>Reddit Bot</span>
+        </Inline>
+      </Link>
+
+      <div>•</div>
+
+      <Link variant="discreet" href="https://twitter.com/SpellingUkraine">
+        <Inline>
+          <FiOctagon strokeWidth={1} />
+          <span>Twitter Bot</span>
         </Inline>
       </Link>
     </footer>
