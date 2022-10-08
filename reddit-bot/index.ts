@@ -92,7 +92,7 @@ const main = async () => {
               ? [
                   `💡 It's \`${match.entry.correctSpelling}\`, not \`${match.keyword}\`. `,
                   `Support Ukraine by using the correct spelling! `,
-                  `[Learn more](https://spellingukraine.com/i/${match.entry.id}).`,
+                  `[Learn more](https://spellingukraine.com/i/${match.entry.id})`,
                   `\n\n___\n\n`,
                   `[^(Why spelling matters)](https://spellingukraine.com) `,
                   `^(|) `,
@@ -107,7 +107,7 @@ const main = async () => {
               : [
                   `💡 It's \`${match.entry.correctSpelling}\`, not \`${match.keyword}\`. `,
                   `Support memes by using the correct spelling! `,
-                  `[Learn more](https://spellingukraine.com/i/${match.entry.id}).`,
+                  `[Learn more](https://spellingukraine.com/i/${match.entry.id})`,
                   `\n\n___\n\n`,
                   `[^(Ways to support Ukraine)](https://stand-with-ukraine.pp.ua) `,
                   `^(|) `,
