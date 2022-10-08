@@ -98,6 +98,8 @@ const main = async () => {
                   `^(|) `,
                   `[^(Stand with Ukraine)](https://stand-with-ukraine.pp.ua) `,
                   `^(|) `,
+                  `[^(Bot author)](https://twitter.com/tyrrrz) `,
+                  `^(|) `,
                   `^(I'm a bot, sorry if I'm missing context)`
                 ].join('')
               : [
@@ -106,6 +108,8 @@ const main = async () => {
                   `[Learn more](https://spellingukraine.com/i/${match.entry.id}).`,
                   `\n\n___\n\n`,
                   `[^(Stand with Ukraine)](https://stand-with-ukraine.pp.ua) `,
+                  `^(|) `,
+                  `[^(Bot author)](https://twitter.com/tyrrrz) `,
                   `^(|) `,
                   `^(I'm a bot, sorry if you're missing context)`
                 ].join('');
