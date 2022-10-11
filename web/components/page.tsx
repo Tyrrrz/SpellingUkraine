@@ -157,15 +157,6 @@ const Footer: FC = () => {
 
       <div>•</div>
 
-      <Link variant="discreet" href="https://tyrrrz.me/donate">
-        <Inline>
-          <FiHeart strokeWidth={1} />
-          <span>Donate</span>
-        </Inline>
-      </Link>
-
-      <div>•</div>
-
       <Link variant="discreet" href="https://reddit.com/u/SpellingUkraine">
         <Inline>
           <FiOctagon strokeWidth={1} />
@@ -179,6 +170,15 @@ const Footer: FC = () => {
         <Inline>
           <FiOctagon strokeWidth={1} />
           <span>Twitter Bot</span>
+        </Inline>
+      </Link>
+
+      <div>•</div>
+
+      <Link variant="discreet" href="https://tyrrrz.me/donate">
+        <Inline>
+          <FiHeart strokeWidth={1} />
+          <span>Donate</span>
         </Inline>
       </Link>
     </footer>
