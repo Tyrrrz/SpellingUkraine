@@ -7,18 +7,7 @@ const submissionSampling = 1;
 const commentSampling = 0.75;
 
 const subreddits = ['ukraine', 'ukraina', 'ukraineconflict', 'yurop'];
-
-const entries = [
-  'kyiv',
-  'lviv',
-  'kharkiv',
-  'odesa',
-  'mykolaiv',
-  'chornobyl',
-  'irpin',
-  'chernihiv',
-  'kralovec'
-];
+const entries = ['kyiv', 'lviv', 'kharkiv', 'odesa', 'mykolaiv', 'chornobyl', 'irpin', 'chernihiv'];
 
 const main = async () => {
   console.log('Reddit bot is starting...');
@@ -87,38 +76,24 @@ const main = async () => {
         });
 
         try {
-          const replyContent =
-            match.entry.id !== 'kralovec'
-              ? [
-                  `💡 It's \`${match.entry.correctSpelling}\`, not \`${match.keyword}\`. `,
-                  `Support Ukraine by using the correct spelling! `,
-                  `[Learn more](https://spellingukraine.com/i/${match.entry.id})`,
-                  `\n\n___\n\n`,
-                  `[^(Why spelling matters)](https://spellingukraine.com) `,
-                  `^(|) `,
-                  `[^(Ways to support Ukraine)](https://stand-with-ukraine.pp.ua) `,
-                  `^(|) `,
-                  `^(I'm a bot, sorry if I'm missing context) `,
-                  `^(|) `,
-                  `[^(Source)](https://github.com/Tyrrrz/SpellingUkraine) `,
-                  `^(|) `,
-                  `[^(Author)](https://twitter.com/tyrrrz)`
-                ].join('')
-              : [
-                  `💡 It's \`${match.entry.correctSpelling}\`, not \`${match.keyword}\`. `,
-                  `Support memes by using the correct spelling! `,
-                  `[Learn more](https://spellingukraine.com/i/${match.entry.id})`,
-                  `\n\n___\n\n`,
-                  `[^(Ways to support Ukraine)](https://stand-with-ukraine.pp.ua) `,
-                  `^(|) `,
-                  `^(I'm a bot, sorry if you're missing context) `,
-                  `^(|) `,
-                  `[^(Source)](https://github.com/Tyrrrz/SpellingUkraine) `,
-                  `^(|) `,
-                  `[^(Author)](https://twitter.com/tyrrrz)`
-                ].join('');
-
-          const reply = await postReply(content, replyContent);
+          const reply = await postReply(
+            content,
+            [
+              `💡 It's \`${match.entry.correctSpelling}\`, not \`${match.keyword}\`. `,
+              `Support Ukraine by using the correct spelling! `,
+              `[Learn more](https://spellingukraine.com/i/${match.entry.id})`,
+              `\n\n___\n\n`,
+              `[^(Why spelling matters)](https://spellingukraine.com) `,
+              `^(|) `,
+              `[^(Ways to support Ukraine)](https://stand-with-ukraine.pp.ua) `,
+              `^(|) `,
+              `^(I'm a bot, sorry if I'm missing context) `,
+              `^(|) `,
+              `[^(Source)](https://github.com/Tyrrrz/SpellingUkraine) `,
+              `^(|) `,
+              `[^(Author)](https://twitter.com/tyrrrz)`
+            ].join('')
+          );
 
           console.log('Reply:', reply);
           consecutiveReplyFailures = 0;
