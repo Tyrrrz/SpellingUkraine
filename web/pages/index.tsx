@@ -150,9 +150,16 @@ const HomePage: NextPage<HomePageProps> = ({ vocabulary }) => {
         onSubmit={(e) => {
           e.preventDefault();
 
-          if (!loading && results.length > 0) {
-            push(`/i/${results[0].entry.id}`);
+          if (loading) {
+            return;
           }
+
+          const firstResult = results[0];
+          if (!firstResult) {
+            return;
+          }
+
+          push(`/i/${firstResult.entry.id}`);
         }}
       >
         <div
