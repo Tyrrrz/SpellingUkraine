@@ -9,7 +9,7 @@ export const getRootDirPath = () => {
 
     if (
       fs.existsSync(packageJsonPath) &&
-      JSON.parse(fs.readFileSync(packageJsonPath, 'utf8')).name === 'root'
+      JSON.parse(fs.readFileSync(packageJsonPath, 'utf8')).root === true
     ) {
       return dirPath;
     }
@@ -17,7 +17,7 @@ export const getRootDirPath = () => {
     dirPath = path.resolve(dirPath, '..');
 
     if (path.parse(dirPath).root === dirPath) {
-      throw new Error('Could not find root package.json');
+      throw new Error('Root package.json not found');
     }
   }
 };

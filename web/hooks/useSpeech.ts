@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 
 const resolveVoices = () => {
   return new Promise<SpeechSynthesisVoice[]>((resolve) => {
@@ -45,14 +45,16 @@ const useSpeech = () => {
     resolveVoices().then(setVoices);
   }, [clientSide]);
 
-  return {
-    active,
-    voices,
-    speak: (text: string, voice?: SpeechSynthesisVoice) => {
-      setActive(true);
-      speak(text, voice).finally(() => setActive(false));
-    }
-  };
+  return useMemo(() => {
+    return {
+      active,
+      voices,
+      speak: (text: string, voice?: SpeechSynthesisVoice) => {
+        setActive(true);
+        speak(text, voice).finally(() => setActive(false));
+      }
+    };
+  }, [active, voices]);
 };
 
 export default useSpeech;
