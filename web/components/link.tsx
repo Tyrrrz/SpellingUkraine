@@ -4,17 +4,17 @@ import NextLink from 'next/link';
 import { FC, PropsWithChildren } from 'react';
 
 type LinkProps = PropsWithChildren<{
-  href: string;
-  external?: boolean;
   variant?: 'normal' | 'discreet' | 'hidden';
   color?: 'blue' | 'yellow';
+  href: string;
+  external?: boolean;
 }>;
 
 const Link: FC<LinkProps> = ({
-  href,
-  external = isAbsoluteUrl(href),
   variant = 'normal',
   color = 'blue',
+  href,
+  external = isAbsoluteUrl(href),
   children
 }) => {
   const RawLink = external ? 'a' : NextLink;
