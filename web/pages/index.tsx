@@ -1,7 +1,6 @@
 import Highlight from '@/components/highlight';
 import Inline from '@/components/inline';
 import Link from '@/components/link';
-import Page from '@/components/page';
 import Paragraph from '@/components/paragraph';
 import useDebounce from '@/hooks/useDebounce';
 import useHydrated from '@/hooks/useHydrated';
@@ -141,7 +140,7 @@ const HomePage: NextPage<HomePageProps> = ({ vocabulary }) => {
   const results = useVocabularySearch(vocabulary, queryDebounced || '');
 
   return (
-    <Page>
+    <>
       <div className={c('m-1', 'text-center', 'sm:text-right', 'text-sm', 'text-light')}>
         ✨ New: you can now also <Link href="/translit">transliterate arbitrary text</Link>
       </div>
@@ -231,7 +230,7 @@ const HomePage: NextPage<HomePageProps> = ({ vocabulary }) => {
           <NotFound vocabulary={vocabulary} />
         )}
       </div>
-    </Page>
+    </>
   );
 };
 

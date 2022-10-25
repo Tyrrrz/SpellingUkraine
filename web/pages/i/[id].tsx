@@ -4,7 +4,6 @@ import Image from '@/components/image';
 import Inline from '@/components/inline';
 import Link from '@/components/link';
 import Meta from '@/components/meta';
-import Page from '@/components/page';
 import Paragraph from '@/components/paragraph';
 import Section from '@/components/section';
 import useSpeech from '@/hooks/useSpeech';
@@ -226,7 +225,7 @@ const ContributeSection: FC<EntryPageProps> = ({ entry }) => {
 
 const EntryPage: NextPage<EntryPageProps> = ({ entry }) => {
   return (
-    <Page>
+    <>
       <Meta
         title={entry.correctSpelling}
         description={`"${entry.correctSpelling}" is the correct way to spell "${entry.sourceSpelling}" in English. Support Ukraine, transliterate correctly!`}
@@ -263,7 +262,7 @@ const EntryPage: NextPage<EntryPageProps> = ({ entry }) => {
         <ImageSection entry={entry} />
         <ContributeSection entry={entry} />
       </div>
-    </Page>
+    </>
   );
 };
 

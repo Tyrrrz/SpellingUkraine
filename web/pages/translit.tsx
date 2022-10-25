@@ -1,7 +1,6 @@
 import Heading from '@/components/heading';
 import Link from '@/components/link';
 import Meta from '@/components/meta';
-import Page from '@/components/page';
 import { getRepoFileUrl } from '@/utils/repo';
 import { transliterate } from '@/utils/translit';
 import { default as c, default as classNames } from 'classnames';
@@ -13,7 +12,7 @@ const TranslitPage: NextPage = () => {
   const output = useMemo(() => transliterate(source), [source]);
 
   return (
-    <Page>
+    <>
       <Meta title="Transliterate" />
 
       <section>
@@ -82,7 +81,7 @@ const TranslitPage: NextPage = () => {
           />
         </div>
       </section>
-    </Page>
+    </>
   );
 };
 
