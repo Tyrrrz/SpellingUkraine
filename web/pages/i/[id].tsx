@@ -37,7 +37,7 @@ type EntryPageParams = {
 };
 
 const PronounceButton: FC<EntryPageProps> = ({ entry }) => {
-  const { active, voices, speak } = useSpeech();
+  const { isActive, voices, speak } = useSpeech();
 
   // Google UK voices are the best for Ukrainian transliterations and
   // currently our transcriptions are tailored specifically for them.
@@ -64,11 +64,11 @@ const PronounceButton: FC<EntryPageProps> = ({ entry }) => {
 
   return (
     <button
-      disabled={active}
+      disabled={isActive}
       onClick={() => speak(entry.transcription!, voice)}
       title={`Pronounce "${entry.correctSpelling}"`}
     >
-      {active ? <FiVolume2 strokeWidth={1} /> : <FiVolume1 strokeWidth={1} />}
+      {isActive ? <FiVolume2 strokeWidth={1} /> : <FiVolume1 strokeWidth={1} />}
     </button>
   );
 };

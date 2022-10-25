@@ -12,16 +12,7 @@ type ImageProps = {
 
 const Image: FC<ImageProps> = ({ src, alt, width, height, priority }) => {
   if (width && height) {
-    return (
-      <NextImage
-        src={src}
-        alt={alt}
-        width={width}
-        height={height}
-        priority={priority}
-        layout="intrinsic"
-      />
-    );
+    return <NextImage src={src} alt={alt} width={width} height={height} priority={priority} />;
   }
 
   // NextJS's image component doesn't work with images of unknown size

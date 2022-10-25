@@ -137,7 +137,7 @@ const HomePage: NextPage<HomePageProps> = ({ vocabulary }) => {
   const [query, setQuery] = useSessionState('searchQuery', '');
   const queryDebounced = useHydrated(useDebounce(query, 500));
 
-  const loading = queryDebounced !== query;
+  const isLoading = queryDebounced !== query;
   const results = useVocabularySearch(vocabulary, queryDebounced || '');
 
   return (
@@ -150,7 +150,7 @@ const HomePage: NextPage<HomePageProps> = ({ vocabulary }) => {
         onSubmit={(e) => {
           e.preventDefault();
 
-          if (loading) {
+          if (isLoading) {
             return;
           }
 
@@ -175,7 +175,7 @@ const HomePage: NextPage<HomePageProps> = ({ vocabulary }) => {
           )}
         >
           <div className={c('mx-4')}>
-            {loading ? (
+            {isLoading ? (
               <FiLoader className={c('animate-spin')} />
             ) : query ? (
               <button

@@ -1,18 +1,26 @@
+import { isAbsoluteUrl } from '@/utils/url';
 import c from 'classnames';
 import NextLink from 'next/link';
 import { FC, PropsWithChildren } from 'react';
 
 type LinkProps = PropsWithChildren<{
+  href: string;
+  external?: boolean;
   variant?: 'normal' | 'discreet' | 'hidden';
   color?: 'blue' | 'yellow';
-  href: string;
 }>;
 
-const Link: FC<LinkProps> = ({ variant = 'normal', color = 'blue', href, children }) => {
-  const absolute = /^[a-z][a-z\d+\-.]*:/iu.test(href);
+const Link: FC<LinkProps> = ({
+  href,
+  external = isAbsoluteUrl(href),
+  variant = 'normal',
+  color = 'blue',
+  children
+}) => {
+  const RawLink = external ? 'a' : NextLink;
 
-  const link = (
-    <a
+  return (
+    <RawLink
       className={c({
         'text-ukraine-blue': variant === 'normal' && color === 'blue',
         'text-ukraine-yellow': variant === 'normal' && color === 'yellow',
@@ -21,19 +29,11 @@ const Link: FC<LinkProps> = ({ variant = 'normal', color = 'blue', href, childre
         'hover:text-ukraine-yellow': variant === 'discreet' && color === 'yellow'
       })}
       href={href}
-      target={absolute ? '_blank' : undefined}
+      target={external ? '_blank' : undefined}
       rel="noreferrer"
     >
       {children}
-    </a>
-  );
-
-  return absolute ? (
-    link
-  ) : (
-    <NextLink href={href} passHref>
-      {link}
-    </NextLink>
+    </RawLink>
   );
 };
 

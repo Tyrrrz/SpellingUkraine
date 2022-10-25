@@ -33,7 +33,7 @@ const speak = (text: string, voice?: SpeechSynthesisVoice) => {
 
 const useSpeech = () => {
   const clientSide = typeof window !== 'undefined';
-  const [active, setActive] = useState(false);
+  const [isActive, setIsActive] = useState(false);
   const [voices, setVoices] = useState<SpeechSynthesisVoice[]>();
 
   useEffect(() => {
@@ -47,14 +47,14 @@ const useSpeech = () => {
 
   return useMemo(() => {
     return {
-      active,
+      isActive,
       voices,
       speak: (text: string, voice?: SpeechSynthesisVoice) => {
-        setActive(true);
-        speak(text, voice).finally(() => setActive(false));
+        setIsActive(true);
+        speak(text, voice).finally(() => setIsActive(false));
       }
     };
-  }, [active, voices]);
+  }, [isActive, voices]);
 };
 
 export default useSpeech;

@@ -1,3 +1,7 @@
+export const isAbsoluteUrl = (url: string) => {
+  return /^[a-z][a-z\d+\-.]*:/iu.test(url);
+};
+
 export const joinUrl = (...urls: string[]) => {
   return urls.reduce((prev, cur) => {
     const prevWithSlash = prev.endsWith('/') ? prev : prev + '/';
