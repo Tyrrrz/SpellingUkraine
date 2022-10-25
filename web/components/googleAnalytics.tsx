@@ -2,7 +2,7 @@ import { getGoogleAnalyticsId, isProduction } from '@/utils/env';
 import Script from 'next/script';
 import { FC } from 'react';
 
-const Tracker: FC = () => {
+const GoogleAnalytics: FC = () => {
   if (!isProduction()) {
     return null;
   }
@@ -31,4 +31,4 @@ gtag('config', '${googleAnalyticsId}');
   );
 };
 
-export default Tracker;
+export default GoogleAnalytics;

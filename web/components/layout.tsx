@@ -1,8 +1,9 @@
+import GoogleAnalytics from '@/components/googleAnalytics';
 import Image from '@/components/image';
 import Inline from '@/components/inline';
 import Link from '@/components/link';
 import Meta from '@/components/meta';
-import Tracker from '@/components/tracker';
+import VercelAnalytics from '@/components/vercelAnalytics';
 import useDebounce from '@/hooks/useDebounce';
 import useRouterStatus from '@/hooks/useRouterStatus';
 import { getBuildId } from '@/utils/env';
@@ -193,7 +194,8 @@ const Layout: FC<LayoutProps> = ({ children }) => {
   return (
     <div className={c('flex', 'flex-col', 'min-h-screen', 'bg-neutral-50')}>
       <Meta />
-      <Tracker />
+      <GoogleAnalytics />
+      <VercelAnalytics />
 
       <Loader />
 
