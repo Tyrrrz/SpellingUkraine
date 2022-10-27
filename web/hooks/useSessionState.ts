@@ -19,18 +19,18 @@ const setStorageValue = (key: string, value: any) => {
 };
 
 const useSessionState = <T>(key: string, initialState: T) => {
-  const clientSide = typeof window !== 'undefined';
+  const isClientSide = typeof window !== 'undefined';
   const [value, setValue] = useState<T>(() =>
-    clientSide ? getStorageValue(key) ?? initialState : initialState
+    isClientSide ? getStorageValue(key) ?? initialState : initialState
   );
 
   useEffect(() => {
-    if (!clientSide) {
+    if (!isClientSide) {
       return;
     }
 
     setStorageValue(key, value);
-  }, [key, clientSide, value]);
+  }, [key, isClientSide, value]);
 
   return [value, setValue] as const;
 };

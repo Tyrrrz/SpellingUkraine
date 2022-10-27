@@ -32,18 +32,18 @@ const speak = (text: string, voice?: SpeechSynthesisVoice) => {
 };
 
 const useSpeech = () => {
-  const clientSide = typeof window !== 'undefined';
+  const isClientSide = typeof window !== 'undefined';
   const [isActive, setIsActive] = useState(false);
   const [voices, setVoices] = useState<SpeechSynthesisVoice[]>();
 
   useEffect(() => {
-    if (!clientSide) {
+    if (!isClientSide) {
       return;
     }
 
     setVoices([]);
     resolveVoices().then(setVoices);
-  }, [clientSide]);
+  }, [isClientSide]);
 
   return useMemo(() => {
     return {
