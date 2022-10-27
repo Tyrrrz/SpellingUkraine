@@ -131,7 +131,7 @@ const Placeholder: FC<HomePageProps> = ({ vocabulary }) => {
 };
 
 const HomePage: NextPage<HomePageProps> = ({ vocabulary }) => {
-  const { push } = useRouter();
+  const router = useRouter();
 
   const [query, setQuery] = useSessionState('searchQuery', '');
   const queryDebounced = useHydrated(useDebounce(query, 500));
@@ -158,7 +158,7 @@ const HomePage: NextPage<HomePageProps> = ({ vocabulary }) => {
             return;
           }
 
-          push(`/i/${firstResult.entry.id}`);
+          router.push(`/i/${firstResult.entry.id}`);
         }}
       >
         <div
