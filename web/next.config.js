@@ -1,11 +1,14 @@
 const { spawnSync } = require('child_process');
 const withPWA = require('next-pwa');
-const withTM = require('next-transpile-modules');
 const runtimeCaching = require('next-pwa/cache');
 
 /** @type {import('next').NextConfig} */
 const config = {
   reactStrictMode: true,
+
+  experimental: {
+    transpilePackages: ['spelling-ukraine-data']
+  },
 
   images: {
     domains: ['upload.wikimedia.org']
@@ -29,7 +32,6 @@ const config = {
 };
 
 const plugins = [
-  withTM(['spelling-ukraine-data']),
   withPWA({
     dest: 'public',
     disable: process.env.NODE_ENV === 'development',
@@ -37,6 +39,6 @@ const plugins = [
   })
 ];
 
-module.exports = (_phase) => {
+module.exports = () => {
   return plugins.reduce((config, plugin) => plugin(config), config);
 };
