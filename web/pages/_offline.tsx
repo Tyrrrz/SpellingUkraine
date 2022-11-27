@@ -1,7 +1,7 @@
-import Heading from '@/components/heading';
-import Meta from '@/components/meta';
 import c from 'classnames';
 import type { NextPage } from 'next';
+import Heading from '~/components/heading';
+import Meta from '~/components/meta';
 
 const OfflinePage: NextPage = () => {
   return (

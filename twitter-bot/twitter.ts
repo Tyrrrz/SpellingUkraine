@@ -1,5 +1,5 @@
-import { getTwitterCredentials } from '@/utils/env';
 import { TwitterApi } from 'twitter-api-v2';
+import { getTwitterCredentials } from '~/utils/env';
 
 // Streams require app-only authentication
 const twitterApp = new TwitterApi(getTwitterCredentials().bearerToken).readOnly.v2;

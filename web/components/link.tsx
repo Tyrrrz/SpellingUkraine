@@ -1,7 +1,7 @@
-import { isAbsoluteUrl } from '@/utils/url';
 import c from 'classnames';
 import NextLink from 'next/link';
 import { FC, PropsWithChildren } from 'react';
+import { isAbsoluteUrl } from '~/utils/url';
 
 type LinkProps = PropsWithChildren<{
   variant?: 'normal' | 'discreet' | 'hidden';

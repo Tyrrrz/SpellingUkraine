@@ -1,5 +1,5 @@
-import { getRedditCredentials } from '@/utils/env';
 import snoowrap from 'snoowrap';
+import { getRedditCredentials } from '~/utils/env';
 
 const reddit = new snoowrap({
   ...getRedditCredentials(),

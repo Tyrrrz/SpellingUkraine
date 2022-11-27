@@ -1,7 +1,7 @@
-import { listenToContent, postReply } from '@/reddit';
-import { getRedditCredentials } from '@/utils/env';
-import { delay } from '@/utils/promise';
 import { loadVocabularyEntry } from 'spelling-ukraine-data';
+import { listenToContent, postReply } from '~/reddit';
+import { getRedditCredentials } from '~/utils/env';
+import { delay } from '~/utils/promise';
 
 const submissionSampling = 1;
 const commentSampling = 0.75;

@@ -1,6 +1,6 @@
-import { getMe, listenToTweets, postReply } from '@/twitter';
-import { delay } from '@/utils/promise';
 import { loadVocabularyEntry } from 'spelling-ukraine-data';
+import { getMe, listenToTweets, postReply } from '~/twitter';
+import { delay } from '~/utils/promise';
 
 const sampling = 0.01;
 

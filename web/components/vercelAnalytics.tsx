@@ -1,6 +1,6 @@
-import { isProduction } from '@/utils/env';
 import { Analytics } from '@vercel/analytics/react';
 import { FC } from 'react';
+import { isProduction } from '~/utils/env';
 
 const VercelAnalytics: FC = () => {
   if (!isProduction()) {

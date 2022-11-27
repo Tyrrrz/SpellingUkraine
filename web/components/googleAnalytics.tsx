@@ -1,6 +1,6 @@
-import { getGoogleAnalyticsId, isProduction } from '@/utils/env';
 import Script from 'next/script';
 import { FC } from 'react';
+import { getGoogleAnalyticsId, isProduction } from '~/utils/env';
 
 const GoogleAnalytics: FC = () => {
   if (!isProduction()) {

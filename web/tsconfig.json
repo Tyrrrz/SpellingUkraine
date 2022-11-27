@@ -23,7 +23,7 @@
     "isolatedModules": true,
     "baseUrl": ".",
     "paths": {
-      "@/*": [
+      "~/*": [
         "./*"
       ]
     },

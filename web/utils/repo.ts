@@ -1,4 +1,4 @@
-import { formatUrlWithQuery, joinUrl } from '@/utils/url';
+import { formatUrlWithQuery, joinUrl } from '~/utils/url';
 
 export const getRepoUrl = () => {
   return 'https://github.com/Tyrrrz/SpellingUkraine';
