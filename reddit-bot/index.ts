@@ -85,7 +85,7 @@ const main = async () => {
               `\n\n___\n\n`,
               `[^(Why spelling matters)](https://spellingukraine.com) `,
               `^(|) `,
-              `[^(Ways to support Ukraine)](https://stand-with-ukraine.pp.ua) `,
+              `[^(Ways to support Ukraine)](https://tyrrrz.me/ukraine) `,
               `^(|) `,
               `^(I'm a bot, sorry if I'm missing context) `,
               `^(|) `,
