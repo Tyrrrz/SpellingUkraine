@@ -1,6 +1,9 @@
 {
   "root": true,
   "private": true,
+  "engines": {
+    "node": ">=16"
+  },
   "workspaces": [
     "data",
     "discord-bot",
