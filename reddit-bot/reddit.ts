@@ -9,7 +9,7 @@ type Submission = {
   kind: 'submission';
   id: string;
   url: string;
-  author: string;
+  author: User;
   title: string;
   text: string;
 };
@@ -18,7 +18,7 @@ type Comment = {
   kind: 'comment';
   id: string;
   url: string;
-  author: string;
+  author: User;
   text: string;
 };
 
@@ -72,7 +72,9 @@ export const listen = async (
           kind: 'submission',
           id: submission.id,
           url: 'https://reddit.com' + submission.permalink,
-          author: submission.author.name,
+          author: {
+            name: submission.author.name
+          },
           title: submission.title,
           text: submission.selftext
         });
@@ -101,7 +103,9 @@ export const listen = async (
           kind: 'comment',
           id: comment.id,
           url: 'https://reddit.com' + comment.permalink,
-          author: comment.author.name,
+          author: {
+            name: comment.author.name
+          },
           text: comment.body
         });
 
@@ -137,7 +141,9 @@ export const reply = async (post: Post, text: string) => {
     kind: 'comment',
     id: replyPost.id,
     url: 'https://reddit.com' + replyPost.permalink,
-    author: replyPost.author?.name,
+    author: {
+      name: replyPost.author?.name
+    },
     text
   };
 

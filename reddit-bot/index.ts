@@ -26,7 +26,7 @@ const main = async () => {
 
   let consecutiveReplyFailures = 0;
   await listen(subreddits, async (post) => {
-    if (post.author === me.name) {
+    if (post.author.name === me.name) {
       return;
     }
 
