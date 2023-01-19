@@ -31,8 +31,6 @@ const main = async () => {
 
     // Scrub mentions, URLs, block quotes
     const textNormalized = message.text
-      .replace(/\b\/?u\/\w+\b/g, '')
-      .replace(/\b\/?r\/\w+\b/g, '')
       .replace(/\b(https?:\/\/)[^\s]*\b/g, '')
       .replace(/^>.*$/gm, '');
 
@@ -61,18 +59,9 @@ const main = async () => {
         message,
         [
           `💡 It's \`${match.entry.correctSpelling}\`, not \`${match.keyword}\`. `,
-          `Support Ukraine by using the correct spelling! `,
-          `[Learn more](https://spellingukraine.com/i/${match.entry.id})`,
-          `\n\n___\n\n`,
-          `[^(Why spelling matters)](https://spellingukraine.com) `,
-          `^(|) `,
-          `[^(Ways to support Ukraine)](https://tyrrrz.me/ukraine) `,
-          `^(|) `,
-          `^(I'm a bot, sorry if I'm missing context) `,
-          `^(|) `,
-          `[^(Source)](https://github.com/Tyrrrz/SpellingUkraine) `,
-          `^(|) `,
-          `[^(Author)](https://twitter.com/tyrrrz)`
+          `Support Ukraine by using the correct spelling!`,
+          '\n\n',
+          `Learn more: https://spellingukraine.com/i/${match.entry.id}`
         ].join('')
       );
 

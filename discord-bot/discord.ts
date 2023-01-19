@@ -1,5 +1,5 @@
 import { Client, Events, GatewayIntentBits } from 'discord.js';
-import { getDiscordCredentials } from './utils/env';
+import { getDiscordCredentials } from '~/utils/env';
 
 type User = {
   id: string;
@@ -14,7 +14,11 @@ type Message = {
 };
 
 const client = new Client({
-  intents: [GatewayIntentBits.GuildMessages]
+  intents: [
+    GatewayIntentBits.Guilds,
+    GatewayIntentBits.GuildMessages,
+    GatewayIntentBits.MessageContent
+  ]
 });
 
 export const getMe = async () => {
@@ -36,7 +40,6 @@ export const listen = async (callback: (message: Message) => Promise<void> | voi
   await client.login(getDiscordCredentials().token);
 
   client.on(Events.MessageCreate, (message) => {
-    console.log(message);
     callback({
       id: message.id,
       channelId: message.channelId,
@@ -53,7 +56,6 @@ export const reply = async (message: Message, text: string) => {
   await client.login(getDiscordCredentials().token);
 
   const channel = client.channels.resolve(message.channelId);
-
   if (!channel || !channel.isTextBased()) {
     throw new Error('Failed to resolve channel');
   }
