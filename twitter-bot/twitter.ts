@@ -1,29 +1,37 @@
 import { TwitterApi } from 'twitter-api-v2';
 import { getTwitterCredentials } from '~/utils/env';
 
+type User = {
+  id: string;
+  name: string;
+};
+
+type Tweet = {
+  id: string;
+  url: string;
+  text: string;
+};
+
 // Streams require app-only authentication
 const twitterApp = new TwitterApi(getTwitterCredentials().bearerToken).readOnly.v2;
 
 // Account-related actions require user-context authentication
 const twitterBot = new TwitterApi(getTwitterCredentials()).readWrite.v2;
 
-export type Tweet = {
-  id: string;
-  url: string;
-  text: string;
-};
-
-export const getTweetUrl = (id: string) => `https://twitter.com/i/web/status/${id}`;
+const getTweetUrl = (id: string) => `https://twitter.com/i/web/status/${id}`;
 
 export const getMe = async () => {
   const { data } = await twitterBot.me();
-  return data;
+
+  const user: User = {
+    id: data.id,
+    name: data.username
+  };
+
+  return user;
 };
 
-export const listenToTweets = async (
-  filter: string,
-  callback: (tweet: Tweet) => Promise<void> | void
-) => {
+export const listen = async (filter: string, callback: (tweet: Tweet) => Promise<void> | void) => {
   const rules = await twitterApp.streamRules();
 
   if (rules.data && rules.data.length > 0) {
@@ -51,7 +59,7 @@ export const listenToTweets = async (
   }
 };
 
-export const postReply = async (tweet: Tweet, text: string) => {
+export const reply = async (tweet: Tweet, text: string) => {
   const { data } = await twitterBot.reply(text, tweet.id);
 
   const reply: Tweet = {

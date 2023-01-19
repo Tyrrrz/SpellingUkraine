@@ -1,6 +1,29 @@
 import snoowrap from 'snoowrap';
 import { getRedditCredentials } from '~/utils/env';
 
+type User = {
+  name: string;
+};
+
+type Submission = {
+  kind: 'submission';
+  id: string;
+  url: string;
+  author: User;
+  title: string;
+  text: string;
+};
+
+type Comment = {
+  kind: 'comment';
+  id: string;
+  url: string;
+  author: User;
+  text: string;
+};
+
+type Post = Submission | Comment;
+
 const reddit = new snoowrap({
   ...getRedditCredentials(),
   userAgent: 'SpellingUkraine Bot (https://github.com/Tyrrrz/SpellingUkraine)'
@@ -18,112 +41,109 @@ const unpromise = async <T>(promise: Promise<T>) => {
   return result as Omit<T, 'then' | 'catch' | 'finally'>;
 };
 
-export type Submission = {
-  kind: 'submission';
-  id: string;
-  url: string;
-  author: string;
-  title: string;
-  text: string;
+export const getMe = async () => {
+  const user: User = {
+    name: getRedditCredentials().username
+  };
+
+  return user;
 };
 
-export type Comment = {
-  kind: 'comment';
-  id: string;
-  url: string;
-  author: string;
-  text: string;
-};
-
-export type Content = Submission | Comment;
-
-export const listenToPosts = async (
-  subreddit: string,
-  callback: (post: Submission) => Promise<void> | void
+export const listen = async (
+  subreddits: string[],
+  callback: (post: Post) => Promise<void> | void
 ) => {
-  let anchorTimestamp = new Date();
+  const listenToPosts = async (
+    subreddit: string,
+    callback: (post: Submission) => Promise<void> | void
+  ) => {
+    let anchorTimestamp = new Date();
 
-  while (true) {
-    const submissions = await reddit.getNew(subreddit, { limit: 100 });
+    while (true) {
+      const submissions = await reddit.getNew(subreddit, { limit: 100 });
 
-    for (const submission of submissions.reverse()) {
-      const timestamp = new Date(submission.created_utc * 1000);
-      if (timestamp <= anchorTimestamp) {
-        continue;
+      for (const submission of submissions.reverse()) {
+        const timestamp = new Date(submission.created_utc * 1000);
+        if (timestamp <= anchorTimestamp) {
+          continue;
+        }
+
+        await callback({
+          kind: 'submission',
+          id: submission.id,
+          url: 'https://reddit.com' + submission.permalink,
+          author: {
+            name: submission.author.name
+          },
+          title: submission.title,
+          text: submission.selftext
+        });
+
+        anchorTimestamp = timestamp;
       }
-
-      await callback({
-        kind: 'submission',
-        id: submission.id,
-        url: 'https://reddit.com' + submission.permalink,
-        author: submission.author.name,
-        title: submission.title,
-        text: submission.selftext
-      });
-
-      anchorTimestamp = timestamp;
     }
-  }
-};
+  };
 
-export const listenToComments = async (
-  subreddit: string,
-  callback: (comment: Comment) => Promise<void> | void
-) => {
-  let anchorTimestamp = new Date();
+  const listenToComments = async (
+    subreddit: string,
+    callback: (comment: Comment) => Promise<void> | void
+  ) => {
+    let anchorTimestamp = new Date();
 
-  while (true) {
-    const comments = await reddit.getNewComments(subreddit, { limit: 100 });
+    while (true) {
+      const comments = await reddit.getNewComments(subreddit, { limit: 100 });
 
-    for (const comment of comments.reverse()) {
-      const timestamp = new Date(comment.created_utc * 1000);
-      if (timestamp <= anchorTimestamp) {
-        continue;
+      for (const comment of comments.reverse()) {
+        const timestamp = new Date(comment.created_utc * 1000);
+        if (timestamp <= anchorTimestamp) {
+          continue;
+        }
+
+        await callback({
+          kind: 'comment',
+          id: comment.id,
+          url: 'https://reddit.com' + comment.permalink,
+          author: {
+            name: comment.author.name
+          },
+          text: comment.body
+        });
+
+        anchorTimestamp = timestamp;
       }
-
-      await callback({
-        kind: 'comment',
-        id: comment.id,
-        url: 'https://reddit.com' + comment.permalink,
-        author: comment.author.name,
-        text: comment.body
-      });
-
-      anchorTimestamp = timestamp;
     }
-  }
+  };
+
+  await Promise.all(
+    subreddits.flatMap((subreddit) => {
+      return [listenToPosts(subreddit, callback), listenToComments(subreddit, callback)];
+    })
+  );
 };
 
-export const listenToContent = async (
-  subreddit: string,
-  callback: (content: Content) => Promise<void> | void
-) => {
-  await Promise.all([listenToPosts(subreddit, callback), listenToComments(subreddit, callback)]);
-};
-
-export const postReply = async (content: Content, text: string) => {
-  const postReplyToSubmission = async ({ id }: Submission) => {
+export const reply = async (post: Post, text: string) => {
+  const replyToSubmission = async ({ id }: Submission) => {
     const submission = await unpromise(reddit.getSubmission(id));
     const { id: replyId } = await unpromise(submission.reply(text));
     return await unpromise(reddit.getComment(replyId));
   };
 
-  const postReplyToComment = async ({ id }: Comment) => {
+  const replyToComment = async ({ id }: Comment) => {
     const comment = await unpromise(reddit.getComment(id));
     const { id: replyId } = await unpromise(comment.reply(text));
     return await unpromise(reddit.getComment(replyId));
   };
 
-  const reply =
-    content.kind === 'submission'
-      ? await postReplyToSubmission(content)
-      : await postReplyToComment(content);
+  const replyPost =
+    post.kind === 'submission' ? await replyToSubmission(post) : await replyToComment(post);
 
   const result: Comment = {
     kind: 'comment',
-    id: reply.id,
-    url: 'https://reddit.com' + reply.permalink,
-    author: reply.author?.name,
+    id: replyPost.id,
+    url: 'https://reddit.com' + replyPost.permalink,
+    author: {
+      name: replyPost.author?.name
+    },
     text
   };
 

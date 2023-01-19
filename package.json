@@ -3,11 +3,13 @@
   "private": true,
   "workspaces": [
     "data",
+    "discord-bot",
     "reddit-bot",
     "twitter-bot",
     "web"
   ],
   "scripts": {
+    "start:discord-bot": "cd discord-bot && yarn run start",
     "start:reddit-bot": "cd reddit-bot && yarn run start",
     "start:twitter-bot": "cd twitter-bot && yarn run start",
     "start:web": "cd web && yarn run start"

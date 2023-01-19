@@ -11,6 +11,7 @@
 It's comprised of a website where you can quickly look up how to write individual names, as well as a set of bots that detect typical spelling mistakes online and correct them automatically.
 
 - 🌐 Web app: [`https://spellingukraine.com`](https://spellingukraine.com)
+- 🤖 Discord bot: [invite](https://discord.com/api/oauth2/authorize?client_id=1065742890820706406&permissions=3072&scope=bot)
 - 🤖 Reddit bot: [`/u/SpellingUkraine`](https://reddit.com/u/SpellingUkraine)
 - 🤖 Twitter bot: [`@SpellingUkraine`](https://twitter.com/SpellingUkraine)
 
