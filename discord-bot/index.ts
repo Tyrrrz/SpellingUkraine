@@ -1,18 +1,15 @@
 import { loadVocabularyEntry } from 'spelling-ukraine-data';
-import { getMe, listen, reply } from '~/reddit';
+import { getMe, listen, reply } from '~/discord';
 import { delay } from '~/utils/promise';
 
-const submissionSampling = 1;
-const commentSampling = 0.75;
-const subreddits = ['ukraine', 'ukraina', 'ukraineconflict', 'yurop'];
+const sampling = 1;
 const entries = ['kyiv', 'lviv', 'kharkiv', 'odesa', 'mykolaiv', 'chornobyl', 'irpin', 'chernihiv'];
 
 const main = async () => {
-  console.log('Reddit bot is starting...');
+  console.log('Discord bot is starting...');
 
   const me = await getMe();
   console.log('Logged in as:', me.name);
-  console.log('Listening to subreddits:', subreddits);
 
   const vocabulary = await Promise.all(entries.map(async (id) => await loadVocabularyEntry(id)));
   const predicates = vocabulary.flatMap((entry) =>
@@ -24,50 +21,44 @@ const main = async () => {
     predicates.map((predicate) => predicate.keyword)
   );
 
+  console.log('Listening to messages...');
+
   let consecutiveReplyFailures = 0;
-  await listen(subreddits, async (post) => {
-    if (post.author === me.name) {
+  await listen(async (message) => {
+    if (message.author.id === me.id) {
       return;
     }
 
-    const titleNormalized = post.kind === 'submission' ? post.title : '';
-
     // Scrub mentions, URLs, block quotes
-    const textNormalized = post.text
+    const textNormalized = message.text
       .replace(/\b\/?u\/\w+\b/g, '')
       .replace(/\b\/?r\/\w+\b/g, '')
       .replace(/\b(https?:\/\/)[^\s]*\b/g, '')
       .replace(/^>.*$/gm, '');
 
-    const match = predicates.find((predicate) => {
-      const keywordPattern = new RegExp(`\\b${predicate.keyword}\\b`, 'gi');
-
-      const correctSpellingPattern = new RegExp(`\\b${predicate.entry.correctSpelling}\\b`, 'gi');
-
-      return (
-        (keywordPattern.test(titleNormalized) && !correctSpellingPattern.test(titleNormalized)) ||
-        (keywordPattern.test(textNormalized) && !correctSpellingPattern.test(textNormalized))
-      );
-    });
+    const match = predicates.find(
+      (predicate) =>
+        new RegExp(`\\b${predicate.keyword}\\b`, 'gi').test(textNormalized) &&
+        !new RegExp(`\\b${predicate.entry.correctSpelling}\\b`, 'gi').test(textNormalized)
+    );
 
     if (!match) {
       return;
     }
 
-    const sampling = post.kind === 'submission' ? submissionSampling : commentSampling;
     if (Math.random() > sampling) {
       return;
     }
 
-    console.log('Post:', post);
+    console.log('Message:', message);
     console.log('Match:', {
       correct: match.entry.correctSpelling,
       incorrect: match.keyword
     });
 
     try {
-      const replyPost = await reply(
-        post,
+      const replyMessage = await reply(
+        message,
         [
           `💡 It's \`${match.entry.correctSpelling}\`, not \`${match.keyword}\`. `,
           `Support Ukraine by using the correct spelling! `,
@@ -85,7 +76,7 @@ const main = async () => {
         ].join('')
       );
 
-      console.log('Reply post:', replyPost);
+      console.log('Reply message:', replyMessage);
       consecutiveReplyFailures = 0;
     } catch (err) {
       // Replies may fail for various reasons, but not consistently.

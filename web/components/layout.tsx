@@ -160,6 +160,18 @@ const Footer: FC = () => {
 
       <div>•</div>
 
+      <Link
+        variant="discreet"
+        href="https://discord.com/api/oauth2/authorize?client_id=1065742890820706406&permissions=3072&scope=bot"
+      >
+        <Inline>
+          <FiOctagon strokeWidth={1} />
+          <span>Discord Bot</span>
+        </Inline>
+      </Link>
+
+      <div>•</div>
+
       <Link variant="discreet" href="https://reddit.com/u/SpellingUkraine">
         <Inline>
           <FiOctagon strokeWidth={1} />

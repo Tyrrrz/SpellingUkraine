@@ -1,19 +1,17 @@
 import { loadVocabularyEntry } from 'spelling-ukraine-data';
-import { getMe, listenToTweets, postReply } from '~/twitter';
+import { getMe, listen, reply } from '~/twitter';
 import { delay } from '~/utils/promise';
 
 const sampling = 0.01;
-
 const entries = ['kyiv', 'lviv', 'kharkiv', 'odesa', 'mykolaiv', 'chornobyl', 'irpin', 'chernihiv'];
 
 const main = async () => {
   console.log('Twitter bot is starting...');
 
   const me = await getMe();
-  console.log('Logged in as:', me.username);
+  console.log('Logged in as:', me.name);
 
   const vocabulary = await Promise.all(entries.map(async (id) => await loadVocabularyEntry(id)));
-
   const predicates = vocabulary.flatMap((entry) =>
     entry.incorrectSpellings.flatMap((spelling) => ({ entry, keyword: spelling }))
   );
@@ -28,7 +26,7 @@ const main = async () => {
     `sample:${Math.floor(100 * sampling)}`,
     `-is:retweet`,
     `-is:quote`,
-    `-from:${me.username}`,
+    `-from:${me.name}`,
     `min_faves:10`,
     `(${predicates.map((predicate) => '"' + predicate.keyword + '"').join(' OR ')})`
   ];
@@ -36,7 +34,7 @@ const main = async () => {
   console.log('Listening to tweets:', filters);
 
   let consecutiveReplyFailures = 0;
-  await listenToTweets(filters.join(' '), async (tweet) => {
+  await listen(filters.join(' '), async (tweet) => {
     // Scrub mentions, URLs
     const textNormalized = tweet.text
       .replace(/\b@\w+\b/g, '')
@@ -59,7 +57,7 @@ const main = async () => {
     });
 
     try {
-      const reply = await postReply(
+      const replyTweet = await reply(
         tweet,
         [
           `💡 It's "${match.entry.correctSpelling}", not "${match.keyword}". `,
@@ -70,7 +68,7 @@ const main = async () => {
         ].join('')
       );
 
-      console.log('Reply:', reply);
+      console.log('Reply tweet:', replyTweet);
       consecutiveReplyFailures = 0;
     } catch (err) {
       // Replies may fail for various reasons, but not consistently.
