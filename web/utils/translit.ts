@@ -1,4 +1,4 @@
-const transliterateChar = (cur: string, prev: string) => {
+const translitChar = (cur: string, prev: string) => {
   const isInitial = !prev || /^\s$/.test(prev);
 
   if (cur === ' ') {
@@ -312,12 +312,12 @@ const transliterateChar = (cur: string, prev: string) => {
   return null;
 };
 
-export const transliterate = (text: string) => {
+export const translit = (text: string) => {
   let result = '';
   let prev = '';
 
   for (const cur of text) {
-    result += transliterateChar(cur, prev) ?? cur;
+    result += translitChar(cur, prev) ?? cur;
     prev = cur;
   }
 

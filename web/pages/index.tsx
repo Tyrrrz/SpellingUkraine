@@ -15,16 +15,13 @@ import useSessionState from '~/hooks/useSessionState';
 import useVocabularySearch, { SearchResult } from '~/hooks/useVocabularySearch';
 import { bufferIterable } from '~/utils/async';
 import { getRepoFileUrl } from '~/utils/repo';
+import { translit } from '~/utils/translit';
 
 type HomePageProps = {
   vocabulary: VocabularyEntry[];
 };
 
-type SearchResultsProps = HomePageProps & {
-  results: SearchResult[];
-};
-
-const SearchResults: FC<SearchResultsProps> = ({ results }) => {
+const SearchResults: FC<{ results: SearchResult[] }> = ({ results }) => {
   return (
     <FadeIn className={c('flex', 'flex-col', 'sm:flex-row', 'flex-wrap', 'gap-4')}>
       {results.map((result) => (
@@ -46,7 +43,7 @@ const SearchResults: FC<SearchResultsProps> = ({ results }) => {
           >
             <div className={c('text-xl')}>{result.entry.correctSpelling}</div>
 
-            <div className={c(['text-lg', 'font-light'])}>
+            <div className={c('text-lg', 'font-light')}>
               {result.entry.sourceSpelling} • {result.entry.category}
             </div>
 
@@ -66,11 +63,22 @@ const SearchResults: FC<SearchResultsProps> = ({ results }) => {
   );
 };
 
-const NotFound: FC<HomePageProps> = () => {
+const NotFound: FC<{ query: string }> = ({ query }) => {
+  const queryTranslit = translit(query);
+
   return (
     <FadeIn>
       <section>
-        <div className={c('text-xl')}>No results found</div>
+        <div className={c('text-xl')}>
+          {queryTranslit && queryTranslit !== query && queryTranslit.length <= 50 ? (
+            <span>
+              Direct transliteration: <span className={c('font-semibold')}>{queryTranslit}</span>
+            </span>
+          ) : (
+            <span>No results found</span>
+          )}
+        </div>
+
         <div className={c('text-lg')}>
           If you believe this entry should be added to the vocabulary, please{' '}
           <Link href={getRepoFileUrl('data/vocabulary')}>submit a pull request</Link>.
@@ -80,7 +88,7 @@ const NotFound: FC<HomePageProps> = () => {
   );
 };
 
-const Placeholder: FC<HomePageProps> = ({ vocabulary }) => {
+const Placeholder: FC<{ vocabulary: VocabularyEntry[] }> = ({ vocabulary }) => {
   return (
     <FadeIn className={c('space-y-6', 'text-lg')}>
       <section>
@@ -225,9 +233,9 @@ const HomePage: NextPage<HomePageProps> = ({ vocabulary }) => {
         {!queryDebounced ? (
           <Placeholder vocabulary={vocabulary} />
         ) : results.length > 0 ? (
-          <SearchResults vocabulary={vocabulary} results={results} />
+          <SearchResults results={results} />
         ) : (
-          <NotFound vocabulary={vocabulary} />
+          <NotFound query={queryDebounced} />
         )}
       </div>
     </>

@@ -5,11 +5,11 @@ import Heading from '~/components/heading';
 import Link from '~/components/link';
 import Meta from '~/components/meta';
 import { getRepoFileUrl } from '~/utils/repo';
-import { transliterate } from '~/utils/translit';
+import { translit } from '~/utils/translit';
 
 const TranslitPage: NextPage = () => {
   const [source, setSource] = useState('');
-  const output = useMemo(() => transliterate(source), [source]);
+  const output = useMemo(() => translit(source), [source]);
 
   return (
     <>
