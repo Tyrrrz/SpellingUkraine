@@ -69,7 +69,7 @@ const Header: FC = () => {
         )}
       >
         <div className={c('hidden', 'sm:block', 'w-20')}>
-          <Image src="/logo.svg" alt="Spelling Ukraine" priority />
+          <Image src="/logo.svg" alt="SpellingUkraine" priority />
         </div>
 
         <div className={c('hidden', 'sm:block', 'w-px', 'h-16', 'bg-neutral-400')} />
