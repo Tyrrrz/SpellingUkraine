@@ -17,25 +17,25 @@ Each vocabulary entry is stored in a JSON file with the following structure:
   // Category of the vocabulary entry
   "category": "City",
 
-  // Spelling in Ukrainian
+  // Original spelling in Ukrainian
   "sourceSpelling": "Київ",
 
-  // Correct spelling in English
+  // Valid spelling in English
   "correctSpelling": "Kyiv",
 
-  // Commonly used incorrect spellings in English
+  // [Optional] Commonly used invalid spellings in English
   "incorrectSpellings": ["Kiev", "Kiyv", "Kyyv"],
 
-  // Optional: Additional spellings in other languages or historic names associated with this entry
+  // [Optional] Valid spellings in other languages or historic names associated with this entry
   "relatedSpellings": ["Киев", "Kijow", "Kyjiw", "Kiew"],
 
-  // Optional: Pronunciation guide for speech synthesis
+  // [Optional] Pronunciation hint for speech synthesis
   "transcription": "Kyeev",
 
-  // Optional: Additional information about the entry
+  // [Optional] Additional information about the entry
   "description": "The capital and most populous city of Ukraine. Its name is derived from Proto-Slavic \"Kyjevŭ gordŭ\" (Kyi's castle) and is associated with Kyi, one of the city's legendary founders. Following the declaration of Ukraine's independence, the official English spelling of the capital became \"Kyiv\", replacing the outdated \"Kiev\" spelling based on Russian transliteration. Choosing the correct way to spell Kyiv is an integral part of asserting the Ukrainian identity as distinct from the relics of the Soviet Union and Russian Empire.",
 
-  // Optional: Links to relevant resources
+  // [Optional] Links to relevant resources
   "links": [
     {
       "name": "Wikipedia: Kyiv",
@@ -55,13 +55,13 @@ Each vocabulary entry is stored in a JSON file with the following structure:
     }
   ],
 
-  // Optional: Geographical location associated with this entry
+  // [Optional] Geographical location associated with this entry
   "location": {
     "lat": 50.4501,
     "lng": 30.5234
   },
 
-  // Optional: Image associated with this entry
+  // [Optional] Image associated with this entry
   "image": {
     "name": "View of Maidan Square",
     "url": "https://upload.wikimedia.org/.../kyiv_view_of_maidan_square.jpg"
