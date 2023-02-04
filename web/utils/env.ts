@@ -27,7 +27,3 @@ export const getSiteUrl = (path?: string) => {
 
   return value;
 };
-
-export const getGoogleAnalyticsId = () => {
-  return process.env.GOOGLE_ANALYTICS_ID;
-};

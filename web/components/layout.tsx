@@ -1,14 +1,13 @@
+import { Analytics } from '@vercel/analytics/react';
 import c from 'classnames';
 import { useRouter } from 'next/router';
 import { FC, PropsWithChildren, useEffect, useMemo, useState } from 'react';
 import FadeIn from 'react-fade-in';
 import { FiChevronLeft, FiGitCommit, FiGithub, FiHeart, FiOctagon } from 'react-icons/fi';
-import GoogleAnalytics from '~/components/googleAnalytics';
 import Image from '~/components/image';
 import Inline from '~/components/inline';
 import Link from '~/components/link';
 import Meta from '~/components/meta';
-import VercelAnalytics from '~/components/vercelAnalytics';
 import useDebounce from '~/hooks/useDebounce';
 import useRouterStatus from '~/hooks/useRouterStatus';
 import { getBuildId } from '~/utils/env';
@@ -206,8 +205,7 @@ const Layout: FC<LayoutProps> = ({ children }) => {
   return (
     <div className={c('flex', 'flex-col', 'min-h-screen', 'bg-neutral-50')}>
       <Meta />
-      <GoogleAnalytics />
-      <VercelAnalytics />
+      <Analytics />
 
       <Loader />
 
