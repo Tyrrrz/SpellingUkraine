@@ -17,4 +17,4 @@ It's comprised of a website where you can quickly look up how to write individua
 
 ## Contributing
 
-Read [the instructions](data/vocabulary) on how to add or update vocabulary entries.
+Read the [instructions](data/vocabulary) to learn how to add or update vocabulary entries.
