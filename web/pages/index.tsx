@@ -123,7 +123,7 @@ const Placeholder: FC<{ vocabulary: VocabularyEntry[] }> = ({ vocabulary }) => {
         </Paragraph>
         <Paragraph>
           In the face of Russia&apos;s military aggression and continuous attempts to undermine and,
-          ultimately, erase Ukrainian culture, the choice of spelling is no longer a matter of
+          ultimately, erase the Ukrainian culture, the choice of spelling is no longer a matter of
           preference, but a <span className={c('font-semibold')}>political stance</span>. Taking a
           moment of your time to ensure that you are writing correctly is yet another small way that
           you can <span className={c('font-semibold')}>#StandWithUkraine</span> in its fight for
