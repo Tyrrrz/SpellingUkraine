@@ -6,9 +6,7 @@ const runtimeCaching = require('next-pwa/cache');
 const config = {
   reactStrictMode: true,
 
-  experimental: {
-    transpilePackages: ['spelling-ukraine-data']
-  },
+  transpilePackages: ['spelling-ukraine-data'],
 
   images: {
     domains: ['upload.wikimedia.org']
