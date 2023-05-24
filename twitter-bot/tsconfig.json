@@ -1,23 +1,6 @@
 {
+  "extends": "../tsconfig.json",
   "compilerOptions": {
-    "target": "es5",
-    "lib": [
-      "esnext"
-    ],
-    "module": "commonjs",
-    "moduleResolution": "node",
-    "allowJs": true,
-    "strict": true,
-    "noImplicitReturns": true,
-    "noUncheckedIndexedAccess": true,
-    "forceConsistentCasingInFileNames": true,
-    "skipLibCheck": true,
-    "esModuleInterop": true,
-    "noEmit": true,
-    "pretty": true,
-    "incremental": true,
-    "resolveJsonModule": true,
-    "isolatedModules": true,
     "paths": {
       "~/*": [
         "./*"
