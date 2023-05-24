@@ -7,13 +7,6 @@
       ]
     }
   },
-  "include": [
-    "**/*.ts",
-    "**/*.tsx"
-  ],
-  "exclude": [
-    "node_modules"
-  ],
   "ts-node": {
     "require": [
       "tsconfig-paths/register"
