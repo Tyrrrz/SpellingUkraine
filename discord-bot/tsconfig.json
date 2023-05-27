@@ -11,5 +11,11 @@
     "require": [
       "tsconfig-paths/register"
     ]
-  }
+  },
+  "include": [
+    "**/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
 }

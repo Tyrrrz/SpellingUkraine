@@ -17,5 +17,11 @@
         "name": "next"
       }
     ]
-  }
+  },
+  "include": [
+    "**/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
 }
