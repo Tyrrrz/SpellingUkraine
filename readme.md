@@ -7,6 +7,10 @@
 
 > 🟢 **Project status**: active<sup>[[?]](https://github.com/Tyrrrz/.github/blob/master/docs/project-status.md)</sup>
 
+<p align="center">
+    <img src="web/public/logo.png" alt="Icon" />
+</p>
+
 **SpellingUkraine** is a project that aims to promote the correct spelling of Ukrainian toponyms, personal names, and other words in English.
 It's comprised of a website where you can quickly look up how to write individual names, as well as a set of bots that detect typical spelling mistakes online and correct them automatically.
 
