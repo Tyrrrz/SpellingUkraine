@@ -106,7 +106,7 @@ const Breadcrumb: FC = () => {
         <Link variant="discreet" href="/">
           <Inline>
             <FiChevronLeft />
-            <span>Home</span>
+            <div>Home</div>
           </Inline>
         </Link>
       </div>
@@ -148,7 +148,7 @@ const Footer: FC = () => {
       <Link variant="discreet" href={getRepoFileUrl('', { ref: getBuildId() })}>
         <Inline>
           <FiGitCommit strokeWidth={1} />
-          <span className={c('font-mono')}>{getBuildId()}</span>
+          <div className={c('font-mono')}>{getBuildId()}</div>
         </Inline>
       </Link>
 
@@ -161,7 +161,7 @@ const Footer: FC = () => {
       >
         <Inline>
           <FiOctagon strokeWidth={1} />
-          <span>Discord Bot</span>
+          <div>Discord Bot</div>
         </Inline>
       </Link>
 
@@ -171,7 +171,7 @@ const Footer: FC = () => {
       <Link variant="discreet" href="https://reddit.com/u/SpellingUkraine">
         <Inline>
           <FiOctagon strokeWidth={1} />
-          <span>Reddit Bot</span>
+          <div>Reddit Bot</div>
         </Inline>
       </Link>
 
@@ -181,7 +181,7 @@ const Footer: FC = () => {
       <Link variant="discreet" href="https://twitter.com/SpellingUkraine">
         <Inline>
           <FiOctagon strokeWidth={1} />
-          <span>Twitter Bot</span>
+          <div>Twitter Bot</div>
         </Inline>
       </Link>
 
@@ -191,7 +191,7 @@ const Footer: FC = () => {
       <Link variant="discreet" href="https://tyrrrz.me/donate">
         <Inline>
           <FiHeart strokeWidth={1} />
-          <span>Donate</span>
+          <div>Donate</div>
         </Inline>
       </Link>
     </footer>

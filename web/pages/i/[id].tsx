@@ -82,13 +82,13 @@ const SpellingSection: FC<EntryPageProps> = ({ entry }) => {
       <div className={c('flex', 'flex-wrap', 'gap-3', 'text-lg')}>
         <Inline>
           <FiCheck className={c('mt-px', 'sm:mt-1', 'text-green-600')} />
-          <span>{entry.correctSpelling}</span>
+          <div>{entry.correctSpelling}</div>
         </Inline>
 
         {entry.incorrectSpellings.map((spelling) => (
           <Inline key={spelling}>
             <FiX className={c('mt-px', 'sm:mt-1', 'text-red-600')} />
-            <span>{spelling}</span>
+            <div>{spelling}</div>
           </Inline>
         ))}
       </div>
@@ -138,7 +138,7 @@ const LinksSection: FC<EntryPageProps> = ({ entry }) => {
             <Link variant="discreet" color="yellow" href={link.url}>
               <Inline>
                 <FiExternalLink />
-                <span>{link.name}</span>
+                <div>{link.name}</div>
               </Inline>
             </Link>
           </Highlight>
@@ -196,7 +196,7 @@ const ContributeSection: FC<EntryPageProps> = ({ entry }) => {
           <Link variant="discreet" href={getRepoFileEditUrl(`data/vocabulary/${entry.path}`)}>
             <Inline>
               <FiEdit3 />
-              <span>Edit information</span>
+              <div>Edit information</div>
             </Inline>
           </Link>
         </Highlight>
@@ -216,7 +216,7 @@ const ContributeSection: FC<EntryPageProps> = ({ entry }) => {
           >
             <Inline>
               <FiFlag />
-              <span>Report issue</span>
+              <div>Report issue</div>
             </Inline>
           </Link>
         </Highlight>

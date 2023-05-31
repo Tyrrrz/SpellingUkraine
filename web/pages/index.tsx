@@ -1,5 +1,5 @@
 import c from 'classnames';
-import type { GetStaticProps, NextPage } from 'next';
+import { GetStaticProps, NextPage } from 'next';
 import { useRouter } from 'next/router';
 import { FC } from 'react';
 import FadeIn from 'react-fade-in';
@@ -52,7 +52,7 @@ const SearchResults: FC<{ results: SearchResult[] }> = ({ results }) => {
                 <div className={c('mt-1', 'text-sm', 'font-light')}>
                   <Inline>
                     <FiTarget strokeWidth={1} />
-                    <span>Matched on {result.match}</span>
+                    <div>Matched on {result.match}</div>
                   </Inline>
                 </div>
               )}
@@ -71,11 +71,11 @@ const NotFound: FC<{ query: string }> = ({ query }) => {
       <section>
         <div className={c('text-xl')}>
           {queryTranslit && queryTranslit !== query && queryTranslit.length <= 50 ? (
-            <span>
+            <>
               Direct transliteration: <span className={c('font-semibold')}>{queryTranslit}</span>
-            </span>
+            </>
           ) : (
-            <span>No results found</span>
+            <>No results found</>
           )}
         </div>
 
@@ -128,10 +128,10 @@ const Placeholder: FC<{ vocabulary: VocabularyEntry[] }> = ({ vocabulary }) => {
           moment of your time to ensure that you are writing correctly is yet another small way that
           you can <span className={c('font-semibold')}>#StandWithUkraine</span> in its fight for
           freedom.{' '}
-          <Inline>
+          <span className={c('inline-flex', 'gap-1')}>
             <FiHeart className={c('fill-ukraine-blue')} strokeWidth={1} />
             <FiHeart className={c('fill-ukraine-yellow')} strokeWidth={1} />
-          </Inline>
+          </span>
         </Paragraph>
       </section>
     </FadeIn>
