@@ -12,7 +12,7 @@ import {
   FiVolumeX,
   FiX
 } from 'react-icons/fi';
-import { loadVocabulary, loadVocabularyEntry, VocabularyEntry } from 'spelling-ukraine-data';
+import { VocabularyEntry, loadVocabulary, loadVocabularyEntry } from 'spelling-ukraine-data';
 import Heading from '~/components/heading';
 import Highlight from '~/components/highlight';
 import Image from '~/components/image';
@@ -191,6 +191,7 @@ const ContributeSection: FC<EntryPageProps> = ({ entry }) => {
   return (
     <Section title="Contribute">
       <div className={c('flex', 'flex-wrap', 'gap-3')}>
+        {/* Edit */}
         <Highlight color="yellow">
           <Link variant="discreet" href={getRepoFileEditUrl(`data/vocabulary/${entry.path}`)}>
             <Inline>
@@ -200,6 +201,7 @@ const ContributeSection: FC<EntryPageProps> = ({ entry }) => {
           </Link>
         </Highlight>
 
+        {/* Report */}
         <Highlight color="yellow">
           <Link
             variant="discreet"
@@ -243,6 +245,7 @@ const EntryPage: NextPage<EntryPageProps> = ({ entry }) => {
 
       <div className={c('space-y-6')}>
         <section>
+          {/* Title */}
           <Heading>
             <div className={c('flex', 'items-end', 'gap-3')}>
               <div>{entry.correctSpelling}</div>
@@ -250,11 +253,13 @@ const EntryPage: NextPage<EntryPageProps> = ({ entry }) => {
             </div>
           </Heading>
 
+          {/* Misc info */}
           <div className={c('text-2xl', 'font-light', 'tracking-wide')}>
             {entry.sourceSpelling} • {entry.category}
           </div>
         </section>
 
+        {/* Detailed info */}
         <SpellingSection entry={entry} />
         <DescriptionSection entry={entry} />
         <LinksSection entry={entry} />

@@ -64,7 +64,7 @@ const Header: FC = () => {
           'hover:bg-neutral-50',
           'items-center',
           'place-content-center',
-          'gap-x-6'
+          'gap-6'
         )}
       >
         {/* Logo */}
@@ -101,7 +101,7 @@ const Breadcrumb: FC = () => {
   }
 
   return (
-    <div className={c('border-y', 'bg-neutral-100')}>
+    <div className={c('border-b', 'bg-neutral-100')}>
       <div className={c('container', 'mx-auto', 'my-3', 'px-4')}>
         <Link variant="discreet" href="/">
           <Inline>

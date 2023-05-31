@@ -4,7 +4,7 @@ import { useRouter } from 'next/router';
 import { FC } from 'react';
 import FadeIn from 'react-fade-in';
 import { FiCornerDownLeft, FiHeart, FiLoader, FiSearch, FiTarget, FiX } from 'react-icons/fi';
-import { loadVocabulary, VocabularyEntry } from 'spelling-ukraine-data';
+import { VocabularyEntry, loadVocabulary } from 'spelling-ukraine-data';
 import Highlight from '~/components/highlight';
 import Inline from '~/components/inline';
 import Link from '~/components/link';
@@ -157,16 +157,9 @@ const HomePage: NextPage<HomePageProps> = ({ vocabulary }) => {
         onSubmit={(e) => {
           e.preventDefault();
 
-          if (isLoading) {
-            return;
+          if (!isLoading && results[0]) {
+            router.push(`/i/${results[0].entry.id}`);
           }
-
-          const firstResult = results[0];
-          if (!firstResult) {
-            return;
-          }
-
-          router.push(`/i/${firstResult.entry.id}`);
         }}
       >
         <div
