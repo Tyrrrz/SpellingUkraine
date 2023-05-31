@@ -3,7 +3,7 @@ import c from 'classnames';
 import { useRouter } from 'next/router';
 import { FC, PropsWithChildren, useEffect, useMemo, useState } from 'react';
 import FadeIn from 'react-fade-in';
-import { FiChevronLeft, FiGitCommit, FiGithub, FiHeart, FiOctagon } from 'react-icons/fi';
+import { FiChevronLeft, FiGitCommit, FiHeart, FiOctagon } from 'react-icons/fi';
 import Image from '~/components/image';
 import Inline from '~/components/inline';
 import Link from '~/components/link';
@@ -11,7 +11,7 @@ import Meta from '~/components/meta';
 import useDebounce from '~/hooks/useDebounce';
 import useRouterStatus from '~/hooks/useRouterStatus';
 import { getBuildId } from '~/utils/env';
-import { getRepoCommitUrl, getRepoUrl } from '~/utils/repo';
+import { getRepoFileUrl } from '~/utils/repo';
 
 const Loader: FC = () => {
   // Only show the loading indicator if the navigation takes a while.
@@ -67,12 +67,15 @@ const Header: FC = () => {
           'gap-x-6'
         )}
       >
+        {/* Logo */}
         <div className={c('hidden', 'sm:block', 'w-20')}>
           <Image src="/logo.svg" alt="SpellingUkraine" priority />
         </div>
 
+        {/* Separator */}
         <div className={c('hidden', 'sm:block', 'w-px', 'h-16', 'bg-neutral-400')} />
 
+        {/* Title & tagline */}
         <div className={c('flex', 'flex-col', 'items-center', 'sm:items-start')}>
           <div className={c('flex', 'text-4xl', 'font-semibold')}>
             <div className={c('p-1', 'pl-2', 'pb-2', 'bg-ukraine-blue', 'text-white')}>
@@ -141,24 +144,17 @@ const Footer: FC = () => {
         'font-light'
       )}
     >
-      <Link variant="discreet" href={getRepoCommitUrl(getBuildId())}>
+      {/* Git tree */}
+      <Link variant="discreet" href={getRepoFileUrl('', { ref: getBuildId() })}>
         <Inline>
           <FiGitCommit strokeWidth={1} />
           <span className={c('font-mono')}>{getBuildId()}</span>
         </Inline>
       </Link>
 
-      <div>•</div>
+      <div>&bull;</div>
 
-      <Link variant="discreet" href={getRepoUrl()}>
-        <Inline>
-          <FiGithub strokeWidth={1} />
-          <span>Source</span>
-        </Inline>
-      </Link>
-
-      <div>•</div>
-
+      {/* Discord Bot */}
       <Link
         variant="discreet"
         href="https://discord.com/api/oauth2/authorize?client_id=1065742890820706406&permissions=3072&scope=bot"
@@ -169,8 +165,9 @@ const Footer: FC = () => {
         </Inline>
       </Link>
 
-      <div>•</div>
+      <div>&bull;</div>
 
+      {/* Reddit Bot */}
       <Link variant="discreet" href="https://reddit.com/u/SpellingUkraine">
         <Inline>
           <FiOctagon strokeWidth={1} />
@@ -178,8 +175,9 @@ const Footer: FC = () => {
         </Inline>
       </Link>
 
-      <div>•</div>
+      <div>&bull;</div>
 
+      {/* Twitter Bot */}
       <Link variant="discreet" href="https://twitter.com/SpellingUkraine">
         <Inline>
           <FiOctagon strokeWidth={1} />
@@ -187,8 +185,9 @@ const Footer: FC = () => {
         </Inline>
       </Link>
 
-      <div>•</div>
+      <div>&bull;</div>
 
+      {/* Donate */}
       <Link variant="discreet" href="https://tyrrrz.me/donate">
         <Inline>
           <FiHeart strokeWidth={1} />

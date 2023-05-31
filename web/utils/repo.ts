@@ -4,10 +4,6 @@ export const getRepoUrl = () => {
   return 'https://github.com/Tyrrrz/SpellingUkraine';
 };
 
-export const getRepoCommitUrl = (commit: string) => {
-  return joinUrl(getRepoUrl(), 'commit', commit);
-};
-
 export const getRepoFileUrl = (path: string, options?: { ref: string }) => {
   return joinUrl(getRepoUrl(), 'tree', options?.ref || 'master', path);
 };
