@@ -17,10 +17,10 @@ const Link: FC<LinkProps> = ({
   external = isAbsoluteUrl(href),
   children
 }) => {
-  const RawLink = external ? 'a' : NextLink;
+  const Proxy = external ? 'a' : NextLink;
 
   return (
-    <RawLink
+    <Proxy
       className={c({
         'text-ukraine-blue': variant === 'normal' && color === 'blue',
         'text-ukraine-yellow': variant === 'normal' && color === 'yellow',
@@ -33,7 +33,7 @@ const Link: FC<LinkProps> = ({
       rel="noreferrer"
     >
       {children}
-    </RawLink>
+    </Proxy>
   );
 };
 
