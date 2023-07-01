@@ -3,7 +3,17 @@ import { getMe, listen, reply } from '~/discord';
 import { delay } from '~/utils/promise';
 
 const sampling = 1;
-const entries = ['kyiv', 'lviv', 'kharkiv', 'odesa', 'mykolaiv', 'chornobyl', 'irpin', 'chernihiv'];
+const entries = [
+  'kyiv',
+  'lviv',
+  'kharkiv',
+  'odesa',
+  'mykolaiv',
+  'chornobyl',
+  'irpin',
+  'chernihiv',
+  'zaporizhzhia'
+];
 
 const main = async () => {
   console.log('Discord bot is starting...');

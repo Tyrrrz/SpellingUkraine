@@ -5,7 +5,17 @@ import { delay } from '~/utils/promise';
 const submissionSampling = 1;
 const commentSampling = 0.75;
 const subreddits = ['ukraine', 'ukraina', 'ukraineconflict', 'yurop'];
-const entries = ['kyiv', 'lviv', 'kharkiv', 'odesa', 'mykolaiv', 'chornobyl', 'irpin', 'chernihiv'];
+const entries = [
+  'kyiv',
+  'lviv',
+  'kharkiv',
+  'odesa',
+  'mykolaiv',
+  'chornobyl',
+  'irpin',
+  'chernihiv',
+  'zaporizhzhia'
+];
 
 const main = async () => {
   console.log('Reddit bot is starting...');
