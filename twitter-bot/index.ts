@@ -1,6 +1,6 @@
 import { loadVocabularyEntry } from 'spelling-ukraine-data';
 import { getMe, listen, reply } from '~/twitter';
-import { delay } from '~/utils/promise';
+import { retry } from '~/utils/retry';
 
 const sampling = 0.01;
 const entries = [
@@ -43,7 +43,6 @@ const main = async () => {
 
   console.log('Listening to tweets:', filters);
 
-  let consecutiveReplyFailures = 0;
   await listen(filters.join(' '), async (tweet) => {
     // Scrub mentions, URLs
     const textNormalized = tweet.text
@@ -66,34 +65,22 @@ const main = async () => {
       incorrect: match.keyword
     });
 
-    try {
-      const replyTweet = await reply(
-        tweet,
-        [
-          `💡 It's "${match.entry.correctSpelling}", not "${match.keyword}". `,
-          `Support Ukraine by using the correct spelling! 🇺🇦`,
-          `\n\n`,
-          `Learn more: https://spellingukraine.com/i/${match.entry.id}. `,
-          `I'm a bot, sorry if I'm missing context.`
-        ].join('')
-      );
+    const replyTweet = await reply(
+      tweet,
+      [
+        `💡 It's "${match.entry.correctSpelling}", not "${match.keyword}". `,
+        `Support Ukraine by using the correct spelling! 🇺🇦`,
+        `\n\n`,
+        `Learn more: https://spellingukraine.com/i/${match.entry.id}. `,
+        `I'm a bot, sorry if I'm missing context.`
+      ].join('')
+    );
 
-      console.log('Reply tweet:', replyTweet);
-      consecutiveReplyFailures = 0;
-    } catch (err) {
-      // Replies may fail for various reasons, but not consistently.
-      // Throw if we have too many consecutive failures.
-      if (++consecutiveReplyFailures >= 5) {
-        throw err;
-      }
-
-      console.log(`Reply failure (${consecutiveReplyFailures})`, err);
-      await delay(1 * 60 * 1000); // 1 minute
-    }
+    console.log('Reply tweet:', replyTweet);
   });
 };
 
-main().catch((err) => {
+retry(main, 5, 60000).catch((err) => {
   console.error(err);
   process.exit(1);
 });

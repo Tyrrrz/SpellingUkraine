@@ -1,6 +1,6 @@
 import { loadVocabularyEntry } from 'spelling-ukraine-data';
 import { getMe, listen, reply } from '~/discord';
-import { delay } from '~/utils/promise';
+import { retry } from '~/utils/retry';
 
 const sampling = 1;
 const entries = [
@@ -33,7 +33,6 @@ const main = async () => {
 
   console.log('Listening to messages...');
 
-  let consecutiveReplyFailures = 0;
   await listen(async (message) => {
     if (message.author.id === me.id) {
       return;
@@ -64,33 +63,21 @@ const main = async () => {
       incorrect: match.keyword
     });
 
-    try {
-      const replyMessage = await reply(
-        message,
-        [
-          `💡 It's \`${match.entry.correctSpelling}\`, not \`${match.keyword}\`. `,
-          `Support Ukraine by using the correct spelling!`,
-          '\n\n',
-          `Learn more: https://spellingukraine.com/i/${match.entry.id}`
-        ].join('')
-      );
+    const replyMessage = await reply(
+      message,
+      [
+        `💡 It's \`${match.entry.correctSpelling}\`, not \`${match.keyword}\`. `,
+        `Support Ukraine by using the correct spelling!`,
+        '\n\n',
+        `Learn more: https://spellingukraine.com/i/${match.entry.id}`
+      ].join('')
+    );
 
-      console.log('Reply message:', replyMessage);
-      consecutiveReplyFailures = 0;
-    } catch (err) {
-      // Replies may fail for various reasons, but not consistently.
-      // Throw if we have too many consecutive failures.
-      if (++consecutiveReplyFailures >= 5) {
-        throw err;
-      }
-
-      console.log(`Reply failure (${consecutiveReplyFailures})`, err);
-      await delay(5 * 60 * 1000); // 5 minutes
-    }
+    console.log('Reply message:', replyMessage);
   });
 };
 
-main().catch((err) => {
+retry(main, 5, 60000).catch((err) => {
   console.error(err);
   process.exit(1);
 });
