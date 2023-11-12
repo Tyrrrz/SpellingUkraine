@@ -6,17 +6,17 @@
     "start": "ts-node index.ts"
   },
   "dependencies": {
-    "bufferutil": "^4.0.7",
-    "discord.js": "^14.13.0",
+    "bufferutil": "^4.0.8",
+    "discord.js": "^14.14.0",
     "erlpack": "discord/erlpack",
     "spelling-ukraine-data": "^1.0.0",
     "utf-8-validate": "^6.0.3",
-    "zlib-sync": "^0.1.8"
+    "zlib-sync": "^0.1.9"
   },
   "devDependencies": {
-    "@types/node": "^20.8.2",
+    "@types/node": "^20.9.0",
     "prettier": "^3.0.3",
-    "prettier-plugin-organize-imports": "^3.2.3",
+    "prettier-plugin-organize-imports": "^3.2.4",
     "ts-node": "^10.9.1",
     "tsconfig-paths": "^4.2.0",
     "typescript": "^5.2.2"

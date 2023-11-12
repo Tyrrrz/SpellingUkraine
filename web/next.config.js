@@ -9,7 +9,11 @@ const config = {
   transpilePackages: ['spelling-ukraine-data'],
 
   images: {
-    domains: ['upload.wikimedia.org']
+    remotePatterns: [
+      {
+        hostname: 'upload.wikimedia.org'
+      }
+    ]
   },
 
   env: {
