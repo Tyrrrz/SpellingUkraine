@@ -6,12 +6,8 @@
     "start": "ts-node index.ts"
   },
   "dependencies": {
-    "bufferutil": "^4.0.8",
     "discord.js": "^14.14.0",
-    "erlpack": "discord/erlpack",
-    "spelling-ukraine-data": "^1.0.0",
-    "utf-8-validate": "^6.0.3",
-    "zlib-sync": "^0.1.9"
+    "spelling-ukraine-data": "^1.0.0"
   },
   "devDependencies": {
     "@types/node": "^20.9.0",
