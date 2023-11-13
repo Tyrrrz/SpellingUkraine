@@ -181,9 +181,12 @@ const ImageSection: FC<EntryPageProps> = ({ entry }) => {
 
   return (
     <Section title="Image">
-      <Link href={entry.image.url}>
-        <Image src={entry.image.url} alt={entry.image.name} height={400} />
-      </Link>
+      {/* Flex container to make the link use block display */}
+      <div className={c('flex')}>
+        <Link href={entry.image.url}>
+          <Image src={entry.image.url} alt={entry.image.name} height={400} />
+        </Link>
+      </div>
     </Section>
   );
 };
