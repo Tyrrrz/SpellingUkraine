@@ -11,7 +11,8 @@ const Highlight: FC<HighlightProps> = ({ color = 'blue', children }) => {
       className={c('w-fit', 'px-2', 'py-1', 'rounded', {
         'bg-ukraine-blue': color === 'blue',
         'bg-ukraine-yellow': color === 'yellow',
-        'text-white': color === 'blue'
+        'text-neutral-200': color === 'blue',
+        'dark:text-neutral-900': color === 'yellow'
       })}
     >
       {children}

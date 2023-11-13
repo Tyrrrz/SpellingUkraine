@@ -35,7 +35,6 @@ const TranslitPage: NextPage = () => {
             'border-neutral-400',
             'hover:border-ukraine-blue',
             'rounded',
-            'bg-white',
             'text-lg'
           )}
         >
@@ -63,6 +62,7 @@ const TranslitPage: NextPage = () => {
             'hover:border-ukraine-blue',
             'rounded',
             'bg-neutral-100',
+            'dark:bg-neutral-800',
             'text-lg'
           )}
         >

@@ -23,9 +23,11 @@ const Link: FC<LinkProps> = ({
     <Proxy
       className={c({
         'text-ukraine-blue': variant === 'normal' && color === 'blue',
+        'dark:text-blue-300': variant === 'normal' && color === 'blue',
         'text-ukraine-yellow': variant === 'normal' && color === 'yellow',
         'hover:underline': variant === 'normal',
         'hover:text-ukraine-blue': variant === 'discreet' && color === 'blue',
+        'dark:hover:text-blue-300': variant === 'discreet' && color === 'blue',
         'hover:text-ukraine-yellow': variant === 'discreet' && color === 'yellow'
       })}
       href={href}

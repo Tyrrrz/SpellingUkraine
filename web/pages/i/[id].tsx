@@ -63,6 +63,7 @@ const PronounceButton: FC<EntryPageProps> = ({ entry }) => {
 
   return (
     <button
+      className={c('hover:text-ukraine-blue', 'dark:hover:text-ukraine-yellow')}
       disabled={isActive}
       onClick={() => speak(entry.transcription!, voice)}
       title={`Pronounce "${entry.correctSpelling}"`}
@@ -194,10 +195,12 @@ const ContributeSection: FC<EntryPageProps> = ({ entry }) => {
         {/* Edit */}
         <Highlight color="yellow">
           <Link variant="discreet" href={getRepoFileEditUrl(`data/vocabulary/${entry.path}`)}>
-            <Inline>
-              <FiEdit3 />
-              <div>Edit information</div>
-            </Inline>
+            <div className={c('dark:hover:text-ukraine-blue')}>
+              <Inline>
+                <FiEdit3 />
+                <div>Edit information</div>
+              </Inline>
+            </div>
           </Link>
         </Highlight>
 
@@ -214,10 +217,12 @@ const ContributeSection: FC<EntryPageProps> = ({ entry }) => {
               )})`
             })}
           >
-            <Inline>
-              <FiFlag />
-              <div>Report issue</div>
-            </Inline>
+            <div className={c('dark:hover:text-ukraine-blue')}>
+              <Inline>
+                <FiFlag />
+                <div>Report issue</div>
+              </Inline>
+            </div>
           </Link>
         </Highlight>
       </div>

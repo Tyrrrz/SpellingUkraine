@@ -36,8 +36,8 @@ const SearchResults: FC<{ results: SearchResult[] }> = ({ results }) => {
               'border-neutral-400',
               'hover:border-ukraine-blue',
               'rounded',
-              'bg-white',
               'hover:bg-blue-50',
+              'dark:hover:bg-blue-900',
               'place-content-center'
             )}
           >
@@ -169,27 +169,29 @@ const HomePage: NextPage<HomePageProps> = ({ vocabulary }) => {
             'border-neutral-400',
             'hover:border-ukraine-blue',
             'rounded',
-            'bg-white',
             'items-center',
             'text-xl'
           )}
         >
-          <div className={c('mx-4')}>
-            {isLoading ? (
-              <FiLoader className={c('animate-spin')} />
-            ) : query ? (
-              <button
-                type="button"
-                className={c('flex')}
-                onClick={() => setQuery('')}
-                title="Reset search (press Escape)"
-              >
-                <FiX />
-              </button>
-            ) : (
-              <FiSearch />
-            )}
-          </div>
+          {isLoading ? (
+            <FiLoader className={c('mx-4', 'animate-spin')} />
+          ) : query ? (
+            <button
+              type="button"
+              className={c(
+                'flex',
+                'px-4',
+                'hover:text-ukraine-blue',
+                'dark:hover:text-ukraine-yellow'
+              )}
+              onClick={() => setQuery('')}
+              title="Reset search (press Escape)"
+            >
+              <FiX />
+            </button>
+          ) : (
+            <FiSearch className={c('mx-4')} />
+          )}
 
           <input
             className={c(
@@ -213,7 +215,12 @@ const HomePage: NextPage<HomePageProps> = ({ vocabulary }) => {
           {results.length > 0 && (
             <button
               type="submit"
-              className={c('flex', 'px-4')}
+              className={c(
+                'flex',
+                'px-4',
+                'hover:text-ukraine-blue',
+                'dark:hover:text-ukraine-yellow'
+              )}
               title="Go to the first result (press Enter)"
             >
               <FiCornerDownLeft />

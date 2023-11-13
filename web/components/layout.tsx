@@ -60,8 +60,7 @@ const Header: FC = () => {
           'px-4',
           'py-6',
           'border-b',
-          'bg-white',
-          'hover:bg-neutral-50',
+          'dark:border-neutral-800',
           'items-center',
           'place-content-center',
           'gap-6'
@@ -73,15 +72,26 @@ const Header: FC = () => {
         </div>
 
         {/* Separator */}
-        <div className={c('hidden', 'sm:block', 'w-px', 'h-16', 'bg-neutral-400')} />
+        <div
+          className={c(
+            'hidden',
+            'sm:block',
+            'w-px',
+            'h-16',
+            'bg-neutral-400',
+            'dark:bg-neutral-600'
+          )}
+        />
 
         {/* Title & tagline */}
         <div className={c('flex', 'flex-col', 'items-center', 'sm:items-start')}>
           <div className={c('flex', 'text-4xl', 'font-semibold')}>
-            <div className={c('p-1', 'pl-2', 'pb-2', 'bg-ukraine-blue', 'text-white')}>
+            <div className={c('p-1', 'pl-2', 'pb-2', 'bg-ukraine-blue', 'text-neutral-200')}>
               Spelling
             </div>
-            <div className={c('p-1', 'pr-2', 'pb-2', 'bg-ukraine-yellow')}>Ukraine</div>
+            <div className={c('p-1', 'pr-2', 'pb-2', 'bg-ukraine-yellow', 'dark:text-neutral-900')}>
+              Ukraine
+            </div>
           </div>
 
           <div className={c('mt-1', 'text-xl', 'text-center', 'font-light', 'sm:tracking-wide')}>
@@ -101,7 +111,9 @@ const Breadcrumb: FC = () => {
   }
 
   return (
-    <div className={c('border-b', 'bg-neutral-100')}>
+    <div
+      className={c('border-b', 'dark:border-neutral-800', 'bg-neutral-100', 'dark:bg-neutral-800')}
+    >
       <div className={c('container', 'mx-auto', 'my-3', 'px-4')}>
         <Link variant="discreet" href="/">
           <Inline>
@@ -120,7 +132,7 @@ const Main: FC<PropsWithChildren> = ({ children }) => {
   const fadeKey = useMemo(() => Math.random().toString() + router.pathname, [router.pathname]);
 
   return (
-    <div className={c('flex-grow', 'bg-white')}>
+    <div className={c('flex-grow')}>
       <main className={c('container', 'mx-auto', 'mt-6', 'mb-8', 'px-4')}>
         <FadeIn key={fadeKey}>{children}</FadeIn>
       </main>
@@ -136,7 +148,9 @@ const Footer: FC = () => {
         'flex-wrap',
         'p-4',
         'border-t',
+        'dark:border-neutral-800',
         'bg-neutral-100',
+        'dark:bg-neutral-800',
         'gap-3',
         'place-content-center',
         'text-sm',
@@ -202,7 +216,16 @@ type LayoutProps = PropsWithChildren;
 
 const Layout: FC<LayoutProps> = ({ children }) => {
   return (
-    <div className={c('flex', 'flex-col', 'min-h-screen', 'bg-neutral-50')}>
+    <div
+      className={c(
+        'flex',
+        'flex-col',
+        'min-h-screen',
+        'bg-neutral-50',
+        'dark:bg-neutral-900',
+        'dark:text-neutral-200'
+      )}
+    >
       <Meta />
       <Analytics />
 
