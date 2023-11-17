@@ -3,13 +3,14 @@ import c from 'classnames';
 import { useRouter } from 'next/router';
 import { FC, PropsWithChildren, useEffect, useMemo, useState } from 'react';
 import FadeIn from 'react-fade-in';
-import { FiChevronLeft, FiGitCommit, FiHeart, FiOctagon } from 'react-icons/fi';
+import { FiChevronLeft, FiGitCommit, FiHeart, FiMoon, FiOctagon, FiSun } from 'react-icons/fi';
 import Image from '~/components/image';
 import Inline from '~/components/inline';
 import Link from '~/components/link';
 import Meta from '~/components/meta';
 import useDebounce from '~/hooks/useDebounce';
 import useRouterStatus from '~/hooks/useRouterStatus';
+import useTheme from '~/hooks/useTheme';
 import { getBuildId } from '~/utils/env';
 import { getRepoFileUrl } from '~/utils/repo';
 
@@ -141,6 +142,8 @@ const Main: FC<PropsWithChildren> = ({ children }) => {
 };
 
 const Footer: FC = () => {
+  const [theme, setTheme] = useTheme();
+
   return (
     <footer
       className={c(
@@ -208,6 +211,16 @@ const Footer: FC = () => {
           <div>Donate</div>
         </Inline>
       </Link>
+
+      <div>&bull;</div>
+
+      {/* Theme switcher */}
+      <button
+        className={c('mb-0.5', 'text-lg', 'text-ukraine-blue', 'dark:text-ukraine-yellow')}
+        onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
+      >
+        {theme === 'dark' ? <FiMoon /> : <FiSun />}
+      </button>
     </footer>
   );
 };
@@ -215,26 +228,35 @@ const Footer: FC = () => {
 type LayoutProps = PropsWithChildren;
 
 const Layout: FC<LayoutProps> = ({ children }) => {
+  const [theme] = useTheme();
+
   return (
     <div
-      className={c(
-        'flex',
-        'flex-col',
-        'min-h-screen',
-        'bg-neutral-50',
-        'dark:bg-neutral-900',
-        'dark:text-neutral-200'
-      )}
+      className={c({
+        dark: theme === 'dark',
+        light: theme === 'light'
+      })}
     >
-      <Meta />
-      <Analytics />
+      <div
+        className={c(
+          'flex',
+          'flex-col',
+          'min-h-screen',
+          'bg-neutral-50',
+          'dark:bg-neutral-900',
+          'dark:text-neutral-200'
+        )}
+      >
+        <Meta />
+        <Analytics />
 
-      <Loader />
+        <Loader />
 
-      <Header />
-      <Breadcrumb />
-      <Main>{children}</Main>
-      <Footer />
+        <Header />
+        <Breadcrumb />
+        <Main>{children}</Main>
+        <Footer />
+      </div>
     </div>
   );
 };
