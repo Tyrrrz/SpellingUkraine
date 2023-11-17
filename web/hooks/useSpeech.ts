@@ -1,60 +1,65 @@
 import { useEffect, useMemo, useState } from 'react';
 
-const resolveVoices = () => {
-  return new Promise<SpeechSynthesisVoice[]>((resolve) => {
-    const voices = speechSynthesis.getVoices();
-    if (voices.length > 0) {
-      resolve(voices);
-    }
-
-    const onVoicesChanged = () => {
-      speechSynthesis.removeEventListener('voiceschanged', onVoicesChanged);
-      resolve(speechSynthesis.getVoices());
-    };
-
-    speechSynthesis.addEventListener('voiceschanged', onVoicesChanged);
-  });
-};
-
-const speak = (text: string, voice?: SpeechSynthesisVoice) => {
-  return new Promise<void>((resolve) => {
-    const utterance = new SpeechSynthesisUtterance(text);
-    utterance.voice = voice || null;
-
-    const onEnd = () => {
-      utterance.removeEventListener('end', onEnd);
-      resolve();
-    };
-
-    utterance.addEventListener('end', onEnd);
-    speechSynthesis.speak(utterance);
-  });
-};
-
 const useSpeech = () => {
-  const isClientSide = typeof window !== 'undefined';
   const [isActive, setIsActive] = useState(false);
   const [voices, setVoices] = useState<SpeechSynthesisVoice[]>();
+  const [currentUtterance, setCurrentUtterance] = useState<SpeechSynthesisUtterance>();
 
+  // Initial voices
   useEffect(() => {
-    if (!isClientSide) {
-      return;
+    setVoices(speechSynthesis.getVoices());
+  }, []);
+
+  // Lazy-loaded voices
+  useEffect(() => {
+    const onChange = () => {
+      setVoices(speechSynthesis.getVoices());
+    };
+
+    speechSynthesis.addEventListener('voiceschanged', onChange);
+
+    return () => {
+      speechSynthesis.removeEventListener('voiceschanged', onChange);
+    };
+  }, []);
+
+  // Active utterance
+  useEffect(() => {
+    const onEnd = () => {
+      setIsActive(false);
+      setCurrentUtterance(undefined);
+    };
+
+    if (currentUtterance) {
+      currentUtterance.addEventListener('end', onEnd);
+
+      setIsActive(true);
+      speechSynthesis.speak(currentUtterance);
     }
 
-    setVoices([]);
-    resolveVoices().then(setVoices);
-  }, [isClientSide]);
+    return () => {
+      if (currentUtterance) {
+        currentUtterance.removeEventListener('end', onEnd);
+      }
+    };
+  }, [currentUtterance]);
 
   return useMemo(() => {
     return {
       isActive,
       voices,
       speak: (text: string, voice?: SpeechSynthesisVoice) => {
-        setIsActive(true);
-        speak(text, voice).finally(() => setIsActive(false));
+        if (currentUtterance) {
+          return;
+        }
+
+        const utterance = new SpeechSynthesisUtterance(text);
+        utterance.voice = voice || null;
+
+        setCurrentUtterance(utterance);
       }
     };
-  }, [isActive, voices]);
+  }, [isActive, voices, currentUtterance]);
 };
 
 export default useSpeech;

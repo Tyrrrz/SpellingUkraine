@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 
 const getStorageValue = (key: string) => {
   const item = sessionStorage.getItem(key);
@@ -16,23 +16,51 @@ const getStorageValue = (key: string) => {
 
 const setStorageValue = (key: string, value: any) => {
   sessionStorage.setItem(key, JSON.stringify(value));
+
+  // Storage events are not triggered within the same page that modified the storage,
+  // so we need to dispatch the event manually to make sure that other hooks get notified.
+  dispatchEvent(new StorageEvent('storage'));
 };
 
-const useSessionState = <T>(key: string, initialState: T) => {
-  const isClientSide = typeof window !== 'undefined';
-  const [value, setValue] = useState<T>(() =>
-    isClientSide ? getStorageValue(key) ?? initialState : initialState
-  );
+const useLocalState = <T>(key: string, initialState: T) => {
+  const isMounted = useRef(false);
+  const [value, setValue] = useState<T>(initialState);
 
+  // Initial value from the storage
   useEffect(() => {
-    if (!isClientSide) {
-      return;
+    const item = getStorageValue(key);
+    if (item) {
+      setValue(item);
     }
 
-    setStorageValue(key, value);
-  }, [key, isClientSide, value]);
+    return () => {
+      isMounted.current = false;
+    };
+  }, [key]);
+
+  // Value changed by the consumer
+  useEffect(() => {
+    if (isMounted.current) {
+      setStorageValue(key, value);
+    } else {
+      isMounted.current = true;
+    }
+  }, [key, value]);
+
+  // Value changed in the storage
+  useEffect(() => {
+    const onChange = () => {
+      setValue(getStorageValue(key));
+    };
+
+    addEventListener('storage', onChange);
+
+    return () => {
+      removeEventListener('storage', onChange);
+    };
+  }, [key]);
 
   return [value, setValue] as const;
 };
 
-export default useSessionState;
+export default useLocalState;
