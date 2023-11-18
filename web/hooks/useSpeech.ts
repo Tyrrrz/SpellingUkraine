@@ -1,17 +1,14 @@
 import { useEffect, useMemo, useState } from 'react';
 
 const useSpeech = () => {
-  const [isActive, setIsActive] = useState(false);
   const [voices, setVoices] = useState<SpeechSynthesisVoice[]>();
   const [currentUtterance, setCurrentUtterance] = useState<SpeechSynthesisUtterance>();
+  const [isActive, setIsActive] = useState(false);
 
-  // Initial voices
+  // Initial and lazy-loaded voices
   useEffect(() => {
     setVoices(speechSynthesis.getVoices());
-  }, []);
 
-  // Lazy-loaded voices
-  useEffect(() => {
     const onChange = () => {
       setVoices(speechSynthesis.getVoices());
     };
@@ -25,28 +22,27 @@ const useSpeech = () => {
 
   // Active utterance
   useEffect(() => {
-    const onEnd = () => {
-      setIsActive(false);
-      setCurrentUtterance(undefined);
-    };
-
     if (currentUtterance) {
+      const onEnd = () => {
+        setCurrentUtterance(undefined);
+      };
+
       currentUtterance.addEventListener('end', onEnd);
 
       setIsActive(true);
       speechSynthesis.speak(currentUtterance);
-    }
 
-    return () => {
-      if (currentUtterance) {
+      return () => {
         currentUtterance.removeEventListener('end', onEnd);
-      }
-    };
+      };
+    } else {
+      setIsActive(false);
+      return;
+    }
   }, [currentUtterance]);
 
   return useMemo(() => {
     return {
-      isActive,
       voices,
       speak: (text: string, voice?: SpeechSynthesisVoice) => {
         if (currentUtterance) {
@@ -57,7 +53,8 @@ const useSpeech = () => {
         utterance.voice = voice || null;
 
         setCurrentUtterance(utterance);
-      }
+      },
+      isActive
     };
   }, [isActive, voices, currentUtterance]);
 };

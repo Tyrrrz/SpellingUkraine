@@ -26,10 +26,10 @@ const ButtonLink: FC<ButtonLinkProps> = ({
         'text-ukraine-blue': variant === 'normal' && color === 'blue',
         'dark:text-blue-300': variant === 'normal' && color === 'blue',
         'text-ukraine-yellow': variant === 'normal' && color === 'yellow',
-        'hover:underline': variant === 'normal',
-        'hover:text-ukraine-blue': variant === 'discreet' && color === 'blue',
-        'dark:hover:text-blue-300': variant === 'discreet' && color === 'blue',
-        'hover:text-ukraine-yellow': variant === 'discreet' && color === 'yellow'
+        'hover:underline': variant === 'normal' && !disabled,
+        'hover:text-ukraine-blue': variant === 'discreet' && color === 'blue' && !disabled,
+        'dark:hover:text-blue-300': variant === 'discreet' && color === 'blue' && !disabled,
+        'hover:text-ukraine-yellow': variant === 'discreet' && color === 'yellow' && !disabled
       })}
       disabled={disabled}
       title={title}

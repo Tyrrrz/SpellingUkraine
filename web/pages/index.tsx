@@ -37,7 +37,7 @@ const SearchResults: FC<{ results: SearchResult[] }> = ({ results }) => {
               'hover:border-ukraine-blue',
               'rounded',
               'hover:bg-blue-50',
-              'dark:hover:bg-blue-900',
+              'dark:hover:bg-blue-950',
               'place-content-center'
             )}
           >
