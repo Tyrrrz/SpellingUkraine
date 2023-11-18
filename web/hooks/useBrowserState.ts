@@ -26,7 +26,11 @@ const getStorageValue = (storage: Storage, key: string) => {
 };
 
 const setStorageValue = (storage: Storage, key: string, value: any) => {
-  storage.setItem(key, JSON.stringify(value));
+  if (typeof value !== 'undefined' && value !== null) {
+    storage.setItem(key, JSON.stringify(value));
+  } else {
+    storage.removeItem(key);
+  }
 
   // Storage events are not triggered within the same page that modified the storage,
   // so we need to dispatch the event manually to make sure that other hooks get notified.
