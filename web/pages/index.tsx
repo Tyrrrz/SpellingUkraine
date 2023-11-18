@@ -51,7 +51,7 @@ const SearchResults: FC<{ results: SearchResult[] }> = ({ results }) => {
               result.match !== result.entry.sourceSpelling && (
                 <div className={c('mt-1', 'text-sm', 'font-light')}>
                   <Inline>
-                    <FiArrowRight strokeWidth={1} />
+                    <FiSearch strokeWidth={1} />
                     <div>Matched on {result.match}</div>
                   </Inline>
                 </div>
@@ -152,7 +152,7 @@ const HomePage: NextPage<HomePageProps> = ({ vocabulary }) => {
 
   return (
     <>
-      <div className={c('m-1', 'text-center', 'sm:text-right', 'text-sm', 'text-light')}>
+      <div className={c('my-2', 'text-center', 'sm:text-right', 'text-sm', 'text-light')}>
         ✨ New: you can now also <Link href="/translit">transliterate arbitrary text</Link>
       </div>
 
