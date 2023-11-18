@@ -5,6 +5,7 @@ import { FC } from 'react';
 import FadeIn from 'react-fade-in';
 import { FiArrowRight, FiCornerDownLeft, FiHeart, FiLoader, FiSearch, FiX } from 'react-icons/fi';
 import { VocabularyEntry, loadVocabulary } from 'spelling-ukraine-data';
+import ButtonLink from '~/components/buttonLink';
 import Highlight from '~/components/highlight';
 import Inline from '~/components/inline';
 import Link from '~/components/link';
@@ -175,25 +176,21 @@ const HomePage: NextPage<HomePageProps> = ({ vocabulary }) => {
             'text-xl'
           )}
         >
-          {isQueryDebouncing ? (
-            <FiLoader className={c('mx-4', 'animate-spin')} />
-          ) : query ? (
-            <button
-              type="button"
-              className={c(
-                'flex',
-                'px-4',
-                'hover:text-ukraine-blue',
-                'dark:hover:text-ukraine-yellow'
-              )}
-              onClick={() => setQuery('')}
-              title="Reset search (press Escape)"
-            >
-              <FiX />
-            </button>
-          ) : (
-            <FiSearch className={c('mx-4')} />
-          )}
+          <div className={c('flex', 'px-4')}>
+            {isQueryDebouncing ? (
+              <FiLoader className={c('animate-spin')} />
+            ) : query ? (
+              <ButtonLink
+                variant="discreet"
+                onClick={() => setQuery('')}
+                title="Reset search (press Escape)"
+              >
+                <FiX />
+              </ButtonLink>
+            ) : (
+              <FiSearch />
+            )}
+          </div>
 
           <input
             className={c(
@@ -215,18 +212,11 @@ const HomePage: NextPage<HomePageProps> = ({ vocabulary }) => {
           />
 
           {results.length > 0 && (
-            <button
-              type="submit"
-              className={c(
-                'flex',
-                'px-4',
-                'hover:text-ukraine-blue',
-                'dark:hover:text-ukraine-yellow'
-              )}
-              title="Go to the first result (press Enter)"
-            >
-              <FiCornerDownLeft />
-            </button>
+            <div className={c('flex', 'px-4')}>
+              <ButtonLink variant="discreet" submit title="Go to the first result (press Enter)">
+                <FiCornerDownLeft />
+              </ButtonLink>
+            </div>
           )}
         </div>
       </form>

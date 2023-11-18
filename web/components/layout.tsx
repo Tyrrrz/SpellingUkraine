@@ -4,6 +4,7 @@ import { useRouter } from 'next/router';
 import { FC, PropsWithChildren, useEffect, useMemo, useState } from 'react';
 import FadeIn from 'react-fade-in';
 import { FiChevronLeft, FiGitCommit, FiHeart, FiMoon, FiOctagon, FiSun } from 'react-icons/fi';
+import ButtonLink from '~/components/buttonLink';
 import Image from '~/components/image';
 import Inline from '~/components/inline';
 import Link from '~/components/link';
@@ -215,15 +216,14 @@ const Footer: FC = () => {
       <div>&bull;</div>
 
       {/* Theme switcher */}
-      <button
-        className={c('text-ukraine-blue', 'dark:text-ukraine-yellow')}
-        onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
-      >
-        <Inline>
-          {theme === 'dark' ? <FiMoon /> : <FiSun />}
-          <div className={c('capitalize')}>{theme}</div>
-        </Inline>
-      </button>
+      <ButtonLink variant="hidden" onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}>
+        <div className={c('text-ukraine-blue', 'dark:text-ukraine-yellow')}>
+          <Inline>
+            {theme === 'dark' ? <FiMoon /> : <FiSun />}
+            <div className={c('capitalize')}>{theme}</div>
+          </Inline>
+        </div>
+      </ButtonLink>
     </footer>
   );
 };
@@ -252,13 +252,11 @@ const Layout: FC<LayoutProps> = ({ children }) => {
       >
         <Meta />
         <Analytics />
-
         <Loader />
-
         <Header />
         <Breadcrumb />
         <Main>{children}</Main>
-        <Footer />
+        <Footer />S
       </div>
     </div>
   );

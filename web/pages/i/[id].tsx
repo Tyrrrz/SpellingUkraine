@@ -13,6 +13,7 @@ import {
   FiX
 } from 'react-icons/fi';
 import { VocabularyEntry, loadVocabulary, loadVocabularyEntry } from 'spelling-ukraine-data';
+import ButtonLink from '~/components/buttonLink';
 import Heading from '~/components/heading';
 import Highlight from '~/components/highlight';
 import Image from '~/components/image';
@@ -62,14 +63,14 @@ const PronounceButton: FC<EntryPageProps> = ({ entry }) => {
   }
 
   return (
-    <button
-      className={c('hover:text-ukraine-blue', 'dark:hover:text-ukraine-yellow')}
+    <ButtonLink
       disabled={isActive}
+      variant="discreet"
       onClick={() => speak(entry.transcription!, voice)}
       title={`Pronounce "${entry.correctSpelling}"`}
     >
       {isActive ? <FiVolume2 strokeWidth={1} /> : <FiVolume1 strokeWidth={1} />}
-    </button>
+    </ButtonLink>
   );
 };
 
