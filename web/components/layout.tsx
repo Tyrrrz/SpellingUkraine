@@ -256,7 +256,7 @@ const Layout: FC<LayoutProps> = ({ children }) => {
         <Header />
         <Breadcrumb />
         <Main>{children}</Main>
-        <Footer />S
+        <Footer />
       </div>
     </div>
   );
