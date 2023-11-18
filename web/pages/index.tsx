@@ -3,7 +3,7 @@ import { GetStaticProps, NextPage } from 'next';
 import { useRouter } from 'next/router';
 import { FC } from 'react';
 import FadeIn from 'react-fade-in';
-import { FiCornerDownLeft, FiHeart, FiLoader, FiSearch, FiTarget, FiX } from 'react-icons/fi';
+import { FiArrowRight, FiCornerDownLeft, FiHeart, FiLoader, FiSearch, FiX } from 'react-icons/fi';
 import { VocabularyEntry, loadVocabulary } from 'spelling-ukraine-data';
 import Highlight from '~/components/highlight';
 import Inline from '~/components/inline';
@@ -51,7 +51,7 @@ const SearchResults: FC<{ results: SearchResult[] }> = ({ results }) => {
               result.match !== result.entry.sourceSpelling && (
                 <div className={c('mt-1', 'text-sm', 'font-light')}>
                   <Inline>
-                    <FiTarget strokeWidth={1} />
+                    <FiArrowRight strokeWidth={1} />
                     <div>Matched on {result.match}</div>
                   </Inline>
                 </div>
@@ -128,9 +128,9 @@ const Placeholder: FC<{ vocabulary: VocabularyEntry[] }> = ({ vocabulary }) => {
           moment of your time to ensure that you are writing correctly is yet another small way that
           you can <span className={c('font-semibold')}>#StandWithUkraine</span> in its fight for
           freedom.{' '}
-          <span className={c('inline-flex', 'gap-1')}>
-            <FiHeart className={c('fill-ukraine-blue')} strokeWidth={1} />
-            <FiHeart className={c('fill-ukraine-yellow')} strokeWidth={1} />
+          <span className={c('inline-flex')}>
+            <FiHeart className={c('text-transparent', 'fill-ukraine-blue')} />
+            <FiHeart className={c('text-transparent', 'fill-ukraine-yellow')} />
           </span>
         </Paragraph>
       </section>

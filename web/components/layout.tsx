@@ -142,7 +142,7 @@ const Main: FC<PropsWithChildren> = ({ children }) => {
 };
 
 const Footer: FC = () => {
-  const [theme, setTheme] = useTheme();
+  const { theme, setTheme } = useTheme();
 
   return (
     <footer
@@ -164,7 +164,7 @@ const Footer: FC = () => {
       {/* Git tree */}
       <Link variant="discreet" href={getRepoFileUrl('', { ref: getBuildId() })}>
         <Inline>
-          <FiGitCommit strokeWidth={1} />
+          <FiGitCommit />
           <div className={c('font-mono')}>{getBuildId()}</div>
         </Inline>
       </Link>
@@ -177,7 +177,7 @@ const Footer: FC = () => {
         href="https://discord.com/api/oauth2/authorize?client_id=1065742890820706406&permissions=3072&scope=bot"
       >
         <Inline>
-          <FiOctagon strokeWidth={1} />
+          <FiOctagon />
           <div>Discord Bot</div>
         </Inline>
       </Link>
@@ -187,7 +187,7 @@ const Footer: FC = () => {
       {/* Reddit Bot */}
       <Link variant="discreet" href="https://reddit.com/u/SpellingUkraine">
         <Inline>
-          <FiOctagon strokeWidth={1} />
+          <FiOctagon />
           <div>Reddit Bot</div>
         </Inline>
       </Link>
@@ -197,7 +197,7 @@ const Footer: FC = () => {
       {/* Twitter Bot */}
       <Link variant="discreet" href="https://twitter.com/SpellingUkraine">
         <Inline>
-          <FiOctagon strokeWidth={1} />
+          <FiOctagon />
           <div>Twitter Bot</div>
         </Inline>
       </Link>
@@ -207,7 +207,7 @@ const Footer: FC = () => {
       {/* Donate */}
       <Link variant="discreet" href="https://tyrrrz.me/donate">
         <Inline>
-          <FiHeart strokeWidth={1} />
+          <FiHeart />
           <div>Donate</div>
         </Inline>
       </Link>
@@ -216,10 +216,13 @@ const Footer: FC = () => {
 
       {/* Theme switcher */}
       <button
-        className={c('mb-0.5', 'text-lg', 'text-ukraine-blue', 'dark:text-ukraine-yellow')}
+        className={c('text-ukraine-blue', 'dark:text-ukraine-yellow')}
         onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
       >
-        {theme === 'dark' ? <FiMoon /> : <FiSun />}
+        <Inline>
+          {theme === 'dark' ? <FiMoon /> : <FiSun />}
+          <div className={c('capitalize')}>{theme}</div>
+        </Inline>
       </button>
     </footer>
   );
@@ -228,7 +231,7 @@ const Footer: FC = () => {
 type LayoutProps = PropsWithChildren;
 
 const Layout: FC<LayoutProps> = ({ children }) => {
-  const [theme] = useTheme();
+  const { theme } = useTheme();
 
   return (
     <div

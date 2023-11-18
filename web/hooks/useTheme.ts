@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import useLocalState from '~/hooks/useLocalState';
 import useMedia from '~/hooks/useMedia';
 
@@ -18,7 +18,14 @@ const useTheme = () => {
     }
   }, [systemPreferredTheme, userPreferredTheme]);
 
-  return [actualTheme, setUserPreferredTheme] as const;
+  return useMemo(() => {
+    return {
+      systemPreferredTheme,
+      userPreferredTheme,
+      theme: actualTheme,
+      setTheme: setUserPreferredTheme
+    };
+  }, [systemPreferredTheme, userPreferredTheme, setUserPreferredTheme, actualTheme]);
 };
 
 export default useTheme;
