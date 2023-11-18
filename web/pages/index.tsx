@@ -10,7 +10,6 @@ import Inline from '~/components/inline';
 import Link from '~/components/link';
 import Paragraph from '~/components/paragraph';
 import useDebounce from '~/hooks/useDebounce';
-import useHydrated from '~/hooks/useHydrated';
 import useSessionState from '~/hooks/useSessionState';
 import useVocabularySearch, { SearchResult } from '~/hooks/useVocabularySearch';
 import { bufferIterable } from '~/utils/async';
@@ -140,11 +139,14 @@ const Placeholder: FC<{ vocabulary: VocabularyEntry[] }> = ({ vocabulary }) => {
 
 const HomePage: NextPage<HomePageProps> = ({ vocabulary }) => {
   const router = useRouter();
-
   const [query, setQuery] = useSessionState('searchQuery', '');
-  const queryDebounced = useHydrated(useDebounce(query, 500));
 
-  const isLoading = queryDebounced !== query;
+  const { value: queryDebounced, isDebouncing: isQueryDebouncing } = useDebounce(
+    query,
+    // Don't debounce if the query was cleared
+    query ? 500 : 0
+  );
+
   const results = useVocabularySearch(vocabulary, queryDebounced || '');
 
   return (
@@ -157,7 +159,7 @@ const HomePage: NextPage<HomePageProps> = ({ vocabulary }) => {
         onSubmit={(e) => {
           e.preventDefault();
 
-          if (!isLoading && results[0]) {
+          if (!isQueryDebouncing && results[0]) {
             router.push(`/i/${results[0].entry.id}`);
           }
         }}
@@ -173,7 +175,7 @@ const HomePage: NextPage<HomePageProps> = ({ vocabulary }) => {
             'text-xl'
           )}
         >
-          {isLoading ? (
+          {isQueryDebouncing ? (
             <FiLoader className={c('mx-4', 'animate-spin')} />
           ) : query ? (
             <button

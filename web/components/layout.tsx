@@ -17,7 +17,7 @@ import { getRepoFileUrl } from '~/utils/repo';
 const Loader: FC = () => {
   // Only show the loading indicator if the navigation takes a while.
   // This prevents the indicator from flashing during faster navigation.
-  const isVisible = useDebounce(useRouterStatus() === 'loading', 300);
+  const { value: isVisible } = useDebounce(useRouterStatus() === 'loading', 300);
   const [progress, setProgress] = useState(0);
 
   useEffect(() => {

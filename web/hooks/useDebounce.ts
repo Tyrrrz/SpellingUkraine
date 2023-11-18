@@ -1,7 +1,8 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 
 const useDebounce = <T>(value: T, delayMs: number) => {
   const [debouncedValue, setDebouncedValue] = useState(value);
+  const isDebouncing = value !== debouncedValue;
 
   useEffect(() => {
     const timeout = setTimeout(() => {
@@ -11,7 +12,12 @@ const useDebounce = <T>(value: T, delayMs: number) => {
     return () => clearTimeout(timeout);
   }, [value, delayMs]);
 
-  return debouncedValue;
+  return useMemo(() => {
+    return {
+      value: debouncedValue,
+      isDebouncing
+    };
+  }, [debouncedValue, isDebouncing]);
 };
 
 export default useDebounce;
