@@ -1,0 +1,21 @@
+{
+  "category": "City",
+  "sourceSpelling": "Старокостянтинів",
+  "correctSpelling": "Starokostyantyniv",
+  "incorrectSpellings": [
+    "Starokonstyantyniv",
+    "Starokonstantinov",
+    "Starokostantinov"
+  ],
+  "relatedSpellings": [],
+  "links": [
+    {
+      "name": "Wikipedia: Starokostiantyniv",
+      "url": "https://en.wikipedia.org/wiki/Starokostiantyniv"
+    }
+  ],
+  "location": {
+    "lat": 49.25,
+    "lng": 27
+  }
+}
