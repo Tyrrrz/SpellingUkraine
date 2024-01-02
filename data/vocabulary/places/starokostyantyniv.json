@@ -1,10 +1,11 @@
 {
   "category": "City",
   "sourceSpelling": "Старокостянтинів",
-  "correctSpelling": "Starokostyantyniv",
+  "correctSpelling": "Starokostiantyniv",
   "incorrectSpellings": [
     "Starokonstyantyniv",
     "Starokonstantinov",
+    "Starokostyantyniv",
     "Starokostantinov"
   ],
   "relatedSpellings": [],
