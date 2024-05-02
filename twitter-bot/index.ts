@@ -15,6 +15,12 @@ const entries = [
   'zaporizhzhia'
 ];
 
+// Keep track of tweets that have already been replied to.
+// This shouldn't be necessary because our approach involves
+// listening to new tweets only, but sometimes the API may
+// resolve duplicates, so we need to be extra safe to avoid spam.
+const repliedTweets = new Set<string>();
+
 const main = async () => {
   console.log('Twitter bot is starting...');
 
@@ -44,6 +50,10 @@ const main = async () => {
   console.log('Listening to tweets:', filters);
 
   await listen(filters.join(' '), async (tweet) => {
+    if (repliedTweets.has(tweet.id)) {
+      return;
+    }
+
     // Scrub mentions, URLs
     const textNormalized = tweet.text
       .replace(/\b@\w+\b/g, '')
@@ -77,6 +87,13 @@ const main = async () => {
     );
 
     console.log('Reply tweet:', replyTweet);
+
+    // Don't overflow the cache
+    if (repliedTweets.size > 10000) {
+      repliedTweets.clear();
+    }
+
+    repliedTweets.add(tweet.id);
   });
 };
 

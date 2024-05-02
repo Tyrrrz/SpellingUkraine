@@ -15,6 +15,12 @@ const entries = [
   'zaporizhzhia'
 ];
 
+// Keep track of messages that have already been replied to.
+// This shouldn't be necessary because our approach involves
+// listening to new messages only, but sometimes the API may
+// resolve duplicates, so we need to be extra safe to avoid spam.
+const repliedMessages = new Set<string>();
+
 const main = async () => {
   console.log('Discord bot is starting...');
 
@@ -35,6 +41,10 @@ const main = async () => {
 
   await listen(async (message) => {
     if (message.author.id === me.id) {
+      return;
+    }
+
+    if (repliedMessages.has(message.id)) {
       return;
     }
 
@@ -74,6 +84,13 @@ const main = async () => {
     );
 
     console.log('Reply message:', replyMessage);
+
+    // Don't overflow the cache
+    if (repliedMessages.size > 10000) {
+      repliedMessages.clear();
+    }
+
+    repliedMessages.add(message.id);
   });
 };
 

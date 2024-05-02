@@ -17,6 +17,12 @@ const entries = [
   'zaporizhzhia'
 ];
 
+// Keep track of posts that have already been replied to.
+// This shouldn't be necessary because our approach involves
+// listening to new posts only, but sometimes the API may
+// resolve duplicates, so we need to be extra safe to avoid spam.
+const repliedPosts = new Set<string>();
+
 const main = async () => {
   console.log('Reddit bot is starting...');
 
@@ -36,6 +42,10 @@ const main = async () => {
 
   await listen(subreddits, async (post) => {
     if (post.author.name === me.name) {
+      return;
+    }
+
+    if (repliedPosts.has(post.id)) {
       return;
     }
 
@@ -94,6 +104,13 @@ const main = async () => {
     );
 
     console.log('Reply post:', replyPost);
+
+    // Don't overflow the cache
+    if (repliedPosts.size > 10000) {
+      repliedPosts.clear();
+    }
+
+    repliedPosts.add(post.id);
   });
 };
 
