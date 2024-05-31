@@ -17,6 +17,6 @@ updates:
     labels:
       - enhancement
     groups:
-      nuget:
+      npm:
         patterns:
           - "*"
