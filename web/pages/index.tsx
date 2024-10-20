@@ -113,7 +113,7 @@ const Placeholder: FC<{ vocabulary: VocabularyEntry[] }> = ({ vocabulary }) => {
           Union and, prior to that, the Russian Empire. During that period, the Ukrainian language
           was systemically suppressed, while Ukrainian speakers often found themselves victims of
           ridicule and persecution. State policies at the time mandated the use of the Russian
-          language in all nomenclature, which lead to the adoption of Russian spelling for Ukrainian
+          language in all nomenclature, which led to the adoption of Russian spelling for Ukrainian
           names, including in English.
         </Paragraph>
         <Paragraph>
