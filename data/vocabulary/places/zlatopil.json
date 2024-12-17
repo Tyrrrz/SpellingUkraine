@@ -1,0 +1,28 @@
+{
+  "category": "City",
+  "sourceSpelling": "Златопіль",
+  "correctSpelling": "Zlatopil",
+  "incorrectSpellings": [
+    "Zlatopol"
+  ],
+  "relatedSpellings": [
+    "Златополь",
+    "Первомайський",
+    "Первомайский",
+    "Pervomaiskyi",
+    "Pervomaysky",
+    "Pervomayskyi",
+    "Likhachove"
+  ],
+  "description": "Renamed from \"Pervomaiskyi\" in September 2024. Previously also known as \"Likhachove\".",
+  "links": [
+    {
+      "name": "Wikipedia: Zlatopil",
+      "url": "https://en.wikipedia.org/wiki/Zlatopil,_Kharkiv_Oblast"
+    }
+  ],
+  "location": {
+    "lat": 49.3869,
+    "lng": 36.2142
+  }
+}

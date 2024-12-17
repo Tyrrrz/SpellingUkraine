@@ -1,0 +1,28 @@
+{
+  "category": "City",
+  "sourceSpelling": "Сіверськодонецьк",
+  "correctSpelling": "Siverskodonetsk",
+  "incorrectSpellings": [
+    "Severskodonetsk",
+    "Severodonetsk"
+  ],
+  "relatedSpellings": [
+    "Северскодонецк",
+    "Сєвєродонецьк",
+    "Северодонецк",
+    "Sievierodonetsk",
+    "Syeverodonetsk",
+    "Severodonetsk"
+  ],
+  "description": "Siverskodonetsk is a city in the Luhansk Oblast of Ukraine. Siverskodonetsk is the administrative centre of Siverskodonetsk Raion. Prior to 2020, it had the status of a city of regional significance. Renamed from \"Sievierodonetsk\" in September 2024.",
+  "links": [
+    {
+      "name": "Wikipedia: Siverskodonetsk",
+      "url": "https://en.wikipedia.org/wiki/Siverskodonetsk"
+    }
+  ],
+  "location": {
+    "lat": 48.95,
+    "lng": 38.4833
+  }
+}
