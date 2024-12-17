@@ -1,0 +1,32 @@
+{
+  "category": "City",
+  "sourceSpelling": "Шахтарське",
+  "correctSpelling": "Shakhtarske",
+  "incorrectSpellings": [
+    "Shahtarske",
+    "Shakhterske",
+    "Shakhterskoye"
+  ],
+  "relatedSpellings": [
+    "Шахтерське",
+    "Шахтёрское",
+    "Шахтерское",
+    "Першотравенськ",
+    "Першотравенск",
+    "Первомайск",
+    "Pershotravensk",
+    "Pervomaysk",
+    "Pervomaisk"
+  ],
+  "description": "Renamed from \"Pershotravensk\" in September 2024.",
+  "links": [
+    {
+      "name": "Wikipedia: Shakhtarske",
+      "url": "https://en.wikipedia.org/wiki/Shakhtarske"
+    }
+  ],
+  "location": {
+    "lat": 48.3464,
+    "lng": 36.4044
+  }
+}
