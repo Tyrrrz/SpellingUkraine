@@ -10,8 +10,8 @@
     "spelling-ukraine-data": "^1.0.0"
   },
   "devDependencies": {
-    "@types/node": "^22.10.1",
-    "prettier": "^3.4.1",
+    "@types/node": "^22.10.3",
+    "prettier": "^3.4.2",
     "prettier-plugin-organize-imports": "^4.1.0",
     "ts-node": "^10.9.2",
     "tsconfig-paths": "^4.2.0",
