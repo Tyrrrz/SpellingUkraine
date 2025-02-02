@@ -7,14 +7,14 @@
   },
   "dependencies": {
     "spelling-ukraine-data": "^1.0.0",
-    "twitter-api-v2": "^1.19.0"
+    "twitter-api-v2": "^1.19.1"
   },
   "devDependencies": {
-    "@types/node": "^22.10.3",
+    "@types/node": "^22.13.0",
     "prettier": "^3.4.2",
     "prettier-plugin-organize-imports": "^4.1.0",
     "ts-node": "^10.9.2",
     "tsconfig-paths": "^4.2.0",
-    "typescript": "^5.7.2"
+    "typescript": "^5.7.3"
   }
 }
