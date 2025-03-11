@@ -15,3 +15,10 @@ html {
 }
 
 @import 'tailwindcss';
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-ukraine-blue: #0057b7;
+  --color-ukraine-yellow: #ffd700;
+}
