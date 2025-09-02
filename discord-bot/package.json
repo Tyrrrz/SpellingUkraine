@@ -6,11 +6,11 @@
     "start": "ts-node index.ts"
   },
   "dependencies": {
-    "discord.js": "^14.21.0",
+    "discord.js": "^14.22.1",
     "spelling-ukraine-data": "^1.0.0"
   },
   "devDependencies": {
-    "@types/node": "^24.1.0",
+    "@types/node": "^24.3.0",
     "prettier": "^3.6.2",
     "prettier-plugin-organize-imports": "^4.2.0",
     "ts-node": "^10.9.2",
