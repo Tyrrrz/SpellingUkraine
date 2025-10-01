@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "private": true,
   "devDependencies": {
-    "@types/node": "^24.3.0",
+    "@types/node": "^24.6.1",
     "prettier": "^3.6.2",
-    "prettier-plugin-organize-imports": "^4.2.0",
-    "typescript": "^5.9.2"
+    "prettier-plugin-organize-imports": "^4.3.0",
+    "typescript": "^5.9.3"
   }
 }
