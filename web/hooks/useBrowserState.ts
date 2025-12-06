@@ -37,7 +37,7 @@ const setStorageValue = (storage: Storage, key: string, value: any) => {
   dispatchEvent(new StorageEvent('storage'));
 };
 
-const useLocalState = <T>(storageKind: StorageKind, key: string, initialState: T) => {
+const useBrowserState = <T>(storageKind: StorageKind, key: string, initialState: T) => {
   const isMounted = useRef(false);
   const [value, setValue] = useState<T>(initialState);
 
@@ -45,6 +45,7 @@ const useLocalState = <T>(storageKind: StorageKind, key: string, initialState: T
   useEffect(() => {
     const item = getStorageValue(getStorage(storageKind), key);
     if (item) {
+      // eslint-disable-next-line react-hooks/set-state-in-effect
       setValue(item);
     }
 
@@ -78,4 +79,4 @@ const useLocalState = <T>(storageKind: StorageKind, key: string, initialState: T
   return [value, setValue] as const;
 };
 
-export default useLocalState;
+export default useBrowserState;

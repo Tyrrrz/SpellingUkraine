@@ -6,11 +6,13 @@
     "start": "next dev",
     "build": "next build",
     "serve": "next start",
-    "lint": "next lint"
+    "lint": "eslint .",
+    "format": "prettier --write ."
   },
   "dependencies": {
     "@vercel/analytics": "^1.6.0",
     "classnames": "^2.5.1",
+    "minimatch": "^10.1.1",
     "next": "^15.5.4",
     "next-pwa": "^5.6.0",
     "pigeon-maps": "^0.22.1",
@@ -20,10 +22,10 @@
     "react-icons": "^5.5.0"
   },
   "devDependencies": {
-    "@tailwindcss/postcss": "^4.1.17",
-    "@types/node": "^24.10.1",
-    "@types/react": "^19.2.7",
-    "autoprefixer": "^10.4.22",
+    "@tailwindcss/postcss": "^4.1.14",
+    "@types/node": "^24.6.1",
+    "@types/react": "^19.1.17",
+    "autoprefixer": "^10.4.21",
     "eslint": "^9.39.1",
     "eslint-config-next": "^16.0.6",
     "postcss": "^8.5.6",

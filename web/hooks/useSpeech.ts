@@ -3,10 +3,11 @@ import { useEffect, useMemo, useState } from 'react';
 const useSpeech = () => {
   const [voices, setVoices] = useState<SpeechSynthesisVoice[]>();
   const [currentUtterance, setCurrentUtterance] = useState<SpeechSynthesisUtterance>();
-  const [isActive, setIsActive] = useState(false);
+  const isActive = !!currentUtterance;
 
   // Initial and lazy-loaded voices
   useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setVoices(speechSynthesis.getVoices());
 
     const onChange = () => {
@@ -22,23 +23,20 @@ const useSpeech = () => {
 
   // Active utterance
   useEffect(() => {
-    if (currentUtterance) {
-      const onEnd = () => {
-        setCurrentUtterance(undefined);
-      };
-
-      currentUtterance.addEventListener('end', onEnd);
-
-      setIsActive(true);
-      speechSynthesis.speak(currentUtterance);
-
-      return () => {
-        currentUtterance.removeEventListener('end', onEnd);
-      };
-    } else {
-      setIsActive(false);
+    if (!currentUtterance) {
       return;
     }
+
+    const onEnd = () => {
+      setCurrentUtterance(undefined);
+    };
+
+    currentUtterance.addEventListener('end', onEnd);
+    speechSynthesis.speak(currentUtterance);
+
+    return () => {
+      currentUtterance.removeEventListener('end', onEnd);
+    };
   }, [currentUtterance]);
 
   return useMemo(() => {

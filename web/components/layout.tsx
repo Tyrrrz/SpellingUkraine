@@ -23,7 +23,6 @@ const Loader: FC = () => {
 
   useEffect(() => {
     if (!isVisible) {
-      setProgress(0);
       return;
     }
 
@@ -35,7 +34,10 @@ const Loader: FC = () => {
       setProgress((progress) => progress + 0.1 * (0.95 - progress) ** 2);
     }, 100);
 
-    return () => clearInterval(interval);
+    return () => {
+      clearInterval(interval);
+      setProgress(0);
+    };
   }, [isVisible]);
 
   return (
@@ -131,7 +133,7 @@ const Breadcrumb: FC = () => {
 const Main: FC<PropsWithChildren> = ({ children }) => {
   // Below is a hack to re-initialize the fade when the page changes
   const router = useRouter();
-  const fadeKey = useMemo(() => Math.random().toString() + router.pathname, [router.pathname]);
+  const fadeKey = useMemo(() => router.pathname, [router.pathname]);
 
   return (
     <div className={c('flex-grow')}>
