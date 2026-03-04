@@ -5,11 +5,11 @@ export const getRepoUrl = () => {
 };
 
 export const getRepoFileUrl = (path: string, options?: { ref: string }) => {
-  return joinUrl(getRepoUrl(), 'tree', options?.ref || 'master', path);
+  return joinUrl(getRepoUrl(), 'tree', options?.ref || 'prime', path);
 };
 
 export const getRepoFileEditUrl = (path: string, options?: { ref: string }) => {
-  return joinUrl(getRepoUrl(), 'edit', options?.ref || 'master', path);
+  return joinUrl(getRepoUrl(), 'edit', options?.ref || 'prime', path);
 };
 
 export const getRepoNewIssueUrl = (options?: {
