@@ -9,9 +9,9 @@ const config = {
   transpilePackages: ['spelling-ukraine-data'],
 
   images: {
+    unoptimized: true,
     remotePatterns: [
       {
-        unoptimized: true,
         hostname: 'upload.wikimedia.org'
       }
     ]
