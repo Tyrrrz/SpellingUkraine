@@ -6,8 +6,10 @@
     "start": "next dev",
     "build": "next build",
     "serve": "next start",
-    "lint": "eslint .",
-    "format": "prettier --write ."
+    "lint": "eslint . --fix",
+    "lint:check": "eslint .",
+    "format": "prettier . --write",
+    "format:check": "prettier . --check"
   },
   "dependencies": {
     "@vercel/analytics": "^2.0.1",

@@ -6,20 +6,10 @@ export const isProduction = () => {
   return getEnvironment() === 'production';
 };
 
-export const getBuildId = () => {
-  const value = process.env.BUILD_ID;
-  if (!value) {
-    throw new Error(`Environment variable 'BUILD_ID' is not defined`);
-  }
-
-  return value;
-};
+export const getBuildId = () => process.env.BUILD_ID || 'unknown_build_id';
 
 export const getSiteUrl = (path?: string) => {
-  const value = process.env.SITE_URL;
-  if (!value) {
-    throw new Error(`Environment variable 'SITE_URL' is not defined`);
-  }
+  const value = process.env.SITE_URL || 'http://localhost:3000';
 
   if (path) {
     return new URL(path, value).toString();

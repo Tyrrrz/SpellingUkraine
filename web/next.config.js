@@ -1,33 +1,20 @@
-const { spawnSync } = require('child_process');
 const PWA = require('next-pwa');
 const runtimeCaching = require('next-pwa/cache');
 
 /** @type {import('next').NextConfig} */
 const config = {
   reactStrictMode: true,
+  output: 'export',
 
   transpilePackages: ['spelling-ukraine-data'],
 
   images: {
     remotePatterns: [
       {
+        unoptimized: true,
         hostname: 'upload.wikimedia.org'
       }
     ]
-  },
-
-  env: {
-    BUILD_ID: [
-      spawnSync('git', ['rev-parse', '--short', 'HEAD']).stdout.toString().trim(),
-      spawnSync('git', ['tag', '--points-at', 'HEAD']).stdout.toString().trim()
-    ]
-      .filter(Boolean)
-      .join('-'),
-
-    SITE_URL:
-      process.env.SITE_URL ||
-      (process.env.VERCEL_URL && 'https://' + process.env.VERCEL_URL) ||
-      'http://localhost:3000'
   }
 };
 
