@@ -31,9 +31,11 @@ jobs:
         run: yarn install --immutable
 
       - name: Verify formatting
+        working-directory: web
         run: yarn run format:check
 
       - name: Perform linting
+        working-directory: web
         run: yarn run lint:check
 
   pack:
