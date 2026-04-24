@@ -165,10 +165,10 @@ const Footer: FC = () => {
       )}
     >
       {/* Git tree */}
-      <Link variant="discreet" href={getRepoFileUrl('', { ref: getBuildId() })}>
+      <Link variant="discreet" href={getRepoFileUrl('', { ref: getBuildId() || 'prime' })}>
         <Inline>
           <FiGitCommit />
-          <div className={c('font-mono')}>{getBuildId()}</div>
+          <div className={c('font-mono')}>{getBuildId()?.substring(0, 7) || 'prime'}</div>
         </Inline>
       </Link>
 
