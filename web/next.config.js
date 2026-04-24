@@ -15,6 +15,12 @@ const config = {
         hostname: 'upload.wikimedia.org'
       }
     ]
+  },
+
+  // Expose environment variables to the client
+  env: {
+    BUILD_ID: process.env.BUILD_ID,
+    SITE_URL: process.env.SITE_URL
   }
 };
 
