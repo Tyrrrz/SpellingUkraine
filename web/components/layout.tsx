@@ -136,7 +136,7 @@ const Main: FC<PropsWithChildren> = ({ children }) => {
   const fadeKey = useMemo(() => router.pathname, [router.pathname]);
 
   return (
-    <div className={c('flex-grow')}>
+    <div className={c('grow')}>
       <main className={c('container', 'mx-auto', 'mt-6', 'mb-8', 'px-4')}>
         <FadeIn key={fadeKey}>{children}</FadeIn>
       </main>

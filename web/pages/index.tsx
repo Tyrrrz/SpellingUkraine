@@ -193,13 +193,7 @@ const HomePage: NextPage<HomePageProps> = ({ vocabulary }) => {
           </div>
 
           <input
-            className={c(
-              'flex-grow',
-              'py-6',
-              'appearance-none',
-              'focus:outline-none',
-              'bg-transparent'
-            )}
+            className={c('grow', 'py-6', 'appearance-none', 'focus:outline-none', 'bg-transparent')}
             placeholder="Start typing to search"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
