@@ -2,14 +2,8 @@
   "category": "City",
   "sourceSpelling": "Апостолове",
   "correctSpelling": "Apostolove",
-  "incorrectSpellings": [
-    "Apostolovo"
-  ],
-  "relatedSpellings": [
-    "Апостолово",
-    "Apostolen",
-    "Apostolave"
-  ],
+  "incorrectSpellings": ["Apostolovo"],
+  "relatedSpellings": ["Апостолово", "Apostolen", "Apostolave"],
   "links": [
     {
       "name": "Wikipedia: Apostolove",

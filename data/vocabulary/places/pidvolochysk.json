@@ -2,13 +2,8 @@
   "category": "City",
   "sourceSpelling": "Підволочиськ",
   "correctSpelling": "Pidvolochysk",
-  "incorrectSpellings": [
-    "Podvolochisk"
-  ],
-  "relatedSpellings": [
-    "Подволочиск",
-    "Podwołoczyska"
-  ],
+  "incorrectSpellings": ["Podvolochisk"],
+  "relatedSpellings": ["Подволочиск", "Podwołoczyska"],
   "links": [
     {
       "name": "Wikipedia: Pidvolochysk",

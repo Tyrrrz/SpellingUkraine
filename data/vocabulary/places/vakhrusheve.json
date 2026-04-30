@@ -2,12 +2,8 @@
   "category": "City",
   "sourceSpelling": "Вахрушеве",
   "correctSpelling": "Vakhrusheve",
-  "incorrectSpellings": [
-    "Vakhrushevo"
-  ],
-  "relatedSpellings": [
-    "Вахрушево"
-  ],
+  "incorrectSpellings": ["Vakhrushevo"],
+  "relatedSpellings": ["Вахрушево"],
   "links": [
     {
       "name": "Wikipedia: Vakhrusheve",

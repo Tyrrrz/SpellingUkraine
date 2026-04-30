@@ -2,14 +2,8 @@
   "category": "City",
   "sourceSpelling": "Опішня",
   "correctSpelling": "Opishnia",
-  "incorrectSpellings": [
-    "Opishnya",
-    "Oposhnia",
-    "Oposhnya"
-  ],
-  "relatedSpellings": [
-    "Опошня"
-  ],
+  "incorrectSpellings": ["Opishnya", "Oposhnia", "Oposhnya"],
+  "relatedSpellings": ["Опошня"],
   "links": [
     {
       "name": "Wikipedia: Opishnia",

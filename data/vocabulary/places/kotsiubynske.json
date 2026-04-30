@@ -2,14 +2,8 @@
   "category": "City",
   "sourceSpelling": "Коцюбинське",
   "correctSpelling": "Kotsiubynske",
-  "incorrectSpellings": [
-    "Kotsyubynske",
-    "Kotsubinskoe",
-    "Kotsiubinskoe"
-  ],
-  "relatedSpellings": [
-    "Коцюбинское"
-  ],
+  "incorrectSpellings": ["Kotsyubynske", "Kotsubinskoe", "Kotsiubinskoe"],
+  "relatedSpellings": ["Коцюбинское"],
   "links": [
     {
       "name": "Wikipedia: Kotsiubynske",

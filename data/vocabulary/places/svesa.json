@@ -2,12 +2,8 @@
   "category": "City",
   "sourceSpelling": "Свеса",
   "correctSpelling": "Svesa",
-  "incorrectSpellings": [
-    "Svessa"
-  ],
-  "relatedSpellings": [
-    "Свесса"
-  ],
+  "incorrectSpellings": ["Svessa"],
+  "relatedSpellings": ["Свесса"],
   "links": [
     {
       "name": "Wikipedia: Svesa",

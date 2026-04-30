@@ -2,15 +2,8 @@
   "category": "City",
   "sourceSpelling": "Чорноморськ",
   "correctSpelling": "Chornomorsk",
-  "incorrectSpellings": [
-    "Chernomorsk"
-  ],
-  "relatedSpellings": [
-    "Черноморск",
-    "Іллічівськ",
-    "Ильичёвск",
-    "Illichivsk"
-  ],
+  "incorrectSpellings": ["Chernomorsk"],
+  "relatedSpellings": ["Черноморск", "Іллічівськ", "Ильичёвск", "Illichivsk"],
   "description": "Renamed from \"Illichivsk\" in February 2016.",
   "links": [
     {

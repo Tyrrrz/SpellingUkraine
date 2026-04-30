@@ -1,14 +1,13 @@
-import { default as c, default as classNames } from 'classnames';
-import { NextPage } from 'next';
-import { useMemo, useState } from 'react';
-import Heading from '~/components/heading';
-import Link from '~/components/link';
-import Meta from '~/components/meta';
-import { getRepoFileUrl } from '~/utils/repo';
-import { translit } from '~/utils/translit';
+import { NextPage } from "next";
+import { useMemo, useState } from "react";
+import Heading from "~/components/heading";
+import Link from "~/components/link";
+import Meta from "~/components/meta";
+import { getRepoFileUrl } from "~/utils/repo";
+import { translit } from "~/utils/translit";
 
 const TranslitPage: NextPage = () => {
-  const [source, setSource] = useState('');
+  const [source, setSource] = useState("");
   const output = useMemo(() => translit(source), [source]);
 
   return (
@@ -18,9 +17,9 @@ const TranslitPage: NextPage = () => {
       <section>
         <Heading>Transliterate</Heading>
 
-        <div className={c('text-lg')}>
-          Use this page to transliterate any Ukrainian text according to the{' '}
-          <Link href={getRepoFileUrl('data/vocabulary#transliteration-system')}>
+        <div className="text-lg">
+          Use this page to transliterate any Ukrainian text according to the{" "}
+          <Link href={getRepoFileUrl("data/vocabulary#transliteration-system")}>
             official transliteration system
           </Link>
           .
@@ -28,24 +27,9 @@ const TranslitPage: NextPage = () => {
       </section>
 
       <section>
-        <div
-          className={c(
-            'mt-8',
-            'border',
-            'border-neutral-400',
-            'hover:border-ukraine-blue',
-            'rounded',
-            'text-lg'
-          )}
-        >
+        <div className="hover:border-ukraine-blue mt-8 rounded border border-neutral-400 text-lg">
           <textarea
-            className={classNames(
-              'w-full',
-              'p-4',
-              'appearance-none',
-              'focus:outline-none',
-              'bg-transparent'
-            )}
+            className="w-full appearance-none bg-transparent p-4 focus:outline-none"
             value={source}
             onChange={(e) => setSource(e.target.value)}
             placeholder="Type in Ukrainian here"
@@ -54,26 +38,9 @@ const TranslitPage: NextPage = () => {
           />
         </div>
 
-        <div
-          className={c(
-            'mt-4',
-            'border',
-            'border-neutral-400',
-            'hover:border-ukraine-blue',
-            'rounded',
-            'bg-neutral-100',
-            'dark:bg-neutral-800',
-            'text-lg'
-          )}
-        >
+        <div className="hover:border-ukraine-blue mt-4 rounded border border-neutral-400 bg-neutral-100 text-lg dark:bg-neutral-800">
           <textarea
-            className={classNames(
-              'w-full',
-              'p-4',
-              'appearance-none',
-              'focus:outline-none',
-              'bg-transparent'
-            )}
+            className="w-full appearance-none bg-transparent p-4 focus:outline-none"
             value={output}
             placeholder="Output will be here"
             rows={5}

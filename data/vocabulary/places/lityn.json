@@ -2,13 +2,8 @@
   "category": "City",
   "sourceSpelling": "Літин",
   "correctSpelling": "Lityn",
-  "incorrectSpellings": [
-    "Litin"
-  ],
-  "relatedSpellings": [
-    "Литин",
-    "Lityn"
-  ],
+  "incorrectSpellings": ["Litin"],
+  "relatedSpellings": ["Литин", "Lityn"],
   "links": [
     {
       "name": "Wikipedia: Lityn",

@@ -2,14 +2,8 @@
   "category": "City",
   "sourceSpelling": "Благовіщенське",
   "correctSpelling": "Blahovishchenske",
-  "incorrectSpellings": [
-    "Blagovishchenske",
-    "Blahoveshchenskoe",
-    "Blagoveshchenskoe"
-  ],
-  "relatedSpellings": [
-    "Благовищенское"
-  ],
+  "incorrectSpellings": ["Blagovishchenske", "Blahoveshchenskoe", "Blagoveshchenskoe"],
+  "relatedSpellings": ["Благовищенское"],
   "links": [
     {
       "name": "Wikipedia: Blahovishchenske",

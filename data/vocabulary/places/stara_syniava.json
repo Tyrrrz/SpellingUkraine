@@ -2,13 +2,8 @@
   "category": "City",
   "sourceSpelling": "Стара Синява",
   "correctSpelling": "Stara Syniava",
-  "incorrectSpellings": [
-    "Stara Siniava",
-    "Staraya Sinyava"
-  ],
-  "relatedSpellings": [
-    "Старая Синява"
-  ],
+  "incorrectSpellings": ["Stara Siniava", "Staraya Sinyava"],
+  "relatedSpellings": ["Старая Синява"],
   "links": [
     {
       "name": "Wikipedia: Stara Syniava",

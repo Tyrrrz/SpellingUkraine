@@ -2,9 +2,7 @@
   "category": "City",
   "sourceSpelling": "Теплик",
   "correctSpelling": "Teplyk",
-  "incorrectSpellings": [
-    "Teplik"
-  ],
+  "incorrectSpellings": ["Teplik"],
   "relatedSpellings": [],
   "links": [
     {

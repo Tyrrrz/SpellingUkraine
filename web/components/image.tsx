@@ -1,6 +1,6 @@
-import Head from 'next/head';
-import NextImage from 'next/image';
-import { FC } from 'react';
+import Head from "next/head";
+import NextImage from "next/image";
+import { FC } from "react";
 
 type ImageProps = {
   src: string;
@@ -28,12 +28,12 @@ const Image: FC<ImageProps> = ({ src, alt, width, height, priority }) => {
       <img
         src={src}
         alt={alt}
-        loading={priority ? 'eager' : 'lazy'}
+        loading={priority ? "eager" : "lazy"}
         width={width}
         height={height}
         style={{
           width: width ? `${width}px` : undefined,
-          height: height ? `${height}px` : undefined
+          height: height ? `${height}px` : undefined,
         }}
       />
     </>

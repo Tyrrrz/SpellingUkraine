@@ -2,14 +2,8 @@
   "category": "City",
   "sourceSpelling": "Глухів",
   "correctSpelling": "Hlukhiv",
-  "incorrectSpellings": [
-    "Glukhov",
-    "Gluhov"
-  ],
-  "relatedSpellings": [
-    "Глухов",
-    "Głuchów"
-  ],
+  "incorrectSpellings": ["Glukhov", "Gluhov"],
+  "relatedSpellings": ["Глухов", "Głuchów"],
   "links": [
     {
       "name": "Wikipedia: Hlukhiv",

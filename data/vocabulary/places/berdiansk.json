@@ -2,12 +2,8 @@
   "category": "City",
   "sourceSpelling": "Бердянськ",
   "correctSpelling": "Berdiansk",
-  "incorrectSpellings": [
-    "Berdyansk"
-  ],
-  "relatedSpellings": [
-    "Бердианск"
-  ],
+  "incorrectSpellings": ["Berdyansk"],
+  "relatedSpellings": ["Бердианск"],
   "links": [
     {
       "name": "Wikipedia: Berdiansk",

@@ -2,13 +2,8 @@
   "category": "City",
   "sourceSpelling": "Заводське",
   "correctSpelling": "Zavodske",
-  "incorrectSpellings": [
-    "Zavodskoe",
-    "Zavodskoye"
-  ],
-  "relatedSpellings": [
-    "Заводское"
-  ],
+  "incorrectSpellings": ["Zavodskoe", "Zavodskoye"],
+  "relatedSpellings": ["Заводское"],
   "links": [
     {
       "name": "Wikipedia: Zavodske",

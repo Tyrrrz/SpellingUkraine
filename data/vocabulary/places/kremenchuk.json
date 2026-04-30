@@ -2,9 +2,7 @@
   "category": "City",
   "sourceSpelling": "Кременчук",
   "correctSpelling": "Kremenchuk",
-  "incorrectSpellings": [
-    "Kremenchug"
-  ],
+  "incorrectSpellings": ["Kremenchug"],
   "relatedSpellings": [],
   "links": [
     {

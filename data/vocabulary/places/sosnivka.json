@@ -2,13 +2,8 @@
   "category": "City",
   "sourceSpelling": "Соснівка",
   "correctSpelling": "Sosnivka",
-  "incorrectSpellings": [
-    "Sosnovka"
-  ],
-  "relatedSpellings": [
-    "Сосновка",
-    "Sosnówka"
-  ],
+  "incorrectSpellings": ["Sosnovka"],
+  "relatedSpellings": ["Сосновка", "Sosnówka"],
   "links": [
     {
       "name": "Wikipedia: Sosnivka",

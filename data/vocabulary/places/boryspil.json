@@ -2,14 +2,8 @@
   "category": "City",
   "sourceSpelling": "Бориспіль",
   "correctSpelling": "Boryspil",
-  "incorrectSpellings": [
-    "Borispil",
-    "Borispol"
-  ],
-  "relatedSpellings": [
-    "Борисполь",
-    "Bortespil"
-  ],
+  "incorrectSpellings": ["Borispil", "Borispol"],
+  "relatedSpellings": ["Борисполь", "Bortespil"],
   "links": [
     {
       "name": "Wikipedia: Boryspil",

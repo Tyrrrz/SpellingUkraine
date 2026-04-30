@@ -2,13 +2,8 @@
   "category": "City",
   "sourceSpelling": "Недригайлів",
   "correctSpelling": "Nedryhailiv",
-  "incorrectSpellings": [
-    "Nedrygailiv",
-    "Nedrigaylov"
-  ],
-  "relatedSpellings": [
-    "Недригайлов"
-  ],
+  "incorrectSpellings": ["Nedrygailiv", "Nedrigaylov"],
+  "relatedSpellings": ["Недригайлов"],
   "links": [
     {
       "name": "Wikipedia: Nedryhailiv",

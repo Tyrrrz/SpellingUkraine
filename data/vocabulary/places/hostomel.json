@@ -2,13 +2,8 @@
   "category": "City",
   "sourceSpelling": "Гостомель",
   "correctSpelling": "Hostomel",
-  "incorrectSpellings": [
-    "Gostomel",
-    "Hostemel"
-  ],
-  "relatedSpellings": [
-    "Гостомель"
-  ],
+  "incorrectSpellings": ["Gostomel", "Hostemel"],
+  "relatedSpellings": ["Гостомель"],
   "links": [
     {
       "name": "Wikipedia: Hostomel",

@@ -2,9 +2,7 @@
   "category": "City",
   "sourceSpelling": "Сквира",
   "correctSpelling": "Skvyra",
-  "incorrectSpellings": [
-    "Skvira"
-  ],
+  "incorrectSpellings": ["Skvira"],
   "relatedSpellings": [],
   "links": [
     {

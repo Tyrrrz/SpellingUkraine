@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react';
+import { useEffect, useMemo, useState } from "react";
 
 const useDebounce = <T>(value: T, delayMs: number) => {
   const [debouncedValue, setDebouncedValue] = useState(value);
@@ -15,7 +15,7 @@ const useDebounce = <T>(value: T, delayMs: number) => {
   return useMemo(() => {
     return {
       value: debouncedValue,
-      isDebouncing
+      isDebouncing,
     };
   }, [debouncedValue, isDebouncing]);
 };

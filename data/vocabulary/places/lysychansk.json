@@ -2,12 +2,8 @@
   "category": "City",
   "sourceSpelling": "Лисичанськ",
   "correctSpelling": "Lysychansk",
-  "incorrectSpellings": [
-    "Lisichansk"
-  ],
-  "relatedSpellings": [
-    "Лисичанск"
-  ],
+  "incorrectSpellings": ["Lisichansk"],
+  "relatedSpellings": ["Лисичанск"],
   "transcription": "Leesytschansk",
   "links": [
     {

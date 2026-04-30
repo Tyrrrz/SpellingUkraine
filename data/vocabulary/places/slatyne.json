@@ -2,12 +2,8 @@
   "category": "City",
   "sourceSpelling": "Слатине",
   "correctSpelling": "Slatyne",
-  "incorrectSpellings": [
-    "Slatino"
-  ],
-  "relatedSpellings": [
-    "Слатино"
-  ],
+  "incorrectSpellings": ["Slatino"],
+  "relatedSpellings": ["Слатино"],
   "links": [
     {
       "name": "Wikipedia: Slatyne",

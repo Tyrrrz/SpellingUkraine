@@ -2,12 +2,8 @@
   "category": "City",
   "sourceSpelling": "Брацлав",
   "correctSpelling": "Bratslav",
-  "incorrectSpellings": [
-    "Braclav"
-  ],
-  "relatedSpellings": [
-    "Bracław"
-  ],
+  "incorrectSpellings": ["Braclav"],
+  "relatedSpellings": ["Bracław"],
   "links": [
     {
       "name": "Wikipedia: Bratslav",

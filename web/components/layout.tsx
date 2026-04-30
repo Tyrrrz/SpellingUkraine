@@ -1,24 +1,24 @@
-import { Analytics } from '@vercel/analytics/react';
-import c from 'classnames';
-import { useRouter } from 'next/router';
-import { FC, PropsWithChildren, useEffect, useMemo, useState } from 'react';
-import FadeIn from 'react-fade-in';
-import { FiChevronLeft, FiGitCommit, FiHeart, FiMoon, FiOctagon, FiSun } from 'react-icons/fi';
-import ButtonLink from '~/components/buttonLink';
-import Image from '~/components/image';
-import Inline from '~/components/inline';
-import Link from '~/components/link';
-import Meta from '~/components/meta';
-import useDebounce from '~/hooks/useDebounce';
-import useRouterStatus from '~/hooks/useRouterStatus';
-import useTheme from '~/hooks/useTheme';
-import { getBuildId } from '~/utils/env';
-import { getRepoFileUrl } from '~/utils/repo';
+import { Analytics } from "@vercel/analytics/react";
+import { clsx } from "clsx";
+import { useRouter } from "next/router";
+import { FC, PropsWithChildren, useEffect, useMemo, useState } from "react";
+import FadeIn from "react-fade-in";
+import { FiChevronLeft, FiGitCommit, FiHeart, FiMoon, FiOctagon, FiSun } from "react-icons/fi";
+import ButtonLink from "~/components/buttonLink";
+import Image from "~/components/image";
+import Inline from "~/components/inline";
+import Link from "~/components/link";
+import Meta from "~/components/meta";
+import useDebounce from "~/hooks/useDebounce";
+import useRouterStatus from "~/hooks/useRouterStatus";
+import useTheme from "~/hooks/useTheme";
+import { getBuildId } from "~/utils/env";
+import { getRepoFileUrl } from "~/utils/repo";
 
 const Loader: FC = () => {
   // Only show the loading indicator if the navigation takes a while.
   // This prevents the indicator from flashing during faster navigation.
-  const { value: isVisible } = useDebounce(useRouterStatus() === 'loading', 300);
+  const { value: isVisible } = useDebounce(useRouterStatus() === "loading", 300);
   const [progress, setProgress] = useState(0);
 
   useEffect(() => {
@@ -42,14 +42,12 @@ const Loader: FC = () => {
 
   return (
     <div
-      className={c('h-1', {
-        'bg-ukraine-blue': isVisible
-      })}
+      className={clsx("h-1", { "bg-ukraine-blue": isVisible })}
       style={{
         width: `${progress * 100}%`,
-        transitionProperty: 'width',
-        transitionTimingFunction: 'cubic-bezier(0.4, 0, 0.2, 1)',
-        transitionDuration: '150ms'
+        transitionProperty: "width",
+        transitionTimingFunction: "cubic-bezier(0.4, 0, 0.2, 1)",
+        transitionDuration: "150ms",
       }}
     />
   );
@@ -58,47 +56,23 @@ const Loader: FC = () => {
 const Header: FC = () => {
   return (
     <Link variant="hidden" href="/">
-      <header
-        className={c(
-          'flex',
-          'px-4',
-          'py-6',
-          'border-b',
-          'dark:border-neutral-800',
-          'items-center',
-          'place-content-center',
-          'gap-6'
-        )}
-      >
+      <header className="flex place-content-center items-center gap-6 border-b px-4 py-6 dark:border-neutral-800">
         {/* Logo */}
-        <div className={c('hidden', 'sm:block', 'w-20')}>
+        <div className="hidden w-20 sm:block">
           <Image src="/logo.svg" alt="SpellingUkraine" priority />
         </div>
 
         {/* Separator */}
-        <div
-          className={c(
-            'hidden',
-            'sm:block',
-            'w-px',
-            'h-16',
-            'bg-neutral-400',
-            'dark:bg-neutral-600'
-          )}
-        />
+        <div className="hidden h-16 w-px bg-neutral-400 sm:block dark:bg-neutral-600" />
 
         {/* Title & tagline */}
-        <div className={c('flex', 'flex-col', 'items-center', 'sm:items-start')}>
-          <div className={c('flex', 'text-4xl', 'font-semibold')}>
-            <div className={c('p-1', 'pl-2', 'pb-2', 'bg-ukraine-blue', 'text-neutral-200')}>
-              Spelling
-            </div>
-            <div className={c('p-1', 'pr-2', 'pb-2', 'bg-ukraine-yellow', 'dark:text-neutral-900')}>
-              Ukraine
-            </div>
+        <div className="flex flex-col items-center sm:items-start">
+          <div className="flex text-4xl font-semibold">
+            <div className="bg-ukraine-blue p-1 pb-2 pl-2 text-neutral-200">Spelling</div>
+            <div className="bg-ukraine-yellow p-1 pr-2 pb-2 dark:text-neutral-900">Ukraine</div>
           </div>
 
-          <div className={c('mt-1', 'text-xl', 'text-center', 'font-light', 'sm:tracking-wide')}>
+          <div className="mt-1 text-center text-xl font-light sm:tracking-wide">
             Language is political. Transliterate correctly.
           </div>
         </div>
@@ -110,15 +84,13 @@ const Header: FC = () => {
 const Breadcrumb: FC = () => {
   const { route } = useRouter();
 
-  if (route === '/') {
+  if (route === "/") {
     return null;
   }
 
   return (
-    <div
-      className={c('border-b', 'dark:border-neutral-800', 'bg-neutral-100', 'dark:bg-neutral-800')}
-    >
-      <div className={c('container', 'mx-auto', 'my-3', 'px-4')}>
+    <div className="border-b bg-neutral-100 dark:border-neutral-800 dark:bg-neutral-800">
+      <div className="container mx-auto my-3 px-4">
         <Link variant="discreet" href="/">
           <Inline>
             <FiChevronLeft />
@@ -136,8 +108,8 @@ const Main: FC<PropsWithChildren> = ({ children }) => {
   const fadeKey = useMemo(() => router.pathname, [router.pathname]);
 
   return (
-    <div className={c('grow')}>
-      <main className={c('container', 'mx-auto', 'mt-6', 'mb-8', 'px-4')}>
+    <div className="grow">
+      <main className="container mx-auto mt-6 mb-8 px-4">
         <FadeIn key={fadeKey}>{children}</FadeIn>
       </main>
     </div>
@@ -148,27 +120,12 @@ const Footer: FC = () => {
   const { theme, setTheme } = useTheme();
 
   return (
-    <footer
-      className={c(
-        'flex',
-        'flex-wrap',
-        'p-4',
-        'border-t',
-        'dark:border-neutral-800',
-        'bg-neutral-100',
-        'dark:bg-neutral-800',
-        'gap-3',
-        'place-content-center',
-        'text-sm',
-        'text-neutral-400',
-        'font-light'
-      )}
-    >
+    <footer className="flex flex-wrap place-content-center gap-3 border-t bg-neutral-100 p-4 text-sm font-light text-neutral-400 dark:border-neutral-800 dark:bg-neutral-800">
       {/* Git tree */}
-      <Link variant="discreet" href={getRepoFileUrl('', { ref: getBuildId() || 'prime' })}>
+      <Link variant="discreet" href={getRepoFileUrl("", { ref: getBuildId() || "prime" })}>
         <Inline>
           <FiGitCommit />
-          <div className={c('font-mono')}>{getBuildId()?.substring(0, 7) || 'prime'}</div>
+          <div className="font-mono">{getBuildId()?.substring(0, 7) || "prime"}</div>
         </Inline>
       </Link>
 
@@ -218,11 +175,11 @@ const Footer: FC = () => {
       <div>&bull;</div>
 
       {/* Theme switcher */}
-      <ButtonLink variant="hidden" onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}>
-        <div className={c('text-ukraine-blue', 'dark:text-ukraine-yellow')}>
+      <ButtonLink variant="hidden" onClick={() => setTheme(theme === "dark" ? "light" : "dark")}>
+        <div className="text-ukraine-blue dark:text-ukraine-yellow">
           <Inline>
-            {theme === 'dark' ? <FiMoon /> : <FiSun />}
-            <div className={c('capitalize')}>{theme}</div>
+            {theme === "dark" ? <FiMoon /> : <FiSun />}
+            <div className="capitalize">{theme}</div>
           </Inline>
         </div>
       </ButtonLink>
@@ -234,22 +191,8 @@ const Page: FC<PropsWithChildren> = ({ children }) => {
   const { theme } = useTheme();
 
   return (
-    <div
-      className={c({
-        dark: theme === 'dark',
-        light: theme === 'light'
-      })}
-    >
-      <div
-        className={c(
-          'flex',
-          'flex-col',
-          'min-h-screen',
-          'bg-neutral-50',
-          'dark:bg-neutral-900',
-          'dark:text-neutral-200'
-        )}
-      >
+    <div className={theme}>
+      <div className="flex min-h-screen flex-col bg-neutral-50 dark:bg-neutral-900 dark:text-neutral-200">
         <Loader />
         <Header />
         <Breadcrumb />

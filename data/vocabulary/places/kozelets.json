@@ -2,13 +2,8 @@
   "category": "City",
   "sourceSpelling": "Козелець",
   "correctSpelling": "Kozelets",
-  "incorrectSpellings": [
-    "Kozhelets"
-  ],
-  "relatedSpellings": [
-    "Козелец",
-    "Kozelez"
-  ],
+  "incorrectSpellings": ["Kozhelets"],
+  "relatedSpellings": ["Козелец", "Kozelez"],
   "links": [
     {
       "name": "Wikipedia: Kozelets",

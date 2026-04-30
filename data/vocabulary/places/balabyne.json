@@ -2,12 +2,8 @@
   "category": "City",
   "sourceSpelling": "Балабине",
   "correctSpelling": "Balabyne",
-  "incorrectSpellings": [
-    "Balabino"
-  ],
-  "relatedSpellings": [
-    "Балабино"
-  ],
+  "incorrectSpellings": ["Balabino"],
+  "relatedSpellings": ["Балабино"],
   "links": [
     {
       "name": "Wikipedia: Balabyne",

@@ -2,17 +2,8 @@
   "category": "City",
   "sourceSpelling": "Подільськ",
   "correctSpelling": "Podilsk",
-  "incorrectSpellings": [
-    "Podolsk"
-  ],
-  "relatedSpellings": [
-    "Подольск",
-    "Котовськ",
-    "Котовск",
-    "Kotovsk",
-    "Bârzula",
-    "Bârzu"
-  ],
+  "incorrectSpellings": ["Podolsk"],
+  "relatedSpellings": ["Подольск", "Котовськ", "Котовск", "Kotovsk", "Bârzula", "Bârzu"],
   "description": "Renamed from \"Kotovsk\" in May 2016.",
   "links": [
     {

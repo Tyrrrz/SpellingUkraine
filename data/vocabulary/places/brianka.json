@@ -2,9 +2,7 @@
   "category": "City",
   "sourceSpelling": "Брянка",
   "correctSpelling": "Brianka",
-  "incorrectSpellings": [
-    "Bryanka"
-  ],
+  "incorrectSpellings": ["Bryanka"],
   "relatedSpellings": [],
   "links": [
     {

@@ -2,12 +2,8 @@
   "category": "City",
   "sourceSpelling": "Енергодар",
   "correctSpelling": "Enerhodar",
-  "incorrectSpellings": [
-    "Energodar"
-  ],
-  "relatedSpellings": [
-    "Энергодар"
-  ],
+  "incorrectSpellings": ["Energodar"],
+  "relatedSpellings": ["Энергодар"],
   "links": [
     {
       "name": "Wikipedia: Enerhodar",

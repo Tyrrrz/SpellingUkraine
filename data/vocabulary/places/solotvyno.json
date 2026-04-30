@@ -2,14 +2,8 @@
   "category": "City",
   "sourceSpelling": "Солотвино",
   "correctSpelling": "Solotvyno",
-  "incorrectSpellings": [
-    "Solotvino"
-  ],
-  "relatedSpellings": [
-    "Aknaszlatina",
-    "Slatina",
-    "Slatinské Doly"
-  ],
+  "incorrectSpellings": ["Solotvino"],
+  "relatedSpellings": ["Aknaszlatina", "Slatina", "Slatinské Doly"],
   "links": [
     {
       "name": "Wikipedia: Solotvyno",

@@ -2,12 +2,8 @@
   "category": "City",
   "sourceSpelling": "Хмельницький",
   "correctSpelling": "Khmelnytskyi",
-  "incorrectSpellings": [
-    "Khmelnitsky"
-  ],
-  "relatedSpellings": [
-    "Хмельницкий"
-  ],
+  "incorrectSpellings": ["Khmelnitsky"],
+  "relatedSpellings": ["Хмельницкий"],
   "links": [
     {
       "name": "Wikipedia: Khmelnytskyi",

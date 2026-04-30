@@ -2,12 +2,8 @@
   "category": "City",
   "sourceSpelling": "Семенівка",
   "correctSpelling": "Semenivka",
-  "incorrectSpellings": [
-    "Semenovka"
-  ],
-  "relatedSpellings": [
-    "Семёновка"
-  ],
+  "incorrectSpellings": ["Semenovka"],
+  "relatedSpellings": ["Семёновка"],
   "links": [
     {
       "name": "Wikipedia: Semenivka",

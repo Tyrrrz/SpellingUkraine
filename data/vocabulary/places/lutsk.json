@@ -2,12 +2,8 @@
   "category": "City",
   "sourceSpelling": "Луцьк",
   "correctSpelling": "Lutsk",
-  "incorrectSpellings": [
-    "Luck"
-  ],
-  "relatedSpellings": [
-    "Луцк"
-  ],
+  "incorrectSpellings": ["Luck"],
+  "relatedSpellings": ["Луцк"],
   "links": [
     {
       "name": "Wikipedia: Lutsk",

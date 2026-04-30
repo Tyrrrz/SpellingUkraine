@@ -2,13 +2,8 @@
   "category": "City",
   "sourceSpelling": "Іванівка",
   "correctSpelling": "Ivanivka",
-  "incorrectSpellings": [
-    "Ivanovka"
-  ],
-  "relatedSpellings": [
-    "Ивановка",
-    "Iwanivka"
-  ],
+  "incorrectSpellings": ["Ivanovka"],
+  "relatedSpellings": ["Ивановка", "Iwanivka"],
   "links": [
     {
       "name": "Wikipedia: Ivanivka",

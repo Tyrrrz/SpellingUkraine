@@ -2,16 +2,8 @@
   "category": "City",
   "sourceSpelling": "Чинаді́йово",
   "correctSpelling": "Chynadiiovo",
-  "incorrectSpellings": [
-    "Chynadiyovo",
-    "Chynadiieve",
-    "Chinadievo"
-  ],
-  "relatedSpellings": [
-    "Чинадиево",
-    "Szentmiklós",
-    "Činadno"
-  ],
+  "incorrectSpellings": ["Chynadiyovo", "Chynadiieve", "Chinadievo"],
+  "relatedSpellings": ["Чинадиево", "Szentmiklós", "Činadno"],
   "links": [
     {
       "name": "Wikipedia: Chynadiiovo",

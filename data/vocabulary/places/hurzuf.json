@@ -2,12 +2,8 @@
   "category": "City",
   "sourceSpelling": "Гурзуф",
   "correctSpelling": "Hurzuf",
-  "incorrectSpellings": [
-    "Gurzuf"
-  ],
-  "relatedSpellings": [
-    "Γορζουβίται"
-  ],
+  "incorrectSpellings": ["Gurzuf"],
+  "relatedSpellings": ["Γορζουβίται"],
   "links": [
     {
       "name": "Wikipedia: Hurzuf",

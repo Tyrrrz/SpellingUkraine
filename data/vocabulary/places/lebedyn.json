@@ -2,9 +2,7 @@
   "category": "City",
   "sourceSpelling": "Лебедин",
   "correctSpelling": "Lebedyn",
-  "incorrectSpellings": [
-    "Lebedin"
-  ],
+  "incorrectSpellings": ["Lebedin"],
   "relatedSpellings": [],
   "links": [
     {

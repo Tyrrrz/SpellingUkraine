@@ -2,12 +2,8 @@
   "category": "City",
   "sourceSpelling": "Тальне",
   "correctSpelling": "Talne",
-  "incorrectSpellings": [
-    "Talnoye"
-  ],
-  "relatedSpellings": [
-    "Тальное"
-  ],
+  "incorrectSpellings": ["Talnoye"],
+  "relatedSpellings": ["Тальное"],
   "links": [
     {
       "name": "Wikipedia: Talne",

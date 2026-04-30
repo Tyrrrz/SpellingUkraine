@@ -2,13 +2,8 @@
   "category": "City",
   "sourceSpelling": "Андрушівка",
   "correctSpelling": "Andrushivka",
-  "incorrectSpellings": [
-    "Andrushevka"
-  ],
-  "relatedSpellings": [
-    "Андрушевка",
-    "Andruszówka"
-  ],
+  "incorrectSpellings": ["Andrushevka"],
+  "relatedSpellings": ["Андрушевка", "Andruszówka"],
   "links": [
     {
       "name": "Wikipedia: Andrushivka",

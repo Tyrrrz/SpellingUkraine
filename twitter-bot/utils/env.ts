@@ -29,6 +29,6 @@ export const getTwitterCredentials = () => {
     appKey,
     appSecret,
     accessToken,
-    accessSecret
+    accessSecret,
   };
 };

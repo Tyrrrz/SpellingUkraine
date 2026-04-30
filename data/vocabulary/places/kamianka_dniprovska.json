@@ -2,12 +2,8 @@
   "category": "City",
   "sourceSpelling": "Кам'янка-Дніпровська",
   "correctSpelling": "Kamianka-Dniprovska",
-  "incorrectSpellings": [
-    "Kamenka-Dneprovskaya"
-  ],
-  "relatedSpellings": [
-    "Каменка-Днепровская"
-  ],
+  "incorrectSpellings": ["Kamenka-Dneprovskaya"],
+  "relatedSpellings": ["Каменка-Днепровская"],
   "links": [
     {
       "name": "Wikipedia: Kamianka-Dniprovska",

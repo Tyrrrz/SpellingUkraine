@@ -2,14 +2,8 @@
   "category": "City",
   "sourceSpelling": "Перегінське",
   "correctSpelling": "Perehinske",
-  "incorrectSpellings": [
-    "Pereginske",
-    "Pereginskoe"
-  ],
-  "relatedSpellings": [
-    "Перегинское",
-    "Perehińsko"
-  ],
+  "incorrectSpellings": ["Pereginske", "Pereginskoe"],
+  "relatedSpellings": ["Перегинское", "Perehińsko"],
   "links": [
     {
       "name": "Wikipedia: Perehinske",

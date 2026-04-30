@@ -2,12 +2,8 @@
   "category": "City",
   "sourceSpelling": "Вишгород",
   "correctSpelling": "Vyshhorod",
-  "incorrectSpellings": [
-    "Vyshgorod"
-  ],
-  "relatedSpellings": [
-    "Вышгород"
-  ],
+  "incorrectSpellings": ["Vyshgorod"],
+  "relatedSpellings": ["Вышгород"],
   "links": [
     {
       "name": "Wikipedia: Vyshhorod",

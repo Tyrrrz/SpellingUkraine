@@ -2,15 +2,8 @@
   "category": "City",
   "sourceSpelling": "Великі Лучки",
   "correctSpelling": "Velyki Luchky",
-  "incorrectSpellings": [
-    "Velikie Luchki"
-  ],
-  "relatedSpellings": [
-    "Великие Лучки",
-    "Velyki Lučky",
-    "Nagylucska",
-    "Veľké Lúčky"
-  ],
+  "incorrectSpellings": ["Velikie Luchki"],
+  "relatedSpellings": ["Великие Лучки", "Velyki Lučky", "Nagylucska", "Veľké Lúčky"],
   "links": [
     {
       "name": "Wikipedia: Velyki Luchky",

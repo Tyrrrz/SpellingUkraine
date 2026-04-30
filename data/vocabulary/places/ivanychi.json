@@ -2,13 +2,8 @@
   "category": "City",
   "sourceSpelling": "Іваничі",
   "correctSpelling": "Ivanychi",
-  "incorrectSpellings": [
-    "Ivanichi"
-  ],
-  "relatedSpellings": [
-    "Иваничи",
-    "Iwanicze"
-  ],
+  "incorrectSpellings": ["Ivanichi"],
+  "relatedSpellings": ["Иваничи", "Iwanicze"],
   "links": [
     {
       "name": "Wikipedia: Ivanychi",

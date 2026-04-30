@@ -2,12 +2,8 @@
   "category": "City",
   "sourceSpelling": "Українка",
   "correctSpelling": "Ukrainka",
-  "incorrectSpellings": [
-    "Ukrayinka"
-  ],
-  "relatedSpellings": [
-    "Украинка"
-  ],
+  "incorrectSpellings": ["Ukrayinka"],
+  "relatedSpellings": ["Украинка"],
   "links": [
     {
       "name": "Wikipedia: Ukrainka",

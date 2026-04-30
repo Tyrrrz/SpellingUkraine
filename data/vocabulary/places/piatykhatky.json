@@ -2,13 +2,8 @@
   "category": "City",
   "sourceSpelling": "П'ятихатки",
   "correctSpelling": "Piatykhatky",
-  "incorrectSpellings": [
-    "Pyatykhatky",
-    "Pyatihatki"
-  ],
-  "relatedSpellings": [
-    "Пятихатки"
-  ],
+  "incorrectSpellings": ["Pyatykhatky", "Pyatihatki"],
+  "relatedSpellings": ["Пятихатки"],
   "links": [
     {
       "name": "Wikipedia: Piatykhatky",

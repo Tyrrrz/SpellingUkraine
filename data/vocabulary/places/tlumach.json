@@ -2,13 +2,8 @@
   "category": "City",
   "sourceSpelling": "Тлумач",
   "correctSpelling": "Tlumach",
-  "incorrectSpellings": [
-    "Tovmach"
-  ],
-  "relatedSpellings": [
-    "Товмач",
-    "Tłumacz"
-  ],
+  "incorrectSpellings": ["Tovmach"],
+  "relatedSpellings": ["Товмач", "Tłumacz"],
   "links": [
     {
       "name": "Wikipedia: Tlumach",

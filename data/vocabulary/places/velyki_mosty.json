@@ -2,13 +2,8 @@
   "category": "City",
   "sourceSpelling": "Великі Мости",
   "correctSpelling": "Velyki Mosty",
-  "incorrectSpellings": [
-    "Velikie Mosty"
-  ],
-  "relatedSpellings": [
-    "Великие Мосты",
-    "Mosty Wielkie"
-  ],
+  "incorrectSpellings": ["Velikie Mosty"],
+  "relatedSpellings": ["Великие Мосты", "Mosty Wielkie"],
   "links": [
     {
       "name": "Wikipedia: Velyki Mosty",

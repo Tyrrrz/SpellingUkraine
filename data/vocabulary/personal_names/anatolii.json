@@ -2,13 +2,8 @@
   "category": "Personal name",
   "sourceSpelling": "Анатолій",
   "correctSpelling": "Anatolii",
-  "incorrectSpellings": [
-    "Anatoliy"
-  ],
-  "relatedSpellings": [
-    "Анатолий",
-    "Anatolius"
-  ],
+  "incorrectSpellings": ["Anatoliy"],
+  "relatedSpellings": ["Анатолий", "Anatolius"],
   "description": "From Anatolius, of Greek origin.",
   "links": []
 }

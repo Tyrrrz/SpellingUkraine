@@ -2,13 +2,8 @@
   "category": "City",
   "sourceSpelling": "Новгород-Сіверський",
   "correctSpelling": "Novhorod-Siverskyi",
-  "incorrectSpellings": [
-    "Novgorod-Siversky",
-    "Novgorod-Siverskiy"
-  ],
-  "relatedSpellings": [
-    "Новгород-Северский"
-  ],
+  "incorrectSpellings": ["Novgorod-Siversky", "Novgorod-Siverskiy"],
+  "relatedSpellings": ["Новгород-Северский"],
   "links": [
     {
       "name": "Wikipedia: Novhorod-Siverskyi",

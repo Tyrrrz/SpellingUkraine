@@ -2,14 +2,8 @@
   "category": "City",
   "sourceSpelling": "Рахів",
   "correctSpelling": "Rakhiv",
-  "incorrectSpellings": [
-    "Rakhov"
-  ],
-  "relatedSpellings": [
-    "Рахов",
-    "Rahó",
-    "Rahău"
-  ],
+  "incorrectSpellings": ["Rakhov"],
+  "relatedSpellings": ["Рахов", "Rahó", "Rahău"],
   "links": [
     {
       "name": "Wikipedia: Rakhiv",

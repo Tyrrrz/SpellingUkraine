@@ -2,13 +2,8 @@
   "category": "City",
   "sourceSpelling": "Богодухів",
   "correctSpelling": "Bohodukhiv",
-  "incorrectSpellings": [
-    "Bohoduhov",
-    "Bogoduhov"
-  ],
-  "relatedSpellings": [
-    "Богодухов"
-  ],
+  "incorrectSpellings": ["Bohoduhov", "Bogoduhov"],
+  "relatedSpellings": ["Богодухов"],
   "links": [
     {
       "name": "Wikipedia: Bohodukhiv",

@@ -2,12 +2,8 @@
   "category": "City",
   "sourceSpelling": "Перещепине",
   "correctSpelling": "Pereshchepyne",
-  "incorrectSpellings": [
-    "Pereshchepino"
-  ],
-  "relatedSpellings": [
-    "Перещепино"
-  ],
+  "incorrectSpellings": ["Pereshchepino"],
+  "relatedSpellings": ["Перещепино"],
   "links": [
     {
       "name": "Wikipedia: Pereshchepyne",

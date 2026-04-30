@@ -2,16 +2,8 @@
   "category": "Personal name",
   "sourceSpelling": "Сергій",
   "correctSpelling": "Serhii",
-  "incorrectSpellings": [
-    "Serhiy",
-    "Sergii",
-    "Sergiy",
-    "Sergey"
-  ],
-  "relatedSpellings": [
-    "Сергей",
-    "Serge"
-  ],
+  "incorrectSpellings": ["Serhiy", "Sergii", "Sergiy", "Sergey"],
+  "relatedSpellings": ["Сергей", "Serge"],
   "transcription": "Ser-heey",
   "description": "Equivalent to Serge, of Latin origin.",
   "links": []

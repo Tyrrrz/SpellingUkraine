@@ -2,10 +2,7 @@
   "category": "City",
   "sourceSpelling": "Кобеляки",
   "correctSpelling": "Kobeliaky",
-  "incorrectSpellings": [
-    "Kobelyaky",
-    "Kobelyaki"
-  ],
+  "incorrectSpellings": ["Kobelyaky", "Kobelyaki"],
   "relatedSpellings": [],
   "links": [
     {

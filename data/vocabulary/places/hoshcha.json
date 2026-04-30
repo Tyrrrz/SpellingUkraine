@@ -2,12 +2,8 @@
   "category": "City",
   "sourceSpelling": "Гоща",
   "correctSpelling": "Hoshcha",
-  "incorrectSpellings": [
-    "Goscha"
-  ],
-  "relatedSpellings": [
-    "Hoszcza"
-  ],
+  "incorrectSpellings": ["Goscha"],
+  "relatedSpellings": ["Hoszcza"],
   "links": [
     {
       "name": "Wikipedia: Hoshcha",

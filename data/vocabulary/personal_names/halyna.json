@@ -2,16 +2,8 @@
   "category": "Personal name",
   "sourceSpelling": "Галина",
   "correctSpelling": "Halyna",
-  "incorrectSpellings": [
-    "Halina",
-    "Galyna",
-    "Galina"
-  ],
-  "relatedSpellings": [
-    "Галя",
-    "Halia",
-    "Galene"
-  ],
+  "incorrectSpellings": ["Halina", "Galyna", "Galina"],
+  "relatedSpellings": ["Галя", "Halia", "Galene"],
   "description": "From Galene, of Greek origin.",
   "links": []
 }

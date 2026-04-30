@@ -2,16 +2,8 @@
   "category": "City",
   "sourceSpelling": "Южне",
   "correctSpelling": "Yuzhne",
-  "incorrectSpellings": [
-    "Yuzhny",
-    "Yuzhniy",
-    "Yuzhnoe",
-    "Yuzhnoye"
-  ],
-  "relatedSpellings": [
-    "Южний",
-    "Южное"
-  ],
+  "incorrectSpellings": ["Yuzhny", "Yuzhniy", "Yuzhnoe", "Yuzhnoye"],
+  "relatedSpellings": ["Южний", "Южное"],
   "links": [
     {
       "name": "Wikipedia: Yuzhne",

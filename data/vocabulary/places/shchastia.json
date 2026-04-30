@@ -2,14 +2,8 @@
   "category": "City",
   "sourceSpelling": "Щастя",
   "correctSpelling": "Shchastia",
-  "incorrectSpellings": [
-    "Schastya",
-    "Schastie",
-    "Schastye"
-  ],
-  "relatedSpellings": [
-    "Счастье"
-  ],
+  "incorrectSpellings": ["Schastya", "Schastie", "Schastye"],
+  "relatedSpellings": ["Счастье"],
   "links": [
     {
       "name": "Wikipedia: Shchastia",

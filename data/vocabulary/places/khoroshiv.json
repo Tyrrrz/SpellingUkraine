@@ -2,10 +2,7 @@
   "category": "City",
   "sourceSpelling": "Хорошів",
   "correctSpelling": "Khoroshiv",
-  "incorrectSpellings": [
-    "Khoroshev",
-    "Khorochev"
-  ],
+  "incorrectSpellings": ["Khoroshev", "Khorochev"],
   "relatedSpellings": [
     "Хорошев",
     "Володарськ-Волинський",

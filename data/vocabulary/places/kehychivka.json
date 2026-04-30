@@ -2,12 +2,8 @@
   "category": "City",
   "sourceSpelling": "Кегичівка",
   "correctSpelling": "Kehychivka",
-  "incorrectSpellings": [
-    "Kegichevka"
-  ],
-  "relatedSpellings": [
-    "Кегичёвка"
-  ],
+  "incorrectSpellings": ["Kegichevka"],
+  "relatedSpellings": ["Кегичёвка"],
   "links": [
     {
       "name": "Wikipedia: Kehychivka",

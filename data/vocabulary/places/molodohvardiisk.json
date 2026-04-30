@@ -2,12 +2,8 @@
   "category": "City",
   "sourceSpelling": "Молодогвардійськ",
   "correctSpelling": "Molodohvardiisk",
-  "incorrectSpellings": [
-    "Molodogvardeysk"
-  ],
-  "relatedSpellings": [
-    "Молодогвардейск"
-  ],
+  "incorrectSpellings": ["Molodogvardeysk"],
+  "relatedSpellings": ["Молодогвардейск"],
   "links": [
     {
       "name": "Wikipedia: Molodohvardiisk",

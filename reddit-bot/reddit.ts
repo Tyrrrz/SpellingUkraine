@@ -1,12 +1,12 @@
-import snoowrap from 'snoowrap';
-import { getRedditCredentials } from '~/utils/env';
+import snoowrap from "snoowrap";
+import { getRedditCredentials } from "~/utils/env";
 
 type User = {
   name: string;
 };
 
 type Submission = {
-  kind: 'submission';
+  kind: "submission";
   id: string;
   url: string;
   author: User;
@@ -15,7 +15,7 @@ type Submission = {
 };
 
 type Comment = {
-  kind: 'comment';
+  kind: "comment";
   id: string;
   url: string;
   author: User;
@@ -26,24 +26,24 @@ type Post = Submission | Comment;
 
 const reddit = new snoowrap({
   ...getRedditCredentials(),
-  userAgent: 'SpellingUkraine Bot (https://github.com/Tyrrrz/SpellingUkraine)'
+  userAgent: "SpellingUkraine Bot (https://github.com/Tyrrrz/SpellingUkraine)",
 });
 
 reddit.config({
   proxies: false,
   requestDelay: 1000,
-  continueAfterRatelimitError: true
+  continueAfterRatelimitError: true,
 });
 
 // Workaround for https://github.com/not-an-aardvark/snoowrap/issues/221
 const unpromise = async <T>(promise: Promise<T>) => {
   const result = await promise;
-  return result as Omit<T, 'then' | 'catch' | 'finally'>;
+  return result as Omit<T, "then" | "catch" | "finally">;
 };
 
 export const getMe = async () => {
   const user: User = {
-    name: getRedditCredentials().username
+    name: getRedditCredentials().username,
   };
 
   return user;
@@ -51,11 +51,11 @@ export const getMe = async () => {
 
 export const listen = async (
   subreddits: string[],
-  callback: (post: Post) => Promise<void> | void
+  callback: (post: Post) => Promise<void> | void,
 ) => {
   const listenToPosts = async (
     subreddit: string,
-    callback: (post: Submission) => Promise<void> | void
+    callback: (post: Submission) => Promise<void> | void,
   ) => {
     let anchorTimestamp = new Date();
 
@@ -69,14 +69,14 @@ export const listen = async (
         }
 
         await callback({
-          kind: 'submission',
+          kind: "submission",
           id: submission.id,
-          url: 'https://reddit.com' + submission.permalink,
+          url: "https://reddit.com" + submission.permalink,
           author: {
-            name: submission.author.name
+            name: submission.author.name,
           },
           title: submission.title,
-          text: submission.selftext
+          text: submission.selftext,
         });
 
         anchorTimestamp = timestamp;
@@ -86,7 +86,7 @@ export const listen = async (
 
   const listenToComments = async (
     subreddit: string,
-    callback: (comment: Comment) => Promise<void> | void
+    callback: (comment: Comment) => Promise<void> | void,
   ) => {
     let anchorTimestamp = new Date();
 
@@ -100,13 +100,13 @@ export const listen = async (
         }
 
         await callback({
-          kind: 'comment',
+          kind: "comment",
           id: comment.id,
-          url: 'https://reddit.com' + comment.permalink,
+          url: "https://reddit.com" + comment.permalink,
           author: {
-            name: comment.author.name
+            name: comment.author.name,
           },
-          text: comment.body
+          text: comment.body,
         });
 
         anchorTimestamp = timestamp;
@@ -117,7 +117,7 @@ export const listen = async (
   await Promise.all(
     subreddits.flatMap((subreddit) => {
       return [listenToPosts(subreddit, callback), listenToComments(subreddit, callback)];
-    })
+    }),
   );
 };
 
@@ -135,16 +135,16 @@ export const reply = async (post: Post, text: string) => {
   };
 
   const replyPost =
-    post.kind === 'submission' ? await replyToSubmission(post) : await replyToComment(post);
+    post.kind === "submission" ? await replyToSubmission(post) : await replyToComment(post);
 
   const result: Comment = {
-    kind: 'comment',
+    kind: "comment",
     id: replyPost.id,
-    url: 'https://reddit.com' + replyPost.permalink,
+    url: "https://reddit.com" + replyPost.permalink,
     author: {
-      name: replyPost.author?.name
+      name: replyPost.author?.name,
     },
-    text
+    text,
   };
 
   return result;

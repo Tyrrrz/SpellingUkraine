@@ -2,9 +2,7 @@
   "category": "City",
   "sourceSpelling": "Горонда",
   "correctSpelling": "Horonda",
-  "incorrectSpellings": [
-    "Goronda"
-  ],
+  "incorrectSpellings": ["Goronda"],
   "relatedSpellings": [],
   "links": [],
   "location": {

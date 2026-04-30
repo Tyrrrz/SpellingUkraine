@@ -2,16 +2,8 @@
   "category": "City",
   "sourceSpelling": "Олександрійське",
   "correctSpelling": "Oleksandriiske",
-  "incorrectSpellings": [
-    "Alexandriyskoe"
-  ],
-  "relatedSpellings": [
-    "Александрийское",
-    "Димитрове",
-    "Димитрово",
-    "Dymytrove",
-    "Dimitrovo"
-  ],
+  "incorrectSpellings": ["Alexandriyskoe"],
+  "relatedSpellings": ["Александрийское", "Димитрове", "Димитрово", "Dymytrove", "Dimitrovo"],
   "description": "Renamed from \"Dymytrove\" in 1949.",
   "links": [
     {

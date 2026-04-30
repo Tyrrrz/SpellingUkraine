@@ -2,17 +2,8 @@
   "category": "Country",
   "sourceSpelling": "Україна",
   "correctSpelling": "Ukraine",
-  "incorrectSpellings": [
-    "The Ukraine",
-    "Ukrajina"
-  ],
-  "relatedSpellings": [
-    "Украина",
-    "Ukraina",
-    "Ukrajna",
-    "Ukrayna",
-    "Ucrania"
-  ],
+  "incorrectSpellings": ["The Ukraine", "Ukrajina"],
+  "relatedSpellings": ["Украина", "Ukraina", "Ukrajna", "Ukrayna", "Ucrania"],
   "description": "Ukraine is a country in Eastern Europe. It is the second-largest country by area in Europe after Russia, which it borders to the east and north-east.",
   "links": [
     {

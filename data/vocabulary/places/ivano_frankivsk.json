@@ -2,13 +2,8 @@
   "category": "City",
   "sourceSpelling": "Івано-Франківськ",
   "correctSpelling": "Ivano-Frankivsk",
-  "incorrectSpellings": [
-    "Ivano-Frankovsk"
-  ],
-  "relatedSpellings": [
-    "Ивано-Франковск",
-    "Iwano-Frankivsk"
-  ],
+  "incorrectSpellings": ["Ivano-Frankovsk"],
+  "relatedSpellings": ["Ивано-Франковск", "Iwano-Frankivsk"],
   "transcription": "Ihvano-Frankeevsk",
   "links": [
     {

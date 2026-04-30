@@ -2,14 +2,8 @@
   "category": "City",
   "sourceSpelling": "Краснопілля",
   "correctSpelling": "Krasnopillia",
-  "incorrectSpellings": [
-    "Krasnopillya",
-    "Krasnopolie",
-    "Krasnopolye"
-  ],
-  "relatedSpellings": [
-    "Краснополье"
-  ],
+  "incorrectSpellings": ["Krasnopillya", "Krasnopolie", "Krasnopolye"],
+  "relatedSpellings": ["Краснополье"],
   "links": [
     {
       "name": "Wikipedia: Krasnopillia",

@@ -2,12 +2,8 @@
   "category": "City",
   "sourceSpelling": "Олександрівськ",
   "correctSpelling": "Oleksandrivsk",
-  "incorrectSpellings": [
-    "Aleksandrovsk"
-  ],
-  "relatedSpellings": [
-    "Александровск"
-  ],
+  "incorrectSpellings": ["Aleksandrovsk"],
+  "relatedSpellings": ["Александровск"],
   "links": [
     {
       "name": "Wikipedia: Oleksandrivsk",

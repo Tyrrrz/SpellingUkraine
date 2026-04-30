@@ -2,10 +2,7 @@
   "category": "City",
   "sourceSpelling": "Любомль",
   "correctSpelling": "Liuboml",
-  "incorrectSpellings": [
-    "Lyuboml",
-    "Luboml"
-  ],
+  "incorrectSpellings": ["Lyuboml", "Luboml"],
   "relatedSpellings": [],
   "links": [
     {

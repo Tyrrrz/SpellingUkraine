@@ -2,14 +2,8 @@
   "category": "Personal name",
   "sourceSpelling": "Микола",
   "correctSpelling": "Mykola",
-  "incorrectSpellings": [
-    "Nikolai",
-    "Nikolay"
-  ],
-  "relatedSpellings": [
-    "Николай",
-    "Nicholas"
-  ],
+  "incorrectSpellings": ["Nikolai", "Nikolay"],
+  "relatedSpellings": ["Николай", "Nicholas"],
   "description": "Equivalent to Nicholas, of Greek origin.",
   "links": []
 }

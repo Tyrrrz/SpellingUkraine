@@ -2,14 +2,8 @@
   "category": "City",
   "sourceSpelling": "Болехів",
   "correctSpelling": "Bolekhiv",
-  "incorrectSpellings": [
-    "Bolehiv",
-    "Bolechiw"
-  ],
-  "relatedSpellings": [
-    "Болехов",
-    "Bolechów"
-  ],
+  "incorrectSpellings": ["Bolehiv", "Bolechiw"],
+  "relatedSpellings": ["Болехов", "Bolechów"],
   "links": [
     {
       "name": "Wikipedia: Bolekhiv",

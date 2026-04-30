@@ -2,12 +2,8 @@
   "category": "City",
   "sourceSpelling": "Березівка",
   "correctSpelling": "Berezivka",
-  "incorrectSpellings": [
-    "Berezovka"
-  ],
-  "relatedSpellings": [
-    "Березовка"
-  ],
+  "incorrectSpellings": ["Berezovka"],
+  "relatedSpellings": ["Березовка"],
   "links": [
     {
       "name": "Wikipedia: Berezivka",

@@ -2,13 +2,8 @@
   "category": "Personal name",
   "sourceSpelling": "Артем",
   "correctSpelling": "Artem",
-  "incorrectSpellings": [
-    "Artyom"
-  ],
-  "relatedSpellings": [
-    "Артём",
-    "Artemius"
-  ],
+  "incorrectSpellings": ["Artyom"],
+  "relatedSpellings": ["Артём", "Artemius"],
   "description": "Equivalent to Artemius, of Greek origin.",
   "links": []
 }

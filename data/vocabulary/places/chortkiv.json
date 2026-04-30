@@ -2,13 +2,8 @@
   "category": "City",
   "sourceSpelling": "Чортків",
   "correctSpelling": "Chortkiv",
-  "incorrectSpellings": [
-    "Chortkov"
-  ],
-  "relatedSpellings": [
-    "Чортков",
-    "Czortków"
-  ],
+  "incorrectSpellings": ["Chortkov"],
+  "relatedSpellings": ["Чортков", "Czortków"],
   "links": [
     {
       "name": "Wikipedia: Chortkiv",

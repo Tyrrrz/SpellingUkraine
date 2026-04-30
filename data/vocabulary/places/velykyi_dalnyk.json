@@ -2,9 +2,7 @@
   "category": "City",
   "sourceSpelling": "Великий Дальник",
   "correctSpelling": "Velykyi Dalnyk",
-  "incorrectSpellings": [
-    "Velikiy Dalnik"
-  ],
+  "incorrectSpellings": ["Velikiy Dalnik"],
   "relatedSpellings": [],
   "links": [],
   "location": {

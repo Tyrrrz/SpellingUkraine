@@ -2,12 +2,8 @@
   "category": "City",
   "sourceSpelling": "Світловодськ",
   "correctSpelling": "Svitlovodsk",
-  "incorrectSpellings": [
-    "Svetlovodsk"
-  ],
-  "relatedSpellings": [
-    "Светловодск"
-  ],
+  "incorrectSpellings": ["Svetlovodsk"],
+  "relatedSpellings": ["Светловодск"],
   "links": [
     {
       "name": "Wikipedia: Svitlovodsk",

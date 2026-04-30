@@ -2,13 +2,8 @@
   "category": "City",
   "sourceSpelling": "Ізюм",
   "correctSpelling": "Izium",
-  "incorrectSpellings": [
-    "Izum",
-    "Izyum"
-  ],
-  "relatedSpellings": [
-    "Изюм"
-  ],
+  "incorrectSpellings": ["Izum", "Izyum"],
+  "relatedSpellings": ["Изюм"],
   "transcription": "Izyoom",
   "description": "Izium is a city on the Donets River in Kharkiv Oblast of eastern Ukraine. Izium is about 120 kilometres southeast of the oblast capital, Kharkiv. Izium has a population of 45,884.",
   "links": [

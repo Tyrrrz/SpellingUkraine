@@ -2,13 +2,8 @@
   "category": "City",
   "sourceSpelling": "Комишуваха",
   "correctSpelling": "Komyshuvakha",
-  "incorrectSpellings": [
-    "Kamishevakha",
-    "Kamyshevakha"
-  ],
-  "relatedSpellings": [
-    "Камышеваха"
-  ],
+  "incorrectSpellings": ["Kamishevakha", "Kamyshevakha"],
+  "relatedSpellings": ["Камышеваха"],
   "links": [
     {
       "name": "Wikipedia: Komyshuvakha",

@@ -2,13 +2,8 @@
   "category": "City",
   "sourceSpelling": "Тисмениця",
   "correctSpelling": "Tysmenytsia",
-  "incorrectSpellings": [
-    "Tysmenitsa"
-  ],
-  "relatedSpellings": [
-    "Тысменица",
-    "Tyśmienica"
-  ],
+  "incorrectSpellings": ["Tysmenitsa"],
+  "relatedSpellings": ["Тысменица", "Tyśmienica"],
   "links": [
     {
       "name": "Wikipedia: Tysmenytsia",

@@ -2,12 +2,8 @@
   "category": "City",
   "sourceSpelling": "Костопіль",
   "correctSpelling": "Kostopil",
-  "incorrectSpellings": [
-    "Kostopol"
-  ],
-  "relatedSpellings": [
-    "Костополь"
-  ],
+  "incorrectSpellings": ["Kostopol"],
+  "relatedSpellings": ["Костополь"],
   "links": [
     {
       "name": "Wikipedia: Kostopil",

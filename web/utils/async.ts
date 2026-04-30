@@ -1,6 +1,6 @@
 export const bufferIterable = async <T>(
   generator: AsyncIterable<T>,
-  callback?: (item: T) => void
+  callback?: (item: T) => void,
 ) => {
   const buffer: T[] = [];
 

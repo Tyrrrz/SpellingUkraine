@@ -2,12 +2,8 @@
   "category": "City",
   "sourceSpelling": "Чигирин",
   "correctSpelling": "Chyhyryn",
-  "incorrectSpellings": [
-    "Chihyrin"
-  ],
-  "relatedSpellings": [
-    "Чигирин"
-  ],
+  "incorrectSpellings": ["Chihyrin"],
+  "relatedSpellings": ["Чигирин"],
   "links": [
     {
       "name": "Wikipedia: Chyhyryn",

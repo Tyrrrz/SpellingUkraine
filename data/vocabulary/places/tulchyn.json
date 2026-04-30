@@ -2,14 +2,8 @@
   "category": "City",
   "sourceSpelling": "Тульчин",
   "correctSpelling": "Tulchyn",
-  "incorrectSpellings": [
-    "Tulchin"
-  ],
-  "relatedSpellings": [
-    "Tulczyn",
-    "Tulcin",
-    "Nesterwar"
-  ],
+  "incorrectSpellings": ["Tulchin"],
+  "relatedSpellings": ["Tulczyn", "Tulcin", "Nesterwar"],
   "links": [
     {
       "name": "Wikipedia: Tulchyn",

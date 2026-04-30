@@ -2,12 +2,8 @@
   "category": "City",
   "sourceSpelling": "Гребінка",
   "correctSpelling": "Hrebinka",
-  "incorrectSpellings": [
-    "Grebenka"
-  ],
-  "relatedSpellings": [
-    "Гребёнка"
-  ],
+  "incorrectSpellings": ["Grebenka"],
+  "relatedSpellings": ["Гребёнка"],
   "links": [
     {
       "name": "Wikipedia: Hrebinka",

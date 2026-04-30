@@ -1,7 +1,6 @@
-import c from 'classnames';
-import { GetStaticPaths, GetStaticProps, NextPage } from 'next';
-import { Map, Marker } from 'pigeon-maps';
-import { FC, useMemo } from 'react';
+import { GetStaticPaths, GetStaticProps, NextPage } from "next";
+import { Map, Marker } from "pigeon-maps";
+import { FC, useMemo } from "react";
 import {
   FiCheck,
   FiEdit3,
@@ -10,23 +9,23 @@ import {
   FiVolume1,
   FiVolume2,
   FiVolumeX,
-  FiX
-} from 'react-icons/fi';
-import { VocabularyEntry, loadVocabulary, loadVocabularyEntry } from 'spelling-ukraine-data';
-import ButtonLink from '~/components/buttonLink';
-import Heading from '~/components/heading';
-import Highlight from '~/components/highlight';
-import Image from '~/components/image';
-import Inline from '~/components/inline';
-import Link from '~/components/link';
-import Meta from '~/components/meta';
-import Paragraph from '~/components/paragraph';
-import Section from '~/components/section';
-import useSpeech from '~/hooks/useSpeech';
-import { bufferIterable } from '~/utils/async';
-import { getSiteUrl } from '~/utils/env';
-import { getRepoFileEditUrl, getRepoNewIssueUrl } from '~/utils/repo';
-import { formatUrlWithQuery } from '~/utils/url';
+  FiX,
+} from "react-icons/fi";
+import { VocabularyEntry, loadVocabulary, loadVocabularyEntry } from "spelling-ukraine-data";
+import ButtonLink from "~/components/buttonLink";
+import Heading from "~/components/heading";
+import Highlight from "~/components/highlight";
+import Image from "~/components/image";
+import Inline from "~/components/inline";
+import Link from "~/components/link";
+import Meta from "~/components/meta";
+import Paragraph from "~/components/paragraph";
+import Section from "~/components/section";
+import useSpeech from "~/hooks/useSpeech";
+import { bufferIterable } from "~/utils/async";
+import { getSiteUrl } from "~/utils/env";
+import { getRepoFileEditUrl, getRepoNewIssueUrl } from "~/utils/repo";
+import { formatUrlWithQuery } from "~/utils/url";
 
 type EntryPageProps = {
   entry: VocabularyEntry;
@@ -43,8 +42,8 @@ const PronounceButton: FC<EntryPageProps> = ({ entry }) => {
   // currently our transcriptions are tailored specifically for them.
   const voice = useMemo(() => {
     return (
-      voices?.find((voice) => voice.name === 'Google UK English Female') ||
-      voices?.find((voice) => voice.name === 'Google UK English Male')
+      voices?.find((voice) => voice.name === "Google UK English Female") ||
+      voices?.find((voice) => voice.name === "Google UK English Male")
     );
   }, [voices]);
 
@@ -55,7 +54,7 @@ const PronounceButton: FC<EntryPageProps> = ({ entry }) => {
   if (!voice) {
     return (
       <FiVolumeX
-        className={c('text-neutral-400')}
+        className="text-neutral-400"
         strokeWidth={1}
         title="Pronunciation is not available for your device"
       />
@@ -81,15 +80,15 @@ const SpellingSection: FC<EntryPageProps> = ({ entry }) => {
 
   return (
     <Section title="Spelling">
-      <div className={c('flex', 'flex-wrap', 'gap-3', 'text-lg')}>
+      <div className="flex flex-wrap gap-3 text-lg">
         <Inline>
-          <FiCheck className={c('mt-px', 'sm:mt-1', 'text-green-600')} />
+          <FiCheck className="mt-px text-green-600 sm:mt-1" />
           <div>{entry.correctSpelling}</div>
         </Inline>
 
         {entry.incorrectSpellings.map((spelling) => (
           <Inline key={spelling}>
-            <FiX className={c('mt-px', 'sm:mt-1', 'text-red-600')} />
+            <FiX className="mt-px text-red-600 sm:mt-1" />
             <div>{spelling}</div>
           </Inline>
         ))}
@@ -106,7 +105,7 @@ const DescriptionSection: FC<EntryPageProps> = ({ entry }) => {
   return (
     <Section title="Description">
       <article>
-        {entry.description.split('\n').map((paragraph, i) => (
+        {entry.description.split("\n").map((paragraph, i) => (
           <Paragraph key={i}>{paragraph}</Paragraph>
         ))}
       </article>
@@ -124,17 +123,17 @@ const LinksSection: FC<EntryPageProps> = ({ entry }) => {
         ...entry.links,
         {
           name: `Google Maps: ${entry.correctSpelling}`,
-          url: formatUrlWithQuery('https://google.com/maps/search/', {
-            api: '1',
-            query: entry.correctSpelling
-          })
-        }
+          url: formatUrlWithQuery("https://google.com/maps/search/", {
+            api: "1",
+            query: entry.correctSpelling,
+          }),
+        },
       ]
     : entry.links;
 
   return (
     <Section title="Links">
-      <div className={c('flex', 'flex-wrap', 'gap-3')}>
+      <div className="flex flex-wrap gap-3">
         {links.map((link) => (
           <Highlight key={link.name}>
             <Link variant="discreet" color="yellow" href={link.url}>
@@ -183,7 +182,7 @@ const ImageSection: FC<EntryPageProps> = ({ entry }) => {
   return (
     <Section title="Image">
       {/* Flex container to make the link use block display */}
-      <div className={c('flex')}>
+      <div className="flex">
         <Link href={entry.image.url}>
           <Image src={entry.image.url} alt={entry.image.name} height={400} />
         </Link>
@@ -195,11 +194,11 @@ const ImageSection: FC<EntryPageProps> = ({ entry }) => {
 const ContributeSection: FC<EntryPageProps> = ({ entry }) => {
   return (
     <Section title="Contribute">
-      <div className={c('flex', 'flex-wrap', 'gap-3')}>
+      <div className="flex flex-wrap gap-3">
         {/* Edit */}
         <Highlight color="yellow">
           <Link variant="discreet" href={getRepoFileEditUrl(`data/vocabulary/${entry.path}`)}>
-            <div className={c('dark:hover:text-ukraine-blue')}>
+            <div className="dark:hover:text-ukraine-blue">
               <Inline>
                 <FiEdit3 />
                 <div>Edit information</div>
@@ -213,15 +212,15 @@ const ContributeSection: FC<EntryPageProps> = ({ entry }) => {
           <Link
             variant="discreet"
             href={getRepoNewIssueUrl({
-              template: 'bug-report.yml',
-              labels: 'bug',
+              template: "bug-report.yml",
+              labels: "bug",
               title: `${entry.correctSpelling}: <your issue>`,
               details: `Issue related to entry: [${entry.correctSpelling}](${getSiteUrl(
-                `/i/${entry.id}`
-              )})`
+                `/i/${entry.id}`,
+              )})`,
             })}
           >
-            <div className={c('dark:hover:text-ukraine-blue')}>
+            <div className="dark:hover:text-ukraine-blue">
               <Inline>
                 <FiFlag />
                 <div>Report issue</div>
@@ -245,25 +244,25 @@ const EntryPage: NextPage<EntryPageProps> = ({ entry }) => {
           entry.sourceSpelling,
           ...entry.incorrectSpellings,
           ...entry.relatedSpellings,
-          'spelling',
-          'ukraine',
-          'english'
+          "spelling",
+          "ukraine",
+          "english",
         ]}
         imageUrl={entry.image?.url}
       />
 
-      <div className={c('space-y-6')}>
+      <div className="space-y-6">
         <section>
           {/* Title */}
           <Heading>
-            <div className={c('flex', 'items-end', 'gap-3')}>
+            <div className="flex items-end gap-3">
               <div>{entry.correctSpelling}</div>
               <PronounceButton entry={entry} />
             </div>
           </Heading>
 
           {/* Misc info */}
-          <div className={c('text-2xl', 'font-light', 'tracking-wide')}>
+          <div className="text-2xl font-light tracking-wide">
             {entry.sourceSpelling} • {entry.category}
           </div>
         </section>
@@ -286,27 +285,27 @@ export const getStaticPaths: GetStaticPaths<EntryPageParams> = async () => {
   return {
     paths: entries.map((entry) => ({
       params: {
-        id: entry.id
-      }
+        id: entry.id,
+      },
     })),
-    fallback: false
+    fallback: false,
   };
 };
 
 export const getStaticProps: GetStaticProps<EntryPageProps, EntryPageParams> = async ({
-  params
+  params,
 }) => {
   const { id } = params || {};
   if (!id) {
-    throw new Error('Missing vocabulary entry ID');
+    throw new Error("Missing vocabulary entry ID");
   }
 
   const entry = await loadVocabularyEntry(id);
 
   return {
     props: {
-      entry
-    }
+      entry,
+    },
   };
 };
 

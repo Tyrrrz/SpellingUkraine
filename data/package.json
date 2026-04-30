@@ -2,6 +2,12 @@
   "name": "spelling-ukraine-data",
   "version": "1.0.0",
   "private": true,
+  "scripts": {
+    "lint": "exit 0",
+    "lint:check": "exit 0",
+    "format": "prettier . --write",
+    "format:check": "prettier . --check"
+  },
   "devDependencies": {
     "@types/node": "^25.5.0",
     "prettier": "^3.8.1",

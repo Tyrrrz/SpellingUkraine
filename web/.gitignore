@@ -1,6 +1,7 @@
 # next.js
 /.next/
 /build/
+/out/
 /next-env.d.ts
 
 # next-pwa

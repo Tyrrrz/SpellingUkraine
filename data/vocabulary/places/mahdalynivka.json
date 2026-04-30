@@ -2,13 +2,8 @@
   "category": "City",
   "sourceSpelling": "Магдалинiвка",
   "correctSpelling": "Mahdalynivka",
-  "incorrectSpellings": [
-    "Magdalynivka",
-    "Magdalinovka"
-  ],
-  "relatedSpellings": [
-    "Магдалиновка"
-  ],
+  "incorrectSpellings": ["Magdalynivka", "Magdalinovka"],
+  "relatedSpellings": ["Магдалиновка"],
   "links": [
     {
       "name": "Wikipedia: Mahdalynivka",

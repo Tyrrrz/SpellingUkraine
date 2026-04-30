@@ -1,5 +1,5 @@
-import { Client, Events, GatewayIntentBits } from 'discord.js';
-import { getDiscordCredentials } from '~/utils/env';
+import { Client, Events, GatewayIntentBits } from "discord.js";
+import { getDiscordCredentials } from "~/utils/env";
 
 type User = {
   id: string;
@@ -17,20 +17,20 @@ const client = new Client({
   intents: [
     GatewayIntentBits.Guilds,
     GatewayIntentBits.GuildMessages,
-    GatewayIntentBits.MessageContent
-  ]
+    GatewayIntentBits.MessageContent,
+  ],
 });
 
 export const getMe = async () => {
   await client.login(getDiscordCredentials().token);
 
   if (!client.user) {
-    throw new Error('Failed to login to Discord');
+    throw new Error("Failed to login to Discord");
   }
 
   const user: User = {
     id: client.user.id,
-    name: client.user.username
+    name: client.user.username,
   };
 
   return user;
@@ -45,9 +45,9 @@ export const listen = async (callback: (message: Message) => Promise<void> | voi
       channelId: message.channelId,
       author: {
         id: message.author.id,
-        name: message.author.username
+        name: message.author.username,
       },
-      text: message.content
+      text: message.content,
     });
   });
 };
@@ -57,14 +57,14 @@ export const reply = async (message: Message, text: string) => {
 
   const channel = client.channels.resolve(message.channelId);
   if (!channel || !channel.isTextBased()) {
-    throw new Error('Failed to resolve channel');
+    throw new Error("Failed to resolve channel");
   }
 
   const replyMessage = await channel.send({
     reply: {
-      messageReference: message.id
+      messageReference: message.id,
     },
-    content: text
+    content: text,
   });
 
   const result: Message = {
@@ -72,9 +72,9 @@ export const reply = async (message: Message, text: string) => {
     channelId: replyMessage.channelId,
     author: {
       id: replyMessage.author.id,
-      name: replyMessage.author.username
+      name: replyMessage.author.username,
     },
-    text: replyMessage.content
+    text: replyMessage.content,
   };
 
   return result;

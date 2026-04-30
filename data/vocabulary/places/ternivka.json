@@ -2,12 +2,8 @@
   "category": "City",
   "sourceSpelling": "Тернівка",
   "correctSpelling": "Ternivka",
-  "incorrectSpellings": [
-    "Ternovka"
-  ],
-  "relatedSpellings": [
-    "Терновка"
-  ],
+  "incorrectSpellings": ["Ternovka"],
+  "relatedSpellings": ["Терновка"],
   "links": [
     {
       "name": "Wikipedia: Ternivka",

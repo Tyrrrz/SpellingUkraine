@@ -2,14 +2,8 @@
   "category": "City",
   "sourceSpelling": "Делятин",
   "correctSpelling": "Deliatyn",
-  "incorrectSpellings": [
-    "Delyatin",
-    "Diliatyn"
-  ],
-  "relatedSpellings": [
-    "Делятин",
-    "Ділятин"
-  ],
+  "incorrectSpellings": ["Delyatin", "Diliatyn"],
+  "relatedSpellings": ["Делятин", "Ділятин"],
   "links": [
     {
       "name": "Wikipedia: Deliatyn",

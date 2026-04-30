@@ -2,12 +2,8 @@
   "category": "City",
   "sourceSpelling": "Станиця Луганська",
   "correctSpelling": "Stanytsia Luhanska",
-  "incorrectSpellings": [
-    "Stanitsa Luganskaya"
-  ],
-  "relatedSpellings": [
-    "Станица Луганская"
-  ],
+  "incorrectSpellings": ["Stanitsa Luganskaya"],
+  "relatedSpellings": ["Станица Луганская"],
   "links": [
     {
       "name": "Wikipedia: Stanytsia Luhanska",

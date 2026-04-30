@@ -2,10 +2,7 @@
   "category": "City",
   "sourceSpelling": "Городня",
   "correctSpelling": "Horodnia",
-  "incorrectSpellings": [
-    "Gorodnia",
-    "Gorodnya"
-  ],
+  "incorrectSpellings": ["Gorodnia", "Gorodnya"],
   "relatedSpellings": [],
   "links": [
     {

@@ -2,13 +2,8 @@
   "category": "City",
   "sourceSpelling": "Камінь-Каширський",
   "correctSpelling": "Kamin-Kashyrskyi",
-  "incorrectSpellings": [
-    "Kamen-Kashyrskyi"
-  ],
-  "relatedSpellings": [
-    "Камень-Каширский",
-    "Kamień Koszyrski"
-  ],
+  "incorrectSpellings": ["Kamen-Kashyrskyi"],
+  "relatedSpellings": ["Камень-Каширский", "Kamień Koszyrski"],
   "links": [
     {
       "name": "Wikipedia: Kamin-Kashyrskyi",

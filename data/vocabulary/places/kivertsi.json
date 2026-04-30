@@ -2,13 +2,8 @@
   "category": "City",
   "sourceSpelling": "Ківерці",
   "correctSpelling": "Kivertsi",
-  "incorrectSpellings": [
-    "Kivertsy"
-  ],
-  "relatedSpellings": [
-    "Киверцы",
-    "Kiwerce"
-  ],
+  "incorrectSpellings": ["Kivertsy"],
+  "relatedSpellings": ["Киверцы", "Kiwerce"],
   "links": [
     {
       "name": "Wikipedia: Kivertsi",

@@ -2,13 +2,8 @@
   "category": "City",
   "sourceSpelling": "Муровані Курилівці",
   "correctSpelling": "Murovani Kurylivtsi",
-  "incorrectSpellings": [
-    "Murovanye Kurylovtsy"
-  ],
-  "relatedSpellings": [
-    "Мурованые Куриловцы",
-    "Murowane Kuryłowce"
-  ],
+  "incorrectSpellings": ["Murovanye Kurylovtsy"],
+  "relatedSpellings": ["Мурованые Куриловцы", "Murowane Kuryłowce"],
   "links": [
     {
       "name": "Wikipedia: Murovani Kurylivtsi",

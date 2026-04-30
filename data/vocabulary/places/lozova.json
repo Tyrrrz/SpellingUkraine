@@ -2,12 +2,8 @@
   "category": "City",
   "sourceSpelling": "Лозова",
   "correctSpelling": "Lozova",
-  "incorrectSpellings": [
-    "Lozovaya"
-  ],
-  "relatedSpellings": [
-    "Лозовая"
-  ],
+  "incorrectSpellings": ["Lozovaya"],
+  "relatedSpellings": ["Лозовая"],
   "links": [
     {
       "name": "Wikipedia: Lozova",

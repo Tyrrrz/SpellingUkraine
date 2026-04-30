@@ -2,13 +2,8 @@
   "category": "City",
   "sourceSpelling": "Чернігівка",
   "correctSpelling": "Chernihivka",
-  "incorrectSpellings": [
-    "Chernigovka"
-  ],
-  "relatedSpellings": [
-    "Черниговка",
-    "Tschernihivka"
-  ],
+  "incorrectSpellings": ["Chernigovka"],
+  "relatedSpellings": ["Черниговка", "Tschernihivka"],
   "links": [
     {
       "name": "Wikipedia: Chernihivka",

@@ -2,13 +2,8 @@
   "category": "City",
   "sourceSpelling": "Стара Вижівка",
   "correctSpelling": "Stara Vyzhivka",
-  "incorrectSpellings": [
-    "Staraya Vyzhevka"
-  ],
-  "relatedSpellings": [
-    "Старая Выжевка",
-    "Wyżwa Stara"
-  ],
+  "incorrectSpellings": ["Staraya Vyzhevka"],
+  "relatedSpellings": ["Старая Выжевка", "Wyżwa Stara"],
   "links": [
     {
       "name": "Wikipedia: Stara Vyzhivka",

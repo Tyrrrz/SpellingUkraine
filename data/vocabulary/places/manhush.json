@@ -2,16 +2,8 @@
   "category": "City",
   "sourceSpelling": "Магуш",
   "correctSpelling": "Manhush",
-  "incorrectSpellings": [
-    "Mangush",
-    "Pershotravneve",
-    "Pershotravnevoe",
-    "Pershotravnevy"
-  ],
-  "relatedSpellings": [
-    "Першотравневое",
-    "Першотравневый"
-  ],
+  "incorrectSpellings": ["Mangush", "Pershotravneve", "Pershotravnevoe", "Pershotravnevy"],
+  "relatedSpellings": ["Першотравневое", "Першотравневый"],
   "links": [
     {
       "name": "Wikipedia: Manhush",

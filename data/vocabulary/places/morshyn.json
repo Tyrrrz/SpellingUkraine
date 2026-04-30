@@ -2,12 +2,8 @@
   "category": "City",
   "sourceSpelling": "Моршин",
   "correctSpelling": "Morshyn",
-  "incorrectSpellings": [
-    "Morshin"
-  ],
-  "relatedSpellings": [
-    "Morszyn-Zdrój"
-  ],
+  "incorrectSpellings": ["Morshin"],
+  "relatedSpellings": ["Morszyn-Zdrój"],
   "links": [
     {
       "name": "Wikipedia: Morshyn",

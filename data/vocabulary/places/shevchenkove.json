@@ -2,12 +2,8 @@
   "category": "Settlement",
   "sourceSpelling": "Шевченкове",
   "correctSpelling": "Shevchenkove",
-  "incorrectSpellings": [
-    "Shevchenkovo"
-  ],
-  "relatedSpellings": [
-    "Шевченково"
-  ],
+  "incorrectSpellings": ["Shevchenkovo"],
+  "relatedSpellings": ["Шевченково"],
   "links": [
     {
       "name": "Wikipedia: Shevchenkove",

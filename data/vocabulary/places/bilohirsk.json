@@ -2,13 +2,8 @@
   "category": "City",
   "sourceSpelling": "Білогірськ",
   "correctSpelling": "Bilohirsk",
-  "incorrectSpellings": [
-    "Belogorsk"
-  ],
-  "relatedSpellings": [
-    "Белогорск",
-    "Karasubazar"
-  ],
+  "incorrectSpellings": ["Belogorsk"],
+  "relatedSpellings": ["Белогорск", "Karasubazar"],
   "links": [
     {
       "name": "Wikipedia: Bilohirsk",

@@ -2,14 +2,8 @@
   "category": "City",
   "sourceSpelling": "Новомиколаївка",
   "correctSpelling": "Novomykolaivka",
-  "incorrectSpellings": [
-    "Novomykolayivka",
-    "Novomikolayivka",
-    "Novonikolaevka"
-  ],
-  "relatedSpellings": [
-    "Новониколаевка"
-  ],
+  "incorrectSpellings": ["Novomykolayivka", "Novomikolayivka", "Novonikolaevka"],
+  "relatedSpellings": ["Новониколаевка"],
   "links": [
     {
       "name": "Wikipedia: Novomykolaivka",

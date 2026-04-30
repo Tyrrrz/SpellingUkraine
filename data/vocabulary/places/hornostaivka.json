@@ -2,13 +2,8 @@
   "category": "City",
   "sourceSpelling": "Горностаївка",
   "correctSpelling": "Hornostaivka",
-  "incorrectSpellings": [
-    "Gornostayevka",
-    "Gornostaevka"
-  ],
-  "relatedSpellings": [
-    "Горностаевка"
-  ],
+  "incorrectSpellings": ["Gornostayevka", "Gornostaevka"],
+  "relatedSpellings": ["Горностаевка"],
   "links": [
     {
       "name": "Wikipedia: Hornostaivka",

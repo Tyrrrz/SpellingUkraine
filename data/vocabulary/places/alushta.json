@@ -2,9 +2,7 @@
   "category": "City",
   "sourceSpelling": "Алушта",
   "correctSpelling": "Alushta",
-  "incorrectSpellings": [
-    "Alusta"
-  ],
+  "incorrectSpellings": ["Alusta"],
   "relatedSpellings": [],
   "links": [
     {

@@ -2,13 +2,8 @@
   "category": "City",
   "sourceSpelling": "Ланчин",
   "correctSpelling": "Lanchyn",
-  "incorrectSpellings": [
-    "Lanchin"
-  ],
-  "relatedSpellings": [
-    "Łanczyn",
-    "Lanciîn"
-  ],
+  "incorrectSpellings": ["Lanchin"],
+  "relatedSpellings": ["Łanczyn", "Lanciîn"],
   "links": [
     {
       "name": "Wikipedia: Lanchyn",

@@ -2,14 +2,8 @@
   "category": "City",
   "sourceSpelling": "Дубровиця",
   "correctSpelling": "Dubrovytsia",
-  "incorrectSpellings": [
-    "Dubrovitsya",
-    "Dubrovytsya"
-  ],
-  "relatedSpellings": [
-    "Дубровица",
-    "Dąbrowica"
-  ],
+  "incorrectSpellings": ["Dubrovitsya", "Dubrovytsya"],
+  "relatedSpellings": ["Дубровица", "Dąbrowica"],
   "links": [
     {
       "name": "Wikipedia: Dubrovytsia",

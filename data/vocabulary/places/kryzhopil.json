@@ -2,12 +2,8 @@
   "category": "City",
   "sourceSpelling": "Крижопіль",
   "correctSpelling": "Kryzhopil",
-  "incorrectSpellings": [
-    "Kryzhopol"
-  ],
-  "relatedSpellings": [
-    "Крыжополь"
-  ],
+  "incorrectSpellings": ["Kryzhopol"],
+  "relatedSpellings": ["Крыжополь"],
   "links": [
     {
       "name": "Wikipedia: Kryzhopil",

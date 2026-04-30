@@ -2,14 +2,8 @@
   "category": "City",
   "sourceSpelling": "Летичів",
   "correctSpelling": "Letychiv",
-  "incorrectSpellings": [
-    "Letichev",
-    "Letychev"
-  ],
-  "relatedSpellings": [
-    "Летичев",
-    "Latyczów"
-  ],
+  "incorrectSpellings": ["Letichev", "Letychev"],
+  "relatedSpellings": ["Летичев", "Latyczów"],
   "links": [
     {
       "name": "Wikipedia: Letychiv",

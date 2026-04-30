@@ -2,12 +2,8 @@
   "category": "City",
   "sourceSpelling": "Тернопіль",
   "correctSpelling": "Ternopil",
-  "incorrectSpellings": [
-    "Ternopol"
-  ],
-  "relatedSpellings": [
-    "Тернополь"
-  ],
+  "incorrectSpellings": ["Ternopol"],
+  "relatedSpellings": ["Тернополь"],
   "links": [
     {
       "name": "Wikipedia: Ternopil",

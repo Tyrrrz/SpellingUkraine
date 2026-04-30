@@ -2,16 +2,8 @@
   "category": "City",
   "sourceSpelling": "Ізмаїл",
   "correctSpelling": "Izmail",
-  "incorrectSpellings": [
-    "Izmayil"
-  ],
-  "relatedSpellings": [
-    "Измаил",
-    "Исмаил",
-    "Ismail",
-    "Smil",
-    "Izmaił"
-  ],
+  "incorrectSpellings": ["Izmayil"],
+  "relatedSpellings": ["Измаил", "Исмаил", "Ismail", "Smil", "Izmaił"],
   "links": [
     {
       "name": "Wikipedia: Izmail",

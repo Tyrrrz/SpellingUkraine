@@ -2,14 +2,8 @@
   "category": "Personal name",
   "sourceSpelling": "Ганна",
   "correctSpelling": "Hanna",
-  "incorrectSpellings": [
-    "Ganna"
-  ],
-  "relatedSpellings": [
-    "Анна",
-    "Ann",
-    "Anen"
-  ],
+  "incorrectSpellings": ["Ganna"],
+  "relatedSpellings": ["Анна", "Ann", "Anen"],
   "description": "From Anne, of Hebrew origin.",
   "links": []
 }

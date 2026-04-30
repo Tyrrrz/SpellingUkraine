@@ -2,12 +2,8 @@
   "category": "City",
   "sourceSpelling": "Шаргород",
   "correctSpelling": "Sharhorod",
-  "incorrectSpellings": [
-    "Shargorod"
-  ],
-  "relatedSpellings": [
-    "Szarogród"
-  ],
+  "incorrectSpellings": ["Shargorod"],
+  "relatedSpellings": ["Szarogród"],
   "links": [
     {
       "name": "Wikipedia: Sharhorod",

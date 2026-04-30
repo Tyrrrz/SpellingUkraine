@@ -2,12 +2,8 @@
   "category": "City",
   "sourceSpelling": "Вороновиця",
   "correctSpelling": "Voronovytsia",
-  "incorrectSpellings": [
-    "Voronovitsa"
-  ],
-  "relatedSpellings": [
-    "Вороновица"
-  ],
+  "incorrectSpellings": ["Voronovitsa"],
+  "relatedSpellings": ["Вороновица"],
   "links": [
     {
       "name": "Wikipedia: Voronovytsia",

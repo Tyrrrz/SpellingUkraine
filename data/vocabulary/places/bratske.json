@@ -2,12 +2,8 @@
   "category": "City",
   "sourceSpelling": "Братське",
   "correctSpelling": "Bratske",
-  "incorrectSpellings": [
-    "Bratskoe"
-  ],
-  "relatedSpellings": [
-    "Братское"
-  ],
+  "incorrectSpellings": ["Bratskoe"],
+  "relatedSpellings": ["Братское"],
   "links": [
     {
       "name": "Wikipedia: Bratske",

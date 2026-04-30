@@ -2,12 +2,8 @@
   "category": "City",
   "sourceSpelling": "Широке",
   "correctSpelling": "Shyroke",
-  "incorrectSpellings": [
-    "Shirokoe"
-  ],
-  "relatedSpellings": [
-    "Широкое"
-  ],
+  "incorrectSpellings": ["Shirokoe"],
+  "relatedSpellings": ["Широкое"],
   "links": [
     {
       "name": "Wikipedia: Shyroke",

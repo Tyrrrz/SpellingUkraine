@@ -2,14 +2,8 @@
   "category": "City",
   "sourceSpelling": "Мирноград",
   "correctSpelling": "Myrnohrad",
-  "incorrectSpellings": [
-    "Mirnograd"
-  ],
-  "relatedSpellings": [
-    "Димитров",
-    "Dymytrov",
-    "Dimitrov"
-  ],
+  "incorrectSpellings": ["Mirnograd"],
+  "relatedSpellings": ["Димитров", "Dymytrov", "Dimitrov"],
   "description": "Renamed from \"Dymytrov\" in May 2016.",
   "links": [
     {

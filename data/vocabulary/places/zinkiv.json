@@ -2,12 +2,8 @@
   "category": "City",
   "sourceSpelling": "Зіньків",
   "correctSpelling": "Zinkiv",
-  "incorrectSpellings": [
-    "Zenkov"
-  ],
-  "relatedSpellings": [
-    "Зеньков"
-  ],
+  "incorrectSpellings": ["Zenkov"],
+  "relatedSpellings": ["Зеньков"],
   "links": [
     {
       "name": "Wikipedia: Zinkiv",

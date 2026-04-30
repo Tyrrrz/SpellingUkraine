@@ -1,12 +1,12 @@
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef, useState } from "react";
 
-type StorageKind = 'local' | 'session';
+type StorageKind = "local" | "session";
 
 const getStorage = (kind: StorageKind) => {
   switch (kind) {
-    case 'local':
+    case "local":
       return localStorage;
-    case 'session':
+    case "session":
       return sessionStorage;
   }
 };
@@ -14,7 +14,7 @@ const getStorage = (kind: StorageKind) => {
 const getStorageValue = (storage: Storage, key: string) => {
   const item = storage.getItem(key);
 
-  if (typeof item !== 'undefined' && item !== null) {
+  if (typeof item !== "undefined" && item !== null) {
     try {
       return JSON.parse(item);
     } catch {
@@ -26,7 +26,7 @@ const getStorageValue = (storage: Storage, key: string) => {
 };
 
 const setStorageValue = (storage: Storage, key: string, value: any) => {
-  if (typeof value !== 'undefined' && value !== null) {
+  if (typeof value !== "undefined" && value !== null) {
     storage.setItem(key, JSON.stringify(value));
   } else {
     storage.removeItem(key);
@@ -34,7 +34,7 @@ const setStorageValue = (storage: Storage, key: string, value: any) => {
 
   // Storage events are not triggered within the same page that modified the storage,
   // so we need to dispatch the event manually to make sure that other hooks get notified.
-  dispatchEvent(new StorageEvent('storage'));
+  dispatchEvent(new StorageEvent("storage"));
 };
 
 const useBrowserState = <T>(storageKind: StorageKind, key: string, initialState: T) => {
@@ -69,10 +69,10 @@ const useBrowserState = <T>(storageKind: StorageKind, key: string, initialState:
       setValue(getStorageValue(getStorage(storageKind), key));
     };
 
-    addEventListener('storage', onChange);
+    addEventListener("storage", onChange);
 
     return () => {
-      removeEventListener('storage', onChange);
+      removeEventListener("storage", onChange);
     };
   }, [storageKind, key]);
 

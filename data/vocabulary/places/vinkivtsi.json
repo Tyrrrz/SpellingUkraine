@@ -2,12 +2,8 @@
   "category": "City",
   "sourceSpelling": "Віньківці",
   "correctSpelling": "Vinkivtsi",
-  "incorrectSpellings": [
-    "Vinkovtsy"
-  ],
-  "relatedSpellings": [
-    "Виньковцы"
-  ],
+  "incorrectSpellings": ["Vinkovtsy"],
+  "relatedSpellings": ["Виньковцы"],
   "links": [
     {
       "name": "Wikipedia: Vinkivtsi",

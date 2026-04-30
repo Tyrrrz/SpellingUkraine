@@ -2,14 +2,8 @@
   "category": "Personal name",
   "sourceSpelling": "Пилип",
   "correctSpelling": "Pylyp",
-  "incorrectSpellings": [
-    "Philip",
-    "Filip"
-  ],
-  "relatedSpellings": [
-    "Филип",
-    "Philip"
-  ],
+  "incorrectSpellings": ["Philip", "Filip"],
+  "relatedSpellings": ["Филип", "Philip"],
   "description": "Equivalent to Philip, of Greek origin.",
   "links": []
 }

@@ -2,14 +2,8 @@
   "category": "City",
   "sourceSpelling": "Ясіня",
   "correctSpelling": "Yasinia",
-  "incorrectSpellings": [
-    "Yasinya"
-  ],
-  "relatedSpellings": [
-    "Ясиня",
-    "Körösmező",
-    "Jasiňa"
-  ],
+  "incorrectSpellings": ["Yasinya"],
+  "relatedSpellings": ["Ясиня", "Körösmező", "Jasiňa"],
   "links": [
     {
       "name": "Wikipedia: Yasinia",

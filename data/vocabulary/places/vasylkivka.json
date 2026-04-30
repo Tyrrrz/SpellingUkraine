@@ -2,12 +2,8 @@
   "category": "City",
   "sourceSpelling": "Васильківка",
   "correctSpelling": "Vasylkivka",
-  "incorrectSpellings": [
-    "Vasilkovka"
-  ],
-  "relatedSpellings": [
-    "Васильковка"
-  ],
+  "incorrectSpellings": ["Vasilkovka"],
+  "relatedSpellings": ["Васильковка"],
   "links": [
     {
       "name": "Wikipedia: Vasylkivka",

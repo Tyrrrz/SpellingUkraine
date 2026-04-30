@@ -2,16 +2,8 @@
   "category": "City",
   "sourceSpelling": "Більмак",
   "correctSpelling": "Bilmak",
-  "incorrectSpellings": [
-    "Belmak"
-  ],
-  "relatedSpellings": [
-    "Бильмак",
-    "Куйбишеве",
-    "Куйбышево",
-    "Kuibysheve",
-    "Kuibyshevo"
-  ],
+  "incorrectSpellings": ["Belmak"],
+  "relatedSpellings": ["Бильмак", "Куйбишеве", "Куйбышево", "Kuibysheve", "Kuibyshevo"],
   "description": "Renamed from \"Kuibysheve\" in May 2016.",
   "links": [
     {

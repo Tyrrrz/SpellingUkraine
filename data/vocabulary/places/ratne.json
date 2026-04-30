@@ -2,12 +2,8 @@
   "category": "City",
   "sourceSpelling": "Ратне",
   "correctSpelling": "Ratne",
-  "incorrectSpellings": [
-    "Ratno"
-  ],
-  "relatedSpellings": [
-    "Ратно"
-  ],
+  "incorrectSpellings": ["Ratno"],
+  "relatedSpellings": ["Ратно"],
   "links": [
     {
       "name": "Wikipedia: Ratne",

@@ -2,13 +2,8 @@
   "category": "City",
   "sourceSpelling": "Самбір",
   "correctSpelling": "Sambir",
-  "incorrectSpellings": [
-    "Sambor"
-  ],
-  "relatedSpellings": [
-    "Самбор",
-    "Sambor"
-  ],
+  "incorrectSpellings": ["Sambor"],
+  "relatedSpellings": ["Самбор", "Sambor"],
   "links": [
     {
       "name": "Wikipedia: Sambir",

@@ -2,12 +2,8 @@
   "category": "City",
   "sourceSpelling": "Макарів",
   "correctSpelling": "Makariv",
-  "incorrectSpellings": [
-    "Makarov"
-  ],
-  "relatedSpellings": [
-    "Макаров"
-  ],
+  "incorrectSpellings": ["Makarov"],
+  "relatedSpellings": ["Макаров"],
   "links": [
     {
       "name": "Wikipedia: Makariv",

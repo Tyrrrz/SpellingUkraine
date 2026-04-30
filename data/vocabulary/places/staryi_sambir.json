@@ -2,15 +2,8 @@
   "category": "City",
   "sourceSpelling": "Старий Самбір",
   "correctSpelling": "Staryi Sambir",
-  "incorrectSpellings": [
-    "Staryi Sambor"
-  ],
-  "relatedSpellings": [
-    "Старый Самбор",
-    "Stary Sambor",
-    "Staremiasto",
-    "Stare Miasto"
-  ],
+  "incorrectSpellings": ["Staryi Sambor"],
+  "relatedSpellings": ["Старый Самбор", "Stary Sambor", "Staremiasto", "Stare Miasto"],
   "links": [
     {
       "name": "Wikipedia: Staryi Sambir",

@@ -2,14 +2,8 @@
   "category": "City",
   "sourceSpelling": "Дрогобич",
   "correctSpelling": "Drohobych",
-  "incorrectSpellings": [
-    "Drogobych",
-    "Drogobich"
-  ],
-  "relatedSpellings": [
-    "Дрогобыч",
-    "Drohobycz"
-  ],
+  "incorrectSpellings": ["Drogobych", "Drogobich"],
+  "relatedSpellings": ["Дрогобыч", "Drohobycz"],
   "links": [
     {
       "name": "Wikipedia: Drohobych",

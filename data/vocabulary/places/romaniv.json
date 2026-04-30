@@ -2,18 +2,8 @@
   "category": "City",
   "sourceSpelling": "Романів",
   "correctSpelling": "Romaniv",
-  "incorrectSpellings": [
-    "Romanov",
-    "Romanof"
-  ],
-  "relatedSpellings": [
-    "Романов",
-    "Romanów",
-    "Дзержинськ",
-    "Дзержи́нск",
-    "Dzerzhynsk",
-    "Dzierżyńsk"
-  ],
+  "incorrectSpellings": ["Romanov", "Romanof"],
+  "relatedSpellings": ["Романов", "Romanów", "Дзержинськ", "Дзержи́нск", "Dzerzhynsk", "Dzierżyńsk"],
   "description": "Renamed from \"Dzerzhynsk\".",
   "links": [
     {

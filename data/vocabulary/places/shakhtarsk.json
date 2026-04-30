@@ -2,12 +2,8 @@
   "category": "City",
   "sourceSpelling": "Шахтарськ",
   "correctSpelling": "Shakhtarsk",
-  "incorrectSpellings": [
-    "Shakhtyorsk"
-  ],
-  "relatedSpellings": [
-    "Шахтёрск"
-  ],
+  "incorrectSpellings": ["Shakhtyorsk"],
+  "relatedSpellings": ["Шахтёрск"],
   "links": [
     {
       "name": "Wikipedia: Shakhtarsk",

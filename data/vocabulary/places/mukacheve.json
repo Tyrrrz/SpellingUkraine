@@ -2,18 +2,8 @@
   "category": "City",
   "sourceSpelling": "Мукачеве",
   "correctSpelling": "Mukacheve",
-  "incorrectSpellings": [
-    "Mukachev",
-    "Mukachevo"
-  ],
-  "relatedSpellings": [
-    "Мукачево",
-    "Mukaczewo",
-    "Muncaciu",
-    "Munkács",
-    "Mukačevo",
-    "Munkatsch"
-  ],
+  "incorrectSpellings": ["Mukachev", "Mukachevo"],
+  "relatedSpellings": ["Мукачево", "Mukaczewo", "Muncaciu", "Munkács", "Mukačevo", "Munkatsch"],
   "links": [
     {
       "name": "Wikipedia: Mukacheve",

@@ -2,12 +2,8 @@
   "category": "City",
   "sourceSpelling": "Гвардійське",
   "correctSpelling": "Hvardiiske",
-  "incorrectSpellings": [
-    "Hvardiyske"
-  ],
-  "relatedSpellings": [
-    "Гвардейское"
-  ],
+  "incorrectSpellings": ["Hvardiyske"],
+  "relatedSpellings": ["Гвардейское"],
   "links": [
     {
       "name": "Wikipedia: Hvardiiske",

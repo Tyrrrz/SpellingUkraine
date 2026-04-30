@@ -2,13 +2,8 @@
   "category": "City",
   "sourceSpelling": "Криве Озеро",
   "correctSpelling": "Kryve Ozero",
-  "incorrectSpellings": [
-    "Krivoe Ozero",
-    "Krivoye Ozero"
-  ],
-  "relatedSpellings": [
-    "Кривое Озеро"
-  ],
+  "incorrectSpellings": ["Krivoe Ozero", "Krivoye Ozero"],
+  "relatedSpellings": ["Кривое Озеро"],
   "links": [
     {
       "name": "Wikipedia: Kryve Ozero",

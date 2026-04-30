@@ -2,17 +2,8 @@
   "category": "City",
   "sourceSpelling": "Пологи",
   "correctSpelling": "Polohy",
-  "incorrectSpellings": [
-    "Polohi",
-    "Pologi",
-    "Pology"
-  ],
-  "relatedSpellings": [
-    "Чубарівка",
-    "Чубаровка",
-    "Chubarivka",
-    "Chubarovka"
-  ],
+  "incorrectSpellings": ["Polohi", "Pologi", "Pology"],
+  "relatedSpellings": ["Чубарівка", "Чубаровка", "Chubarivka", "Chubarovka"],
   "description": "Renamed from \"Chubarivka\" in 1937.",
   "links": [
     {

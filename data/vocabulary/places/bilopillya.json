@@ -2,12 +2,8 @@
   "category": "City",
   "sourceSpelling": "Білопілля",
   "correctSpelling": "Bilopillya",
-  "incorrectSpellings": [
-    "Belopolye"
-  ],
-  "relatedSpellings": [
-    "Белополье"
-  ],
+  "incorrectSpellings": ["Belopolye"],
+  "relatedSpellings": ["Белополье"],
   "links": [
     {
       "name": "Wikipedia: Bilopillya",

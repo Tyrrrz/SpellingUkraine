@@ -2,13 +2,8 @@
   "category": "City",
   "sourceSpelling": "Яворів",
   "correctSpelling": "Yavoriv",
-  "incorrectSpellings": [
-    "Yavorov"
-  ],
-  "relatedSpellings": [
-    "Яворов",
-    "Jaworów"
-  ],
+  "incorrectSpellings": ["Yavorov"],
+  "relatedSpellings": ["Яворов", "Jaworów"],
   "links": [
     {
       "name": "Wikipedia: Yavoriv",

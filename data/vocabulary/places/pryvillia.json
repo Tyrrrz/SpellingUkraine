@@ -2,13 +2,8 @@
   "category": "City",
   "sourceSpelling": "Привілля",
   "correctSpelling": "Pryvillia",
-  "incorrectSpellings": [
-    "Privolie",
-    "Privolye"
-  ],
-  "relatedSpellings": [
-    "Приволье"
-  ],
+  "incorrectSpellings": ["Privolie", "Privolye"],
+  "relatedSpellings": ["Приволье"],
   "links": [
     {
       "name": "Wikipedia: Pryvillia",

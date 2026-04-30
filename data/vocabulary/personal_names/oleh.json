@@ -2,12 +2,8 @@
   "category": "Personal name",
   "sourceSpelling": "Олег",
   "correctSpelling": "Oleh",
-  "incorrectSpellings": [
-    "Oleg"
-  ],
-  "relatedSpellings": [
-    "Helge"
-  ],
+  "incorrectSpellings": ["Oleg"],
+  "relatedSpellings": ["Helge"],
   "description": "Equivalent to Helge, of Varangian origin.",
   "links": []
 }

@@ -2,20 +2,8 @@
   "category": "Personal name",
   "sourceSpelling": "Олексій",
   "correctSpelling": "Oleksii",
-  "incorrectSpellings": [
-    "Oleksiy",
-    "Olexiy",
-    "Alexey",
-    "Alexei",
-    "Aleksey"
-  ],
-  "relatedSpellings": [
-    "Алексей",
-    "Льоша",
-    "Лёша",
-    "Lyosha",
-    "Alexis"
-  ],
+  "incorrectSpellings": ["Oleksiy", "Olexiy", "Alexey", "Alexei", "Aleksey"],
+  "relatedSpellings": ["Алексей", "Льоша", "Лёша", "Lyosha", "Alexis"],
   "transcription": "Olekseey",
   "description": "Equivalent to Alexis, of Greek origin.",
   "links": []

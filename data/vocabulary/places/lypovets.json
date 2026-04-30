@@ -2,12 +2,8 @@
   "category": "City",
   "sourceSpelling": "Липовець",
   "correctSpelling": "Lypovets",
-  "incorrectSpellings": [
-    "Lipovets"
-  ],
-  "relatedSpellings": [
-    "Липовец"
-  ],
+  "incorrectSpellings": ["Lipovets"],
+  "relatedSpellings": ["Липовец"],
   "links": [
     {
       "name": "Wikipedia: Lypovets",

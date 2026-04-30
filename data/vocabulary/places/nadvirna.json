@@ -2,15 +2,8 @@
   "category": "City",
   "sourceSpelling": "Надвірна",
   "correctSpelling": "Nadvirna",
-  "incorrectSpellings": [
-    "Nadvorna",
-    "Nadvornaya",
-    "Nadwirna"
-  ],
-  "relatedSpellings": [
-    "Надворная",
-    "Nadworna"
-  ],
+  "incorrectSpellings": ["Nadvorna", "Nadvornaya", "Nadwirna"],
+  "relatedSpellings": ["Надворная", "Nadworna"],
   "links": [
     {
       "name": "Wikipedia: Nadvirna",

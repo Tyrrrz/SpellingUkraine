@@ -2,13 +2,8 @@
   "category": "City",
   "sourceSpelling": "Ширяєве",
   "correctSpelling": "Shyriaieve",
-  "incorrectSpellings": [
-    "Shiriaievo",
-    "Shiryaevo"
-  ],
-  "relatedSpellings": [
-    "Ширяево"
-  ],
+  "incorrectSpellings": ["Shiriaievo", "Shiryaevo"],
+  "relatedSpellings": ["Ширяево"],
   "links": [
     {
       "name": "Wikipedia: Shyriaieve",

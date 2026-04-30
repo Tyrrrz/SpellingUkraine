@@ -2,14 +2,8 @@
   "category": "City",
   "sourceSpelling": "Коростишів",
   "correctSpelling": "Korostyshiv",
-  "incorrectSpellings": [
-    "Korostyshov",
-    "Korostishov"
-  ],
-  "relatedSpellings": [
-    "Коростышов",
-    "Korosteszów"
-  ],
+  "incorrectSpellings": ["Korostyshov", "Korostishov"],
+  "relatedSpellings": ["Коростышов", "Korosteszów"],
   "links": [
     {
       "name": "Wikipedia: Korostyshiv",

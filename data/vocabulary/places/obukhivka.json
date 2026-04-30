@@ -2,12 +2,8 @@
   "category": "City",
   "sourceSpelling": "Обухівка",
   "correctSpelling": "Obukhivka",
-  "incorrectSpellings": [
-    "Obukhovka"
-  ],
-  "relatedSpellings": [
-    "Обуховка"
-  ],
+  "incorrectSpellings": ["Obukhovka"],
+  "relatedSpellings": ["Обуховка"],
   "links": [
     {
       "name": "Wikipedia: Obukhivka",

@@ -2,13 +2,8 @@
   "category": "City",
   "sourceSpelling": "Миронівка",
   "correctSpelling": "Myronivka",
-  "incorrectSpellings": [
-    "Myronovka",
-    "Mironovka"
-  ],
-  "relatedSpellings": [
-    "Мироновка"
-  ],
+  "incorrectSpellings": ["Myronovka", "Mironovka"],
+  "relatedSpellings": ["Мироновка"],
   "links": [
     {
       "name": "Wikipedia: Myronivka",

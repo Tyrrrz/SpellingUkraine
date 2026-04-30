@@ -2,12 +2,8 @@
   "category": "City",
   "sourceSpelling": "Білозерка",
   "correctSpelling": "Bilozerka",
-  "incorrectSpellings": [
-    "Belozerka"
-  ],
-  "relatedSpellings": [
-    "Белозерка"
-  ],
+  "incorrectSpellings": ["Belozerka"],
+  "relatedSpellings": ["Белозерка"],
   "links": [
     {
       "name": "Wikipedia: Bilozerka",

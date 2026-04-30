@@ -2,14 +2,8 @@
   "category": "City",
   "sourceSpelling": "Снятин",
   "correctSpelling": "Sniatyn",
-  "incorrectSpellings": [
-    "Snyatyn"
-  ],
-  "relatedSpellings": [
-    "Снятын",
-    "Śniatyn",
-    "Sneatîn"
-  ],
+  "incorrectSpellings": ["Snyatyn"],
+  "relatedSpellings": ["Снятын", "Śniatyn", "Sneatîn"],
   "links": [
     {
       "name": "Wikipedia: Sniatyn",

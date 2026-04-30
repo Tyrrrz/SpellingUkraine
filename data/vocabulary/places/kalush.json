@@ -2,12 +2,8 @@
   "category": "City",
   "sourceSpelling": "Калуш",
   "correctSpelling": "Kalush",
-  "incorrectSpellings": [
-    "Kaluzh"
-  ],
-  "relatedSpellings": [
-    "Kałusz"
-  ],
+  "incorrectSpellings": ["Kaluzh"],
+  "relatedSpellings": ["Kałusz"],
   "links": [
     {
       "name": "Wikipedia: Kalush",

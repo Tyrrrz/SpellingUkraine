@@ -2,9 +2,7 @@
   "category": "City",
   "sourceSpelling": "Ужгород",
   "correctSpelling": "Uzhhorod",
-  "incorrectSpellings": [
-    "Uzhgorod"
-  ],
+  "incorrectSpellings": ["Uzhgorod"],
   "relatedSpellings": [],
   "links": [
     {

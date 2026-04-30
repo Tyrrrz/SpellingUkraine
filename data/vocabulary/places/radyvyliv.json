@@ -2,12 +2,8 @@
   "category": "City",
   "sourceSpelling": "Радивилів",
   "correctSpelling": "Radyvyliv",
-  "incorrectSpellings": [
-    "Radivilov"
-  ],
-  "relatedSpellings": [
-    "Радивилов"
-  ],
+  "incorrectSpellings": ["Radivilov"],
+  "relatedSpellings": ["Радивилов"],
   "links": [
     {
       "name": "Wikipedia: Radyvyliv",

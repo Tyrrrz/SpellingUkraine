@@ -2,15 +2,8 @@
   "category": "City",
   "sourceSpelling": "Любешів",
   "correctSpelling": "Liubeshiv",
-  "incorrectSpellings": [
-    "Liubeshov",
-    "Lyubeshov"
-  ],
-  "relatedSpellings": [
-    "Любешов",
-    "Lubieszów",
-    "Любяшоў"
-  ],
+  "incorrectSpellings": ["Liubeshov", "Lyubeshov"],
+  "relatedSpellings": ["Любешов", "Lubieszów", "Любяшоў"],
   "links": [
     {
       "name": "Wikipedia: Liubeshiv",

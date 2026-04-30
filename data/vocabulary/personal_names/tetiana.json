@@ -2,16 +2,8 @@
   "category": "Personal name",
   "sourceSpelling": "Тетяна",
   "correctSpelling": "Tetiana",
-  "incorrectSpellings": [
-    "Tetyana",
-    "Tatyana",
-    "Tatiana"
-  ],
-  "relatedSpellings": [
-    "Татьяна",
-    "Таня",
-    "Tania"
-  ],
+  "incorrectSpellings": ["Tetyana", "Tatyana", "Tatiana"],
+  "relatedSpellings": ["Татьяна", "Таня", "Tania"],
   "description": "Of Latin origin.",
   "links": []
 }

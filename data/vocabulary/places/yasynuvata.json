@@ -2,12 +2,8 @@
   "category": "City",
   "sourceSpelling": "Ясинувата",
   "correctSpelling": "Yasynuvata",
-  "incorrectSpellings": [
-    "Yasinovataya"
-  ],
-  "relatedSpellings": [
-    "Ясиноватая"
-  ],
+  "incorrectSpellings": ["Yasinovataya"],
+  "relatedSpellings": ["Ясиноватая"],
   "links": [
     {
       "name": "Wikipedia: Yasynuvata",

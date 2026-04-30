@@ -2,13 +2,8 @@
   "category": "City",
   "sourceSpelling": "Дніпровське",
   "correctSpelling": "Dniprovske",
-  "incorrectSpellings": [
-    "Dnieprovskoe",
-    "Dneprovskoye"
-  ],
-  "relatedSpellings": [
-    "Днепровское"
-  ],
+  "incorrectSpellings": ["Dnieprovskoe", "Dneprovskoye"],
+  "relatedSpellings": ["Днепровское"],
   "links": [
     {
       "name": "Wikipedia: Dniprovske",

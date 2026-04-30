@@ -2,12 +2,8 @@
   "category": "Personal name",
   "sourceSpelling": "Оксана",
   "correctSpelling": "Oksana",
-  "incorrectSpellings": [
-    "Oxana"
-  ],
-  "relatedSpellings": [
-    "Xenia"
-  ],
+  "incorrectSpellings": ["Oxana"],
+  "relatedSpellings": ["Xenia"],
   "description": "From Xenia, of Greek origin. The form Oksana is most common.",
   "links": []
 }

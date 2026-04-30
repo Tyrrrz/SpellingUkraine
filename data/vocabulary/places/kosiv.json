@@ -2,13 +2,8 @@
   "category": "City",
   "sourceSpelling": "Косів",
   "correctSpelling": "Kosiv",
-  "incorrectSpellings": [
-    "Kosov"
-  ],
-  "relatedSpellings": [
-    "Косов",
-    "Kosiw"
-  ],
+  "incorrectSpellings": ["Kosov"],
+  "relatedSpellings": ["Косов", "Kosiw"],
   "links": [
     {
       "name": "Wikipedia: Kosiv",

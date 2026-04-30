@@ -2,12 +2,8 @@
   "category": "City",
   "sourceSpelling": "Борислав",
   "correctSpelling": "Boryslav",
-  "incorrectSpellings": [
-    "Borislav"
-  ],
-  "relatedSpellings": [
-    "Borysław"
-  ],
+  "incorrectSpellings": ["Borislav"],
+  "relatedSpellings": ["Borysław"],
   "links": [
     {
       "name": "Wikipedia: Boryslav",

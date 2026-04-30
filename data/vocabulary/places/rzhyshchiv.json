@@ -2,14 +2,8 @@
   "category": "City",
   "sourceSpelling": "Ржищів",
   "correctSpelling": "Rzhyshchiv",
-  "incorrectSpellings": [
-    "Rzhyshchev",
-    "Rzhishchev"
-  ],
-  "relatedSpellings": [
-    "Ржищев",
-    "Rzyszczów"
-  ],
+  "incorrectSpellings": ["Rzhyshchev", "Rzhishchev"],
+  "relatedSpellings": ["Ржищев", "Rzyszczów"],
   "links": [
     {
       "name": "Wikipedia: Rzhyshchiv",

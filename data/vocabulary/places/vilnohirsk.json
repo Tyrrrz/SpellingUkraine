@@ -2,13 +2,8 @@
   "category": "City",
   "sourceSpelling": "Вільногірськ",
   "correctSpelling": "Vilnohirsk",
-  "incorrectSpellings": [
-    "Vilnogirsk",
-    "Volnogorsk"
-  ],
-  "relatedSpellings": [
-    "Вольногорск"
-  ],
+  "incorrectSpellings": ["Vilnogirsk", "Volnogorsk"],
+  "relatedSpellings": ["Вольногорск"],
   "links": [
     {
       "name": "Wikipedia: Vilnohirsk",

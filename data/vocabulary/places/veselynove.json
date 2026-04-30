@@ -2,12 +2,8 @@
   "category": "City",
   "sourceSpelling": "Веселинове",
   "correctSpelling": "Veselynove",
-  "incorrectSpellings": [
-    "Veselinovo"
-  ],
-  "relatedSpellings": [
-    "Веселиново"
-  ],
+  "incorrectSpellings": ["Veselinovo"],
+  "relatedSpellings": ["Веселиново"],
   "links": [
     {
       "name": "Wikipedia: Veselynove",

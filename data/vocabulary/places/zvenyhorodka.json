@@ -2,14 +2,8 @@
   "category": "City",
   "sourceSpelling": "Звенигородка",
   "correctSpelling": "Zvenyhorodka",
-  "incorrectSpellings": [
-    "Zvenygorodka",
-    "Zvenigorodka"
-  ],
-  "relatedSpellings": [
-    "Звенигородка",
-    "Zwinogródka"
-  ],
+  "incorrectSpellings": ["Zvenygorodka", "Zvenigorodka"],
+  "relatedSpellings": ["Звенигородка", "Zwinogródka"],
   "links": [
     {
       "name": "Wikipedia: Zvenyhorodka",

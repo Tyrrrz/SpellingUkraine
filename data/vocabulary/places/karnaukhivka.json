@@ -2,12 +2,8 @@
   "category": "City",
   "sourceSpelling": "Карнаухівка",
   "correctSpelling": "Karnaukhivka",
-  "incorrectSpellings": [
-    "Karnukhovka"
-  ],
-  "relatedSpellings": [
-    "Карнауховка"
-  ],
+  "incorrectSpellings": ["Karnukhovka"],
+  "relatedSpellings": ["Карнауховка"],
   "links": [
     {
       "name": "Wikipedia: Karnaukhivka",

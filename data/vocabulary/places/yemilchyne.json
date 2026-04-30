@@ -2,12 +2,8 @@
   "category": "City",
   "sourceSpelling": "Ємільчине",
   "correctSpelling": "Yemilchyne",
-  "incorrectSpellings": [
-    "Yemilchino"
-  ],
-  "relatedSpellings": [
-    "Емильчино"
-  ],
+  "incorrectSpellings": ["Yemilchino"],
+  "relatedSpellings": ["Емильчино"],
   "links": [
     {
       "name": "Wikipedia: Yemilchyne",

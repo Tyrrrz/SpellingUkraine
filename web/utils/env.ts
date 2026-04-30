@@ -3,13 +3,13 @@ export const getEnvironment = () => {
 };
 
 export const isProduction = () => {
-  return getEnvironment() === 'production';
+  return getEnvironment() === "production";
 };
 
 export const getBuildId = () => process.env.BUILD_ID;
 
 export const getSiteUrl = (path?: string) => {
-  const value = process.env.SITE_URL || 'http://localhost:3000';
+  const value = process.env.SITE_URL || "http://localhost:3000";
 
   if (path) {
     return new URL(path, value).toString();

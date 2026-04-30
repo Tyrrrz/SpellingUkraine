@@ -2,17 +2,8 @@
   "category": "Personal name",
   "sourceSpelling": "Юлія",
   "correctSpelling": "Yuliia",
-  "incorrectSpellings": [
-    "Yuliya",
-    "Yulya"
-  ],
-  "relatedSpellings": [
-    "Юлия",
-    "Юля",
-    "Yulia",
-    "Julia",
-    "Julie"
-  ],
+  "incorrectSpellings": ["Yuliya", "Yulya"],
+  "relatedSpellings": ["Юлия", "Юля", "Yulia", "Julia", "Julie"],
   "description": "Equivalent to Julia and Julie, of Latin origin.",
   "links": []
 }

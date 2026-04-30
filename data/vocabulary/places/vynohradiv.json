@@ -2,15 +2,8 @@
   "category": "City",
   "sourceSpelling": "Виноградів",
   "correctSpelling": "Vynohradiv",
-  "incorrectSpellings": [
-    "Vinogradov"
-  ],
-  "relatedSpellings": [
-    "Виноградов",
-    "Nagyszőlős",
-    "Seleușu Mare",
-    "Vinohradov"
-  ],
+  "incorrectSpellings": ["Vinogradov"],
+  "relatedSpellings": ["Виноградов", "Nagyszőlős", "Seleușu Mare", "Vinohradov"],
   "links": [
     {
       "name": "Wikipedia: Vynohradiv",

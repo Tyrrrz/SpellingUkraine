@@ -2,12 +2,8 @@
   "category": "City",
   "sourceSpelling": "Сватове",
   "correctSpelling": "Svatove",
-  "incorrectSpellings": [
-    "Svatovo"
-  ],
-  "relatedSpellings": [
-    "Сватово"
-  ],
+  "incorrectSpellings": ["Svatovo"],
+  "relatedSpellings": ["Сватово"],
   "links": [
     {
       "name": "Wikipedia: Svatove",

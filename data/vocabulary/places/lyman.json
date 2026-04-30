@@ -2,15 +2,8 @@
   "category": "City",
   "sourceSpelling": "Лиман",
   "correctSpelling": "Lyman",
-  "incorrectSpellings": [
-    "Liman"
-  ],
-  "relatedSpellings": [
-    "Лыман",
-    "Красний Лиман",
-    "Красный Лыман",
-    "Krasnyi Lyman"
-  ],
+  "incorrectSpellings": ["Liman"],
+  "relatedSpellings": ["Лыман", "Красний Лиман", "Красный Лыман", "Krasnyi Lyman"],
   "description": "Renamed from \"Krasnyi Lyman\" in 2015.",
   "links": [
     {

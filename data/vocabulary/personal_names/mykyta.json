@@ -2,13 +2,8 @@
   "category": "Personal name",
   "sourceSpelling": "Микита",
   "correctSpelling": "Mykyta",
-  "incorrectSpellings": [
-    "Nikita"
-  ],
-  "relatedSpellings": [
-    "Никита",
-    "Nicetas"
-  ],
+  "incorrectSpellings": ["Nikita"],
+  "relatedSpellings": ["Никита", "Nicetas"],
   "description": "Equivalent to Nikita, from Nicetas, of Greek origin.",
   "links": []
 }

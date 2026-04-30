@@ -2,13 +2,8 @@
   "category": "City",
   "sourceSpelling": "Кагарлик",
   "correctSpelling": "Kaharlyk",
-  "incorrectSpellings": [
-    "Kagarlyk",
-    "Kagarlik"
-  ],
-  "relatedSpellings": [
-    "Кагарлык"
-  ],
+  "incorrectSpellings": ["Kagarlyk", "Kagarlik"],
+  "relatedSpellings": ["Кагарлык"],
   "links": [
     {
       "name": "Wikipedia: Kaharlyk",

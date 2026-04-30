@@ -2,13 +2,8 @@
   "category": "City",
   "sourceSpelling": "Жовті Води",
   "correctSpelling": "Zhovti Vody",
-  "incorrectSpellings": [
-    "Zheltie Vody",
-    "Zheltye Vody"
-  ],
-  "relatedSpellings": [
-    "Жёлтые Воды"
-  ],
+  "incorrectSpellings": ["Zheltie Vody", "Zheltye Vody"],
+  "relatedSpellings": ["Жёлтые Воды"],
   "links": [
     {
       "name": "Wikipedia: Zhovti Vody",

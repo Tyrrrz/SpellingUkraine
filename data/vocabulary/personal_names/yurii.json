@@ -2,13 +2,8 @@
   "category": "Personal name",
   "sourceSpelling": "Юрій",
   "correctSpelling": "Yurii",
-  "incorrectSpellings": [
-    "Yuriy"
-  ],
-  "relatedSpellings": [
-    "Юрий",
-    "George"
-  ],
+  "incorrectSpellings": ["Yuriy"],
+  "relatedSpellings": ["Юрий", "George"],
   "description": "Equivalent to George, of Greek origin.",
   "links": []
 }

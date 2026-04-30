@@ -2,15 +2,8 @@
   "category": "City",
   "sourceSpelling": "Погребище",
   "correctSpelling": "Pohrebyshche",
-  "incorrectSpellings": [
-    "Pogrebysche",
-    "Pogrebische",
-    "Pohrebische"
-  ],
-  "relatedSpellings": [
-    "Погребыще",
-    "Рокитня"
-  ],
+  "incorrectSpellings": ["Pogrebysche", "Pogrebische", "Pohrebische"],
+  "relatedSpellings": ["Погребыще", "Рокитня"],
   "links": [
     {
       "name": "Wikipedia: Pohrebyshche",

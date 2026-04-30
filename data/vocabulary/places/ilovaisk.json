@@ -2,14 +2,8 @@
   "category": "City",
   "sourceSpelling": "Іловайськ",
   "correctSpelling": "Ilovaisk",
-  "incorrectSpellings": [
-    "Ilovaysk",
-    "Illovaisk",
-    "Illovaysk"
-  ],
-  "relatedSpellings": [
-    "Иловайск"
-  ],
+  "incorrectSpellings": ["Ilovaysk", "Illovaisk", "Illovaysk"],
+  "relatedSpellings": ["Иловайск"],
   "links": [
     {
       "name": "Wikipedia: Ilovaisk",

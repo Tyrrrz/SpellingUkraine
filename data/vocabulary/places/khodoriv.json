@@ -2,13 +2,8 @@
   "category": "City",
   "sourceSpelling": "Ходорів",
   "correctSpelling": "Khodoriv",
-  "incorrectSpellings": [
-    "Khodorov"
-  ],
-  "relatedSpellings": [
-    "Ходоров",
-    "Chodorów"
-  ],
+  "incorrectSpellings": ["Khodorov"],
+  "relatedSpellings": ["Ходоров", "Chodorów"],
   "links": [
     {
       "name": "Wikipedia: Khodoriv",

@@ -1,5 +1,5 @@
-import { TwitterApi } from 'twitter-api-v2';
-import { getTwitterCredentials } from '~/utils/env';
+import { TwitterApi } from "twitter-api-v2";
+import { getTwitterCredentials } from "~/utils/env";
 
 type User = {
   id: string;
@@ -25,7 +25,7 @@ export const getMe = async () => {
 
   const user: User = {
     id: data.id,
-    name: data.username
+    name: data.username,
   };
 
   return user;
@@ -37,15 +37,15 @@ export const listen = async (filter: string, callback: (tweet: Tweet) => Promise
   if (rules.data && rules.data.length > 0) {
     await twitterApp.updateStreamRules({
       delete: {
-        ids: rules.data.map((rule) => rule.id)
-      }
+        ids: rules.data.map((rule) => rule.id),
+      },
     });
   }
 
   await twitterApp.updateStreamRules({ add: [{ value: filter }] });
 
   const stream = await twitterApp.searchStream({
-    autoConnect: true
+    autoConnect: true,
   });
 
   stream.autoReconnect = true;
@@ -54,7 +54,7 @@ export const listen = async (filter: string, callback: (tweet: Tweet) => Promise
     await callback({
       id: data.id,
       url: getTweetUrl(data.id),
-      text: data.text
+      text: data.text,
     });
   }
 };
@@ -65,7 +65,7 @@ export const reply = async (tweet: Tweet, text: string) => {
   const reply: Tweet = {
     id: data.id,
     url: getTweetUrl(data.id),
-    text: data.text
+    text: data.text,
   };
 
   return reply;

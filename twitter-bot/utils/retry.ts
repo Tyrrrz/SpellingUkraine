@@ -1,9 +1,9 @@
-import { delay } from '~/utils/promise';
+import { delay } from "~/utils/promise";
 
 export const retry = async <T>(
   fn: () => Promise<T>,
   retries: number,
-  delayMs: number
+  delayMs: number,
 ): Promise<T> => {
   try {
     return await fn();

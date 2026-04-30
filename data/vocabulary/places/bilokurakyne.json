@@ -2,12 +2,8 @@
   "category": "City",
   "sourceSpelling": "Білокуракине",
   "correctSpelling": "Bilokurakyne",
-  "incorrectSpellings": [
-    "Belokurakino"
-  ],
-  "relatedSpellings": [
-    "Белокуракино"
-  ],
+  "incorrectSpellings": ["Belokurakino"],
+  "relatedSpellings": ["Белокуракино"],
   "links": [
     {
       "name": "Wikipedia: Bilokurakyne",

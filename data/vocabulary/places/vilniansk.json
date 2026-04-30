@@ -2,13 +2,8 @@
   "category": "City",
   "sourceSpelling": "Вільнянськ",
   "correctSpelling": "Vilniansk",
-  "incorrectSpellings": [
-    "Vilnyansk",
-    "Volnyansk"
-  ],
-  "relatedSpellings": [
-    "Вольнянск"
-  ],
+  "incorrectSpellings": ["Vilnyansk", "Volnyansk"],
+  "relatedSpellings": ["Вольнянск"],
   "links": [
     {
       "name": "Wikipedia: Vilniansk",

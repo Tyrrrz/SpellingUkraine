@@ -2,12 +2,8 @@
   "category": "City",
   "sourceSpelling": "Червонохригорівка",
   "correctSpelling": "Chervonohryhorivka",
-  "incorrectSpellings": [
-    "Chervonogrigorovka"
-  ],
-  "relatedSpellings": [
-    "Червоногригоровка"
-  ],
+  "incorrectSpellings": ["Chervonogrigorovka"],
+  "relatedSpellings": ["Червоногригоровка"],
   "links": [
     {
       "name": "Wikipedia: Chervonohryhorivka",

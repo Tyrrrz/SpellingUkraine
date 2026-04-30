@@ -2,16 +2,8 @@
   "category": "City",
   "sourceSpelling": "Горішні Плавні",
   "correctSpelling": "Horishni Plavni",
-  "incorrectSpellings": [
-    "Gorishni Plavni",
-    "Gorishnie Plavni"
-  ],
-  "relatedSpellings": [
-    "Горишние Плавни",
-    "Комсомольськ",
-    "Комсомольск",
-    "Komsomolsk"
-  ],
+  "incorrectSpellings": ["Gorishni Plavni", "Gorishnie Plavni"],
+  "relatedSpellings": ["Горишние Плавни", "Комсомольськ", "Комсомольск", "Komsomolsk"],
   "description": "Renamed from \"Komsomolsk\" in May 2016.",
   "links": [
     {

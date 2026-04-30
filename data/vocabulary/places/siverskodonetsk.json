@@ -2,10 +2,7 @@
   "category": "City",
   "sourceSpelling": "Сіверськодонецьк",
   "correctSpelling": "Siverskodonetsk",
-  "incorrectSpellings": [
-    "Severskodonetsk",
-    "Severodonetsk"
-  ],
+  "incorrectSpellings": ["Severskodonetsk", "Severodonetsk"],
   "relatedSpellings": [
     "Северскодонецк",
     "Сєвєродонецьк",

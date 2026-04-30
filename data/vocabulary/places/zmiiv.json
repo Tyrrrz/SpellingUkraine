@@ -2,13 +2,8 @@
   "category": "City",
   "sourceSpelling": "Зміїв",
   "correctSpelling": "Zmiiv",
-  "incorrectSpellings": [
-    "Zmiev",
-    "Zmiyev"
-  ],
-  "relatedSpellings": [
-    "Змиёв"
-  ],
+  "incorrectSpellings": ["Zmiev", "Zmiyev"],
+  "relatedSpellings": ["Змиёв"],
   "links": [
     {
       "name": "Wikipedia: Zmiiv",

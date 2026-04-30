@@ -2,12 +2,8 @@
   "category": "City",
   "sourceSpelling": "Озерне",
   "correctSpelling": "Ozerne",
-  "incorrectSpellings": [
-    "Ozernoe"
-  ],
-  "relatedSpellings": [
-    "Озёрное"
-  ],
+  "incorrectSpellings": ["Ozernoe"],
+  "relatedSpellings": ["Озёрное"],
   "links": [
     {
       "name": "Wikipedia: Ozerne",

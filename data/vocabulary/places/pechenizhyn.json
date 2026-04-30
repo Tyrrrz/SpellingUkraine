@@ -2,13 +2,8 @@
   "category": "City",
   "sourceSpelling": "Печеніжин",
   "correctSpelling": "Pechenizhyn",
-  "incorrectSpellings": [
-    "Pechenezhin"
-  ],
-  "relatedSpellings": [
-    "Печенежин",
-    "Peczeniżyn"
-  ],
+  "incorrectSpellings": ["Pechenezhin"],
+  "relatedSpellings": ["Печенежин", "Peczeniżyn"],
   "links": [
     {
       "name": "Wikipedia: Pechenizhyn",

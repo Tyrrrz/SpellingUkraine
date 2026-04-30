@@ -2,9 +2,7 @@
   "category": "City",
   "sourceSpelling": "Ворзель",
   "correctSpelling": "Vorzel",
-  "incorrectSpellings": [
-    "Vorsel"
-  ],
+  "incorrectSpellings": ["Vorsel"],
   "relatedSpellings": [],
   "links": [
     {

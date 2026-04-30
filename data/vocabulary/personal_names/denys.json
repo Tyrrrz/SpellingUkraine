@@ -2,12 +2,8 @@
   "category": "Personal name",
   "sourceSpelling": "Денис",
   "correctSpelling": "Denys",
-  "incorrectSpellings": [
-    "Denis"
-  ],
-  "relatedSpellings": [
-    "Dennis"
-  ],
+  "incorrectSpellings": ["Denis"],
+  "relatedSpellings": ["Dennis"],
   "description": "Equivalent to Dennis, of Greek origin.",
   "links": []
 }

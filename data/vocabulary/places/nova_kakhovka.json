@@ -2,12 +2,8 @@
   "category": "City",
   "sourceSpelling": "Нова Каховка",
   "correctSpelling": "Nova Kakhovka",
-  "incorrectSpellings": [
-    "Novaya Kakhovka"
-  ],
-  "relatedSpellings": [
-    "Новая Каховка"
-  ],
+  "incorrectSpellings": ["Novaya Kakhovka"],
+  "relatedSpellings": ["Новая Каховка"],
   "links": [
     {
       "name": "Wikipedia: Nova Kakhovka",

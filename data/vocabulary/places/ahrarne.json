@@ -2,13 +2,8 @@
   "category": "City",
   "sourceSpelling": "Аграрне",
   "correctSpelling": "Ahrarne",
-  "incorrectSpellings": [
-    "Agrarne",
-    "Agrarnoe"
-  ],
-  "relatedSpellings": [
-    "Аграрное"
-  ],
+  "incorrectSpellings": ["Agrarne", "Agrarnoe"],
+  "relatedSpellings": ["Аграрное"],
   "links": [],
   "location": {
     "lat": 45.0186,

@@ -2,13 +2,8 @@
   "category": "City",
   "sourceSpelling": "Солоне",
   "correctSpelling": "Solone",
-  "incorrectSpellings": [
-    "Solonoe",
-    "Solyonoe"
-  ],
-  "relatedSpellings": [
-    "Солёное"
-  ],
+  "incorrectSpellings": ["Solonoe", "Solyonoe"],
+  "relatedSpellings": ["Солёное"],
   "links": [
     {
       "name": "Wikipedia: Solone",

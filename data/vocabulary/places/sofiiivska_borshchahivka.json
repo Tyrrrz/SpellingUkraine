@@ -2,12 +2,8 @@
   "category": "City",
   "sourceSpelling": "Софіївська Борщагівка",
   "correctSpelling": "Sofiiivska Borshchahivka",
-  "incorrectSpellings": [
-    "Sofievskaya Borschagovka"
-  ],
-  "relatedSpellings": [
-    "Софиевская Борщаговка"
-  ],
+  "incorrectSpellings": ["Sofievskaya Borschagovka"],
+  "relatedSpellings": ["Софиевская Борщаговка"],
   "links": [],
   "location": {
     "lat": 50.4114,

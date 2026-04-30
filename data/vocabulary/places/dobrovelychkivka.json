@@ -2,12 +2,8 @@
   "category": "City",
   "sourceSpelling": "Добровеличківка",
   "correctSpelling": "Dobrovelychkivka",
-  "incorrectSpellings": [
-    "Dobrovelichkovka"
-  ],
-  "relatedSpellings": [
-    "Добровеличковка"
-  ],
+  "incorrectSpellings": ["Dobrovelichkovka"],
+  "relatedSpellings": ["Добровеличковка"],
   "links": [
     {
       "name": "Wikipedia: Dobrovelychkivka",

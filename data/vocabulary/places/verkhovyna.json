@@ -2,13 +2,8 @@
   "category": "City",
   "sourceSpelling": "Верховина",
   "correctSpelling": "Verkhovyna",
-  "incorrectSpellings": [
-    "Verkhovina"
-  ],
-  "relatedSpellings": [
-    "Верховина",
-    "Żabie"
-  ],
+  "incorrectSpellings": ["Verkhovina"],
+  "relatedSpellings": ["Верховина", "Żabie"],
   "links": [
     {
       "name": "Wikipedia: Verkhovyna",

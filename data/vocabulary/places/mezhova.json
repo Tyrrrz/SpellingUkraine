@@ -2,13 +2,8 @@
   "category": "City",
   "sourceSpelling": "Межова",
   "correctSpelling": "Mezhova",
-  "incorrectSpellings": [
-    "Mezhevaya",
-    "Mezhevaia"
-  ],
-  "relatedSpellings": [
-    "Межевая"
-  ],
+  "incorrectSpellings": ["Mezhevaya", "Mezhevaia"],
+  "relatedSpellings": ["Межевая"],
   "links": [
     {
       "name": "Wikipedia: Mezhova",

@@ -2,13 +2,8 @@
   "category": "City",
   "sourceSpelling": "Горлівка",
   "correctSpelling": "Horlivka",
-  "incorrectSpellings": [
-    "Gorlovka"
-  ],
-  "relatedSpellings": [
-    "Горловка",
-    "Gorlowka"
-  ],
+  "incorrectSpellings": ["Gorlovka"],
+  "relatedSpellings": ["Горловка", "Gorlowka"],
   "links": [
     {
       "name": "Wikipedia: Horlivka",

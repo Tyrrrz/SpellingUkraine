@@ -2,13 +2,8 @@
   "category": "City",
   "sourceSpelling": "Вишкове",
   "correctSpelling": "Vyshkove",
-  "incorrectSpellings": [
-    "Vyshkovo"
-  ],
-  "relatedSpellings": [
-    "Вышково",
-    "Visk"
-  ],
+  "incorrectSpellings": ["Vyshkovo"],
+  "relatedSpellings": ["Вышково", "Visk"],
   "links": [],
   "location": {
     "lat": 48.0581,

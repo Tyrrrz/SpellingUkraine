@@ -2,13 +2,8 @@
   "category": "City",
   "sourceSpelling": "Гола Пристань",
   "correctSpelling": "Hola Prystan",
-  "incorrectSpellings": [
-    "Gola Prystan",
-    "Golaya Pristan"
-  ],
-  "relatedSpellings": [
-    "Голая Пристань"
-  ],
+  "incorrectSpellings": ["Gola Prystan", "Golaya Pristan"],
+  "relatedSpellings": ["Голая Пристань"],
   "links": [
     {
       "name": "Wikipedia: Hola Prystan",

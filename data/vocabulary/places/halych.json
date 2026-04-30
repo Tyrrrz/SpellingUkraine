@@ -2,16 +2,8 @@
   "category": "City",
   "sourceSpelling": "Галич",
   "correctSpelling": "Halych",
-  "incorrectSpellings": [
-    "Galich"
-  ],
-  "relatedSpellings": [
-    "Halici",
-    "Halicz",
-    "Halytsch",
-    "Halitsch",
-    "Galitsch"
-  ],
+  "incorrectSpellings": ["Galich"],
+  "relatedSpellings": ["Halici", "Halicz", "Halytsch", "Halitsch", "Galitsch"],
   "links": [
     {
       "name": "Wikipedia: Halych",

@@ -1,15 +1,15 @@
-import { formatUrlWithQuery, joinUrl } from '~/utils/url';
+import { formatUrlWithQuery, joinUrl } from "~/utils/url";
 
 export const getRepoUrl = () => {
-  return 'https://github.com/Tyrrrz/SpellingUkraine';
+  return "https://github.com/Tyrrrz/SpellingUkraine";
 };
 
 export const getRepoFileUrl = (path: string, options?: { ref: string }) => {
-  return joinUrl(getRepoUrl(), 'tree', options?.ref || 'prime', path);
+  return joinUrl(getRepoUrl(), "tree", options?.ref || "prime", path);
 };
 
 export const getRepoFileEditUrl = (path: string, options?: { ref: string }) => {
-  return joinUrl(getRepoUrl(), 'edit', options?.ref || 'prime', path);
+  return joinUrl(getRepoUrl(), "edit", options?.ref || "prime", path);
 };
 
 export const getRepoNewIssueUrl = (options?: {
@@ -18,5 +18,5 @@ export const getRepoNewIssueUrl = (options?: {
   title?: string;
   details?: string;
 }) => {
-  return formatUrlWithQuery(joinUrl(getRepoUrl(), 'issues', 'new'), options || {});
+  return formatUrlWithQuery(joinUrl(getRepoUrl(), "issues", "new"), options || {});
 };

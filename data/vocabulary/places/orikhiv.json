@@ -2,12 +2,8 @@
   "category": "City",
   "sourceSpelling": "Оріхів",
   "correctSpelling": "Orikhiv",
-  "incorrectSpellings": [
-    "Orekhov"
-  ],
-  "relatedSpellings": [
-    "Орехов"
-  ],
+  "incorrectSpellings": ["Orekhov"],
+  "relatedSpellings": ["Орехов"],
   "links": [
     {
       "name": "Wikipedia: Orikhiv",

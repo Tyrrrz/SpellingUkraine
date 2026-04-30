@@ -2,12 +2,8 @@
   "category": "City",
   "sourceSpelling": "Гребінки",
   "correctSpelling": "Hrebinky",
-  "incorrectSpellings": [
-    "Grebenki"
-  ],
-  "relatedSpellings": [
-    "Гребёнки"
-  ],
+  "incorrectSpellings": ["Grebenki"],
+  "relatedSpellings": ["Гребёнки"],
   "links": [
     {
       "name": "Wikipedia: Hrebinky",

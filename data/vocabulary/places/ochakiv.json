@@ -2,17 +2,8 @@
   "category": "City",
   "sourceSpelling": "Очаків",
   "correctSpelling": "Ochakiv",
-  "incorrectSpellings": [
-    "Ochakov"
-  ],
-  "relatedSpellings": [
-    "Очаков",
-    "Özü",
-    "Oceacov",
-    "Vozia",
-    "Alektor",
-    "Ἀλέκτορος "
-  ],
+  "incorrectSpellings": ["Ochakov"],
+  "relatedSpellings": ["Очаков", "Özü", "Oceacov", "Vozia", "Alektor", "Ἀλέκτορος "],
   "links": [
     {
       "name": "Wikipedia: Ochakiv",

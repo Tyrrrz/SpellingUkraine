@@ -2,16 +2,8 @@
   "category": "City",
   "sourceSpelling": "Чечельник",
   "correctSpelling": "Chechelnyk",
-  "incorrectSpellings": [
-    "Chichelnik"
-  ],
-  "relatedSpellings": [
-    "Chetschelnik",
-    "Chitchilnik",
-    "Cicelnic",
-    "Czeczelnik",
-    "Tschetschelnik"
-  ],
+  "incorrectSpellings": ["Chichelnik"],
+  "relatedSpellings": ["Chetschelnik", "Chitchilnik", "Cicelnic", "Czeczelnik", "Tschetschelnik"],
   "links": [
     {
       "name": "Wikipedia: Chechelnyk",

@@ -2,13 +2,8 @@
   "category": "City",
   "sourceSpelling": "Білгород-Дністровський",
   "correctSpelling": "Bilhorod-Dnistrovskyi",
-  "incorrectSpellings": [
-    "Bilhorod-Dnestrovsky",
-    "Belgorod-Dnestrovskiy"
-  ],
-  "relatedSpellings": [
-    "Белгород-Днестровский"
-  ],
+  "incorrectSpellings": ["Bilhorod-Dnestrovsky", "Belgorod-Dnestrovskiy"],
+  "relatedSpellings": ["Белгород-Днестровский"],
   "links": [
     {
       "name": "Wikipedia: Bilhorod-Dnistrovskyi",

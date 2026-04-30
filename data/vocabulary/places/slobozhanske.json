@@ -2,16 +2,8 @@
   "category": "City",
   "sourceSpelling": "Слобожанське",
   "correctSpelling": "Slobozhanske",
-  "incorrectSpellings": [
-    "Slobozhanskoe",
-    "Slobozhanskoye"
-  ],
-  "relatedSpellings": [
-    "Слобожанское",
-    "Ювілейне",
-    "Ювилейное",
-    "Yuvileine"
-  ],
+  "incorrectSpellings": ["Slobozhanskoe", "Slobozhanskoye"],
+  "relatedSpellings": ["Слобожанское", "Ювілейне", "Ювилейное", "Yuvileine"],
   "description": "Renamed from \"Yuvileine\" in May 2016.",
   "links": [
     {

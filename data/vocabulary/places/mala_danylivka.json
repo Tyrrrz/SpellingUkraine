@@ -2,13 +2,8 @@
   "category": "City",
   "sourceSpelling": "Мала Данилівка",
   "correctSpelling": "Mala Danylivka",
-  "incorrectSpellings": [
-    "Mala Danilovka",
-    "Malaya Danilovka"
-  ],
-  "relatedSpellings": [
-    "Малая Даниловка"
-  ],
+  "incorrectSpellings": ["Mala Danilovka", "Malaya Danilovka"],
+  "relatedSpellings": ["Малая Даниловка"],
   "links": [
     {
       "name": "Wikipedia: Mala Danylivka",

@@ -2,14 +2,8 @@
   "category": "City",
   "sourceSpelling": "Хотин",
   "correctSpelling": "Khotyn",
-  "incorrectSpellings": [
-    "Khotin"
-  ],
-  "relatedSpellings": [
-    "Хотин",
-    "Chocim",
-    "Chotyn"
-  ],
+  "incorrectSpellings": ["Khotin"],
+  "relatedSpellings": ["Хотин", "Chocim", "Chotyn"],
   "links": [
     {
       "name": "Wikipedia: Khotyn",

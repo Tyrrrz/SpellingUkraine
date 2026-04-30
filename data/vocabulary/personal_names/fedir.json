@@ -2,14 +2,8 @@
   "category": "Personal name",
   "sourceSpelling": "Федір",
   "correctSpelling": "Fedir",
-  "incorrectSpellings": [
-    "Phedir",
-    "Fedor"
-  ],
-  "relatedSpellings": [
-    "Фёдор",
-    "Theodore"
-  ],
+  "incorrectSpellings": ["Phedir", "Fedor"],
+  "relatedSpellings": ["Фёдор", "Theodore"],
   "description": "Equivalent to Theodore, of Greek origin.",
   "links": []
 }

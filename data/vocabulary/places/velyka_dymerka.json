@@ -2,12 +2,8 @@
   "category": "City",
   "sourceSpelling": "Велика Димерка",
   "correctSpelling": "Velyka Dymerka",
-  "incorrectSpellings": [
-    "Velikaya Dymerka"
-  ],
-  "relatedSpellings": [
-    "Великая Дымерка"
-  ],
+  "incorrectSpellings": ["Velikaya Dymerka"],
+  "relatedSpellings": ["Великая Дымерка"],
   "links": [
     {
       "name": "Wikipedia: Velyka Dymerka",

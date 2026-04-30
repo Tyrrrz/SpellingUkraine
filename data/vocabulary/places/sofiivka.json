@@ -2,14 +2,8 @@
   "category": "City",
   "sourceSpelling": "Софіївка",
   "correctSpelling": "Sofiivka",
-  "incorrectSpellings": [
-    "Sofiyivka",
-    "Sofievka",
-    "Sofiyevka"
-  ],
-  "relatedSpellings": [
-    "Софиевка"
-  ],
+  "incorrectSpellings": ["Sofiyivka", "Sofievka", "Sofiyevka"],
+  "relatedSpellings": ["Софиевка"],
   "links": [
     {
       "name": "Wikipedia: Sofiivka",

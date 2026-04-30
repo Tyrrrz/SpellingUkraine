@@ -2,13 +2,8 @@
   "category": "City",
   "sourceSpelling": "Добротвір",
   "correctSpelling": "Dobrotvir",
-  "incorrectSpellings": [
-    "Dobrotvor"
-  ],
-  "relatedSpellings": [
-    "Добротвор",
-    "Dobrotwór"
-  ],
+  "incorrectSpellings": ["Dobrotvor"],
+  "relatedSpellings": ["Добротвор", "Dobrotwór"],
   "links": [
     {
       "name": "Wikipedia: Dobrotvir",

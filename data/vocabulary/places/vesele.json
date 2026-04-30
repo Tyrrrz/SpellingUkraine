@@ -2,13 +2,8 @@
   "category": "City",
   "sourceSpelling": "Веселе",
   "correctSpelling": "Vesele",
-  "incorrectSpellings": [
-    "Veseloye",
-    "Veseloe"
-  ],
-  "relatedSpellings": [
-    "Весёлое"
-  ],
+  "incorrectSpellings": ["Veseloye", "Veseloe"],
+  "relatedSpellings": ["Весёлое"],
   "links": [
     {
       "name": "Wikipedia: Vesele",

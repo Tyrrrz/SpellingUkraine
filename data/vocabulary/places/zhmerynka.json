@@ -2,14 +2,8 @@
   "category": "City",
   "sourceSpelling": "Жмеринка",
   "correctSpelling": "Zhmerynka",
-  "incorrectSpellings": [
-    "Zhmerinka"
-  ],
-  "relatedSpellings": [
-    "Жмеринка",
-    "Żmerynka",
-    "Șmerinca"
-  ],
+  "incorrectSpellings": ["Zhmerinka"],
+  "relatedSpellings": ["Жмеринка", "Żmerynka", "Șmerinca"],
   "links": [
     {
       "name": "Wikipedia: Zhmerynka",

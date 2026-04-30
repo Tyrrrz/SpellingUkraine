@@ -2,13 +2,8 @@
   "category": "City",
   "sourceSpelling": "Великі Ком'яти",
   "correctSpelling": "Velyki Komiaty",
-  "incorrectSpellings": [
-    "Velyki Komyaty",
-    "Velikie Komyaty"
-  ],
-  "relatedSpellings": [
-    "Великие Комяты"
-  ],
+  "incorrectSpellings": ["Velyki Komyaty", "Velikie Komyaty"],
+  "relatedSpellings": ["Великие Комяты"],
   "links": [],
   "location": {
     "lat": 48.2386,

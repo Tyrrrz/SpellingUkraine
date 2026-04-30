@@ -2,13 +2,8 @@
   "category": "City",
   "sourceSpelling": "Хуст",
   "correctSpelling": "Khust",
-  "incorrectSpellings": [
-    "Hust"
-  ],
-  "relatedSpellings": [
-    "Chust",
-    "Huszt"
-  ],
+  "incorrectSpellings": ["Hust"],
+  "relatedSpellings": ["Chust", "Huszt"],
   "links": [
     {
       "name": "Wikipedia: Khust",

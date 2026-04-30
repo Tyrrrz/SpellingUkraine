@@ -2,13 +2,8 @@
   "category": "City",
   "sourceSpelling": "Якимівка",
   "correctSpelling": "Yakymivka",
-  "incorrectSpellings": [
-    "Yakimovka",
-    "Akimovka"
-  ],
-  "relatedSpellings": [
-    "Акимовка"
-  ],
+  "incorrectSpellings": ["Yakimovka", "Akimovka"],
+  "relatedSpellings": ["Акимовка"],
   "links": [
     {
       "name": "Wikipedia: Yakymivka",

@@ -2,12 +2,8 @@
   "category": "City",
   "sourceSpelling": "Васильків",
   "correctSpelling": "Vasylkiv",
-  "incorrectSpellings": [
-    "Vasilkov"
-  ],
-  "relatedSpellings": [
-    "Васильков"
-  ],
+  "incorrectSpellings": ["Vasilkov"],
+  "relatedSpellings": ["Васильков"],
   "links": [
     {
       "name": "Wikipedia: Vasylkiv",

@@ -2,12 +2,8 @@
   "category": "City",
   "sourceSpelling": "Баранівка",
   "correctSpelling": "Baranivka",
-  "incorrectSpellings": [
-    "Baranovka"
-  ],
-  "relatedSpellings": [
-    "Барановка"
-  ],
+  "incorrectSpellings": ["Baranovka"],
+  "relatedSpellings": ["Барановка"],
   "links": [
     {
       "name": "Wikipedia: Baranivka",

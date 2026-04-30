@@ -2,14 +2,8 @@
   "category": "Company",
   "sourceSpelling": "Укрзалізниця",
   "correctSpelling": "Ukrzaliznytsia",
-  "incorrectSpellings": [
-    "Ukrzaliznitsia",
-    "Ukrzaliznitsa",
-    "Ukrzaliznycia"
-  ],
-  "relatedSpellings": [
-    "Ukrainian Railways"
-  ],
+  "incorrectSpellings": ["Ukrzaliznitsia", "Ukrzaliznitsa", "Ukrzaliznycia"],
+  "relatedSpellings": ["Ukrainian Railways"],
   "description": "Ukrainian state-owned railway company.",
   "links": [
     {

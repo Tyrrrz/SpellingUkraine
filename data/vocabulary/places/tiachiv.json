@@ -2,14 +2,8 @@
   "category": "City",
   "sourceSpelling": "Тячів",
   "correctSpelling": "Tiachiv",
-  "incorrectSpellings": [
-    "Tyachiv",
-    "Tiachev",
-    "Tyachev"
-  ],
-  "relatedSpellings": [
-    "Тячев"
-  ],
+  "incorrectSpellings": ["Tyachiv", "Tiachev", "Tyachev"],
+  "relatedSpellings": ["Тячев"],
   "links": [
     {
       "name": "Wikipedia: Tiachiv",

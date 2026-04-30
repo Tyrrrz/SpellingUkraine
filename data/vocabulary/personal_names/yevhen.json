@@ -2,19 +2,8 @@
   "category": "Personal name",
   "sourceSpelling": "Євген",
   "correctSpelling": "Yevhen",
-  "incorrectSpellings": [
-    "Yevgen",
-    "Evgen",
-    "Evgeniy",
-    "Evgeny"
-  ],
-  "relatedSpellings": [
-    "Евгений",
-    "Eugene",
-    "Женя",
-    "Zhenia",
-    "Jenia"
-  ],
+  "incorrectSpellings": ["Yevgen", "Evgen", "Evgeniy", "Evgeny"],
+  "relatedSpellings": ["Евгений", "Eugene", "Женя", "Zhenia", "Jenia"],
   "description": "Equivalent to Eugene, of Greek origin",
   "links": []
 }

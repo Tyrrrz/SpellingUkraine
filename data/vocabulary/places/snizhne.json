@@ -2,15 +2,8 @@
   "category": "City",
   "sourceSpelling": "Сніжне",
   "correctSpelling": "Snizhne",
-  "incorrectSpellings": [
-    "Snezhnoye"
-  ],
-  "relatedSpellings": [
-    "Снежное",
-    "Василівка",
-    "Васильевка",
-    "Vasylivka"
-  ],
+  "incorrectSpellings": ["Snezhnoye"],
+  "relatedSpellings": ["Снежное", "Василівка", "Васильевка", "Vasylivka"],
   "description": "Renamed from \"Vasylivka\" in 1864.",
   "links": [
     {

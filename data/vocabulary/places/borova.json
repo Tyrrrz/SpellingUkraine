@@ -2,12 +2,8 @@
   "category": "City",
   "sourceSpelling": "Борова",
   "correctSpelling": "Borova",
-  "incorrectSpellings": [
-    "Borovaya"
-  ],
-  "relatedSpellings": [
-    "Боровая"
-  ],
+  "incorrectSpellings": ["Borovaya"],
+  "relatedSpellings": ["Боровая"],
   "links": [
     {
       "name": "Wikipedia: Borova",

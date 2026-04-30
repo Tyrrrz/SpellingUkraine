@@ -2,14 +2,8 @@
   "category": "City",
   "sourceSpelling": "Дніпрорудне",
   "correctSpelling": "Dniprorudne",
-  "incorrectSpellings": [
-    "Dnieprorudne",
-    "Dneprorudnoye",
-    "Dnieprorudnoye"
-  ],
-  "relatedSpellings": [
-    "Днепрорудное"
-  ],
+  "incorrectSpellings": ["Dnieprorudne", "Dneprorudnoye", "Dnieprorudnoye"],
+  "relatedSpellings": ["Днепрорудное"],
   "links": [
     {
       "name": "Wikipedia: Dniprorudne",

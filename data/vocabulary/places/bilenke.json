@@ -2,12 +2,8 @@
   "category": "Settlement",
   "sourceSpelling": "Біленьке",
   "correctSpelling": "Bilenke",
-  "incorrectSpellings": [
-    "Belenkoe"
-  ],
-  "relatedSpellings": [
-    "Беленькое"
-  ],
+  "incorrectSpellings": ["Belenkoe"],
+  "relatedSpellings": ["Беленькое"],
   "links": [
     {
       "name": "Wikipedia: Bilenke",

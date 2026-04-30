@@ -2,12 +2,8 @@
   "category": "City",
   "sourceSpelling": "Саки",
   "correctSpelling": "Saky",
-  "incorrectSpellings": [
-    "Saki"
-  ],
-  "relatedSpellings": [
-    "Saq"
-  ],
+  "incorrectSpellings": ["Saki"],
+  "relatedSpellings": ["Saq"],
   "links": [
     {
       "name": "Wikipedia: Saky",

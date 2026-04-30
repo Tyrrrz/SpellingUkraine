@@ -2,14 +2,8 @@
   "category": "City",
   "sourceSpelling": "Іларіонове",
   "correctSpelling": "Ilarionove",
-  "incorrectSpellings": [
-    "Ilarionovo",
-    "Illarionovo",
-    "Illarionove"
-  ],
-  "relatedSpellings": [
-    "Илларионово"
-  ],
+  "incorrectSpellings": ["Ilarionovo", "Illarionovo", "Illarionove"],
+  "relatedSpellings": ["Илларионово"],
   "links": [
     {
       "name": "Wikipedia: Ilarionove",

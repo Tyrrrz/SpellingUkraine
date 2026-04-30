@@ -2,9 +2,7 @@
   "category": "City",
   "sourceSpelling": "Львів",
   "correctSpelling": "Lviv",
-  "incorrectSpellings": [
-    "Lvov"
-  ],
+  "incorrectSpellings": ["Lvov"],
   "relatedSpellings": [
     "Львов",
     "Lwów",

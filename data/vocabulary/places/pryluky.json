@@ -2,12 +2,8 @@
   "category": "City",
   "sourceSpelling": "Прилуки",
   "correctSpelling": "Pryluky",
-  "incorrectSpellings": [
-    "Priluki"
-  ],
-  "relatedSpellings": [
-    "Прилуки"
-  ],
+  "incorrectSpellings": ["Priluki"],
+  "relatedSpellings": ["Прилуки"],
   "links": [
     {
       "name": "Wikipedia: Pryluky",

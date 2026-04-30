@@ -2,14 +2,8 @@
   "category": "City",
   "sourceSpelling": "Козятин",
   "correctSpelling": "Koziatyn",
-  "incorrectSpellings": [
-    "Kozyatyn",
-    "Kazatin"
-  ],
-  "relatedSpellings": [
-    "Казатин",
-    "Koziatyn"
-  ],
+  "incorrectSpellings": ["Kozyatyn", "Kazatin"],
+  "relatedSpellings": ["Казатин", "Koziatyn"],
   "links": [
     {
       "name": "Wikipedia: Koziatyn",

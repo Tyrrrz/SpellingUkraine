@@ -2,12 +2,8 @@
   "category": "City",
   "sourceSpelling": "Печеніги",
   "correctSpelling": "Pechenihy",
-  "incorrectSpellings": [
-    "Pechenegi"
-  ],
-  "relatedSpellings": [
-    "Печенеги"
-  ],
+  "incorrectSpellings": ["Pechenegi"],
+  "relatedSpellings": ["Печенеги"],
   "links": [
     {
       "name": "Wikipedia: Pechenihy",

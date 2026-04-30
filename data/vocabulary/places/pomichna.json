@@ -2,13 +2,8 @@
   "category": "City",
   "sourceSpelling": "Помічна",
   "correctSpelling": "Pomichna",
-  "incorrectSpellings": [
-    "Pomoshnaya",
-    "Pomochnaya"
-  ],
-  "relatedSpellings": [
-    "Помошная"
-  ],
+  "incorrectSpellings": ["Pomoshnaya", "Pomochnaya"],
+  "relatedSpellings": ["Помошная"],
   "links": [
     {
       "name": "Wikipedia: Pomichna",

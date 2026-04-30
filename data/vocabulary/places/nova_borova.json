@@ -2,12 +2,8 @@
   "category": "City",
   "sourceSpelling": "Нова Борова",
   "correctSpelling": "Nova Borova",
-  "incorrectSpellings": [
-    "Novaya Borovaya"
-  ],
-  "relatedSpellings": [
-    "Новая Боровая"
-  ],
+  "incorrectSpellings": ["Novaya Borovaya"],
+  "relatedSpellings": ["Новая Боровая"],
   "links": [
     {
       "name": "Wikipedia: Nova Borova",

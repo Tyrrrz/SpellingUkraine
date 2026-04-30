@@ -2,14 +2,8 @@
   "category": "City",
   "sourceSpelling": "Ніжин",
   "correctSpelling": "Nizhyn",
-  "incorrectSpellings": [
-    "Nezhin",
-    "Nizhin"
-  ],
-  "relatedSpellings": [
-    "Нежин",
-    "Nieżyn"
-  ],
+  "incorrectSpellings": ["Nezhin", "Nizhin"],
+  "relatedSpellings": ["Нежин", "Nieżyn"],
   "links": [
     {
       "name": "Wikipedia: Nizhyn",

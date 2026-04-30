@@ -2,10 +2,7 @@
   "category": "City",
   "sourceSpelling": "Городище",
   "correctSpelling": "Horodyshche",
-  "incorrectSpellings": [
-    "Gorodyshche",
-    "Gorodishche"
-  ],
+  "incorrectSpellings": ["Gorodyshche", "Gorodishche"],
   "relatedSpellings": [],
   "links": [
     {

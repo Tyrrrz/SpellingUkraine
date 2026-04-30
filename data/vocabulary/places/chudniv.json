@@ -2,13 +2,8 @@
   "category": "City",
   "sourceSpelling": "Чуднів",
   "correctSpelling": "Chudniv",
-  "incorrectSpellings": [
-    "Chudnov"
-  ],
-  "relatedSpellings": [
-    "Чуднов",
-    "Cudnów"
-  ],
+  "incorrectSpellings": ["Chudnov"],
+  "relatedSpellings": ["Чуднов", "Cudnów"],
   "links": [
     {
       "name": "Wikipedia: Chudniv",

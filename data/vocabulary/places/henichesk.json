@@ -2,12 +2,8 @@
   "category": "City",
   "sourceSpelling": "Генічеськ",
   "correctSpelling": "Henichesk",
-  "incorrectSpellings": [
-    "Genichesk"
-  ],
-  "relatedSpellings": [
-    "Геническ"
-  ],
+  "incorrectSpellings": ["Genichesk"],
+  "relatedSpellings": ["Геническ"],
   "links": [
     {
       "name": "Wikipedia: Henichesk",

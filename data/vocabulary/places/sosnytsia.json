@@ -2,12 +2,8 @@
   "category": "City",
   "sourceSpelling": "Сосниця",
   "correctSpelling": "Sosnytsia",
-  "incorrectSpellings": [
-    "Sosnitsa"
-  ],
-  "relatedSpellings": [
-    "Сосница"
-  ],
+  "incorrectSpellings": ["Sosnitsa"],
+  "relatedSpellings": ["Сосница"],
   "links": [
     {
       "name": "Wikipedia: Sosnytsia",

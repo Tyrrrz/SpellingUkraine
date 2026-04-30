@@ -2,13 +2,8 @@
   "category": "City",
   "sourceSpelling": "Шепетівка",
   "correctSpelling": "Shepetivka",
-  "incorrectSpellings": [
-    "Shepetovka"
-  ],
-  "relatedSpellings": [
-    "Шепетовка",
-    "Szepetówka"
-  ],
+  "incorrectSpellings": ["Shepetovka"],
+  "relatedSpellings": ["Шепетовка", "Szepetówka"],
   "links": [
     {
       "name": "Wikipedia: Shepetivka",

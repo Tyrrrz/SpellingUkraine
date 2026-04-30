@@ -2,15 +2,8 @@
   "category": "City",
   "sourceSpelling": "Михайлівка",
   "correctSpelling": "Mykhailivka",
-  "incorrectSpellings": [
-    "Mykhailivka",
-    "Mikhailivka",
-    "Mikhailovka",
-    "Mikhaylovka"
-  ],
-  "relatedSpellings": [
-    "Михайловка"
-  ],
+  "incorrectSpellings": ["Mykhailivka", "Mikhailivka", "Mikhailovka", "Mikhaylovka"],
+  "relatedSpellings": ["Михайловка"],
   "links": [
     {
       "name": "Wikipedia: Mykhailivka",

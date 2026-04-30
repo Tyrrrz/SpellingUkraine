@@ -2,12 +2,8 @@
   "category": "City",
   "sourceSpelling": "Вовчанськ",
   "correctSpelling": "Vovchansk",
-  "incorrectSpellings": [
-    "Volchansk"
-  ],
-  "relatedSpellings": [
-    "Волчанск"
-  ],
+  "incorrectSpellings": ["Volchansk"],
+  "relatedSpellings": ["Волчанск"],
   "links": [
     {
       "name": "Wikipedia: Vovchansk",

@@ -2,11 +2,7 @@
   "category": "City",
   "sourceSpelling": "Макіївка",
   "correctSpelling": "Makiivka",
-  "incorrectSpellings": [
-    "Makiyivka",
-    "Makeyevka",
-    "Makeievka"
-  ],
+  "incorrectSpellings": ["Makiyivka", "Makeyevka", "Makeievka"],
   "relatedSpellings": [
     "Макеевка",
     "Дмитріївськ",

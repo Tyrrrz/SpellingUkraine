@@ -2,14 +2,8 @@
   "category": "City",
   "sourceSpelling": "Вінниця",
   "correctSpelling": "Vinnytsia",
-  "incorrectSpellings": [
-    "Vinnytsya",
-    "Vinnitsa",
-    "Vinitsia"
-  ],
-  "relatedSpellings": [
-    "Винница"
-  ],
+  "incorrectSpellings": ["Vinnytsya", "Vinnitsa", "Vinitsia"],
+  "relatedSpellings": ["Винница"],
   "transcription": "Vinnitsa",
   "links": [
     {

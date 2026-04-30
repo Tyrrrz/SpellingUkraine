@@ -2,12 +2,8 @@
   "category": "City",
   "sourceSpelling": "Авдіївка",
   "correctSpelling": "Avdiivka",
-  "incorrectSpellings": [
-    "Avdeevka"
-  ],
-  "relatedSpellings": [
-    "Авдеевка"
-  ],
+  "incorrectSpellings": ["Avdeevka"],
+  "relatedSpellings": ["Авдеевка"],
   "links": [
     {
       "name": "Wikipedia: Avdiivka",

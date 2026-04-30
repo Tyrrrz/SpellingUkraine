@@ -2,13 +2,8 @@
   "category": "City",
   "sourceSpelling": "Клавдієво-Тарасове",
   "correctSpelling": "Klavdiievo-Tarasove",
-  "incorrectSpellings": [
-    "Klavdiyevo-Tarasove",
-    "Klavdiyevo-Tarasovo"
-  ],
-  "relatedSpellings": [
-    "Клавдиево-Тарасово"
-  ],
+  "incorrectSpellings": ["Klavdiyevo-Tarasove", "Klavdiyevo-Tarasovo"],
+  "relatedSpellings": ["Клавдиево-Тарасово"],
   "links": [
     {
       "name": "Wikipedia: Klavdiievo-Tarasove",

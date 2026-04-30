@@ -2,13 +2,8 @@
   "category": "City",
   "sourceSpelling": "Канів",
   "correctSpelling": "Kaniv",
-  "incorrectSpellings": [
-    "Kanev"
-  ],
-  "relatedSpellings": [
-    "Канев",
-    "Kaniów"
-  ],
+  "incorrectSpellings": ["Kanev"],
+  "relatedSpellings": ["Канев", "Kaniów"],
   "links": [
     {
       "name": "Wikipedia: Kaniv",

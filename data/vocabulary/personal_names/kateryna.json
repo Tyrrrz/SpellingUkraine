@@ -2,20 +2,8 @@
   "category": "Personal name",
   "sourceSpelling": "Катерина",
   "correctSpelling": "Kateryna",
-  "incorrectSpellings": [
-    "Katerina",
-    "Ekaterina",
-    "Yekaterina"
-  ],
-  "relatedSpellings": [
-    "Екатерина",
-    "Катя",
-    "Katia",
-    "Caitlin",
-    "Karen",
-    "Katherine",
-    "Katrina"
-  ],
+  "incorrectSpellings": ["Katerina", "Ekaterina", "Yekaterina"],
+  "relatedSpellings": ["Екатерина", "Катя", "Katia", "Caitlin", "Karen", "Katherine", "Katrina"],
   "description": "Equivalent to Caitlin, Karen, Katherine, Kathleen and Katrina, of Greek origin.",
   "links": []
 }

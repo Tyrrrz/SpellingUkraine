@@ -2,14 +2,8 @@
   "category": "City",
   "sourceSpelling": "Новий Розділ",
   "correctSpelling": "Novyi Rozdil",
-  "incorrectSpellings": [
-    "Novyi Rozdol",
-    "Noviy Rozdol"
-  ],
-  "relatedSpellings": [
-    "Новый Роздол",
-    "Nowy Rozdół"
-  ],
+  "incorrectSpellings": ["Novyi Rozdol", "Noviy Rozdol"],
+  "relatedSpellings": ["Новый Роздол", "Nowy Rozdół"],
   "links": [
     {
       "name": "Wikipedia: Novyi Rozdil",

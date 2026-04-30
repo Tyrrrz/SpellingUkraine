@@ -2,14 +2,8 @@
   "category": "City",
   "sourceSpelling": "Нетішин",
   "correctSpelling": "Netishyn",
-  "incorrectSpellings": [
-    "Netishin",
-    "Neteshin"
-  ],
-  "relatedSpellings": [
-    "Нетешин",
-    "Niecieszyn"
-  ],
+  "incorrectSpellings": ["Netishin", "Neteshin"],
+  "relatedSpellings": ["Нетешин", "Niecieszyn"],
   "links": [
     {
       "name": "Wikipedia: Netishyn",

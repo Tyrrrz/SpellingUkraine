@@ -2,12 +2,8 @@
   "category": "City",
   "sourceSpelling": "Томаківка",
   "correctSpelling": "Tomakivka",
-  "incorrectSpellings": [
-    "Tomakovka"
-  ],
-  "relatedSpellings": [
-    "Томаковка"
-  ],
+  "incorrectSpellings": ["Tomakovka"],
+  "relatedSpellings": ["Томаковка"],
   "links": [
     {
       "name": "Wikipedia: Tomakivka",

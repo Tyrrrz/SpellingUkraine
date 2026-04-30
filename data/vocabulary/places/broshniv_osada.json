@@ -2,12 +2,8 @@
   "category": "City",
   "sourceSpelling": "Брошнів-Осада",
   "correctSpelling": "Broshniv-Osada",
-  "incorrectSpellings": [
-    "Broshnev-Osada"
-  ],
-  "relatedSpellings": [
-    "Брошнев-Осада"
-  ],
+  "incorrectSpellings": ["Broshnev-Osada"],
+  "relatedSpellings": ["Брошнев-Осада"],
   "links": [
     {
       "name": "Wikipedia: Broshniv-Osada",

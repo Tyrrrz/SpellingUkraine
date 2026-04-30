@@ -2,12 +2,8 @@
   "category": "City",
   "sourceSpelling": "Дружківка",
   "correctSpelling": "Druzhkivka",
-  "incorrectSpellings": [
-    "Druzhkovka"
-  ],
-  "relatedSpellings": [
-    "Дружковка"
-  ],
+  "incorrectSpellings": ["Druzhkovka"],
+  "relatedSpellings": ["Дружковка"],
   "links": [
     {
       "name": "Wikipedia: Druzhkivka",

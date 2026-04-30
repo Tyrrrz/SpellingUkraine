@@ -1,6 +1,6 @@
-import Head from 'next/head';
-import { FC } from 'react';
-import { getBuildId, getSiteUrl } from '~/utils/env';
+import Head from "next/head";
+import { FC } from "react";
+import { getBuildId, getSiteUrl } from "~/utils/env";
 
 type MetaProps = {
   title?: string;
@@ -10,19 +10,19 @@ type MetaProps = {
 };
 
 const Meta: FC<MetaProps> = ({ title, description, keywords, imageUrl }) => {
-  const siteName = 'SpellingUkraine';
+  const siteName = "SpellingUkraine";
 
   const buildId = getBuildId();
 
-  const actualTitle = title ? title + ' • ' + siteName : siteName;
+  const actualTitle = title ? title + " • " + siteName : siteName;
 
   const actualDescription =
     description ||
-    'Look up the correct English spelling of Ukrainian toponyms, personal names, and other words. Support Ukraine, transliterate correctly!';
+    "Look up the correct English spelling of Ukrainian toponyms, personal names, and other words. Support Ukraine, transliterate correctly!";
 
-  const actualKeywords = (keywords || ['spelling', 'ukraine', 'english']).join(',');
+  const actualKeywords = (keywords || ["spelling", "ukraine", "english"]).join(",");
 
-  const actualImageUrl = getSiteUrl(imageUrl || '/logo.png');
+  const actualImageUrl = getSiteUrl(imageUrl || "/logo.png");
 
   return (
     <Head>

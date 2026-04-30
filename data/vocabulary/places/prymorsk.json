@@ -2,12 +2,8 @@
   "category": "City",
   "sourceSpelling": "Приморськ",
   "correctSpelling": "Prymorsk",
-  "incorrectSpellings": [
-    "Primorsk"
-  ],
-  "relatedSpellings": [
-    "Приморск"
-  ],
+  "incorrectSpellings": ["Primorsk"],
+  "relatedSpellings": ["Приморск"],
   "links": [
     {
       "name": "Wikipedia: Prymorsk",

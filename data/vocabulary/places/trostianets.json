@@ -2,12 +2,8 @@
   "category": "City",
   "sourceSpelling": "Тростянець",
   "correctSpelling": "Trostianets",
-  "incorrectSpellings": [
-    "Trostyanets"
-  ],
-  "relatedSpellings": [
-    "Тростянец"
-  ],
+  "incorrectSpellings": ["Trostyanets"],
+  "relatedSpellings": ["Тростянец"],
   "transcription": "Trostianets",
   "links": [
     {

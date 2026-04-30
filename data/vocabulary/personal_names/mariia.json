@@ -2,18 +2,8 @@
   "category": "Personal name",
   "sourceSpelling": "Марія",
   "correctSpelling": "Mariia",
-  "incorrectSpellings": [
-    "Maria",
-    "Mariya"
-  ],
-  "relatedSpellings": [
-    "Мария",
-    "Маша",
-    "Masha",
-    "Marie",
-    "Mary",
-    "Miriam"
-  ],
+  "incorrectSpellings": ["Maria", "Mariya"],
+  "relatedSpellings": ["Мария", "Маша", "Masha", "Marie", "Mary", "Miriam"],
   "description": "From Maria, equivalent to Marie, Mary and Miriam, of Hebrew origin.",
   "links": []
 }

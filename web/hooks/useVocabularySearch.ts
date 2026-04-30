@@ -1,6 +1,6 @@
-import { useMemo } from 'react';
-import { VocabularyEntry } from 'spelling-ukraine-data';
-import { normalizeString } from '~/utils/str';
+import { useMemo } from "react";
+import { VocabularyEntry } from "spelling-ukraine-data";
+import { normalizeString } from "~/utils/str";
 
 export type SearchResult = {
   entry: VocabularyEntry;
@@ -22,7 +22,7 @@ const resolveResults = (vocabulary: VocabularyEntry[], query: string) => {
       entry.sourceSpelling,
       entry.correctSpelling,
       ...entry.incorrectSpellings,
-      ...entry.relatedSpellings
+      ...entry.relatedSpellings,
     ];
 
     for (const spelling of spellings) {
@@ -40,7 +40,7 @@ const resolveResults = (vocabulary: VocabularyEntry[], query: string) => {
       results.push({
         entry,
         match: spelling,
-        relevance
+        relevance,
       });
 
       // We only need to find one match per entry

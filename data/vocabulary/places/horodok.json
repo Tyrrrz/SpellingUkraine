@@ -2,12 +2,8 @@
   "category": "City",
   "sourceSpelling": "Городок",
   "correctSpelling": "Horodok",
-  "incorrectSpellings": [
-    "Gorodok"
-  ],
-  "relatedSpellings": [
-    "Городок"
-  ],
+  "incorrectSpellings": ["Gorodok"],
+  "relatedSpellings": ["Городок"],
   "links": [
     {
       "name": "Wikipedia: Horodok",

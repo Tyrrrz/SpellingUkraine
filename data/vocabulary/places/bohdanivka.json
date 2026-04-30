@@ -2,12 +2,8 @@
   "category": "City",
   "sourceSpelling": "Богданівка",
   "correctSpelling": "Bohdanivka",
-  "incorrectSpellings": [
-    "Bogdanovka"
-  ],
-  "relatedSpellings": [
-    "Богдановка"
-  ],
+  "incorrectSpellings": ["Bogdanovka"],
+  "relatedSpellings": ["Богдановка"],
   "links": [
     {
       "name": "Wikipedia: Bohdanivka",

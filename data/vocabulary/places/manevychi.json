@@ -2,13 +2,8 @@
   "category": "City",
   "sourceSpelling": "Маневичі",
   "correctSpelling": "Manevychi",
-  "incorrectSpellings": [
-    "Маневичи"
-  ],
-  "relatedSpellings": [
-    "Maniewicze",
-    "Manewytschi"
-  ],
+  "incorrectSpellings": ["Маневичи"],
+  "relatedSpellings": ["Maniewicze", "Manewytschi"],
   "links": [
     {
       "name": "Wikipedia: Manevychi",

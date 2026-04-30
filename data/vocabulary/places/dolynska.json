@@ -2,12 +2,8 @@
   "category": "City",
   "sourceSpelling": "Долинська",
   "correctSpelling": "Dolynska",
-  "incorrectSpellings": [
-    "Dolinskaya"
-  ],
-  "relatedSpellings": [
-    "Долинская"
-  ],
+  "incorrectSpellings": ["Dolinskaya"],
+  "relatedSpellings": ["Долинская"],
   "links": [
     {
       "name": "Wikipedia: Dolynska",

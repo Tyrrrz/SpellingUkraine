@@ -2,16 +2,8 @@
   "category": "Personal name",
   "sourceSpelling": "Олександра",
   "correctSpelling": "Oleksandra",
-  "incorrectSpellings": [
-    "Olexandra",
-    "Alexandra",
-    "Aleksandra"
-  ],
-  "relatedSpellings": [
-    "Александра",
-    "Саша",
-    "Sasha"
-  ],
+  "incorrectSpellings": ["Olexandra", "Alexandra", "Aleksandra"],
+  "relatedSpellings": ["Александра", "Саша", "Sasha"],
   "transcription": "Oleksandra",
   "description": "Feminine of Oleksandr, equivalent to Alexandra, of Greek origin.",
   "links": []

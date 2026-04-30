@@ -2,12 +2,8 @@
   "category": "City",
   "sourceSpelling": "Харцизьк",
   "correctSpelling": "Khartsyzk",
-  "incorrectSpellings": [
-    "Khartsyzsk"
-  ],
-  "relatedSpellings": [
-    "Харцызск"
-  ],
+  "incorrectSpellings": ["Khartsyzsk"],
+  "relatedSpellings": ["Харцызск"],
   "links": [
     {
       "name": "Wikipedia: Khartsyzk",

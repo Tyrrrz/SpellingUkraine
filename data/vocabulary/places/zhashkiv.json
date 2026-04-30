@@ -2,12 +2,8 @@
   "category": "City",
   "sourceSpelling": "Жашків",
   "correctSpelling": "Zhashkiv",
-  "incorrectSpellings": [
-    "Zhashkov"
-  ],
-  "relatedSpellings": [
-    "Жашков"
-  ],
+  "incorrectSpellings": ["Zhashkov"],
+  "relatedSpellings": ["Жашков"],
   "links": [
     {
       "name": "Wikipedia: Zhashkiv",

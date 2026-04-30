@@ -2,15 +2,8 @@
   "category": "Personal name",
   "sourceSpelling": "Дарія",
   "correctSpelling": "Dariia",
-  "incorrectSpellings": [
-    "Daria",
-    "Darya"
-  ],
-  "relatedSpellings": [
-    "Дарья",
-    "Даша",
-    "Dasha"
-  ],
+  "incorrectSpellings": ["Daria", "Darya"],
+  "relatedSpellings": ["Дарья", "Даша", "Dasha"],
   "description": "A name of Persian origin.",
   "links": []
 }

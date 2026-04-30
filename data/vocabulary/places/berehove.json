@@ -2,15 +2,8 @@
   "category": "City",
   "sourceSpelling": "Берегове",
   "correctSpelling": "Berehove",
-  "incorrectSpellings": [
-    "Beregove",
-    "Beregovo",
-    "Beregovoe"
-  ],
-  "relatedSpellings": [
-    "Береговое",
-    "Beregszász"
-  ],
+  "incorrectSpellings": ["Beregove", "Beregovo", "Beregovoe"],
+  "relatedSpellings": ["Береговое", "Beregszász"],
   "links": [
     {
       "name": "Wikipedia: Berehove",

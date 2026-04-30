@@ -2,12 +2,8 @@
   "category": "City",
   "sourceSpelling": "Степанівка",
   "correctSpelling": "Stepanivka",
-  "incorrectSpellings": [
-    "Stepanovka"
-  ],
-  "relatedSpellings": [
-    "Степановка"
-  ],
+  "incorrectSpellings": ["Stepanovka"],
+  "relatedSpellings": ["Степановка"],
   "links": [
     {
       "name": "Wikipedia: Stepanivka",

@@ -2,13 +2,8 @@
   "category": "City",
   "sourceSpelling": "Зорія",
   "correctSpelling": "Zoria",
-  "incorrectSpellings": [
-    "Zorya",
-    "Zarya"
-  ],
-  "relatedSpellings": [
-    "Заря"
-  ],
+  "incorrectSpellings": ["Zorya", "Zarya"],
+  "relatedSpellings": ["Заря"],
   "links": [
     {
       "name": "Wikipedia: Zoria",

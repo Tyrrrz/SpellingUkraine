@@ -2,14 +2,8 @@
   "category": "City",
   "sourceSpelling": "Бахчисарай",
   "correctSpelling": "Bakhchysarai",
-  "incorrectSpellings": [
-    "Bakhchisarai"
-  ],
-  "relatedSpellings": [
-    "Bahçesaray",
-    "Bağçasaray",
-    "Bāghche Sarāy"
-  ],
+  "incorrectSpellings": ["Bakhchisarai"],
+  "relatedSpellings": ["Bahçesaray", "Bağçasaray", "Bāghche Sarāy"],
   "links": [
     {
       "name": "Wikipedia: Bakhchysarai",

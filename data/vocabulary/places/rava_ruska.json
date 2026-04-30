@@ -2,14 +2,8 @@
   "category": "City",
   "sourceSpelling": "Рава-Руська",
   "correctSpelling": "Rava-Ruska",
-  "incorrectSpellings": [
-    "Rava-Russka",
-    "Rava-Russkaya"
-  ],
-  "relatedSpellings": [
-    "Рава-Русская",
-    "Rawa Ruska"
-  ],
+  "incorrectSpellings": ["Rava-Russka", "Rava-Russkaya"],
+  "relatedSpellings": ["Рава-Русская", "Rawa Ruska"],
   "links": [
     {
       "name": "Wikipedia: Rava-Ruska",

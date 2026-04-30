@@ -23,6 +23,6 @@ export const getRedditCredentials = () => {
     clientId,
     clientSecret,
     username,
-    password
+    password,
   };
 };

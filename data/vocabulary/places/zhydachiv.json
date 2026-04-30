@@ -2,12 +2,8 @@
   "category": "City",
   "sourceSpelling": "Жидачів",
   "correctSpelling": "Zhydachiv",
-  "incorrectSpellings": [
-    "Zhidachov"
-  ],
-  "relatedSpellings": [
-    "Жидачов"
-  ],
+  "incorrectSpellings": ["Zhidachov"],
+  "relatedSpellings": ["Жидачов"],
   "links": [
     {
       "name": "Wikipedia: Zhydachiv",

@@ -2,12 +2,8 @@
   "category": "City",
   "sourceSpelling": "Суходільськ",
   "correctSpelling": "Sukhodilsk",
-  "incorrectSpellings": [
-    "Sukhodolsk"
-  ],
-  "relatedSpellings": [
-    "Суходольск"
-  ],
+  "incorrectSpellings": ["Sukhodolsk"],
+  "relatedSpellings": ["Суходольск"],
   "links": [
     {
       "name": "Wikipedia: Sukhodilsk",

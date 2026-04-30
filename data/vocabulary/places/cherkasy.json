@@ -2,14 +2,8 @@
   "category": "City",
   "sourceSpelling": "Черкаси",
   "correctSpelling": "Cherkasy",
-  "incorrectSpellings": [
-    "Cherkasi"
-  ],
-  "relatedSpellings": [
-    "Черкассы",
-    "Tscherkasy",
-    "Querkasia"
-  ],
+  "incorrectSpellings": ["Cherkasi"],
+  "relatedSpellings": ["Черкассы", "Tscherkasy", "Querkasia"],
   "links": [
     {
       "name": "Wikipedia: Cherkasy",

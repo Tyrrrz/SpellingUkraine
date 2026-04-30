@@ -2,13 +2,8 @@
   "category": "Personal name",
   "sourceSpelling": "Петро",
   "correctSpelling": "Petro",
-  "incorrectSpellings": [
-    "Petr"
-  ],
-  "relatedSpellings": [
-    "Пётр",
-    "Peter"
-  ],
+  "incorrectSpellings": ["Petr"],
+  "relatedSpellings": ["Пётр", "Peter"],
   "description": "Equivalent to Peter, of Greek origin.",
   "links": []
 }

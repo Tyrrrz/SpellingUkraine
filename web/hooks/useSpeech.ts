@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react';
+import { useEffect, useMemo, useState } from "react";
 
 const useSpeech = () => {
   const [voices, setVoices] = useState<SpeechSynthesisVoice[]>();
@@ -14,10 +14,10 @@ const useSpeech = () => {
       setVoices(speechSynthesis.getVoices());
     };
 
-    speechSynthesis.addEventListener('voiceschanged', onChange);
+    speechSynthesis.addEventListener("voiceschanged", onChange);
 
     return () => {
-      speechSynthesis.removeEventListener('voiceschanged', onChange);
+      speechSynthesis.removeEventListener("voiceschanged", onChange);
     };
   }, []);
 
@@ -31,11 +31,11 @@ const useSpeech = () => {
       setCurrentUtterance(undefined);
     };
 
-    currentUtterance.addEventListener('end', onEnd);
+    currentUtterance.addEventListener("end", onEnd);
     speechSynthesis.speak(currentUtterance);
 
     return () => {
-      currentUtterance.removeEventListener('end', onEnd);
+      currentUtterance.removeEventListener("end", onEnd);
     };
   }, [currentUtterance]);
 
@@ -52,7 +52,7 @@ const useSpeech = () => {
 
         setCurrentUtterance(utterance);
       },
-      isActive
+      isActive,
     };
   }, [isActive, voices, currentUtterance]);
 };

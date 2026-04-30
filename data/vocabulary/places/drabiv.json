@@ -2,12 +2,8 @@
   "category": "City",
   "sourceSpelling": "Драбів",
   "correctSpelling": "Drabiv",
-  "incorrectSpellings": [
-    "Drabov"
-  ],
-  "relatedSpellings": [
-    "Драбов"
-  ],
+  "incorrectSpellings": ["Drabov"],
+  "relatedSpellings": ["Драбов"],
   "links": [
     {
       "name": "Wikipedia: Drabiv",

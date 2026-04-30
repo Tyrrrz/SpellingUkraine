@@ -2,12 +2,8 @@
   "category": "City",
   "sourceSpelling": "Турійськ",
   "correctSpelling": "Turiisk",
-  "incorrectSpellings": [
-    "Turiysk"
-  ],
-  "relatedSpellings": [
-    "Турийск"
-  ],
+  "incorrectSpellings": ["Turiysk"],
+  "relatedSpellings": ["Турийск"],
   "links": [
     {
       "name": "Wikipedia: Turiisk",

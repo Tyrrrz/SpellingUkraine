@@ -2,13 +2,8 @@
   "category": "City",
   "sourceSpelling": "Прип'ять",
   "correctSpelling": "Prypyat",
-  "incorrectSpellings": [
-    "Pripyat",
-    "Pripiat"
-  ],
-  "relatedSpellings": [
-    "Припять"
-  ],
+  "incorrectSpellings": ["Pripyat", "Pripiat"],
+  "relatedSpellings": ["Припять"],
   "links": [
     {
       "name": "Wikipedia: Pripyat",

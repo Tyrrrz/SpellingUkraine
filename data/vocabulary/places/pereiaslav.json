@@ -2,9 +2,7 @@
   "category": "City",
   "sourceSpelling": "Переяслав",
   "correctSpelling": "Pereiaslav",
-  "incorrectSpellings": [
-    "Pereyaslav"
-  ],
+  "incorrectSpellings": ["Pereyaslav"],
   "relatedSpellings": [
     "Переяслав-Хмельницький",
     "Переяслав-Хмельницкий",

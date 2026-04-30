@@ -2,13 +2,8 @@
   "category": "City",
   "sourceSpelling": "Білогородка",
   "correctSpelling": "Bilohorodka",
-  "incorrectSpellings": [
-    "Bilogorodka",
-    "Belogorodka"
-  ],
-  "relatedSpellings": [
-    "Белогородка"
-  ],
+  "incorrectSpellings": ["Bilogorodka", "Belogorodka"],
+  "relatedSpellings": ["Белогородка"],
   "links": [
     {
       "name": "Wikipedia: Bilohorodka",

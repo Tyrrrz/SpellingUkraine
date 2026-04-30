@@ -2,13 +2,8 @@
   "category": "Settlement",
   "sourceSpelling": "Лиманське",
   "correctSpelling": "Lymanske",
-  "incorrectSpellings": [
-    "Lymanskoe",
-    "Limanskoe"
-  ],
-  "relatedSpellings": [
-    "Лиманское"
-  ],
+  "incorrectSpellings": ["Lymanskoe", "Limanskoe"],
+  "relatedSpellings": ["Лиманское"],
   "links": [
     {
       "name": "Wikipedia: Lymanske",

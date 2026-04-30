@@ -2,19 +2,8 @@
   "category": "Personal name",
   "sourceSpelling": "Дмитро",
   "correctSpelling": "Dmytro",
-  "incorrectSpellings": [
-    "Dmitro",
-    "Dmitri",
-    "Dmitriy",
-    "Dmitry"
-  ],
-  "relatedSpellings": [
-    "Дмитрий",
-    "Діма",
-    "Дима",
-    "Dima",
-    "Demetrius"
-  ],
+  "incorrectSpellings": ["Dmitro", "Dmitri", "Dmitriy", "Dmitry"],
+  "relatedSpellings": ["Дмитрий", "Діма", "Дима", "Dima", "Demetrius"],
   "description": "From Demetrius, of Greek origin.",
   "links": []
 }

@@ -2,14 +2,8 @@
   "category": "City",
   "sourceSpelling": "Судова Вишня",
   "correctSpelling": "Sudova Vyshnia",
-  "incorrectSpellings": [
-    "Sudova Vyshnya",
-    "Sudovaya Vishnya"
-  ],
-  "relatedSpellings": [
-    "Судовая Вишня",
-    "Sądowa Wisznia"
-  ],
+  "incorrectSpellings": ["Sudova Vyshnya", "Sudovaya Vishnya"],
+  "relatedSpellings": ["Судовая Вишня", "Sądowa Wisznia"],
   "links": [
     {
       "name": "Wikipedia: Sudova Vyshnia",

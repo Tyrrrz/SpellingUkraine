@@ -2,12 +2,8 @@
   "category": "City",
   "sourceSpelling": "Пісківка",
   "correctSpelling": "Piskivka",
-  "incorrectSpellings": [
-    "Peskovka"
-  ],
-  "relatedSpellings": [
-    "Песковка"
-  ],
+  "incorrectSpellings": ["Peskovka"],
+  "relatedSpellings": ["Песковка"],
   "links": [
     {
       "name": "Wikipedia: Piskivka",

@@ -2,15 +2,8 @@
   "category": "City",
   "sourceSpelling": "Нижньогірський",
   "correctSpelling": "Nyzhnohirskyi",
-  "incorrectSpellings": [
-    "Nyznohirskyi",
-    "Nyzhnogirskiy",
-    "Nizhnegorskiy"
-  ],
-  "relatedSpellings": [
-    "Нижнегорский",
-    "Seyitler"
-  ],
+  "incorrectSpellings": ["Nyznohirskyi", "Nyzhnogirskiy", "Nizhnegorskiy"],
+  "relatedSpellings": ["Нижнегорский", "Seyitler"],
   "links": [
     {
       "name": "Wikipedia: Nyzhnohirskyi",

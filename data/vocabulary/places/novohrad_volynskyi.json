@@ -2,14 +2,8 @@
   "category": "City",
   "sourceSpelling": "Новоград-Волинський",
   "correctSpelling": "Novohrad-Volynskyi",
-  "incorrectSpellings": [
-    "Novograd-Volynsky",
-    "Novograd-Volynskiy"
-  ],
-  "relatedSpellings": [
-    "Новоград-Волынский",
-    "Zwiahel"
-  ],
+  "incorrectSpellings": ["Novograd-Volynsky", "Novograd-Volynskiy"],
+  "relatedSpellings": ["Новоград-Волынский", "Zwiahel"],
   "links": [
     {
       "name": "Wikipedia: Novohrad-Volynskyi",

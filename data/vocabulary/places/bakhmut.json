@@ -2,16 +2,8 @@
   "category": "City",
   "sourceSpelling": "Бахмут",
   "correctSpelling": "Bakhmut",
-  "incorrectSpellings": [
-    "Bahmut"
-  ],
-  "relatedSpellings": [
-    "Артемівськ",
-    "Артёмовск",
-    "Artemivsk",
-    "Artemovsk",
-    "Artyomovsk"
-  ],
+  "incorrectSpellings": ["Bahmut"],
+  "relatedSpellings": ["Артемівськ", "Артёмовск", "Artemivsk", "Artemovsk", "Artyomovsk"],
   "description": "Renamed from \"Artemivsk\" in February 2016. Not to be confused with another city also named Artemivsk which is located in Luhansk Oblast.",
   "links": [
     {

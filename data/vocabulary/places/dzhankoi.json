@@ -2,13 +2,8 @@
   "category": "City",
   "sourceSpelling": "Джанкой",
   "correctSpelling": "Dzhankoi",
-  "incorrectSpellings": [
-    "Jankoy"
-  ],
-  "relatedSpellings": [
-    "Dshankoj",
-    "Canköy"
-  ],
+  "incorrectSpellings": ["Jankoy"],
+  "relatedSpellings": ["Dshankoj", "Canköy"],
   "links": [
     {
       "name": "Wikipedia: Dzhankoi",

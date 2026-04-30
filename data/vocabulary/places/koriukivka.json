@@ -2,13 +2,8 @@
   "category": "City",
   "sourceSpelling": "Корюківка",
   "correctSpelling": "Koriukivka",
-  "incorrectSpellings": [
-    "Koriukovka",
-    "Korukovka"
-  ],
-  "relatedSpellings": [
-    "Корюковка"
-  ],
+  "incorrectSpellings": ["Koriukovka", "Korukovka"],
+  "relatedSpellings": ["Корюковка"],
   "links": [
     {
       "name": "Wikipedia: Koriukivka",

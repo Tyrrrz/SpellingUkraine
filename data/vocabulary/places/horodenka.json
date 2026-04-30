@@ -2,13 +2,8 @@
   "category": "City",
   "sourceSpelling": "Городенка",
   "correctSpelling": "Horodenka",
-  "incorrectSpellings": [
-    "Gorodenka"
-  ],
-  "relatedSpellings": [
-    "Городенка",
-    "Horodence"
-  ],
+  "incorrectSpellings": ["Gorodenka"],
+  "relatedSpellings": ["Городенка", "Horodence"],
   "links": [
     {
       "name": "Wikipedia: Horodenka",

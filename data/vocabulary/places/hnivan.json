@@ -2,12 +2,8 @@
   "category": "City",
   "sourceSpelling": "Гнівань",
   "correctSpelling": "Hnivan",
-  "incorrectSpellings": [
-    "Gnivan"
-  ],
-  "relatedSpellings": [
-    "Гнивань"
-  ],
+  "incorrectSpellings": ["Gnivan"],
+  "relatedSpellings": ["Гнивань"],
   "links": [
     {
       "name": "Wikipedia: Hnivan",

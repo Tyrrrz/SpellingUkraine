@@ -2,13 +2,8 @@
   "category": "City",
   "sourceSpelling": "Великий Березний",
   "correctSpelling": "Velykyi Bereznyi",
-  "incorrectSpellings": [
-    "Velikiy Bereznyi"
-  ],
-  "relatedSpellings": [
-    "Великий Березный",
-    "Veľké Berezné"
-  ],
+  "incorrectSpellings": ["Velikiy Bereznyi"],
+  "relatedSpellings": ["Великий Березный", "Veľké Berezné"],
   "links": [
     {
       "name": "Wikipedia: Velykyi Bereznyi",

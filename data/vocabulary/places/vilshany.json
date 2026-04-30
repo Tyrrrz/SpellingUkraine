@@ -2,13 +2,8 @@
   "category": "City",
   "sourceSpelling": "Вільшани",
   "correctSpelling": "Vilshany",
-  "incorrectSpellings": [
-    "Vilshani",
-    "Olshany"
-  ],
-  "relatedSpellings": [
-    "Ольшаны"
-  ],
+  "incorrectSpellings": ["Vilshani", "Olshany"],
+  "relatedSpellings": ["Ольшаны"],
   "links": [
     {
       "name": "Wikipedia: Vilshany",

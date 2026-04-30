@@ -2,17 +2,8 @@
   "category": "Personal name",
   "sourceSpelling": "Олена",
   "correctSpelling": "Olena",
-  "incorrectSpellings": [
-    "Alena",
-    "Alyona"
-  ],
-  "relatedSpellings": [
-    "Алёна",
-    "Helena",
-    "Elaine",
-    "Ellen",
-    "Helen"
-  ],
+  "incorrectSpellings": ["Alena", "Alyona"],
+  "relatedSpellings": ["Алёна", "Helena", "Elaine", "Ellen", "Helen"],
   "description": "From Helena, equivalent to Elaine, Ellen and Helen, of Greek origin.",
   "links": []
 }

@@ -2,10 +2,7 @@
   "category": "City",
   "sourceSpelling": "Рогатин",
   "correctSpelling": "Rohatyn",
-  "incorrectSpellings": [
-    "Rogatyn",
-    "Rogatin"
-  ],
+  "incorrectSpellings": ["Rogatyn", "Rogatin"],
   "relatedSpellings": [],
   "links": [
     {

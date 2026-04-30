@@ -2,13 +2,8 @@
   "category": "City",
   "sourceSpelling": "Амвросіївка",
   "correctSpelling": "Amvrosiivka",
-  "incorrectSpellings": [
-    "Amvrosiyivka"
-  ],
-  "relatedSpellings": [
-    "Амворосиевка",
-    "Amvrosivka"
-  ],
+  "incorrectSpellings": ["Amvrosiyivka"],
+  "relatedSpellings": ["Амворосиевка", "Amvrosivka"],
   "links": [
     {
       "name": "Wikipedia: Amvrosiivka",

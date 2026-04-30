@@ -2,15 +2,8 @@
   "category": "Personal name",
   "sourceSpelling": "Софія",
   "correctSpelling": "Sofiia",
-  "incorrectSpellings": [
-    "Sofia",
-    "Sofiya"
-  ],
-  "relatedSpellings": [
-    "София",
-    "Sophia",
-    "Sophie"
-  ],
+  "incorrectSpellings": ["Sofia", "Sofiya"],
+  "relatedSpellings": ["София", "Sophia", "Sophie"],
   "description": "From Sophia, equivalent to Sophie, of Greek origin.",
   "links": []
 }

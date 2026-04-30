@@ -2,12 +2,8 @@
   "category": "City",
   "sourceSpelling": "Бердичів",
   "correctSpelling": "Berdychiv",
-  "incorrectSpellings": [
-    "Berdichiv"
-  ],
-  "relatedSpellings": [
-    "Бердычив"
-  ],
+  "incorrectSpellings": ["Berdichiv"],
+  "relatedSpellings": ["Бердычив"],
   "links": [
     {
       "name": "Wikipedia: Berdychiv",

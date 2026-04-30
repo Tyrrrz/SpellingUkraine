@@ -2,13 +2,8 @@
   "category": "City",
   "sourceSpelling": "Новогуйвинське",
   "correctSpelling": "Novohuivynske",
-  "incorrectSpellings": [
-    "Novohuivynskoe",
-    "Novoguyvinskoe"
-  ],
-  "relatedSpellings": [
-    "Новогуйвинское"
-  ],
+  "incorrectSpellings": ["Novohuivynskoe", "Novoguyvinskoe"],
+  "relatedSpellings": ["Новогуйвинское"],
   "links": [
     {
       "name": "Wikipedia: Novohuivynske",

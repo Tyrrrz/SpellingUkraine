@@ -2,12 +2,8 @@
   "category": "City",
   "sourceSpelling": "Фастів",
   "correctSpelling": "Fastiv",
-  "incorrectSpellings": [
-    "Fastov"
-  ],
-  "relatedSpellings": [
-    "Фастов"
-  ],
+  "incorrectSpellings": ["Fastov"],
+  "relatedSpellings": ["Фастов"],
   "links": [
     {
       "name": "Wikipedia: Fastiv",

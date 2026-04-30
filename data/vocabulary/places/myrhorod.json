@@ -2,11 +2,7 @@
   "category": "City",
   "sourceSpelling": "Миргород",
   "correctSpelling": "Myrhorod",
-  "incorrectSpellings": [
-    "Myrgorod",
-    "Mirhorod",
-    "Mirgorod"
-  ],
+  "incorrectSpellings": ["Myrgorod", "Mirhorod", "Mirgorod"],
   "relatedSpellings": [],
   "links": [
     {

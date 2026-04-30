@@ -1,7 +1,6 @@
-import c from 'classnames';
-import { NextPage } from 'next';
-import Heading from '~/components/heading';
-import Meta from '~/components/meta';
+import { NextPage } from "next";
+import Heading from "~/components/heading";
+import Meta from "~/components/meta";
 
 const OfflinePage: NextPage = () => {
   return (
@@ -11,7 +10,7 @@ const OfflinePage: NextPage = () => {
       <section>
         <Heading>Offline</Heading>
 
-        <div className={c('text-lg')}>Your device is currently offline</div>
+        <div className="text-lg">Your device is currently offline</div>
         <div>Please reconnect to the network to view this page</div>
       </section>
     </>

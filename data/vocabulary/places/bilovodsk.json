@@ -2,12 +2,8 @@
   "category": "City",
   "sourceSpelling": "Біловодськ",
   "correctSpelling": "Bilovodsk",
-  "incorrectSpellings": [
-    "Belovodsk"
-  ],
-  "relatedSpellings": [
-    "Беловодск"
-  ],
+  "incorrectSpellings": ["Belovodsk"],
+  "relatedSpellings": ["Беловодск"],
   "links": [
     {
       "name": "Wikipedia: Bilovodsk",

@@ -2,13 +2,8 @@
   "category": "City",
   "sourceSpelling": "Ялта",
   "correctSpelling": "Yalta",
-  "incorrectSpellings": [
-    "Ialta"
-  ],
-  "relatedSpellings": [
-    "Jałta",
-    "Yalita"
-  ],
+  "incorrectSpellings": ["Ialta"],
+  "relatedSpellings": ["Jałta", "Yalita"],
   "links": [
     {
       "name": "Wikipedia: Yalta",

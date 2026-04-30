@@ -2,14 +2,8 @@
   "category": "Personal name",
   "sourceSpelling": "Єгор",
   "correctSpelling": "Yehor",
-  "incorrectSpellings": [
-    "Yegor",
-    "Egor"
-  ],
-  "relatedSpellings": [
-    "Егор",
-    "George"
-  ],
+  "incorrectSpellings": ["Yegor", "Egor"],
+  "relatedSpellings": ["Егор", "George"],
   "description": "Equivalent to George, of Greek origin.",
   "links": []
 }

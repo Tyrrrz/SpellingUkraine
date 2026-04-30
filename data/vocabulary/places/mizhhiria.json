@@ -2,17 +2,8 @@
   "category": "City",
   "sourceSpelling": "Міжгір'я",
   "correctSpelling": "Mizhhiria",
-  "incorrectSpellings": [
-    "Mizhigiria",
-    "Mizhigirya"
-  ],
-  "relatedSpellings": [
-    "Межгорье",
-    "Ökörmező",
-    "Boureni",
-    "Mižhiria",
-    "Volove Pole"
-  ],
+  "incorrectSpellings": ["Mizhigiria", "Mizhigirya"],
+  "relatedSpellings": ["Межгорье", "Ökörmező", "Boureni", "Mižhiria", "Volove Pole"],
   "links": [
     {
       "name": "Wikipedia: Mizhhiria",

@@ -2,13 +2,8 @@
   "category": "Settlement",
   "sourceSpelling": "Городниця",
   "correctSpelling": "Horodnytsia",
-  "incorrectSpellings": [
-    "Gorodnytsia",
-    "Gorodnitsa"
-  ],
-  "relatedSpellings": [
-    "Городница"
-  ],
+  "incorrectSpellings": ["Gorodnytsia", "Gorodnitsa"],
+  "relatedSpellings": ["Городница"],
   "links": [
     {
       "name": "Wikipedia: Horodnytsia",

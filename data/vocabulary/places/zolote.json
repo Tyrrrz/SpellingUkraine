@@ -2,13 +2,8 @@
   "category": "City",
   "sourceSpelling": "Золоте",
   "correctSpelling": "Zolote",
-  "incorrectSpellings": [
-    "Zolotoe",
-    "Zolotoye"
-  ],
-  "relatedSpellings": [
-    "Золотое"
-  ],
+  "incorrectSpellings": ["Zolotoe", "Zolotoye"],
+  "relatedSpellings": ["Золотое"],
   "links": [
     {
       "name": "Wikipedia: Zolote",

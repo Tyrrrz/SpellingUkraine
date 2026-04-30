@@ -2,12 +2,8 @@
   "category": "City",
   "sourceSpelling": "Христинівка",
   "correctSpelling": "Khrystynivka",
-  "incorrectSpellings": [
-    "Khristinovka"
-  ],
-  "relatedSpellings": [
-    "Христиновка"
-  ],
+  "incorrectSpellings": ["Khristinovka"],
+  "relatedSpellings": ["Христиновка"],
   "links": [
     {
       "name": "Wikipedia: Khrystynivka",

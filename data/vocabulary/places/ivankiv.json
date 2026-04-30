@@ -2,13 +2,8 @@
   "category": "City",
   "sourceSpelling": "Іванків",
   "correctSpelling": "Ivankiv",
-  "incorrectSpellings": [
-    "Ivankov"
-  ],
-  "relatedSpellings": [
-    "Иванков",
-    "Ivanquiv"
-  ],
+  "incorrectSpellings": ["Ivankov"],
+  "relatedSpellings": ["Иванков", "Ivanquiv"],
   "links": [
     {
       "name": "Wikipedia: Ivankiv",

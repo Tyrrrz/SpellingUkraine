@@ -2,15 +2,8 @@
   "category": "City",
   "sourceSpelling": "Коломия",
   "correctSpelling": "Kolomyia",
-  "incorrectSpellings": [
-    "Kolomia",
-    "Kolomea"
-  ],
-  "relatedSpellings": [
-    "Коломия",
-    "Kołomyja",
-    "Colomeea"
-  ],
+  "incorrectSpellings": ["Kolomia", "Kolomea"],
+  "relatedSpellings": ["Коломия", "Kołomyja", "Colomeea"],
   "links": [
     {
       "name": "Wikipedia: Kolomyia",

@@ -2,12 +2,8 @@
   "category": "City",
   "sourceSpelling": "Берислав",
   "correctSpelling": "Beryslav",
-  "incorrectSpellings": [
-    "Berislav"
-  ],
-  "relatedSpellings": [
-    "Berynslav"
-  ],
+  "incorrectSpellings": ["Berislav"],
+  "relatedSpellings": ["Berynslav"],
   "links": [
     {
       "name": "Wikipedia: Beryslav",

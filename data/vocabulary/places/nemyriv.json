@@ -2,14 +2,8 @@
   "category": "City",
   "sourceSpelling": "Немирів",
   "correctSpelling": "Nemyriv",
-  "incorrectSpellings": [
-    "Nemirov",
-    "Nemiroff"
-  ],
-  "relatedSpellings": [
-    "Немиров",
-    "Niemirów"
-  ],
+  "incorrectSpellings": ["Nemirov", "Nemiroff"],
+  "relatedSpellings": ["Немиров", "Niemirów"],
   "description": "Origin of the \"Nemiroff\" vodka.",
   "links": [
     {

@@ -2,14 +2,8 @@
   "category": "City",
   "sourceSpelling": "Євпаторія",
   "correctSpelling": "Yevpatoriia",
-  "incorrectSpellings": [
-    "Yevpatoria",
-    "Yevpatoriya",
-    "Evpatoria"
-  ],
-  "relatedSpellings": [
-    "Евпатория"
-  ],
+  "incorrectSpellings": ["Yevpatoria", "Yevpatoriya", "Evpatoria"],
+  "relatedSpellings": ["Евпатория"],
   "links": [
     {
       "name": "Wikipedia: Yevpatoriia",

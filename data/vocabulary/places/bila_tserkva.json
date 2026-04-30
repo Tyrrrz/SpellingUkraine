@@ -2,16 +2,8 @@
   "category": "City",
   "sourceSpelling": "Біла Церква",
   "correctSpelling": "Bila Tserkva",
-  "incorrectSpellings": [
-    "Bila Cerkva",
-    "Belaya Tserkva",
-    "Belaya Tserkov"
-  ],
-  "relatedSpellings": [
-    "Белая Церковь",
-    "Била Церква",
-    "Biała Cerkiew"
-  ],
+  "incorrectSpellings": ["Bila Cerkva", "Belaya Tserkva", "Belaya Tserkov"],
+  "relatedSpellings": ["Белая Церковь", "Била Церква", "Biała Cerkiew"],
   "transcription": "Beela Tserqua",
   "links": [
     {

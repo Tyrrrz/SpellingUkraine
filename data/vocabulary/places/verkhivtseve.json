@@ -2,12 +2,8 @@
   "category": "City",
   "sourceSpelling": "Верхівцеве",
   "correctSpelling": "Verkhivtseve",
-  "incorrectSpellings": [
-    "Verkhovtsevo"
-  ],
-  "relatedSpellings": [
-    "Верховцево"
-  ],
+  "incorrectSpellings": ["Verkhovtsevo"],
+  "relatedSpellings": ["Верховцево"],
   "links": [
     {
       "name": "Wikipedia: Verkhivtseve",

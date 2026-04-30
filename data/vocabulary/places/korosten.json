@@ -2,12 +2,8 @@
   "category": "City",
   "sourceSpelling": "Коростень",
   "correctSpelling": "Korosten",
-  "incorrectSpellings": [
-    "Iskorosten"
-  ],
-  "relatedSpellings": [
-    "Іскоростень"
-  ],
+  "incorrectSpellings": ["Iskorosten"],
+  "relatedSpellings": ["Іскоростень"],
   "links": [
     {
       "name": "Wikipedia: Korosten",

@@ -2,12 +2,8 @@
   "category": "City",
   "sourceSpelling": "Чугуїв",
   "correctSpelling": "Chuhuiv",
-  "incorrectSpellings": [
-    "Chuguev"
-  ],
-  "relatedSpellings": [
-    "Чугуев"
-  ],
+  "incorrectSpellings": ["Chuguev"],
+  "relatedSpellings": ["Чугуев"],
   "links": [
     {
       "name": "Wikipedia: Chuhuiv",

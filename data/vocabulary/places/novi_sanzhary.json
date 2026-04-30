@@ -2,13 +2,8 @@
   "category": "City",
   "sourceSpelling": "Нові Санжари",
   "correctSpelling": "Novi Sanzhary",
-  "incorrectSpellings": [
-    "Novyie Sanzhary",
-    "Novie Sanzhary"
-  ],
-  "relatedSpellings": [
-    "Новые Санжары"
-  ],
+  "incorrectSpellings": ["Novyie Sanzhary", "Novie Sanzhary"],
+  "relatedSpellings": ["Новые Санжары"],
   "links": [
     {
       "name": "Wikipedia: Novi Sanzhary",

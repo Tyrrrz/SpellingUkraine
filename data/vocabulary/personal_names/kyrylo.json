@@ -2,13 +2,8 @@
   "category": "Personal name",
   "sourceSpelling": "Кирило",
   "correctSpelling": "Kyrylo",
-  "incorrectSpellings": [
-    "Kiril"
-  ],
-  "relatedSpellings": [
-    "Кирилл",
-    "Cyril"
-  ],
+  "incorrectSpellings": ["Kiril"],
+  "relatedSpellings": ["Кирилл", "Cyril"],
   "description": "Equivalent to Cyril, of Greek origin.",
   "links": []
 }

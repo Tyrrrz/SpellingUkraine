@@ -2,12 +2,8 @@
   "category": "Personal name",
   "sourceSpelling": "Ангеліна",
   "correctSpelling": "Anhelina",
-  "incorrectSpellings": [
-    "Angelina"
-  ],
-  "relatedSpellings": [
-    "Ангелина"
-  ],
+  "incorrectSpellings": ["Angelina"],
+  "relatedSpellings": ["Ангелина"],
   "description": "From Angelina, of Greek origin.",
   "links": []
 }

@@ -2,14 +2,8 @@
   "category": "City",
   "sourceSpelling": "Вапнярка",
   "correctSpelling": "Vapniarka",
-  "incorrectSpellings": [
-    "Vapnyarka"
-  ],
-  "relatedSpellings": [
-    "Vapniarca",
-    "Wapnjarka",
-    "Wapniarka"
-  ],
+  "incorrectSpellings": ["Vapnyarka"],
+  "relatedSpellings": ["Vapniarca", "Wapnjarka", "Wapniarka"],
   "links": [
     {
       "name": "Wikipedia: Vapniarka",

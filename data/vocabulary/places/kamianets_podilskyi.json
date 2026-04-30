@@ -2,16 +2,8 @@
   "category": "City",
   "sourceSpelling": "Кам'янець-Подільський",
   "correctSpelling": "Kamianets-Podilskyi",
-  "incorrectSpellings": [
-    "Kamenets-Podolskiy",
-    "Kamyanets-Podilskyi",
-    "Kamianets-Podolskyi"
-  ],
-  "relatedSpellings": [
-    "Каменец-Подольский",
-    "Kamieniec Podolski",
-    "Camenița"
-  ],
+  "incorrectSpellings": ["Kamenets-Podolskiy", "Kamyanets-Podilskyi", "Kamianets-Podolskyi"],
+  "relatedSpellings": ["Каменец-Подольский", "Kamieniec Podolski", "Camenița"],
   "links": [
     {
       "name": "Wikipedia: Kamianets-Podilskyi",

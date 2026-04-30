@@ -2,16 +2,8 @@
   "category": "City",
   "sourceSpelling": "Отинія",
   "correctSpelling": "Otyniia",
-  "incorrectSpellings": [
-    "Ottynia",
-    "Otyniya",
-    "Otynya",
-    "Otinya"
-  ],
-  "relatedSpellings": [
-    "Отыния",
-    "Oteniia"
-  ],
+  "incorrectSpellings": ["Ottynia", "Otyniya", "Otynya", "Otinya"],
+  "relatedSpellings": ["Отыния", "Oteniia"],
   "links": [
     {
       "name": "Wikipedia: Otyniia",

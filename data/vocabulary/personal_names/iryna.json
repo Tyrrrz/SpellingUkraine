@@ -2,13 +2,8 @@
   "category": "Personal name",
   "sourceSpelling": "Ірина",
   "correctSpelling": "Iryna",
-  "incorrectSpellings": [
-    "Irina"
-  ],
-  "relatedSpellings": [
-    "Ирина",
-    "Irene"
-  ],
+  "incorrectSpellings": ["Irina"],
+  "relatedSpellings": ["Ирина", "Irene"],
   "description": "Equivalent to Irene, of Greek origin.",
   "links": []
 }

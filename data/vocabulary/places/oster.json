@@ -2,12 +2,8 @@
   "category": "City",
   "sourceSpelling": "Остер",
   "correctSpelling": "Oster",
-  "incorrectSpellings": [
-    "Ostior"
-  ],
-  "relatedSpellings": [
-    "Остёр"
-  ],
+  "incorrectSpellings": ["Ostior"],
+  "relatedSpellings": ["Остёр"],
   "links": [
     {
       "name": "Wikipedia: Oster",

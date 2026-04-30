@@ -2,13 +2,8 @@
   "category": "City",
   "sourceSpelling": "Ланівці",
   "correctSpelling": "Lanivtsi",
-  "incorrectSpellings": [
-    "Lanovtsy"
-  ],
-  "relatedSpellings": [
-    "Лановцы",
-    "Łanowce"
-  ],
+  "incorrectSpellings": ["Lanovtsy"],
+  "relatedSpellings": ["Лановцы", "Łanowce"],
   "links": [
     {
       "name": "Wikipedia: Lanivtsi",

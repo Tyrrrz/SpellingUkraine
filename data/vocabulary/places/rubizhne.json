@@ -2,13 +2,8 @@
   "category": "City",
   "sourceSpelling": "Рубіжне",
   "correctSpelling": "Rubizhne",
-  "incorrectSpellings": [
-    "Rubezhne",
-    "Rubezhnoe"
-  ],
-  "relatedSpellings": [
-    "Рубежное"
-  ],
+  "incorrectSpellings": ["Rubezhne", "Rubezhnoe"],
+  "relatedSpellings": ["Рубежное"],
   "links": [
     {
       "name": "Wikipedia: Rubizhne",

@@ -2,13 +2,8 @@
   "category": "City",
   "sourceSpelling": "Мала Виска",
   "correctSpelling": "Mala Vyska",
-  "incorrectSpellings": [
-    "Malaya Vyska",
-    "Malaya Viska"
-  ],
-  "relatedSpellings": [
-    "Малая Виска"
-  ],
+  "incorrectSpellings": ["Malaya Vyska", "Malaya Viska"],
+  "relatedSpellings": ["Малая Виска"],
   "links": [
     {
       "name": "Wikipedia: Mala Vyska",

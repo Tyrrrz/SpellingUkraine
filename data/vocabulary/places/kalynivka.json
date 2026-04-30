@@ -2,13 +2,8 @@
   "category": "City",
   "sourceSpelling": "Калинівка",
   "correctSpelling": "Kalynivka",
-  "incorrectSpellings": [
-    "Kalinovka"
-  ],
-  "relatedSpellings": [
-    "Калиновка",
-    "Kalinówka"
-  ],
+  "incorrectSpellings": ["Kalinovka"],
+  "relatedSpellings": ["Калиновка", "Kalinówka"],
   "links": [
     {
       "name": "Wikipedia: Kalynivka",

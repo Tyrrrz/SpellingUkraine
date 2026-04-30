@@ -2,13 +2,8 @@
   "category": "Personal name",
   "sourceSpelling": "Максим",
   "correctSpelling": "Maksym",
-  "incorrectSpellings": [
-    "Maksim",
-    "Maxim"
-  ],
-  "relatedSpellings": [
-    "Maximus"
-  ],
+  "incorrectSpellings": ["Maksim", "Maxim"],
+  "relatedSpellings": ["Maximus"],
   "description": "From Maximus, of Latin origin, meaning \"greatest\".",
   "links": []
 }

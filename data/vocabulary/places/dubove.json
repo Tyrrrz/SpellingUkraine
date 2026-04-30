@@ -2,14 +2,8 @@
   "category": "City",
   "sourceSpelling": "Дубове",
   "correctSpelling": "Dubove",
-  "incorrectSpellings": [
-    "Dubovoe"
-  ],
-  "relatedSpellings": [
-    "Дубовое",
-    "Dombó",
-    "Delureni"
-  ],
+  "incorrectSpellings": ["Dubovoe"],
+  "relatedSpellings": ["Дубовое", "Dombó", "Delureni"],
   "links": [
     {
       "name": "Wikipedia: Dubove",

@@ -2,14 +2,8 @@
   "category": "City",
   "sourceSpelling": "Чернівці",
   "correctSpelling": "Chernivtsi",
-  "incorrectSpellings": [
-    "Chernyvtsi"
-  ],
-  "relatedSpellings": [
-    "Черновцы",
-    "Cernăuți",
-    "Czernowitz"
-  ],
+  "incorrectSpellings": ["Chernyvtsi"],
+  "relatedSpellings": ["Черновцы", "Cernăuți", "Czernowitz"],
   "transcription": "Chernivtsi",
   "links": [
     {

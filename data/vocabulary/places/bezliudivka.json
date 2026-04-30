@@ -2,12 +2,8 @@
   "category": "City",
   "sourceSpelling": "Безлюдівка",
   "correctSpelling": "Bezliudivka",
-  "incorrectSpellings": [
-    "Bezludivka"
-  ],
-  "relatedSpellings": [
-    "Безлюдовка"
-  ],
+  "incorrectSpellings": ["Bezludivka"],
+  "relatedSpellings": ["Безлюдовка"],
   "links": [
     {
       "name": "Wikipedia: Bezliudivka",

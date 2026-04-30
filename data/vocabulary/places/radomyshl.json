@@ -2,13 +2,8 @@
   "category": "City",
   "sourceSpelling": "Радомишль",
   "correctSpelling": "Radomyshl",
-  "incorrectSpellings": [
-    "Radomishl"
-  ],
-  "relatedSpellings": [
-    "Радомышль",
-    "Radomyśl"
-  ],
+  "incorrectSpellings": ["Radomishl"],
+  "relatedSpellings": ["Радомышль", "Radomyśl"],
   "links": [
     {
       "name": "Wikipedia: Radomyshl",

@@ -2,14 +2,8 @@
   "category": "City",
   "sourceSpelling": "Квасилів",
   "correctSpelling": "Kvasyliv",
-  "incorrectSpellings": [
-    "Kvasilov",
-    "Kvasylov"
-  ],
-  "relatedSpellings": [
-    "Квасилов",
-    "Kwasiłów"
-  ],
+  "incorrectSpellings": ["Kvasilov", "Kvasylov"],
+  "relatedSpellings": ["Квасилов", "Kwasiłów"],
   "links": [
     {
       "name": "Wikipedia: Kvasyliv",

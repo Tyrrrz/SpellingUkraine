@@ -2,12 +2,8 @@
   "category": "City",
   "sourceSpelling": "Бурородчани",
   "correctSpelling": "Bohorodchany",
-  "incorrectSpellings": [
-    "Bogorodchani"
-  ],
-  "relatedSpellings": [
-    "Богородчаны"
-  ],
+  "incorrectSpellings": ["Bogorodchani"],
+  "relatedSpellings": ["Богородчаны"],
   "links": [
     {
       "name": "Wikipedia: Bohorodchany",

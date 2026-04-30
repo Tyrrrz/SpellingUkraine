@@ -2,12 +2,8 @@
   "category": "City",
   "sourceSpelling": "Знам'янка",
   "correctSpelling": "Znamianka",
-  "incorrectSpellings": [
-    "Znamenka"
-  ],
-  "relatedSpellings": [
-    "Знаменка"
-  ],
+  "incorrectSpellings": ["Znamenka"],
+  "relatedSpellings": ["Знаменка"],
   "links": [
     {
       "name": "Wikipedia: Znamianka",

@@ -2,12 +2,8 @@
   "category": "City",
   "sourceSpelling": "Куп'янськ",
   "correctSpelling": "Kupiansk",
-  "incorrectSpellings": [
-    "Kupyansk"
-  ],
-  "relatedSpellings": [
-    "Купянск"
-  ],
+  "incorrectSpellings": ["Kupyansk"],
+  "relatedSpellings": ["Купянск"],
   "links": [
     {
       "name": "Wikipedia: Kupiansk",

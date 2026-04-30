@@ -2,13 +2,8 @@
   "category": "City",
   "sourceSpelling": "Томашпіль",
   "correctSpelling": "Tomashpil",
-  "incorrectSpellings": [
-    "Tomashpol"
-  ],
-  "relatedSpellings": [
-    "Томашполь",
-    "Tomaszpol"
-  ],
+  "incorrectSpellings": ["Tomashpol"],
+  "relatedSpellings": ["Томашполь", "Tomaszpol"],
   "links": [
     {
       "name": "Wikipedia: Tomashpil",

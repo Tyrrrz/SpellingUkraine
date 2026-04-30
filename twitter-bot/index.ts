@@ -1,18 +1,18 @@
-import { loadVocabularyEntry } from 'spelling-ukraine-data';
-import { getMe, listen, reply } from '~/twitter';
-import { retry } from '~/utils/retry';
+import { loadVocabularyEntry } from "spelling-ukraine-data";
+import { getMe, listen, reply } from "~/twitter";
+import { retry } from "~/utils/retry";
 
 const sampling = 0.01;
 const entries = [
-  'kyiv',
-  'lviv',
-  'kharkiv',
-  'odesa',
-  'mykolaiv',
-  'chornobyl',
-  'irpin',
-  'chernihiv',
-  'zaporizhzhia'
+  "kyiv",
+  "lviv",
+  "kharkiv",
+  "odesa",
+  "mykolaiv",
+  "chornobyl",
+  "irpin",
+  "chernihiv",
+  "zaporizhzhia",
 ];
 
 // Keep track of tweets that have already been replied to.
@@ -22,19 +22,19 @@ const entries = [
 const repliedTweets = new Set<string>();
 
 const main = async () => {
-  console.log('Twitter bot is starting...');
+  console.log("Twitter bot is starting...");
 
   const me = await getMe();
-  console.log('Logged in as:', me.name);
+  console.log("Logged in as:", me.name);
 
   const vocabulary = await Promise.all(entries.map(async (id) => await loadVocabularyEntry(id)));
   const predicates = vocabulary.flatMap((entry) =>
-    entry.incorrectSpellings.flatMap((spelling) => ({ entry, keyword: spelling }))
+    entry.incorrectSpellings.flatMap((spelling) => ({ entry, keyword: spelling })),
   );
 
   console.log(
-    'Predicates:',
-    predicates.map((predicate) => predicate.keyword)
+    "Predicates:",
+    predicates.map((predicate) => predicate.keyword),
   );
 
   const filters = [
@@ -44,35 +44,35 @@ const main = async () => {
     `-is:quote`,
     `-from:${me.name}`,
     `min_faves:10`,
-    `(${predicates.map((predicate) => '"' + predicate.keyword + '"').join(' OR ')})`
+    `(${predicates.map((predicate) => '"' + predicate.keyword + '"').join(" OR ")})`,
   ];
 
-  console.log('Listening to tweets:', filters);
+  console.log("Listening to tweets:", filters);
 
-  await listen(filters.join(' '), async (tweet) => {
+  await listen(filters.join(" "), async (tweet) => {
     if (repliedTweets.has(tweet.id)) {
       return;
     }
 
     // Scrub mentions, URLs
     const textNormalized = tweet.text
-      .replace(/\b@\w+\b/g, '')
-      .replace(/\b(https?:\/\/)[^\s]*\b/g, '');
+      .replace(/\b@\w+\b/g, "")
+      .replace(/\b(https?:\/\/)[^\s]*\b/g, "");
 
     const match = predicates.find(
       (predicate) =>
-        new RegExp(`\\b${predicate.keyword}\\b`, 'gi').test(textNormalized) &&
-        !new RegExp(`\\b${predicate.entry.correctSpelling}\\b`, 'gi').test(textNormalized)
+        new RegExp(`\\b${predicate.keyword}\\b`, "gi").test(textNormalized) &&
+        !new RegExp(`\\b${predicate.entry.correctSpelling}\\b`, "gi").test(textNormalized),
     );
 
     if (!match) {
       return;
     }
 
-    console.log('Tweet:', tweet);
-    console.log('Match:', {
+    console.log("Tweet:", tweet);
+    console.log("Match:", {
       correct: match.entry.correctSpelling,
-      incorrect: match.keyword
+      incorrect: match.keyword,
     });
 
     const replyTweet = await reply(
@@ -82,11 +82,11 @@ const main = async () => {
         `Support Ukraine by using the correct spelling! 🇺🇦`,
         `\n\n`,
         `Learn more: https://spellingukraine.com/i/${match.entry.id}. `,
-        `I'm a bot, sorry if I'm missing context.`
-      ].join('')
+        `I'm a bot, sorry if I'm missing context.`,
+      ].join(""),
     );
 
-    console.log('Reply tweet:', replyTweet);
+    console.log("Reply tweet:", replyTweet);
 
     // Don't overflow the cache
     if (repliedTweets.size > 10000) {

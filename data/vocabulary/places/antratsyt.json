@@ -2,14 +2,8 @@
   "category": "City",
   "sourceSpelling": "Антрацит",
   "correctSpelling": "Antratsyt",
-  "incorrectSpellings": [
-    "Antrasit",
-    "Antracit",
-    "Anthratsyt"
-  ],
-  "relatedSpellings": [
-    "Антрацыт"
-  ],
+  "incorrectSpellings": ["Antrasit", "Antracit", "Anthratsyt"],
+  "relatedSpellings": ["Антрацыт"],
   "links": [
     {
       "name": "Wikipedia: Antratsyt",

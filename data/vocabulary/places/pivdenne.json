@@ -2,12 +2,8 @@
   "category": "City",
   "sourceSpelling": "Південне",
   "correctSpelling": "Pivdenne",
-  "incorrectSpellings": [
-    "Pivdennoe"
-  ],
-  "relatedSpellings": [
-    "Пивденное"
-  ],
+  "incorrectSpellings": ["Pivdennoe"],
+  "relatedSpellings": ["Пивденное"],
   "links": [
     {
       "name": "Wikipedia: Pivdenne",

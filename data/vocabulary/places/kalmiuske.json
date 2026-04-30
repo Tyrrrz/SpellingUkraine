@@ -2,15 +2,8 @@
   "category": "City",
   "sourceSpelling": "Кальміуське",
   "correctSpelling": "Kalmiuske",
-  "incorrectSpellings": [
-    "Kalmiske"
-  ],
-  "relatedSpellings": [
-    "Кальмиусское",
-    "Комсомольское",
-    "Komsomolske",
-    "Komsomolskoye"
-  ],
+  "incorrectSpellings": ["Kalmiske"],
+  "relatedSpellings": ["Кальмиусское", "Комсомольское", "Komsomolske", "Komsomolskoye"],
   "description": "Renamed from \"Komsomolske\" in May 2016.",
   "links": [
     {

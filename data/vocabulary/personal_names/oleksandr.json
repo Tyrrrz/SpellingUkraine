@@ -2,18 +2,8 @@
   "category": "Personal name",
   "sourceSpelling": "Олександр",
   "correctSpelling": "Oleksandr",
-  "incorrectSpellings": [
-    "Olexandr",
-    "Olexander",
-    "Alexandr",
-    "Alexander",
-    "Aleksandr"
-  ],
-  "relatedSpellings": [
-    "Александр",
-    "Саша",
-    "Sasha"
-  ],
+  "incorrectSpellings": ["Olexandr", "Olexander", "Alexandr", "Alexander", "Aleksandr"],
+  "relatedSpellings": ["Александр", "Саша", "Sasha"],
   "transcription": "Oleksandr",
   "description": "Equivalent to Alexander, of Greek origin.",
   "links": []

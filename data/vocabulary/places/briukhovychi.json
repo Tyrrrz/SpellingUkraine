@@ -2,11 +2,7 @@
   "category": "City",
   "sourceSpelling": "Брюховичі",
   "correctSpelling": "Briukhovychi",
-  "incorrectSpellings": [
-    "Bryukhovichi",
-    "Bryukhovychi",
-    "Briuhovychi"
-  ],
+  "incorrectSpellings": ["Bryukhovichi", "Bryukhovychi", "Briuhovychi"],
   "relatedSpellings": [],
   "links": [
     {

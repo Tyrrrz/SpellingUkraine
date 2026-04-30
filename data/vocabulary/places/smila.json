@@ -2,12 +2,8 @@
   "category": "City",
   "sourceSpelling": "Сміла",
   "correctSpelling": "Smila",
-  "incorrectSpellings": [
-    "Smela"
-  ],
-  "relatedSpellings": [
-    "Смела"
-  ],
+  "incorrectSpellings": ["Smela"],
+  "relatedSpellings": ["Смела"],
   "links": [
     {
       "name": "Wikipedia: Smila",

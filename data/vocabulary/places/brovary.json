@@ -2,13 +2,8 @@
   "category": "City",
   "sourceSpelling": "Броварський",
   "correctSpelling": "Brovary",
-  "incorrectSpellings": [
-    "Brovari"
-  ],
-  "relatedSpellings": [
-    "Бровары",
-    "Browary"
-  ],
+  "incorrectSpellings": ["Brovari"],
+  "relatedSpellings": ["Бровары", "Browary"],
   "links": [
     {
       "name": "Wikipedia: Brovary",

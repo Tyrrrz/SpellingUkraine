@@ -15,6 +15,10 @@
     "start:discord-bot": "cd discord-bot && yarn run start",
     "start:reddit-bot": "cd reddit-bot && yarn run start",
     "start:twitter-bot": "cd twitter-bot && yarn run start",
-    "start:web": "cd web && yarn run start"
+    "start:web": "cd web && yarn run start",
+    "lint": "yarn workspaces run lint",
+    "lint:check": "yarn workspaces run lint:check",
+    "format": "yarn workspaces run format",
+    "format:check": "yarn workspaces run format:check"
   }
 }

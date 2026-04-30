@@ -2,13 +2,8 @@
   "category": "City",
   "sourceSpelling": "Бобровиця",
   "correctSpelling": "Bobrovytsia",
-  "incorrectSpellings": [
-    "Bobrovitsia",
-    "Bobrovytsa"
-  ],
-  "relatedSpellings": [
-    "Бобровица"
-  ],
+  "incorrectSpellings": ["Bobrovitsia", "Bobrovytsa"],
+  "relatedSpellings": ["Бобровица"],
   "links": [
     {
       "name": "Wikipedia: Bobrovytsia",

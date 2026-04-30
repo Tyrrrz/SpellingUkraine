@@ -2,14 +2,8 @@
   "category": "City",
   "sourceSpelling": "Костянтинівка",
   "correctSpelling": "Kostiantynivka",
-  "incorrectSpellings": [
-    "Kostyantynivka",
-    "Kostiantinovka",
-    "Kostyantinovka"
-  ],
-  "relatedSpellings": [
-    "Константиновка"
-  ],
+  "incorrectSpellings": ["Kostyantynivka", "Kostiantinovka", "Kostyantinovka"],
+  "relatedSpellings": ["Константиновка"],
   "links": [
     {
       "name": "Wikipedia: Kostiantynivka",

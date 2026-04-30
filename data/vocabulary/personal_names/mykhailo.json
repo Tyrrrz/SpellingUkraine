@@ -2,15 +2,8 @@
   "category": "Personal name",
   "sourceSpelling": "Михайло",
   "correctSpelling": "Mykhailo",
-  "incorrectSpellings": [
-    "Mikhail",
-    "Mihail"
-  ],
-  "relatedSpellings": [
-    "Михаил",
-    "Michael",
-    "Mitchell"
-  ],
+  "incorrectSpellings": ["Mikhail", "Mihail"],
+  "relatedSpellings": ["Михаил", "Michael", "Mitchell"],
   "transcription": "Mihkhaylo",
   "description": "Equivalent to Michael and Mitchell, of Hebrew origin.",
   "links": []

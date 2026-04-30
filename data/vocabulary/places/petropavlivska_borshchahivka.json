@@ -2,12 +2,8 @@
   "category": "City",
   "sourceSpelling": "Петропавлівська Борщагівка",
   "correctSpelling": "Petropavlivska Borshchahivka",
-  "incorrectSpellings": [
-    "Petropavlovskaya Borschagovka"
-  ],
-  "relatedSpellings": [
-    "Петропавловская Борщаговка"
-  ],
+  "incorrectSpellings": ["Petropavlovskaya Borschagovka"],
+  "relatedSpellings": ["Петропавловская Борщаговка"],
   "links": [
     {
       "name": "Wikipedia: Petropavlivska Borshchahivka",

@@ -2,12 +2,8 @@
   "category": "City",
   "sourceSpelling": "Рожище",
   "correctSpelling": "Rozhyshche",
-  "incorrectSpellings": [
-    "Rozhishche"
-  ],
-  "relatedSpellings": [
-    "Rożyszcze"
-  ],
+  "incorrectSpellings": ["Rozhishche"],
+  "relatedSpellings": ["Rożyszcze"],
   "links": [
     {
       "name": "Wikipedia: Rozhyshche",

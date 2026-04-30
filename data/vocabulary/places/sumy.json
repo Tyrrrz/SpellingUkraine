@@ -2,13 +2,8 @@
   "category": "City",
   "sourceSpelling": "Суми",
   "correctSpelling": "Sumy",
-  "incorrectSpellings": [
-    "Sumi",
-    "Symi"
-  ],
-  "relatedSpellings": [
-    "Сумы"
-  ],
+  "incorrectSpellings": ["Sumi", "Symi"],
+  "relatedSpellings": ["Сумы"],
   "links": [
     {
       "name": "Wikipedia: Sumy",

@@ -2,12 +2,8 @@
   "category": "City",
   "sourceSpelling": "Марганець",
   "correctSpelling": "Marhanets",
-  "incorrectSpellings": [
-    "Marganets"
-  ],
-  "relatedSpellings": [
-    "Марганец"
-  ],
+  "incorrectSpellings": ["Marganets"],
+  "relatedSpellings": ["Марганец"],
   "links": [
     {
       "name": "Wikipedia: Marhanets",

@@ -2,9 +2,7 @@
   "category": "City",
   "sourceSpelling": "Володимир-Волинський",
   "correctSpelling": "Volodymyr",
-  "incorrectSpellings": [
-    "Vladimir"
-  ],
+  "incorrectSpellings": ["Vladimir"],
   "relatedSpellings": [
     "Владимир",
     "Володимир-Волинський",

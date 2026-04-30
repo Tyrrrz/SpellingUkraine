@@ -2,15 +2,8 @@
   "category": "City",
   "sourceSpelling": "Кам'янське",
   "correctSpelling": "Kamianske",
-  "incorrectSpellings": [
-    "Kamyanske"
-  ],
-  "relatedSpellings": [
-    "Каменское",
-    "Днепродзержинск",
-    "Dniprodzerzhynsk",
-    "Dneprodzerzhinsk"
-  ],
+  "incorrectSpellings": ["Kamyanske"],
+  "relatedSpellings": ["Каменское", "Днепродзержинск", "Dniprodzerzhynsk", "Dneprodzerzhinsk"],
   "description": "Renamed from \"Dniprodzerzhynsk\" in May 2016.",
   "links": [
     {

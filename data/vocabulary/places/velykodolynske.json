@@ -2,12 +2,8 @@
   "category": "City",
   "sourceSpelling": "Великодолинське",
   "correctSpelling": "Velykodolynske",
-  "incorrectSpellings": [
-    "Velikodolinskoe"
-  ],
-  "relatedSpellings": [
-    "Великодолинское"
-  ],
+  "incorrectSpellings": ["Velikodolinskoe"],
+  "relatedSpellings": ["Великодолинское"],
   "links": [
     {
       "name": "Wikipedia: Velykodolynske",

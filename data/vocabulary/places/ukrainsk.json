@@ -2,12 +2,8 @@
   "category": "City",
   "sourceSpelling": "Українськ",
   "correctSpelling": "Ukrainsk",
-  "incorrectSpellings": [
-    "Ukrayinsk"
-  ],
-  "relatedSpellings": [
-    "Украинск"
-  ],
+  "incorrectSpellings": ["Ukrayinsk"],
+  "relatedSpellings": ["Украинск"],
   "links": [
     {
       "name": "Wikipedia: Ukrainsk",

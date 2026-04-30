@@ -2,13 +2,8 @@
   "category": "City",
   "sourceSpelling": "Гірник",
   "correctSpelling": "Hirnyk",
-  "incorrectSpellings": [
-    "Gorniak",
-    "Gornyak"
-  ],
-  "relatedSpellings": [
-    "Горняк"
-  ],
+  "incorrectSpellings": ["Gorniak", "Gornyak"],
+  "relatedSpellings": ["Горняк"],
   "links": [
     {
       "name": "Wikipedia: Hirnyk",

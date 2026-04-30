@@ -2,13 +2,8 @@
   "category": "City",
   "sourceSpelling": "Лохвиця",
   "correctSpelling": "Lokhvytsia",
-  "incorrectSpellings": [
-    "Lokhvytsya",
-    "Lokhvitsa"
-  ],
-  "relatedSpellings": [
-    "Лохвица"
-  ],
+  "incorrectSpellings": ["Lokhvytsya", "Lokhvitsa"],
+  "relatedSpellings": ["Лохвица"],
   "links": [
     {
       "name": "Wikipedia: Lokhvytsia",

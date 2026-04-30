@@ -2,16 +2,8 @@
   "category": "City",
   "sourceSpelling": "Хрестівка",
   "correctSpelling": "Khrestivka",
-  "incorrectSpellings": [
-    "Khrestovka"
-  ],
-  "relatedSpellings": [
-    "Крестовка",
-    "Кіровське",
-    "Кировское",
-    "Kirovske",
-    "Kirovskoe"
-  ],
+  "incorrectSpellings": ["Khrestovka"],
+  "relatedSpellings": ["Крестовка", "Кіровське", "Кировское", "Kirovske", "Kirovskoe"],
   "description": "Renamed from \"Kirovske\" in May 2016.",
   "links": [
     {

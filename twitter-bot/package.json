@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "start": "ts-node index.ts"
+    "start": "ts-node index.ts",
+    "lint": "exit 0",
+    "lint:check": "exit 0",
+    "format": "prettier . --write",
+    "format:check": "prettier . --check"
   },
   "dependencies": {
     "spelling-ukraine-data": "^1.0.0",

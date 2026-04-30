@@ -2,16 +2,8 @@
   "category": "City",
   "sourceSpelling": "Селидове",
   "correctSpelling": "Selydove",
-  "incorrectSpellings": [
-    "Selidove",
-    "Selidovo"
-  ],
-  "relatedSpellings": [
-    "Селидово",
-    "Селидівка",
-    "Селидовка",
-    "Selydivka"
-  ],
+  "incorrectSpellings": ["Selidove", "Selidovo"],
+  "relatedSpellings": ["Селидово", "Селидівка", "Селидовка", "Selydivka"],
   "description": "Renamed from \"Selydivka\".",
   "links": [
     {

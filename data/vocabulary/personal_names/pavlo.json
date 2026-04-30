@@ -2,13 +2,8 @@
   "category": "Personal name",
   "sourceSpelling": "Павло",
   "correctSpelling": "Pavlo",
-  "incorrectSpellings": [
-    "Pavel"
-  ],
-  "relatedSpellings": [
-    "Павел",
-    "Paul"
-  ],
+  "incorrectSpellings": ["Pavel"],
+  "relatedSpellings": ["Павел", "Paul"],
   "description": "Equivalent to Paul, of Latin origin.",
   "links": []
 }

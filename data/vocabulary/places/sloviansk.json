@@ -2,13 +2,8 @@
   "category": "City",
   "sourceSpelling": "Слов'янськ",
   "correctSpelling": "Sloviansk",
-  "incorrectSpellings": [
-    "Slavyansk",
-    "Slovyansk"
-  ],
-  "relatedSpellings": [
-    "Славянск"
-  ],
+  "incorrectSpellings": ["Slavyansk", "Slovyansk"],
+  "relatedSpellings": ["Славянск"],
   "links": [
     {
       "name": "Wikipedia: Sloviansk",

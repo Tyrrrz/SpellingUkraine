@@ -2,12 +2,8 @@
   "category": "City",
   "sourceSpelling": "Ічня",
   "correctSpelling": "Ichnia",
-  "incorrectSpellings": [
-    "Ichnya"
-  ],
-  "relatedSpellings": [
-    "Ичня"
-  ],
+  "incorrectSpellings": ["Ichnya"],
+  "relatedSpellings": ["Ичня"],
   "links": [
     {
       "name": "Wikipedia: Ichnia",

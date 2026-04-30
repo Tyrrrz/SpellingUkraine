@@ -2,13 +2,8 @@
   "category": "City",
   "sourceSpelling": "Чемерівці",
   "correctSpelling": "Chemerivtsi",
-  "incorrectSpellings": [
-    "Chemerovtsi",
-    "Chemerovtsy"
-  ],
-  "relatedSpellings": [
-    "Чемеровцы"
-  ],
+  "incorrectSpellings": ["Chemerovtsi", "Chemerovtsy"],
+  "relatedSpellings": ["Чемеровцы"],
   "links": [
     {
       "name": "Wikipedia: Chemerivtsi",

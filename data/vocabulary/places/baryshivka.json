@@ -2,12 +2,8 @@
   "category": "City",
   "sourceSpelling": "Баришівка",
   "correctSpelling": "Baryshivka",
-  "incorrectSpellings": [
-    "Baryshevka"
-  ],
-  "relatedSpellings": [
-    "Барышевка"
-  ],
+  "incorrectSpellings": ["Baryshevka"],
+  "relatedSpellings": ["Барышевка"],
   "links": [
     {
       "name": "Wikipedia: Baryshivka",

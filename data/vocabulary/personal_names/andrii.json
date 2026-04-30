@@ -2,15 +2,8 @@
   "category": "Personal name",
   "sourceSpelling": "Андрій",
   "correctSpelling": "Andrii",
-  "incorrectSpellings": [
-    "Andriy",
-    "Andrei",
-    "Andrey"
-  ],
-  "relatedSpellings": [
-    "Андрей",
-    "Andrew"
-  ],
+  "incorrectSpellings": ["Andriy", "Andrei", "Andrey"],
+  "relatedSpellings": ["Андрей", "Andrew"],
   "transcription": "Ahndriy",
   "description": "Equivalent to Andrew, of Greek origin.",
   "links": []

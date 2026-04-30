@@ -2,13 +2,8 @@
   "category": "City",
   "sourceSpelling": "Хмільник",
   "correctSpelling": "Khmilnyk",
-  "incorrectSpellings": [
-    "Khmelnik"
-  ],
-  "relatedSpellings": [
-    "Хмельник",
-    "Chmielnik"
-  ],
+  "incorrectSpellings": ["Khmelnik"],
+  "relatedSpellings": ["Хмельник", "Chmielnik"],
   "links": [
     {
       "name": "Wikipedia: Khmilnyk",

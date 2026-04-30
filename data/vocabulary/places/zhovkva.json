@@ -2,13 +2,8 @@
   "category": "City",
   "sourceSpelling": "Жовква",
   "correctSpelling": "Zhovkva",
-  "incorrectSpellings": [
-    "Zholkva"
-  ],
-  "relatedSpellings": [
-    "Жолква",
-    "Żółkiew"
-  ],
+  "incorrectSpellings": ["Zholkva"],
+  "relatedSpellings": ["Жолква", "Żółkiew"],
   "links": [
     {
       "name": "Wikipedia: Zhovkva",

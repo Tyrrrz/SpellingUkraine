@@ -2,12 +2,8 @@
   "category": "City",
   "sourceSpelling": "Тетіїв",
   "correctSpelling": "Tetiiv",
-  "incorrectSpellings": [
-    "Tetiev"
-  ],
-  "relatedSpellings": [
-    "Тетиев"
-  ],
+  "incorrectSpellings": ["Tetiev"],
+  "relatedSpellings": ["Тетиев"],
   "links": [
     {
       "name": "Wikipedia: Tetiiv",

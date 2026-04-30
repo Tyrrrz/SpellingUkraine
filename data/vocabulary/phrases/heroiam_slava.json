@@ -2,13 +2,8 @@
   "category": "Phrase",
   "sourceSpelling": "Героям Слава",
   "correctSpelling": "Heroiam Slava",
-  "incorrectSpellings": [
-    "Geroyam Slava",
-    "Heroyam Slava"
-  ],
-  "relatedSpellings": [
-    "Glory to Heroes"
-  ],
+  "incorrectSpellings": ["Geroyam Slava", "Heroyam Slava"],
+  "relatedSpellings": ["Glory to Heroes"],
   "description": "Customary response to \"Slava Ukraini\", a national salute. Translated from Ukrainian, it means \"Glory to the Heroes\".",
   "links": [
     {

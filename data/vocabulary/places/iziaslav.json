@@ -2,13 +2,8 @@
   "category": "City",
   "sourceSpelling": "Ізяслав",
   "correctSpelling": "Iziaslav",
-  "incorrectSpellings": [
-    "Zaslav",
-    "Izyaslav"
-  ],
-  "relatedSpellings": [
-    "Изяслав"
-  ],
+  "incorrectSpellings": ["Zaslav", "Izyaslav"],
+  "relatedSpellings": ["Изяслав"],
   "links": [
     {
       "name": "Wikipedia: Iziaslav",

@@ -2,19 +2,8 @@
   "category": "City",
   "sourceSpelling": "Немішаєве",
   "correctSpelling": "Nemishaieve",
-  "incorrectSpellings": [
-    "Nemishayeve",
-    "Nemysheev",
-    "Nemeshaevo",
-    "Nemeshayevo"
-  ],
-  "relatedSpellings": [
-    "Немешаево",
-    "Шевченкове",
-    "Шевченковое",
-    "Shevchenkove",
-    "Shevchenkovoe"
-  ],
+  "incorrectSpellings": ["Nemishayeve", "Nemysheev", "Nemeshaevo", "Nemeshayevo"],
+  "relatedSpellings": ["Немешаево", "Шевченкове", "Шевченковое", "Shevchenkove", "Shevchenkovoe"],
   "description": "Renamed from \"Shevchenkove\" in 1928.",
   "links": [
     {

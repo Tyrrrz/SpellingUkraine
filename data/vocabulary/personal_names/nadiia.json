@@ -2,15 +2,8 @@
   "category": "Personal name",
   "sourceSpelling": "Надія",
   "correctSpelling": "Nadiia",
-  "incorrectSpellings": [
-    "Nadia",
-    "Nadya",
-    "Nadiya"
-  ],
-  "relatedSpellings": [
-    "Надежда",
-    "Elpis"
-  ],
+  "incorrectSpellings": ["Nadia", "Nadya", "Nadiya"],
+  "relatedSpellings": ["Надежда", "Elpis"],
   "description": "Meaning \"hope\", calque from Greek Ἐλπίς (Elpis).",
   "links": []
 }

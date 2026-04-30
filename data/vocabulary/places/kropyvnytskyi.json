@@ -2,15 +2,8 @@
   "category": "City",
   "sourceSpelling": "Кропивницький",
   "correctSpelling": "Kropyvnytskyi",
-  "incorrectSpellings": [
-    "Kropivnitskyi",
-    "Kropivnitskiy"
-  ],
-  "relatedSpellings": [
-    "Кропивницкий",
-    "Kirovohrad",
-    "Kirovograd"
-  ],
+  "incorrectSpellings": ["Kropivnitskyi", "Kropivnitskiy"],
+  "relatedSpellings": ["Кропивницкий", "Kirovohrad", "Kirovograd"],
   "transcription": "Kro-pyvnytskiy",
   "description": "Renamed from \"Kirovohrad\" in May 2016.",
   "links": [

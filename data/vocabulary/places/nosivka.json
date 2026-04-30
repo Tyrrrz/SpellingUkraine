@@ -2,12 +2,8 @@
   "category": "City",
   "sourceSpelling": "Носівка",
   "correctSpelling": "Nosivka",
-  "incorrectSpellings": [
-    "Nosovka"
-  ],
-  "relatedSpellings": [
-    "Носовка"
-  ],
+  "incorrectSpellings": ["Nosovka"],
+  "relatedSpellings": ["Носовка"],
   "links": [
     {
       "name": "Wikipedia: Nosivka",

@@ -2,12 +2,8 @@
   "category": "City",
   "sourceSpelling": "Охтирка",
   "correctSpelling": "Okhtyrka",
-  "incorrectSpellings": [
-    "Akhtyrka"
-  ],
-  "relatedSpellings": [
-    "Ахтырка"
-  ],
+  "incorrectSpellings": ["Akhtyrka"],
+  "relatedSpellings": ["Ахтырка"],
   "links": [
     {
       "name": "Wikipedia: Okhtyrka",

@@ -5,6 +5,6 @@ export const getDiscordCredentials = () => {
   }
 
   return {
-    token
+    token,
   };
 };

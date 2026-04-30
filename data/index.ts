@@ -1,7 +1,7 @@
-import fs from 'fs/promises';
-import path from 'path';
-import { recurseDir } from './utils/fs';
-import { getRootDirPath } from './utils/path';
+import fs from "fs/promises";
+import path from "path";
+import { recurseDir } from "./utils/fs";
+import { getRootDirPath } from "./utils/path";
 
 export type VocabularyEntry = {
   id: string;
@@ -35,10 +35,10 @@ export type VocabularyEntry = {
 };
 
 export const loadVocabulary = async function* () {
-  const dirPath = path.resolve(getRootDirPath(), 'data', 'vocabulary');
+  const dirPath = path.resolve(getRootDirPath(), "data", "vocabulary");
 
   for await (const ent of recurseDir(dirPath)) {
-    if (ent.kind !== 'file' || !ent.path.endsWith('.json')) {
+    if (ent.kind !== "file" || !ent.path.endsWith(".json")) {
       continue;
     }
 
@@ -48,7 +48,7 @@ export const loadVocabulary = async function* () {
       incorrectSpellings: [],
       relatedSpellings: [],
       links: [],
-      ...JSON.parse(await fs.readFile(ent.path, 'utf8'))
+      ...JSON.parse(await fs.readFile(ent.path, "utf8")),
     };
 
     yield entry;

@@ -2,12 +2,8 @@
   "category": "City",
   "sourceSpelling": "Єнакієве",
   "correctSpelling": "Yenakiieve",
-  "incorrectSpellings": [
-    "Yenakiyevo"
-  ],
-  "relatedSpellings": [
-    "Енакиево"
-  ],
+  "incorrectSpellings": ["Yenakiyevo"],
+  "relatedSpellings": ["Енакиево"],
   "links": [
     {
       "name": "Wikipedia: Yenakiieve",

@@ -2,13 +2,8 @@
   "category": "Personal name",
   "sourceSpelling": "Ігор",
   "correctSpelling": "Ihor",
-  "incorrectSpellings": [
-    "Igor"
-  ],
-  "relatedSpellings": [
-    "Игорь",
-    "Ingvar"
-  ],
+  "incorrectSpellings": ["Igor"],
+  "relatedSpellings": ["Игорь", "Ingvar"],
   "description": "From Ingvar, of Varangian origin.",
   "links": []
 }

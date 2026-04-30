@@ -2,13 +2,8 @@
   "category": "City",
   "sourceSpelling": "Ладижин",
   "correctSpelling": "Ladyzhyn",
-  "incorrectSpellings": [
-    "Ladyzhin"
-  ],
-  "relatedSpellings": [
-    "Ладыжин",
-    "Ładyżyn"
-  ],
+  "incorrectSpellings": ["Ladyzhin"],
+  "relatedSpellings": ["Ладыжин", "Ładyżyn"],
   "links": [
     {
       "name": "Wikipedia: Ladyzhyn",

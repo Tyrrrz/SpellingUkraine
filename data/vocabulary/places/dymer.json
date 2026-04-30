@@ -2,12 +2,8 @@
   "category": "City",
   "sourceSpelling": "Димер",
   "correctSpelling": "Dymer",
-  "incorrectSpellings": [
-    "Dymier"
-  ],
-  "relatedSpellings": [
-    "Дымер"
-  ],
+  "incorrectSpellings": ["Dymier"],
+  "relatedSpellings": ["Дымер"],
   "links": [
     {
       "name": "Wikipedia: Dymer",

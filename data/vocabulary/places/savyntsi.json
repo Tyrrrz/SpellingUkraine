@@ -2,12 +2,8 @@
   "category": "City",
   "sourceSpelling": "Савинці",
   "correctSpelling": "Savyntsi",
-  "incorrectSpellings": [
-    "Savintsy"
-  ],
-  "relatedSpellings": [
-    "Савинцы"
-  ],
+  "incorrectSpellings": ["Savintsy"],
+  "relatedSpellings": ["Савинцы"],
   "links": [
     {
       "name": "Wikipedia: Savyntsi",

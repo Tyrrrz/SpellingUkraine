@@ -2,12 +2,8 @@
   "category": "City",
   "sourceSpelling": "Ватутіне",
   "correctSpelling": "Vatutine",
-  "incorrectSpellings": [
-    "Vatutino"
-  ],
-  "relatedSpellings": [
-    "Ватутино"
-  ],
+  "incorrectSpellings": ["Vatutino"],
+  "relatedSpellings": ["Ватутино"],
   "links": [
     {
       "name": "Wikipedia: Vatutine",

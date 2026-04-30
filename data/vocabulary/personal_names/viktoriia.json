@@ -2,17 +2,8 @@
   "category": "Personal name",
   "sourceSpelling": "Вікторія",
   "correctSpelling": "Viktoriia",
-  "incorrectSpellings": [
-    "Viktoria",
-    "Viktoriya"
-  ],
-  "relatedSpellings": [
-    "Виктория",
-    "Віка",
-    "Вика",
-    "Vika",
-    "Victoria"
-  ],
+  "incorrectSpellings": ["Viktoria", "Viktoriya"],
+  "relatedSpellings": ["Виктория", "Віка", "Вика", "Vika", "Victoria"],
   "description": "Feminine of Viktor, from Victoria, of Latin origin.",
   "links": []
 }

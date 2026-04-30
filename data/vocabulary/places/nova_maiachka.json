@@ -2,13 +2,8 @@
   "category": "City",
   "sourceSpelling": "Нова Маячка",
   "correctSpelling": "Nova Maiachka",
-  "incorrectSpellings": [
-    "Nova Mayachka",
-    "Novaya Mayachka"
-  ],
-  "relatedSpellings": [
-    "Новая Маячка"
-  ],
+  "incorrectSpellings": ["Nova Mayachka", "Novaya Mayachka"],
+  "relatedSpellings": ["Новая Маячка"],
   "links": [
     {
       "name": "Wikipedia: Nova Maiachka",

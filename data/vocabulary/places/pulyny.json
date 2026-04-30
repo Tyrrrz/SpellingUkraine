@@ -2,15 +2,8 @@
   "category": "City",
   "sourceSpelling": "Пулини",
   "correctSpelling": "Pulyny",
-  "incorrectSpellings": [
-    "Puliny"
-  ],
-  "relatedSpellings": [
-    "Пулины",
-    "Червоноармійськ",
-    "Червоноармейск",
-    "Chervonoarmiisk"
-  ],
+  "incorrectSpellings": ["Puliny"],
+  "relatedSpellings": ["Пулины", "Червоноармійськ", "Червоноармейск", "Chervonoarmiisk"],
   "description": "Renamed from \"Chervonoarmiisk\" in May 2016.",
   "links": [
     {

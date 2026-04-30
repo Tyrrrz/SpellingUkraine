@@ -2,16 +2,8 @@
   "category": "City",
   "sourceSpelling": "Королево",
   "correctSpelling": "Korolevo",
-  "incorrectSpellings": [
-    "Koroliovo",
-    "Korolyovo"
-  ],
-  "relatedSpellings": [
-    "Королёво",
-    "Kráľovec nad Tisou",
-    "Királyháza",
-    "Craia"
-  ],
+  "incorrectSpellings": ["Koroliovo", "Korolyovo"],
+  "relatedSpellings": ["Королёво", "Kráľovec nad Tisou", "Királyháza", "Craia"],
   "links": [
     {
       "name": "Wikipedia: Korolevo",

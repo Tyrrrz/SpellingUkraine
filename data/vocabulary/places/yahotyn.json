@@ -2,10 +2,7 @@
   "category": "City",
   "sourceSpelling": "Яготин",
   "correctSpelling": "Yahotyn",
-  "incorrectSpellings": [
-    "Yagotyn",
-    "Yagotin"
-  ],
+  "incorrectSpellings": ["Yagotyn", "Yagotin"],
   "relatedSpellings": [],
   "links": [
     {

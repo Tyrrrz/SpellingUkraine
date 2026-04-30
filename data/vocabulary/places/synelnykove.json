@@ -2,12 +2,8 @@
   "category": "City",
   "sourceSpelling": "Синельникове",
   "correctSpelling": "Synelnykove",
-  "incorrectSpellings": [
-    "Sinelnikovo"
-  ],
-  "relatedSpellings": [
-    "Синельниково"
-  ],
+  "incorrectSpellings": ["Sinelnikovo"],
+  "relatedSpellings": ["Синельниково"],
   "links": [
     {
       "name": "Wikipedia: Synelnykove",

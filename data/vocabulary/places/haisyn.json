@@ -2,12 +2,8 @@
   "category": "City",
   "sourceSpelling": "Гайсин",
   "correctSpelling": "Haisyn",
-  "incorrectSpellings": [
-    "Haysyn"
-  ],
-  "relatedSpellings": [
-    "Hajsyn"
-  ],
+  "incorrectSpellings": ["Haysyn"],
+  "relatedSpellings": ["Hajsyn"],
   "links": [
     {
       "name": "Wikipedia: Haisyn",

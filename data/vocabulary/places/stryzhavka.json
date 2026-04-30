@@ -2,13 +2,8 @@
   "category": "City",
   "sourceSpelling": "Стрижавка",
   "correctSpelling": "Stryzhavka",
-  "incorrectSpellings": [
-    "Strizhavka"
-  ],
-  "relatedSpellings": [
-    "Стрижавка",
-    "Strzyżawka"
-  ],
+  "incorrectSpellings": ["Strizhavka"],
+  "relatedSpellings": ["Стрижавка", "Strzyżawka"],
   "links": [
     {
       "name": "Wikipedia: Stryzhavka",

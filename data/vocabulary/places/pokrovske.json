@@ -2,12 +2,8 @@
   "category": "Settlement",
   "sourceSpelling": "Покровське",
   "correctSpelling": "Pokrovske",
-  "incorrectSpellings": [
-    "Pokrovskoe"
-  ],
-  "relatedSpellings": [
-    "Покровское"
-  ],
+  "incorrectSpellings": ["Pokrovskoe"],
+  "relatedSpellings": ["Покровское"],
   "links": [
     {
       "name": "Wikipedia: Pokrovske",

@@ -2,13 +2,8 @@
   "category": "City",
   "sourceSpelling": "Піщанка",
   "correctSpelling": "Pishchanka",
-  "incorrectSpellings": [
-    "Peschanka"
-  ],
-  "relatedSpellings": [
-    "Песчанка",
-    "Piszczanka"
-  ],
+  "incorrectSpellings": ["Peschanka"],
+  "relatedSpellings": ["Песчанка", "Piszczanka"],
   "links": [
     {
       "name": "Wikipedia: Pishchanka",

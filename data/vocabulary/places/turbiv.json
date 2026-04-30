@@ -2,12 +2,8 @@
   "category": "City",
   "sourceSpelling": "Турбів",
   "correctSpelling": "Turbiv",
-  "incorrectSpellings": [
-    "Turbov"
-  ],
-  "relatedSpellings": [
-    "Турбов"
-  ],
+  "incorrectSpellings": ["Turbov"],
+  "relatedSpellings": ["Турбов"],
   "links": [
     {
       "name": "Wikipedia: Turbiv",

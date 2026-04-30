@@ -2,13 +2,8 @@
   "category": "City",
   "sourceSpelling": "Кирнасівка",
   "correctSpelling": "Kyrnasivka",
-  "incorrectSpellings": [
-    "Kyrnasovka",
-    "Kirnasovka"
-  ],
-  "relatedSpellings": [
-    "Кирнасовка"
-  ],
+  "incorrectSpellings": ["Kyrnasovka", "Kirnasovka"],
+  "relatedSpellings": ["Кирнасовка"],
   "links": [
     {
       "name": "Wikipedia: Kyrnasivka",

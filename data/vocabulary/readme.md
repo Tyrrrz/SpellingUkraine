@@ -39,33 +39,33 @@ Each vocabulary entry is stored in a JSON file with the following structure:
   "links": [
     {
       "name": "Wikipedia: Kyiv",
-      "url": "https://en.wikipedia.org/wiki/Kyiv"
+      "url": "https://en.wikipedia.org/wiki/Kyiv",
     },
     {
       "name": "Wikipedia: KyivNotKiev",
-      "url": "https://en.wikipedia.org/wiki/KyivNotKiev"
+      "url": "https://en.wikipedia.org/wiki/KyivNotKiev",
     },
     {
       "name": "YouTube: Kyiv, not Kiev",
-      "url": "https://youtube.com/watch?v=WlGdw7AW-tU"
+      "url": "https://youtube.com/watch?v=WlGdw7AW-tU",
     },
     {
       "name": "MFA of Ukraine: #CorrectUA",
-      "url": "https://mfa.gov.ua/en/correctua"
-    }
+      "url": "https://mfa.gov.ua/en/correctua",
+    },
   ],
 
   // [Optional] Geographical location associated with this entry
   "location": {
     "lat": 50.4501,
-    "lng": 30.5234
+    "lng": 30.5234,
   },
 
   // [Optional] Image associated with this entry
   "image": {
     "name": "View of Maidan Square",
-    "url": "https://upload.wikimedia.org/.../kyiv_view_of_maidan_square.jpg"
-  }
+    "url": "https://upload.wikimedia.org/.../kyiv_view_of_maidan_square.jpg",
+  },
 }
 ```
 

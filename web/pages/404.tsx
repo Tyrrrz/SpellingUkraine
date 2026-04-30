@@ -1,7 +1,6 @@
-import c from 'classnames';
-import { NextPage } from 'next';
-import Heading from '~/components/heading';
-import Meta from '~/components/meta';
+import { NextPage } from "next";
+import Heading from "~/components/heading";
+import Meta from "~/components/meta";
 
 const NotFoundPage: NextPage = () => {
   return (
@@ -11,7 +10,7 @@ const NotFoundPage: NextPage = () => {
       <section>
         <Heading>Not Found</Heading>
 
-        <div className={c('text-lg')}>The page you requested does not exist</div>
+        <div className="text-lg">The page you requested does not exist</div>
       </section>
     </>
   );

@@ -2,17 +2,8 @@
   "category": "City",
   "sourceSpelling": "Могилів-Подільський",
   "correctSpelling": "Mohyliv-Podilskyi",
-  "incorrectSpellings": [
-    "Mogilev-Podolsky",
-    "Mogilev-Podolskyi",
-    "Mogilev-Podolskiy"
-  ],
-  "relatedSpellings": [
-    "Могилёв-Подольский",
-    "Mohylów Podolski",
-    "Moghilău",
-    "Movilău"
-  ],
+  "incorrectSpellings": ["Mogilev-Podolsky", "Mogilev-Podolskyi", "Mogilev-Podolskiy"],
+  "relatedSpellings": ["Могилёв-Подольский", "Mohylów Podolski", "Moghilău", "Movilău"],
   "links": [
     {
       "name": "Wikipedia: Mohyliv-Podilskyi",

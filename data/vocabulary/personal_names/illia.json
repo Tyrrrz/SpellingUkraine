@@ -2,14 +2,8 @@
   "category": "Personal name",
   "sourceSpelling": "Ілля",
   "correctSpelling": "Illia",
-  "incorrectSpellings": [
-    "Ilya"
-  ],
-  "relatedSpellings": [
-    "Илья",
-    "Elias",
-    "Elijah"
-  ],
+  "incorrectSpellings": ["Ilya"],
+  "relatedSpellings": ["Илья", "Elias", "Elijah"],
   "description": "Equivalent to Elias and Elijah, of Hebrew origin.",
   "links": []
 }

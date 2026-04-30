@@ -2,12 +2,8 @@
   "category": "City",
   "sourceSpelling": "Балаклія",
   "correctSpelling": "Balakliia",
-  "incorrectSpellings": [
-    "Balakleya"
-  ],
-  "relatedSpellings": [
-    "Бaлaклeя"
-  ],
+  "incorrectSpellings": ["Balakleya"],
+  "relatedSpellings": ["Бaлaклeя"],
   "links": [
     {
       "name": "Wikipedia: Balakliia",

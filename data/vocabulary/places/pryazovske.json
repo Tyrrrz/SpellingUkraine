@@ -2,13 +2,8 @@
   "category": "City",
   "sourceSpelling": "Приазовське",
   "correctSpelling": "Pryazovske",
-  "incorrectSpellings": [
-    "Priazovske",
-    "Priazovskoe"
-  ],
-  "relatedSpellings": [
-    "Приазовское"
-  ],
+  "incorrectSpellings": ["Priazovske", "Priazovskoe"],
+  "relatedSpellings": ["Приазовское"],
   "links": [
     {
       "name": "Wikipedia: Pryazovske",

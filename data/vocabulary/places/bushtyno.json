@@ -2,15 +2,8 @@
   "category": "City",
   "sourceSpelling": "Буштино",
   "correctSpelling": "Bushtyno",
-  "incorrectSpellings": [
-    "Bushtino"
-  ],
-  "relatedSpellings": [
-    "Буштыно",
-    "Bustyaháza",
-    "Bustea",
-    "Buštín"
-  ],
+  "incorrectSpellings": ["Bushtino"],
+  "relatedSpellings": ["Буштыно", "Bustyaháza", "Bustea", "Buštín"],
   "links": [
     {
       "name": "Wikipedia: Bushtyno",

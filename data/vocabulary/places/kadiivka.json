@@ -2,14 +2,8 @@
   "category": "City",
   "sourceSpelling": "Кадіївка",
   "correctSpelling": "Kadiivka",
-  "incorrectSpellings": [
-    "Kadiyevka"
-  ],
-  "relatedSpellings": [
-    "Кадиевка",
-    "Стаханов",
-    "Stakhanov"
-  ],
+  "incorrectSpellings": ["Kadiyevka"],
+  "relatedSpellings": ["Кадиевка", "Стаханов", "Stakhanov"],
   "description": "Renamed from \"Stakhanov\" in May 2016.",
   "links": [
     {

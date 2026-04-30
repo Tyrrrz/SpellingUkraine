@@ -2,13 +2,8 @@
   "category": "City",
   "sourceSpelling": "Тарутине",
   "correctSpelling": "Tarutyne",
-  "incorrectSpellings": [
-    "Tarutino"
-  ],
-  "relatedSpellings": [
-    "Тарутино",
-    "Thyratyna"
-  ],
+  "incorrectSpellings": ["Tarutino"],
+  "relatedSpellings": ["Тарутино", "Thyratyna"],
   "links": [
     {
       "name": "Wikipedia: Tarutyne",

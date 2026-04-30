@@ -2,13 +2,8 @@
   "category": "City",
   "sourceSpelling": "Іллінці",
   "correctSpelling": "Illintsi",
-  "incorrectSpellings": [
-    "Ilyintsi"
-  ],
-  "relatedSpellings": [
-    "Ильинцы",
-    "Ilińce"
-  ],
+  "incorrectSpellings": ["Ilyintsi"],
+  "relatedSpellings": ["Ильинцы", "Ilińce"],
   "links": [
     {
       "name": "Wikipedia: Illintsi",

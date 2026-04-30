@@ -2,14 +2,8 @@
   "category": "City",
   "sourceSpelling": "Золочів",
   "correctSpelling": "Zolochiv",
-  "incorrectSpellings": [
-    "Zolochev"
-  ],
-  "relatedSpellings": [
-    "Золочев",
-    "Złoczów",
-    "Solotschiw"
-  ],
+  "incorrectSpellings": ["Zolochev"],
+  "relatedSpellings": ["Золочев", "Złoczów", "Solotschiw"],
   "links": [
     {
       "name": "Wikipedia: Zolochiv",

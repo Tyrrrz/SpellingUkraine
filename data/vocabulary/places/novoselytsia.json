@@ -2,12 +2,8 @@
   "category": "City",
   "sourceSpelling": "Новоселиця",
   "correctSpelling": "Novoselytsia",
-  "incorrectSpellings": [
-    "Novoselitsa"
-  ],
-  "relatedSpellings": [
-    "Новоселица"
-  ],
+  "incorrectSpellings": ["Novoselitsa"],
+  "relatedSpellings": ["Новоселица"],
   "links": [
     {
       "name": "Wikipedia: Novoselytsia",

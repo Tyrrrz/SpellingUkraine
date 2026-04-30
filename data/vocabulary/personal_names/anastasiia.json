@@ -2,14 +2,8 @@
   "category": "Personal name",
   "sourceSpelling": "Анастасія",
   "correctSpelling": "Anastasiia",
-  "incorrectSpellings": [
-    "Anastasia",
-    "Anastasiya",
-    "Anastasija"
-  ],
-  "relatedSpellings": [
-    "Анастасия"
-  ],
+  "incorrectSpellings": ["Anastasia", "Anastasiya", "Anastasija"],
+  "relatedSpellings": ["Анастасия"],
   "description": "A name of Greek origin.",
   "links": []
 }

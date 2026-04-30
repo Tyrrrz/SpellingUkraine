@@ -2,12 +2,8 @@
   "category": "City",
   "sourceSpelling": "Лисянка",
   "correctSpelling": "Lysianka",
-  "incorrectSpellings": [
-    "Lysyanka"
-  ],
-  "relatedSpellings": [
-    "Лысянка"
-  ],
+  "incorrectSpellings": ["Lysyanka"],
+  "relatedSpellings": ["Лысянка"],
   "links": [
     {
       "name": "Wikipedia: Lysianka",

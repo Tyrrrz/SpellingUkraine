@@ -2,9 +2,7 @@
   "category": "City",
   "sourceSpelling": "Павлоград",
   "correctSpelling": "Pavlohrad",
-  "incorrectSpellings": [
-    "Pavlograd"
-  ],
+  "incorrectSpellings": ["Pavlograd"],
   "relatedSpellings": [],
   "links": [
     {

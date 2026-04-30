@@ -2,14 +2,8 @@
   "category": "City",
   "sourceSpelling": "Горохів",
   "correctSpelling": "Horokhiv",
-  "incorrectSpellings": [
-    "Gorokhov",
-    "Gorohov"
-  ],
-  "relatedSpellings": [
-    "Горохов",
-    "Horochów"
-  ],
+  "incorrectSpellings": ["Gorokhov", "Gorohov"],
+  "relatedSpellings": ["Горохов", "Horochów"],
   "links": [
     {
       "name": "Wikipedia: Horokhiv",

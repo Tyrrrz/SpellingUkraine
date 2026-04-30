@@ -2,12 +2,7 @@
   "category": "City",
   "sourceSpelling": "Гуляйполе",
   "correctSpelling": "Huliaipole",
-  "incorrectSpellings": [
-    "Hulaypole",
-    "Hulyaypole",
-    "Guliapole",
-    "Gulaypole"
-  ],
+  "incorrectSpellings": ["Hulaypole", "Hulyaypole", "Guliapole", "Gulaypole"],
   "relatedSpellings": [],
   "links": [
     {

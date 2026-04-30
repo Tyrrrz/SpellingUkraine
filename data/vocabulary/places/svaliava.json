@@ -2,13 +2,8 @@
   "category": "City",
   "sourceSpelling": "Свалява",
   "correctSpelling": "Svaliava",
-  "incorrectSpellings": [
-    "Svalyava"
-  ],
-  "relatedSpellings": [
-    "Szolyva",
-    "Svaľava"
-  ],
+  "incorrectSpellings": ["Svalyava"],
+  "relatedSpellings": ["Szolyva", "Svaľava"],
   "links": [
     {
       "name": "Wikipedia: Svaliava",

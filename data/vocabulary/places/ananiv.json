@@ -2,12 +2,8 @@
   "category": "City",
   "sourceSpelling": "Ананьїв",
   "correctSpelling": "Ananiv",
-  "incorrectSpellings": [
-    "Ananiev"
-  ],
-  "relatedSpellings": [
-    "Ананьев"
-  ],
+  "incorrectSpellings": ["Ananiev"],
+  "relatedSpellings": ["Ананьев"],
   "links": [
     {
       "name": "Wikipedia: Ananiv",

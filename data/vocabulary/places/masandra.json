@@ -2,12 +2,8 @@
   "category": "City",
   "sourceSpelling": "Масандра",
   "correctSpelling": "Masandra",
-  "incorrectSpellings": [
-    "Massandra"
-  ],
-  "relatedSpellings": [
-    "Массандра"
-  ],
+  "incorrectSpellings": ["Massandra"],
+  "relatedSpellings": ["Массандра"],
   "links": [
     {
       "name": "Wikipedia: Masandra",

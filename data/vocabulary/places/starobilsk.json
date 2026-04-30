@@ -2,12 +2,8 @@
   "category": "City",
   "sourceSpelling": "Старобільськ",
   "correctSpelling": "Starobilsk",
-  "incorrectSpellings": [
-    "Starobelsk"
-  ],
-  "relatedSpellings": [
-    "Старобельск"
-  ],
+  "incorrectSpellings": ["Starobelsk"],
+  "relatedSpellings": ["Старобельск"],
   "links": [
     {
       "name": "Wikipedia: Starobilsk",

@@ -2,12 +2,8 @@
   "category": "City",
   "sourceSpelling": "Монастирище",
   "correctSpelling": "Monastyryshche",
-  "incorrectSpellings": [
-    "Monastyrishche"
-  ],
-  "relatedSpellings": [
-    "Монастырище"
-  ],
+  "incorrectSpellings": ["Monastyrishche"],
+  "relatedSpellings": ["Монастырище"],
   "links": [
     {
       "name": "Wikipedia: Monastyryshche",

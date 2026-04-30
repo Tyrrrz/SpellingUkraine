@@ -2,12 +2,8 @@
   "category": "City",
   "sourceSpelling": "Петропавлiвка",
   "correctSpelling": "Petropavlivka",
-  "incorrectSpellings": [
-    "Petropavlovka"
-  ],
-  "relatedSpellings": [
-    "Петропавловка"
-  ],
+  "incorrectSpellings": ["Petropavlovka"],
+  "relatedSpellings": ["Петропавловка"],
   "links": [
     {
       "name": "Wikipedia: Petropavlivka",

@@ -2,14 +2,8 @@
   "category": "City",
   "sourceSpelling": "Вишневе",
   "correctSpelling": "Vyshneve",
-  "incorrectSpellings": [
-    "Vishnevoe",
-    "Vishnevoye",
-    "Vishnyovoye"
-  ],
-  "relatedSpellings": [
-    "Вишнёвое"
-  ],
+  "incorrectSpellings": ["Vishnevoe", "Vishnevoye", "Vishnyovoye"],
+  "relatedSpellings": ["Вишнёвое"],
   "links": [
     {
       "name": "Wikipedia: Vyshneve",

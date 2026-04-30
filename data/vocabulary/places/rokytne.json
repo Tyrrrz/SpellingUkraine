@@ -2,13 +2,8 @@
   "category": "City",
   "sourceSpelling": "Рокитне",
   "correctSpelling": "Rokytne",
-  "incorrectSpellings": [
-    "Rakytne",
-    "Rakitnoe"
-  ],
-  "relatedSpellings": [
-    "Ракитное"
-  ],
+  "incorrectSpellings": ["Rakytne", "Rakitnoe"],
+  "relatedSpellings": ["Ракитное"],
   "links": [
     {
       "name": "Wikipedia: Rokytne",

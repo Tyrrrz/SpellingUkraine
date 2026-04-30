@@ -1,21 +1,20 @@
-import c from 'classnames';
-import { GetStaticProps, NextPage } from 'next';
-import { useRouter } from 'next/router';
-import { FC } from 'react';
-import FadeIn from 'react-fade-in';
-import { FiArrowRight, FiCornerDownLeft, FiHeart, FiLoader, FiSearch, FiX } from 'react-icons/fi';
-import { VocabularyEntry, loadVocabulary } from 'spelling-ukraine-data';
-import ButtonLink from '~/components/buttonLink';
-import Highlight from '~/components/highlight';
-import Inline from '~/components/inline';
-import Link from '~/components/link';
-import Paragraph from '~/components/paragraph';
-import useDebounce from '~/hooks/useDebounce';
-import useSessionState from '~/hooks/useSessionState';
-import useVocabularySearch, { SearchResult } from '~/hooks/useVocabularySearch';
-import { bufferIterable } from '~/utils/async';
-import { getRepoFileUrl } from '~/utils/repo';
-import { translit } from '~/utils/translit';
+import { GetStaticProps, NextPage } from "next";
+import { useRouter } from "next/router";
+import { FC } from "react";
+import FadeIn from "react-fade-in";
+import { FiCornerDownLeft, FiHeart, FiLoader, FiSearch, FiX } from "react-icons/fi";
+import { VocabularyEntry, loadVocabulary } from "spelling-ukraine-data";
+import ButtonLink from "~/components/buttonLink";
+import Highlight from "~/components/highlight";
+import Inline from "~/components/inline";
+import Link from "~/components/link";
+import Paragraph from "~/components/paragraph";
+import useDebounce from "~/hooks/useDebounce";
+import useSessionState from "~/hooks/useSessionState";
+import useVocabularySearch, { SearchResult } from "~/hooks/useVocabularySearch";
+import { bufferIterable } from "~/utils/async";
+import { getRepoFileUrl } from "~/utils/repo";
+import { translit } from "~/utils/translit";
 
 type HomePageProps = {
   vocabulary: VocabularyEntry[];
@@ -23,33 +22,19 @@ type HomePageProps = {
 
 const SearchResults: FC<{ results: SearchResult[] }> = ({ results }) => {
   return (
-    <FadeIn className={c('flex', 'flex-col', 'sm:flex-row', 'flex-wrap', 'gap-4')}>
+    <FadeIn className="flex flex-col flex-wrap gap-4 sm:flex-row">
       {results.map((result) => (
         <Link key={result.entry.id} variant="hidden" href={`/i/${result.entry.id}`}>
-          <section
-            className={c(
-              'flex',
-              'flex-col',
-              'h-full',
-              'p-4',
-              'border',
-              'border-neutral-400',
-              'hover:border-ukraine-blue',
-              'rounded',
-              'hover:bg-blue-50',
-              'dark:hover:bg-blue-950',
-              'place-content-center'
-            )}
-          >
-            <div className={c('text-xl')}>{result.entry.correctSpelling}</div>
+          <section className="hover:border-ukraine-blue flex h-full flex-col place-content-center rounded border border-neutral-400 p-4 hover:bg-blue-50 dark:hover:bg-blue-950">
+            <div className="text-xl">{result.entry.correctSpelling}</div>
 
-            <div className={c('text-lg', 'font-light')}>
+            <div className="text-lg font-light">
               {result.entry.sourceSpelling} • {result.entry.category}
             </div>
 
             {result.match !== result.entry.correctSpelling &&
               result.match !== result.entry.sourceSpelling && (
-                <div className={c('mt-1', 'text-sm', 'font-light')}>
+                <div className="mt-1 text-sm font-light">
                   <Inline>
                     <FiSearch strokeWidth={1} />
                     <div>Matched on {result.match}</div>
@@ -69,19 +54,19 @@ const NotFound: FC<{ query: string }> = ({ query }) => {
   return (
     <FadeIn>
       <section>
-        <div className={c('text-xl')}>
+        <div className="text-xl">
           {queryTranslit && queryTranslit !== query && queryTranslit.length <= 50 ? (
             <>
-              Direct transliteration: <span className={c('font-semibold')}>{queryTranslit}</span>
+              Direct transliteration: <span className="font-semibold">{queryTranslit}</span>
             </>
           ) : (
             <>No results found</>
           )}
         </div>
 
-        <div className={c('text-lg')}>
-          If you believe this entry should be added to the vocabulary, please{' '}
-          <Link href={getRepoFileUrl('data/vocabulary')}>submit a pull request</Link>.
+        <div className="text-lg">
+          If you believe this entry should be added to the vocabulary, please{" "}
+          <Link href={getRepoFileUrl("data/vocabulary")}>submit a pull request</Link>.
         </div>
       </section>
     </FadeIn>
@@ -90,9 +75,9 @@ const NotFound: FC<{ query: string }> = ({ query }) => {
 
 const Placeholder: FC<{ vocabulary: VocabularyEntry[] }> = ({ vocabulary }) => {
   return (
-    <FadeIn className={c('space-y-6', 'text-lg')}>
+    <FadeIn className="space-y-6 text-lg">
       <section>
-        <div className={c('text-xl', 'font-semibold')}>
+        <div className="text-xl font-semibold">
           <Highlight>What does this app do?</Highlight>
         </div>
         <Paragraph>
@@ -105,7 +90,7 @@ const Placeholder: FC<{ vocabulary: VocabularyEntry[] }> = ({ vocabulary }) => {
       </section>
 
       <section>
-        <div className={c('text-xl', 'font-semibold')}>
+        <div className="text-xl font-semibold">
           <Highlight>Why does spelling matter?</Highlight>
         </div>
         <Paragraph>
@@ -124,13 +109,12 @@ const Placeholder: FC<{ vocabulary: VocabularyEntry[] }> = ({ vocabulary }) => {
         <Paragraph>
           In the face of Russia&apos;s military aggression and continuous attempts to undermine and,
           ultimately, erase the Ukrainian culture, the choice of spelling is no longer a matter of
-          preference, but a <span className={c('font-semibold')}>political stance</span>. Taking a
-          moment of your time to ensure that you are writing correctly is yet another small way that
-          you can <span className={c('font-semibold')}>#StandWithUkraine</span> in its fight for
-          freedom.{' '}
-          <span className={c('inline-flex')}>
-            <FiHeart className={c('text-transparent', 'fill-ukraine-blue')} />
-            <FiHeart className={c('text-transparent', 'fill-ukraine-yellow')} />
+          preference, but a <span className="font-semibold">political stance</span>. Taking a moment
+          of your time to ensure that you are writing correctly is yet another small way that you
+          can <span className="font-semibold">#StandWithUkraine</span> in its fight for freedom.{" "}
+          <span className="inline-flex">
+            <FiHeart className="fill-ukraine-blue text-transparent" />
+            <FiHeart className="fill-ukraine-yellow text-transparent" />
           </span>
         </Paragraph>
       </section>
@@ -140,19 +124,19 @@ const Placeholder: FC<{ vocabulary: VocabularyEntry[] }> = ({ vocabulary }) => {
 
 const HomePage: NextPage<HomePageProps> = ({ vocabulary }) => {
   const router = useRouter();
-  const [query, setQuery] = useSessionState('searchQuery', '');
+  const [query, setQuery] = useSessionState("searchQuery", "");
 
   const { value: queryDebounced, isDebouncing: isQueryDebouncing } = useDebounce(
     query,
     // Don't debounce if the query was cleared
-    query ? 500 : 0
+    query ? 500 : 0,
   );
 
-  const results = useVocabularySearch(vocabulary, queryDebounced || '');
+  const results = useVocabularySearch(vocabulary, queryDebounced || "");
 
   return (
     <>
-      <div className={c('my-2', 'text-center', 'sm:text-right', 'text-sm', 'text-light')}>
+      <div className="text-light my-2 text-center text-sm sm:text-right">
         ✨ New: you can now also <Link href="/translit">transliterate arbitrary text</Link>
       </div>
 
@@ -165,24 +149,14 @@ const HomePage: NextPage<HomePageProps> = ({ vocabulary }) => {
           }
         }}
       >
-        <div
-          className={c(
-            'flex',
-            'border',
-            'border-neutral-400',
-            'hover:border-ukraine-blue',
-            'rounded',
-            'items-center',
-            'text-xl'
-          )}
-        >
-          <div className={c('flex', 'px-4')}>
+        <div className="hover:border-ukraine-blue flex items-center rounded border border-neutral-400 text-xl">
+          <div className="flex px-4">
             {isQueryDebouncing ? (
-              <FiLoader className={c('animate-spin')} />
+              <FiLoader className="animate-spin" />
             ) : query ? (
               <ButtonLink
                 variant="discreet"
-                onClick={() => setQuery('')}
+                onClick={() => setQuery("")}
                 title="Reset search (press Escape)"
               >
                 <FiX />
@@ -193,20 +167,20 @@ const HomePage: NextPage<HomePageProps> = ({ vocabulary }) => {
           </div>
 
           <input
-            className={c('grow', 'py-6', 'appearance-none', 'focus:outline-none', 'bg-transparent')}
+            className="grow appearance-none bg-transparent py-6 focus:outline-none"
             placeholder="Start typing to search"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
             onKeyDown={(e) => {
-              if (e.key === 'Escape') {
-                setQuery('');
+              if (e.key === "Escape") {
+                setQuery("");
               }
             }}
             autoFocus
           />
 
           {results.length > 0 && (
-            <div className={c('flex', 'px-4')}>
+            <div className="flex px-4">
               <ButtonLink variant="discreet" submit title="Go to the first result (press Enter)">
                 <FiCornerDownLeft />
               </ButtonLink>
@@ -215,7 +189,7 @@ const HomePage: NextPage<HomePageProps> = ({ vocabulary }) => {
         </div>
       </form>
 
-      <div className={c('mt-6')}>
+      <div className="mt-6">
         {!queryDebounced ? (
           <Placeholder vocabulary={vocabulary} />
         ) : results.length > 0 ? (
@@ -233,8 +207,8 @@ export const getStaticProps: GetStaticProps<HomePageProps> = async () => {
 
   return {
     props: {
-      vocabulary
-    }
+      vocabulary,
+    },
   };
 };
 

@@ -2,13 +2,8 @@
   "category": "City",
   "sourceSpelling": "Обухів",
   "correctSpelling": "Obukhiv",
-  "incorrectSpellings": [
-    "Obukhov",
-    "Obuhiv"
-  ],
-  "relatedSpellings": [
-    "Обухов"
-  ],
+  "incorrectSpellings": ["Obukhov", "Obuhiv"],
+  "relatedSpellings": ["Обухов"],
   "links": [
     {
       "name": "Wikipedia: Obukhiv",

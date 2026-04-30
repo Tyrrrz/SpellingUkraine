@@ -2,17 +2,8 @@
   "category": "Personal name",
   "sourceSpelling": "Наталія",
   "correctSpelling": "Nataliia",
-  "incorrectSpellings": [
-    "Natalia",
-    "Nataliya",
-    "Natalya"
-  ],
-  "relatedSpellings": [
-    "Наталья",
-    "Наташа",
-    "Natasha",
-    "Natalie"
-  ],
+  "incorrectSpellings": ["Natalia", "Nataliya", "Natalya"],
+  "relatedSpellings": ["Наталья", "Наташа", "Natasha", "Natalie"],
   "description": "Equivalent to Natalie, of Latin origin.",
   "links": []
 }
