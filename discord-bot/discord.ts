@@ -55,8 +55,8 @@ export const listen = async (callback: (message: Message) => Promise<void> | voi
 export const reply = async (message: Message, text: string) => {
   await client.login(getDiscordCredentials().token);
 
-  const channel = client.channels.resolve(message.channelId);
-  if (!channel || !channel.isTextBased()) {
+  const channel = await client.channels.fetch(message.channelId);
+  if (!channel || !channel.isTextBased() || channel.isDMBased()) {
     throw new Error("Failed to resolve channel");
   }
 
