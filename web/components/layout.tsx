@@ -9,9 +9,9 @@ import Image from "~/components/image";
 import Inline from "~/components/inline";
 import Link from "~/components/link";
 import Meta from "~/components/meta";
-import useDebounce from "~/hooks/useDebounce";
-import useRouterStatus from "~/hooks/useRouterStatus";
-import useTheme from "~/hooks/useTheme";
+import { useDebounce } from "~/hooks/useDebounce";
+import { useRouterStatus } from "~/hooks/useRouterStatus";
+import { useTheme } from "~/hooks/useTheme";
 import { getBuildId } from "~/utils/env";
 import { getRepoFileUrl } from "~/utils/repo";
 

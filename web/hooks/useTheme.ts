@@ -1,8 +1,8 @@
 import { useMemo } from "react";
-import useLocalState from "~/hooks/useLocalState";
-import useMedia from "~/hooks/useMedia";
+import { useLocalState } from "~/hooks/useLocalState";
+import { useMedia } from "~/hooks/useMedia";
 
-const useTheme = () => {
+export const useTheme = () => {
   const [userPreferredTheme, setUserPreferredTheme] = useLocalState<"light" | "dark" | null>(
     "theme",
     null,
@@ -35,5 +35,3 @@ const useTheme = () => {
     };
   }, [systemPreferredTheme, userPreferredTheme, setUserPreferredTheme]);
 };
-
-export default useTheme;

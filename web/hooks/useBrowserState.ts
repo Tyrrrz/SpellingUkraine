@@ -37,7 +37,7 @@ const setStorageValue = (storage: Storage, key: string, value: any) => {
   dispatchEvent(new StorageEvent("storage"));
 };
 
-const useBrowserState = <T>(storageKind: StorageKind, key: string, initialState: T) => {
+export const useBrowserState = <T>(storageKind: StorageKind, key: string, initialState: T) => {
   const isMounted = useRef(false);
   const [value, setValue] = useState<T>(initialState);
 
@@ -78,5 +78,3 @@ const useBrowserState = <T>(storageKind: StorageKind, key: string, initialState:
 
   return [value, setValue] as const;
 };
-
-export default useBrowserState;

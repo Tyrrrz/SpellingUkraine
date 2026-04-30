@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
 
-const useSpeech = () => {
+export const useSpeech = () => {
   const [voices, setVoices] = useState<SpeechSynthesisVoice[]>();
   const [currentUtterance, setCurrentUtterance] = useState<SpeechSynthesisUtterance>();
   const isActive = !!currentUtterance;
@@ -56,5 +56,3 @@ const useSpeech = () => {
     };
   }, [isActive, voices, currentUtterance]);
 };
-
-export default useSpeech;

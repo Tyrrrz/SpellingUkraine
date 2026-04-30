@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-const useMedia = (query: string) => {
+export const useMedia = (query: string) => {
   const [matches, setMatches] = useState<boolean>(false);
 
   useEffect(() => {
@@ -17,5 +17,3 @@ const useMedia = (query: string) => {
 
   return matches;
 };
-
-export default useMedia;

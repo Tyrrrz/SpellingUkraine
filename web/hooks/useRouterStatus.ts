@@ -1,7 +1,7 @@
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
 
-const useRouterStatus = () => {
+export const useRouterStatus = () => {
   const { events } = useRouter();
   const [status, setStatus] = useState<"idle" | "loading" | "error">("idle");
 
@@ -31,5 +31,3 @@ const useRouterStatus = () => {
 
   return status;
 };
-
-export default useRouterStatus;

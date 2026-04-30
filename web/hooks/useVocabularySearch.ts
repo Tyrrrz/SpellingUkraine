@@ -51,8 +51,6 @@ const resolveResults = (vocabulary: VocabularyEntry[], query: string) => {
   return results.sort((a, b) => b.relevance - a.relevance).slice(0, 10);
 };
 
-const useVocabularySearch = (vocabulary: VocabularyEntry[], query: string) => {
+export const useVocabularySearch = (vocabulary: VocabularyEntry[], query: string) => {
   return useMemo(() => resolveResults(vocabulary, query), [vocabulary, query]);
 };
-
-export default useVocabularySearch;

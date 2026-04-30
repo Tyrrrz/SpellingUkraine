@@ -21,7 +21,7 @@ import Link from "~/components/link";
 import Meta from "~/components/meta";
 import Paragraph from "~/components/paragraph";
 import Section from "~/components/section";
-import useSpeech from "~/hooks/useSpeech";
+import { useSpeech } from "~/hooks/useSpeech";
 import { bufferIterable } from "~/utils/async";
 import { getSiteUrl } from "~/utils/env";
 import { getRepoFileEditUrl, getRepoNewIssueUrl } from "~/utils/repo";
