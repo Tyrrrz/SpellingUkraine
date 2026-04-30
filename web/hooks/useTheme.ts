@@ -2,15 +2,14 @@ import { useMemo } from "react";
 import { useLocalState } from "~/hooks/useLocalState";
 import { useMedia } from "~/hooks/useMedia";
 
+type Theme = "light" | "dark";
+
 export const useTheme = () => {
-  const [userPreferredTheme, setUserPreferredTheme] = useLocalState<"light" | "dark" | null>(
-    "theme",
-    null,
-  );
+  const [userPreferredTheme, setUserPreferredTheme] = useLocalState<Theme | null>("theme", null);
 
   const systemPrefersDarkTheme = useMedia("(prefers-color-scheme: dark)");
   const systemPrefersLightTheme = useMedia("(prefers-color-scheme: light)");
-  const systemPreferredTheme = useMemo<"light" | "dark" | null>(() => {
+  const systemPreferredTheme = useMemo<Theme | null>(() => {
     if (systemPrefersDarkTheme) {
       return "dark";
     }

@@ -41,7 +41,7 @@ export const useBrowserState = <T>(storageKind: StorageKind, key: string, initia
   const isMounted = useRef(false);
   const [value, setValue] = useState<T>(initialState);
 
-  // Initial value from the storage
+  // Initial value from storage
   useEffect(() => {
     const item = getStorageValue(getStorage(storageKind), key);
     if (item) {
@@ -63,7 +63,7 @@ export const useBrowserState = <T>(storageKind: StorageKind, key: string, initia
     }
   }, [storageKind, key, value]);
 
-  // Value changed in the storage
+  // Value changed in storage
   useEffect(() => {
     const onChange = () => {
       setValue(getStorageValue(getStorage(storageKind), key));

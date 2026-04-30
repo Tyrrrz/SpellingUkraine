@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 
 export const useMedia = (query: string) => {
-  const [matches, setMatches] = useState<boolean>(false);
+  const [matches, setMatches] = useState(false);
 
   useEffect(() => {
     const media = window.matchMedia(query);
@@ -9,7 +9,7 @@ export const useMedia = (query: string) => {
     // eslint-disable-next-line react-hooks/set-state-in-effect
     setMatches(media.matches);
 
-    const onChange = () => setMatches(media.matches);
+    const onChange = (event: MediaQueryListEvent) => setMatches(event.matches);
     media.addEventListener("change", onChange);
 
     return () => media.removeEventListener("change", onChange);
