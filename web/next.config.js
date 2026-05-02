@@ -8,6 +8,8 @@ const config = {
 
   transpilePackages: ["spelling-ukraine-data"],
 
+  basePath: process.env.SITE_URL ? new URL(process.env.SITE_URL).pathname.replace(/\/$/, "") : "",
+
   images: {
     unoptimized: true,
     remotePatterns: [
