@@ -50,6 +50,7 @@ jobs:
         uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
 
       - name: Configure GitHub Pages
+        id: configure-pages
         uses: actions/configure-pages@45bfe0192ca1faeb007ade9deae92b16b8254a0d # v6.0.0
 
       - name: Install NodeJS
@@ -65,7 +66,7 @@ jobs:
         working-directory: web
         env:
           BUILD_ID: ${{ github.sha }}
-          SITE_URL: https://spellingukraine.com
+          SITE_URL: ${{ steps.configure-pages.outputs.base_url }}
         run: yarn build
 
       - name: Upload GitHub Pages assets
