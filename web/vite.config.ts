@@ -5,10 +5,6 @@ import { defineConfig } from "vite";
 import { VitePWA } from "vite-plugin-pwa";
 import { loadVocabulary } from "../data/index.ts";
 
-// ---------------------------------------------------------------------------
-// Virtual module: bundles all vocabulary JSON files at build time so that
-// the data package's Node.js fs-based code never runs in the browser.
-// ---------------------------------------------------------------------------
 function vocabularyPlugin(): Plugin {
   const VIRTUAL_ID = "virtual:vocabulary";
   const RESOLVED_ID = "\0" + VIRTUAL_ID;
@@ -75,9 +71,8 @@ export default defineConfig({
     emptyOutDir: true,
   },
 
-  // Inject env vars into the app bundle with fallbacks
   define: {
-    "import.meta.env.BUILD_ID": JSON.stringify(process.env.BUILD_ID || ""),
     "import.meta.env.SITE_URL": JSON.stringify(siteUrl),
+    "import.meta.env.BUILD_ID": JSON.stringify(process.env.BUILD_ID || ""),
   },
 });
