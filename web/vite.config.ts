@@ -31,8 +31,8 @@ function vocabularyPlugin(): Plugin {
   };
 }
 
-const siteUrl = process.env.SITE_URL;
-const base = siteUrl ? new URL(siteUrl).pathname.replace(/\/$/, "") + "/" : "/";
+const siteUrl = process.env.SITE_URL || "http://localhost:3000";
+const base = new URL(siteUrl).pathname.replace(/\/$/, "") + "/";
 
 export default defineConfig({
   base,
@@ -75,9 +75,9 @@ export default defineConfig({
     emptyOutDir: true,
   },
 
-  // Make process.env values available to the app bundle
+  // Inject env vars into the app bundle with fallbacks
   define: {
-    "process.env.BUILD_ID": JSON.stringify(process.env.BUILD_ID ?? ""),
-    "process.env.SITE_URL": JSON.stringify(siteUrl ?? ""),
+    "import.meta.env.BUILD_ID": JSON.stringify(process.env.BUILD_ID || ""),
+    "import.meta.env.SITE_URL": JSON.stringify(siteUrl),
   },
 });

@@ -1,6 +1,5 @@
 import { FC } from "react";
 import { Helmet } from "react-helmet-async";
-import { getBuildId, getSiteUrl } from "~/utils/env";
 
 type MetaProps = {
   title?: string;
@@ -12,8 +11,6 @@ type MetaProps = {
 const Meta: FC<MetaProps> = ({ title, description, keywords, imageUrl }) => {
   const siteName = "SpellingUkraine";
 
-  const buildId = getBuildId();
-
   const actualTitle = title ? title + " • " + siteName : siteName;
 
   const actualDescription =
@@ -22,7 +19,7 @@ const Meta: FC<MetaProps> = ({ title, description, keywords, imageUrl }) => {
 
   const actualKeywords = (keywords || ["spelling", "ukraine", "english"]).join(",");
 
-  const actualImageUrl = getSiteUrl(imageUrl || "/logo.png");
+  const actualImageUrl = new URL(imageUrl || "/logo.png", import.meta.env.SITE_URL).toString();
 
   return (
     <Helmet>
@@ -32,7 +29,7 @@ const Meta: FC<MetaProps> = ({ title, description, keywords, imageUrl }) => {
       <link rel="manifest" href="/manifest.webmanifest" />
 
       <meta name="application-name" content={siteName} />
-      <meta name="build-id" content={buildId ?? ""} />
+      <meta name="build-id" content={import.meta.env.BUILD_ID} />
       <meta name="description" content={actualDescription} />
       <meta name="keywords" content={actualKeywords} />
       <meta name="theme-color" content="#ffd700" />

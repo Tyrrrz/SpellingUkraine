@@ -9,7 +9,6 @@ import Inline from "~/components/inline";
 import Link from "~/components/link";
 import Meta from "~/components/meta";
 import { useTheme } from "~/hooks/useTheme";
-import { getBuildId } from "~/utils/env";
 import { getRepoFileUrl } from "~/utils/repo";
 
 const Header: FC = () => {
@@ -81,10 +80,10 @@ const Footer: FC = () => {
   return (
     <footer className="flex flex-wrap place-content-center gap-3 border-t bg-neutral-100 p-4 text-sm font-light text-neutral-400 dark:border-neutral-800 dark:bg-neutral-800">
       {/* Git tree */}
-      <Link variant="discreet" href={getRepoFileUrl("", { ref: getBuildId() || "prime" })}>
+      <Link variant="discreet" href={getRepoFileUrl("", { ref: import.meta.env.BUILD_ID || "prime" })}>
         <Inline>
           <FiGitCommit />
-          <div className="font-mono">{getBuildId()?.substring(0, 7) || "prime"}</div>
+          <div className="font-mono">{import.meta.env.BUILD_ID.substring(0, 7) || "prime"}</div>
         </Inline>
       </Link>
 

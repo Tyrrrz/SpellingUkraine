@@ -24,7 +24,6 @@ import Paragraph from "~/components/paragraph";
 import Section from "~/components/section";
 import { useSpeech } from "~/hooks/useSpeech";
 import NotFoundPage from "~/pages/404";
-import { getSiteUrl } from "~/utils/env";
 import { getRepoFileEditUrl, getRepoNewIssueUrl } from "~/utils/repo";
 import { formatUrlWithQuery } from "~/utils/url";
 
@@ -212,9 +211,7 @@ const ContributeSection: FC<EntryPageProps> = ({ entry }) => {
               template: "bug-report.yml",
               labels: "bug",
               title: `${entry.correctSpelling}: <your issue>`,
-              details: `Issue related to entry: [${entry.correctSpelling}](${getSiteUrl(
-                `/i/${entry.id}`,
-              )})`,
+              details: `Issue related to entry: [${entry.correctSpelling}](${new URL(`/i/${entry.id}`, import.meta.env.SITE_URL).toString()})`,
             })}
           >
             <div className="dark:hover:text-ukraine-blue">
