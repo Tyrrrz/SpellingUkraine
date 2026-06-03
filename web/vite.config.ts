@@ -1,9 +1,9 @@
 import react from "@vitejs/plugin-react";
-import fs from "fs/promises";
 import path from "path";
 import type { Plugin } from "vite";
 import { defineConfig } from "vite";
 import { VitePWA } from "vite-plugin-pwa";
+import { loadVocabulary } from "../data/index.ts";
 
 // ---------------------------------------------------------------------------
 // Virtual module: bundles all vocabulary JSON files at build time so that
@@ -21,30 +21,10 @@ function vocabularyPlugin(): Plugin {
     async load(id) {
       if (id !== RESOLVED_ID) return;
 
-      const vocabDir = path.resolve(__dirname, "../data/vocabulary");
-      const entries: unknown[] = [];
-
-      async function readDir(dir: string) {
-        const items = await fs.readdir(dir, { withFileTypes: true });
-        for (const item of items) {
-          const fullPath = path.join(dir, item.name);
-          if (item.isDirectory()) {
-            await readDir(fullPath);
-          } else if (item.name.endsWith(".json")) {
-            const data = JSON.parse(await fs.readFile(fullPath, "utf8"));
-            entries.push({
-              id: path.parse(item.name).name,
-              path: path.relative(vocabDir, fullPath),
-              incorrectSpellings: [],
-              relatedSpellings: [],
-              links: [],
-              ...data,
-            });
-          }
-        }
+      const entries = [];
+      for await (const entry of loadVocabulary()) {
+        entries.push(entry);
       }
-
-      await readDir(vocabDir);
 
       return `export const vocabulary = ${JSON.stringify(entries)};`;
     },
@@ -97,7 +77,6 @@ export default defineConfig({
 
   // Make process.env values available to the app bundle
   define: {
-    "process.env.NODE_ENV": JSON.stringify(process.env.NODE_ENV ?? "development"),
     "process.env.BUILD_ID": JSON.stringify(process.env.BUILD_ID ?? ""),
     "process.env.SITE_URL": JSON.stringify(siteUrl ?? ""),
   },

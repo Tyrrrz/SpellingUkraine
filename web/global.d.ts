@@ -5,6 +5,4 @@ declare module "virtual:vocabulary" {
   export const vocabulary: VocabularyEntry[];
 }
 
-interface ImportMeta {
-  readonly env: Record<string, string>;
-}
+/// <reference types="vite/client" />

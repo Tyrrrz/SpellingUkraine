@@ -1,5 +1,4 @@
 import { Analytics } from "@vercel/analytics/react";
-import { clsx } from "clsx";
 import { FC, PropsWithChildren, useMemo } from "react";
 import FadeIn from "react-fade-in";
 import { FiChevronLeft, FiGitCommit, FiHeart, FiMoon, FiOctagon, FiSun } from "react-icons/fi";
@@ -136,12 +135,7 @@ const Footer: FC = () => {
 
       {/* Theme switcher */}
       <ButtonLink variant="hidden" onClick={() => setTheme(theme === "dark" ? "light" : "dark")}>
-        <div
-          className={clsx({
-            "text-ukraine-blue": theme !== "dark",
-            "text-ukraine-yellow": theme === "dark",
-          })}
-        >
+        <div className="text-ukraine-blue dark:text-ukraine-yellow">
           <Inline>
             {theme === "dark" ? <FiMoon /> : <FiSun />}
             <div className="capitalize">{theme}</div>

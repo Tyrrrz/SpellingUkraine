@@ -6,7 +6,7 @@ export const isProduction = () => {
   return getEnvironment() === "production";
 };
 
-export const getBuildId = () => process.env.BUILD_ID || undefined;
+export const getBuildId = () => process.env.BUILD_ID;
 
 export const getSiteUrl = (path?: string) => {
   const value = process.env.SITE_URL || "http://localhost:3000";

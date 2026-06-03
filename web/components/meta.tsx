@@ -32,7 +32,7 @@ const Meta: FC<MetaProps> = ({ title, description, keywords, imageUrl }) => {
       <link rel="manifest" href="/manifest.webmanifest" />
 
       <meta name="application-name" content={siteName} />
-      {buildId && <meta name="build-id" content={buildId} />}
+      <meta name="build-id" content={buildId ?? ""} />
       <meta name="description" content={actualDescription} />
       <meta name="keywords" content={actualKeywords} />
       <meta name="theme-color" content="#ffd700" />
