@@ -7,7 +7,6 @@ export const useSpeech = () => {
 
   // Initial and lazy-loaded voices
   useEffect(() => {
-    // eslint-disable-next-line react-hooks/set-state-in-effect
     setVoices(speechSynthesis.getVoices());
 
     const onChange = () => {

@@ -1,33 +1,5 @@
-import { useRouter } from "next/router";
-import { useEffect, useState } from "react";
-
-export const useRouterStatus = () => {
-  const { events } = useRouter();
-  const [status, setStatus] = useState<"idle" | "loading" | "error">("idle");
-
-  useEffect(() => {
-    const onRouteChangeStart = () => {
-      setStatus("loading");
-    };
-
-    const onRouteChangeComplete = () => {
-      setStatus("idle");
-    };
-
-    const onRouteChangeError = () => {
-      setStatus("error");
-    };
-
-    events.on("routeChangeStart", onRouteChangeStart);
-    events.on("routeChangeComplete", onRouteChangeComplete);
-    events.on("routeChangeError", onRouteChangeError);
-
-    return () => {
-      events.off("routeChangeStart", onRouteChangeStart);
-      events.off("routeChangeComplete", onRouteChangeComplete);
-      events.off("routeChangeError", onRouteChangeError);
-    };
-  }, [events]);
-
-  return status;
+// Navigation status is always idle in a Vite SPA (instant client-side routing).
+// This hook is retained for interface compatibility but is no longer used by the layout.
+export const useRouterStatus = (): "idle" | "loading" | "error" => {
+  return "idle";
 };

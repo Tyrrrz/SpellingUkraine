@@ -1,9 +1,9 @@
-import { GetStaticProps, NextPage } from "next";
-import { useRouter } from "next/router";
 import { FC } from "react";
 import FadeIn from "react-fade-in";
 import { FiCornerDownLeft, FiHeart, FiLoader, FiSearch, FiX } from "react-icons/fi";
-import { VocabularyEntry, loadVocabulary } from "spelling-ukraine-data";
+import { useNavigate } from "react-router-dom";
+import type { VocabularyEntry } from "spelling-ukraine-data";
+import { vocabulary } from "virtual:vocabulary";
 import ButtonLink from "~/components/buttonLink";
 import Highlight from "~/components/highlight";
 import Inline from "~/components/inline";
@@ -12,13 +12,8 @@ import Paragraph from "~/components/paragraph";
 import { useDebounce } from "~/hooks/useDebounce";
 import { useSessionState } from "~/hooks/useSessionState";
 import { SearchResult, useVocabularySearch } from "~/hooks/useVocabularySearch";
-import { bufferIterable } from "~/utils/async";
 import { getRepoFileUrl } from "~/utils/repo";
 import { translit } from "~/utils/translit";
-
-type HomePageProps = {
-  vocabulary: VocabularyEntry[];
-};
 
 const SearchResults: FC<{ results: SearchResult[] }> = ({ results }) => {
   return (
@@ -122,8 +117,8 @@ const Placeholder: FC<{ vocabulary: VocabularyEntry[] }> = ({ vocabulary }) => {
   );
 };
 
-const HomePage: NextPage<HomePageProps> = ({ vocabulary }) => {
-  const router = useRouter();
+const HomePage: FC = () => {
+  const navigate = useNavigate();
   const [query, setQuery] = useSessionState("searchQuery", "");
 
   const { value: queryDebounced, isDebouncing: isQueryDebouncing } = useDebounce(
@@ -145,7 +140,7 @@ const HomePage: NextPage<HomePageProps> = ({ vocabulary }) => {
           e.preventDefault();
 
           if (!isQueryDebouncing && results[0]) {
-            router.push(`/i/${results[0].entry.id}`);
+            navigate(`/i/${results[0].entry.id}`);
           }
         }}
       >
@@ -200,16 +195,6 @@ const HomePage: NextPage<HomePageProps> = ({ vocabulary }) => {
       </div>
     </>
   );
-};
-
-export const getStaticProps: GetStaticProps<HomePageProps> = async () => {
-  const vocabulary = await bufferIterable(loadVocabulary());
-
-  return {
-    props: {
-      vocabulary,
-    },
-  };
 };
 
 export default HomePage;

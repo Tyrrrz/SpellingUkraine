@@ -1,5 +1,5 @@
-import Head from "next/head";
 import { FC } from "react";
+import { Helmet } from "react-helmet-async";
 import { getBuildId, getSiteUrl } from "~/utils/env";
 
 type MetaProps = {
@@ -25,30 +25,29 @@ const Meta: FC<MetaProps> = ({ title, description, keywords, imageUrl }) => {
   const actualImageUrl = getSiteUrl(imageUrl || "/logo.png");
 
   return (
-    <Head>
-      <meta key="viewport" name="viewport" content="width=device-width, initial-scale=1" />
+    <Helmet>
+      <title>{actualTitle}</title>
 
-      <title key="title">{actualTitle}</title>
+      <link rel="icon" href="/favicon.png" />
+      <link rel="manifest" href="/manifest.webmanifest" />
 
-      <link key="icon" rel="icon" href="/favicon.png" />
-      <link key="manifest" rel="manifest" href="/manifest.json" />
+      <meta name="application-name" content={siteName} />
+      {buildId && <meta name="build-id" content={buildId} />}
+      <meta name="description" content={actualDescription} />
+      <meta name="keywords" content={actualKeywords} />
+      <meta name="theme-color" content="#ffd700" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-      <meta key="application-name" name="application-name" content={siteName} />
-      <meta key="build-id" name="build-id" content={buildId} />
-      <meta key="description" name="description" content={actualDescription} />
-      <meta key="keywords" name="keywords" content={actualKeywords} />
-      <meta key="theme-color" name="theme-color" content="#ffd700" />
+      <meta property="og:type" content="website" />
+      <meta property="og:site_name" content={siteName} />
+      <meta property="og:title" content={actualTitle} />
+      <meta property="og:description" content={actualDescription} />
+      <meta property="og:image" content={actualImageUrl} />
 
-      <meta key="og:type" property="og:type" content="website" />
-      <meta key="og:site_name" property="og:site_name" content={siteName} />
-      <meta key="og:title" property="og:title" content={actualTitle} />
-      <meta key="og:description" property="og:description" content={actualDescription} />
-      <meta key="og:image" property="og:image" content={actualImageUrl} />
-
-      <meta key="twitter:title" name="twitter:title" content={actualTitle} />
-      <meta key="twitter:creator" name="twitter:creator" content="@Tyrrrz" />
-      <meta key="twitter:card" name="twitter:card" content="summary" />
-    </Head>
+      <meta name="twitter:title" content={actualTitle} />
+      <meta name="twitter:creator" content="@Tyrrrz" />
+      <meta name="twitter:card" content="summary" />
+    </Helmet>
   );
 };
 
