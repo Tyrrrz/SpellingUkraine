@@ -4,6 +4,7 @@ import type { Plugin } from "vite";
 import { defineConfig } from "vite";
 import { VitePWA } from "vite-plugin-pwa";
 import { loadVocabulary } from "../data/index.ts";
+import { bufferIterable } from "./utils/async.ts";
 
 function vocabularyPlugin(): Plugin {
   const VIRTUAL_ID = "virtual:vocabulary";
@@ -17,10 +18,7 @@ function vocabularyPlugin(): Plugin {
     async load(id) {
       if (id !== RESOLVED_ID) return;
 
-      const entries = [];
-      for await (const entry of loadVocabulary()) {
-        entries.push(entry);
-      }
+      const entries = await bufferIterable(loadVocabulary());
 
       return `export const vocabulary = ${JSON.stringify(entries)};`;
     },

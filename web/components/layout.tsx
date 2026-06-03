@@ -83,7 +83,7 @@ const Footer: FC = () => {
       <Link variant="discreet" href={getRepoFileUrl("", { ref: import.meta.env.BUILD_ID || "prime" })}>
         <Inline>
           <FiGitCommit />
-          <div className="font-mono">{(import.meta.env.BUILD_ID || "prime").substring(0, 7)}</div>
+          <div className="font-mono">{import.meta.env.BUILD_ID?.substring(0, 7) || "prime"}</div>
         </Inline>
       </Link>
 
