@@ -1,5 +1,6 @@
 import { FC } from "react";
 import { Helmet } from "react-helmet-async";
+import { resolveAbsoluteUrl, resolveAssetPath } from "~/utils/assets";
 
 type MetaProps = {
   title?: string;
@@ -19,23 +20,14 @@ const Meta: FC<MetaProps> = ({ title, description, keywords, imageUrl }) => {
 
   const actualKeywords = (keywords || ["spelling", "ukraine", "english"]).join(",");
 
-  // Build absolute URL for meta tags, handling base path for relative URLs
-  const imageUrlForMeta = imageUrl || "/logo.png";
-  const actualImageUrl = imageUrlForMeta.startsWith("http")
-    ? imageUrlForMeta
-    : new URL(
-        imageUrlForMeta.startsWith("/")
-          ? import.meta.env.BASE_URL + imageUrlForMeta.slice(1)
-          : imageUrlForMeta,
-        import.meta.env.SITE_URL,
-      ).toString();
+  const actualImageUrl = resolveAbsoluteUrl(imageUrl || "/logo.png");
 
   return (
     <Helmet>
       <title>{actualTitle}</title>
 
-      <link rel="icon" href={`${import.meta.env.BASE_URL}favicon.png`} />
-      <link rel="manifest" href={`${import.meta.env.BASE_URL}manifest.webmanifest`} />
+      <link rel="icon" href={resolveAssetPath("/favicon.png")} />
+      <link rel="manifest" href={resolveAssetPath("/manifest.webmanifest")} />
 
       <meta name="application-name" content={siteName} />
       <meta name="build-id" content={import.meta.env.BUILD_ID} />

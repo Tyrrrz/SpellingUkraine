@@ -1,4 +1,5 @@
 import { FC } from "react";
+import { resolveAssetPath } from "~/utils/assets";
 
 type ImageProps = {
   src: string;
@@ -9,12 +10,9 @@ type ImageProps = {
 };
 
 const Image: FC<ImageProps> = ({ src, alt, width, height, priority }) => {
-  // Prepend BASE_URL to root-relative paths for proper resolution under non-root base paths
-  const resolvedSrc = src.startsWith("/") ? import.meta.env.BASE_URL + src.slice(1) : src;
-
   return (
     <img
-      src={resolvedSrc}
+      src={resolveAssetPath(src)}
       alt={alt}
       loading={priority ? "eager" : "lazy"}
       width={width}
