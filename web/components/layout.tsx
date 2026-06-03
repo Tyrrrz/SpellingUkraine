@@ -1,4 +1,3 @@
-import { Analytics } from "@vercel/analytics/react";
 import { FC, PropsWithChildren, useMemo } from "react";
 import FadeIn from "react-fade-in";
 import { FiChevronLeft, FiGitCommit, FiHeart, FiMoon, FiOctagon, FiSun } from "react-icons/fi";
@@ -169,7 +168,6 @@ const Layout: FC<LayoutProps> = ({ children }) => {
   return (
     <>
       <Meta />
-      <Analytics />
       <Page>{children}</Page>
     </>
   );
