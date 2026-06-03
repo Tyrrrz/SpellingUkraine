@@ -1,4 +1,3 @@
-import { GetStaticPaths, GetStaticProps, NextPage } from "next";
 import { Map, Marker } from "pigeon-maps";
 import { FC, useMemo } from "react";
 import {
@@ -11,7 +10,9 @@ import {
   FiVolumeX,
   FiX,
 } from "react-icons/fi";
-import { VocabularyEntry, loadVocabulary, loadVocabularyEntry } from "spelling-ukraine-data";
+import { useParams } from "react-router-dom";
+import type { VocabularyEntry } from "spelling-ukraine-data";
+import { vocabulary } from "virtual:vocabulary";
 import ButtonLink from "~/components/buttonLink";
 import Heading from "~/components/heading";
 import Highlight from "~/components/highlight";
@@ -22,17 +23,12 @@ import Meta from "~/components/meta";
 import Paragraph from "~/components/paragraph";
 import Section from "~/components/section";
 import { useSpeech } from "~/hooks/useSpeech";
-import { bufferIterable } from "~/utils/async";
-import { getSiteUrl } from "~/utils/env";
+import NotFoundPage from "~/pages/404";
 import { getRepoFileEditUrl, getRepoNewIssueUrl } from "~/utils/repo";
 import { formatUrlWithQuery } from "~/utils/url";
 
 type EntryPageProps = {
   entry: VocabularyEntry;
-};
-
-type EntryPageParams = {
-  id: string;
 };
 
 const PronounceButton: FC<EntryPageProps> = ({ entry }) => {
@@ -215,9 +211,7 @@ const ContributeSection: FC<EntryPageProps> = ({ entry }) => {
               template: "bug-report.yml",
               labels: "bug",
               title: `${entry.correctSpelling}: <your issue>`,
-              details: `Issue related to entry: [${entry.correctSpelling}](${getSiteUrl(
-                `/i/${entry.id}`,
-              )})`,
+              details: `Issue related to entry: [${entry.correctSpelling}](${new URL(`/i/${entry.id}`, import.meta.env.SITE_URL).toString()})`,
             })}
           >
             <div className="dark:hover:text-ukraine-blue">
@@ -233,7 +227,14 @@ const ContributeSection: FC<EntryPageProps> = ({ entry }) => {
   );
 };
 
-const EntryPage: NextPage<EntryPageProps> = ({ entry }) => {
+const EntryPage: FC = () => {
+  const { id } = useParams<{ id: string }>();
+  const entry = vocabulary.find((e) => e.id === id);
+
+  if (!entry) {
+    return <NotFoundPage />;
+  }
+
   return (
     <>
       <Meta
@@ -277,36 +278,6 @@ const EntryPage: NextPage<EntryPageProps> = ({ entry }) => {
       </div>
     </>
   );
-};
-
-export const getStaticPaths: GetStaticPaths<EntryPageParams> = async () => {
-  const entries = await bufferIterable(loadVocabulary());
-
-  return {
-    paths: entries.map((entry) => ({
-      params: {
-        id: entry.id,
-      },
-    })),
-    fallback: false,
-  };
-};
-
-export const getStaticProps: GetStaticProps<EntryPageProps, EntryPageParams> = async ({
-  params,
-}) => {
-  const { id } = params || {};
-  if (!id) {
-    throw new Error("Missing vocabulary entry ID");
-  }
-
-  const entry = await loadVocabularyEntry(id);
-
-  return {
-    props: {
-      entry,
-    },
-  };
 };
 
 export default EntryPage;

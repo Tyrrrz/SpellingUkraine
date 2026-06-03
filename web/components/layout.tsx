@@ -1,57 +1,15 @@
 import { Analytics } from "@vercel/analytics/react";
-import { clsx } from "clsx";
-import { useRouter } from "next/router";
-import { FC, PropsWithChildren, useEffect, useMemo, useState } from "react";
+import { FC, PropsWithChildren, useMemo } from "react";
 import FadeIn from "react-fade-in";
 import { FiChevronLeft, FiGitCommit, FiHeart, FiMoon, FiOctagon, FiSun } from "react-icons/fi";
+import { useLocation } from "react-router-dom";
 import ButtonLink from "~/components/buttonLink";
 import Image from "~/components/image";
 import Inline from "~/components/inline";
 import Link from "~/components/link";
 import Meta from "~/components/meta";
-import { useDebounce } from "~/hooks/useDebounce";
-import { useRouterStatus } from "~/hooks/useRouterStatus";
 import { useTheme } from "~/hooks/useTheme";
-import { getBuildId } from "~/utils/env";
 import { getRepoFileUrl } from "~/utils/repo";
-
-const Loader: FC = () => {
-  // Only show the loading indicator if the navigation takes a while.
-  // This prevents the indicator from flashing during faster navigation.
-  const { value: isVisible } = useDebounce(useRouterStatus() === "loading", 300);
-  const [progress, setProgress] = useState(0);
-
-  useEffect(() => {
-    if (!isVisible) {
-      return;
-    }
-
-    const interval = setInterval(() => {
-      // Progress is not representative of anything, it's just used
-      // to give a sense that something is happening.
-      // The value is increased inverse-hyperbolically, so that it
-      // gradually slows down and never actually reaches 100%.
-      setProgress((progress) => progress + 0.1 * (0.95 - progress) ** 2);
-    }, 100);
-
-    return () => {
-      clearInterval(interval);
-      setProgress(0);
-    };
-  }, [isVisible]);
-
-  return (
-    <div
-      className={clsx("h-1", { "bg-ukraine-blue": isVisible })}
-      style={{
-        width: `${progress * 100}%`,
-        transitionProperty: "width",
-        transitionTimingFunction: "cubic-bezier(0.4, 0, 0.2, 1)",
-        transitionDuration: "150ms",
-      }}
-    />
-  );
-};
 
 const Header: FC = () => {
   return (
@@ -82,9 +40,9 @@ const Header: FC = () => {
 };
 
 const Breadcrumb: FC = () => {
-  const { route } = useRouter();
+  const { pathname } = useLocation();
 
-  if (route === "/") {
+  if (pathname === "/") {
     return null;
   }
 
@@ -103,9 +61,9 @@ const Breadcrumb: FC = () => {
 };
 
 const Main: FC<PropsWithChildren> = ({ children }) => {
-  // Below is a hack to re-initialize the fade when the page changes
-  const router = useRouter();
-  const fadeKey = useMemo(() => router.pathname, [router.pathname]);
+  // Re-initialize the fade when the page changes
+  const { pathname } = useLocation();
+  const fadeKey = useMemo(() => pathname, [pathname]);
 
   return (
     <div className="grow">
@@ -122,10 +80,13 @@ const Footer: FC = () => {
   return (
     <footer className="flex flex-wrap place-content-center gap-3 border-t bg-neutral-100 p-4 text-sm font-light text-neutral-400 dark:border-neutral-800 dark:bg-neutral-800">
       {/* Git tree */}
-      <Link variant="discreet" href={getRepoFileUrl("", { ref: getBuildId() || "prime" })}>
+      <Link
+        variant="discreet"
+        href={getRepoFileUrl("", { ref: import.meta.env.BUILD_ID || "prime" })}
+      >
         <Inline>
           <FiGitCommit />
-          <div className="font-mono">{getBuildId()?.substring(0, 7) || "prime"}</div>
+          <div className="font-mono">{import.meta.env.BUILD_ID?.substring(0, 7) || "prime"}</div>
         </Inline>
       </Link>
 
@@ -193,7 +154,6 @@ const Page: FC<PropsWithChildren> = ({ children }) => {
   return (
     <div className={theme}>
       <div className="flex min-h-screen flex-col bg-neutral-50 dark:bg-neutral-900 dark:text-neutral-200">
-        <Loader />
         <Header />
         <Breadcrumb />
         <Main>{children}</Main>

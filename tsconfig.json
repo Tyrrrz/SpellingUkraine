@@ -1,12 +1,8 @@
 {
   "compilerOptions": {
     "target": "es6",
-    "lib": [
-      "esnext"
-    ],
+    "lib": ["esnext"],
     "module": "commonjs",
-    "jsx": "preserve",
-    "allowJs": true,
     "strict": true,
     "noImplicitReturns": true,
     "noUncheckedIndexedAccess": true,
@@ -14,7 +10,6 @@
     "skipLibCheck": true,
     "esModuleInterop": true,
     "noEmit": true,
-    "pretty": true,
     "incremental": true,
     "resolveJsonModule": true,
     "isolatedModules": true

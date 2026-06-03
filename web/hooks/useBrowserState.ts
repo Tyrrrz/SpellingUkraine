@@ -25,7 +25,7 @@ const getStorageValue = (storage: Storage, key: string) => {
   return null;
 };
 
-const setStorageValue = (storage: Storage, key: string, value: any) => {
+const setStorageValue = (storage: Storage, key: string, value: unknown) => {
   if (typeof value !== "undefined" && value !== null) {
     storage.setItem(key, JSON.stringify(value));
   } else {
@@ -45,7 +45,6 @@ export const useBrowserState = <T>(storageKind: StorageKind, key: string, initia
   useEffect(() => {
     const item = getStorageValue(getStorage(storageKind), key);
     if (item) {
-      // eslint-disable-next-line react-hooks/set-state-in-effect
       setValue(item);
     }
 

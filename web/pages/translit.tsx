@@ -1,12 +1,11 @@
-import { NextPage } from "next";
-import { useMemo, useState } from "react";
+import { FC, useMemo, useState } from "react";
 import Heading from "~/components/heading";
 import Link from "~/components/link";
 import Meta from "~/components/meta";
 import { getRepoFileUrl } from "~/utils/repo";
 import { translit } from "~/utils/translit";
 
-const TranslitPage: NextPage = () => {
+const TranslitPage: FC = () => {
   const [source, setSource] = useState("");
   const output = useMemo(() => translit(source), [source]);
 

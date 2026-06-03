@@ -1,8 +1,8 @@
-import { NextPage } from "next";
+import { FC } from "react";
 import Heading from "~/components/heading";
 import Meta from "~/components/meta";
 
-const OfflinePage: NextPage = () => {
+const OfflinePage: FC = () => {
   return (
     <>
       <Meta title="Offline" />

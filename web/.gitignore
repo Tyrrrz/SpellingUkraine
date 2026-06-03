@@ -1,11 +1,8 @@
-# next.js
-/.next/
-/build/
+# vite
 /out/
-/next-env.d.ts
+/dist/
 
-# next-pwa
-/public/fallback-*.js*
-/public/workbox-*.js*
+# vite-plugin-pwa
 /public/sw.js*
-/public/worker-*.js*
+/public/workbox-*.js*
+/public/registerSW.js
