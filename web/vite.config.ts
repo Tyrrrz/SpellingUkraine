@@ -26,7 +26,7 @@ function vocabularyPlugin(): Plugin {
 }
 
 const siteUrl = process.env.SITE_URL || "http://localhost:3000";
-const base = new URL(siteUrl).pathname.replace(/\/$/, "") + "/";
+const base = new URL(siteUrl).pathname.replace(/\/?$/, "/");
 
 export default defineConfig({
   base,
@@ -43,7 +43,7 @@ export default defineConfig({
         short_name: "SpellingUkraine",
         icons: [
           {
-            src: "/logo.png",
+            src: `${base}logo.png`,
             sizes: "512x512",
             type: "image/png",
             purpose: "any maskable",
@@ -51,7 +51,7 @@ export default defineConfig({
         ],
         theme_color: "#ffd700",
         background_color: "#ffffff",
-        start_url: "/",
+        start_url: base,
         display: "standalone",
         orientation: "portrait",
       },
