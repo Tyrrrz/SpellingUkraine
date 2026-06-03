@@ -6,9 +6,9 @@ declare module "virtual:vocabulary" {
 }
 
 interface ImportMetaEnv {
+  readonly SITE_URL: string;
   readonly BASE_URL: string;
   readonly BUILD_ID: string;
-  readonly SITE_URL: string;
 }
 
 interface ImportMeta {
