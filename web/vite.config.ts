@@ -69,6 +69,10 @@ export default defineConfig({
     emptyOutDir: true,
   },
 
+  server: {
+    port: 3000,
+  },
+
   define: {
     "import.meta.env.SITE_URL": JSON.stringify(siteUrl),
     "import.meta.env.BUILD_ID": JSON.stringify(process.env.BUILD_ID || ""),

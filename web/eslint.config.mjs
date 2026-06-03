@@ -29,4 +29,10 @@ export default defineConfig([
       globals: { ...globals.browser, ...globals.node },
     },
   },
+  {
+    files: ["vite.config.ts", "postcss.config.js"],
+    languageOptions: {
+      globals: { ...globals.node },
+    },
+  },
 ]);
