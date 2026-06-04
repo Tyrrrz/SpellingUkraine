@@ -4,10 +4,7 @@
     "lib": ["dom", "dom.iterable", "esnext"],
     "jsx": "preserve",
     "module": "esnext",
-    "moduleResolution": "bundler",
-    "paths": {
-      "~/*": ["./*"]
-    }
+    "moduleResolution": "bundler"
   },
   "include": ["**/*"],
   "exclude": ["node_modules"]

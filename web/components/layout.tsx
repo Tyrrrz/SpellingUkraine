@@ -2,13 +2,13 @@ import { FC, PropsWithChildren, useMemo } from "react";
 import FadeIn from "react-fade-in";
 import { FiChevronLeft, FiGitCommit, FiHeart, FiMoon, FiOctagon, FiSun } from "react-icons/fi";
 import { useLocation } from "react-router-dom";
-import ButtonLink from "~/components/buttonLink";
-import Image from "~/components/image";
-import Inline from "~/components/inline";
-import Link from "~/components/link";
-import Meta from "~/components/meta";
-import { useTheme } from "~/hooks/useTheme";
-import { getRepoFileUrl } from "~/utils/repo";
+import { useTheme } from "../hooks/useTheme";
+import { getRepoFileUrl } from "../utils/repo";
+import ButtonLink from "./buttonLink";
+import Image from "./image";
+import Inline from "./inline";
+import Link from "./link";
+import Meta from "./meta";
 
 const Header: FC = () => {
   return (

@@ -1,6 +1,6 @@
 import { useMemo } from "react";
-import { useLocalState } from "~/hooks/useLocalState";
-import { useMedia } from "~/hooks/useMedia";
+import { useLocalState } from "./useLocalState";
+import { useMedia } from "./useMedia";
 
 type Theme = "light" | "dark";
 

@@ -13,19 +13,19 @@ import {
 import { useParams } from "react-router-dom";
 import type { VocabularyEntry } from "spelling-ukraine-data";
 import { vocabulary } from "virtual:vocabulary";
-import ButtonLink from "~/components/buttonLink";
-import Heading from "~/components/heading";
-import Highlight from "~/components/highlight";
-import Image from "~/components/image";
-import Inline from "~/components/inline";
-import Link from "~/components/link";
-import Meta from "~/components/meta";
-import Paragraph from "~/components/paragraph";
-import Section from "~/components/section";
-import { useSpeech } from "~/hooks/useSpeech";
-import NotFoundPage from "~/pages/404";
-import { getRepoFileEditUrl, getRepoNewIssueUrl } from "~/utils/repo";
-import { formatUrlWithQuery } from "~/utils/url";
+import ButtonLink from "../components/buttonLink";
+import Heading from "../components/heading";
+import Highlight from "../components/highlight";
+import Image from "../components/image";
+import Inline from "../components/inline";
+import Link from "../components/link";
+import Meta from "../components/meta";
+import Paragraph from "../components/paragraph";
+import Section from "../components/section";
+import { useSpeech } from "../hooks/useSpeech";
+import { getRepoFileEditUrl, getRepoNewIssueUrl } from "../utils/repo";
+import { formatUrlWithQuery } from "../utils/url";
+import NotFoundPage from "./404";
 
 type EntryPageProps = {
   entry: VocabularyEntry;

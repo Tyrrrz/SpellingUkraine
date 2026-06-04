@@ -1,9 +1,9 @@
 import { FC, useMemo, useState } from "react";
-import Heading from "~/components/heading";
-import Link from "~/components/link";
-import Meta from "~/components/meta";
-import { getRepoFileUrl } from "~/utils/repo";
-import { translit } from "~/utils/translit";
+import Heading from "../components/heading";
+import Link from "../components/link";
+import Meta from "../components/meta";
+import { getRepoFileUrl } from "../utils/repo";
+import { translit } from "../utils/translit";
 
 const TranslitPage: FC = () => {
   const [source, setSource] = useState("");

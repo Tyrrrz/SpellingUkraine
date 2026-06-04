@@ -1,6 +1,6 @@
 import { useMemo } from "react";
 import { VocabularyEntry } from "spelling-ukraine-data";
-import { normalizeString } from "~/utils/str";
+import { normalizeString } from "../utils/str";
 
 export type SearchResult = {
   entry: VocabularyEntry;

@@ -1,7 +1,7 @@
 import { clsx } from "clsx";
 import { FC, PropsWithChildren } from "react";
 import { Link as RouterLink } from "react-router-dom";
-import { isAbsoluteUrl } from "~/utils/url";
+import { isAbsoluteUrl } from "../utils/url";
 
 type LinkProps = PropsWithChildren<{
   variant?: "normal" | "discreet" | "hidden";

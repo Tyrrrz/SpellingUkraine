@@ -4,16 +4,16 @@ import { FiCornerDownLeft, FiHeart, FiLoader, FiSearch, FiX } from "react-icons/
 import { useNavigate } from "react-router-dom";
 import type { VocabularyEntry } from "spelling-ukraine-data";
 import { vocabulary } from "virtual:vocabulary";
-import ButtonLink from "~/components/buttonLink";
-import Highlight from "~/components/highlight";
-import Inline from "~/components/inline";
-import Link from "~/components/link";
-import Paragraph from "~/components/paragraph";
-import { useDebounce } from "~/hooks/useDebounce";
-import { useSessionState } from "~/hooks/useSessionState";
-import { SearchResult, useVocabularySearch } from "~/hooks/useVocabularySearch";
-import { getRepoFileUrl } from "~/utils/repo";
-import { translit } from "~/utils/translit";
+import ButtonLink from "../components/buttonLink";
+import Highlight from "../components/highlight";
+import Inline from "../components/inline";
+import Link from "../components/link";
+import Paragraph from "../components/paragraph";
+import { useDebounce } from "../hooks/useDebounce";
+import { useSessionState } from "../hooks/useSessionState";
+import { SearchResult, useVocabularySearch } from "../hooks/useVocabularySearch";
+import { getRepoFileUrl } from "../utils/repo";
+import { translit } from "../utils/translit";
 
 const SearchResults: FC<{ results: SearchResult[] }> = ({ results }) => {
   return (

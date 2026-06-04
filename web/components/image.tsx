@@ -1,5 +1,5 @@
 import { FC } from "react";
-import { resolveAssetPath } from "~/utils/assets";
+import { resolveAssetPath } from "../utils/assets";
 
 type ImageProps = {
   src: string;

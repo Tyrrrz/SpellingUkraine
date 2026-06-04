@@ -1,12 +1,12 @@
 import { FC } from "react";
 import { HelmetProvider } from "react-helmet-async";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Layout from "~/components/layout";
-import NotFoundPage from "~/pages/404";
-import EntryPage from "~/pages/entry";
-import HomePage from "~/pages/index";
-import OfflinePage from "~/pages/offline";
-import TranslitPage from "~/pages/translit";
+import Layout from "./components/layout";
+import NotFoundPage from "./pages/404";
+import EntryPage from "./pages/entry";
+import HomePage from "./pages/index";
+import OfflinePage from "./pages/offline";
+import TranslitPage from "./pages/translit";
 
 const App: FC = () => {
   return (

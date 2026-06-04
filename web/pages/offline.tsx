@@ -1,6 +1,6 @@
 import { FC } from "react";
-import Heading from "~/components/heading";
-import Meta from "~/components/meta";
+import Heading from "../components/heading";
+import Meta from "../components/meta";
 
 const OfflinePage: FC = () => {
   return (

@@ -1,6 +1,6 @@
 import { FC } from "react";
 import { Helmet } from "react-helmet-async";
-import { resolveAbsoluteUrl, resolveAssetPath } from "~/utils/assets";
+import { resolveAbsoluteUrl, resolveAssetPath } from "../utils/assets";
 
 type MetaProps = {
   title?: string;
