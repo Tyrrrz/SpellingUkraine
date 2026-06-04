@@ -3,19 +3,20 @@ import path from "path";
 import type { Plugin } from "vite";
 import { defineConfig } from "vite";
 import { VitePWA } from "vite-plugin-pwa";
-import { loadVocabulary } from "../data/index.ts";
-import { bufferIterable } from "./utils/async.ts";
+import { loadVocabulary } from "../data/index";
+import { bufferIterable } from "./utils/async";
 
-function vocabularyPlugin(): Plugin {
+const vocabularyPlugin = () => {
   const VIRTUAL_ID = "virtual:vocabulary";
   const RESOLVED_ID = "\0" + VIRTUAL_ID;
 
-  return {
+  const plugin: Plugin = {
     name: "vocabulary",
-    resolveId(id) {
+    resolveId: (id) => {
       if (id === VIRTUAL_ID) return RESOLVED_ID;
+      return null;
     },
-    async load(id) {
+    load: async (id) => {
       if (id !== RESOLVED_ID) return;
 
       const entries = await bufferIterable(loadVocabulary());
@@ -23,7 +24,9 @@ function vocabularyPlugin(): Plugin {
       return `export const vocabulary = ${JSON.stringify(entries)};`;
     },
   };
-}
+
+  return plugin;
+};
 
 const siteUrl = process.env.SITE_URL || "http://localhost:3000";
 const base = new URL(siteUrl).pathname.replace(/\/?$/, "/");

@@ -1,3 +1,4 @@
+import { FC } from "react";
 import { HelmetProvider } from "react-helmet-async";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Layout from "~/components/layout";
@@ -7,7 +8,7 @@ import HomePage from "~/pages/index";
 import OfflinePage from "~/pages/offline";
 import TranslitPage from "~/pages/translit";
 
-const App = () => {
+const App: FC = () => {
   return (
     <HelmetProvider>
       <BrowserRouter basename={import.meta.env.BASE_URL?.replace(/\/$/, "") || ""}>
