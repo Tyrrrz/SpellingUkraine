@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "vite",
-    "build": "vite build && cp out/index.html out/404.html",
+    "build": "vite build",
     "serve": "vite preview",
     "lint": "eslint . --fix",
     "lint:check": "eslint .",
