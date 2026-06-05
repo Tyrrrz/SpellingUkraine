@@ -1,11 +1,10 @@
+/// <reference types="vite/client" />
+
 declare module "*.css";
 
-interface ImportMeta {
-  env: {
-    SITE_URL: string;
-    BASE_URL: string;
-    BUILD_ID: string;
-  };
+interface ImportMetaEnv {
+  readonly SITE_URL: string;
+  readonly BUILD_ID: string;
 }
 
 declare module "virtual:vocabulary" {
