@@ -1,5 +1,5 @@
 import { FC } from "react";
-import { resolveAssetPath } from "../utils/assets";
+import { resolvePath } from "../utils/assets";
 
 type ImageProps = {
   src: string;
@@ -12,7 +12,7 @@ type ImageProps = {
 const Image: FC<ImageProps> = ({ src, alt, width, height, priority }) => {
   return (
     <img
-      src={resolveAssetPath(src)}
+      src={resolvePath(src)}
       alt={alt}
       loading={priority ? "eager" : "lazy"}
       width={width}

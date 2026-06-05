@@ -1,6 +1,6 @@
 import { FC } from "react";
 import { Helmet } from "react-helmet-async";
-import { resolveAbsoluteUrl, resolveAssetPath } from "../utils/assets";
+import { resolveAbsoluteUrl, resolvePath } from "../utils/assets";
 
 type MetaProps = {
   title?: string;
@@ -26,8 +26,8 @@ const Meta: FC<MetaProps> = ({ title, description, keywords, imageUrl }) => {
     <Helmet>
       <title>{actualTitle}</title>
 
-      <link rel="icon" href={resolveAssetPath("/favicon.png")} />
-      <link rel="manifest" href={resolveAssetPath("/manifest.webmanifest")} />
+      <link rel="icon" href={resolvePath("/favicon.png")} />
+      <link rel="manifest" href={resolvePath("/manifest.webmanifest")} />
 
       <meta name="application-name" content={siteName} />
       <meta name="build-id" content={import.meta.env.BUILD_ID} />
