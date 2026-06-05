@@ -27,11 +27,9 @@ import { getRepoFileEditUrl, getRepoNewIssueUrl } from "../utils/repo";
 import { formatUrlWithQuery } from "../utils/url";
 import NotFoundPage from "./404";
 
-type EntryPageProps = {
+const PronounceButton: FC<{
   entry: VocabularyEntry;
-};
-
-const PronounceButton: FC<EntryPageProps> = ({ entry }) => {
+}> = ({ entry }) => {
   const { voices, speak, isActive } = useSpeech();
 
   // Google UK voices are the best for Ukrainian transliterations and
@@ -69,7 +67,9 @@ const PronounceButton: FC<EntryPageProps> = ({ entry }) => {
   );
 };
 
-const SpellingSection: FC<EntryPageProps> = ({ entry }) => {
+const SpellingSection: FC<{
+  entry: VocabularyEntry;
+}> = ({ entry }) => {
   if (entry.incorrectSpellings.length <= 0) {
     return null;
   }
@@ -93,7 +93,9 @@ const SpellingSection: FC<EntryPageProps> = ({ entry }) => {
   );
 };
 
-const DescriptionSection: FC<EntryPageProps> = ({ entry }) => {
+const DescriptionSection: FC<{
+  entry: VocabularyEntry;
+}> = ({ entry }) => {
   if (!entry.description) {
     return null;
   }
@@ -109,7 +111,9 @@ const DescriptionSection: FC<EntryPageProps> = ({ entry }) => {
   );
 };
 
-const LinksSection: FC<EntryPageProps> = ({ entry }) => {
+const LinksSection: FC<{
+  entry: VocabularyEntry;
+}> = ({ entry }) => {
   if (entry.links.length <= 0 && !entry.location) {
     return null;
   }
@@ -145,7 +149,9 @@ const LinksSection: FC<EntryPageProps> = ({ entry }) => {
   );
 };
 
-const LocationSection: FC<EntryPageProps> = ({ entry }) => {
+const LocationSection: FC<{
+  entry: VocabularyEntry;
+}> = ({ entry }) => {
   if (!entry.location) {
     return null;
   }
@@ -170,7 +176,9 @@ const LocationSection: FC<EntryPageProps> = ({ entry }) => {
   );
 };
 
-const ImageSection: FC<EntryPageProps> = ({ entry }) => {
+const ImageSection: FC<{
+  entry: VocabularyEntry;
+}> = ({ entry }) => {
   if (!entry.image) {
     return null;
   }
@@ -187,7 +195,9 @@ const ImageSection: FC<EntryPageProps> = ({ entry }) => {
   );
 };
 
-const ContributeSection: FC<EntryPageProps> = ({ entry }) => {
+const ContributeSection: FC<{
+  entry: VocabularyEntry;
+}> = ({ entry }) => {
   return (
     <Section title="Contribute">
       <div className="flex flex-wrap gap-3">
