@@ -13,6 +13,5 @@ export const useMedia = (query: string) => {
   return useSyncExternalStore(
     subscribe,
     () => window.matchMedia(query).matches,
-    () => false,
   );
 };
