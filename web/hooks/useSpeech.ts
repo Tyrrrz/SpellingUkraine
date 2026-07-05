@@ -1,14 +1,12 @@
 import { useEffect, useMemo, useState } from "react";
 
 export const useSpeech = () => {
-  const [voices, setVoices] = useState<SpeechSynthesisVoice[]>();
+  const [voices, setVoices] = useState<SpeechSynthesisVoice[]>(() => speechSynthesis.getVoices());
   const [currentUtterance, setCurrentUtterance] = useState<SpeechSynthesisUtterance>();
   const isActive = !!currentUtterance;
 
   // Initial and lazy-loaded voices
   useEffect(() => {
-    setVoices(speechSynthesis.getVoices());
-
     const onChange = () => {
       setVoices(speechSynthesis.getVoices());
     };
