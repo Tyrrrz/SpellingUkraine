@@ -45,10 +45,10 @@ export const useBrowserState = <T>(storageKind: StorageKind, key: string, initia
 
   const getSnapshot = useCallback(() => {
     const item = getStorageValue(getStorage(storageKind), key);
-    return (item ?? initialState) as T;
+    return item !== null ? (item as T) : initialState;
   }, [storageKind, key, initialState]);
 
-  const value = useSyncExternalStore(subscribe, getSnapshot);
+  const value = useSyncExternalStore(subscribe, getSnapshot, () => initialState);
 
   const setValue = useCallback(
     (newValue: T) => {
