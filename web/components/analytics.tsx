@@ -28,8 +28,10 @@ const Analytics: FC = () => {
       return;
     }
 
-    window.goatcounter?.count?.({ path: location.pathname });
-  }, [url, location.pathname]);
+    window.goatcounter?.count?.({
+      path: location.pathname + location.search + location.hash,
+    });
+  }, [url, location.pathname, location.search, location.hash]);
 
   if (!url) {
     return null;
