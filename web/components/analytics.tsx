@@ -1,4 +1,4 @@
-import { FC, useEffect, useRef } from "react";
+import { FC, useCallback, useEffect, useRef } from "react";
 import { Helmet } from "react-helmet-async";
 import { useLocation } from "react-router-dom";
 
@@ -12,8 +12,63 @@ declare global {
 
 const Analytics: FC = () => {
   const url = import.meta.env.GOATCOUNTER_URL;
+  const basePath = (import.meta.env.BASE_URL || "/").replace(/\/$/, "");
   const location = useLocation();
   const isInitialRender = useRef(true);
+  const pendingPaths = useRef<string[]>([]);
+  const flushIntervalId = useRef<number | null>(null);
+
+  const flushPendingPageViews = useCallback(() => {
+    if (!window.goatcounter?.count || pendingPaths.current.length === 0) {
+      return false;
+    }
+
+    const paths = pendingPaths.current;
+    pendingPaths.current = [];
+
+    for (const path of paths) {
+      window.goatcounter.count({ path });
+    }
+
+    return true;
+  }, []);
+
+  const stopFlushPolling = useCallback(() => {
+    if (flushIntervalId.current === null) {
+      return;
+    }
+
+    window.clearInterval(flushIntervalId.current);
+    flushIntervalId.current = null;
+  }, []);
+
+  const ensureFlushPolling = useCallback(() => {
+    if (flushIntervalId.current !== null) {
+      return;
+    }
+
+    flushIntervalId.current = window.setInterval(() => {
+      if (window.goatcounter?.count) {
+        flushPendingPageViews();
+        stopFlushPolling();
+      }
+    }, 250);
+  }, [flushPendingPageViews, stopFlushPolling]);
+
+  const handleScriptLoad = useCallback(() => {
+    if (flushPendingPageViews() || window.goatcounter?.count) {
+      stopFlushPolling();
+    }
+  }, [flushPendingPageViews, stopFlushPolling]);
+
+  useEffect(
+    () => () => {
+      if (flushIntervalId.current !== null) {
+        stopFlushPolling();
+      }
+    },
+    [stopFlushPolling]
+  );
 
   useEffect(() => {
     if (!url) {
@@ -28,10 +83,24 @@ const Analytics: FC = () => {
       return;
     }
 
-    window.goatcounter?.count?.({
-      path: location.pathname + location.search + location.hash,
-    });
-  }, [url, location.pathname, location.search, location.hash]);
+    pendingPaths.current.push(
+      `${basePath}${location.pathname}` + location.search + location.hash
+    );
+
+    if (flushPendingPageViews()) {
+      return;
+    }
+
+    ensureFlushPolling();
+  }, [
+    url,
+    basePath,
+    location.pathname,
+    location.search,
+    location.hash,
+    flushPendingPageViews,
+    ensureFlushPolling,
+  ]);
 
   if (!url) {
     return null;
@@ -39,7 +108,12 @@ const Analytics: FC = () => {
 
   return (
     <Helmet>
-      <script data-goatcounter={url} async src="https://gc.zgo.at/count.js" />
+      <script
+        data-goatcounter={url}
+        async
+        src="https://gc.zgo.at/count.js"
+        onLoad={handleScriptLoad}
+      />
     </Helmet>
   );
 };
