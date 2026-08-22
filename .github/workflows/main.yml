@@ -67,6 +67,7 @@ jobs:
         env:
           BUILD_ID: ${{ github.sha }}
           SITE_URL: ${{ steps.configure-pages.outputs.base_url }}
+          GOATCOUNTER_URL: ${{ secrets.GOATCOUNTER_URL }}
         run: yarn build
 
       - name: Upload GitHub Pages assets
