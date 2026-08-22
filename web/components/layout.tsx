@@ -4,6 +4,7 @@ import { FiChevronLeft, FiGitCommit, FiHeart, FiMoon, FiOctagon, FiSun } from "r
 import { useLocation } from "react-router-dom";
 import { useTheme } from "../hooks/useTheme";
 import { getRepoFileUrl } from "../utils/repo";
+import Analytics from "./analytics";
 import ButtonLink from "./buttonLink";
 import Image from "./image";
 import Inline from "./inline";
@@ -168,6 +169,7 @@ const Layout: FC<LayoutProps> = ({ children }) => {
   return (
     <>
       <Meta />
+      <Analytics />
       <Page>{children}</Page>
     </>
   );
