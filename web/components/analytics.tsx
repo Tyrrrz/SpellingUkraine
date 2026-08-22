@@ -1,6 +1,6 @@
-import { FC, useCallback, useEffect, useRef } from "react";
-import { Helmet } from "react-helmet-async";
+import { FC, useEffect, useRef, useState } from "react";
 import { useLocation } from "react-router-dom";
+import { resolvePath } from "../utils/assets";
 
 declare global {
   interface Window {
@@ -11,111 +11,68 @@ declare global {
 }
 
 const Analytics: FC = () => {
-  const url = import.meta.env.GOATCOUNTER_URL;
-  const basePath = (import.meta.env.BASE_URL || "/").replace(/\/$/, "");
   const location = useLocation();
-  const isInitialRender = useRef(true);
+  const [isScriptLoaded, setIsScriptLoaded] = useState(false);
   const pendingPaths = useRef<string[]>([]);
-  const flushIntervalId = useRef<number | null>(null);
-
-  const flushPendingPageViews = useCallback(() => {
-    if (!window.goatcounter?.count || pendingPaths.current.length === 0) {
-      return false;
-    }
-
-    const paths = pendingPaths.current;
-    pendingPaths.current = [];
-
-    for (const path of paths) {
-      window.goatcounter.count({ path });
-    }
-
-    return true;
-  }, []);
-
-  const stopFlushPolling = useCallback(() => {
-    if (flushIntervalId.current === null) {
-      return;
-    }
-
-    window.clearInterval(flushIntervalId.current);
-    flushIntervalId.current = null;
-  }, []);
-
-  const ensureFlushPolling = useCallback(() => {
-    if (flushIntervalId.current !== null) {
-      return;
-    }
-
-    flushIntervalId.current = window.setInterval(() => {
-      if (window.goatcounter?.count) {
-        flushPendingPageViews();
-        stopFlushPolling();
-      }
-    }, 250);
-  }, [flushPendingPageViews, stopFlushPolling]);
-
-  const handleScriptLoad = useCallback(() => {
-    if (flushPendingPageViews() || window.goatcounter?.count) {
-      stopFlushPolling();
-    }
-  }, [flushPendingPageViews, stopFlushPolling]);
-
-  useEffect(
-    () => () => {
-      if (flushIntervalId.current !== null) {
-        stopFlushPolling();
-      }
-    },
-    [stopFlushPolling]
-  );
+  const scriptFailed = useRef(false);
 
   useEffect(() => {
-    if (!url) {
+    if (!import.meta.env.GOATCOUNTER_URL) {
       return;
     }
 
-    // The initial page view is tracked automatically once the script loads.
-    // Subsequent in-app (SPA) navigations need to be tracked manually, since
-    // they don't trigger a full page (re)load.
-    if (isInitialRender.current) {
-      isInitialRender.current = false;
+    scriptFailed.current = false;
+
+    const script = document.createElement("script");
+    script.async = true;
+    script.src = "https://gc.zgo.at/count.js";
+    script.dataset.goatcounter = import.meta.env.GOATCOUNTER_URL;
+    script.dataset.goatcounterSettings = JSON.stringify({ no_onload: true });
+    const onLoad = () => setIsScriptLoaded(true);
+    const onError = () => {
+      scriptFailed.current = true;
+      pendingPaths.current = [];
+    };
+    script.addEventListener("load", onLoad);
+    script.addEventListener("error", onError);
+    document.head.appendChild(script);
+
+    return () => {
+      script.removeEventListener("load", onLoad);
+      script.removeEventListener("error", onError);
+      if (document.head.contains(script)) {
+        document.head.removeChild(script);
+      }
+    };
+  }, []);
+
+  useEffect(() => {
+    if (!import.meta.env.GOATCOUNTER_URL) {
+      pendingPaths.current = [];
       return;
     }
 
-    pendingPaths.current.push(
-      `${basePath}${location.pathname}` + location.search + location.hash
-    );
-
-    if (flushPendingPageViews()) {
+    if (scriptFailed.current) {
       return;
     }
 
-    ensureFlushPolling();
-  }, [
-    url,
-    basePath,
-    location.pathname,
-    location.search,
-    location.hash,
-    flushPendingPageViews,
-    ensureFlushPolling,
-  ]);
+    const path = resolvePath(location.pathname + location.search + location.hash);
+    if (pendingPaths.current[pendingPaths.current.length - 1] !== path) {
+      pendingPaths.current.push(path);
+    }
 
-  if (!url) {
-    return null;
-  }
+    if (!isScriptLoaded || !window.goatcounter?.count) {
+      return;
+    }
 
-  return (
-    <Helmet>
-      <script
-        data-goatcounter={url}
-        async
-        src="https://gc.zgo.at/count.js"
-        onLoad={handleScriptLoad}
-      />
-    </Helmet>
-  );
+    for (const pendingPath of pendingPaths.current) {
+      window.goatcounter.count({ path: pendingPath });
+    }
+
+    pendingPaths.current = [];
+  }, [isScriptLoaded, location.pathname, location.search, location.hash]);
+
+  return null;
 };
 
 export default Analytics;
