@@ -10,15 +10,15 @@
     "format:check": "prettier . --check"
   },
   "dependencies": {
-    "discord.js": "^14.26.4",
+    "discord.js": "^14.27.0",
     "spelling-ukraine-data": "^1.0.0"
   },
   "devDependencies": {
-    "@types/node": "^26.1.0",
-    "prettier": "^3.9.4",
+    "@types/node": "^26.4.0",
+    "prettier": "^3.9.6",
     "prettier-plugin-organize-imports": "^4.3.0",
     "ts-node": "^10.9.2",
     "tsconfig-paths": "^4.2.0",
-    "typescript": "^6.0.3"
+    "typescript": "^7.0.2"
   }
 }
