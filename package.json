@@ -1,7 +1,7 @@
 {
   "root": true,
   "private": true,
-  "packageManager": "pnpm@10.33.1",
+  "packageManager": "pnpm@12.10.1",
   "engines": {
     "node": ">=16"
   },
