@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "snoowrap": "^1.23.0",
-    "spelling-ukraine-data": "^1.0.0"
+    "spelling-ukraine-data": "workspace:*"
   },
   "devDependencies": {
     "@types/node": "^26.6.3",

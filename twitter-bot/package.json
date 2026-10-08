@@ -10,7 +10,7 @@
     "format:check": "prettier . --check"
   },
   "dependencies": {
-    "spelling-ukraine-data": "^1.0.0",
+    "spelling-ukraine-data": "workspace:*",
     "twitter-api-v2": "^1.29.1"
   },
   "devDependencies": {

@@ -1,0 +1,6 @@
+packages:
+  - data
+  - discord-bot
+  - reddit-bot
+  - twitter-bot
+  - web

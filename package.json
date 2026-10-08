@@ -1,6 +1,7 @@
 {
   "root": true,
   "private": true,
+  "packageManager": "pnpm@10.33.1",
   "engines": {
     "node": ">=16"
   },
@@ -12,13 +13,13 @@
     "web"
   ],
   "scripts": {
-    "start:discord-bot": "cd discord-bot && yarn run start",
-    "start:reddit-bot": "cd reddit-bot && yarn run start",
-    "start:twitter-bot": "cd twitter-bot && yarn run start",
-    "start:web": "cd web && yarn run start",
-    "lint": "yarn workspaces run lint",
-    "lint:check": "yarn workspaces run lint:check",
-    "format": "yarn workspaces run format",
-    "format:check": "yarn workspaces run format:check"
+    "start:discord-bot": "pnpm --filter ./discord-bot start",
+    "start:reddit-bot": "pnpm --filter ./reddit-bot start",
+    "start:twitter-bot": "pnpm --filter ./twitter-bot start",
+    "start:web": "pnpm --filter ./web start",
+    "lint": "pnpm -r --filter \"./*\" run lint",
+    "lint:check": "pnpm -r --filter \"./*\" run lint:check",
+    "format": "pnpm -r --filter \"./*\" run format",
+    "format:check": "pnpm -r --filter \"./*\" run format:check"
   }
 }
