@@ -1,10 +1,6 @@
 {
   "root": true,
   "private": true,
-  "packageManager": "pnpm@12.10.1",
-  "engines": {
-    "node": ">=16"
-  },
   "workspaces": [
     "data",
     "discord-bot",
@@ -13,13 +9,13 @@
     "web"
   ],
   "scripts": {
-    "start:discord-bot": "pnpm --filter ./discord-bot start",
-    "start:reddit-bot": "pnpm --filter ./reddit-bot start",
-    "start:twitter-bot": "pnpm --filter ./twitter-bot start",
-    "start:web": "pnpm --filter ./web start",
-    "lint": "pnpm -r --filter \"./*\" run lint",
-    "lint:check": "pnpm -r --filter \"./*\" run lint:check",
-    "format": "pnpm -r --filter \"./*\" run format",
-    "format:check": "pnpm -r --filter \"./*\" run format:check"
+    "start:discord-bot": "npm run start --workspace=discord-bot",
+    "start:reddit-bot": "npm run start --workspace=reddit-bot",
+    "start:twitter-bot": "npm run start --workspace=twitter-bot",
+    "start:web": "npm run start --workspace=web",
+    "lint": "npm run lint --workspaces --if-present",
+    "lint:check": "npm run lint:check --workspaces --if-present",
+    "format": "npm run format --workspaces --if-present",
+    "format:check": "npm run format:check --workspaces --if-present"
   }
 }
