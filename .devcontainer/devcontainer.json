@@ -1,7 +1,7 @@
 {
   "image": "mcr.microsoft.com/devcontainers/typescript-node",
   "updateRemoteUserUID": false,
-  "postCreateCommand": "npm install || exit 0",
+  "updateContentCommand": "sh .devcontainer/updateContentCommand.sh",
   "customizations": {
     "vscode": {
       "extensions": [

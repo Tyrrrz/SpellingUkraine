@@ -1,4 +1,5 @@
 {
+  "name": "spelling-ukraine",
   "root": true,
   "private": true,
   "workspaces": [
