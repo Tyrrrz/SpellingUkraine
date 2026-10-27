@@ -1,6 +1,10 @@
 {
   "image": "mcr.microsoft.com/devcontainers/typescript-node",
-  "updateRemoteUserUID": false,
+  "runArgs": [
+    "--userns=keep-id:uid=1000,gid=1000"
+  ],
+  "containerUser": "node",
+  "updateRemoteUserUID": true,
   "updateContentCommand": "sh .devcontainer/updateContentCommand.sh",
   "customizations": {
     "vscode": {
@@ -16,7 +20,12 @@
           "source.fixAll.eslint": "explicit"
         },
         "eslint.alwaysShowStatus": true,
-        "eslint.validate": ["javascript", "javascriptreact", "typescript", "typescriptreact"]
+        "eslint.validate": [
+          "javascript",
+          "javascriptreact",
+          "typescript",
+          "typescriptreact"
+        ]
       }
     }
   }
