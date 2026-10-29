@@ -1,18 +1,11 @@
 {
   "image": "mcr.microsoft.com/devcontainers/typescript-node",
-  "runArgs": [
-    "--userns=keep-id:uid=1000,gid=1000"
-  ],
-  "containerUser": "node",
-  "updateRemoteUserUID": true,
-  "updateContentCommand": "sh .devcontainer/updateContentCommand.sh",
   "customizations": {
     "vscode": {
       "extensions": [
         "dbaeumer.vscode-eslint",
         "esbenp.prettier-vscode",
-        "bradlc.vscode-tailwindcss",
-        "streetsidesoftware.code-spell-checker"
+        "bradlc.vscode-tailwindcss"
       ],
       "settings": {
         "editor.defaultFormatter": "esbenp.prettier-vscode",
